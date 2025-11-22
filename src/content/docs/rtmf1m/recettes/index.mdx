@@ -3,21 +3,21 @@ title: Recettes de code
 description: Bibliothèque de morceaux de code prêts à l'emploi
 ---
 
-## 🚧 En construction
-
-Cette bibliothèque de recettes sera développée progressivement tout au long du cours.
+Bienvenue dans la bibliothèque de **recettes de code**. Ce sont des morceaux de code testés, documentés et facilement adaptables pour vos projets.
 
 ## Principe des recettes
 
-Au lieu d'enseigner exhaustivement Svelte, nous vous fournissons une **bibliothèque de "recettes"** :
+Au lieu d'enseigner exhaustivement Svelte, vous disposez d'une **bibliothèque de "recettes"** :
 - Morceaux de code prêts à l'emploi
 - Bien documentés et commentés
 - Facilement adaptables
 - Couvrant les besoins les plus courants
 
+**Règle d'or :** "Si tu ne peux pas expliquer ce que fait le code, demande d'abord à comprendre avant de l'utiliser."
+
 ## Structure d'une recette
 
-Chaque recette suivra ce format :
+Chaque recette suit ce format :
 
 - 🎯 **Ce que ça fait** : Description concise
 - 💡 **Quand l'utiliser** : Cas d'usage concrets
@@ -29,32 +29,47 @@ Chaque recette suivra ce format :
 
 ---
 
-## Les 15 recettes prioritaires
+## Les recettes disponibles
 
-### Fondations (3)
-1. Composant interactif de base
-2. Afficher une liste dynamique
-3. Store global (état partagé)
+### Fondations (construire les bases)
 
-### Interactions (4)
-4. Drag and drop
-5. Détection de gestes (shake, swipe, long-press)
-6. Clavier et combos
-7. Input utilisateur (texte, slider, choix)
+Ces recettes vous enseignent comment marche la réactivité en Svelte.
 
-### Feedback et polish (3)
-8. Animations et transitions
-9. Sons et audio réactif
-10. Particules et effets visuels
+1. **[Composant interactif de base](./01-fondations/composant-interactif-base.mdx)** - Un bouton qui compte les clics. Le début de tout.
+2. Afficher une liste dynamique *(en préparation)*
+3. Store global (état partagé) *(en préparation)*
 
-### Persistance et partage (2)
-11. Sauvegarde locale (LocalStorage)
-12. QR Codes (génération et scan)
+### Interactions (faire réagir l'interface)
 
-### Avancé (3)
-13. Scroll narratif (ScrollTrigger)
-14. Timer et événements temporels
-15. Génération procédurale simple
+Comment capturer les actions de l'utilisateur.
+
+4. Drag and drop *(en préparation)*
+5. Détection de gestes (shake, swipe, long-press) *(en préparation)*
+6. Clavier et combos *(en préparation)*
+7. Input utilisateur (texte, slider, choix) *(en préparation)*
+
+### Feedback et polish (rendre ça beau)
+
+Animations, sons, effets visuels.
+
+8. Animations et transitions *(en préparation)*
+9. Sons et audio réactif *(en préparation)*
+10. Particules et effets visuels *(en préparation)*
+
+### Persistance et partage (sauvegarder et partager)
+
+LocalStorage, QR codes, export de données.
+
+11. Sauvegarde locale (LocalStorage) *(en préparation)*
+12. QR Codes (génération et scan) *(en préparation)*
+
+### Avancé (pour les projets complexes)
+
+Scroll narratif, timers, génération procédurale.
+
+13. Scroll narratif (ScrollTrigger) *(en préparation)*
+14. Timer et événements temporels *(en préparation)*
+15. Génération procédurale simple *(en préparation)*
 
 ---
 
@@ -72,12 +87,8 @@ Chaque recette suivra ce format :
 
 ## Comment utiliser les recettes
 
-1. **Identifiez votre besoin** : Quelle interaction/fonctionnalité vous manque ?
-2. **Trouvez la recette** correspondante dans la liste
-3. **Copiez le code** et adaptez-le à votre contexte
-4. **Testez et itérez** : Modifiez les paramètres pour qu'ils correspondent à votre vision
-5. **Comprenez le code** : Posez des questions si quelque chose n'est pas clair
-
-## Règle importante
-
-> "Si tu ne peux pas expliquer ce que fait le code de la recette, demande d'abord à comprendre avant de l'utiliser."
+1. **Lisez le code** : Comprenez ce qu'il fait ligne par ligne
+2. **Regardez la démo** : Testez le composant interactif
+3. **Copiez-adaptez** : Prenez le code et modifiez-le pour votre cas
+4. **Testez** : Lancez votre code et voyez si ça marche
+5. **Comprenez** : Si quelque chose ne marche pas, relisez la section "Pièges courants"

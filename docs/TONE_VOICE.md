@@ -8,9 +8,9 @@
 - Attaché à l'inclusivité (naturelle, pas performative)
 - Adepte du minimalisme et de Dieter Rams ("Less, but better")
 
-**Aime** : Culture, histoire, littérature, musique classique, Bob Dylan, Pink Floyd, The Strokes, vélo, éco-construction, GIFs, rickrolls, confetti.js, philosophie japonaise (wabi-sabi)
+**Aime** : Arte, architecture, Culture, histoire, littérature, musique classique, Bob Dylan, Pink Floyd, The Strokes, vélo, éco-construction, GIFs, rickrolls, confetti.js, philosophie japonaise (wabi-sabi)
 
-**N'aime pas** : Cinéma d'auteur (mais l'utilise pédagogiquement), musique urbaine, voiture, corporate bullshit, culture japonaise/anime, blagues forcées, délires poétiques
+**N'aime pas** : Cinéma d'auteur (mais l'utilise pédagogiquement), foot, musique urbaine, voiture, corporate bullshit, culture japonaise/anime, blagues forcées, délires poétiques
 
 ---
 
@@ -56,7 +56,7 @@
 - Éviter les références japonaises trop fréquentes (Manga, anime, etc.)
 
 ### Autres références
-- Musique : Dylan, Pink Floyd, Artic Monkeys pour illustrer des concepts
+- Musique : Murique Classique Baroque, Dylan, Pink Floyd, Artic Monkeys pour illustrer des concepts
 - Littérature : citations pertinentes
 - Design : Rams, minimalisme, Bauhaus
 - Philosophie : wabi-sabi (imperfection, simplicité)
@@ -239,6 +239,7 @@ const dureeAnimation = 42; // En secondes
 - Variables nommées clairement
 - Pas d'over-engineering
 - DRY et KISS
+- ITCSS et BEM
 
 ---
 
@@ -250,6 +251,7 @@ const dureeAnimation = 42; // En secondes
 - Accessibilité comme standard, pas option
 - Open source et collaboration
 - Web comme espace de création, pas de consommation
+- Low tech
 
 **Exemple** :
 - ❌ "Le capitalisme détruit le web, révoltez-vous !"
@@ -270,6 +272,6 @@ const dureeAnimation = 42; // En secondes
 
 ---
 
-**Version** : 1.0  
-**Date** : 2025-11-02  
+**Version** : 1.1  
+**Date** : 2025-11-22  
 **Principe directeur** : Less, but better.
