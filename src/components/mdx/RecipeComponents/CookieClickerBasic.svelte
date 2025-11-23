@@ -1,0 +1,74 @@
+<script>
+  // État réactif avec les runes Svelte 5
+  let count = $state(0);
+
+  // Fonction pour incrémenter le compteur
+  function clickCookie() {
+    count++;
+  }
+</script>
+
+<div class="iad-demo" style="max-width: 400px; margin: 2rem auto;">
+  <div class="iad-demo-header">
+    <h3>🍪 Cookie Clicker - Version basique</h3>
+  </div>
+
+  <!-- Zone de visualisation -->
+  <div class="iad-visualization">
+    <!-- Le bouton cookie -->
+    <div style="text-align: center; padding: 2rem;">
+      <button
+        onclick={clickCookie}
+        style="font-size: 3rem; cursor: pointer; border: none; background: none; transition: transform 0.1s;"
+        onmousedown="this.style.transform = 'scale(0.95)'"
+        onmouseup="this.style.transform = 'scale(1)'"
+      >
+        🍪
+      </button>
+    </div>
+
+    <!-- Affichage du compteur -->
+    <div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 0.5rem; margin: 1rem 0;">
+      <p style="margin: 0; font-size: 1.2rem; font-weight: bold;">
+        Cookies : <span style="color: #ffa500;">{count}</span>
+      </p>
+    </div>
+
+    <!-- Bouton pour réinitialiser -->
+    <div style="text-align: center; margin-top: 1rem;">
+      <button
+        onclick={() => count = 0}
+        class="iad-button"
+        style="padding: 0.5rem 1rem; font-size: 0.9rem;"
+      >
+        🔄 Réinitialiser
+      </button>
+    </div>
+  </div>
+
+  <!-- Section code -->
+  <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--iad-demo-border);">
+    <p style="margin: 0 0 1rem 0; font-size: 0.9rem; color: var(--iad-text-secondary);"><strong>Code Svelte :</strong></p>
+    <div class="iad-code-output">
+      <div class="iad-code-block">
+        <div>&lt;script&gt;</div>
+        <div style="padding-left: 1rem;">let count = $state(0);</div>
+        <div></div>
+        <div style="padding-left: 1rem;">function clickCookie() {</div>
+        <div style="padding-left: 2rem;">count++;</div>
+        <div style="padding-left: 1rem;">}</div>
+        <div>&lt;/script&gt;</div>
+        <div></div>
+        <div>&lt;button onclick={clickCookie}&gt;</div>
+        <div style="padding-left: 1rem;">🍪 {count} cookies</div>
+        <div>&lt;/button&gt;</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  :global(.iad-demo) {
+    --iad-demo-padding: 1.5rem;
+  }
+</style>

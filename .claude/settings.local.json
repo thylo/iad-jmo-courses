@@ -14,7 +14,9 @@
       "WebFetch(domain:studiomoniker.com)",
       "WebFetch(domain:www.mplus.org.hk)",
       "WebFetch(domain:www.blasttheory.co.uk)",
-      "WebFetch(domain:en.wikipedia.org)"
+      "WebFetch(domain:en.wikipedia.org)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []

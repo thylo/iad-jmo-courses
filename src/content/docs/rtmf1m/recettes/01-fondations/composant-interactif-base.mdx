@@ -1,0 +1,139 @@
+---
+title: Composant interactif de base
+description: Créer un composant Svelte réactif simple avec état et événements
+---
+
+import CookieClickerBasic from 'components/mdx/RecipeComponents/CookieClickerBasic.astro'
+
+Votre première recette : un composant qui répond aux clics et met à jour l'affichage. C'est la base de tout ce qui bouge en Svelte.
+
+## 🎯 Ce que ça fait
+
+Vous allez créer un composant avec un **bouton cliquable** qui **incrémente un compteur** et **affiche le résultat en temps réel**. Rien de magique, juste les trois piliers de la réactivité : état, événement, affichage.
+
+## 💡 Quand l'utiliser
+
+- Un bouton qui change l'interface (allumer/éteindre une lampe)
+- Un compteur (vies, points, items)
+- Un toggle (afficher/masquer du contenu)
+- Un bouton d'action avec feedback visuel
+
+## 📱 Compatibilité
+
+Tous les navigateurs modernes (2020+). Pas de dépendances externes.
+
+## 🔧 Le code
+
+Voici le code minimal :
+
+```svelte
+<script>
+  // État réactif avec les runes Svelte 5
+  let count = $state(0);
+
+  // Fonction déclenchée au clic
+  function clickCookie() {
+    count++;
+  }
+</script>
+
+<!-- Le bouton -->
+<button onclick={clickCookie}>
+  🍪 Cookies : {count}
+</button>
+```
+
+C'est tout. Vraiment. Trois points importants :
+
+1. **`$state()`** : Déclare une variable réactive. Quand elle change, Svelte met à jour l'interface automatiquement.
+2. **`onclick={clickCookie}`** : Écoute les clics et appelle la fonction.
+3. **`{count}`** : Affiche la valeur actuelle. Se met à jour automatiquement.
+
+## 🎨 Personnaliser
+
+### Changer le texte et l'emoji
+
+```svelte
+<button onclick={clickCookie}>
+  ❤️ Likes : {count}
+</button>
+```
+
+### Incrémenter de plus que 1
+
+```svelte
+function clickCookie() {
+  count += 10; // Au lieu de count++
+}
+```
+
+### Montrer une limite
+
+```svelte
+<button onclick={clickCookie} disabled={count >= 100}>
+  {count}/100 clicks
+</button>
+```
+
+### Réinitialiser le compteur
+
+```svelte
+<button onclick={() => count = 0}>
+  Réinitialiser
+</button>
+```
+
+## ⚠️ Pièges courants
+
+**❌ "Pourquoi ça ne met pas à jour ?"**
+
+Si vous écrivez `count = count + 1` sans `$state()`, Svelte ne sait pas que la variable a changé.
+
+```svelte
+// ❌ Mauvais
+let count = 0;
+function click() {
+  count = count + 1; // Svelte ne réagit pas
+}
+
+// ✅ Bon
+let count = $state(0);
+function click() {
+  count++;  // Svelte sait que ça change
+}
+```
+
+**❌ "L'état n'existe que dans le composant"**
+
+Si vous avez plusieurs boutons dans une même page, chacun a **son propre compteur**. Si vous voulez partager l'état, vous aurez besoin d'un **Store** (recette suivante).
+
+**❌ "Le onclick ne marche pas"**
+
+Vérifiez que votre fonction est bien définie dans `<script>` et que vous l'appelez correctement :
+
+```svelte
+// ✅ Bon
+<button onclick={maFonction}>Click</button>
+
+// ❌ Mauvais
+<button onclick="maFonction()">Click</button>
+```
+
+## 🔗 Aller plus loin
+
+- **Prochaine étape** : [Store global (état partagé)](../afficher-liste-dynamique.mdx) - Pour partager l'état entre composants
+- **Interaction avancée** : [Clavier et combos](../../02-interactions/clavier-et-combos.mdx) - Pour les touches clavier
+- **Feedback visuel** : [Animations et transitions](../../03-feedback/animations-transitions.mdx) - Pour des clics plus satisfaisants
+
+---
+
+## Démo en direct
+
+Testez le code ci-dessous. Cliquez sur le cookie pour voir l'état se mettre à jour.
+
+<CookieClickerBasic />
+
+**Essayez de modifier :**
+- L'emoji 🍪 par un autre (❤️, ⭐, etc.)
+- Incrémenter de 2 au lieu de 1
+- Ajouter un deuxième bouton qui décrémente
