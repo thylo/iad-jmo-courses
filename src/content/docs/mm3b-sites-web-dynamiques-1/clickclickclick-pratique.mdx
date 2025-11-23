@@ -1,0 +1,274 @@
+---
+title: Clickclickclick - La pratique
+description: Apprendre l'interactivité en créant un détecteur de clics
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+import LiveCodeEditor from '../../../components/mdx/LiveCodeEditor/LiveCodeEditor.astro';
+
+## L'œuvre : clickclickclick.click
+
+Le studio Moniker a créé [clickclickclick.click](https://clickclickclick.click/) — une expérience minimaliste et perturbante.
+
+Chaque fois que tu cliques, le site **te surveille**. Il enregistre ta position, le nombre de clics, la vitesse. Au bout de quelques clics, tu réalises : tu laisses une trace. C'est une critique du web moderne : on croit juste cliquer, mais chaque geste est collecté, analysé, vendu.
+
+**Le code derrière cette critique est simple.** C'est ça que tu vas apprendre.
+
+---
+
+## Testez l'expérience
+
+Clique n'importe où sur cette zone. Le site te surveille :
+
+<LiveCodeEditor example="mm3b/clickclickclick-simple" height="400px" />
+
+:::tip[Explorez]
+- Clique rapidement, puis lentement
+- Clique partout, dans les coins, au centre
+- Regarde comment tes données s'accumulent
+:::
+
+---
+
+## Ce que vous venez de faire
+
+Vous n'avez pas juste cliqué. Vous avez :
+- **Laissé une trace** : chaque clic est enregistré
+- **Réalisé une surveillance** : le site sait où vous avez cliqué
+- **Découvert une critique** : on croit être libre, mais on est observé
+
+C'est ça, la narration interactive sur le web. **L'interaction elle-même raconte l'histoire.**
+
+---
+
+## Le code expliqué
+
+Voici comment cette expérience fonctionne. Nous parlons du code comme d'un scénario : "QUAND l'utilisateur fait ça, ALORS ceci se passe".
+
+### 1. Écouter les clics
+
+```javascript
+// QUAND quelqu'un clique n'importe où
+document.addEventListener('click', function(event) {
+
+  // ALORS nous le savons. Le "event" contient des infos sur le clic
+  console.log('Clic détecté à :', event.clientX, event.clientY);
+});
+```
+
+**Équivalent narratif** : "Chaque fois que le spectateur agit, l'histoire enregistre son action."
+
+### 2. Compter les clics
+
+```javascript
+let nombreClics = 0;
+
+document.addEventListener('click', function(event) {
+  // À chaque clic, on ajoute 1
+  nombreClics = nombreClics + 1;
+
+  // On affiche le compteur
+  console.log('Clics : ' + nombreClics);
+});
+```
+
+**La variable `nombreClics` est la mémoire de l'histoire.** Elle accumule, elle grandit.
+
+### 3. Afficher le résultat
+
+```javascript
+let nombreClics = 0;
+const output = document.getElementById('compteur');
+
+document.addEventListener('click', function(event) {
+  nombreClics = nombreClics + 1;
+
+  // EMBRANCHEMENT NARRATIF : selon le nombre de clics
+  if (nombreClics === 1) {
+    output.textContent = 'Vous avez cliqué.';
+  } else if (nombreClics < 5) {
+    output.textContent = `Vous avez cliqué ${nombreClics} fois. Continuez...`;
+  } else {
+    output.textContent = `${nombreClics} clics. Vous êtes observé.`;
+  }
+});
+```
+
+**C'est une histoire ramifiée.** Selon vos actions, le texte change. Vous créez le récit par vos clics.
+
+---
+
+## Défis progressifs
+
+### Défi 1 : Le compteur simple
+
+**Objectif** : Créez une page qui compte chaque clic et affiche le nombre.
+
+**Points clés à utiliser :**
+- `addEventListener('click', ...)`
+- Une variable qui augmente
+- `output.textContent = ...`
+
+**Template** :
+```html
+<div id="compteur">0 clics</div>
+```
+
+```javascript
+let count = 0;
+const output = document.getElementById('compteur');
+
+document.addEventListener('click', function() {
+  count = count + 1;
+  output.textContent = count + ' clics';
+});
+```
+
+**Défi bonus** : Que se passe-t-il si tu cliques sur le compteur lui-même ? Peut-tu l'empêcher ? (Indice: `event.stopPropagation()`)
+
+---
+
+### Défi 2 : Ajouter du contexte
+
+**Objectif** : Au lieu de juste un nombre, affiche aussi si tu cliques rapidement ou lentement.
+
+**Points clés :**
+- Stocker le dernier clic (`lastClickTime`)
+- Calculer la différence
+- Adapter le message selon la vitesse
+
+**Points de départ** :
+```javascript
+let lastClickTime = 0;
+const delai = 300; // milliseconds
+
+document.addEventListener('click', function() {
+  const maintenant = Date.now();
+  const tempsEcoule = maintenant - lastClickTime;
+
+  // Si moins de 300ms depuis le dernier clic...
+  if (tempsEcoule < delai) {
+    output.textContent = '⚡ Clic rapide !';
+  } else {
+    output.textContent = '🐢 Clic lent';
+  }
+
+  lastClickTime = maintenant;
+});
+```
+
+**Qu'est-ce que tu comptes ?** Chaque "interaction rapide" vs "interaction lente" raconte quelque chose sur le spectateur.
+
+---
+
+### Défi 3 : Tracer les positions
+
+**Objectif** : Affiche les coordonnées (X, Y) de chaque clic.
+
+**Points clés :**
+- `event.clientX` et `event.clientY` → position de la souris
+- Template strings pour afficher joliement
+
+**Points de départ** :
+```javascript
+document.addEventListener('click', function(event) {
+  const x = event.clientX;
+  const y = event.clientY;
+
+  output.textContent = `Clic à (${x}, ${y})`;
+});
+```
+
+**Variation** : Peux-tu calculer la distance entre deux clics ? (Indice: `Math.sqrt((x2-x1)² + (y2-y1)²)`)
+
+---
+
+### Défi 4 : Heatmap (stretch goal)
+
+**Objectif** : À chaque clic, crée un petit point rouge à cette position. Ça crée une "carte de chaleur" de tes clics.
+
+**Points clés :**
+- `document.createElement('div')` → créer un élément
+- `style.position = 'fixed'`, `style.left`, `style.top` → le placer
+- `document.body.appendChild(...)` → l'ajouter à la page
+
+**Points de départ** :
+```javascript
+document.addEventListener('click', function(event) {
+  // Créer un petit point
+  const point = document.createElement('div');
+
+  // Le styliser
+  point.style.position = 'fixed';
+  point.style.left = event.clientX + 'px';
+  point.style.top = event.clientY + 'px';
+  point.style.width = '8px';
+  point.style.height = '8px';
+  point.style.backgroundColor = 'red';
+  point.style.borderRadius = '50%';
+  point.style.opacity = '0.5';
+
+  // L'ajouter à la page
+  document.body.appendChild(point);
+});
+```
+
+**Variation avancée** : Les points disparaissent après 3 secondes. (Indice: `setTimeout(function() { point.remove(); }, 3000)`)
+
+---
+
+## Questions fréquentes
+
+**Q: Mon compteur augmente même quand je clique sur le compteur lui-même?**
+
+R: Oui, c'est normal. Les événements "remontent" (c'est du **event bubbling**). Si tu veux l'empêcher, ajoute à ton code du compteur :
+
+```javascript
+output.addEventListener('click', function(event) {
+  event.stopPropagation();  // Empêche l'événement de remonter
+});
+```
+
+**Q: Pourquoi `let count = 0` et pas `const count = 0`?**
+
+R: Parce que `count` change (il augmente). Les `let` peuvent changer. Les `const` ne peuvent pas. (`const` = constant)
+
+**Q: Et si j'oublie les parenthèses : `addEventListener('click', maFonction())`?**
+
+R: Tu appelles la fonction immédiatement (avant le clic). Tu dois passer la fonction elle-même, pas son résultat. Voir ["Appel vs référence" dans la théorie →](javascript-fondamentaux)
+
+---
+
+## Si tu bloques
+
+**"Je ne sais pas comment sélectionner un élément"** → [Sélectionner un élément (théorie)](javascript-fondamentaux)
+
+**"Je ne comprends pas ce qu'est `addEventListener`"** → [Écouter les événements (théorie)](javascript-fondamentaux)
+
+**"Je modifie le DOM mais rien ne change"** → [Modifier le DOM (théorie)](javascript-fondamentaux)
+
+**"Mon code ne marche pas et je ne sais pas pourquoi"** → [Pièges courants (théorie)](javascript-fondamentaux)
+
+---
+
+## Ce que tu as appris
+
+<CardGrid>
+  <Card title="Interaction = Narration">
+    Un clic n'est pas juste une action technique. C'est un geste que tu enregistres, que tu utilises pour raconter une histoire.
+  </Card>
+  <Card title="Le code écrit un scénario">
+    `addEventListener` = "déclencher une action quand..." ; `if/else` = "embranchement narratif"
+  </Card>
+  <Card title="Tu contrôles ce qu'on voit">
+    Chaque modification du DOM change la narration. C'est toi qui décides ce que le spectateur voit et comprend.
+  </Card>
+</CardGrid>
+
+---
+
+## Prochaine étape
+
+Quand tu maîtrises ça, tu peux passer à la prochaine expérience : **Le personnage qui vous observe** (mouvement de souris, émotion, transformation d'un personnage selon ton regard).
+
+Mais d'abord, finis tes défis. 🎯

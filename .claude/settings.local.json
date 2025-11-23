@@ -16,7 +16,10 @@
       "WebFetch(domain:www.blasttheory.co.uk)",
       "WebFetch(domain:en.wikipedia.org)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "WebFetch(domain:www.fullstackfoundations.com)",
+      "Bash(rm:*)",
+      "Bash(npm run build:*)"
     ],
     "deny": [],
     "ask": []
