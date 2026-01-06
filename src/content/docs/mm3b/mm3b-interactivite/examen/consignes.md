@@ -167,7 +167,7 @@ Les conversation starters sont des amorces abstraites pour lancer votre réflexi
 13. **La frontière qui bouge**
 14. **Quelque chose qui ne devrait pas être là**
 15. **Le poids des petites choses**
-16. **L'effet papillon inversé**
+16. **L'effet papillon**
 17. **Le point de non-retour**
 18. **Ce qui se cache dans les intervalles**
 19. **La symétrie brisée**
