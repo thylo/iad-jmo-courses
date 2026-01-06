@@ -1,0 +1,381 @@
+---
+title: "MM3B – Consignes d'examen"
+description: "Examen pratique de manipulation DOM et JavaScript"
+---
+
+# MM3B – Examen pratique : Jeu de géographie interactif
+
+## Informations pratiques
+
+**Durée :** 2 heures de code + 10 minutes de défense orale
+**Type :** Examen pratique sur ordinateur
+**Accès autorisé :** Documentation MDN, Stack Overflow, ChatGPT, Claude, tout internet
+**Fichiers fournis :** CodePen avec HTML de base et carte SVG du monde
+
+**⚠️ IMPORTANT - Défense orale obligatoire**
+
+Après avoir rendu votre code, vous aurez 10 minutes de défense orale où je vous demanderai :
+1. D'expliquer votre code ligne par ligne
+2. **De modifier votre code en direct** selon mes instructions
+
+Si vous ne pouvez pas modifier votre propre code ou expliquer ce qu'il fait, vous aurez zéro, même si le code fonctionne parfaitement.
+
+---
+
+## Le jeu à créer
+
+Vous allez créer un jeu de géographie simple où l'utilisateur doit retrouver des pays sur une carte du monde en un temps limité.
+
+### Déroulement du jeu
+
+1. **Écran d'accueil** : Un panneau centré avec un bouton "Lancer le jeu"
+2. **Début de partie** : Le jeu sélectionne un pays au hasard et affiche son nom dans une modal
+3. **Décompte** : L'utilisateur a 20 secondes pour trouver tous les pays possibles
+4. **Interaction** : L'utilisateur clique sur les pays de la carte SVG
+5. **Bonne réponse** : Le jeu sélectionne un nouveau pays et retire un peu de temps
+6. **Fin de partie** : Quand le temps est écoulé, affichage du score final
+
+---
+
+## Fonctionnalités à implémenter
+
+Voici ce que votre code JavaScript doit faire, étape par étape.
+
+### 1. Écran d'accueil
+
+**Au chargement de la page :**
+- Afficher un panneau centré verticalement et horizontalement
+- Ce panneau contient un bouton avec le texte "Lancer le jeu"
+
+**Quand on clique sur le bouton :**
+- Cacher le panneau d'accueil
+- Démarrer le jeu (passer à l'étape 2)
+
+**Code HTML fourni :**
+Le panneau d'accueil est déjà dans le HTML avec la classe `.welcome-panel`. Vous devez juste le cacher au bon moment.
+
+---
+
+### 2. Sélection d'un pays au hasard
+
+**Ce que vous devez faire :**
+- Sélectionner tous les pays disponibles dans le SVG
+- Chaque pays est un élément `<path>` avec :
+  - Un attribut `id` (ex: `"FR"` pour France)
+  - Un attribut `data-title` (ex: `"France"`)
+- Choisir un pays au hasard dans cette liste
+- Stocker ce pays comme "pays à trouver"
+
+**Indice technique :**
+```javascript
+// Pour sélectionner tous les paths du SVG
+const pays = document.querySelectorAll('svg path[data-title]');
+
+// Pour choisir un élément au hasard dans une liste
+const indexAleatoire = Math.floor(Math.random() * pays.length);
+const paysChoisi = pays[indexAleatoire];
+```
+
+---
+
+### 3. Afficher le pays à trouver
+
+**Ce que vous devez faire :**
+- Afficher une modal (panneau centré) avec le nom du pays à trouver
+- Le nom du pays se trouve dans l'attribut `data-title` du path SVG
+- Cette modal doit se cacher automatiquement après 5 secondes
+
+**Code HTML fourni :**
+La modal est déjà dans le HTML avec la classe `.country-modal`. Vous devez :
+1. Modifier son contenu texte avec le nom du pays
+2. L'afficher (retirer la classe qui la cache)
+3. La cacher après 5 secondes avec `setTimeout`
+
+---
+
+### 4. Décompte de 20 secondes avec barre de progression
+
+**Ce que vous devez faire :**
+
+**Décompte numérique :**
+- Afficher un décompte en bas de page qui part de 20 secondes
+- Le décompte diminue de 1 chaque seconde
+- Utiliser `setInterval` pour mettre à jour le nombre chaque seconde
+- Quand le décompte atteint 0, le jeu se termine
+
+**Barre de progression visuelle :**
+- Afficher une barre qui se vide progressivement pendant les 20 secondes
+- La barre doit se vider de manière **fluide** (pas par saccades)
+- Utiliser `requestAnimationFrame` pour créer une animation fluide
+- La largeur de la barre doit diminuer proportionnellement au temps restant
+
+**Code HTML fourni :**
+- `.timer` : élément pour le décompte numérique
+- `.progress-bar` : élément pour la barre de progression (modifiez sa largeur avec `style.width`)
+
+**Indices techniques :**
+
+Pour le décompte : `setInterval`, 1000 millisecondes, `clearInterval`
+
+Pour la barre de progression :
+- `Date.now()` donne le timestamp actuel en millisecondes
+- Calculer le temps écoulé depuis le début
+- Calculer le pourcentage de temps restant
+- Appliquer ce pourcentage à la largeur de la barre (`element.style.width = pourcentage + '%'`)
+- `requestAnimationFrame` pour une boucle fluide
+
+**Différence clé :**
+- `setInterval` : s'exécute toutes les 1000ms → bon pour le décompte numérique
+- `requestAnimationFrame` : s'exécute 60 fois par seconde → bon pour les animations fluides
+
+---
+
+### 5. Détection du clic sur un pays
+
+**Ce que vous devez faire :**
+- Écouter les clics sur les pays de la carte SVG
+- Quand l'utilisateur clique sur un pays, vérifier si c'est le bon
+- Si c'est le bon pays :
+  - Incrémenter le score (nombre de pays trouvés)
+  - Retirer 2 secondes au décompte
+  - Sélectionner un nouveau pays au hasard
+  - Afficher la modal avec le nouveau pays
+
+**Indice technique :**
+```javascript
+// Ajouter un écouteur sur chaque pays
+pays.forEach(function(path) {
+  path.addEventListener('click', function() {
+    // Vérifier si c'est le bon pays
+    // Si oui : incrémenter score, retirer du temps, nouveau pays
+  });
+});
+```
+
+---
+
+### 6. Fin de partie
+
+**Ce que vous devez faire :**
+- Quand le temps atteint 0, afficher un panneau "Game Over"
+- Ce panneau affiche le score final : "Vous avez trouvé X pays"
+- Stopper le jeu (plus de clics possibles, décompte arrêté)
+
+**Code HTML fourni :**
+Le panneau game over est déjà dans le HTML avec la classe `.game-over-panel`.
+
+---
+
+## Fichiers fournis
+
+Vous recevrez un CodePen contenant :
+
+1. **HTML** : Structure complète avec les panneaux (welcome, modal, game over, timer)
+2. **CSS** : Styles pour tous les éléments (déjà fonctionnels, pas besoin de modifier)
+3. **SVG** : Carte du monde avec tous les pays (chaque `<path>` a un `id` et un `data-title`)
+4. **JavaScript** : Un fichier vide où vous écrirez tout votre code
+
+**Votre travail :** Écrire uniquement le JavaScript qui rend le jeu fonctionnel.
+
+---
+
+## Ce qui est évalué
+
+### 1. Code fonctionnel (30%)
+
+- Le jeu fonctionne du début à la fin
+- Pas d'erreurs dans la console
+- Tous les comportements décrits ci-dessus sont implémentés
+- Le jeu est jouable et logique
+
+### 2. Compréhension du code (40%)
+
+**CRITÈRE PRINCIPAL DE L'EXAMEN**
+
+La défense orale a deux parties :
+
+**Partie 1 : Explication (20 points)**
+Vous devez être capable d'expliquer chaque ligne de votre code :
+- "Pourquoi tu as utilisé `querySelector` ici ?"
+- "Qu'est-ce que fait cette ligne ?"
+- "Pourquoi tu as besoin d'un `setInterval` ici ?"
+- "Pourquoi `requestAnimationFrame` et pas `setInterval` pour la barre ?"
+
+**Partie 2 : Modifications en direct (20 points)**
+Je vous demanderai de modifier votre code devant moi. Exemples :
+- "Change le temps total à 30 secondes au lieu de 20"
+- "Fais en sorte que la barre devienne rouge quand il reste moins de 5 secondes"
+- "Affiche le nom du pays cliqué dans la console"
+- "Change le délai de la modal à 3 secondes au lieu de 5"
+
+**Si vous ne pouvez pas modifier votre propre code, vous aurez zéro, même si le code fonctionne parfaitement.**
+
+**Utilisation de l'IA :**
+- ✅ Vous pouvez utiliser ChatGPT ou Claude pour générer du code
+- ✅ Vous pouvez demander de l'aide pour déboguer
+- ⚠️ **Mais vous devez comprendre et pouvoir expliquer ET modifier chaque ligne**
+- ❌ Copier-coller sans comprendre = zéro
+
+### 3. Qualité du code (20%)
+
+- Variables avec des noms clairs (`tempsRestant`, pas `t` ou `x`)
+- Code indenté correctement
+- Commentaires si la logique est complexe
+- Utilisation appropriée des outils (`setTimeout` vs `setInterval`)
+
+### 4. Autonomie et débogage (10%)
+
+- Utilisation de la console pour déboguer
+- Lecture des messages d'erreur
+- Tests progressifs (pas tout écrire d'un coup)
+- Utilisation de `console.log()` pour vérifier les valeurs
+
+---
+
+## Conseils pratiques
+
+### Commencez simple
+
+Ne codez pas tout d'un coup. Procédez étape par étape :
+
+1. D'abord : Cacher le panneau d'accueil au clic
+2. Ensuite : Sélectionner un pays au hasard et afficher son nom
+3. Puis : Ajouter le décompte
+4. Enfin : Gérer les clics et la fin de partie
+
+Testez chaque étape dans la console avant de passer à la suivante.
+
+### Utilisez la console
+
+```javascript
+// Vérifiez que vos sélections fonctionnent
+console.log(pays); // Doit afficher la liste des pays
+
+// Vérifiez vos valeurs
+console.log(paysChoisi.getAttribute('data-title')); // Doit afficher le nom du pays
+
+// Vérifiez que vos événements se déclenchent
+bouton.addEventListener('click', function() {
+  console.log('Bouton cliqué !');
+});
+```
+
+### Lisez les erreurs
+
+Si vous voyez une erreur dans la console :
+
+- `Cannot read property 'addEventListener' of null` → Vous essayez d'ajouter un événement sur un élément qui n'existe pas. Vérifiez votre sélecteur.
+- `Uncaught TypeError: pays.forEach is not a function` → `pays` n'est pas une liste. Utilisez `querySelectorAll` au lieu de `querySelector`.
+- `ReferenceError: tempsRestant is not defined` → Vous utilisez une variable avant de la déclarer.
+
+### Testez progressivement
+
+Ne écrivez pas 50 lignes d'un coup. Écrivez une ligne, testez, vérifiez que ça marche, passez à la suivante.
+
+### Utilisez l'IA intelligemment
+
+❌ **Mauvaise utilisation :**
+> "Génère-moi le code complet du jeu"
+
+Résultat : Vous avez du code, mais vous ne comprenez rien.
+
+✅ **Bonne utilisation :**
+> "Comment je peux sélectionner un élément au hasard dans une liste en JavaScript ?"
+
+Résultat : Vous apprenez la logique, vous adaptez à votre code, vous comprenez.
+
+---
+
+## Barème détaillé
+
+### Code fonctionnel (30 points)
+
+- Écran d'accueil qui se cache au clic : 2 points
+- Sélection aléatoire d'un pays : 4 points
+- Affichage de la modal avec le nom du pays : 4 points
+- Modal qui se cache après 5 secondes : 2 points
+- Décompte numérique qui diminue chaque seconde : 3 points
+- Barre de progression fluide avec `requestAnimationFrame` : 5 points
+- Détection du bon pays au clic : 5 points
+- Game over avec affichage du score : 3 points
+- Retrait de temps quand un pays est trouvé : 2 points
+
+### Compréhension du code (40 points)
+
+**Partie 1 : Explication (20 points)**
+- Explication claire de la logique générale : 5 points
+- Explication de la sélection des éléments : 5 points
+- Explication de la gestion des événements : 5 points
+- Explication de la gestion du temps (setInterval vs requestAnimationFrame) : 5 points
+
+**Partie 2 : Modifications en direct (20 points)**
+- Capacité à localiser et modifier une valeur (temps, délai) : 5 points
+- Capacité à ajouter un `console.log` pour déboguer : 5 points
+- Capacité à modifier un comportement (condition, style) : 5 points
+- Compréhension globale permettant d'adapter le code : 5 points
+
+### Qualité du code (20 points)
+
+- Noms de variables clairs : 5 points
+- Indentation et lisibilité : 5 points
+- Utilisation appropriée des outils : 5 points
+- Structure logique du code : 5 points
+
+### Autonomie (10 points)
+
+- Utilisation de la console pour déboguer : 3 points
+- Tests progressifs : 3 points
+- Résolution autonome des problèmes : 4 points
+
+---
+
+## Questions fréquentes
+
+**Puis-je modifier le HTML ou le CSS ?**
+Non. Vous ne devez modifier que le JavaScript. Le HTML et le CSS sont fournis et fonctionnels.
+
+**Comment je sais si un pays a été cliqué ?**
+Chaque `<path>` du SVG peut recevoir un événement `click` comme n'importe quel élément HTML.
+
+**Comment je compare deux pays ?**
+Comparez leurs `id` :
+```javascript
+if (paysClique.id === paysAtrouver.id) {
+  // Bonne réponse !
+}
+```
+
+**Mon décompte ne s'arrête pas !**
+Il faut utiliser `clearInterval()` quand le temps atteint 0. Pensez à stocker l'intervalle dans une variable.
+
+**Comment arrêter `requestAnimationFrame` ?**
+`requestAnimationFrame` n'a pas besoin d'être arrêté avec `clearInterval`. Il suffit de ne plus l'appeler. Mettez une condition : si le temps est écoulé, ne rappelez pas `requestAnimationFrame`.
+
+**Ma barre de progression ne se vide pas progressivement !**
+Vérifiez que vous utilisez bien `requestAnimationFrame` et pas `setInterval`. La barre doit se mettre à jour à chaque frame, pas une fois par seconde.
+
+**Puis-je ajouter des fonctionnalités bonus ?**
+Si vous avez fini toutes les fonctionnalités demandées et que tout fonctionne, oui. Mais ce n'est pas obligatoire ni évalué.
+
+**Si je ne finis pas tout ?**
+Pas de panique. Faites ce que vous pouvez. Un code partiel mais compris et fonctionnel vaut mieux qu'un code complet mais buggé et incompris.
+
+---
+
+## Rappels importants
+
+1. **Vous devez comprendre votre code.** Si vous copiez sans comprendre, vous aurez zéro.
+
+2. **Le code doit fonctionner.** Testez dans le navigateur avant de rendre.
+
+3. **Utilisez la console.** C'est votre meilleur outil de débogage.
+
+4. **Procédez étape par étape.** Ne codez pas tout d'un coup.
+
+5. **L'IA est un assistant, pas un remplaçant.** Utilisez-la pour apprendre, pas pour copier.
+
+6. **Lisez les messages d'erreur.** Ils vous disent exactement ce qui ne va pas.
+
+---
+
+**Bon courage. Vous avez les outils. Maintenant, c'est à vous de jouer.**

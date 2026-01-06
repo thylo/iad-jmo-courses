@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeu de Géographie - Examen MM3B</title>
+</head>
+<body>
+
+  <!-- Panneau d'accueil -->
+  <div class="welcome-panel">
+    <div class="welcome-content">
+      <h1>Jeu de Géographie</h1>
+      <p>Trouvez le maximum de pays en 20 secondes</p>
+      <button id="start-button" class="btn-primary">Lancer le jeu</button>
+    </div>
+  </div>
+
+  <!-- Modal pour afficher le pays à trouver -->
+  <div class="country-modal hidden">
+    <p class="label">Trouvez le pays :</p>
+    <h2 id="country-name"></h2>
+  </div>
+
+  <!-- Carte SVG du monde -->
+  <!-- IMPORTANT : Collez ici le contenu du fichier worldLow.svg -->
+  <!-- Le SVG doit avoir un id="world-map" -->
+  <svg id="world-map" viewBox="0 0 2000 1001" preserveAspectRatio="xMidYMid meet">
+    <!-- Contenu du SVG worldLow.svg à coller ici -->
+    <!-- Chaque pays est un <path> avec un id et un data-title -->
+  </svg>
+
+  <!-- Timer et barre de progression -->
+  <div class="timer-container">
+    <div class="timer">
+      Temps restant : <span id="time-display">20</span>s
+    </div>
+    <div class="progress-bar-container">
+      <div class="progress-bar"></div>
+    </div>
+  </div>
+
+  <!-- Panneau Game Over -->
+  <div class="game-over-panel hidden">
+    <div class="game-over-content">
+      <h1>Game Over !</h1>
+      <p class="score-text">Vous avez trouvé</p>
+      <p class="score-number"><span id="final-score">0</span> pays</p>
+      <button id="restart-button" class="btn-primary">Rejouer</button>
+    </div>
+  </div>
+
+</body>
+</html>
