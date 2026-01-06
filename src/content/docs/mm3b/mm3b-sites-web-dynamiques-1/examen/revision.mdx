@@ -1,0 +1,285 @@
+# MM3B – Consignes de révision pour l'examen technique
+
+## Ce que vous allez faire
+
+L'examen porte sur les bases de la manipulation du DOM et du styling en JavaScript. Durant les séances, nous avons vu comment sélectionner des éléments, les modifier, gérer les événements, et créer des animations avec `setTimeout`, `setInterval` et `requestAnimationFrame`.
+
+L'examen sera pratique. Vous écrirez du code qui fonctionne.
+
+## Format de l'examen
+
+L'examen durera environ deux heures. Vous aurez accès à un ordinateur avec un éditeur de code et un navigateur. Vous aurez accès au web complet : documentation, Stack Overflow, ChatGPT, Claude.
+
+Vous devrez créer une petite interaction sur une page HTML fournie. La page contiendra déjà du HTML et du CSS. Vous devrez ajouter le JavaScript pour rendre la page interactive.
+
+Les tâches typiques : écouter un clic sur un bouton et modifier un élément. Créer une animation simple. Ajouter des éléments dynamiquement. Changer des styles en fonction d'actions utilisateur.
+
+Pas de frameworks, pas de bibliothèques. Juste du JavaScript pur.
+
+
+
+## Ce qui compte vraiment
+
+### 1. Sélection et manipulation du DOM
+
+Savoir sélectionner un élément dans la page et le modifier. Sélectionner par id, classe, ou type. Modifier le contenu texte, le HTML interne, les attributs. Ajouter ou retirer des classes. Créer de nouveaux éléments et les insérer.
+
+Les méthodes essentielles : `querySelector`, `querySelectorAll`, `getElementById`, `addEventListener`, `createElement`, `appendChild`, `remove`, `classList.add`, `classList.remove`, `classList.toggle`.
+
+**La différence entre `textContent` et `innerHTML`**
+
+`textContent` modifie uniquement le texte d'un élément. Si vous écrivez `element.textContent = '<strong>Bonjour</strong>'`, le texte affiché sera littéralement `<strong>Bonjour</strong>`, balises comprises. Le HTML n'est pas interprété.
+
+`innerHTML` modifie le HTML d'un élément. Si vous écrivez `element.innerHTML = '<strong>Bonjour</strong>'`, le texte affiché sera **Bonjour** en gras. Le HTML est interprété et rendu.
+
+Utilisez `textContent` quand vous voulez afficher du texte simple. Utilisez `innerHTML` quand vous avez besoin d'ajouter des balises HTML. Mais attention : `innerHTML` peut poser des problèmes de sécurité si vous y injectez du contenu venant de l'utilisateur sans vérification.
+
+### 2. Styling via JavaScript
+
+Modifier l'apparence d'un élément depuis JavaScript. Soit en ajoutant ou retirant des classes CSS, soit en modifiant directement les styles inline.
+
+Privilégier les classes CSS pour les changements d'état : `element.classList.add('active')` plutôt que `element.style.color = 'red'`. Les styles inline pour des valeurs dynamiques : positions calculées, tailles variables, couleurs générées.
+
+Les propriétés CSS en JavaScript utilisent la camelCase : `backgroundColor` au lieu de `background-color`, `fontSize` au lieu de `font-size`.
+
+### 3. Animations et temporalité
+
+Créer des animations simples avec trois outils différents.
+
+`setTimeout` exécute une fonction une seule fois après un délai. Utile pour déclencher quelque chose plus tard.
+
+`setInterval` exécute une fonction de manière répétée à intervalle régulier. Attention : il faut stopper l'intervalle avec `clearInterval` sinon il tourne indéfiniment.
+
+`requestAnimationFrame` exécute une fonction avant le prochain rafraîchissement de l'écran. Idéal pour les animations fluides. Se rappelle de lui-même pour créer une boucle d'animation.
+
+Savoir quand utiliser chacun. Pour une animation fluide : `requestAnimationFrame`. Pour un délai simple : `setTimeout`. Pour une répétition régulière : `setInterval`.
+
+
+
+## Comment réviser
+
+### Refaites les exercices du cours
+
+Reprenez les exercices vus en cours et essayez de les résoudre par vous-même. L'important n'est pas de retenir la syntaxe exacte par cœur, mais de comprendre la logique. Vous devez être capable de dire "pour faire ça, j'ai besoin de sélectionner un élément, puis de lui ajouter un écouteur d'événement, puis de modifier quelque chose". La syntaxe précise, vous pouvez la chercher.
+
+Si vous bloquez, regardez la solution et comprenez pourquoi elle fonctionne. Ensuite, essayez de résoudre un problème similaire mais légèrement différent. C'est la capacité d'adaptation qui compte.
+
+Les exercices essentiels : sélectionner un bouton et changer le texte d'un paragraphe au clic. Ajouter une classe à un élément quand on le survole. Créer un nouvel élément et l'ajouter à la page. Faire disparaître un élément après trois secondes. Créer une animation simple qui se répète.
+
+### Pratiquez la console du navigateur
+
+Ouvrez n'importe quel site web, ouvrez la console, et essayez de manipuler la page. Sélectionnez des éléments, changez leur contenu, ajoutez des classes, créez des animations. C'est le meilleur moyen de comprendre comment ça fonctionne vraiment.
+
+Exemples de manipulation : sélectionner tous les titres et changer leur couleur. Faire disparaître toutes les images. Créer un nouveau paragraphe avec du texte et l'insérer après le premier titre. Ajouter une classe à tous les liens.
+
+### Créez des petits projets
+
+Créez une page HTML simple et essayez d'ajouter de l'interactivité. Un bouton qui change la couleur de fond. Un compteur qui s'incrémente. Une animation qui fait bouger un élément. Un élément qui apparaît et disparaît.
+
+L'important : chaque projet doit combiner sélection, manipulation, et temporalité. Ne faites pas trois projets séparés, faites un projet qui utilise les trois.
+
+### Apprenez à lire la documentation
+
+La documentation MDN est votre alliée. Savoir lire et comprendre une page de documentation est aussi important que savoir coder.
+
+Quand vous consultez une page MDN, cherchez d'abord la section "Syntaxe" qui vous montre comment utiliser la méthode. Ensuite, regardez les exemples concrets en bas de page. Les exemples sont souvent plus clairs que les explications théoriques.
+
+Entraînez-vous : cherchez "addEventListener MDN" sur Google, lisez la page, regardez les exemples. Faites la même chose pour `querySelector`, `classList`, `setTimeout`. Comprenez comment la documentation est structurée. Apprenez à y trouver rapidement ce dont vous avez besoin.
+
+À l'examen, vous aurez accès à MDN. Mais si vous ne savez pas lire la documentation efficacement, ça ne vous servira à rien.
+
+### Utilisez l'IA intelligemment
+
+Vous aurez accès à ChatGPT ou Claude pendant l'examen. Mais l'IA ne remplace pas la compréhension.
+
+Si vous demandez à ChatGPT de générer du code, vous devez être capable de le lire et de le comprendre. Je vous demanderai d'expliquer votre code. Si vous ne pouvez pas expliquer ce qu'une ligne fait, vous aurez zéro, même si le code fonctionne.
+
+L'IA peut vous aider à déboguer, à comprendre une erreur, à trouver la bonne syntaxe. Mais elle ne peut pas comprendre à votre place. Si vous copiez du code généré sans le lire, vous serez bloqué dès que je vous poserai une question dessus.
+
+Entraînez-vous maintenant à utiliser l'IA comme assistant, pas comme remplaçant. Demandez-lui de générer du code, puis décortiquez-le ligne par ligne. Demandez-lui d'expliquer ce que vous ne comprenez pas. Ensuite, réécrivez le code sans regarder, pour vérifier que vous avez vraiment compris.
+
+Règle absolue : vous devez pouvoir expliquer chaque ligne de code que vous rendez. Si vous ne pouvez pas, c'est que vous n'avez pas fait le travail.
+
+## Critères d'évaluation
+
+### Compréhension du code (40%)
+
+Vous devez comprendre ce que vous écrivez. Si je vous demande d'expliquer une ligne de votre code, vous devez pouvoir le faire. Si vous copiez du code sans le comprendre, vous aurez zéro.
+
+Le code doit être lisible. Variables avec des noms clairs. Indentation correcte. Commentaires si nécessaire pour expliquer la logique.
+
+### Code fonctionnel (30%)
+
+Votre code doit marcher. Si je l'exécute dans le navigateur, il doit faire ce qui est demandé. Pas d'erreurs dans la console. Pas de comportements inattendus.
+
+### Utilisation appropriée des outils (20%)
+
+Vous devez utiliser les bons outils pour les bonnes tâches. Ne pas utiliser `setInterval` quand `setTimeout` suffit. Ne pas modifier les styles inline quand une classe CSS ferait mieux l'affaire. Ne pas utiliser `innerHTML` quand `textContent` est plus approprié.
+
+### Autonomie (10%)
+
+Vous devez pouvoir résoudre les problèmes par vous-même. Utiliser la console pour déboguer. Lire les messages d'erreur. Tester votre code au fur et à mesure.
+
+
+
+## Les erreurs fréquentes
+
+Oublier d'écouter les événements. Le bouton existe, le code aussi, mais rien ne se passe au clic. Vous avez créé l'élément mais oublié d'ajouter `addEventListener`.
+
+Sélectionner un élément qui n'existe pas. Votre `querySelector('.maClasse')` renvoie `null` parce qu'aucun élément n'a cette classe. Quand vous essayez de manipuler cet élément inexistant, tout plante.
+
+Confondre `querySelector` et `querySelectorAll`. Le premier retourne un seul élément, le second une liste. Si vous utilisez `querySelector` sur une classe qui apparaît plusieurs fois, vous n'aurez que le premier élément.
+
+Oublier de stopper `setInterval`. L'intervalle tourne indéfiniment même quand ce n'est plus nécessaire. Il faut le stopper avec `clearInterval` quand vous avez fini.
+
+Mélanger CSS et JavaScript. Vous écrivez `element.style.background-color = 'red'` au lieu de `element.style.backgroundColor = 'red'`. Le tiret ne fonctionne pas en JavaScript, il faut la camelCase.
+
+Copier du code sans le comprendre. Vous trouvez une solution sur Stack Overflow, vous la collez, ça marche. Mais vous ne savez pas pourquoi. À l'examen, vous ne saurez pas l'adapter.
+
+
+
+## Ce qu'il faut faire
+
+Écrivez du code simple et clair. Pas besoin de faire compliqué pour impressionner. Un code simple qui fonctionne vaut mieux qu'un code complexe qui plante.
+
+Testez au fur et à mesure. N'écrivez pas cinquante lignes d'un coup. Écrivez une ligne, testez dans la console, vérifiez que ça marche, passez à la suivante.
+
+Utilisez la console pour déboguer. Si quelque chose ne marche pas, ajoutez des `console.log()` pour voir ce qui se passe. Vérifiez que vos variables contiennent ce que vous pensez qu'elles contiennent.
+
+Lisez les messages d'erreur. Ils vous disent souvent exactement ce qui ne va pas. "Cannot read property of null" signifie que vous essayez de manipuler un élément qui n'existe pas. "Uncaught TypeError" signifie généralement que vous appelez une méthode sur quelque chose qui n'est pas du bon type.
+
+Commentez le code si nécessaire. Pas besoin de commenter chaque ligne, mais si la logique est complexe, expliquez ce que vous faites.
+
+
+
+## Exemples de code
+
+### Changer le texte d'un paragraphe au clic
+
+```javascript
+// Sélectionner le bouton et le paragraphe
+const bouton = document.querySelector('#monBouton');
+const paragraphe = document.querySelector('#monParagraphe');
+
+// Écouter le clic sur le bouton
+bouton.addEventListener('click', function() {
+  paragraphe.textContent = 'Le texte a changé !';
+});
+```
+
+### Ajouter une classe au survol
+
+```javascript
+// Sélectionner l'élément
+const element = document.querySelector('.maDiv');
+
+// Ajouter la classe au survol
+element.addEventListener('mouseenter', function() {
+  element.classList.add('survol');
+});
+
+// Retirer la classe quand la souris part
+element.addEventListener('mouseleave', function() {
+  element.classList.remove('survol');
+});
+```
+
+### Faire apparaître un élément après un délai
+
+```javascript
+// Sélectionner l'élément (initialement caché en CSS)
+const message = document.querySelector('#message');
+
+// Le faire apparaître après 3 secondes
+setTimeout(function() {
+  message.classList.add('visible');
+}, 3000);
+```
+
+### Animation simple avec requestAnimationFrame
+
+```javascript
+// Sélectionner l'élément à animer
+const boite = document.querySelector('#boite');
+let position = 0;
+
+// Fonction d'animation
+function animer() {
+  position += 2; // Avancer de 2 pixels
+  boite.style.left = position + 'px';
+
+  // Continuer l'animation si on n'est pas arrivé à 500px
+  if (position < 500) {
+    requestAnimationFrame(animer);
+  }
+}
+
+// Démarrer l'animation
+animer();
+```
+
+### Créer et ajouter un nouvel élément
+
+```javascript
+// Créer un nouveau paragraphe
+const nouveauParagraphe = document.createElement('p');
+nouveauParagraphe.textContent = 'Ceci est un nouveau paragraphe';
+nouveauParagraphe.classList.add('nouveau');
+
+// L'ajouter à la fin du body
+document.body.appendChild(nouveauParagraphe);
+```
+
+### Exemple combiné : bouton qui déclenche une animation
+
+```javascript
+const bouton = document.querySelector('#demarrer');
+const boite = document.querySelector('#boite');
+
+bouton.addEventListener('click', function() {
+  // Ajouter une classe active au bouton
+  bouton.classList.add('actif');
+
+  // Changer le texte après 1 seconde
+  setTimeout(function() {
+    boite.textContent = 'Animation en cours...';
+  }, 1000);
+
+  // Ajouter une classe d'animation
+  boite.classList.add('anime');
+});
+```
+
+
+
+## Questions fréquentes
+
+**Est-ce que j'aurai accès à internet ?**
+Oui. Vous aurez accès au web complet : documentation MDN, ChatGPT, Claude, Stack Overflow. Mais vous devez comprendre tout ce que vous utilisez. Je vous demanderai d'expliquer votre code.
+
+**Est-ce que je dois utiliser `let` ou `const` ?**
+Utilisez ce qui vous semble le plus clair. Ce qui compte, c'est que vous compreniez ce que vous écrivez.
+
+**Est-ce que je peux utiliser des fonctions fléchées ?**
+Oui. Fonctions fléchées ou fonctions classiques, les deux sont acceptées.
+
+**Mon code doit marcher sur quels navigateurs ?**
+Sur un navigateur moderne : Chrome, Firefox, Safari récents. Pas besoin de supporter Internet Explorer.
+
+**Comment je sais si mon code est assez bien ?**
+Si ça fonctionne, que c'est lisible, et que vous pouvez expliquer chaque ligne, c'est assez bien. Pas besoin de perfection.
+
+**Si mon code ne marche pas pendant l'examen ?**
+Ne paniquez pas. Ouvrez la console, regardez les erreurs, déboguez méthodiquement. Utilisez `console.log()` pour comprendre ce qui se passe.
+
+
+
+## Message final
+
+Ce cours vous a donné les bases pour rendre une page web interactive. Vous n'êtes pas des développeurs experts, et ce n'est pas le but. Le but est que vous compreniez comment fonctionne l'interaction sur le web.
+
+L'examen teste si vous avez compris ces bases. Si vous savez sélectionner un élément, le modifier, et créer des animations simples. Si vous comprenez ce que vous écrivez plutôt que de copier aveuglément.
+
+Pas besoin de code parfait. Pas besoin d'optimisation poussée. Juste du code clair, fonctionnel, et que vous comprenez.
+
+**Pratiquez, testez, déboguez. C'est comme ça qu'on apprend.**
