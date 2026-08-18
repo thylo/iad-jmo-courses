@@ -1,0 +1,17 @@
+<oeuvre id="shadertoy" statut="en-ligne">
+  <titre>Shadertoy</titre>
+  <annee>2013</annee>
+  <par>Iñigo Quilez</par>
+  <url>https://www.shadertoy.com/</url>
+  <categorie>Outil</categorie>
+
+  <resume>Éditeur en ligne pour créer et partager des shaders (programmes graphiques). Communauté immense, galerie de créations époustouflantes. Code + rendu en temps réel côte à côte.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Démocratise l'art génératif et le creative coding. Montre ce qui est possible avec du code pur. Source d'inspiration infinie pour la création procédurale.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

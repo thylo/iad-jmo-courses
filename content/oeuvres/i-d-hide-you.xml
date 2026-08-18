@@ -1,0 +1,17 @@
+<oeuvre id="i-d-hide-you" statut="en-ligne">
+  <titre>I'd Hide You</titre>
+  <annee>2012</annee>
+  <par ref="blast-theory"/>
+  <url>https://www.blasttheory.co.uk/projects/id-hide-you/</url>
+  <categorie>Performance</categorie>
+
+  <resume>Fiction interactive mobile qui utilise la géolocalisation pour raconter l'histoire d'une fuite à travers la ville. Le joueur marche physiquement pendant que l'histoire se déroule via audio et notifications. L'environnement réel devient le décor narratif.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Transforme la marche urbaine banale en narration immersive. La ville devient personnage. Utilise intelligemment les contraintes mobiles (pas toujours de réseau, marche lente) comme éléments narratifs.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

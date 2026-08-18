@@ -1,0 +1,9 @@
+<personne id="upian" genre="studio">
+  <titre>Upian</titre>
+
+  <section titre="Ici">
+    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  </section>
+
+  <retroliens/>
+</personne>

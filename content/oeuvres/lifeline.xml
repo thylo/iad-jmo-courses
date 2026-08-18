@@ -1,0 +1,17 @@
+<oeuvre id="lifeline" statut="en-ligne">
+  <titre>Lifeline</titre>
+  <annee>2015</annee>
+  <par>3 Minute Games</par>
+  <url>https://www.bigfishgames.com/games/14076/lifeline/</url>
+  <categorie>Fiction</categorie>
+
+  <resume>Jeu narratif textuel où vous communiquez avec un astronaute échoué via notifications mobiles. L''histoire se déroule en temps réel : si l''astronaute dort 8h, vous attendez vraiment 8h. Choix binaires qui influencent la survie du personnage.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Transforme les contraintes du mobile (notifications) en atout narratif. Le temps réel crée une connexion émotionnelle forte avec le personnage. Prouve qu'on peut créer une expérience narrative puissante avec uniquement du texte.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

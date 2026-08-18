@@ -1,0 +1,17 @@
+<oeuvre id="chrome-music-lab" statut="en-ligne">
+  <titre>Chrome Music Lab</titre>
+  <annee>2016</annee>
+  <par ref="google-creative-lab"/>
+  <url>https://musiclab.chromeexperiments.com/</url>
+  <categorie>Outil</categorie>
+
+  <resume>Collection d''outils web interactifs pour comprendre la musique : Song Maker (séquenceur visuel), Rhythm (créateur de rythmes), Spectrogram (visualisation du son), Harmonics (harmoniques visuelles), etc.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Transforme l'apprentissage musical en expérience ludique et visuelle. Chaque outil est simple mais profond.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

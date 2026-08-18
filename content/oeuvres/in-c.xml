@@ -1,0 +1,16 @@
+<oeuvre id="in-c" statut="en-ligne">
+  <titre>In C</titre>
+  <par>Terry Riley</par>
+  <par>multiples implémentations web</par>
+  <categorie>Performance</categorie>
+
+  <resume>Composition minimaliste où chaque musicien joue 53 phrases musicales courtes dans l'ordre mais à son propre rythme. Versions web permettent à chacun de participer via navigateur, créant une performance collective synchronisée mais non dirigée.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Démontre que l'harmonie peut émerger du chaos contrôlé. Chaque participant a de l'autonomie mais le système crée de la cohérence. Modèle intéressant d'orchestration distribuée.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

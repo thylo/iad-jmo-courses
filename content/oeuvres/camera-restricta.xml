@@ -1,0 +1,17 @@
+<oeuvre id="camera-restricta" statut="archive">
+  <titre>Camera Restricta</titre>
+  <annee>2015</annee>
+  <par>Philipp Schmitt</par>
+  <url>https://philippschmitt.com/archive/2018/work/camera-restricta.html</url>
+  <categorie>Interface</categorie>
+
+  <resume>Concept (pas implémentation web complète) d'une caméra qui refuse de prendre une photo si le lieu a déjà été trop photographié (analyse géolocalisation + base de données d'images). Critique de l'over-tourisme photographique.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Utilise la technologie pour questionner nos comportements. L'outil devient critique social.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

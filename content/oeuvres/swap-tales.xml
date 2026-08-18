@@ -1,0 +1,17 @@
+<oeuvre id="swap-tales" statut="en-ligne">
+  <titre>Swap Tales</titre>
+  <annee>2016</annee>
+  <par>Luma Arcade</par>
+  <url>https://www.swapta.me/</url>
+  <categorie>Interface</categorie>
+
+  <resume>Jeu narratif mobile où vous manipulez physiquement les éléments de l'histoire en les déplaçant sur l'écran tactile. Swap des objets, personnages et décors pour résoudre des énigmes et avancer dans le récit. L'interface devient manipulation littérale de la narration.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Transforme le tactile en outil de réorganisation narrative. Le geste de swipe/drag devient le mécanisme narratif principal. Interface comme métaphore du contrôle de l'histoire.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

@@ -1,0 +1,17 @@
+<oeuvre id="descent-legends-of-the-dark" statut="en-ligne">
+  <titre>Descent: Legends of the Dark</titre>
+  <annee>2021</annee>
+  <par ref="fantasy-flight-games"/>
+  <url>https://www.youtube.com/watch?v=qk_BXDKLU28</url>
+  <categorie>Jeu</categorie>
+
+  <resume>App qui gère entièrement le scénario, les dialogues, les objectifs et la progression. Terrain physique en 3D pour les combats tactiques.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Combine la richesse narrative d'un jeu vidéo avec la tactilité et la sociabilité d'un jeu de plateau.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

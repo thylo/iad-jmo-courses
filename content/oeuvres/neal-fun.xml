@@ -1,0 +1,17 @@
+<oeuvre id="neal-fun" statut="en-ligne">
+  <titre>Neal.fun</titre>
+  <annee>2019</annee>
+  <par>Neal Agarwal</par>
+  <url>https://neal.fun/</url>
+  <categorie>Outil</categorie>
+
+  <resume>Site regroupant des dizaines d''expériences interactives courtes et engageantes : "The Deep Sea" (explorer les profondeurs marines au scroll), "Spend Bill Gates'' Money" (simulateur de dépenses), "Internet Artifacts" (musée de l''internet), etc.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Chaque expérience prend un concept simple et l'explore de façon ludique et pédagogique. Maître du scrolling narratif et de l'échelle visuelle.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

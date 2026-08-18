@@ -1,0 +1,103 @@
+<oeuvre id="the-follower" statut="en-ligne">
+  <titre>The Follower</titre>
+  <annee>2023</annee>
+  <par ref="dries-depoorter"/>
+  <url>https://driesdepoorter.be/thefollower/</url>
+  <categorie>Documentaire</categorie>
+  <categorie>Interface</categorie>
+  <categorie>Muséale</categorie>
+  <voir ref="the-flemish-scrollers"/>
+  <voir ref="browser-dating"/>
+  <voir ref="surveillance-speaker"/>
+
+  <resume>Système d'IA qui utilise des caméras de surveillance publiques pour retrouver exactement quand et où chaque photo Instagram géolocalisée a été prise. Révèle le fossé entre la représentation sociale et la réalité documentée.</resume>
+
+  <section titre="Ce qui fonctionne">
+    <markdown>
+      Utilise ingénieusement des données publiques (caméras de surveillance + géotags Instagram) pour créer une contre-narration automatisée. L'IA scrape les livestreams de caméras publiques (EarthCam), analyse les frames et les compare avec les photos Instagram taguées aux mêmes locations. Croise temporalité et géolocalisation pour identifier le contexte réel de prise de vue. Galeries interactives permettent d'explorer les corrélations et de découvrir le "making-of" des photos.
+    </markdown>
+  </section>
+
+  <section titre="Mécanique du projet">
+    <markdown>
+      ### Étapes de matching
+
+      1. **Recording** : Dries Depoorter enregistre les livestreams 24h/24 de caméras publiques (Times Square, Wrigley Field Chicago, Temple Bar Dublin)
+      2. **Scraping** : Extraction de tous les posts Instagram géolocalisés sur ces locations par des influenceurs (100k+ followers)
+      3. **Matching** : IA compare les frames des vidéos avec les photos Instagram
+      4. **Révélation** : Publication des corrélations (photo Instagram + moment exact du livestream)
+
+      ### Ce que le projet révèle
+
+      **La photo Instagram :**
+
+      - Composée, cadrée, retouchée
+      - Datée (parfois incorrectement)
+      - Contexte social (likes, commentaires)
+
+      **La vidéo de surveillance :**
+
+      - Brute, continue, inéditable
+      - Momentée (horodatage exact)
+      - Contexte réel (foule, météo, moments avant/après)
+    </markdown>
+  </section>
+
+  <section titre="Implications éthiques et pédagogiques">
+    <markdown>
+      ### Surveillance par agrégation de données
+
+      The Follower démontre que **la surveillance n'a pas besoin d'être secrète pour être inquiétante**. Toutes les sources sont publiques :
+
+      - Les caméras de EarthCam sont **légalement accessibles**
+      - Les posts Instagram sont **intentionnellement géolocalisés**
+      - La technologie de reconnaissance d'image est **open-source**
+
+      ### La mort de l'anonymat urbain
+
+      Avant : Vous pouviez vous perdre dans la foule à Times Square
+      Maintenant : Votre photo Instagram + géotag = Retrouvable rétroactivement
+
+      ### Critique du performatif Instagram
+
+      Instagram crée une **double vie** :
+
+      - **Photo** : Version éditée, composée, performative
+      - **Réalité** : Instant fragmentaire, non curé
+
+      The Follower expose ce **fossé narratif**.
+
+      ### Questions de consentement
+
+      - Les gens ont-ils vraiment consenti à être tracés quand ils géolocalisent leurs photos?
+      - Les caméras publiques impliquent-elles un consentement à la surveillance rétrospective?
+      - L'IA transforme-t-elle des données banales en outil dangereux?
+    </markdown>
+  </section>
+
+  <section titre="Pistes d'analyse">
+    <markdown>
+      1. **Données comme matériau créatif** : Fusion de sources hétérogènes pour créer du sens nouveau
+      2. **Critique de l'interface narrative** : Instagram crée une narration fausse qu'on peut démonter
+      3. **Enjeux contemporains** : Privacy, données, surveillance, consentement
+      4. **Approche mixte** : Art + technologie + critique sociale
+    </markdown>
+  </section>
+
+  <section titre="Débats et questions pédagogiques">
+    <markdown>
+      - **Art or surveillance?** Est-ce que Dries Depoorter crée une œuvre ou un outil de stalking?
+      - **Public vs. private** : Comment définir les limites du "public" à l'ère des données?
+      - **Technologie neutre?** : Peut-on utiliser l'IA sans intention malveillante?
+      - **Consentement implicite** : Quand acceptez-vous la surveillance en ligne?
+    </markdown>
+  </section>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Expose radicalement la vulnérabilité des données apparemment "publiques" et de la géolocalisation. Critique implicite mais puissante du curating Instagram : ce que vous montrez vs. ce qui s'est vraiment passé. Démontre concrètement comment l'IA et la fusion de datasets peut tracer les individus. Pertinent pédagogiquement pour comprendre : surveillance de masse, consentement des données, vie privée à l'ère du partage, implications éthiques de l'IA.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

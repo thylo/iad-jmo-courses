@@ -1,0 +1,18 @@
+<oeuvre id="bandersnatch" statut="en-ligne">
+  <titre>Bandersnatch (Black Mirror)</titre>
+  <annee>2018</annee>
+  <par>Netflix</par>
+  <par>Charlie Brooker</par>
+  <url>https://www.netflix.com/title/80988062</url>
+  <categorie>Fiction</categorie>
+
+  <resume>Film dont le spectateur influence le déroulement par des choix à des moments clés. Structure narrative complexe avec multiples fins.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      A démocratisé le film interactif grand public. Démontre que Netflix peut être un medium interactif.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

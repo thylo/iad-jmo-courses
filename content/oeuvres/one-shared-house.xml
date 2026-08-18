@@ -1,0 +1,18 @@
+<oeuvre id="one-shared-house" statut="en-ligne">
+  <titre>One Shared House</titre>
+  <annee>2013</annee>
+  <par>Bregtje van der Haak</par>
+  <par>Thomas Walther</par>
+  <url>http://onesharedhouse.com/</url>
+  <categorie>Documentaire</categorie>
+
+  <resume>Exploration d'une maison berlinoise sur 30 ans d'histoire à travers des témoignages de ses habitants. Navigation spatiale dans les pièces déclenche les récits.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      L'espace physique devient l'interface narrative. Chaque pièce raconte une époque.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

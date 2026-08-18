@@ -1,0 +1,16 @@
+<oeuvre id="weiordie" statut="hors-ligne">
+  <titre>WeiOrDie</titre>
+  <annee>2016</annee>
+  <par>Simon Bouisson</par>
+  <categorie>Fiction</categorie>
+
+  <resume>Expérience narrative web immersive et décalée explorant l'absurde et l'interactivité.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Pousse les limites de l'expérience narrative web avec humour et audace.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

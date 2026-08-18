@@ -1,0 +1,17 @@
+<oeuvre id="popup-trombone" statut="en-ligne">
+  <titre>Popup Trombone</titre>
+  <annee>2015</annee>
+  <par>Matthew Rayfield</par>
+  <url>http://matthewrayfield.com/goodies/popup-trombone/trombone.html</url>
+  <categorie>Interface</categorie>
+
+  <resume>Transforme les popups de navigateur (habituellement détestés) en instrument de musique. En redimensionnant et bougeant les fenêtres popup, vous jouez de la musique. Détournement brillant d'un élément d'interface malaimé.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Démontre qu'on peut transformer n'importe quel aspect du navigateur en outil créatif. Les contraintes deviennent des instruments.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

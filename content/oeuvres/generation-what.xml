@@ -1,0 +1,18 @@
+<oeuvre id="generation-what" statut="archive">
+  <titre>Génération What ?</titre>
+  <annee>2016</annee>
+  <par>Yami 2</par>
+  <par ref="upian"/>
+  <url>https://generation-what.fr/</url>
+  <categorie>Documentaire</categorie>
+
+  <resume>Questionnaire massif auprès des 18-34 ans européens. Plus de 1 million de participants. Les résultats sont visualisés en temps réel et comparés selon pays, genre, âge. Chacun peut explorer les données et se situer.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Combine contribution (répondre au questionnaire) et exploration (visualiser les résultats). Projet transmedia déployé dans plusieurs pays. Démontre qu'on peut créer une expérience collective massive tout en restant personnel.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

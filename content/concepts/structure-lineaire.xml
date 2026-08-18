@@ -1,0 +1,68 @@
+<concept id="structure-lineaire">
+  <titre>Structure Linéaire</titre>
+  <genre>structure</genre>
+  <exemple ref="clouds-over-sidra"/>
+  <exemple ref="welcome-to-pine-point"/>
+  <exemple ref="what-the-1921-tulsa-race-massacre-destroyed"/>
+  <voir ref="structure-elastique"/>
+
+  <resume>Une seule séquence narrative, un seul chemin. Le spectateur avance dans l'histoire sans pouvoir influencer le déroulement.</resume>
+
+  <section titre="Définition">
+    <markdown>
+      La structure linéaire présente une progression narrative unique et déterminée.
+      Le spectateur n'a aucun pouvoir d'intervention sur le déroulement de l'histoire,
+      bien qu'il puisse contrôler la vitesse de progression (pause, avance, retour).
+
+      Caractéristiques :
+
+      - Un seul chemin narratif
+      - Ordre imposé par l'auteur
+      - Spectateur passif
+      - Rythme narratif maîtrisé
+    </markdown>
+  </section>
+
+  <section titre="Interaction">
+    <markdown>
+      Le spectateur ne fait que progresser dans l'histoire : avancer/reculer, pause, parfois choix cosmétiques qui n'affectent pas l'histoire.
+    </markdown>
+  </section>
+
+  <section titre="Schéma">
+    <markdown>
+      ```
+      Début → Scène 1 → Scène 2 → Scène 3 → Fin
+      ```
+    </markdown>
+  </section>
+
+  <section titre="Avantages">
+    <markdown>
+      - Contrôle total de l'auteur sur l'expérience
+      - Facile à produire et tester
+      - Rythme narratif maîtrisé
+      - Garantit une compréhension cohérente du message
+    </markdown>
+  </section>
+
+  <section titre="Inconvénients">
+    <markdown>
+      - Peu d'interactivité réelle
+      - Pas de rejouabilité
+      - Spectateur passif
+      - Engagement émotionnel limité
+    </markdown>
+  </section>
+
+  <section titre="Quand l'utiliser">
+    <markdown>
+      - Quand le message nécessite un ordre précis
+      - Pour des documentaires informatifs
+      - Quand vous voulez contrôler totalement le rythme
+      - Récits avec climax et résolution importants
+    </markdown>
+  </section>
+
+  <retroliens/>
+</concept>

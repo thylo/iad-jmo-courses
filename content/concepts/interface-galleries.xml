@@ -1,0 +1,176 @@
+<concept id="interface-galleries">
+  <titre>Galeries / Grids</titre>
+  <genre>interface</genre>
+  <voir ref="structure-constellation"/>
+  <voir ref="structure-parallele"/>
+
+  <resume>Présentation en grille ou galerie explorable. L'utilisateur choisit son point d'entrée.</resume>
+
+  <section titre="Définition">
+    <markdown>
+      L'interface galerie présente un ensemble d'options visuelles (vignettes, cartes, objets) sous forme de grille. L'utilisateur choisit son point d'entrée, contrôlant l'ordre et le rythme de découverte.
+
+      **Caractéristiques :**
+
+      - Entrées visuelles multiples simultanément
+      - Grille ou layout organique
+      - Stimule la sensibilité visuelle
+      - Subdivise l'expérience en modules
+    </markdown>
+  </section>
+
+  <section titre="Intérêt narratif">
+    <markdown>
+      - **Permet expériences courtes et modulaires**
+      - **Donne contrôle de l'ordre de découverte**
+      - **Approche non-linéaire intuitive**
+      - Sensation de liberté exploratoire
+    </markdown>
+  </section>
+
+  <section titre="Enjeux et risques">
+    <markdown>
+      - **Risque de simple "menu avec images"** (pas de narration)
+      - **Trop de choix simultanés = paralysie** (choice overload)
+      - **Donner assez d'infos** pour motiver le choix
+      - Créer unité cohérente malgré fragmentation
+    </markdown>
+  </section>
+
+  <section titre="Quand utiliser galeries ?">
+    <markdown>
+      - ✅ Votre histoire est modulaire (épisodes, chapitres)
+      - ✅ L'ordre de découverte ne dérange pas
+      - ✅ Vous avez contenu visuel riche
+      - ✅ Navigation exploratoire s'accorde à votre intention
+    </markdown>
+  </section>
+
+  <section titre="Design">
+    <markdown>
+      ### Arrangement visuel
+
+      - Grille symétrique ou organique?
+      - Taille des éléments communique hiérarchie
+      - Espacement crée rythme visuel
+      - Consistance visuelle entre modules
+
+      ### Visuels informatifs
+
+      Chaque vignette/carte doit communiquer :
+
+      - De quoi parle ce module?
+      - Pourquoi l'explorer?
+      - Durée/taille?
+      - Impact sur le reste?
+
+      ### Nombre optimal
+
+      - 3-6 modules : Optimal
+      - 7-12 modules : Acceptable
+      - 13+ modules : Exploration frustrante
+
+      ### Progression/Structure
+
+      - Les modules s'enchaînent ou sont indépendants?
+      - Y a-t-il une ordre "recommandée"?
+      - Clarifier la structure!
+    </markdown>
+  </section>
+
+  <section titre="Exemples (à développer)">
+    <markdown>
+      ### The {} And (2015)
+
+      - Grille de concepts exploratoire
+      - Chaque carreau = une idée
+      - Navigation libre et non-linéaire
+
+      ### L'Atelier du Peintre (2015)
+
+      - Galerie d'œuvres
+      - Cliquer pour explorer l'histoire de chaque
+      - Non-linéarité dans l'ordre de découverte
+
+      ### Choose Your Own Documentary (2015)
+
+      - Modules documentaires en grille
+      - L'utilisateur compose son expérience
+      - Chaque module s'enchaîne
+    </markdown>
+  </section>
+
+  <section titre="Variantes">
+    <markdown>
+      ### Grille carrée
+      Arrangement régulier 2x2, 3x3, etc.
+
+      - Avantage : Ordre, clarté
+      - Inconvénient : Peut sembler impersonnel
+
+      ### Masonry grid
+      Arrangement irrégulier (style Pinterest).
+
+      - Avantage : Dynamique visuelle
+      - Inconvénient : Moins prévisible
+
+      ### Liste linéaire
+      Modules en liste verticale.
+
+      - Avantage : Mobile-friendly
+      - Inconvénient : Perte de vue d'ensemble
+
+      ### Layout organique
+      Arrangement libre, formes variées.
+
+      - Avantage : Artistique, unique
+      - Inconvénient : Navigation complexe
+    </markdown>
+  </section>
+
+  <section titre="Combinaisons avec autres interfaces">
+    <markdown>
+      **Galeries + Point-and-Click**
+
+      - Galerie pour choisir le module
+      - Point-and-click à l'intérieur du module
+
+      **Galeries + Scrollable**
+
+      - Galerie au top
+      - Scroll révèle plus de modules
+    </markdown>
+  </section>
+
+  <section titre="Bonnes pratiques">
+    <markdown>
+      1. **Visuels clairs** : Chaque vignette parle d'elle-même
+      2. **Équilibre** : Pas un module qui domine
+      3. **Hiérarchie** : Si ordre importe, le montrer
+      4. **Nombre maîtrisé** : Pas d'overwhelm
+      5. **Cohérence** : Style unifié malgré fragmentation
+    </markdown>
+  </section>
+
+  <section titre="Risques courants">
+    <markdown>
+      ❌ **Simple menu avec images** : Pas de narration
+      ❌ **Trop de modules** : Paralysie du choix
+      ❌ **Visuels confus** : On ne sait pas cliquer
+      ❌ **Pas de lien entre modules** : Sensation de fragmentation
+      ❌ **Visuels de qualité inégale** : Incohérence
+    </markdown>
+  </section>
+
+  <section titre="Solutions">
+    <markdown>
+      ✅ Narration dans la structure de la galerie
+      ✅ Limiter à 6-9 modules
+      ✅ Visuels informatifs et attirants
+      ✅ Unité visuelle et thématique
+      ✅ Tests de compréhension (l'utilisateur comprend-il?)
+    </markdown>
+  </section>
+
+  <retroliens/>
+</concept>

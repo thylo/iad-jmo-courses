@@ -1,0 +1,16 @@
+<oeuvre id="lord-of-the-rings-journeys-in-middle-earth" statut="en-ligne">
+  <titre>Lord of the Rings: Journeys in Middle Earth</titre>
+  <annee>2019</annee>
+  <par ref="fantasy-flight-games"/>
+  <categorie>Jeu</categorie>
+
+  <resume>L'application gère l'IA des ennemis, les scénarios, les sauvegardes et la progression de campagne. Les joueurs se concentrent sur les décisions stratégiques et tactiques.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      L'app supprime le besoin d'un "maître du jeu" en gérant toute la logique cachée, permettant une expérience coopérative complète.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

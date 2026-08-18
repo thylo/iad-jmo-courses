@@ -1,0 +1,23 @@
+<oeuvre id="robo-bingo" statut="en-ligne">
+  <titre>Robo Bingo</titre>
+  <annee>2022</annee>
+  <par ref="lloyd-et-peter"/>
+  <url>https://foxdogstudios.com/</url>
+  <categorie>Performance</categorie>
+
+  <resume>Bingo détourné où les joueurs utilisent leur smartphone au lieu de cartons physiques. Commence comme du bingo classique mais évolue vers des mini-jeux absurdes : aider le robot bingo à capturer des grenouilles, naviguer dans des labyrinthes, etc. L''interface mobile devient progressivement plus ex...</resume>
+
+  <section titre="Ce qui fonctionne">
+    <markdown>
+      Bingo détourné où les joueurs utilisent leur smartphone au lieu de cartons physiques. Commence comme du bingo classique mais évolue vers des mini-jeux absurdes : aider le robot bingo à capturer des grenouilles, naviguer dans des labyrinthes, etc. L'interface mobile devient progressivement plus expérimentale.
+    </markdown>
+  </section>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Subvertit un format rigide (bingo) en spectacle interactif évolutif. Démontre qu'on peut partir d'une mécanique familière pour amener le public vers des interactions surprenantes. Auto-décrit comme "bingo pour introvertis".
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

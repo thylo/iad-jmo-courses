@@ -1,0 +1,17 @@
+<oeuvre id="alice-is-missing" statut="en-ligne">
+  <titre>Alice is Missing</titre>
+  <annee>2020</annee>
+  <par>Spenser Starke</par>
+  <url>https://www.huntersbooks.com/alice-is-missing</url>
+  <categorie>Jeu</categorie>
+
+  <resume>Jeu de rôle joué entièrement par messages texte (via une app ou vraiment par SMS). Les joueurs sont physiquement ensemble mais communiquent uniquement par écrit pour enquêter sur la disparition d'Alice. Utilise des cartes physiques pour déclencher les événements.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Crée une tension narrative unique en forçant la communication écrite asynchrone même quand physiquement présents. Le silence amplifie l'angoisse.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

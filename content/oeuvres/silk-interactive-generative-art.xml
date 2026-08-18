@@ -1,0 +1,17 @@
+<oeuvre id="silk-interactive-generative-art" statut="en-ligne">
+  <titre>Silk - Interactive Generative Art</titre>
+  <annee>2010</annee>
+  <par>Yuri Vishnevsky</par>
+  <url>http://weavesilk.com/</url>
+  <categorie>Outil</categorie>
+
+  <resume>Dessinez avec la souris et l'outil crée automatiquement des symétries et variations fluides et organiques. Résultat hypnotique et immédiatement beau même sans compétence en dessin.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Transforme le geste simple en œuvre complexe grâce à la symétrie et la génération procédurale. L'algorithme amplifie la créativité.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

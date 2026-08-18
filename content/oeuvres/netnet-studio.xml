@@ -1,0 +1,17 @@
+<oeuvre id="netnet-studio" statut="en-ligne">
+  <titre>Netnet.studio</titre>
+  <annee>2020</annee>
+  <par>Nick Briz</par>
+  <url>https://netnet.studio/?tutorial=what-is-code</url>
+  <categorie>Outil</categorie>
+
+  <resume>Environnement de développement web interactif et pédagogique. Tutoriels intégrés, visualisation du code en temps réel, explications contextuelles. Apprendre le HTML/CSS/JS en créant directement.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Réinvente l'apprentissage du code web en le rendant visuel et immédiat. Chaque concept est expliqué avec des exemples interactifs. L'IDE devient outil pédagogique.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

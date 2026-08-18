@@ -1,0 +1,17 @@
+<oeuvre id="seeing-theory" statut="en-ligne">
+  <titre>Seeing Theory</titre>
+  <annee>2016</annee>
+  <par>Brown University</par>
+  <url>https://seeing-theory.brown.edu/</url>
+  <categorie>Outil</categorie>
+
+  <resume>Cours de statistiques et probabilités entièrement interactif. Chaque concept (distributions, régression, inférence) est accompagné de visualisations manipulables.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Rend les mathématiques tangibles. Les formules deviennent des objets qu'on peut toucher et comprendre visuellement.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

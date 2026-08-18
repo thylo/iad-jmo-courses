@@ -1,0 +1,16 @@
+<oeuvre id="l-atelier-du-peintre" statut="hors-ligne">
+  <titre>L'Atelier du Peintre</titre>
+  <annee>2015</annee>
+  <par ref="arte"/>
+  <categorie>Muséale</categorie>
+
+  <resume>Exploration interactive du tableau "L'Atelier du peintre" de Gustave Courbet. Navigation dans l'espace de la toile révélant des détails, histoires et analyses des personnages. La peinture devient un espace navigable.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Transforme une œuvre d'art statique en espace d'exploration narrative. Chaque zone de la toile cache des récits. Démontre comment augmenter une œuvre patrimoniale sans la dénaturer.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

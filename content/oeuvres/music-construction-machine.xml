@@ -1,0 +1,17 @@
+<oeuvre id="music-construction-machine" statut="archive">
+  <titre>Music Construction Machine</titre>
+  <annee>2016</annee>
+  <par ref="niklas-roy"/>
+  <url>https://www.niklasroy.com/project/191/MCM</url>
+  <categorie>Outil</categorie>
+
+  <resume>Machine complexe bricolée où les visiteurs construisent de la musique en manipulant des objets physiques. Chaque action mécanique produit un son. Interface tangible faite de matériaux recyclés et de bricolage visible. L'esthétique maker est assumée.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Démontre qu'on peut créer des expériences riches sans technologie élégante. Le bricolage visible démystifie le processus créatif. Approche DIY accessible qui encourage la reproduction. L'imperfection devient qualité.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

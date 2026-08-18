@@ -80,7 +80,9 @@ final readonly class NodeRenderer
     private function value(Field $field, string $value, ContentIndex $index): string
     {
         if ($field->isReference) {
-            return EntityLink::html($index, $value);
+            return $field->allowsText && ! $index->has($value)
+                ? Html::escape($value)
+                : EntityLink::html($index, $value);
         }
 
         if ($field->isUrl) {

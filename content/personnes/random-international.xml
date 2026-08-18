@@ -1,0 +1,9 @@
+<personne id="random-international" genre="studio">
+  <titre>Random International</titre>
+
+  <section titre="Ici">
+    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  </section>
+
+  <retroliens/>
+</personne>

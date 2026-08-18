@@ -1,0 +1,17 @@
+<oeuvre id="tracks" statut="en-ligne">
+  <titre>Tracks</titre>
+  <annee>2021</annee>
+  <par>Tracks Game</par>
+  <url>https://www.youtube.com/watch?v=XVVojkNY6wk</url>
+  <categorie>Jeu</categorie>
+
+  <resume>Les joueurs suivent des traces physiques tout en construisant collectivement une histoire. Mélange déduction et création narrative.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Transforme la déduction en outil de création d'histoire collective.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

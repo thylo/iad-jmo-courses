@@ -1,0 +1,183 @@
+<concept id="role-fantome">
+  <titre>Le Public comme Fantôme</titre>
+  <genre>role</genre>
+  <exemple ref="weiordie"/>
+  <exemple ref="phallaina"/>
+  <exemple ref="gaza-sderot"/>
+  <exemple ref="one-shared-house"/>
+  <voir ref="structure-lineaire"/>
+  <voir ref="structure-elastique"/>
+
+  <resume>Le spectateur est un témoin invisible de l'action. Il observe sans être vu ni pouvoir interagir directement avec les personnages.</resume>
+
+  <section titre="Définition">
+    <markdown>
+      Le rôle de fantôme place le public en observateur invisible. Il suit les personnages et les événements sans pouvoir les influencer directement. Son agentivité se limite au contrôle du point de vue : choisir où regarder, le rythme d'exploration, quelle perspective suivre.
+
+      **Caractéristiques :**
+
+      - Le spectateur est un témoin invisible
+      - Il suit les personnages sans pouvoir les influencer
+      - Il influence le **point de vue** du récit
+      - Les personnages n'ont pas conscience de sa présence
+      - Il décide du **rythme** et de l'**ordre** d'exploration
+
+      **Interactions typiques :**
+
+      - Choisir quelle caméra/perspective suivre
+      - Décider de l'ordre d'exploration des contenus
+      - Naviguer dans l'espace narratif
+      - Contrôler le rythme (scroll, navigation)
+    </markdown>
+  </section>
+
+  <section titre="La métaphore cinématographique">
+    <markdown>
+      Être le **chef opérateur** qui choisit les cadrages, mais pas le scénariste qui écrit l'histoire.
+
+      Vous décidez de l'angle de caméra, du plan serré ou large, mais vous suivez le scénario prévu.
+    </markdown>
+  </section>
+
+  <section titre="Pouvoir du public">
+    <markdown>
+      L'interactivité du fantôme repose sur :
+
+      - **Navigation spatiale** : Explorer différents lieux
+      - **Navigation temporelle** : Revenir/avancer dans les événements
+      - **Navigation perspectivale** : Choisir quel personnage suivre
+      - **Rythme** : Contrôler la vitesse de déroulement
+    </markdown>
+  </section>
+
+  <section titre="Ce que le fantôme ne peut PAS faire">
+    <markdown>
+      - Parler aux personnages
+      - Prendre des décisions pour eux
+      - Changer les événements majeurs
+      - Influencer le dénouement
+    </markdown>
+  </section>
+
+  <section titre="Intention créative">
+    <markdown>
+      **Je veux que le public :**
+
+      - **Observe** mes personnages
+      - **Explore** mon univers
+      - **Découvre** progressivement
+
+      C'est idéal si vous racontez une histoire linéaire mais que vous voulez que le public la **découvre** à son rythme.
+    </markdown>
+  </section>
+
+  <section titre="Adapté pour">
+    <markdown>
+      - Documentaires immersifs
+      - Récits linéaires exploratoires
+      - BD/Comics scrollables
+      - Expériences spatiales immersives
+      - Observations de personnages
+    </markdown>
+  </section>
+
+  <section titre="Avantages">
+    <markdown>
+      - Contrôle créatif total de l'auteur
+      - Univers cohérent et prévisible
+      - Le public garde une certaine agentivité
+      - Exploration sensorielle
+      - Pas de "faux choix" - c'est honnête
+    </markdown>
+  </section>
+
+  <section titre="Inconvénients">
+    <markdown>
+      - Sentiment limité d'agentivité
+      - Public non-engagé émotionnellement
+      - Risque d'ennui si l'univers n'est pas riche
+      - Le public peut se sentir passif
+    </markdown>
+  </section>
+
+  <section titre="Design d'interface">
+    <markdown>
+      L'interface d'un fantôme est typiquement :
+
+      - **Navigation** : scrolling, navigation spatiale
+      - **Sélection de perspective** : cliquer pour changer de vue
+      - **Contrôles de caméra** : zoom, panoramique
+      - **Pas de dialogues** ou dialogues sans réponse du public
+    </markdown>
+  </section>
+
+  <section titre="Exemples détaillés">
+    <markdown>
+      ### Wei or Die (2015)
+
+      - Vous suivez Wei, un jeune homme sans pouvoir l'influencer
+      - Navigation exploratoire dans son environnement quotidien
+      - Vous découvrez progressivement qui il est
+      - L'histoire se déroule selon son propre chemin
+
+      ### Phallaina (2016)
+
+      - Vous scrollez horizontalement pour faire avancer l'histoire
+      - Le récit est linéaire mais vous contrôlez le rythme
+      - Vous choisissez d'explorer les détails ou d'avancer
+      - Métaphore : lire un livre en tournant les pages vous-même
+
+      ### Gaza / Sderot (2008-2012)
+
+      - Vous basculez entre les perspectives de deux villes
+      - Vous voyez comment le conflit affecte les deux côtés
+      - Votre choix : quelle perspective privilégier
+      - Les événements se déroulent indépendamment
+
+      ### One Shared House (2013)
+
+      - Exploration spatiale d'une maison et de ses histoires
+      - Vous êtes fantôme visitant les souvenirs des lieux
+      - Découverte des liens entre les habitants
+      - Chaque pièce révèle des narratifs différents
+    </markdown>
+  </section>
+
+  <section titre="Quand choisir le rôle de fantôme ?">
+    <markdown>
+      - ✅ Vous racontez une histoire linéaire
+      - ✅ Vous voulez un contrôle créatif total
+      - ✅ L'atmosphère/observation est plus important que l'agentivité
+      - ✅ Votre public aime découvrir progressivement
+      - ❌ Vous voulez une profonde implication émotionnelle
+    </markdown>
+  </section>
+
+  <section titre="Combinaisons courantes">
+    <markdown>
+      Le rôle de fantôme s'associe bien avec :
+
+      - **Structures narratives** : Linéaire, Élastique
+      - **Formes d'interactivité** : Machine (exploration pure)
+      - **Types de choix** : Exploratoires (où aller, quoi voir)
+    </markdown>
+  </section>
+
+  <section titre="Distinction importante">
+    <markdown>
+      **Rôle du public ≠ Forme d'interactivité**
+
+      Un fantôme peut explorer une univers créé par machine interaction, mais aussi un univers où les utilisateurs débattent socialement. La différence :
+
+      - **Rôle** : Fantôme - je suis observateur
+      - **Forme** : Machine ou Sociale - avec quoi j'interagis
+
+      **Exemple :**
+
+      - Fort McMoney en exploration : vous êtes fantôme (observez la ville)
+      - Fort McMoney lors des votes : vous restez fantôme mais la forme devient sociale
+    </markdown>
+  </section>
+
+  <retroliens/>
+</concept>

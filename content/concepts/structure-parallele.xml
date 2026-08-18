@@ -1,0 +1,81 @@
+<concept id="structure-parallele">
+  <titre>Structure Parallèle</titre>
+  <genre>structure</genre>
+  <exemple ref="highrise"/>
+  <exemple ref="generation-what"/>
+  <voir ref="structure-concentrique"/>
+  <voir ref="structure-constellation"/>
+
+  <resume>Plusieurs récits se déroulent simultanément. Le spectateur choisit lequel suivre, peut basculer entre eux.</resume>
+
+  <section titre="Définition">
+    <markdown>
+      La structure parallèle présente plusieurs récits indépendants qui se déroulent simultanément
+      dans le même univers. Le spectateur peut choisir lequel suivre et basculer entre eux,
+      construisant sa propre compréhension des connexions.
+
+      Caractéristiques :
+
+      - Multiples récits distincts et complets
+      - Simultanéité (déroulement en parallèle)
+      - Liberté de basculer entre les histoires
+      - Connexions (implicites ou explicites) entre les récits
+    </markdown>
+  </section>
+
+  <section titre="Interaction">
+    <markdown>
+      Switcher entre les fils narratifs. Le spectateur construit son propre ordre de lecture et découvre progressivement les connexions.
+    </markdown>
+  </section>
+
+  <section titre="Schéma">
+    <markdown>
+      ```
+      Récit A: Début → Scène 1 → Scène 2 → Fin A
+      Récit B: Début → Scène 1 → Scène 2 → Fin B
+      Récit C: Début → Scène 1 → Scène 2 → Fin C
+               ↕         ↕         ↕
+          [Le spectateur peut basculer]
+      ```
+    </markdown>
+  </section>
+
+  <section titre="Avantages">
+    <markdown>
+      - Richesse narrative considérable
+      - Le spectateur construit sa propre compréhension
+      - Révèle les connexions et parallèles
+      - Rejouabilité (ordre de découverte différent)
+    </markdown>
+  </section>
+
+  <section titre="Inconvénients">
+    <markdown>
+      - Difficile de suivre plusieurs fils simultanément
+      - Peut être frustrant (FOMO - peur de rater quelque chose)
+      - Production très lourde (plusieurs récits complets)
+      - Risque de déséquilibre entre les histoires
+    </markdown>
+  </section>
+
+  <section titre="Quand l'utiliser">
+    <markdown>
+      - Récits chorale (plusieurs personnages équivalents)
+      - Exploration d'une communauté/ville par plusieurs habitants
+      - Quand les connexions entre histoires sont le propos central
+      - Documenter un événement vu par plusieurs témoins
+      - Montrer des causales croisées
+    </markdown>
+  </section>
+
+  <section titre="Variantes">
+    <markdown>
+      - **Parallèle convergente** : Les récits se rejoignent vers une fin commune
+      - **Parallèle divergente** : Les récits s'éloignent progressivement
+      - **Parallèle avec embranchements** : Combinaison avec des choix dans chaque fil
+    </markdown>
+  </section>
+
+  <retroliens/>
+</concept>

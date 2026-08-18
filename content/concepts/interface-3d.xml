@@ -1,0 +1,203 @@
+<concept id="interface-3d">
+  <titre>Environnements 3D / Immersifs</titre>
+  <genre>interface</genre>
+  <exemple ref="clouds-over-sidra"/>
+  <voir ref="interface-gestural"/>
+
+  <resume>Navigation dans un espace 3D. La narration est environnementale et exploratoire.</resume>
+
+  <section titre="Définition">
+    <markdown>
+      L'interface 3D invite l'utilisateur à déambuler librement dans un espace tridimensionnel. La narration se construit par l'environnement lui-même, sans dialogue ou exposition directe. C'est la grammaire du jeu vidéo appliquée au storytelling.
+
+      **Caractéristiques :**
+
+      - Exploration spatiale libre
+      - Grammaire du jeu vidéo
+      - Monde ouvert ou semi-ouvert
+      - Narration environnementale
+    </markdown>
+  </section>
+
+  <section titre="Intérêt narratif">
+    <markdown>
+      - **Sensation de liberté maximale**
+      - **Narration environnementale** (l'espace raconte)
+      - **Vision moins dirigiste** de la narration
+      - Présence et immersion profondes
+    </markdown>
+  </section>
+
+  <section titre="Enjeux et risques">
+    <markdown>
+      - **Difficile de guider sans diriger**
+      - **Complexité technique énorme** (3D, performances, VR)
+      - **Comment raconter si l'utilisateur ne va pas où prévu?**
+      - Risque d'ennui (trop de liberté = perte de direction)
+    </markdown>
+  </section>
+
+  <section titre="Quand utiliser 3D ?">
+    <markdown>
+      - ✅ Vous racontez une histoire exploratoire
+      - ✅ L'univers spatial est central
+      - ✅ Vous avez ressources technique + artistique
+      - ✅ VR/immersion enrichit votre propos
+    </markdown>
+  </section>
+
+  <section titre="Design">
+    <markdown>
+      ### Guidage subtil
+
+      Comment diriger sans forcer :
+
+      - Éclairage attire vers zones importantes
+      - Architecture oriente naturellement
+      - NPCs placés stratégiquement
+      - Micro-indicateurs (son, particules)
+
+      ### Landmarks visuels
+
+      Créer repères mémorables :
+
+      - Monuments distinctifs
+      - Variations de terrain/architecture
+      - Indices visuels pour orientation
+      - Cohérence spatiale (pas de téléportation)
+
+      ### Narration environnementale
+
+      Raconter via l'espace :
+
+      - Design d'intérieur parle du personnage
+      - Dégradation montre l'histoire
+      - Détails trouvables révèlent le backstory
+      - Monde cohérent avec sa propre logique
+
+      ### Performance critique
+
+      - Frame rate stable (surtout VR)
+      - Pas de lag = immersion brisée
+      - Optimisation géométrique
+      - Streaming du contenu
+    </markdown>
+  </section>
+
+  <section titre="Exemples (à développer)">
+    <markdown>
+      ### Life is Strange (2015)
+
+      - Environnements 3D exploratoires
+      - Investigation par déambulation
+      - Narration via environnement
+      - Freedom mais avec structure
+
+      ### Bear 71 (2012)
+
+      - Déambulation dans nature 3D
+      - Suivi de la vie d'un ours
+      - Espace réel comme personnage
+      - Immersion contemplatif
+
+      ### Journey (2012)
+
+      - Environnement 3D épique
+      - Exploration libre guidée subtilement
+      - Narration entièrement par l'espace
+      - Expérience contemplative
+
+      ### Clouds Over Sidra (2015)
+
+      - Réalité virtuelle de camp de réfugiés
+      - Navigation immersive
+      - Empathie par présence
+      - 360° story
+    </markdown>
+  </section>
+
+  <section titre="Variantes">
+    <markdown>
+      ### Monde ouvert
+      Complète liberté d'exploration.
+
+      - Avantage : Sens liberté max
+      - Inconvénient : Risque de perdre le fil
+
+      ### Monde semi-ouvert
+      Zones explorables librement, limites
+
+      - Avantage : Direction + liberté
+      - Inconvénient : Peut sembler artificiel
+
+      ### Couloir linéaire 3D
+      Chemin linéaire prédessiné en 3D.
+
+      - Avantage : Contrôle narratif
+      - Inconvénient : Pas vraie liberté
+
+      ### Réalité virtuelle (VR)
+      Véritable immersion 360°.
+
+      - Avantage : Empathie/présence max
+      - Inconvénient : Sickness VR, coût
+    </markdown>
+  </section>
+
+  <section titre="Combinaisons avec autres interfaces">
+    <markdown>
+      **3D + Point-and-Click**
+
+      - Navigation 3D libre
+      - Interactions via clic sur objets
+      - Dialogue sur NPC
+
+      **3D + Gestural**
+
+      - Navigation par gestes naturels
+      - Interaction tactile avec l'espace
+    </markdown>
+  </section>
+
+  <section titre="Bonnes pratiques">
+    <markdown>
+      1. **Orientation claire** : On sait toujours où on est
+      2. **Guidage subtil** : Diriger sans forcer
+      3. **Performance** : Jamais de lag
+      4. **Espace significatif** : Chaque zone raconte
+      5. **Découvrabilité** : Contenu caché mais trouvable
+    </markdown>
+  </section>
+
+  <section titre="Risques courants">
+    <markdown>
+      ❌ **Monde vide** : Beau mais sans narration
+      ❌ **Perte d'orientation** : Désorienté après 5 min
+      ❌ **Performance lag** : Immersion cassée
+      ❌ **Trop linéaire** : Faux liberté
+      ❌ **Complexité technique** : Sur-ambitieux
+    </markdown>
+  </section>
+
+  <section titre="Solutions">
+    <markdown>
+      ✅ Narration environnementale (pas juste beau)
+      ✅ Landmarks, compass, mini-map si besoin
+      ✅ Optimisation agressif dès le start
+      ✅ Zones exploratoires + hub structure
+      ✅ Prototypage intensif pour scope
+      ✅ User testing pour orientation/guidage
+    </markdown>
+  </section>
+
+  <section titre="Considérations VR spéciales">
+    <markdown>
+      - **Sickness VR** : Mouvement fluide, pas de téléportation brutale
+      - **Confort** : Pas d'escalade impossible
+      - **Durée** : VR fatigue après 15-20min
+      - **Accessibilité** : Options pour handicaps
+    </markdown>
+  </section>
+
+  <retroliens/>
+</concept>

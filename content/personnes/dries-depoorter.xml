@@ -1,0 +1,9 @@
+<personne id="dries-depoorter" genre="personne">
+  <titre>Dries Depoorter</titre>
+
+  <section titre="Ici">
+    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  </section>
+
+  <retroliens/>
+</personne>

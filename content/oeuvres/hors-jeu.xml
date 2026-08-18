@@ -1,0 +1,16 @@
+<oeuvre id="hors-jeu" statut="hors-ligne">
+  <titre>Hors-Jeu</titre>
+  <annee>2016</annee>
+  <par ref="arte"/>
+  <categorie>Fiction</categorie>
+
+  <resume>Fiction interactive sur le football féminin avec structure concentrique. Choix initial entre plusieurs personnages/perspectives, puis exploration de leur histoire respective.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Structure concentrique bien exécutée permettant d'explorer différentes facettes d'un même univers. Chaque parcours est cohérent indépendamment.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

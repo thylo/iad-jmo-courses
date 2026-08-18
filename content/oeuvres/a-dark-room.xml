@@ -1,0 +1,17 @@
+<oeuvre id="a-dark-room" statut="en-ligne">
+  <titre>A Dark Room</titre>
+  <annee>2013</annee>
+  <par>Doublespeak Games</par>
+  <url>https://adarkroom.doublespeakgames.com/</url>
+  <categorie>Fiction</categorie>
+
+  <resume>Jeu entièrement textuel en JavaScript qui révèle progressivement son univers. Minimalisme extrême au service de l'imagination.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Prouve qu'on peut créer une expérience narrative captivante avec presque rien visuellement.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

@@ -1,0 +1,68 @@
+<oeuvre id="can-you-see-me-now" statut="archive">
+  <titre>Can You See Me Now?</titre>
+  <annee>2001</annee>
+  <par ref="blast-theory"/>
+  <par ref="mixed-reality-lab"/>
+  <url>https://www.blasttheory.co.uk/projects/can-you-see-me-now/</url>
+  <categorie>Jeu</categorie>
+  <categorie>Urbain</categorie>
+  <categorie>Performance</categorie>
+  <voir ref="uncle-roy-all-around-you"/>
+  <voir ref="rider-spoke"/>
+
+  <resume>Jeu de poursuite où jusqu'à 100 joueurs en ligne naviguent une carte 3D virtuelle d'une zone urbaine pendant que des coureurs de Blast Theory les poursuivent dans les vraies rues, équipés de GPS et de communication radio en direct.</resume>
+
+  <section titre="Ce qui fonctionne">
+    <markdown>
+      Fusion révolutionnaire du virtuel et du réel en temps synchrone. Jusqu'à 100 joueurs en ligne stratégisent ensemble tandis que les coureurs physiques les traquent via GPS satellite. Communication hybride : chat texte des joueurs, flux radio live des coureurs audible aux joueurs. Crée un espace d'interaction nouveau où deux réalités se rencontrent avec conséquences réelles (être 'attrapé').
+    </markdown>
+  </section>
+
+  <section titre="Mécanique de Jeu">
+    <markdown>
+      **Joueurs en ligne** : Jusqu'à 100 participants naviguent une carte 3D d'une zone urbaine (Sheffield, Rotterdam, Cologne, Brighton, Barcelone, Tokyo, Chicago, Dublin, Madrid, etc.). Ils voient les positions des coureurs en temps réel via GPS satellite et communiquent via chat texte.
+
+      **Coureurs physiques** : Équipés de appareils mobiles, ils traquent les positions des joueurs en ligne et les poursuivent dans les vraies rues. Leurs talkie-walkies diffusent du son en direct—les joueurs les entendent respirer, rire, communiquer.
+
+      **L'Interaction** : Les joueurs en ligne planifient ensemble une stratégie d'évasion. Ils écoutent les coureurs se rapprocher (fatigue audible). Quand un coureur "attrape" un joueur virtuel, capture d'écran + photo de la vraie rue.
+    </markdown>
+  </section>
+
+  <section titre="Innovations Narratives">
+    <markdown>
+      - **Synchronisation temps réel** : Deux mondes fusionnent dans une seule expérience
+      - **Espace géographique comme interface** : La véritable topologie urbaine façonne le gameplay
+      - **Communication asymétrique** : Chat unilatéral vs audio bidirectionnel crée une tension dynamique
+      - **Présence distribuée** : L'intimité de la voix du coureur contraste avec la distance de la représentation virtuelle
+    </markdown>
+  </section>
+
+  <section titre="Impacts et Reconnaissance">
+    <markdown>
+      - **Golden Nica Ars Electronica 2003** : Reconnaissance comme art interactif révolutionnaire
+      - **Nomination BAFTA** : Reconnaissance du statut de médium narratif
+      - **Redéveloppement 2024** : Financement Kickstarter pour iOS/Android
+      - **Déploiements internationaux** : 10+ villes, influence durable sur jeux mobiles
+    </markdown>
+  </section>
+
+  <section titre="Contexte Pédagogique">
+    <markdown>
+      Fondamental pour :
+
+      - Comprendre la réalité mixte précoce
+      - Analyser comment la géographie façonne la narration
+      - Étudier la collaboration distribuée
+      - Explorer l'impact émotionnel de la présence audio
+      - Cas d'étude en interaction homme-machine-environnement
+    </markdown>
+  </section>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Pionnier absolu de la réalité mixte et du jeu de localisation. Redéfinit les notions de présence, absence et intimité numérique. Démontre comment la technologie mobile peut transformer l'espace urbain en zone de jeu collaborative. Fondateur pour comprendre comment les technologies de localisation façonnent l'interaction narrative spatiale.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

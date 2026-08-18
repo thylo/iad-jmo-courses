@@ -1,0 +1,9 @@
+<personne id="google-creative-lab" genre="studio">
+  <titre>Google Creative Lab</titre>
+
+  <section titre="Ici">
+    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  </section>
+
+  <retroliens/>
+</personne>

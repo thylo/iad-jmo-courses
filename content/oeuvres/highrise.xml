@@ -1,0 +1,17 @@
+<oeuvre id="highrise" statut="en-ligne">
+  <titre>Highrise</titre>
+  <annee>2009</annee>
+  <par ref="onf"/>
+  <url>https://www.nfb.ca/interactive/a_short_history_of_the_highrise/</url>
+  <categorie>Documentaire</categorie>
+
+  <resume>Exploration de la vie en appartement dans les grandes villes à travers témoignages, photos et animations interactives. Navigation spatiale et temporelle innovante.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Utilise le web comme espace d'exploration documentaire plutôt que simple diffusion vidéo.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

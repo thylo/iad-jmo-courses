@@ -1,0 +1,171 @@
+<concept id="interface-split-screen">
+  <titre>Split Screen</titre>
+  <genre>interface</genre>
+  <voir ref="structure-parallele"/>
+  <voir ref="interface-point-click"/>
+
+  <resume>Écran divisé montrant simultanément plusieurs perspectives, récits ou temporalités.</resume>
+
+  <section titre="Définition">
+    <markdown>
+      L'interface split screen divise l'écran en zones montrant simultanément plusieurs flux (vidéo, texte, animation). L'utilisateur bascule entre zones ou les regarde en parallèle, découvrant des relations multiples.
+
+      **Caractéristiques :**
+
+      - Opposition visuelle immédiate
+      - Basculement entre contenus
+      - Multiples perspectives simultanées
+      - Comparaison directe possible
+    </markdown>
+  </section>
+
+  <section titre="Intérêt narratif">
+    <markdown>
+      - **Matérialise une opposition** (points de vue, lieux, temporalités)
+      - **Grammaire familière** (split screen au cinéma)
+      - **Permet la comparaison directe** de deux réalités
+      - **Synchronisation temporelle** de deux récits
+    </markdown>
+  </section>
+
+  <section titre="Enjeux et risques">
+    <markdown>
+      - **Couper un contenu** pour voir l'autre = rupture d'immersion
+      - **Le lien entre contenus** doit être évident
+      - **Risque de confusion cognitive** (trop d'infos simultanées)
+      - Difficile de raconter sur 2 écrans à la fois
+    </markdown>
+  </section>
+
+  <section titre="Quand utiliser split screen ?">
+    <markdown>
+      - ✅ Vous racontez deux perspectives parallèles
+      - ✅ Une opposition thématique existe
+      - ✅ Comparaison directe enrichit le sens
+      - ✅ Utilisateurs ont temps de traiter deux flux
+    </markdown>
+  </section>
+
+  <section titre="Design">
+    <markdown>
+      ### Disposition claire
+
+      - Gauche/droite ou haut/bas
+      - Équilibre visuel des deux sides
+      - Symbole ou texte expliquant l'opposition
+      - Frontière claire entre les deux
+
+      ### Synchronisation temporelle
+
+      - Les deux flux avancent ensemble?
+      - Ou indépendamment?
+      - Bien signaler au public
+
+      ### Basculement fluide
+
+      Si l'utilisateur bascule :
+
+      - Transition douce
+      - Pas de confusion sur où il est
+      - Possibilité de revenir
+    </markdown>
+  </section>
+
+  <section titre="Exemples (à développer)">
+    <markdown>
+      ### Gaza / Sderot (2012)
+
+      - Deux villes, deux perspectives du conflit
+      - Split screen montre simultanément l'impact
+      - Basculement entre les deux vies
+      - Opposition révèle humanité de chaque côté
+
+      ### Alma (2013)
+
+      - Trois perspectives de même événement
+      - Chacun a sa propre version des faits
+      - Split screen dans certaines scènes
+      - Relativité de la narration
+
+      ### Wei or Die (2015)
+
+      - Split screen pour montrer deux mondes
+      - Univers parallèles ou perspectives
+      - Comparaison directe de vies parallèles
+    </markdown>
+  </section>
+
+  <section titre="Variantes">
+    <markdown>
+      ### Split 2x1 (côte à côte)
+      Deux flux côte à côte.
+
+      - Avantage : Comparaison facile
+      - Inconvénient : Chaque flux compressé
+
+      ### Split 1x2 (empilé)
+      Deux flux empilés verticalement.
+
+      - Avantage : Plein écran par flux
+      - Inconvénient : Scrolling requis
+
+      ### Split variable
+      Proportion change selon besoins.
+
+      - Avantage : Flexibilité
+      - Inconvénient : Complexité
+
+      ### Picture-in-picture
+      Un petit flux dans l'autre.
+
+      - Avantage : Focus sur un flux
+      - Inconvénient : L'autre est petit
+    </markdown>
+  </section>
+
+  <section titre="Combinaisons avec autres interfaces">
+    <markdown>
+      **Split screen + Scrollable**
+
+      - Deux timelines scrollables côte à côte
+      - Synchronisation de rythme
+
+      **Split screen + Timeline**
+
+      - Deux chronologies comparées
+      - Événements parallèles visibles
+    </markdown>
+  </section>
+
+  <section titre="Bonnes pratiques">
+    <markdown>
+      1. **Opposition claire** : Pourquoi deux flux?
+      2. **Synchronisation** : Si liées, les lier temporellement
+      3. **Équilibre** : Pas un flux dominant l'autre
+      4. **Indication** : Labels, couleurs, symboles pour différencier
+      5. **Transitions fluides** : Basculements sans jarring
+    </markdown>
+  </section>
+
+  <section titre="Risques courants">
+    <markdown>
+      ❌ **Confusion cognitive** : Trop d'infos à traiter
+      ❌ **Flux déséquilibrés** : Un dominé par l'autre
+      ❌ **Lien peu clair** : Pourquoi ces deux-là?
+      ❌ **Chacun compressé** : Difficile à lire
+      ❌ **Dyssynchronisation** : Rythmes conflictuels
+    </markdown>
+  </section>
+
+  <section titre="Solutions">
+    <markdown>
+      ✅ Limiter à 2 flux (3 max)
+      ✅ Opposition thématiquement pertinente
+      ✅ Même style graphique pour cohérence
+      ✅ Indices visuels clairs
+      ✅ Tester lisibilité des deux côtés
+    </markdown>
+  </section>
+
+  <retroliens/>
+</concept>

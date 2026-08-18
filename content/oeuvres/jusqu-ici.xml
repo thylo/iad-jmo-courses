@@ -1,0 +1,17 @@
+<oeuvre id="jusqu-ici" statut="en-ligne">
+  <titre>JUSQU'ICI</titre>
+  <annee>2019</annee>
+  <par>JUSQU'ICI</par>
+  <url>http://jusqu-ici.com/</url>
+  <categorie>Muséale</categorie>
+
+  <resume>Expérience narrative immersive accessible via web qui mêle vidéo 360°, VR et narration interactive pour explorer des espaces.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Utilise le web comme plateforme d'immersion accessible sans casque VR dédié. Démontre que l'immersion peut être accessible.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

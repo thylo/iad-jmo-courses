@@ -1,0 +1,17 @@
+<oeuvre id="mechanical-masterpieces" statut="en-ligne">
+  <titre>Mechanical Masterpieces</titre>
+  <annee>2019</annee>
+  <par>Neil Mendoza</par>
+  <url>https://www.neilmendoza.com/portfolio/mechanical-masterpieces/</url>
+  <categorie>Muséale</categorie>
+
+  <resume>Installation au Children''s Museum of Pittsburgh qui réinvente des peintures classiques pour le 21e siècle. Les visiteurs peuvent interagir avec les tableaux : les pousser, les illuminer en mode disco, les gonfler, les arroser. Optimisé pour les temps d''attention courts.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Rend l'art classique ludique et accessible pour un jeune public. Démontre comment l'interaction mécanique peut transformer l'expérience de contemplation passive en exploration active. Approche décalée et joyeuse de la médiation culturelle.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

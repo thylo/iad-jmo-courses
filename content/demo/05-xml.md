@@ -80,10 +80,42 @@ déclarent leur créateur, et la page lit la relation dans l'autre sens.
 ## Les types
 
 **`oeuvre`** — attribut `statut`, parmi `en-ligne`, `hors-ligne`, `archive`.
-Champs : `resume`, `annee`, `url`, `par`, `concept`, `voir`.
+Champs : `annee`, `url`, `par`, `categorie`, `concept`, `voir`.
 
-**`personne`** — attribut `genre`, parmi `personne`, `studio`, `collectif`.
-Champs : `resume`, `lieu`, `depuis`, `url`.
+**`personne`** — attribut `genre`, parmi `personne`, `studio`, `collectif`,
+`organisation`. Champs : `lieu`, `depuis`, `url`.
+
+**`concept`** — le vocabulaire d'analyse. Champs : `genre` (obligatoire, parmi
+`structure`, `forme`, `role`, `interface`, `choix`, `ressource`), `exemple`,
+`voir`.
+
+**`page`** — une page qui n'est pas une entité : une liste, une introduction.
+Aucun champ, juste des blocs. C'est ce qui permet à `/oeuvres` d'être calculée
+plutôt que tenue à la main.
+
+`id` et `<titre>` sont obligatoires partout, `<resume>` optionnel : les trois
+sont fournis à tous les types, aucun schéma ne les redéclare. `par`, `categorie`,
+`concept`, `voir` et `exemple` sont répétables.
+
+`categorie` et `genre` n'acceptent qu'une liste de valeurs connues — écrire
+`<categorie>Fiktion</categorie>` est une erreur au chargement, pas une catégorie
+de plus.
+
+## Référencer ou nommer
+
+`concept`, `voir` et `exemple` visent forcément une entité : `<voir ref="…"/>`.
+
+`par` accepte les deux. Un créateur qui a une page se cite par référence, un
+créateur qui n'en a pas s'écrit en toutes lettres :
+
+```xml
+<par ref="blast-theory"/>
+<par>Doublespeak Games</par>
+```
+
+Le rendu suit le graphe, pas la syntaxe : une valeur qui se résout devient un
+lien, une valeur qui ne se résout pas reste du texte. Écrire la page plus tard
+transforme le texte en lien sans toucher aux fiches.
 
 `id` et `<titre>` sont obligatoires partout. `par`, `concept` et `voir` sont
 répétables et portent leur valeur dans `ref=`.
@@ -98,7 +130,15 @@ Une page à moitié rendue est pire qu'une erreur franche.
 
 ## Ce qui n'y est pas encore
 
-Les types `concept` et `seance`. Le second est le plus intéressant — un déroulé
-en activités typées et minutées rend vérifiables les règles du cours : durée
-totale, ratio théorie/pratique, pas de magistral au-delà de quinze minutes. Il
-viendra quand `oeuvre` et `personne` auront été jugés sur pièces.
+Le type `seance`. C'est le plus intéressant — un déroulé en activités typées et
+minutées rendrait vérifiables les règles du cours : durée totale, ratio
+théorie/pratique, pas de magistral au-delà de quinze minutes.
+
+Il demande une décision de modèle avant d'être écrit. Un
+`<activite duree="15" type="magistral">` n'entre dans aucune des deux cases
+actuelles : comme champ il ne peut pas porter trois attributs ni se répéter avec
+une structure, comme bloc il est invisible aux requêtes — or tout son intérêt
+*est* une requête.
+
+Les pages de prose, elles, restent en markdown. C'est le partage : le XML porte
+ce qui a une identité et des relations, le markdown porte ce qui se lit.

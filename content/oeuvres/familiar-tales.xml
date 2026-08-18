@@ -1,0 +1,17 @@
+<oeuvre id="familiar-tales" statut="en-ligne">
+  <titre>Familiar Tales</titre>
+  <annee>2022</annee>
+  <par>Plaid Hat Games</par>
+  <url>https://www.familiartalesgame.com/</url>
+  <categorie>Jeu</categorie>
+
+  <resume>Application web qui orchestre une aventure de jeu de rôle autour d'une table. Gère la narration, les combats, la progression et les sauvegardes pendant que les joueurs manipulent figurines et cartes.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Démontre comment le numérique peut prendre en charge la logistique complexe (états, règles, progression) pour laisser les joueurs se concentrer sur l'histoire et les décisions.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

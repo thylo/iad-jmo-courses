@@ -1,0 +1,17 @@
+<oeuvre id="welcome-to-pine-point" statut="en-ligne">
+  <titre>Welcome to Pine Point</titre>
+  <annee>2011</annee>
+  <par>ONF/The Goggles</par>
+  <url>https://pinepoint.nfb.ca/</url>
+  <categorie>Documentaire</categorie>
+
+  <resume>Mêle photos, son, animations et scrolling narratif pour raconter l'histoire d'une ville disparue. Pionnier du scrollytelling documentaire.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Démontre comment le scroll peut devenir un outil narratif pour avancer dans le temps et l'espace.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

@@ -1,0 +1,16 @@
+<oeuvre id="uchroniques" statut="hors-ligne">
+  <titre>Uchroniques</titre>
+  <annee>2014</annee>
+  <par>France Télévisions</par>
+  <categorie>Fiction</categorie>
+
+  <resume>Série de fictions historiques interactives où vos choix modifient le cours de l'histoire. Explore les "et si..." historiques. Multiples fins selon les décisions prises.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Utilise l'interactivité pour explorer les bifurcations historiques. Pédagogique tout en restant narratif.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

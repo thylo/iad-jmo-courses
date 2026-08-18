@@ -1,0 +1,17 @@
+<oeuvre id="albertine-meunier-livre-infini" statut="en-ligne">
+  <titre>Albertine Meunier - Livre Infini</titre>
+  <annee>2017</annee>
+  <par>Albertine Meunier</par>
+  <url>https://www.albertinemeunier.net/livre-infini</url>
+  <categorie>Fiction</categorie>
+
+  <resume>Projet de livre infini généré à partir de flux web et données en ligne. L'œuvre explore la notion de livre à l'ère numérique en créant un objet hybride entre installation et livre qui se régénère constamment.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Questionne la notion même de livre et de lecture à l'ère numérique. Projet qui démontre comment allier concept fort et réalisation technique. Génération procédurale au service de la narration.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

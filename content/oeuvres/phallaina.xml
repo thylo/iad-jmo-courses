@@ -1,0 +1,18 @@
+<oeuvre id="phallaina" statut="hors-ligne">
+  <titre>Phallaina</titre>
+  <annee>2016</annee>
+  <par>Marietta Ren</par>
+  <par>Small Bang (France Télévisions)</par>
+  <url>https://www.youtube.com/watch?v=jI0s8FqsC0Y</url>
+  <categorie>Fiction</categorie>
+
+  <resume>Première BD numérique conçue pour scroll horizontal infini. L'histoire se déroule latéralement, créant une expérience de lecture unique. Optimisée pour mobile et tablette avec animations au défilement.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Réinvente totalement la lecture de BD en exploitant le scroll horizontal. Démontre qu'on peut créer une narration fluide sur un axe inhabituel. Structure linéaire avec interaction minimaliste mais efficace.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

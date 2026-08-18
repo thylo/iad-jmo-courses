@@ -1,0 +1,18 @@
+<oeuvre id="gaza-sderot" statut="hors-ligne">
+  <titre>Gaza / Sderot</titre>
+  <annee>2008</annee>
+  <par ref="arte"/>
+  <par>Trabelsi Productions</par>
+  <url>https://www.ina.fr/ina-eclaire-actu/gaza-sderot</url>
+  <categorie>Documentaire</categorie>
+
+  <resume>Deux villes, deux perspectives du conflit israélo-palestinien. Écrans partagés permettant de basculer entre les témoignages quotidiens des deux côtés. Structure parallèle exemplaire.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Démontre comment l'interface peut matérialiser la complexité d'un conflit. Le spectateur construit sa propre compréhension en naviguant entre les points de vue.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

@@ -1,0 +1,18 @@
+<oeuvre id="the-johnny-cash-project" statut="en-ligne">
+  <titre>The Johnny Cash Project</titre>
+  <annee>2010</annee>
+  <par ref="chris-milk"/>
+  <par>Aaron Koblin</par>
+  <url>http://www.thejohnnycashproject.com/</url>
+  <categorie>Interface</categorie>
+
+  <resume>Des milliers de personnes dessinent des frames individuelles d'un clip vidéo pour la chanson "Ain't No Grave". Chaque spectateur contribue en redessinant une image, créant collectivement le clip final.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Œuvre contributive qui transforme les spectateurs en co-créateurs. Démontre la puissance de la création collective en ligne. Chaque visionnage est unique car les frames contributeurs changent.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

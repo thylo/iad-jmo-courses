@@ -1,0 +1,84 @@
+<concept id="structure-constellation">
+  <titre>Structure Constellation (Rhizome)</titre>
+  <genre>structure</genre>
+  <exemple ref="nicky-case-explorable-explanations"/>
+  <exemple ref="observable"/>
+  <voir ref="structure-parallele"/>
+  <voir ref="structure-embranchements"/>
+
+  <resume>Pas de structure hiérarchique. Chaque élément narratif est connecté à plusieurs autres. Navigation libre, pas de début/fin imposés.</resume>
+
+  <section titre="Définition">
+    <markdown>
+      La structure constellation (ou rhizome) abandonne la logique hiérarchique traditionnelle.
+      Les éléments narratifs forment un réseau où chaque nœud est connecté à plusieurs autres.
+      Le spectateur explore librement sans début ni fin imposés, construisant son propre chemin
+      et son propre sens.
+
+      Caractéristiques :
+
+      - Pas de hiérarchie
+      - Multiples entrées et sorties possibles
+      - Connexions multidirectionnelles
+      - Navigation non-linéaire complète
+    </markdown>
+  </section>
+
+  <section titre="Interaction">
+    <markdown>
+      Explorer librement. Chaque élément narratif mène à d'autres selon une logique de connexions, pas de chemin prédestiné.
+    </markdown>
+  </section>
+
+  <section titre="Schéma">
+    <markdown>
+      ```
+         A ─── B
+         │  ╲  │ ╲
+         │   ╲ │  ╲
+         C ─── D ─── E
+          ╲   ╱ │   ╱
+           ╲ ╱  │  ╱
+            F ──┴─ G
+      ```
+    </markdown>
+  </section>
+
+  <section titre="Avantages">
+    <markdown>
+      - Liberté totale d'exploration
+      - Chacun construit son propre récit
+      - Rejouabilité infinie
+      - Pertinent pour l'exploration poétique ou conceptuelle
+    </markdown>
+  </section>
+
+  <section titre="Inconvénients">
+    <markdown>
+      - Peut être désorientant
+      - Difficile de garantir une expérience satisfaisante
+      - Pas adapté aux récits avec climax/résolution
+      - Production très complexe et risquée
+    </markdown>
+  </section>
+
+  <section titre="Quand l'utiliser">
+    <markdown>
+      - Exploration poétique
+      - Bases de données (archives, mémoires)
+      - Quand le voyage importe plus que la destination
+      - Œuvres expérimentales
+      - Installations web narratives
+    </markdown>
+  </section>
+
+  <section titre="Variantes">
+    <markdown>
+      - **Constellation guidée** : Des indices subtils sans imposer un chemin
+      - **Constellation avec attracteurs** : Certains nœuds sont plus "visibles" que d'autres
+      - **Constellation temporelle** : Les connexions changent selon le temps de visite
+    </markdown>
+  </section>
+
+  <retroliens/>
+</concept>

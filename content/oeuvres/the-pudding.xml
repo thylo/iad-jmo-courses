@@ -1,0 +1,17 @@
+<oeuvre id="the-pudding" statut="en-ligne">
+  <titre>The Pudding</titre>
+  <annee>2017</annee>
+  <par>The Pudding</par>
+  <url>https://pudding.cool/</url>
+  <categorie>Outil</categorie>
+
+  <resume>Publication de "visual essays" interactifs sur la culture pop et la société. Combine data journalism, visualisations interactives et narration.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Chaque article est un outil d'exploration interactif unique. Les données deviennent narratives.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

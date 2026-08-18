@@ -1,0 +1,17 @@
+<oeuvre id="qwop" statut="en-ligne">
+  <titre>QWOP</titre>
+  <annee>2008</annee>
+  <par>Bennett Foddy</par>
+  <url>http://www.foddy.net/Athletics.html</url>
+  <categorie>Outil</categorie>
+
+  <resume>Course à pied où chaque touche contrôle une cuisse ou un mollet indépendamment. Résultat : chaos hilarant et difficulté extrême pour faire 100 mètres. L''interface devient l''obstacle.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Subvertit les conventions de contrôle pour créer du challenge et de l'humour. Démontre que la difficulté d'interface peut être un choix narratif.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

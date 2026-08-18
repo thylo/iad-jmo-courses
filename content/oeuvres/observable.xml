@@ -1,0 +1,17 @@
+<oeuvre id="observable" statut="en-ligne">
+  <titre>Observable</titre>
+  <annee>2018</annee>
+  <par>Mike Bostock</par>
+  <url>https://observablehq.com/</url>
+  <categorie>Outil</categorie>
+
+  <resume>Environnement de programmation web pour créer des visualisations de données interactives. Notebooks réactifs où chaque cellule de code s'exécute et affiche son résultat immédiatement.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Rend la programmation de visualisations accessible et immédiate. Exploration de données devient création.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

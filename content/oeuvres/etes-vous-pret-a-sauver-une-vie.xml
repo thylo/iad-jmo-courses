@@ -1,0 +1,17 @@
+<oeuvre id="etes-vous-pret-a-sauver-une-vie" statut="en-ligne">
+  <titre>Êtes-vous prêt à sauver une vie ?</titre>
+  <annee>2020</annee>
+  <par>Sauveunevie.be</par>
+  <url>https://sauveunevie.be/</url>
+  <categorie>Fiction</categorie>
+
+  <resume>Formation interactive aux premiers secours sous forme de fiction où vos choix ont des conséquences vitales.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Combine pédagogie et narration interactive pour enseigner des gestes salvateurs.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

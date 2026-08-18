@@ -1,0 +1,17 @@
+<oeuvre id="what-the-1921-tulsa-race-massacre-destroyed" statut="en-ligne">
+  <titre>What the 1921 Tulsa Race Massacre Destroyed</titre>
+  <annee>2021</annee>
+  <par ref="new-york-times"/>
+  <url>https://www.nytimes.com/interactive/2021/05/24/us/tulsa-race-massacre.html</url>
+  <categorie>Documentaire</categorie>
+
+  <resume>Utilise le machine learning pour reconstruire en 3D un quartier détruit lors du massacre de Tulsa. Navigation immersive dans l'histoire.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Combine technologie de pointe (ML, 3D) avec narration historique pour rendre palpable ce qui a été perdu.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

@@ -1,0 +1,16 @@
+<oeuvre id="chronicles-of-crime" statut="en-ligne">
+  <titre>Chronicles of Crime</titre>
+  <annee>2018</annee>
+  <par>Lucky Duck Games</par>
+  <categorie>Jeu</categorie>
+
+  <resume>Scannez des QR codes sur les cartes pour interroger des témoins via l'app, qui gère le dialogue et les indices selon vos découvertes. Certaines versions utilisent la réalité augmentée pour explorer les scènes de crime.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Combine objets physiques (cartes) et contenu numérique (dialogues, AR) de façon fluide. Les QR codes deviennent une interface narrative.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

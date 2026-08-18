@@ -1,0 +1,18 @@
+<oeuvre id="the-boat" statut="en-ligne">
+  <titre>The Boat</titre>
+  <annee>2015</annee>
+  <par>SBS Australia</par>
+  <par>Matt Huynh</par>
+  <url>https://www.sbs.com.au/theboat/</url>
+  <categorie>Fiction</categorie>
+
+  <resume>Utilise le scroll comme vecteur narratif pour raconter l'histoire d'un réfugié vietnamien. Les illustrations s'animent au défilement.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Réinvente la bande dessinée numérique en utilisant le scroll comme outil de révélation progressive.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

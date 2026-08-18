@@ -1,0 +1,17 @@
+<oeuvre id="la-pluie-a-midi" statut="en-ligne">
+  <titre>La Pluie à Midi</titre>
+  <annee>2020</annee>
+  <par>Liège Game Lab</par>
+  <url>https://www.youtube.com/watch?v=PjUfFM2bhc0</url>
+  <categorie>Jeu</categorie>
+
+  <resume>Expérience narrative où les joueurs écoutent une histoire audio tout en manipulant des objets physiques qui influencent le déroulement.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Le son devient l'interface narrative principale, les objets physiques sont les contrôles.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

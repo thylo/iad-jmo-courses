@@ -7,7 +7,7 @@ description: Le web comme médium narratif — site de cours, IAD Louvain-la-Neu
 
 Ce site tourne sur [Tempest](https://tempestphp.com). Le contenu est sur le
 disque, dans `content/` : du Markdown pour les pages de prose, du [XML](/demo/05-xml)
-pour les entités typées — œuvres, personnes, studios.
+pour les entités typées — œuvres, personnes, concepts.
 
 Cette version est un socle : elle sert à vérifier que la chaîne complète fonctionne
 avant d'y verser les cours. Le contenu Astro existant attend dans `astro/`, intact.
@@ -19,6 +19,8 @@ avant d'y verser les cours. Le contenu Astro existant attend dans `astro/`, inta
 - Le frontmatter alimente le titre et la description de la page.
 - Les entités XML forment un graphe : les liens `[[…]]` visent un identifiant,
   les rétroliens et les index se calculent tout seuls.
+- Les listes des [œuvres](/oeuvres), des [personnes](/personnes) et des
+  [concepts](/concepts) ne sont écrites nulle part : elles sont dérivées.
 
 ## Ce qui n'est pas là
 

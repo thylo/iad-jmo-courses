@@ -1,0 +1,17 @@
+<oeuvre id="last-hijack-interactive" statut="en-ligne">
+  <titre>Last Hijack Interactive</titre>
+  <annee>2014</annee>
+  <par>Submarine Channel</par>
+  <url>https://lasthijack.submarinechannel.com/</url>
+  <categorie>Documentaire</categorie>
+
+  <resume>Documentaire sur un pirate somalien, combinant animation, vidéo et choix narratifs. Le spectateur influence comment l'histoire est racontée.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Mélange documentaire et fiction interactive pour créer une empathie avec un sujet difficile.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

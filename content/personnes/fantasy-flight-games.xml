@@ -1,0 +1,9 @@
+<personne id="fantasy-flight-games" genre="studio">
+  <titre>Fantasy Flight Games</titre>
+
+  <section titre="Ici">
+    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  </section>
+
+  <retroliens/>
+</personne>

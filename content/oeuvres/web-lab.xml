@@ -1,0 +1,17 @@
+<oeuvre id="web-lab" statut="en-ligne">
+  <titre>Web Lab</titre>
+  <annee>2012</annee>
+  <par ref="google-creative-lab"/>
+  <url>https://www.youtube.com/watch?v=RrgjufJhmwk</url>
+  <categorie>Muséale</categorie>
+
+  <resume>Série d''expériences au Science Museum de Londres où des visiteurs en ligne pouvaient contrôler des machines physiques réelles dans le musée : bras robotiques, instruments de musique, etc.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Démontre le potentiel du web comme interface de contrôle à distance de systèmes physiques complexes. Pionnier de la connexion visiteurs physiques/visiteurs en ligne.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

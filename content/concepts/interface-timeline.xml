@@ -1,0 +1,160 @@
+<concept id="interface-timeline">
+  <titre>Timeline</titre>
+  <genre>interface</genre>
+  <voir ref="structure-parallele"/>
+  <voir ref="structure-concentrique"/>
+  <voir ref="interface-maps"/>
+
+  <resume>Les événements sont présentés chronologiquement. L'utilisateur navigue librement dans le temps.</resume>
+
+  <section titre="Définition">
+    <markdown>
+      L'interface timeline organise les événements selon une chronologie explicite. L'utilisateur navigue librement dans le temps, explorant les connexions de causalité. Les dates structurent la narration.
+
+      **Caractéristiques :**
+
+      - Organisation chronologique explicite
+      - Navigation temporelle libre
+      - Dates comme structure narrative
+      - Causalité temporelle matérialisée
+    </markdown>
+  </section>
+
+  <section titre="Intérêt narratif">
+    <markdown>
+      - **Construit un récit sur chronologie précise**
+      - **Montre les relations de causalité**
+      - **Donne contrôle du temps au spectateur**
+      - Référence commune (tous comprennent les dates)
+    </markdown>
+  </section>
+
+  <section titre="Enjeux et risques">
+    <markdown>
+      - **Peut se réduire à un énoncé de dates** (froid, non-narratif)
+      - **Difficile de raconter une histoire** avec "juste des dates"
+      - **Conception linéaire du temps** n'est pas universelle
+      - Risque de table de matière plutôt que narration
+    </markdown>
+  </section>
+
+  <section titre="Quand utiliser timeline ?">
+    <markdown>
+      - ✅ Vous racontez une histoire évoluant dans le temps
+      - ✅ Les dates ont importance thématique
+      - ✅ Causalité temporelle est centrale
+      - ✅ Vous avez contenu riche pour chaque période
+    </markdown>
+  </section>
+
+  <section titre="Design">
+    <markdown>
+      ### Clarté chronologique
+
+      La timeline doit être immédiatement comprise :
+
+      - Axe temporel visible
+      - Dates clairement indiquées
+      - Direction du temps évidente (gauche-droite ou haut-bas)
+
+      ### Densité temporelle
+
+      - Trop espacé : Manque de densité
+      - Trop serré : Impossible à naviguer
+      - Équilibre : Regrouper par périodes significatives
+
+      ### Connexions causales
+
+      Montrer comment les événements se causent mutuellement :
+
+      - Flèches, lignes de connexion
+      - Événements liés visualisés ensemble
+      - Causalité pas seulement chronologie
+    </markdown>
+  </section>
+
+  <section titre="Exemples (à développer)">
+    <markdown>
+      ### I Love Your Work (2014)
+
+      - Timeline de carrière d'une artiste
+      - Exploration libre de périodes
+      - Chronologie structure le récit
+      - Causalité: carrière se construit dans le temps
+
+      ### Stains, beau pays (2014)
+
+      - Timeline d'une région/histoire
+      - Navigation temporelle révélant événements
+      - Dates structurent la compréhension
+    </markdown>
+  </section>
+
+  <section titre="Variantes">
+    <markdown>
+      ### Timeline linéaire
+      Axe unique, événements ordonnés.
+
+      - Avantage : Simple, univoque
+      - Inconvénient : Pas de ramifications
+
+      ### Timeline arborescente
+      Multiples branches temporelles.
+
+      - Avantage : Causalités multiples
+      - Inconvénient : Complexité
+
+      ### Timeline circulaire
+      Temps conçu comme cyclique.
+
+      - Avantage : Pour histoires cycliques
+      - Inconvénient : Moins intuitif
+    </markdown>
+  </section>
+
+  <section titre="Combinaisons avec autres interfaces">
+    <markdown>
+      **Timeline + Scrollable**
+
+      - Scroll révèle progression temporelle
+      - Événements s'ajoutent chronologiquement
+
+      **Timeline + Écrans partagés**
+
+      - Comparer deux chronologies
+      - Événements parallèles visualisés ensemble
+    </markdown>
+  </section>
+
+  <section titre="Bonnes pratiques">
+    <markdown>
+      1. **Repères visuels** : Dater clairement
+      2. **Connexions significatives** : Pas juste chronologie
+      3. **Densité narrative** : Contenu riche par période
+      4. **Navigation intuitive** : Clair comment se déplacer
+      5. **Contexte** : Pourquoi cette date importe?
+    </markdown>
+  </section>
+
+  <section titre="Risques courants">
+    <markdown>
+      ❌ **Simple liste de dates** : Table de matière
+      ❌ **Trop d'événements** : Surcharge cognitive
+      ❌ **Pas de connexions** : Juste du chronologique
+      ❌ **Design froid** : Graphique sans poésie
+      ❌ **Non-intuitif** : Dur de naviguer
+    </markdown>
+  </section>
+
+  <section titre="Solutions">
+    <markdown>
+      ✅ Raconter des histoires via les dates
+      ✅ Limiter à 5-10 moments clés
+      ✅ Visualiser causalité et connexions
+      ✅ Ajouter imagery/design riche
+      ✅ Tester navigation avec utilisateurs
+    </markdown>
+  </section>
+
+  <retroliens/>
+</concept>

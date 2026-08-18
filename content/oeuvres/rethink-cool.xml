@@ -1,0 +1,17 @@
+<oeuvre id="rethink-cool" statut="en-ligne">
+  <titre>Rethink.cool</titre>
+  <annee>2019</annee>
+  <par>Rethink</par>
+  <url>https://rethink.cool/</url>
+  <categorie>Muséale</categorie>
+
+  <resume>Collectif et studio qui crée des expériences interactives pour musées et expositions. Approche multidisciplinaire mêlant installation physique, numérique et narration.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Portfolio de projets qui montrent comment créer des expériences muséales engageantes. Exemples concrets d'installations réussies combinant physique et numérique.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

@@ -1,0 +1,17 @@
+<oeuvre id="babel" statut="en-ligne">
+  <titre>Babel</titre>
+  <annee>2020</annee>
+  <par ref="arte"/>
+  <url>http://babeltheking.com/</url>
+  <categorie>Fiction</categorie>
+
+  <resume>Bande dessinée numérique avec navigation non-linéaire et animations réactives.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Explore de nouvelles formes de lecture de BD au-delà du simple "défilement".
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

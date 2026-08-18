@@ -1,0 +1,17 @@
+<oeuvre id="audience" statut="en-ligne">
+  <titre>Audience</titre>
+  <annee>2008</annee>
+  <par ref="random-international"/>
+  <url>https://www.randominternational.com/audience</url>
+  <categorie>Performance</categorie>
+
+  <resume>Mur de miroirs motorisés qui suivent les visiteurs. Chaque miroir traque un visiteur spécifique, créant une chorégraphie mécanique collective. Plus il y a de monde, plus le mouvement devient complexe et hypnotique.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Transforme la surveillance en ballet mécanique. Chaque visiteur influence le système mais le résultat global est imprévisible. Métaphore élégante de l'attention collective.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

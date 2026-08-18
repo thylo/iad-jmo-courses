@@ -40,7 +40,7 @@ final readonly class XmlParser
         $this->checkRoot($path, $root, $schema);
 
         $data = $this->collect($root, $schema);
-        $this->checkRequired($path, $root, $schema, $data);
+        $this->checkData($path, $root, $schema, $data);
 
         return new XmlSource(
             path: $path,
@@ -51,7 +51,7 @@ final readonly class XmlParser
             summary: $data['resume'][0] ?? null,
             root: $root,
             data: $data,
-            references: $this->references($root, $schema, $data),
+            references: $this->references($root, $schema),
         );
     }
 
@@ -162,7 +162,7 @@ final readonly class XmlParser
                 throw ContentException::at($path, sprintf('<%s> ne peut apparaître qu\'une fois.', $name), $node->getLineNo());
             }
 
-            if ($field->isReference && Html::attribute($node, 'ref') === '') {
+            if ($field->isReference && ! $field->allowsText && Html::attribute($node, 'ref') === '') {
                 throw ContentException::at($path, sprintf('<%s> attend un attribut ref.', $name), $node->getLineNo());
             }
 
@@ -192,11 +192,23 @@ final readonly class XmlParser
     }
 
     /** @param array<string, string[]> $data */
-    private function checkRequired(string $path, \Dom\Element $root, Schema $schema, array $data): void
+    private function checkData(string $path, \Dom\Element $root, Schema $schema, array $data): void
     {
         foreach ($schema->fields as $field) {
-            if ($field->required && ($data[$field->name] ?? []) === []) {
+            $values = $data[$field->name] ?? [];
+
+            if ($field->required && $values === []) {
                 throw ContentException::at($path, sprintf('<%s> est obligatoire et ne peut pas être vide.', $field->name), $root->getLineNo());
+            }
+
+            foreach ($field->values !== null ? $values : [] as $value) {
+                if (! in_array($value, $field->values, true)) {
+                    throw ContentException::at(
+                        $path,
+                        sprintf('<%s>%s</%1$s> : valeur non prévue. Attendues : %s.', $field->name, $value, implode(' | ', $field->values)),
+                        $root->getLineNo(),
+                    );
+                }
             }
         }
     }
@@ -237,7 +249,11 @@ final readonly class XmlParser
                 continue;
             }
 
-            $value = $field->isReference ? Html::attribute($child, 'ref') : $this->text($child);
+            $value = $field->isReference ? Html::attribute($child, 'ref') : '';
+
+            if ($value === '' && (! $field->isReference || $field->allowsText)) {
+                $value = $this->text($child);
+            }
 
             if ($value !== '') {
                 $data[$field->name][] = $value;
@@ -250,19 +266,28 @@ final readonly class XmlParser
     /**
      * Every id this entity points at: ref= attributes and [[wikilinks]] alike.
      *
+     * Read from the attributes rather than from the collected data, because a
+     * field like <par> also accepts a bare name — and a creator we have not
+     * written a page for is not a dangling reference.
+     *
      * Wikilinks are read straight from the <markdown> source, so backlinks exist
      * before anything is rendered.
      *
-     * @param array<string, string[]> $data
      * @return string[]
      */
-    private function references(\Dom\Element $root, Schema $schema, array $data): array
+    private function references(\Dom\Element $root, Schema $schema): array
     {
         $references = [];
 
-        foreach ($schema->fields as $field) {
-            if ($field->isReference) {
-                $references = [...$references, ...($data[$field->name] ?? [])];
+        foreach ($root->children as $child) {
+            if ($schema->field($child->localName)?->isReference !== true) {
+                continue;
+            }
+
+            $reference = Html::attribute($child, 'ref');
+
+            if ($reference !== '') {
+                $references[] = $reference;
             }
         }
 

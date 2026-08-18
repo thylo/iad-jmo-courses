@@ -1,0 +1,9 @@
+<personne id="arte" genre="organisation">
+  <titre>Arte</titre>
+
+  <section titre="Ici">
+    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  </section>
+
+  <retroliens/>
+</personne>

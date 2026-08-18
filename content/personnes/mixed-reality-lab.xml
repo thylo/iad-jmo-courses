@@ -1,0 +1,9 @@
+<personne id="mixed-reality-lab" genre="organisation">
+  <titre>Mixed Reality Lab (Université de Nottingham)</titre>
+
+  <section titre="Ici">
+    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  </section>
+
+  <retroliens/>
+</personne>

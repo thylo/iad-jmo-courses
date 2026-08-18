@@ -1,0 +1,17 @@
+<oeuvre id="plonge-be-family-bash" statut="en-ligne">
+  <titre>Plonge.be - Family Bash</titre>
+  <annee>2021</annee>
+  <par>TBS Belgium</par>
+  <url>https://game.plonge.be/index/startscherm?lang=nl_nl</url>
+  <categorie>Jeu</categorie>
+
+  <resume>Jeu web qui accompagne une expérience de sensibilisation. Mélange jeu physique et interface web pour créer une expérience éducative collective.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Démontre comment le web peut servir d'interface pour des expériences éducatives collectives. Le numérique au service de la sensibilisation.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

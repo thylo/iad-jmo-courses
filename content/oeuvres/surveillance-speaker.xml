@@ -1,0 +1,17 @@
+<oeuvre id="surveillance-speaker" statut="archive">
+  <titre>Surveillance Speaker</titre>
+  <annee>2018</annee>
+  <par ref="dries-depoorter"/>
+  <url>https://driesdepoorter.be/surveillancespeaker/</url>
+  <categorie>Outil</categorie>
+
+  <resume>Caméra rotative qui observe l'espace et décrit à voix haute ce qu'elle voit via IA de reconnaissance d'image. "Je vois une personne debout", "Je vois un téléphone", "Je vois quelqu'un qui regarde ailleurs". La surveillance devient tangible et inconfortable.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Rend audible et explicite ce qui est normalement silencieux. La voix transforme l'observation passive en présence oppressante. Métaphore efficace de la surveillance algorithmique omniprésente.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

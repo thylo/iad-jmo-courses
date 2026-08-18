@@ -1,0 +1,91 @@
+<oeuvre id="question-mark-ohio" statut="en-ligne">
+  <titre>Question Mark, Ohio</titre>
+  <annee>2023</annee>
+  <par>Joe Meno</par>
+  <par>Dan Sinker</par>
+  <url>https://questionmarkohio.com</url>
+  <categorie>Fiction</categorie>
+  <categorie>Interface</categorie>
+  <voir ref="fort-mcmoney"/>
+  <voir ref="generation-what"/>
+  <voir ref="twitch-plays-pokemon"/>
+
+  <resume>Un roman interactif innovant où les lecteurs suivent Violet Bookman enquêtant sur des disparitions mystérieuses dans une petite ville de l'Ohio. Distribué simultanément via Instagram, Discord, emails, appels téléphoniques, site web dédié et réseaux sociaux.</resume>
+
+  <section titre="Ce qui fonctionne">
+    <markdown>
+      Architecture multi-plateforme créant une expérience narrative immersive. Participation active des lecteurs dans la résolution d'énigmes. Mélange de storytelling linéaire (Instagram feed) et exploratoire (site web). Création d'une communauté engagée via Discord. Les créateurs écrivaient les règles en cours de route (« a series of escalating dares »), transformant les contraintes en opportunités narratives.
+    </markdown>
+  </section>
+
+  <section titre="Vue d'ensemble">
+    <markdown>
+      **Question Mark, Ohio** est une expérience narrative révolutionnaire où le medium lui-même devient partie intégrante de l'histoire. Lancé en avril 2023, ce projet collaboratif entre le romancier **Joe Meno** et le créateur médias **Dan Sinker** réinvente la narration sérielle pour l'époque numérique.
+    </markdown>
+  </section>
+
+  <section titre="L'histoire">
+    <markdown>
+      Le roman suit **Violet Bookman**, une jeune femme ordinaire confrontée à des disparitions inexplicables dans sa petite ville natale de l'Ohio. Plutôt que d'être une simple héroïne passive, Violet incarne la curiosité des lecteurs : elle pose les questions, elle enquête, elle compile les indices.
+
+      À mesure que l'histoire se déploie, nous rencontrons un cast complexe de personnages :
+
+      - Un **policier musicien** embarqué dans des complications personnelles
+      - Une **enseignante** en quête du fantôme de son frère
+      - Une **bibliothécaire** gardienne de secrets locaux
+      - D'autres habitants de cette petite ville où quelque chose ne tourne clairement pas rond
+    </markdown>
+  </section>
+
+  <section titre="L'Innovation Multi-Plateforme">
+    <markdown>
+      Ce qui rend **Question Mark, Ohio** unique, c'est son architecture distribuée :
+
+      - **Instagram** : L'histoire se déploie sous forme de feed, avec des images, des extraits textuels, créant un récit scrollable
+      - **Site Web (questionmarkohio.com)** : Galeries d'épisodes complets, guide des personnages et des lieux, archivage de l'enquête
+      - **Discord** : Communauté engagée discutant des indices en temps réel
+      - **Appels Téléphoniques** : Des numéros à appeler pour accéder à des enregistrements supplémentaires (ancrant le récit dans la réalité)
+      - **Email** : Newsletters résumant les développements de la semaine
+      - **Twitter** : Flux du policier maladroit, révélant sa perspectived'autres personnages
+      - **LinkedIn** : Compte du « corporate overlord » malveillant impliqué dans les disparitions
+    </markdown>
+  </section>
+
+  <section titre="Ce qui fonctionne">
+    <markdown>
+      1. **Le Web Comme Medium Narratif Pur** : Les créateurs ont construit des **faux sites web réalistes** pour raconter l'histoire. Ce n'est pas une adaptation narrative sur le web—c'est une narration *faite de* web. Les mensonges du policier sont incarnés dans son compte Twitter. La corruption de l'entreprise dans son LinkedIn. L'autorité municipale sur son site officiel. Le medium web lui-même devient le message.
+
+      2. **Fragmentation Cohérente** : Malgré sa distribution sur 7+ canaux, la narration demeure cohérente. Chaque plateforme joue un rôle narratif spécifique, révélant différentes facettes de la réalité de Question Mark.
+
+      3. **Participation Réelle** : Les lecteurs ne sont pas des spectateurs passifs cliquant sur des branches. Ils enquêtent, compilent des indices, partagent des théories, discutent sur Discord. C'est une forme de **contribution collective** à l'enquête.
+
+      4. **Temps Réel Émergent** : Contrairement aux productions classiques, les créateurs ne connaissaient pas l'intégralité de la fin avant de commencer. Ils écrivaient les règles en cours de route, ce qui crée une authenticité narrative rare et une co-création avec l'audience.
+
+      5. **Rôles Fluidifiés** : Les lecteurs sont à la fois **fantômes** (observateurs invisibles de Violet et des événements) et **eux-mêmes** (participant authentiquement via Discord, appels téléphoniques, réseaux sociaux).
+
+      6. **Énigmes sans Conséquences Majeures** : Les choix des lecteurs (résoudre une énigme, appeler un numéro, suivre un fil Twitter) sont **exploratoires** plutôt que déterminants. L'histoire continue, mais avec des variantes selon les pistes suivies.
+    </markdown>
+  </section>
+
+  <section titre="Implications Pédagogiques">
+    <markdown>
+      **Question Mark, Ohio** illustre plusieurs concepts clés :
+
+      - **Narrative Fragmentation** : Comment distribuer une histoire complexe sur plusieurs médias
+      - **Audience Engagement** : Créer une communauté active autour de la fiction
+      - **Hybrid Interactivity** : Combiner machine (web), social (Discord), et contributive (résolution d'énigmes)
+      - **Emergence** : Laisser l'histoire émerger plutôt que de la contrôler entièrement
+      - **Platform Constraints as Features** : Utiliser les limites de chaque plateforme comme des outils narratifs
+
+      C'est un excellent cas d'étude pour les étudiants en narrative design, en game design, en médias digitaux, et en storytelling interactif.
+    </markdown>
+  </section>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Démontre comment fragmenter une narration complexe à travers plusieurs canaux numériques sans perdre la cohérence. Exemple d'interactivité hybride combinant machine (interface web), sociale (Discord, appels téléphoniques), et contributive (résolution collaborative). Modèle d'engagement lecteur en temps réel. Cas d'étude pour le narrative design contemporain et l'émergence créative.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

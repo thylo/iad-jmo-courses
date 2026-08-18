@@ -1,0 +1,9 @@
+<personne id="lloyd-et-peter" genre="collectif">
+  <titre>Lloyd et Peter (Foxdog Studios)</titre>
+
+  <section titre="Ici">
+    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  </section>
+
+  <retroliens/>
+</personne>

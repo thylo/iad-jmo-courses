@@ -1,0 +1,147 @@
+<concept id="guide-camera-types-interactive-installations">
+  <titre>Guide to Camera Types for Interactive Installations</titre>
+  <genre>ressource</genre>
+  <voir ref="structure-concentrique"/>
+
+  <resume>Guide complet sur le choix des caméras pour les installations interactives. Couvre webcams, caméras infrarouge, de profondeur et thermiques avec leurs avantages, inconvénients et cas d'usage.</resume>
+
+  <section titre="Résumé">
+    <markdown>
+      Ce guide complet de Blair Neal couvre les types de caméras disponibles pour les installations interactives, du plus basique (webcam USB) aux plus sophistiquées (thermique). L'article souligne que "choisir le bon type de caméra est l'une des décisions techniques les plus importantes que vous pouvez prendre dans vos phases de planification initiale."
+
+      **Durée de lecture:** ~23 minutes | ~4,455 mots
+
+      ---
+    </markdown>
+  </section>
+
+  <section titre="Types de Caméras Couverts">
+    <markdown>
+      ### 1. Webcams Basiques (RGB)
+
+      - **Connexion:** USB 2.0, USB 3.0, Firewire
+      - **Résolution typique:** 640×480 @30fps
+      - **Avantages:** Peu coûteuses, largement supportées, fiables
+      - **Inconvénients:** Sensibles aux changements d'éclairage, latence, contrôle manuel limité
+      - **Cas d'usage:** Prototypes rapides, installations basiques avec éclairage contrôlé
+
+      ### 2. Caméras RGB Hautes Résolutions
+
+      - Caméscopes HD/DV, cartes de capture, caméras de production haute-end
+      - Résolutions jusqu'à 1080p et au-delà
+      - Fréquences d'images jusqu'à 60fps+
+      - **Avantages:** Qualité supérieure, meilleur tracking
+      - **Inconvénients:** Coût plus élevé, connexion plus complexe
+
+      ### 3. Caméras Infrarouge (IR)
+
+      - **Fonctionnement:** Détecte la lumière infrarouge (700-1000nm)
+      - **Exemples:** PlayStation Eye, Point Grey Firefly
+      - **Avantage clé:** Tracking invisible aux yeux humains
+      - **Cas d'usage:** Installations où on veut masquer les marqueurs ou lumières de tracking
+      - **Environnement idéal:** Espaces sombres avec émetteurs IR
+
+      ### 4. Caméras de Profondeur (Depth Cameras)
+
+      - **Technologie:** Lumière structurée ou time-of-flight
+      - **Exemples:** Kinect, Asus Xtion, Panasonic D-Imager
+      - **Capacités:** Skeleton tracking, soustraction de fond sophistiquée
+      - **Limitations:** Portée effective limitée (généralement &lt; 3.6m)
+      - **Révolution:** Démocratisation du tracking 3D pour installations
+
+      ### 5. Caméras Thermiques
+
+      - **Détecte:** Infrarouge longue longueur d'onde (7000-14000nm)
+      - **Signature thermique:** Détecte la chaleur des objets/personnes
+      - **Coût:** $1,000-20,000+
+      - **Avantage:** Fonctionne jour/nuit, robuste, indépendant de l'éclairage
+      - **Inconvénient:** Coût prohibitif pour la plupart des projets
+
+      ---
+    </markdown>
+  </section>
+
+  <section titre="Points Clés à Retenir">
+    <markdown>
+      ### Évaluation Environnementale
+      Avant de choisir une caméra, évaluer:
+
+      - Conditions d'éclairage (contrôlé vs naturel)
+      - Dimensions de l'espace
+      - Longueurs de câble nécessaires
+      - Capacités de contrôle manuel requises
+
+      ### Latence et Frame Rate
+
+      - Les webcams standards max à 30fps
+      - **Recommandé:** 60fps pour tracking réactif
+      - La latence affecte directement la sensation d'interactivité
+
+      ### Limitations de Connexion
+
+      - USB fiable jusqu'à ~30m
+      - Portées plus longues requièrent des repeaters
+      - Considérer Firewire ou Ethernet pour installations permanentes
+
+      ### Testing Essentiel
+      "Faites des tests prolongés avant installation" pour éviter les défaillances sur site. Chaque environnement a ses spécificités.
+
+      ### Support Logiciel
+      Vérifier la compatibilité avec votre environnement de développement:
+
+      - Processing
+      - OpenFrameworks
+      - Max/MSP
+      - Pure Data
+
+      ### Éclairage Contrôlé
+      Les environnements avec éclairage artificiel contrôlé offrent des performances prévisibles et reproductibles.
+
+      ---
+    </markdown>
+  </section>
+
+  <section titre="Cas d'Usage par Type de Caméra">
+    <markdown>
+      | Type | Meilleur pour | Limitation |
+      |------|---------------|-----------|
+      | **Webcam RGB** | Prototypes, budgets limités | Sensibilité éclairage, latence |
+      | **RGB HD** | Installations semi-permanentes | Coût, connexion complexe |
+      | **Infrarouge** | Masquer le tracking, environnements sombres | Portée limitée, infrarouge émis visible |
+      | **Depth** | Interaction corps complète, gestes complexes | Portée ~3m, coûteux |
+      | **Thermique** | Tracking 24/24 tous temps | Très coûteux, très spécialisé |
+
+      ---
+    </markdown>
+  </section>
+
+  <section titre="Questions de Conception">
+    <markdown>
+      Avant de choisir une caméra, se poser:
+
+      1. **Quel niveau de précision** ai-je besoin?
+      2. **Combien de personnes** simultanément doivent être trackées?
+      3. **Quel budget** puis-je dédier au hardware?
+      4. **Quel environnement** sera contrôlé/permanent?
+      5. **Quelle latence** est acceptable pour mon interaction?
+
+      ---
+    </markdown>
+  </section>
+
+  <section titre="Intérêt Pédagogique">
+    <markdown>
+      Ce guide est **essentiel** pour:
+
+      - Comprendre les choix techniques des installations interactives
+      - Apprendre à évaluer les trade-offs hardware
+      - Planifier des installations avec des contraintes réalistes
+      - Démystifier le "magic" derrière le tracking
+      - Faire des choix informés dans la phase de conception
+
+      C'est un repère de référence constant dans le processus de développement d'installations interactives.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</concept>

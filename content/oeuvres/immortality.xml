@@ -1,0 +1,17 @@
+<oeuvre id="immortality" statut="en-ligne">
+  <titre>IMMORTALITY</titre>
+  <annee>2022</annee>
+  <par>Sam Barlow</par>
+  <url>https://store.steampowered.com/app/1350200/IMMORTALITY/</url>
+  <categorie>Fiction</categorie>
+
+  <resume>Jeu narratif qui explore trois films fictifs à travers leurs rushes. Le joueur reconstitue l'histoire en explorant les images, découvrant des connections cachées entre les scènes. Interface de montage vidéo détournée en outil narratif.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Réinvente la narration interactive en utilisant le langage du cinéma. Le montage devient le mécanisme de jeu. Démontre qu'on peut créer une narration complexe en laissant le spectateur assembler les pièces.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

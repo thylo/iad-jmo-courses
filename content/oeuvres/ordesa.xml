@@ -1,0 +1,17 @@
+<oeuvre id="ordesa" statut="en-ligne">
+  <titre>Ordesa</titre>
+  <annee>2020</annee>
+  <par ref="arte"/>
+  <url>https://ordesa.arte.tv/</url>
+  <categorie>Fiction</categorie>
+
+  <resume>Fiction interactive optimisée pour mobile/tablette avec narration à embranchements basée sur un roman.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Adapte le roman au format interactif mobile de façon native.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

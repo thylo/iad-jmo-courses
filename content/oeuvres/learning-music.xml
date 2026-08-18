@@ -1,0 +1,17 @@
+<oeuvre id="learning-music" statut="en-ligne">
+  <titre>Learning Music</titre>
+  <annee>2017</annee>
+  <par>Ableton</par>
+  <url>https://learningmusic.ableton.com/</url>
+  <categorie>Outil</categorie>
+
+  <resume>Cours interactif de composition musicale avec séquenceur intégré. Enseigne les bases (rythme, notes, harmonies, structure) en permettant d'expérimenter immédiatement.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      L'outil pédagogique est aussi un instrument de création. Apprendre en créant directement.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

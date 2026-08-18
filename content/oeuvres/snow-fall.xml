@@ -1,0 +1,17 @@
+<oeuvre id="snow-fall" statut="en-ligne">
+  <titre>Snow Fall: The Avalanche at Tunnel Creek</titre>
+  <annee>2012</annee>
+  <par ref="new-york-times"/>
+  <url>https://www.nytimes.com/projects/2012/snow-fall/</url>
+  <categorie>Documentaire</categorie>
+
+  <resume>Article qui a révolutionné le journalisme web en combinant scrollytelling, vidéos, animations 3D et cartographie interactive pour raconter une avalanche meurtrière.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Projet pionnier qui a défini le scrollytelling comme forme narrative. A inspiré des milliers d'imitateurs.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

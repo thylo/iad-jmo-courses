@@ -1,0 +1,9 @@
+<personne id="chris-milk" genre="personne">
+  <titre>Chris Milk</titre>
+
+  <section titre="Ici">
+    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  </section>
+
+  <retroliens/>
+</personne>

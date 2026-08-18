@@ -1,0 +1,18 @@
+<oeuvre id="clouds-over-sidra" statut="en-ligne">
+  <titre>Clouds over Sidra</titre>
+  <annee>2015</annee>
+  <par>Gabo Arora</par>
+  <par ref="chris-milk"/>
+  <url>https://www.youtube.com/watch?v=mUosdCQsMkM</url>
+  <categorie>Documentaire</categorie>
+
+  <resume>Documentaire en réalité virtuelle qui plonge le spectateur dans le camp de réfugiés de Za'atari en Jordanie à travers les yeux d'une jeune fille syrienne.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Utilise l'immersion VR pour créer de l'empathie. Le spectateur "est" dans le camp.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

@@ -1,0 +1,18 @@
+<oeuvre id="can-you-sing-like-freddie" statut="en-ligne">
+  <titre>Can You Sing Like Freddie?</titre>
+  <annee>2019</annee>
+  <par ref="google-creative-lab"/>
+  <par>YouTube</par>
+  <url>https://freddiemeter.withyoutube.com/</url>
+  <categorie>Outil</categorie>
+
+  <resume>Chantez du Queen et l'application analyse votre voix en temps réel pour la comparer à Freddie Mercury (justesse, timing, timbre). Web Audio API pour l'analyse vocale.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Transforme un outil d'analyse audio (Web Audio API) en jeu ludique et engageant.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

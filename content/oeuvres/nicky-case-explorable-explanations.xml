@@ -1,0 +1,17 @@
+<oeuvre id="nicky-case-explorable-explanations" statut="en-ligne">
+  <titre>Nicky Case - Explorable Explanations</titre>
+  <annee>2014</annee>
+  <par>Nicky Case</par>
+  <url>https://ncase.me/</url>
+  <categorie>Outil</categorie>
+
+  <resume>Collection de "jeux" interactifs qui enseignent des concepts complexes : théorie des jeux, évolution, anxiété, biais cognitifs. Chaque concept devient une simulation interactive.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Transforme des sujets abstraits en expériences concrètes manipulables. L'outil pédagogique devient œuvre narrative.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

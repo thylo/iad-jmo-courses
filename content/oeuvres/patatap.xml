@@ -1,0 +1,18 @@
+<oeuvre id="patatap" statut="en-ligne">
+  <titre>Patatap</titre>
+  <annee>2014</annee>
+  <par>Jono Brandel</par>
+  <par>Lullatone</par>
+  <url>https://patatap.com/</url>
+  <categorie>Outil</categorie>
+
+  <resume>Chaque touche du clavier déclenche un son et une animation visuelle synchronisés. Simple mais infiniment rejouable. Le clavier devient un instrument musical et visuel.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Transforme un périphérique utilitaire (clavier) en outil de création artistique. Démontre la puissance de la synchronisation audio-visuelle.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

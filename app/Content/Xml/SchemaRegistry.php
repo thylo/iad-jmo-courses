@@ -7,39 +7,63 @@ namespace App\Content\Xml;
 /**
  * The known entity types.
  *
- * Adding a type happens here and nowhere else. "concept" and "seance" will come
- * once "oeuvre" and "personne" have been judged on real content.
+ * Adding a type happens here and nowhere else.
  */
 final readonly class SchemaRegistry
 {
+    /** Cleaned up from the Astro corpus, which had drifted into synonyms. */
+    private const array CATEGORIES = [
+        'Fiction', 'Documentaire', 'Interface', 'Outil', 'Jeu',
+        'Performance', 'Urbain', 'Muséale', 'Installation',
+    ];
+
     /** @var array<string, Schema> */
     private array $schemas;
 
     public function __construct()
     {
-        $work = new Schema(
-            type: 'oeuvre',
-            fields: [
-                new Field(name: 'annee', label: 'Année'),
-                new Field(name: 'url', label: 'En ligne', isUrl: true),
-                new Field(name: 'par', label: 'Par', repeatable: true, isReference: true),
-                new Field(name: 'concept', label: 'Concepts', repeatable: true, isReference: true),
-                new Field(name: 'voir', label: 'Voir aussi', repeatable: true, isReference: true),
-            ],
-            attributes: ['statut' => ['en-ligne', 'hors-ligne', 'archive']],
-        );
+        $schemas = [
+            new Schema(
+                type: 'oeuvre',
+                fields: [
+                    new Field(name: 'annee', label: 'Année'),
+                    new Field(name: 'url', label: 'En ligne', isUrl: true),
+                    new Field(name: 'par', label: 'Par', repeatable: true, isReference: true, allowsText: true),
+                    new Field(name: 'categorie', label: 'Catégories', repeatable: true, values: self::CATEGORIES),
+                    new Field(name: 'concept', label: 'Concepts', repeatable: true, isReference: true),
+                    new Field(name: 'voir', label: 'Voir aussi', repeatable: true, isReference: true),
+                ],
+                attributes: ['statut' => ['en-ligne', 'hors-ligne', 'archive']],
+            ),
+            new Schema(
+                type: 'personne',
+                fields: [
+                    new Field(name: 'lieu', label: 'Lieu'),
+                    new Field(name: 'depuis', label: 'Depuis'),
+                    new Field(name: 'url', label: 'Site', isUrl: true),
+                ],
+                attributes: ['genre' => ['personne', 'studio', 'collectif', 'organisation']],
+            ),
+            new Schema(
+                type: 'concept',
+                fields: [
+                    new Field(
+                        name: 'genre',
+                        label: 'Famille',
+                        required: true,
+                        values: ['structure', 'forme', 'role', 'interface', 'choix', 'ressource'],
+                    ),
+                    new Field(name: 'exemple', label: 'Illustré par', repeatable: true, isReference: true),
+                    new Field(name: 'voir', label: 'Voir aussi', repeatable: true, isReference: true),
+                ],
+            ),
+            // A page that is not an entity: a listing, an introduction. It has an
+            // id so it can be linked to, and blocks like any other page — which is
+            // what lets an index be derived instead of maintained by hand.
+            new Schema(type: 'page', fields: []),
+        ];
 
-        $person = new Schema(
-            type: 'personne',
-            fields: [
-                new Field(name: 'lieu', label: 'Lieu'),
-                new Field(name: 'depuis', label: 'Depuis'),
-                new Field(name: 'url', label: 'Site', isUrl: true),
-            ],
-            attributes: ['genre' => ['personne', 'studio', 'collectif']],
-        );
-
-        $this->schemas = [$work->type => $work, $person->type => $person];
+        $this->schemas = array_column($schemas, null, 'type');
     }
 
     public function get(string $type): ?Schema

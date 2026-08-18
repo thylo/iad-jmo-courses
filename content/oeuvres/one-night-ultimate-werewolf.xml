@@ -1,0 +1,16 @@
+<oeuvre id="one-night-ultimate-werewolf" statut="en-ligne">
+  <titre>One Night Ultimate Werewolf</titre>
+  <annee>2014</annee>
+  <par>Bezier Games</par>
+  <categorie>Jeu</categorie>
+
+  <resume>L'application remplace le narrateur humain en guidant la phase de nuit, gérant les timers et créant l'ambiance sonore. Les joueurs peuvent tous participer.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Utilise le web pour supprimer le besoin d'un maître du jeu, permettant à tous de jouer simultanément.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

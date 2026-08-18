@@ -1,0 +1,18 @@
+<oeuvre id="the-wilderness-downtown" statut="en-ligne">
+  <titre>The Wilderness Downtown</titre>
+  <annee>2010</annee>
+  <par ref="chris-milk"/>
+  <par ref="google-creative-lab"/>
+  <url>http://www.thewildernessdowntown.com/</url>
+  <categorie>Interface</categorie>
+
+  <resume>Clip pour "We Used to Wait" d'Arcade Fire qui utilise Google Maps de votre quartier d'enfance, ouvre plusieurs fenêtres de navigateur synchronisées, animations HTML5 Canvas. Expérience personnalisée et immersive.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Pionnier de l'usage créatif de l'API Google Maps et des fenêtres multiples synchronisées. Transforme le clip musical en expérience nostalgique personnelle.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

@@ -1,0 +1,17 @@
+<oeuvre id="keep-talking-and-nobody-explodes" statut="en-ligne">
+  <titre>Keep Talking and Nobody Explodes</titre>
+  <annee>2015</annee>
+  <par>Steel Crate Games</par>
+  <url>https://keeptalkinggame.com/</url>
+  <categorie>Jeu</categorie>
+
+  <resume>Un joueur voit une bombe sur l'écran, les autres ont le manuel de désamorçage (papier ou PDF). Communication verbale urgente requise. Interface web synchronisée entre désamorceur et experts.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Crée une expérience de communication intense en séparant l'information visuellement. Le web devient l'interface du joueur actif.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

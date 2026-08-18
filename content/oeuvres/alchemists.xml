@@ -1,0 +1,16 @@
+<oeuvre id="alchemists" statut="en-ligne">
+  <titre>Alchemists</titre>
+  <annee>2014</annee>
+  <par>Czech Games Edition</par>
+  <categorie>Jeu</categorie>
+
+  <resume>L'app gère la logique complexe de déduction des potions (quelle combinaison d'ingrédients produit quoi) de façon cohérente et secrète. Les joueurs expérimentent et déduisent.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      L'app gère une logique trop complexe pour être praticable manuellement, ouvrant de nouvelles mécaniques de jeu.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

@@ -1,0 +1,16 @@
+<oeuvre id="the-and" statut="hors-ligne">
+  <titre>The {} And</titre>
+  <annee>2015</annee>
+  <par>The {} And</par>
+  <categorie>Interface</categorie>
+
+  <resume>Expérience narrative où vous choisissez visuellement votre personnage en début d'histoire. L'interface galerie transforme le choix narratif en moment visuel fort. Chaque personnage mène à une version différente de l'histoire.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Le choix de personnage devient un moment esthétique et narratif significatif. Démontre qu'une galerie visuelle peut être une interface narrative puissante.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

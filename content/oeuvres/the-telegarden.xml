@@ -1,0 +1,17 @@
+<oeuvre id="the-telegarden" statut="archive">
+  <titre>The Telegarden</titre>
+  <annee>1995</annee>
+  <par>Ken Goldberg</par>
+  <url>https://goldberg.berkeley.edu/garden/Ars/</url>
+  <categorie>Muséale</categorie>
+
+  <resume>Les visiteurs du site web pouvaient contrôler un bras robotique réel pour planter et arroser des graines dans un vrai jardin. Œuvre pionnière d'interaction web/monde physique.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Projet visionnaire datant de 1995 qui démontrait déjà que le web pouvait contrôler le monde physique. Ancêtre des objets connectés. Installation artistique web historique.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>
