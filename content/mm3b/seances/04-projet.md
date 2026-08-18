@@ -1,0 +1,63 @@
+---
+title: Séance 4 — Projet final
+description: Concevoir une expérience interactive complète, la présenter, la défendre.
+---
+
+# Séance 4 — Projet final
+
+Quatre heures. Conception et pitch.
+
+## Objectifs
+
+- Mener un concept jusqu'à un dossier tenable
+- Défendre ses choix à l'oral, face aux questions
+
+## Contraintes
+
+- Durée de l'expérience : trois à cinq minutes
+- Une émotion claire
+- Cohérence entre l'intention et ce qui est proposé
+
+## Déroulé
+
+### 1. Briefing (15 min)
+
+Rappel des contraintes et de ce qui est attendu.
+
+### 2. Temps de conception (120 min)
+
+Travail individuel pour finaliser le dossier. L'enseignant circule.
+
+### 3. Pitchs (105 min)
+
+Cinq minutes de présentation, trois minutes de questions.
+
+## Livrable
+
+### Dossier de conception
+
+Un PDF unique, cinq à dix pages hors storyboard.
+
+1. **Page de garde** — titre du projet, votre nom, date
+2. **Storyboard complet** — scan papier ou fichier numérique, trois à cinq états
+   minimum, avec annotations
+3. **Brief de conception** — intention, synopsis, parcours du spectateur,
+   références, moodboard
+4. **Justification narrative** — 200 mots minimum : pourquoi cette interaction
+   pour cette histoire
+
+### Présentation orale
+
+Cinq minutes de présentation, trois minutes de questions. Montrez le storyboard,
+et défendez vos choix.
+
+## Conseils
+
+**Coupez tôt.** Un projet plus petit et fini vaut mieux qu'un projet ambitieux à
+40 %. Si c'est trop gros, réduisez. Si c'est fini en avance, affinez.
+
+**Testez sur quelqu'un.** Faites lire votre storyboard à une personne qui n'a
+pas suivi le cours. Si elle ne comprend pas ce que fait le spectateur, réécrivez.
+
+**Préparez la question qui fâche.** On vous demandera pourquoi cette interaction
+plutôt qu'une autre. Ayez la réponse.

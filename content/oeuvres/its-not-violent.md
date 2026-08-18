@@ -1,0 +1,187 @@
+---
+title: It's Not Violent
+creators: [Locomotive, SOS Violence Conjugale]
+year: 2018
+url: https://itsnotviolent.com/
+status: functional
+description: Campagne de sensibilisation interactive utilisant des scénarios de textos réalistes où les utilisateurs incarnent une victime de violence conjugale psychologique — exposant comment la manipulation et le contrôle subtils se manifestent dans les communications quotidiennes entre partenaires.
+tags: []
+---
+
+## Ce qui fonctionne
+
+Interface de messaging épurée (textos minimaliste) qui crée une proximité affective immédiate. Chaque scénario offre 243 combinaisons possibles de réponses, révélant comment les perceptions de ce qui est 'violent' varient radicalement selon les gens. Pas de 'bonne réponse' — juste des degrés d'inconfort. Afterward content éducatif démystifie les dynamiques d'abus. Structure pédagogique flexible: vote collectif, petits groupes, kiosque public.
+
+## Vue d'ensemble
+
+**It's Not Violent** est une **campagne interactive de sensibilisation** créée en 2018 par l'agence de design montréalaise **Locomotive** en partenariat avec **SOS Violence Conjugale**. Le projet utilise des **scénarios de textos réalistes** pour éduquer les jeunes de 15-25 ans sur les formes insidieuses de violence relationnelle: manipulation psychologique, contrôle, coercition sexuelle, surveillance, isolement.
+
+Plutôt que de présenter un **jugement moral clair**, le projet place l'utilisateur face à l'**ambiguïté de situations réelles** où la violence n'est pas évidente au premier abord — et c'est précisément le propos.
+
+## Contexte et mission
+
+### SOS Violence Conjugale
+
+Organisme québécois fondé en 1987 servant anonymement et gratuitement les **victimes de violence conjugale**. L'institution a réalisé que les statistiques et campagnes traditionnelles ne touchaient pas les jeunes.
+
+Insight: **Les jeunes ne reconnaissent pas la violence quand elle n'est pas physique.**
+
+Plutôt que montrer des cas extrêmes (violence physique évidente), SOS Violence voulait montrer l'ordinaire — les **textos manipulateurs quotidiens** que beaucoup vivent sans réaliser que c'est de l'abus.
+
+### Locomotive
+
+Agence de design interactif montréalaise ayant reçu de nombreux prix (Awwwards Site of the Day, Developer Award). Locomotive a transformé l'intention de SOS Violence Conjugale en **expérience immersive de dialogue**.
+
+## Fonctionnement technique
+
+### Architecture de l'expérience
+
+**Interface minimaliste** :
+- Écran noir/foncé (pas de distraction)
+- Textos sur fond clair (conversation authentique)
+- Pseudo "partenaire" envoyant des messages
+- Vous voyez leurs messages et devez choisir votre réponse
+
+### Les cinq scénarios
+
+Chaque scénario explore une **forme spécifique de violence psychologique**:
+
+1. **"My way or the highway"** : Contrôle des sorties et isolement
+2. **"Can't touch this"** : Non-consentement et coercition sexuelle
+3. **"Every breath you take"** : Surveillance par géolocalisation
+4. **"Breathing space"** : Accusations et culpabilité (gaslighting)
+5. **"Hungry like the wolf"** : Pression sexuelle et menaces implicites
+
+### Système de choix
+
+- **5 tours de conversation** : À chaque message, 3-5 réponses possibles
+- **243 combinaisons possibles par vignette** : Les permutations créent une **variation énorme** dans l'expérience
+- **Ambiguïté intentionnelle** : Aucune réponse n'est clairement "bonne" ou "mauvaise"
+- **Afterward éducatif** : Après vos 5 réponses, l'app demande si la conversation était violente, puis explique les dynamiques
+
+### Technologie
+
+- **Web standard** : Accessible sur navigateur (ordinateur, tablet)
+- **Animations subtiles** : Utilise Lottie pour des micro-interactions visuelles
+- **Responsive design** : Fonctionne sur tous les écrans
+- **Analytics minimal** : Collecte de données consentie (Google Analytics)
+
+## Enjeux pédagogiques critiques
+
+### 1. La reconnaissance de la violence non-physique
+
+**Problème classique** : Les jeunes ne reconnaissent pas la violence si elle n'est pas physique.
+
+**Solution du projet** : Placer l'utilisateur DANS la peau de la victime.
+
+Effet:
+- Après 5 textos, beaucoup d'utilisateurs réalisent: "Attends... c'est vraiment de l'abus ?"
+- La discussion en groupe révèle: **"Oh, toi tu pensais que c'était OK ? Moi j'ai trouvé ça violent..."**
+- Les 243 combinaisons créent des **expériences radicalement différentes** selon les réponses choisies
+
+**Impact** : La violence devient soudainement **relationnelle, contextuelle, pas absolue**.
+
+### 2. Consentement et négociation
+
+Le projet explore comment **le consentement n'est pas un moment, c'est une conversation continue**:
+- "Can't touch this" montre comment un "oui" initial peut se transformer en pression
+- Les textos manipulateurs reposent sur **revoir les limites du consentement établi précédemment**
+
+Question mise en lumière: **Comment dit-on "non" quand on a déjà dit "oui" ?**
+
+### 3. Polysémie de la communication
+
+243 combinaisons par scénario = les interprétations **varient énormément**:
+- Même message peut être:
+  - Une blague pour quelqu'un
+  - Une menace voilée pour quelqu'un d'autre
+  - Un contrôle normal de couple pour un tiers
+
+**Leçon critique** : L'intention du sender n'est pas ce qui compte — c'est l'**impact sur le receiver**.
+
+Ça interroge: Pourquoi on demande toujours "mais qu'est-ce que tu pensais vouloir dire ?" aux agresseurs ? Pourquoi leur intention prime sur ta sécurité ?
+
+### 4. Design comme outil d'éducation
+
+Le projet démontre que **le design interactif peut être plus efficace qu'un discours**.
+
+Comparaison:
+- **Affiche** : "La violence conjugale c'est mal" → Pas de participation émotionnelle
+- **It's Not Violent** : Tu choisis tes réponses, puis tu découvres que tu as permis l'escalade → **Réalisation viscérale**
+
+**Implication pédagogique** : L'éducation sérieuse peut être interactive, ambiguë, sans réponse unique.
+
+### 5. Espaces psychologiquement sûrs
+
+Le projet inclut un **guide de facilitation** qui insiste:
+- **Avertissement obligatoire** : "Cette expérience peut déclencher des traumas personnels"
+- **Ressources présentes** : SOS Violence Conjugale line (1-800-363-9010) affichée
+- **Deuxième adulte** : Quelqu'un pour soutenir si quelqu'un divulgue un abus personnel
+
+Ça reconnaît que **l'éducation sur la violence n'est pas neutre** — c'est du soin.
+
+## Formats d'utilisation pédagogique
+
+### 1. Méthode du groupe large (vote collectif)
+
+- Une vignette à la fois projetée sur écran
+- Chaque tour: le groupe vote pour quelle réponse envoyer
+- Après 5 tours: discussions sur pourquoi on a choisi ça
+- Révélation des dynamiques d'abus cachées dans ce chemin spécifique
+
+**Avantage** : Discussion collective, confrontation d'opinions
+
+### 2. Méthode des petits groupes
+
+- Équipes de 3-4 complètent différentes vignettes individuellement
+- Chaque groupe vit une expérience **radicalement différente** (grâce aux 243 combinaisons)
+- 20 minutes de discussion: "Qu'est-ce que tu as vécu que nous n'avons pas vu ?"
+
+**Avantage** : Variation d'expérience révèle la subjectivité
+
+### 3. Kiosque public (activation)
+
+- Projeté sur mur/grand écran en événement public
+- Passants engagés pour 5-10 minutes
+- Génère des conversations non-planifiées ("Pourquoi tu as choisi ça ?")
+
+**Avantage** : Sensibilisation rapide, adoption virale
+
+## Reconnaissance critique
+
+- **Awwwards Site of the Day** : Reconnaissance de l'excellence en design web
+- **Awwwards Developer Award** : Technical implementation sophistication
+- **Purple Ribbon Campaign Award** : Domestic Shelters network recognition
+- **International adoption** : Utilisé par organisations dans 80+ juridictions
+
+Mais au-delà des prix, le succès vrai c'est: **Les jeunes reconnaissent maintenant la violence qu'ils vivaient.**
+
+## Ressources complémentaires
+
+- **Animation guide** : itsnotviolent.com/animation-guide
+- **SOS Violence Conjugale** : sosviolenceconjugale.ca (français)
+
+## Pistes d'analyse
+
+- L'**interface minimaliste** crée une **charge émotionnelle maximale**
+- Le jeu "sans gagner" : un anti-game design assumé
+- L'interaction comme outil de prise de conscience, pas de plaisir
+- L'**interface textuelle** comme médium narratif
+- **Performativité** : comment déployer un projet interactif pour une sensibilisation publique
+- **Documentaire interactif** : information éducative via participation immersive
+
+---
+
+## Notes de facilitation importantes
+
+Ce projet **demande une préparation psychologique** :
+- Les participants peuvent être triggered par des abus personnels vécus
+- Les conversations post-expérience peuvent être difficiles (disclosures)
+- Facilitateurs doivent être formés aux ressources de crise
+- SOS Violence Conjugale offre support et formation pour les utilisateurs institutionnels
+
+**C'est de l'éducation sérieuse qui crée du vrai changement, pas juste de la sensibilisation passagère.**
+
+## Pourquoi c'est inspirant
+
+Exemplaire pour enseigner: (1) comment les technologies relationnelles (textos) amplifient l'abus, (2) la reconnaissance des abus psychologiques/émotionnels (non-physiques), (3) la polysémie du consentement et du contrôle, (4) le design participatif comme outil de sensibilisation, (5) la création d'espaces psychologiquement sûrs pour parler de violence domestique.

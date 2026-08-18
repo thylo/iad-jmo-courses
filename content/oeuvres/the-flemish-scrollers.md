@@ -1,0 +1,86 @@
+---
+title: The Flemish Scrollers
+creators: [Dries Depoorter]
+year: 2021
+url: https://driesdepoorter.be/theflemishscrollers/
+status: functional
+description: Bot d'IA qui scanne en temps réel les retransmissions en direct du parlement flamand et tague automatiquement les politiciens qui utilisent leur téléphone, publiant les résultats sur les réseaux sociaux.
+tags: [activism-art, ai, politics, surveillance, real-time]
+---
+
+## Ce qui fonctionne
+
+Système totalement automatisé : chaque jour, livestream du parlement flamand est analysé par IA de détection d'objets et de reconnaissance de patterns. Quand un smartphone est détecté, le système capture l'écran, identifie le politicien (reconnaissance faciale) et poste immédiatement sur Twitter/Instagram avec un tag @[nom du politicien]. Boucle feedback puissante : plus la publication viralise, plus le politicien se sent contrôlé. Code potentiellement open-source. Continuation automatique depuis 2021.
+
+## Mécanique du projet
+
+### Le système automatisé
+
+1. **Source** : Livestream quotidien sur YouTube du parlement flamand (Belgium)
+2. **Analyse** : IA scanne les images en temps réel
+3. **Détection** : Reconnaissance d'objets (téléphones) + reconnaissance faciale (politiciens)
+4. **Tagage** : Publication automatique sur Twitter/Instagram avec mention du politicien
+5. **Boucle sociale** : Le post viralise → Le politicien se sent observé
+
+### Contexte et origine
+
+Le projet naît d'un incident réel : en 2019, le ministre-président flamand **Jan Jambon** a été photographié en train de jouer à Angry Birds pendant une session parlementaire. Depoorter transforme cet incident en système continu de surveillance.
+
+## Implications politiques et critiques
+
+### L'ironie de la surveillance
+
+**The Flemish Scrollers tourne l'arme contre le tireur :**
+- Les caméras de surveillance servent normalement à contrôler le peuple
+- Ici, elles contrôlent les politiciens
+- La technologie de reconnaissance faciale, outil de répression, devient outil de critique
+
+### Questions de responsabilité publique
+
+- Les politiciens sont payés par les contribuables pour être présents
+- Utiliser son téléphone = absence de présence
+- La détection publique force la responsabilité
+
+### Vigilance citoyenne vs. surveillance de masse
+
+**The Flemish Scrollers opère sur une ligne fine :**
+- Est-ce du contrôle civique justifié?
+- Ou une violation de privacy des politiciens?
+- Où est la limite entre watchdog et stalking?
+
+## Implications technologiques
+
+### Deepfakes et détection
+
+The Follower pose une question : **si on peut tracer les gens, peut-on aussi les faire disparaître?**
+- Détection de téléphones est relativement bénigne
+- Reconnaissance faciale est plus problématique
+- IA de détection = double usage (aide et oppression)
+
+### Dépendance aux systèmes publics
+
+Le projet dépend de :
+- Livestream public (le parlement diffuse volontairement)
+- Reconnaissance d'objets (technologie open-source)
+- Réseaux sociaux (plateforme de distribution)
+
+C'est un hack **élégant** : aucune technology nouvelle, juste une réassemblage créatif.
+
+## Pistes d'analyse
+
+1. **Art activiste** : Utilisation créative de la technologie pour faire passer un message politique
+2. **Critique de la gouvernance** : Interroge l'attention et la présence dans l'espace public
+3. **Automatisation** : Démontre comment l'IA peut fonctionner en boucle sans intervention humaine
+4. **Amplification sociale** : Utilise la viralité pour amplifier la critique
+
+## Débats et questions pédagogiques
+
+- **Éthique de la surveillance** : Qui a le droit de surveiller qui?
+- **Privacy des politiciens** : Ont-ils moins de droit à la vie privée que les citoyens?
+- **Technologie neutre** : L'IA de reconnaissance faciale peut servir à libérer ou opprimer
+- **Art vs. stalking** : Quelle est l'intention derrière l'œuvre? Dénonciation ou harassment?
+- **Conséquences** : Est-ce que forcer la responsabilité publique fonctionne réellement?
+
+## Pourquoi c'est inspirant
+
+Brillante inversion ironique : outil de surveillance pour dénoncer la surveillance elle-même. Retourne les outils de l'État contre les élus. Critique politique efficace via viralité plutôt que manifeste. Automatisation de la "vigilance citoyenne". Démontre concrètement les capacités des systèmes d'IA de détection (et leurs risques). Pertinent pédagogiquement pour comprendre : surveillance mutuelle, responsabilité publique, technologie comme arme activiste, implicites du pouvoir.

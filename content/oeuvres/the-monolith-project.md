@@ -1,0 +1,51 @@
+---
+title: The Monolith Project
+creators: [À documenter]
+year: 2024
+url: https://themonolithproject.net/
+status: functional
+description: Expérience web interactive combinant rendu 3D temps réel et animations motion design sophistiquées. Exploration visuelle immersive avec interactions subtiles.
+tags: [3d, webgl, motion-design, visual-experience]
+---
+
+## Ce qui fonctionne
+
+Qualité exceptionnelle du rendu 3D temps réel dans le navigateur. Animations motion design fluides et soignées qui créent une expérience visuelle marquante. Démontre la maturité des technologies WebGL/Three.js pour créer des expériences visuelles comparables aux applications natives.
+
+## Concept et expérience
+
+The Monolith Project mise sur l'excellence visuelle plutôt que la complexité interactive. L'œuvre démontre que le rendu 3D temps réel dans le navigateur peut atteindre une qualité professionnelle comparable aux applications natives.
+
+## Points forts techniques
+
+### Rendu 3D temps réel
+- Qualité visuelle exceptionnelle dans le navigateur
+- Performances optimisées pour une expérience fluide
+- Utilisation avancée des technologies WebGL/Three.js
+
+### Motion design
+- Animations soignées et fluides
+- Chorégraphie visuelle maîtrisée
+- Attention aux détails de transition et de timing
+
+## Pistes d'analyse
+
+- Une expérience immersive peut exister sur un simple écran
+- La 3D crée un espace narratif explorable, qui contient le récit
+- L'expérience visuelle prime sur la fonctionnalité : l'interface devient le contenu
+- La caméra virtuelle guide l'exploration ; le positionnement spatial influence la perception
+
+## Points de discussion
+
+### Interaction vs. Contemplation
+Les interactions sont légères, mais est-ce un défaut ? L'œuvre privilégie la contemplation active sur la manipulation directe. Question ouverte : Quand l'interaction minimale est-elle un choix artistique valide ?
+
+### Excellence visuelle sur le web
+Démontre que le web n'est pas limité aux interfaces plates. La 3D temps réel ouvre des possibilités narratives nouvelles, au-delà du gaming.
+
+### Accessibilité technique
+Un rendu 3D sophistiqué requiert des machines performantes. Comment balancer ambition visuelle et accessibilité ?
+
+## Pourquoi c'est inspirant
+
+Excellence technique du rendu 3D web. Preuve qu'une expérience visuelle peut porter un projet même avec des interactions légères. Équilibre entre sophistication visuelle et accessibilité web.
