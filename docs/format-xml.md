@@ -62,6 +62,18 @@ casse pas. Une cible qui n'existe pas encore n'est pas une erreur : le lien
 s'affiche en `lien-manquant` et `content:check` l'ajoute à la liste des entités
 à écrire. On écrit avant de créer.
 
+Pour une adresse extérieure, les trois écritures marchent :
+
+- `[le titre](https://exemple.org)` — lien avec un libellé
+- `<https://exemple.org>` — l'adresse affichée telle quelle
+- `https://exemple.org` — pareil, sans les chevrons
+
+Les deux dernières sont reconstruites avant lecture, comme les `[[…]]` : le
+parseur markdown n'a de règle que pour la première. Ce qui est déjà un lien
+n'est jamais retouché, et une adresse dans un bloc de code reste du code. La
+ponctuation de fin de phrase n'est pas avalée — `voir https://exemple.org.`
+donne un lien puis un point.
+
 ## Les requêtes
 
 ```xml

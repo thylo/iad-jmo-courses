@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Content\Xml\Elements;
 
+use App\Content\Xml\Autolinks;
 use App\Content\Xml\ContentIndex;
 use App\Content\Xml\ElementRenderer;
 use App\Content\Xml\RenderContext;
@@ -13,7 +14,8 @@ use Tempest\Markdown\Markdown;
 /**
  * <markdown>prose</markdown> — opaque to tags, so the prose reads as prose.
  *
- * The prose leaf: dedent, expand [[wikilinks]], hand over to tempest/markdown.
+ * The prose leaf: dedent, expand [[wikilinks]] and bare URLs, hand over to
+ * tempest/markdown.
  */
 final readonly class MarkdownElement implements ElementRenderer
 {
@@ -34,7 +36,9 @@ final readonly class MarkdownElement implements ElementRenderer
             return '';
         }
 
-        return $this->markdown->parse(new WikiLinks($index)->expand($dedented))->html;
+        $prose = new WikiLinks($index)->expand($dedented);
+
+        return $this->markdown->parse(Autolinks::expand($prose))->html;
     }
 
     /**

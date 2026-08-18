@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Content;
 
+use App\Content\Xml\Autolinks;
 use App\Content\Xml\ContentIndex;
 use App\Content\Xml\NodeRenderer;
 use App\Content\Xml\XmlParser;
@@ -264,7 +265,9 @@ final class ContentRepository
             description: $frontmatter['description'] ?? null,
             frontmatter: $frontmatter,
             path: $path,
-            render: static fn (): string => $markdown->parse($raw)->html,
+            // Prose pages get the same URL handling as the prose inside an
+            // entity — the syntax should not mean two different things.
+            render: static fn (): string => $markdown->parse(Autolinks::expand($raw))->html,
         );
     }
 

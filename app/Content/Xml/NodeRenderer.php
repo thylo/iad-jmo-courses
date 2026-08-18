@@ -86,11 +86,7 @@ final readonly class NodeRenderer
         }
 
         if ($field->isUrl) {
-            return sprintf(
-                '<a href="%s" rel="noopener noreferrer">%s</a>',
-                Html::escape($value),
-                Html::escape($value),
-            );
+            return ExternalLink::html($value);
         }
 
         return Html::escape($value);

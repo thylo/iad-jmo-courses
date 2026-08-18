@@ -27,7 +27,7 @@ final readonly class WikiLinks
 
     public function expand(string $markdown): string
     {
-        [$markdown, $code] = $this->maskCode($markdown);
+        [$markdown, $code] = CodeSpans::hide($markdown);
 
         $expanded = preg_replace_callback(
             self::PATTERN,
@@ -37,7 +37,7 @@ final readonly class WikiLinks
             $markdown,
         );
 
-        return strtr($expanded ?? $markdown, $code);
+        return CodeSpans::restore($expanded ?? $markdown, $code);
     }
 
     /** Every id mentioned, resolved or not. Used to build the backlink map. */
@@ -59,32 +59,5 @@ final readonly class WikiLinks
         }
 
         return sprintf('<span class="transclusion">%s — %s</span>', $link, Html::escape($summary));
-    }
-
-    /**
-     * Hides fenced blocks and inline code, so [[…]] stays literal when it is
-     * being shown rather than used.
-     *
-     * @return array{0: string, 1: array<string, string>}
-     */
-    private function maskCode(string $markdown): array
-    {
-        $masked = [];
-        $counter = 0;
-
-        $pattern = '/(?:^|(?<=\n))(?:```|~~~).*?(?:\R(?:```|~~~)|$)|`[^`\n]*`/s';
-
-        $result = preg_replace_callback(
-            $pattern,
-            function (array $match) use (&$masked, &$counter): string {
-                $token = sprintf("\x00code-%d\x00", $counter++);
-                $masked[$token] = $match[0];
-
-                return $token;
-            },
-            $markdown,
-        );
-
-        return [$result ?? $markdown, $masked];
     }
 }
