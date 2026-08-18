@@ -1,0 +1,24 @@
+<personne id="studio-moniker" genre="studio">
+  <titre>Studio Moniker</titre>
+  <lieu>Amsterdam</lieu>
+  <depuis>2012</depuis>
+  <url>https://studiomoniker.com/</url>
+
+  <resume>Studio de design interactif néerlandais fondé par Luna Maurer, Roel
+  Wouters et Jonathan Puckey.</resume>
+
+  <markdown>
+    Ils travaillent sur ce que la technologie fait aux gens qui l'utilisent, et
+    la plupart de leurs pièces tiennent en une règle du jeu tellement simple
+    qu'on peut l'expliquer en une phrase.
+
+    C'est ce qui les rend utiles ici : chaque projet isole **un seul** mécanisme
+    d'interaction et le pousse jusqu'à ce qu'il devienne visible.
+  </markdown>
+
+  <section titre="Leurs œuvres">
+    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  </section>
+
+  <retroliens/>
+</personne>

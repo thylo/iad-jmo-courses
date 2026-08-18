@@ -1,6 +1,6 @@
 <?php
 /**
- * Gabarit de base. Volontairement sans CSS : HTML sémantique nu.
+ * Base template. Deliberately without CSS: bare semantic HTML.
  */
 ?>
 <!doctype html>

@@ -5,20 +5,31 @@ declare(strict_types=1);
 namespace App\Content;
 
 /**
- * Une page de contenu : un fichier markdown parsé.
+ * A content page: one markdown or XML file.
  */
-final readonly class Document
+final class Document
 {
+    private ?string $rendered = null;
+
     public function __construct(
-        /** Slug canonique, sans slash final. La racine vaut '/'. */
-        public string $slug,
-        public string $title,
-        public ?string $description,
-        /** HTML rendu depuis le markdown. */
-        public string $html,
-        /** Frontmatter brut, pour les champs qu'on n'a pas typés. */
-        public array $frontmatter,
-        /** Chemin absolu du fichier source, utile pour les messages d'erreur. */
-        public string $path,
+        /** Canonical slug, no trailing slash. The root is '/'. */
+        public readonly string $slug,
+        public readonly string $title,
+        public readonly ?string $description,
+        /** Raw frontmatter, for the markdown fields we have not typed. Empty for XML. */
+        public readonly array $frontmatter,
+        /** Absolute path of the source file, useful in error messages. */
+        public readonly string $path,
+        /**
+         * Rendering is deferred: an XML page needs the index to resolve its
+         * links and run its queries, and the index needs every file parsed
+         * first. Reading ->html happens well after loading, so there is no
+         * cycle — only a construction order to respect.
+         */
+        private readonly \Closure $render,
     ) {}
+
+    public string $html {
+        get => $this->rendered ??= ($this->render)();
+    }
 }

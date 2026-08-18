@@ -1,0 +1,19 @@
+<personne id="luna-maurer" genre="personne">
+  <titre>Luna Maurer</titre>
+  <lieu>Amsterdam</lieu>
+
+  <resume>Designer et cofondatrice de Studio Moniker.</resume>
+
+  <markdown>
+    Co-autrice des *Conditional Design Manifesto*, qui pose le processus et la
+    règle comme matière première du design plutôt que la forme finale. C'est la
+    même logique que dans les pièces de [[studio-moniker]] : on écrit une règle,
+    on regarde ce que les gens en font.
+  </markdown>
+
+  <section titre="Ici">
+    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  </section>
+
+  <retroliens/>
+</personne>

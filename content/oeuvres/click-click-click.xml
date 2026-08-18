@@ -1,0 +1,28 @@
+<oeuvre id="click-click-click" statut="en-ligne">
+  <titre>Click Click Click</titre>
+  <annee>2017</annee>
+  <par ref="studio-moniker"/>
+  <url>https://clickclickclick.click/</url>
+
+  <resume>Chaque clic est analysé, commenté et jugé en temps réel par une voix
+  narrative omnisciente. La navigation web banale devient une performance surveillée.</resume>
+
+  <concept ref="surveillance"/>
+  <concept ref="retour-immediat"/>
+
+  <voir ref="do-not-draw-a-penis"/>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      « Vous hésitez. » « Ce clic était nerveux. » « Vous essayez de tromper le
+      système. » La page ne fait rien d'autre que décrire ce que vous faites, et
+      ça suffit à rendre la surveillance tangible et inconfortable.
+
+      Révèle par l'absurde la quantité d'informations que nos interactions
+      livrent sur nous. Même retournement du dispositif contre lui-même chez
+      [[studio-moniker]] avec [[do-not-draw-a-penis|leur canvas censuré]].
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

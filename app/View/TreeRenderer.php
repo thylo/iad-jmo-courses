@@ -4,16 +4,17 @@ declare(strict_types=1);
 
 namespace App\View;
 
+use App\Content\Html;
 use App\Content\NavNode;
 use App\Content\TocEntry;
 
 /**
- * Rend les deux arbres de la page : la navigation et le sommaire.
+ * Renders the two trees on a page: the navigation and the table of contents.
  *
- * Pourquoi une classe plutôt qu'un composant de vue : Tempest développe les
- * composants à la compilation, donc un composant qui s'appelle lui-même boucle
- * à l'infini. Et le compilateur isole les blocs <?php ?> du gabarit, ce qui
- * exclut aussi une fonction récursive déclarée sur place.
+ * A class rather than a view component: Tempest expands components at compile
+ * time, so a component that renders itself never terminates. The compiler also
+ * isolates <?php ?> blocks from the template, which rules out declaring a
+ * recursive function inline.
  */
 final readonly class TreeRenderer
 {
@@ -61,6 +62,6 @@ final readonly class TreeRenderer
 
     private function escape(string $value): string
     {
-        return htmlspecialchars($value, ENT_QUOTES, 'UTF-8');
+        return Html::escape($value);
     }
 }

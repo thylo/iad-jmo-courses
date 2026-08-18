@@ -1,0 +1,27 @@
+<oeuvre id="do-not-draw-a-penis" statut="en-ligne">
+  <titre>Do Not Draw a Penis</titre>
+  <annee>2016</annee>
+  <par ref="studio-moniker"/>
+  <url>https://studiomoniker.com/projects/do-not-draw-a-penis</url>
+
+  <resume>Les visiteurs dessinent librement sur un canvas partagé, mais un
+  algorithme analyse les dessins en temps réel et efface tout ce qui ressemble à
+  un pénis. Naturellement, tout le monde essaie d'en dessiner un.</resume>
+
+  <concept ref="contrainte-productive"/>
+  <concept ref="moderation-algorithmique"/>
+
+  <voir ref="click-click-click"/>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Démontre qu'une contrainte crée l'engagement. Sans l'interdit, le canvas
+      partagé serait vide ; avec lui, la censure algorithmique devient le jeu.
+
+      Interroge la modération automatique avec humour, ce qui est plus efficace
+      qu'un exposé sur la modération automatique.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

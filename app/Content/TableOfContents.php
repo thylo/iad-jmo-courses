@@ -5,10 +5,11 @@ declare(strict_types=1);
 namespace App\Content;
 
 /**
- * Extrait le sommaire d'une page depuis le HTML rendu.
+ * Extracts a page's table of contents from the rendered HTML.
  *
- * tempest/markdown pose déjà des id sur les titres (<h2 id="section-deux">),
- * donc il n'y a rien à réécrire : on se contente de lire.
+ * tempest/markdown already puts ids on headings (<h2 id="section-deux">), and
+ * SectionElement uses the same formula, so there is nothing to rewrite here —
+ * only to read.
  */
 final readonly class TableOfContents
 {
@@ -34,7 +35,7 @@ final readonly class TableOfContents
                 label: trim(html_entity_decode(strip_tags($match['label']))),
             );
 
-            // Un h3 se range sous le h2 précédent ; sans h2 parent, il reste au premier niveau.
+            // An h3 nests under the preceding h2; with no parent h2 it stays at the top level.
             if ($match['level'] === '3' && $entries !== []) {
                 $parent = array_key_last($entries);
                 $entries[$parent] = $entries[$parent]->withChild($entry);

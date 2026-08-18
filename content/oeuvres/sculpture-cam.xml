@@ -1,0 +1,27 @@
+<oeuvre id="sculpture-cam" statut="en-ligne">
+  <titre>Sculpture Cam</titre>
+  <annee>2015</annee>
+  <par ref="studio-moniker"/>
+  <url>https://studiomoniker.com/projects/a-social-game-in-the-park</url>
+
+  <resume>Les visiteurs d'un parc utilisent leur smartphone pour « capturer » des
+  sculptures vivantes — d'autres visiteurs qui prennent la pose. L'application
+  détecte et valide les poses à travers la caméra.</resume>
+
+  <concept ref="jeu-urbain"/>
+  <concept ref="interaction-sociale"/>
+
+  <voir ref="touch-for-luck"/>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      Transforme un parc en terrain de jeu social spontané. Le web y est un
+      médiateur d'interaction physique, pas un substitut.
+
+      C'est le contre-exemple utile quand un projet part du principe que
+      l'écran remplace la présence.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

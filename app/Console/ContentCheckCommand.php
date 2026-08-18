@@ -5,16 +5,16 @@ declare(strict_types=1);
 namespace App\Console;
 
 use App\Content\ContentRepository;
+use App\Content\Document;
 use Tempest\Console\ConsoleCommand;
 use Tempest\Console\ExitCode;
 use Tempest\Console\HasConsole;
 
 /**
- * Inventaire du contenu et contrôle des liens internes.
+ * Content inventory, link check, and the list of entities still to be written.
  *
- * C'est le filet dont on aura besoin au moment de migrer pour de bon : le contenu
- * Astro compte 293 liens absolus, et rien ne garantit aujourd'hui qu'ils pointent
- * tous quelque part.
+ * This is the net we will need when migrating for real: the Astro content holds
+ * 293 absolute links, and nothing guarantees today that they all land somewhere.
  */
 final readonly class ContentCheckCommand
 {
@@ -24,7 +24,7 @@ final readonly class ContentCheckCommand
         private ContentRepository $content,
     ) {}
 
-    #[ConsoleCommand(name: 'content:check', description: 'Liste les pages et signale les liens internes morts')]
+    #[ConsoleCommand(name: 'content:check', description: 'Liste les pages, signale les liens morts et les entités à écrire')]
     public function __invoke(): ExitCode
     {
         $documents = $this->content->all();
@@ -41,6 +41,46 @@ final readonly class ContentCheckCommand
             $this->console->writeln(sprintf(' <em>%s</em>  %s', str_pad($slug, 24), $document->title));
         }
 
+        $this->reportMissingEntities();
+
+        return $this->reportBrokenLinks($documents);
+    }
+
+    /**
+     * Unresolved [[references]] are reported but do not fail the run.
+     *
+     * Writing before creating the target is the normal way to work — the list is
+     * a to-write queue, not a set of mistakes.
+     */
+    private function reportMissingEntities(): void
+    {
+        $index = $this->content->index();
+        $missing = [];
+
+        foreach ($this->content->sources() as $source) {
+            foreach ($source->references as $reference) {
+                if (! $index->has($reference)) {
+                    $missing[$reference][] = $source->id;
+                }
+            }
+        }
+
+        if ($missing === []) {
+            return;
+        }
+
+        ksort($missing);
+
+        $this->console->header('Entités à écrire');
+
+        foreach ($missing as $id => $citedBy) {
+            $this->console->warning(sprintf('%s — cité par %s', $id, implode(', ', array_unique($citedBy))));
+        }
+    }
+
+    /** @param array<string, Document> $documents */
+    private function reportBrokenLinks(array $documents): ExitCode
+    {
         $broken = $this->brokenLinks($documents);
 
         $this->console->header('Liens internes');
@@ -61,15 +101,15 @@ final readonly class ContentCheckCommand
     }
 
     /**
-     * @param array<string, \App\Content\Document> $documents
-     * @return array<string, string[]> liens morts, indexés par page source
+     * @param array<string, Document> $documents
+     * @return array<string, string[]> dead links, keyed by source page
      */
     private function brokenLinks(array $documents): array
     {
         $broken = [];
 
         foreach ($documents as $slug => $document) {
-            // Délimiteur ~ : le motif contient un # (les ancres), qui fermerait un délimiteur #.
+            // ~ delimiter: the pattern holds a # (anchors), which would close a # delimiter.
             preg_match_all('~<a[^>]+href="(/[^"\#]*)"~i', $document->html, $matches);
 
             foreach (array_unique($matches[1]) as $target) {

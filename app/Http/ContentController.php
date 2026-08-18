@@ -12,7 +12,7 @@ use Tempest\Router\Stateless;
 use Tempest\View\View;
 
 /**
- * Route unique : toute URL est un chemin dans content/.
+ * A single route: every URL is a path inside content/.
  */
 #[Stateless]
 final readonly class ContentController

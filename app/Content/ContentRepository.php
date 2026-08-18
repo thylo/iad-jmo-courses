@@ -4,16 +4,22 @@ declare(strict_types=1);
 
 namespace App\Content;
 
+use App\Content\Xml\ContentIndex;
+use App\Content\Xml\NodeRenderer;
+use App\Content\Xml\XmlParser;
 use Tempest\Container\Singleton;
 use Tempest\Markdown\Markdown;
 
 use function Tempest\root_path;
 
 /**
- * Lit les fichiers markdown de content/ et les expose comme des Document.
+ * Reads the files under content/ and exposes them as Documents.
  *
- * Le parsing est mémoïsé sur la durée de la requête : une page qui affiche la
- * navigation complète touche tous les fichiers, autant ne les parser qu'une fois.
+ * Markdown and XML live side by side. Markdown carries the pages that are still
+ * prose; XML carries the typed entities, and only those take part in the graph.
+ *
+ * Loading is memoised for the request: a page that renders the full navigation
+ * touches every file, so parsing them once is worth it.
  */
 #[Singleton]
 final class ContentRepository
@@ -25,17 +31,26 @@ final class ContentRepository
     /** @var array<string, Document>|null */
     private ?array $documents = null;
 
+    /** @var Xml\XmlSource[] */
+    private array $sources = [];
+
+    private ?ContentIndex $index = null;
+
     public function __construct(
         private readonly Markdown $markdown,
+        private readonly XmlParser $xml,
+        private readonly NodeRenderer $renderer,
     ) {
         $this->contentRoot = realpath(root_path('content')) ?: root_path('content');
         $this->slugs = new SlugResolver($this->contentRoot);
     }
 
-    /** @return array<string, Document> indexé par slug */
+    /** @return array<string, Document> keyed by slug */
     public function all(): array
     {
-        return $this->documents ??= $this->load();
+        $this->load();
+
+        return $this->documents;
     }
 
     public function find(string $slug): ?Document
@@ -49,11 +64,27 @@ final class ContentRepository
         return $this->all()[$this->slugs->toSlug($path)] ?? null;
     }
 
+    /** @return Xml\XmlSource[] the typed entities */
+    public function sources(): array
+    {
+        $this->load();
+
+        return $this->sources;
+    }
+
+    /** The graph: every entity by id, plus its backlinks. */
+    public function index(): ContentIndex
+    {
+        $this->load();
+
+        return $this->index ??= ContentIndex::build($this->sources);
+    }
+
     /**
-     * L'arbre de navigation, trié par nom de fichier.
+     * The navigation tree, sorted by filename.
      *
-     * C'est la règle qu'appliquait Starlight (préfixes 01-, 02-), donc l'ordre
-     * du contenu réel sera le même le jour où on le migrera.
+     * That is the rule Starlight applied (01-, 02- prefixes), so the order of the
+     * real content will be the same the day we migrate it.
      *
      * @return NavNode[]
      */
@@ -76,7 +107,7 @@ final class ContentRepository
             $path = $directory . DIRECTORY_SEPARATOR . $entry;
 
             if (is_dir($path)) {
-                // Un dossier est représenté par son index.md s'il en a un.
+                // A folder is represented by its index file when it has one.
                 $slug = $this->slugs->toSlug($path . DIRECTORY_SEPARATOR . 'index.md');
                 $index = $this->all()[$slug] ?? null;
 
@@ -89,12 +120,12 @@ final class ContentRepository
                 continue;
             }
 
-            // L'index d'un dossier porte le dossier lui-même, pas une entrée à part.
-            if ($entry === 'index.md') {
+            // A folder's index carries the folder itself, not a separate entry.
+            if ($entry === 'index.md' || $entry === 'index.xml') {
                 continue;
             }
 
-            if (! str_ends_with($entry, '.md')) {
+            if (! $this->isContentFile($entry)) {
                 continue;
             }
 
@@ -110,7 +141,7 @@ final class ContentRepository
         return $nodes;
     }
 
-    /** @return string[] dossiers et fichiers triés par nom */
+    /** @return string[] folders and files, sorted by name */
     private function sortedEntries(string $directory): array
     {
         $entries = array_values(array_diff(scandir($directory) ?: [], ['.', '..']));
@@ -119,21 +150,52 @@ final class ContentRepository
         return $entries;
     }
 
-    /** @return array<string, Document> */
-    private function load(): array
+    private function load(): void
     {
-        $documents = [];
-
-        foreach ($this->markdownFiles() as $path) {
-            $document = $this->parse($path);
-            $documents[$document->slug] = $document;
+        if ($this->documents !== null) {
+            return;
         }
 
-        return $documents;
+        $documents = [];
+        $sources = [];
+
+        foreach ($this->contentFiles() as $path) {
+            $slug = $this->slugs->toSlug($path);
+
+            // Leaving a converted .md next to its .xml would give one URL two
+            // sources, and the navigation two entries.
+            if (isset($documents[$slug])) {
+                throw ContentException::at(
+                    $path,
+                    sprintf('Même URL (%s) que %s.', $slug, $documents[$slug]->path),
+                );
+            }
+
+            if (str_ends_with($path, '.xml')) {
+                $source = $this->xml->parse($path, $slug);
+                $sources[] = $source;
+
+                $documents[$slug] = new Document(
+                    slug: $slug,
+                    title: $source->title,
+                    description: $source->summary,
+                    frontmatter: [],
+                    path: $path,
+                    render: fn (): string => $this->renderer->render($source, $this->index()),
+                );
+
+                continue;
+            }
+
+            $documents[$slug] = $this->parseMarkdown($path, $slug);
+        }
+
+        $this->documents = $documents;
+        $this->sources = $sources;
     }
 
-    /** @return string[] chemins absolus de tous les .md sous content/ */
-    private function markdownFiles(): array
+    /** @return string[] absolute paths of every content file under content/ */
+    private function contentFiles(): array
     {
         if (! is_dir($this->contentRoot)) {
             return [];
@@ -146,7 +208,7 @@ final class ContentRepository
         $paths = [];
 
         foreach ($iterator as $file) {
-            if ($file->isFile() && $file->getExtension() === 'md') {
+            if ($file->isFile() && $this->isContentFile($file->getFilename())) {
                 $paths[] = $file->getPathname();
             }
         }
@@ -156,25 +218,62 @@ final class ContentRepository
         return $paths;
     }
 
-    private function parse(string $path): Document
+    private function isContentFile(string $filename): bool
     {
-        $parsed = $this->markdown->parse(file_get_contents($path));
-        $frontmatter = $parsed->frontmatter;
+        return str_ends_with($filename, '.md') || str_ends_with($filename, '.xml');
+    }
+
+    /**
+     * Only the frontmatter is read now; the body waits until the page is rendered.
+     *
+     * Building the navigation touches every file, but a request displays exactly
+     * one of them. Parsing all the bodies up front was the bulk of the work done
+     * per request, and all of it but one was thrown away.
+     */
+    private function parseMarkdown(string $path, string $slug): Document
+    {
+        $raw = (string) file_get_contents($path);
+        $frontmatter = $this->frontmatter($raw);
+        $markdown = $this->markdown;
 
         return new Document(
-            slug: $this->slugs->toSlug($path),
-            title: $frontmatter['title'] ?? $this->titleFromHtml($parsed->html) ?? $this->humanize(basename($path, '.md')),
+            slug: $slug,
+            title: $frontmatter['title'] ?? $this->titleFromBody($raw) ?? $this->humanize(basename($path, '.md')),
             description: $frontmatter['description'] ?? null,
-            html: $parsed->html,
             frontmatter: $frontmatter,
             path: $path,
+            render: static fn (): string => $markdown->parse($raw)->html,
         );
     }
 
-    /** Repli sur le premier <h1> quand le frontmatter n'a pas de titre. */
-    private function titleFromHtml(string $html): ?string
+    /**
+     * Parses the leading --- block on its own.
+     *
+     * The slice follows tempest/markdown's FrontMatterRule exactly — skip the
+     * opening dashes, stop at the next "---" — so the YAML handling stays in one
+     * place and the result is the same as parsing the whole file.
+     *
+     * @return array<string, mixed>
+     */
+    private function frontmatter(string $raw): array
     {
-        if (preg_match('#<h1[^>]*>(.*?)</h1>#is', $html, $matches) !== 1) {
+        if (! str_starts_with($raw, '---')) {
+            return [];
+        }
+
+        $end = strpos($raw, '---', strspn($raw, '-'));
+
+        if ($end === false) {
+            return [];
+        }
+
+        return $this->markdown->parse(substr($raw, 0, $end + 3))->frontmatter;
+    }
+
+    /** Falls back to the first <h1> when the frontmatter has no title. */
+    private function titleFromBody(string $raw): ?string
+    {
+        if (preg_match('#<h1[^>]*>(.*?)</h1>#is', $this->markdown->parse($raw)->html, $matches) !== 1) {
             return null;
         }
 
@@ -183,7 +282,7 @@ final class ContentRepository
         return $title !== '' ? $title : null;
     }
 
-    /** Dernier repli : « 01-frontmatter » -> « Frontmatter ». */
+    /** Last resort: "01-frontmatter" -> "Frontmatter". */
     private function humanize(string $name): string
     {
         $name = preg_replace('/^\d+[-_]/', '', $name);

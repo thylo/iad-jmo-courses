@@ -5,14 +5,15 @@ declare(strict_types=1);
 namespace App\Content;
 
 /**
- * Traduit dans les deux sens entre chemin de fichier et slug d'URL.
+ * Translates both ways between file path and URL slug.
  *
- *   content/index.md              -> /
- *   content/demo/index.md         -> /demo
+ *   content/index.md               -> /
+ *   content/demo/index.md          -> /demo
  *   content/demo/01-frontmatter.md -> /demo/01-frontmatter
+ *   content/oeuvres/a-dark-room.xml -> /oeuvres/a-dark-room
  *
- * Les préfixes numériques restent dans l'URL : ils portent l'ordre d'affichage
- * et les enlever créerait des collisions silencieuses.
+ * Numeric prefixes stay in the URL: they carry the display order, and stripping
+ * them would create silent collisions.
  */
 final readonly class SlugResolver
 {
@@ -23,25 +24,26 @@ final readonly class SlugResolver
     public function toSlug(string $absolutePath): string
     {
         $relative = ltrim(str_replace($this->contentRoot, '', $absolutePath), DIRECTORY_SEPARATOR);
-        $relative = preg_replace('/\.md$/', '', $relative);
+        $relative = preg_replace('/\.(md|xml)$/', '', $relative);
         $relative = preg_replace('#(^|/)index$#', '', $relative);
 
         return '/' . trim($relative, '/');
     }
 
     /**
-     * Slug -> chemin de fichier existant, ou null.
+     * Slug -> an existing file path, or null.
      *
-     * Le routeur accepte n'importe quelle chaîne (y compris « ../ »), donc on
-     * résout puis on vérifie que le résultat est bien sous content/.
+     * The router accepts any string, "../" included, so we resolve first and
+     * then check the result really sits under content/.
      */
     public function toPath(string $slug): ?string
     {
         $relative = trim($slug, '/');
 
+        // XML first: it is the format we are migrating towards, so it wins a tie.
         $candidates = $relative === ''
-            ? ['index.md']
-            : ["{$relative}.md", "{$relative}/index.md"];
+            ? ['index.xml', 'index.md']
+            : ["{$relative}.xml", "{$relative}.md", "{$relative}/index.xml", "{$relative}/index.md"];
 
         foreach ($candidates as $candidate) {
             $resolved = realpath($this->contentRoot . DIRECTORY_SEPARATOR . $candidate);

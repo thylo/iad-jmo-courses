@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace App\Content;
 
 /**
- * Un nœud de l'arbre de navigation, construit depuis l'arborescence de content/.
+ * A node of the navigation tree, built from the layout of content/.
  */
 final readonly class NavNode
 {
