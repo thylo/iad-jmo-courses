@@ -74,6 +74,10 @@ n'est jamais retouché, et une adresse dans un bloc de code reste du code. La
 ponctuation de fin de phrase n'est pas avalée — `voir https://exemple.org.`
 donne un lien puis un point.
 
+Rien d'autre n'est inventé. Une adresse mail s'écrit comme le lien qu'elle est,
+`<a href="mailto:julien@thylo.be">julien@thylo.be</a>` : le HTML au fil du texte
+passe tel quel.
+
 ## Les requêtes
 
 ```xml

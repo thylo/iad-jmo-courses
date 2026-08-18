@@ -6,7 +6,11 @@ namespace App\Content\Xml;
 
 /**
  * Turns a URL written in prose into a link, in the two forms people actually
- * write: <https://example.org> and a bare https://example.org.
+ * write: <https://example.org>, the CommonMark autolink, and a bare
+ * https://example.org, the GFM one.
+ *
+ * Nothing else is invented here. A mail link is written as the anchor it is,
+ * <a href="mailto:…">, and passes through as inline HTML.
  *
  * tempest/markdown has a rule for [label](url) and nothing else, so both forms
  * rendered as dead text. Like [[wikilinks]], this runs on the source rather than
@@ -18,8 +22,8 @@ namespace App\Content\Xml;
  */
 final readonly class Autolinks
 {
-    /** <scheme:…>, the CommonMark form. */
-    private const string BRACKETED = '~<((?:https?|mailto):[^\s<>]+)>~u';
+    /** <https://…>, the CommonMark form. */
+    private const string BRACKETED = '~<(https?://[^\s<>]+)>~u';
 
     /** Already a link: a [label](url) destination, or an HTML tag with its content. */
     private const string LINKED = '~!?\[[^\]]*\]\([^)\s]*\)|<a\b[^<>]*>.*?</a>|<[a-zA-Z/!][^<>]*>~us';
@@ -40,7 +44,7 @@ final readonly class Autolinks
             self::BRACKETED,
             $markdown,
             $held,
-            static fn (array $match): string => ExternalLink::html($match[1], self::label($match[1])),
+            static fn (array $match): string => ExternalLink::html($match[1]),
         );
 
         $markdown = self::hold(
@@ -83,12 +87,6 @@ final readonly class Autolinks
         );
 
         return $result ?? $markdown;
-    }
-
-    /** An address reads better than the scheme that carries it. */
-    private static function label(string $url): string
-    {
-        return str_starts_with($url, 'mailto:') ? substr($url, 7) : $url;
     }
 
     /**
