@@ -9,78 +9,15 @@ Document synthétique pour comprendre le contexte, les principes et les guidelin
 **Objectif global :** Enseigner la narration interactive web à des étudiants en cinéma et audiovisuel de l'IAD Louvain-la-Neuve.
 
 **Public :**
+- MM1B : 1eme année de bachelier en multimedia
 - MM3B : 3eme année de bachelier en multimedia
 - RTMF1M : Sites Web Dynamiques 2 (Réalisation Technique Multimédias et Audiovisuelles)
 - MM2B : 2eme année de bechelier en multimedia
 
 **Stack technique :**
-- Framework : Astro ^5.6 avec Starlight theme
 - Styling : CSS pur (ITCSS, BEM) - pas Tailwind
 - Interactivité : Alpine.js, Svelte
-- Commentaires de code : Français
-
----
-
-## Les 3 cours et leurs philosophies
-
-### 1. MM3B - Décrypter l'interactivité (4 séances × 4h)
-
-**Public :** Étudiants en multimedia, niveau analyse/compréhension
-**Approche :** Théorie + regard critique
-**Langage :** Narratif avant technique
-
-**Les 5 formes d'interactivité enseignées :**
-1. **Le regard** - Où je regarde influence ce que je vois
-2. **Le choix** - Mes décisions changent le récit
-3. **L'exploration** - L'espace contient la narration
-4. **Le rythme** - Ma vitesse influence l'émotion
-5. **La participation** - Ma présence modifie l'œuvre
-
-**Structure du cours :**
-- Panorama d'introduction d'oeuvres interactives
-- Découverte des 5 formes
-- Concevoir sans contraintes
-- Analyse critique + présentation finale
-
-**Ratio théorie/pratique :** 20/80
-**Livrables :** Fiches d'analyse, projet final (dossier de conception)
-
----
-
-### 2. RTMF1M - Sites Web Dynamiques 2 (32 heures)
-
-**Public :** Réalisateurs techniques, expérience en VFX/3D/Motion
-**Approche :** Apprentissage par la pratique, créativité au centre
-**Langage :** Pragmatique, centré sur l'expérience utilisateur
-
-**Les 5 territoires de projets (étudiants en choisissent 1) :**
-1. **Expériences muséales/spatiales** - Contemplation augmentée, narration spatiale
-2. **Jeux de société hybrides** - Sociabilité + assistance numérique
-3. **Expériences de lecture augmentées** - Narration non-linéaire
-4. **Interfaces expérimentales/ludiques** - Interaction pure, réinvention des gestes
-5. **Outils créatifs et générateurs** - Utilitaire réinventé, génération procédurale
-
-**Structure :**
-- Module 1 (6h) : Cartographie du possible
-- Module 2 (8h) : Fondamentaux techniques (Svelte)
-- Module 3 (6h) : Idéation et prototypage
-- Module 4 (10h) : Réalisation accompagnée
-
-**Ressources clés :**
-- **15 recettes de code** (Svelte) : briques réutilisables et adaptables
-- **Survival Guide** : Quick start, troubleshooting, glossaire
-- **Playlist d'inspiration** : Œuvres pour chaque territoire
-
-**Utilisation de l'IA :**
-- ✅ Encouragée (ChatGPT, Claude) comme assistant
-- ⚠️ Règle d'or : "Si tu ne peux pas expliquer le code que tu as obtenu, ne l'utilise pas"
-- La défense orale vérifie la compréhension
-
----
-
-### 3. MM2B et autres (à adapter)
-
-Structure similaire à MM3B mais adaptée au public spécifique.
+- Commentaires de code : Anglais
 
 ---
 
@@ -89,7 +26,6 @@ Structure similaire à MM3B mais adaptée au public spécifique.
 ### 1. Narration avant technique
 
 - Partir de l'émotion, de l'intention narrative
-- Utiliser le vocabulaire cinéma (cadrage, montage, mise en scène)
 - Démystifier le code sans l'imposer
 - "Comment réaliser votre vision ?" plutôt que "Voici la théorie"
 
@@ -270,10 +206,6 @@ Les "linéaires" manquent ça. Ils apportent la technologie du cinéma au web (c
 
 ### Sur les outils qu'on utilise
 
-**Astro vs Next.js/Vercel**
-- Astro = statique-first, déployable partout, pas de dépendance à une plateforme
-- Philosophie: Vous construisez VOTRE site, pas un site pour un géant technique
-
 **CSS pur vs Tailwind**
 - CSS pur = vous contrôlez vraiment ce que vous faites
 - Philosophie: Comprendre avant d'accélérer
@@ -290,63 +222,14 @@ Les "linéaires" manquent ça. Ils apportent la technologie du cinéma au web (c
 
 **Nous :** Design honnête. Outils stables. Pas de FOMO.
 
----
-
-## Système CSS IAD Interactive
-
-**Objectif :** Cohérence visuelle unifiée pour tous les composants de démo interactifs.
-
-**Architecture ITCSS :**
-```
-1-settings/     → Tokens CSS (variables)
-2-elements/     → Styles de base (formulaires)
-3-components/   → Composants spécifiques (boutons, conteneurs, code)
-```
-
-**Tokens CSS clés :**
-- Conteneurs : `--iad-demo-bg`, `--iad-demo-padding`, `--iad-demo-border-radius`
-- Contrôles : `--iad-control-bg`, `--iad-control-border`, `--iad-control-text`
-- États interactifs : `--iad-hover-bg`, `--iad-focus-outline`, `--iad-active-bg`
-- Code : `--iad-code-bg`, `--iad-code-text`, `--iad-code-keyword`
-- Espacement : `--iad-gap-xs` à `--iad-gap-xl`
-
-**Classes principales :**
-- `.iad-demo` : Conteneur racine
-- `.iad-controls`, `.iad-controls-grid` : Zones de contrôles
-- `.iad-visualization` : Zone d'affichage
-- `.iad-button`, `.iad-selector-button`, `.iad-switch` : Boutons variés
-- `.iad-slider`, `.iad-select`, `.iad-radio-group` : Formulaires
-- `.iad-code-output`, `.iad-code-block` : Code affiché
-
-**Bonnes pratiques :**
-1. Toujours utiliser `.iad-demo` comme conteneur racine
-2. Utiliser les tokens CSS pour styles personnalisés
-3. Conserver les styles spécifiques dans le composant
-4. Tester en mode dark et light
-5. Utiliser Alpine.js pour la réactivité
-
----
-
 ## Guidelines techniques globales
 
 ### Code et structure
 
-- **Framework :** Astro ^5.6 avec Starlight theme
 - **Styling :** CSS pur (ITCSS, BEM) - pas Tailwind
 - **Code comments :** Français, clairs et fonctionnels
 - **Principes :** DRY, KISS, SRP
 - **Variables :** Nommage clair (ex: `dureeAnimation` pas `toto`)
-
-### Fichiers MDX
-
-- JSX inline : Tout sur une seule ligne pour éviter problèmes de rendu
-- ❌ Sauts de ligne dans balises JSX
-- ✅ Contenu compact sur une ligne
-
-### Navigation
-
-- Gérée par le theme Starlight
-- Pas de navigation en bas de page
 
 ### Approche pédagogique
 
@@ -383,39 +266,15 @@ Les "linéaires" manquent ça. Ils apportent la technologie du cinéma au web (c
 
 ---
 
-## Ressources clés
-
-### Pour MM3B
-- **Fichier :** `docs/MM3B-INTERACTIVITE-CONTEXTE.md`
-- **Templates :** Fiche d'analyse, storyboard interactif, brief de conception
-- **Catalogue :** 40+ œuvres cataloguées par forme d'interactivité
-- **Symboles visuels :** SVG pour storyboards
-
-### Pour RTMF1M
-- **Fichier :** `docs/RTMF1M-CONTEXTE-COURS.md`
-- **Template :** Projet Svelte configuré et fonctionnel
-- **Recettes :** 15+ recettes de code documentées (fondations, interactions, feedback, persistance, avancé)
-- **Survival Guide :** Quick start, troubleshooting, glossaire
-
-### CSS et composants
-- **Fichier :** `docs/IAD_INTERACTIVE_DOCS.md`
-- **Location :** `src/styles/iad-interactive.css`
-- **Exemples :** `src/components/mdx/`
-
+#
 ---
 
 ## Messages clés à transmettre
 
-**Aux étudiants MM3B :**
 > "Le web n'est pas juste pour des sites corporate. C'est un espace de création unique qui combine texte, image, son, interactivité. Vous allez explorer ce potentiel et analyser comment les créateurs construisent des expériences mémorables."
 
-**Aux étudiants RTMF1M :**
-> "Le web n'est pas juste pour des sites corporate. C'est un espace de création unique qui combine texte, image, son, interactivité, temporalité. Vous allez explorer ce potentiel et créer des expériences que personne n'a jamais vues."
-
-**Sur la technique (RTMF1M) :**
 > "Vous n'allez pas devenir experts Svelte en 32h. Mais vous allez apprendre à utiliser les outils disponibles (recettes, IA, documentation) pour réaliser votre vision. C'est ça, la vraie compétence."
 
-**Sur l'évaluation :**
 > "Ce qui compte n'est pas QUI a écrit chaque ligne de code, mais est-ce que VOUS comprenez ce qu'il fait, et est-ce qu'il sert votre intention créative."
 
 **Sur le rôle de l'enseignant :**
@@ -448,9 +307,3 @@ L'enseignant EST :
 - **Critique** : "Est-ce que cette interaction sert votre narration ?"
 - **Guide technique** : "Voici les outils, à vous de les maîtriser"
 - **Coach créatif** : Accompagnement individuel des projets
-
----
-
-**Version :** 1.0
-**Date :** 2025-11-22
-**Principes directeurs :** Less, but better. Narration avant technique. Faire plutôt qu'écouter.

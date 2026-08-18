@@ -5,5 +5,4 @@
 
 ## Frontend
 
-- Use TailwindCSS
 - Use Tempest view components where it makes sense
