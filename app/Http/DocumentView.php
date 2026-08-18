@@ -38,7 +38,7 @@ final class DocumentView implements View
 
     public function navHtml(): string
     {
-        return $this->renderer->nav($this->content->tree());
+        return $this->renderer->nav($this->content->tree(), $this->document->slug);
     }
 
     public function hasToc(): bool

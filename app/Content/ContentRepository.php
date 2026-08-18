@@ -34,6 +34,9 @@ final class ContentRepository
     /** @var Xml\XmlSource[] */
     private array $sources = [];
 
+    /** @var array<string, true> slugs of typed entities, kept out of the navigation */
+    private array $entitySlugs = [];
+
     private ?ContentIndex $index = null;
 
     public function __construct(
@@ -86,10 +89,18 @@ final class ContentRepository
      * That is the rule Starlight applied (01-, 02- prefixes), so the order of the
      * real content will be the same the day we migrate it.
      *
+     * Pages only. Entities are a graph, not a tree: they are reached through the
+     * index of their section, through backlinks, or through a link in the prose.
+     * Listing the 125 œuvres in the navigation of every page said nothing that
+     * /oeuvres does not already say, and drowned the rest.
+     *
      * @return NavNode[]
      */
     public function tree(): array
     {
+        // buildTree() reads $entitySlugs, which only exists once everything is parsed.
+        $this->load();
+
         $home = $this->all()['/'] ?? null;
 
         return [
@@ -129,7 +140,13 @@ final class ContentRepository
                 continue;
             }
 
-            $document = $this->all()[$this->slugs->toSlug($path)] ?? null;
+            $slug = $this->slugs->toSlug($path);
+
+            if (isset($this->entitySlugs[$slug])) {
+                continue;
+            }
+
+            $document = $this->all()[$slug] ?? null;
 
             if ($document === null) {
                 continue;
@@ -174,6 +191,11 @@ final class ContentRepository
             if (str_ends_with($path, '.xml')) {
                 $source = $this->xml->parse($path, $slug);
                 $sources[] = $source;
+
+                // 'page' is the only XML type that is not an entity.
+                if ($source->type !== 'page') {
+                    $this->entitySlugs[$slug] = true;
+                }
 
                 $documents[$slug] = new Document(
                     slug: $slug,

@@ -18,8 +18,16 @@ use App\Content\TocEntry;
  */
 final readonly class TreeRenderer
 {
-    /** @param NavNode[] $nodes */
-    public function nav(array $nodes): string
+    /**
+     * The navigation, opened along the current page only.
+     *
+     * Every section stays visible, but a section unfolds its pages only when the
+     * reader is inside it. A whole site rendered on every page is not navigation,
+     * it is a sitemap.
+     *
+     * @param NavNode[] $nodes
+     */
+    public function nav(array $nodes, string $current): string
     {
         if ($nodes === []) {
             return '';
@@ -31,14 +39,40 @@ final readonly class TreeRenderer
             $label = $this->escape($node->title);
 
             $items .= '<li>';
-            $items .= $node->slug !== ''
-                ? '<a href="' . $this->escape($node->slug) . '">' . $label . '</a>'
-                : '<span>' . $label . '</span>';
-            $items .= $this->nav($node->children);
+
+            if ($node->slug === '') {
+                // A folder without an index page: a label, nothing to link to.
+                $items .= '<span>' . $label . '</span>';
+            } else {
+                $items .= '<a href="' . $this->escape($node->slug) . '"'
+                    . ($node->slug === $current ? ' aria-current="page"' : '')
+                    . '>' . $label . '</a>';
+            }
+
+            if ($this->leadsTo($node, $current)) {
+                $items .= $this->nav($node->children, $current);
+            }
+
             $items .= '</li>';
         }
 
         return '<ul>' . $items . '</ul>';
+    }
+
+    /** Whether the current page is this node or sits somewhere below it. */
+    private function leadsTo(NavNode $node, string $current): bool
+    {
+        if ($node->slug === $current) {
+            return true;
+        }
+
+        foreach ($node->children as $child) {
+            if ($this->leadsTo($child, $current)) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     /** @param TocEntry[] $entries */
