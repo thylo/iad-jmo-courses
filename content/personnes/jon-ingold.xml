@@ -1,0 +1,27 @@
+<personne id="jon-ingold" genre="personne">
+  <titre>Jon Ingold</titre>
+  <lieu>Cambridge</lieu>
+
+  <resume>Auteur de fiction interactive, cofondateur du studio inkle.</resume>
+
+  <markdown>
+    Il vient de la fiction interactive en texte, et c'est probablement la personne
+    qui parle le plus clairement du vrai problème de la narration non linéaire :
+    non pas « comment offrir des choix », mais « comment rester cohérent quand on
+    ne sait plus dans quel ordre les choses ont été vues ».
+
+    Sa conférence GDC 2017, [*Narrative Sorcery: Coherent Storytelling in an Open
+    World*](https://www.youtube.com/watch?v=HZft_U4Fc-U), est le meilleur point
+    d'entrée.
+
+    Il y décrit l'écriture défensive — chaque morceau de récit vérifie ce qui est
+    vrai avant de parler. Voir [[structure-a-etat]], et [[80-days]] pour le
+    résultat.
+  </markdown>
+
+  <section titre="Chez inkle">
+    <index de="oeuvre" ou="par = inkle" tri="-annee"/>
+  </section>
+
+  <retroliens/>
+</personne>

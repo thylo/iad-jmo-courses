@@ -5,6 +5,7 @@
   <exemple ref="late-shift"/>
   <exemple ref="lifeline"/>
   <voir ref="structure-constellation"/>
+  <voir ref="structure-a-etat"/>
 
   <resume>L'histoire se divise en branches selon les choix du spectateur. Chaque décision mène à un chemin différent.</resume>
 
@@ -60,6 +61,11 @@
       - Difficile de rendre tous les chemins satisfaisants
       - Risque d'illusion de choix si mal fait
       - Maintenance complexe
+
+      L'explosion vient de ce que la mémoire du récit est dans la position : être
+      « en 3-B » contient tout ce qui a été fait avant. Sortir cette mémoire du
+      chemin pour la mettre dans des faits — le loup est mort, j'ai la lanterne —
+      supprime l'explosion. C'est la [[structure-a-etat|structure à état]].
     </markdown>
   </section>
 
@@ -80,6 +86,8 @@
       - **Arbre profond** : Peu de choix mais avec grandes conséquences
       - **Arbre large** : Beaucoup de petits choix
       - **Choix cachés** : Conséquences qui se manifestent plus tard
+      - **Arbre + [[structure-a-etat|état]]** : Un squelette court d'embranchements,
+        le reste porté par ce dont le récit se souvient
     </markdown>
   </section>
 
