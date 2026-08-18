@@ -1,0 +1,6 @@
+.c-colophon {
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-ink-faint);
+  max-width: var(--measure-text);
+}

@@ -1,0 +1,52 @@
+/* Design tokens. No CSS output. */
+
+:root {
+  /* Baseline. Every vertical value is a multiple of --space-unit (28px) or
+     its half step (14px). Nothing in this file uses a value that is not. */
+  --space-unit: 1.75rem;              /* 28px */
+  --space-xs: calc(var(--space-unit) * 0.25);   /*  7px */
+  --space-s: calc(var(--space-unit) * 0.5);     /* 14px */
+  --space-m: var(--space-unit);                 /* 28px */
+  --space-l: calc(var(--space-unit) * 1.5);     /* 42px */
+  --space-xl: calc(var(--space-unit) * 2);      /* 56px */
+  --space-2xl: calc(var(--space-unit) * 3);     /* 84px */
+  --space-3xl: calc(var(--space-unit) * 4);     /* 112px */
+  --space-4xl: calc(var(--space-unit) * 5);     /* 140px */
+
+  /* Type. Two families only: a mincho for display and course titles, a
+     humanist gothic for everything that is read in quantity. */
+  --font-display: "Shippori Mincho", "Hiragino Mincho ProN", serif;
+  --font-text: "Zen Kaku Gothic New", system-ui, sans-serif;
+
+  /* Modular scale, fluid between 375px and 1280px viewports.
+     Steps are deliberately far apart: 38 / 24 / 18 / 16 / 14. */
+  --text-display: clamp(1.75rem, 1.15rem + 2.6vw, 2.375rem);   /* → 38px */
+  --text-lead: clamp(1.1875rem, 1rem + 0.8vw, 1.5rem);         /* → 24px */
+  --text-title: clamp(1.0625rem, 1rem + 0.25vw, 1.125rem);     /* → 18px */
+  --text-body: 1rem;                                            /*   16px */
+  --text-meta: 0.875rem;                                        /*   14px */
+
+  --leading-display: 2;      /* 2 baseline units */
+  --leading-lead: 1.75;      /* 1.5 units at 24px */
+  --leading-text: 1.75;      /* 1 unit at 16px */
+
+  /* Colour. One paper, one ink at three strengths, one accent.
+     The accent is reserved for interactive text and the drawn rule. */
+  --color-paper: oklch(97.5% 0.008 85);
+  --color-paper-sunk: oklch(93% 0.012 85);
+  --color-ink: oklch(21% 0.008 60);
+  --color-ink-muted: oklch(40% 0.008 60);
+  --color-ink-faint: oklch(48% 0.008 60);
+  --color-rule: oklch(86% 0.01 85);
+  --color-accent: oklch(58% 0.19 38);
+  --color-accent-strong: oklch(50% 0.2 38);
+
+  /* Measure. Line length governs the layout, not the container. */
+  --measure-display: 22ch;
+  --measure-lead: 46ch;
+  --measure-text: 62ch;
+
+  /* The label column of the asymmetric grid. */
+  --sidebar-width: 10.5rem;           /* 168px */
+  --gutter: var(--space-xl);
+}

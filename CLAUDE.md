@@ -227,7 +227,7 @@ Les "linéaires" manquent ça. Ils apportent la technologie du cinéma au web (c
 ### Code et structure
 
 - **Styling :** CSS pur (ITCSS, BEM) - pas Tailwind
-- **Code comments :** Français, clairs et fonctionnels
+- **Code comments :** Anglais, clairs et fonctionnels — le français est réservé au contenu
 - **Principes :** DRY, KISS, SRP
 - **Variables :** Nommage clair (ex: `dureeAnimation` pas `toto`)
 

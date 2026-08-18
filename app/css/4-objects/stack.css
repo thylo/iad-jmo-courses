@@ -1,0 +1,8 @@
+/* Vertical stack. Owl-style so spacing belongs to the container, never to
+   the child — components stay portable between contexts. */
+
+.o-stack > * + * { margin-block-start: var(--stack-space, var(--space-m)); }
+
+.o-stack--tight { --stack-space: var(--space-s); }
+.o-stack--loose { --stack-space: var(--space-l); }
+.o-stack--section { --stack-space: var(--space-3xl); }

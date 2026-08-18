@@ -1,0 +1,6 @@
+/* The page frame. */
+
+.o-page {
+  padding-inline: var(--gutter);
+  padding-block: var(--space-xl) var(--space-2xl);
+}

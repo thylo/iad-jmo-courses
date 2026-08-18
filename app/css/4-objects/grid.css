@@ -1,0 +1,23 @@
+/* Asymmetric two-column grid: a quiet label column, then content.
+   Collapses to one column before the label column would squeeze the
+   measure below ~50ch. */
+
+.o-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-s) 0;
+}
+
+@media (min-width: 48em) {
+  .o-grid {
+    grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+  }
+}
+
+.o-grid__aside { grid-column: 1; }
+
+.o-grid__main { grid-column: 1; }
+
+@media (min-width: 48em) {
+  .o-grid__main { grid-column: 2; }
+}

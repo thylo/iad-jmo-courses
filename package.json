@@ -1,0 +1,11 @@
+{
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build"
+	},
+	"devDependencies": {
+		"vite": "^7.3.6",
+		"vite-plugin-tempest": "^2.13.0"
+	}
+}

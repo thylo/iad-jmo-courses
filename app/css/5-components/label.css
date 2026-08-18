@@ -1,0 +1,7 @@
+/* Section label — the only role the faint ink plays. */
+
+.c-label {
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-ink-faint);
+}

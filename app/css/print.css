@@ -1,0 +1,13 @@
+/* Print: paper is already paper. */
+
+@media print {
+  :root {
+    --color-paper: #fff;
+    --color-ink: #000;
+    --color-accent: #000;
+  }
+
+  .c-portrait { display: none; }
+
+  a::after { content: " (" attr(href) ")"; font-size: var(--text-meta); }
+}

@@ -20,3 +20,8 @@ pnpm-debug.log*
 # macOS
 .DS_Store
 .idea
+
+# --- Vite ---
+node_modules/
+public/build/
+vite-tempest

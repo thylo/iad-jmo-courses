@@ -1,0 +1,6 @@
+.c-masthead {
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+}
+
+.c-masthead__origin { color: var(--color-ink-faint); }
