@@ -1,30 +1,35 @@
 ---
 title: Narration Interactive
-description: Le web comme médium narratif — site de cours, IAD Louvain-la-Neuve.
+description: Le web comme médium narratif — supports de cours de Julien Moreau, IAD Louvain-la-Neuve.
 ---
 
-# Narration Interactive
+# Ho, salut !
 
-Ce site tourne sur [Tempest](https://tempestphp.com). Le contenu est sur le
-disque, dans `content/` : du Markdown pour les pages de prose, du [XML](/demo/05-xml)
-pour les entités typées — œuvres, personnes, concepts.
+Je m'appelle Julien. Je vis en Belgique, j'écris du code pour gagner ma vie et
+pour le plaisir. Et je partage ça avec des étudiants, à l'IAD.
 
-Cette version est un socle : elle sert à vérifier que la chaîne complète fonctionne
-avant d'y verser les cours. Le contenu Astro existant attend dans `astro/`, intact.
+Ce site, ce sont mes supports de cours. Le web n'est pas seulement un support
+pour afficher de l'information : c'est un médium narratif. Le spectateur agit,
+l'espace porte le récit, le temps n'est pas imposé. C'est ce qu'on travaille
+ici.
 
-## Ce qui marche déjà
+## Votre promo
 
-- Le contenu est lu à la requête, pas construit à l'avance.
-- La navigation se déduit de l'arborescence des fichiers.
-- Le frontmatter alimente le titre et la description de la page.
-- Les entités XML forment un graphe : les liens `[[…]]` visent un identifiant,
-  les rétroliens et les index se calculent tout seuls.
-- Les listes des [œuvres](/oeuvres), des [personnes](/personnes) et des
-  [concepts](/concepts) ne sont écrites nulle part : elles sont dérivées.
+- [MM1B](/mm1b) — première année de bachelier en multimédia
+- [MM3B](/mm3b) — troisième année
 
-## Ce qui n'est pas là
+## Le fonds commun
 
-Pas de CSS, volontairement. Pas de recherche. Pas de composants interactifs.
-Ces décisions viendront après, une fois le socle jugé sur pièces.
+- [Œuvres](/oeuvres) — les œuvres interactives citées en cours
+- [Concepts](/concepts) — le vocabulaire pour les analyser
+- [Personnes](/personnes) — celles et ceux qui les ont faites
 
-Voir la [démonstration](/demo).
+Ces trois listes servent tous les cours. Rien n'y est réservé à une promo.
+
+## En chantier
+
+Ce site se reconstruit doucement, sur mon temps libre. Les cours de MM2B et de
+RTMF1M n'y sont pas encore. Repassez plus tard.
+
+Une question, une erreur, une œuvre à ajouter : julien@thylo.be.
+Le reste est [à propos](/a-propos).

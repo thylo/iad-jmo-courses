@@ -7,9 +7,9 @@ namespace App\Content;
 /**
  * Translates both ways between file path and URL slug.
  *
- *   content/index.md               -> /
- *   content/demo/index.md          -> /demo
- *   content/demo/01-frontmatter.md -> /demo/01-frontmatter
+ *   content/index.md                -> /
+ *   content/mm3b.md                 -> /mm3b
+ *   content/cours/index.md          -> /cours
  *   content/oeuvres/a-dark-room.xml -> /oeuvres/a-dark-room
  *
  * Numeric prefixes stay in the URL: they carry the display order, and stripping

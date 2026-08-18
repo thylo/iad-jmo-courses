@@ -1,6 +1,6 @@
 ---
-title: MM1B — Logique de programmation
-description: 
+title: Logique de programmation
+description: Comprendre ce qu'est le code et ce qu'on peut en faire. Notes de préparation.
 ---
 
 # Logique de programmation
