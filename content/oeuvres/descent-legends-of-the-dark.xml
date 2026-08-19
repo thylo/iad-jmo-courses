@@ -9,7 +9,44 @@
 
   <section titre="Pourquoi c'est inspirant">
     <markdown>
-      Combine la richesse narrative d'un jeu vidéo avec la tactilité et la sociabilité d'un jeu de plateau.
+      Le matériel est spectaculaire : un terrain qui se monte en trois dimensions,
+      des bâtiments qu'on assemble, une table qu'on a envie de photographier.
+
+      Et l'application supprime un travail ingrat. Dans les éditions précédentes, un
+      joueur devait tenir le rôle de l'Overlord : connaître les règles, gérer les
+      monstres, jouer contre ses amis toute la soirée. [[fantasy-flight-games]] avait
+      déjà confié ce rôle au logiciel avec l'application *Road to Legend* (2016) ;
+      *Legends of the Dark* construit toute la boîte autour de cette idée. Plus
+      personne n'est sacrifié à l'arbitrage, tout le monde joue du même côté.
+    </markdown>
+  </section>
+
+  <section titre="Ce qui coince">
+    <markdown>
+      Le plateau n'est jamais qu'un **écran déporté**. Chaque action faite sur la
+      table doit être répliquée dans l'application : on déplace la figurine, puis on
+      déclare le déplacement ; on ouvre la porte, puis on dit qu'on l'a ouverte.
+      Aucun geste ne compte tant qu'il n'a pas été ressaisi. Le jeu se joue dans
+      l'application — le carton en est l'affichage, et les joueurs le périphérique
+      de saisie. Ils font à la main, en double, le travail qu'un jeu vidéo ferait
+      tout seul.
+
+      C'est un renversement complet de ce que promet un plateau augmenté : ici le
+      matériel ne fait rien qu'un écran ne ferait mieux, il ajoute juste de la
+      manutention. Le terrain en trois dimensions est somptueux et parfaitement
+      inutile au fonctionnement du jeu.
+
+      L'application n'est d'ailleurs pas optionnelle et il n'existe pas de mode
+      dégradé : sans elle, la boîte ne se joue pas du tout.
+
+      Et le joueur qu'elle remplace ne faisait pas que placer des monstres. Il
+      regardait les visages autour de la table, il ajustait la difficulté au moral du
+      groupe, il bluffait. Un logiciel ne rate jamais rien, donc il ne surprend
+      jamais.
+
+      Reste le compte à rebours : le jour où l'éditeur cesse de maintenir
+      l'application, ce très beau matériel devient inutilisable. Voir
+      [[interface-plateau]].
     </markdown>
   </section>
 

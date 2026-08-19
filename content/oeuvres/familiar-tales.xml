@@ -9,7 +9,26 @@
 
   <section titre="Pourquoi c'est inspirant">
     <markdown>
-      Démontre comment le numérique peut prendre en charge la logistique complexe (états, règles, progression) pour laisser les joueurs se concentrer sur l'histoire et les décisions.
+      C'est un cas où l'application abaisse vraiment une barrière. Pas de livret de
+      règles à lire avant de commencer, personne à recruter pour tenir le rôle du
+      maître de jeu, et une campagne longue qui reste jouable avec des enfants. Elle
+      tient les états, la progression et les sauvegardes — c'est-à-dire tout ce qui
+      décourage une famille de rouvrir la boîte un deuxième soir.
+    </markdown>
+  </section>
+
+  <section titre="Ce qui coince">
+    <markdown>
+      Elle tient aussi la narration, et là le compte n'y est plus.
+
+      Lire à voix haute, faire les voix, sauter un passage quand les enfants
+      décrochent, en rajouter quand ça prend : c'était le travail de la personne qui
+      racontait, et c'est précisément ce qui fait la soirée. L'application déroule le
+      même texte au même rythme, table endormie ou pas. Elle a pris la comptabilité
+      *et* le conteur — le premier échange est bon, le second beaucoup moins.
+
+      À comparer avec [[tracks]], où la technologie en fait beaucoup moins et donne
+      davantage. Voir [[interface-plateau]].
     </markdown>
   </section>
 

@@ -35,5 +35,5 @@ Si la séance est courte, couper 6 et 7, les plus éloignées de leur pratique.
 Objets à personnalité (Brad the Toaster) : rangé en 4, mais c'est le seul sujet
 qui ne parle ni d'écran ni de salle. Peut devenir un fil à part.
 
-Fiches à créer : Unlock, Universal Paperclips, Brad the Toaster, SCP — les
-quatre œuvres citées sans lien sur /panorama.
+Fiches à créer : Universal Paperclips, Brad the Toaster, SCP — les œuvres
+citées sans lien sur /panorama.

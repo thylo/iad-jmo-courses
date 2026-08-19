@@ -50,7 +50,7 @@
     </markdown>
   </section>
 
-  <section titre="Schéma : où vont les regards">
+  <section titre="Deux tests">
     <markdown>
       ```
       Sans app                       App-narrateur
@@ -61,9 +61,23 @@
       Chacun regarde les autres      Chacun regarde le même écran
       ```
 
-      C'est la mesure la plus honnête d'un jeu augmenté : compter combien de temps
-      les joueurs se regardent. Une app qui capte tous les regards a remplacé la
-      table, pas le narrateur.
+      **Où vont les regards ?** C'est la mesure la plus honnête d'un jeu augmenté :
+      compter combien de temps les joueurs se regardent. Une application qui capte
+      tous les regards a remplacé la table, pas le narrateur.
+
+      **Qui fait la saisie ?** Le second test est plus mécanique, et il tranche
+      vite. Regardez un geste fait sur la table — déplacer une figurine, ouvrir une
+      porte — et demandez-vous s'il **compte** en lui-même, ou s'il faut ensuite le
+      redire à l'application pour qu'il existe.
+
+      Si le geste doit être répliqué à l'écran, le plateau n'est pas augmenté : il
+      est **déporté**. C'est l'affichage d'un jeu vidéo qui se trouve être en
+      carton, et les joueurs en sont les périphériques de saisie. Ils font
+      gratuitement le travail qu'un jeu vidéo ferait tout seul — bouger le pion,
+      puis déclarer qu'on l'a bougé.
+
+      Le vrai plateau augmenté est celui où le geste physique est l'action, et où
+      l'application ne fait que ce que le carton ne sait pas faire.
     </markdown>
   </section>
 
@@ -101,6 +115,20 @@
       C'est la démonstration que **augmenté ne veut pas dire intelligent**. Au
       passage, le jeu prend pour sujet ce qu'il fait faire au public — de la
       [[surveillance|surveillance]] — ce qui n'est pas si courant.
+
+      [[unlock|Unlock!]] (2017) tient sa place ici pour une raison précise :
+      l'application n'y raconte rien. Elle affiche des énigmes et des mini-jeux qui
+      seraient impraticables sur du carton — un mécanisme qu'il faut manipuler, une
+      image qu'on fouille, une machine à régler — puis elle vérifie les codes, tient
+      le chronomètre et distribue les indices. Rien d'autre. Le récit, lui, est sur
+      les cartes.
+
+      Elle passe aussi le test de la saisie, alors qu'on pourrait croire le
+      contraire. Taper un code dans l'application, ce n'est pas ressaisir un geste
+      déjà fait sur la table : le code **est** la réponse, c'est le coup qu'on joue.
+      Déclarer qu'on a déplacé un pion, c'est de la manutention ; annoncer une
+      solution, c'est jouer. La différence tient à ça — l'application reçoit-elle
+      une décision, ou un compte rendu ?
 
       ### 2. Elle remplace le maître de jeu
 
@@ -145,12 +173,11 @@
       carton. Du papier qui dure des siècles, dépendant d'un logiciel qui dure
       trois ans.
 
-      Leur invention, elle, a survécu — en voyageant plus léger. La reconnaissance
-      d'objets sur écran capacitif a quitté les livres d'artiste pour entrer dans
-      les boîtes grand public : c'est la carte qu'on pose sur le téléphone dans les
-      jeux **Unlock!**, vendus par centaines de milliers. Ce qui a duré, ce n'est
-      pas le bel objet : c'est un motif de points imprimé, assez simple pour être
-      repris par d'autres.
+      L'atelier, lui, a survécu — en cessant d'éditer pour équiper les autres. Son
+      portfolio compte aujourd'hui les applications des boîtes [[unlock|Unlock!]],
+      vendues par centaines de milliers. Ce qui a duré n'est pas le bel objet, c'est
+      le savoir-faire : assez léger pour voyager dans le travail de gens qui ne
+      fabriquent pas de livres.
 
       Le compte à rebours, lui, tourne sous chaque jeu de cette page. Le jour où
       l'éditeur cesse de maintenir l'application, la boîte reste pleine et le jeu

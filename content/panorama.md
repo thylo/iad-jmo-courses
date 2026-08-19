@@ -56,7 +56,7 @@ jouent. La frontière entre l'œuvre et le reste devient volontairement floue.
 Une table, une salle, un musée. Ici le numérique n'est pas le support : c'est un
 accessoire au service d'une expérience physique. L'inversion est utile à voir.
 
-- Jeux de société narratifs : *Unlock*,
+- Jeux de société narratifs : [Unlock!](/oeuvres/unlock),
   [Chronicles of Crime](/oeuvres/chronicles-of-crime),
   [Alice is Missing](/oeuvres/alice-is-missing)
 - Escape games : de plus en plus de technologie dans les salles
