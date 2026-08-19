@@ -23,12 +23,18 @@ use App\Content\Xml\XmlSource;
 final readonly class ImageTag
 {
     /**
-     * The column is 62ch (~530px) and the full grid ~780px, so the browser is
-     * told the displayed width rather than left to assume 100vw.
+     * A figure spans the reading — the text column plus the open field — so its
+     * width is the window less the gutters and the margin, which is about 20rem
+     * across the range the layout is used at. Not exact, and it does not need
+     * to be: sizes is a hint, and being a little generous costs less than
+     * letting the browser assume 100vw.
      */
-    private const string SIZES_LEAD = '(min-width: 48em) 33rem, calc(100vw - 3.5rem)';
+    private const string SIZES_FIGURE = '(min-width: 48em) calc(100vw - 20rem), calc(100vw - 3.5rem)';
 
     private const string SIZES_THUMBNAIL = '(min-width: 48em) 11rem, 40vw';
+
+    /** A bleed spans the paper, edge to edge. */
+    private const string SIZES_BLEED = '100vw';
 
     public function __construct(
         private MediaLibrary $library,
@@ -43,7 +49,7 @@ final readonly class ImageTag
             return '';
         }
 
-        $image = $this->tag($visual, width: 640, sizes: self::SIZES_LEAD, lazy: false);
+        $image = $this->tag($visual, width: 1280, sizes: self::SIZES_FIGURE, lazy: false);
 
         if ($image === '') {
             return '';
@@ -73,6 +79,10 @@ final readonly class ImageTag
      *
      * Same markup as the lead image, with the caption the block carries and the
      * credit under it. Lazy: it is below the fold by definition.
+     *
+     * pleine="oui" is the one thing the writer decides about width. A figure
+     * takes the reading — text column plus open field — unless the image is
+     * worth looking at before anything is read, and then it takes the paper.
      */
     public function block(\Dom\Element $element, string $type): string
     {
@@ -82,13 +92,25 @@ final readonly class ImageTag
             return '';
         }
 
-        $image = $this->tag($visual, width: 640, sizes: self::SIZES_LEAD, lazy: true);
+        $bleed = Html::attribute($element, 'pleine') === 'oui';
+
+        $image = $this->tag(
+            $visual,
+            width: 1280,
+            sizes: $bleed ? self::SIZES_BLEED : self::SIZES_FIGURE,
+            lazy: true,
+        );
 
         if ($image === '') {
             return '';
         }
 
-        return sprintf('<figure class="c-figure">%s%s</figure>', $image, $this->caption($visual));
+        return sprintf(
+            '<figure class="c-figure%s">%s%s</figure>',
+            $bleed ? ' c-bleed' : '',
+            $image,
+            $this->caption($visual),
+        );
     }
 
     private function tag(Visual $visual, int $width, string $sizes, bool $lazy): string

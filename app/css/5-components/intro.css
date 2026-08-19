@@ -1,12 +1,28 @@
+/* The opening: the label, the title, the summary.
+
+   It sits on the outer span — margin to the far edge of the field — and the
+   reading steps in by one column underneath. That step is what announces the
+   margin; without it the empty column reads as a mistake rather than as a
+   place notes will land.
+*/
+
+.c-intro__label {
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-ink-faint);
+}
+
 .c-intro__title {
   font-size: var(--text-display);
   line-height: var(--leading-display);
   max-width: var(--measure-display);
 }
 
-/* One baseline unit under the title. On the homepage the drawn rule sits in
-   between and carries the same value, so the two collapse into one step and
-   the opening keeps its rhythm either way. */
+.c-intro__label + .c-intro__title { margin-block-start: var(--space-s); }
+
+/* One baseline unit under the title. On the homepage the signature sits in
+   between and carries the same value, so the two collapse into one step and the
+   opening keeps its rhythm either way. */
 .c-intro__lead {
   margin-block-start: var(--space-m);
   font-size: var(--text-lead);
@@ -14,3 +30,7 @@
   max-width: var(--measure-lead);
   color: oklch(26% 0.008 60);
 }
+
+/* A fiche opens as a pair: what the work is on the left, what is known about it
+   on the right. The opening gives up the field for that, and only then. */
+.c-intro--avec-fiche { grid-column: marge-start / texte-end; }

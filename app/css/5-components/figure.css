@@ -42,3 +42,14 @@ figcaption.c-figure__credit {
 }
 
 .c-figure__credit a { color: inherit; }
+
+/* A figure at bleed touches both edges, but its caption is text: it comes back
+   onto the text column rather than starting at the paper's edge. */
+.c-figure.c-bleed > figcaption {
+  max-width: var(--measure-text);
+  margin-inline-start: calc(var(--gutter) + var(--sidebar-width));
+}
+
+@media (max-width: 47.999em) {
+  .c-figure.c-bleed > figcaption { margin-inline-start: var(--gutter); }
+}

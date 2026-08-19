@@ -6,10 +6,6 @@
 
    Every vertical value is a multiple of the 28px baseline. */
 
-.c-prose {
-  max-width: var(--measure-text);
-}
-
 /* The owl runs one level into the wrappers the content layer creates: an XML
    entity puts each of its parts in a <section>, markdown wraps nothing at all,
    and the rhythm has to hold in both. :where() keeps these at one class of
@@ -51,11 +47,6 @@
   color: var(--color-ink-muted);
 }
 
-.c-prose hr {
-  border: 0;
-  border-block-start: 1px solid var(--color-rule);
-  margin-block: var(--space-xl);
-}
 
 .c-prose :is(code, pre) {
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
@@ -77,18 +68,6 @@
 
 /* --- Classes the content itself carries -------------------------------- */
 
-/* The fiche: an entity's typed fields, set as a two-column list of pairs. */
-.c-prose .fiche {
-  display: grid;
-  grid-template-columns: max-content minmax(0, 1fr);
-  column-gap: var(--space-m);
-  font-size: var(--text-meta);
-  line-height: var(--space-unit);
-}
-
-.c-prose .fiche dt { color: var(--color-ink-faint); }
-
-.c-prose .fiche dd { margin: 0; }
 
 /* An aside earns a rule, not a coloured box. */
 .c-prose .note {

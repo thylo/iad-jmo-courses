@@ -1,8 +1,25 @@
+/* The face, on the homepage only.
+
+   It floats into the margin like a note does, and for the same reason: it is
+   an aside to the reading, not a part of it. Same mechanism, same negative
+   margin — one less special case. */
+
 .c-portrait {
+  float: left;
+  clear: left;
+  margin-block-start: var(--space-m);
+  margin-inline-start: calc(-1 * var(--sidebar-width));
   inline-size: 5.25rem;
   block-size: 5.25rem;
   border-radius: 50%;
   background-color: var(--color-paper-sunk);
   border: 1px solid var(--color-rule);
   object-fit: cover;
+}
+
+@media (max-width: 47.999em) {
+  .c-portrait {
+    float: none;
+    margin-inline-start: 0;
+  }
 }

@@ -1,7 +1,9 @@
-/* Closing note. Sits one step short of a full section break, so it reads as
-   the tail of the page rather than another section of it. */
+/* Closing note, under a drawn rule. */
 
-.c-colophon { --stack-space: var(--space-2xl); }
+.c-colophon {
+  --trait: var(--trait-2);
+  --canvas-space: var(--space-3xl);
+}
 
 .c-colophon__text {
   font-size: var(--text-meta);

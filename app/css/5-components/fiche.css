@@ -1,0 +1,24 @@
+/* The fiche: an entity's typed fields, set as a list of pairs.
+
+   It leaves the reading for the open field: a year, a link and three names are
+   data, not prose, and the opening has room beside it now. Its own component
+   rather than a rule inside .c-prose, because it is no longer inside it. */
+
+.fiche {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: var(--space-m);
+  max-width: 26rem;
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+}
+
+.fiche dt { color: var(--color-ink-faint); }
+
+.fiche dd { margin: 0; }
+
+/* On one column there is no field to sit in, so it comes back under the
+   summary, where it was before. */
+@media (max-width: 47.999em) {
+  .fiche { max-width: none; }
+}

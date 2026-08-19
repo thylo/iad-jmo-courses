@@ -1,0 +1,75 @@
+/* Every rule on this site is drawn, not printed.
+
+   A 1px border says a machine set this page. A crooked line says someone did.
+   That is the whole argument, and it costs one element property: the rules are
+   masks over a coloured box, so they take the ink token like anything else and
+   they cost no request.
+
+   Three drawings in the tokens, used in turn so the same squiggle never appears
+   twice on one page. The signature — the accented mark on the homepage — is a
+   fourth, and it is the only one that is not grey. */
+
+.c-trait,
+.c-prose hr {
+  border: 0;
+  display: block;
+  inline-size: 100%;
+  block-size: 0.5rem;
+  background-color: var(--color-rule);
+  mask-image: var(--trait, var(--trait-1));
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: var(--trait, var(--trait-1));
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.c-trait--2 { --trait: var(--trait-2); }
+.c-trait--3 { --trait: var(--trait-3); }
+
+/* An <hr> in the prose is a break in the argument, so it keeps the space a
+   heading would claim. It also gets its own drawing, or every long page would
+   repeat the masthead's. */
+.c-prose hr {
+  --trait: var(--trait-2);
+  margin-block: var(--space-xl);
+  margin-inline: 0;
+}
+
+/* The signature. One mark, in the accent, on the homepage only — it introduces
+   the person writing, which happens once. */
+.c-signature {
+  --trait: var(--trait-signature);
+
+  display: block;
+  inline-size: min(11rem, 100%);
+  block-size: 0.875rem;
+  margin-block: var(--space-s) var(--space-m);
+  background-color: var(--color-accent);
+  mask-image: var(--trait);
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: var(--trait);
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+}
+
+/* A block that closes on a drawn rule rather than on a border. The pseudo is a
+   block in normal flow, so it needs no positioning and no extra markup. */
+.c-trait-dessous::after,
+.c-trait-dessus::before {
+  content: "";
+  display: block;
+  inline-size: 100%;
+  block-size: 0.5rem;
+  background-color: var(--color-rule);
+  mask-image: var(--trait, var(--trait-1));
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: var(--trait, var(--trait-1));
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.c-trait-dessous::after { margin-block-start: var(--space-s); }
+.c-trait-dessus::before { margin-block-end: var(--space-m); }

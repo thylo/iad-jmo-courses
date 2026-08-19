@@ -5,29 +5,45 @@
    Only long pages get one at all; see DocumentView::hasToc(). */
 
 .c-toc {
+  --trait: var(--trait-3);
   margin-block-end: var(--space-xl);
-  padding-block-end: var(--space-m);
-  border-block-end: 1px solid var(--color-rule);
 }
 
+/* The label is the title of the block, not its first entry. It says so the way
+   a <note> title does elsewhere on the site: the mincho, full ink, one step
+   larger. The entries stay gothic, 14px, muted — two families, two sizes, two
+   strengths of ink, and no ambiguity about which is which. */
 .c-toc__label {
-  font-size: var(--text-meta);
+  font-family: var(--font-display);
+  font-size: var(--text-body);
   line-height: var(--space-unit);
-  color: var(--color-ink-faint);
+  color: var(--color-ink);
+  margin-block-end: var(--space-s);
 }
 
+/* Columns, and they flow downwards.
+
+   Laid out as a grid the entries flow across, so the fourth heading lands
+   beside the first and the summary stops reading as a sequence. Multi-column
+   fills one column before starting the next, so the order of the page is the
+   order of reading. The number of columns still comes from the width; nobody
+   decides it. */
 .c-toc__list {
-  display: flex;
-  flex-wrap: wrap;
+  /* The prose owl and the measure cap both reach in here — the summary is a
+     <nav> in the reading like any other. It wants neither: its own step under
+     the label, and the full width of the reading to lay columns on. */
+  margin-block-start: 0;
+  max-width: none;
+
+  columns: 15rem;
   column-gap: var(--space-m);
-  row-gap: 0;
 }
 
-/* Only the top level runs inline. A nested list would need its own line and
-   turn a one-line summary back into an outline. */
-.c-toc__list .c-toc__list {
-  display: none;
-}
+.c-toc__list > li { break-inside: avoid; }
+
+/* Only the top level is listed. A nested list would turn a summary into an
+   outline, which is the thing the reading itself already is. */
+.c-toc__list .c-toc__list { display: none; }
 
 .c-toc__link {
   font-size: var(--text-meta);

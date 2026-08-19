@@ -20,7 +20,7 @@ use function Tempest\root_path;
 final class MediaLibrary
 {
     /** Display widths, taken from the layout: a 62ch column is ~530px, the full grid ~780px. */
-    public const array WIDTHS = [320, 640, 1280];
+    public const array WIDTHS = [320, 640, 1280, 1920];
 
     /** @var array<string, MediaAsset>|null */
     private ?array $assets = null;

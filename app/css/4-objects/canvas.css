@@ -1,0 +1,93 @@
+/* The page: a full-width grid, not a centred sheet.
+
+   The web has no fixed page size, so the layout does not pretend to one. There
+   is no max-width on the container; what holds the text is the measure, which
+   is a property of reading, not of the window. Widening the screen therefore
+   deforms nothing — it hands the surplus to one column, and that column is
+   where the images live.
+
+   Three named columns, one of them fluid:
+
+     marge   fixed    the labels and the margin notes
+     texte   62ch     the reading, and nothing else
+     champ   1fr      everything the window gives beyond the two above
+
+   The gutter grows with the window (28 → 96px), the margin and the measure do
+   not. So the only thing that changes between a 1200px laptop and a 2000px
+   display is how much room a figure has.
+
+   Everything on the page is a direct child of this grid. Placement is by named
+   line, never by row number: rows are auto, so a page that has no summary or no
+   fiche simply has one row fewer. */
+
+.o-canvas {
+  display: grid;
+  grid-template-columns:
+    [bleed-start] var(--gutter)
+    [marge-start] var(--sidebar-width)
+    [texte-start] minmax(0, var(--measure-text))
+    [texte-end] var(--space-xl)
+    [champ-start] minmax(0, 1fr)
+    [champ-end] var(--gutter) [bleed-end];
+  align-items: start;
+  padding-block: var(--space-m) var(--space-2xl);
+}
+
+/* The default span: from the margin to the far edge of the field. The masthead,
+   the opening and the colophon all sit on it, which is what makes them read as
+   the frame of the page rather than as part of the reading. */
+.o-canvas > * { grid-column: marge-start / champ-end; }
+
+/* Vertical rhythm belongs to the page, not to the blocks — same owl as before,
+   applied to grid items instead of flow children. */
+.o-canvas > * + * { margin-block-start: var(--canvas-space, var(--space-2xl)); }
+
+.o-canvas__marge { grid-column: marge-start / texte-start; }
+.o-canvas__texte { grid-column: texte-start / texte-end; }
+.o-canvas__champ { grid-column: champ-start / champ-end; }
+
+/* The reading takes the text column AND the field. The prose inside keeps the
+   measure; only figures and indexes use the extra width. That is the whole
+   arrangement: one block, two behaviours, no second container. */
+.o-canvas__lecture { grid-column: texte-start / champ-end; }
+
+/* The measure is capped on the blocks, not on the article: a <section> is full
+   width and what it contains sits on the measure. Cap the section instead and
+   an image inside it would be a prisoner of its section.
+
+   :where() keeps this at zero specificity so a component can still speak for
+   itself. */
+.o-canvas__lecture > :where(:not(section, nav)),
+.o-canvas__lecture > :where(section, nav) > * {
+  max-width: var(--measure-text);
+}
+
+/* What is allowed past the measure. The only exception in the system, and it is
+   named rather than implied. */
+.o-canvas__lecture :where(figure, .index--vignettes, .c-bleed) {
+  max-width: none;
+}
+
+/* Bleed: the one move that leaves the grid. Both distances are known lengths —
+   the gutter and the margin — so there is nothing to guess at. */
+.c-bleed {
+  margin-inline:
+    calc(-1 * (var(--gutter) + var(--sidebar-width)))
+    calc(-1 * var(--gutter));
+}
+
+/* Below the fold of the second column there is no margin and no field: one
+   column, the gutter, and everything back in the flow. The one breakpoint in
+   the whole sheet. */
+@media (max-width: 47.999em) {
+  .o-canvas {
+    grid-template-columns:
+      [bleed-start] var(--gutter)
+      [marge-start texte-start] minmax(0, 1fr)
+      [texte-end champ-start champ-end] var(--gutter) [bleed-end];
+  }
+
+  .o-canvas > * + * { margin-block-start: var(--canvas-space, var(--space-xl)); }
+
+  .c-bleed { margin-inline: calc(-1 * var(--gutter)); }
+}

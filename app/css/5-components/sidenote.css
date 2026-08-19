@@ -3,7 +3,8 @@
    It floats out of the reading into the margin, so it sits beside the text at
    the height it was written, and the measure of the reading never changes to
    accommodate it. The float lands entirely in negative space — left of the
-   content box — so no line of body text ever wraps around it.
+   content box, which starts at the text column — so no line of body text ever
+   wraps around it.
 
    It annotates what follows it: a float aligns with the top of the block after
    it, so <marge> is written above the paragraph it comments. */

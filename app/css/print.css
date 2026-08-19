@@ -9,5 +9,20 @@
 
   .c-portrait { display: none; }
 
+  /* Browsers drop background paint when printing, and every rule here is a
+     masked background. On paper they go back to being borders. */
+  .c-trait,
+  .c-prose hr,
+  .c-trait-dessous::after,
+  .c-trait-dessus::before {
+    block-size: 0;
+    background: none;
+    mask-image: none;
+    -webkit-mask-image: none;
+    border-block-start: 1px solid #000;
+  }
+
+  .c-signature { display: none; }
+
   a::after { content: " (" attr(href) ")"; font-size: var(--text-meta); }
 }
