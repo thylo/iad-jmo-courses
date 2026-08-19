@@ -18,53 +18,22 @@
 
 ## À aborder demain (cours du 2026-08-20)
 
-Sept familles, une œuvre montrée par famille. Si la séance est courte, couper 6 et 7.
+Les sept familles et leurs œuvres sont sur /panorama. Ici, seulement la conduite
+de séance.
 
-### 1. Le linéaire qui bifurque
-*Montrer : Fort McMoney. Le choix change-t-il autre chose que l'ordre des séquences ?*
-- Film interactif : Bandersnatch, Late Shift, Jusqu'ici — le linéaire qui bifurque, et ses limites
-- Webdoc / documentaire interactif : Fort McMoney, Prison Valley, Gaza Sderot, Welcome to Pine Point
+Une œuvre montrée par famille, deux minutes de réaction : ~70 min pour les sept.
+Si la séance est courte, couper 6 et 7, les plus éloignées de leur pratique.
 
-### 2. L'interface comme décor
-*Montrer : Karen. Le récit caché dans une forme qu'ils utilisent tous les jours.*
-- Interfaces de jeu qui imitent un ordinateur ou un mobile (diégétique : l'écran EST le décor)
-- Fictions par email et autres formes purement textuelles (cfr Universal Paperclips)
-- Fiction par messagerie et notifications : Lifeline, Browser Dating — l'app qui te réveille la nuit
-- Fictions sur réseaux sociaux : le récit qui se joue dans le fil
-- Chatbots et personnages conversationnels : Karen
+1. **Le linéaire qui bifurque** — Fort McMoney. Le choix change-t-il autre chose que l'ordre des séquences ?
+2. **L'interface comme décor** — Karen. Le récit caché dans une forme qu'ils utilisent tous les jours.
+3. **La fiction qui déborde dans le réel** — Uncle Roy All Around You. Le décor c'est la rue, les figurants ne savent pas qu'ils jouent.
+4. **Le récit dans un espace fait pour ça** — Unlock et son app compagnon. Le numérique en accessoire au service du physique.
+5. **Un média existant, plus l'interaction** — The Wilderness Downtown. Quand l'ajout sert le récit, et quand c'est un gadget.
+6. **Manipuler un modèle** — Nicky Case. On ne lit pas un graphique, on tourne les boutons.
+7. **Le récit sans auteur unique** — SCP. Personne ne contrôle la fin, il n'y en a pas.
 
-### 3. La fiction qui déborde dans le réel
-*Montrer : Uncle Roy All Around You. Le décor c'est la rue, les figurants ne savent pas qu'ils jouent.*
-- ARG (alternate reality games) : la fiction qui déborde sur le réel
-- Fictions géolocalisées : le récit déclenché par le lieu
-- Récits en réalité augmentée : la fiction posée sur le monde vu
-- Jeux pervasifs urbains : Uncle Roy All Around You, Rider Spoke, Can You See Me Now
+Objets à personnalité (Brad the Toaster) : rangé en 4, mais c'est le seul sujet
+qui ne parle ni d'écran ni de salle. Peut devenir un fil à part.
 
-### 4. Le récit dans un espace fait pour ça
-*Montrer : Unlock et son app compagnon. Ici le numérique est un accessoire au service du physique — inversion utile.*
-- Unlock : le jeu de société comme narration interactive (cartes + app compagnon)
-- Autres jeux de société narratifs : Chronicles of Crime, Alice is Missing
-- Escape games : de plus en plus de technologie dans les salles
-- Théâtre immersif, larp
-- Installations interactives en musée : le visiteur comme déclencheur du récit (Rain Room, Lozano-Hemmer, The Telegarden)
-- Projection live
-- Le live piloté à distance : Real Life First Person Shooter (Chatroulette) — des spectateurs distants dirigent un acteur en vrai, en direct
-- Objets programmés avec une personnalité — cfr Brad the Toaster (Simone Rebaudengo).
-  Seul point de la liste qui ne parle ni d'écran ni de salle : peut devenir un fil à part, l'objet qui a une intention.
-
-### 5. Un média existant, plus l'interaction
-*Montrer : The Wilderness Downtown. Quand l'ajout sert le récit, et quand c'est un gadget.*
-- Bandes dessinées augmentées : Phallaina
-- Podcasts fictionnels : la narration par le son seul
-- Clips et objets musicaux interactifs : The Wilderness Downtown, Just a Reflektor, The Johnny Cash Project, Incredibox
-- VR et 360° : Clouds over Sidra, Alma
-
-### 6. Manipuler un modèle
-*Montrer : Nicky Case. On ne lit pas un graphique, on tourne les boutons et on comprend.*
-- Data storytelling
-- Explorables et simulations jouables : Nicky Case, Seeing Theory, The Pudding
-
-### 7. Le récit sans auteur unique
-*Montrer : SCP. Personne ne contrôle la fin, il n'y en a pas.*
-- Fictions collaboratives et wikis : SCP — l'auteur multiple, sans fin
-- Twitch Plays Pokemon
+Fiches à créer : Unlock, Universal Paperclips, Brad the Toaster, SCP — les
+quatre œuvres citées sans lien sur /panorama.
