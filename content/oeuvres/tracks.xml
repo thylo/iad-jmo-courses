@@ -1,15 +1,26 @@
 <oeuvre id="tracks" statut="en-ligne">
   <titre>Tracks</titre>
-  <annee>2021</annee>
-  <par>Tracks Game</par>
-  <url>https://www.youtube.com/watch?v=XVVojkNY6wk</url>
+  <annee>2022</annee>
+  <par>KYF Édition</par>
+  <par>Christian Rubiella</par>
+  <par>Juan Rodriguez</par>
+  <url>https://www.asmodee.be/product/tracks/</url>
   <categorie>Jeu</categorie>
 
-  <resume>Les joueurs suivent des traces physiques tout en construisant collectivement une histoire. Mélange déduction et création narrative.</resume>
+  <resume>Jeu d'enquête sonore. Les joueurs forment la S.B.A.S., unité chargée d'écouter la ville de Siren Bay : on suit une cible au casque, au bruit, et on trace son trajet sur un plan. Quinze affaires d'environ vingt-cinq minutes, une application qui ne sert qu'à diffuser le son.</resume>
 
   <section titre="Pourquoi c'est inspirant">
     <markdown>
-      Transforme la déduction en outil de création d'histoire collective.
+      La technologie y est réduite au minimum et fait pourtant tout le travail :
+      l'application est un lecteur audio, rien de plus. Elle ne calcule pas,
+      n'arbitre pas, ne garde aucun secret. Ce qui fait l'enquête, c'est le
+      montage son — un train qui passe, une porte, une voix de fond qu'on ne
+      remarque qu'à la deuxième écoute.
+
+      Le contraste avec les jeux où l'application tient le scénario entier
+      ([[descent-legends-of-the-dark]], [[familiar-tales]]) est net : ici personne
+      ne fixe un écran, et la table écoute ensemble parce que le son impose son
+      tempo. Voir [[interface-plateau]].
     </markdown>
   </section>
 

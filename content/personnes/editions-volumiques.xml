@@ -1,0 +1,85 @@
+<personne id="editions-volumiques" genre="studio">
+  <titre>Les Éditions Volumiques</titre>
+  <lieu>Paris</lieu>
+  <depuis>2009</depuis>
+  <url>https://volumique.com/</url>
+
+  <resume>Studio français fondé par Étienne Mineur et Bertrand Duplat, à la fois maison d'édition et laboratoire : le papier considéré comme une plateforme informatique.</resume>
+
+  <markdown>
+    Leur point de départ tient en une phrase : et si le livre de papier était une
+    nouvelle plateforme informatique ? Pas un livre *accompagné* d'une app, pas un
+    livre *scanné* — un objet de papier dont le calcul se fait ailleurs, et qui
+    reste du papier.
+
+    Ils prennent le problème de l'écran à l'envers. Partout ailleurs, le numérique
+    se met au centre de la table et le carton devient décoratif. Chez eux l'écran
+    passe **sous** l'objet, ou disparaît dedans. On ne regarde jamais une
+    interface : on manipule du papier, et le papier est vivant.
+
+    [[etienne-mineur|Mineur]] vient du graphisme et du CD-ROM (ENSAD 1992, puis les studios Index+ et
+    Incandescence) ; il enseigne aujourd'hui à la HEAD Genève, à Camondo et à
+    l'ENSCI. Duplat vient de l'ingénierie logicielle — il a cofondé Virtools en
+    1993. Un graphiste et un informaticien : ça se voit dans le travail.
+  </markdown>
+
+  <section titre="L'invention">
+    <markdown>
+      Leur trouvaille technique est simple et jolie : une dalle tactile ne
+      distingue pas un doigt d'autre chose de conducteur. En imprimant sur du
+      papier ou en moulant sous un pion un motif de points conducteurs, on obtient
+      un objet que l'écran **reconnaît** quand on le pose dessus — et dont il
+      connaît la position et l'orientation.
+
+      Pas de caméra, pas de puce, pas de pile, pas d'appairage. De l'encre et un
+      écran qui existe déjà. C'est breveté, et c'est la base de la plupart de leurs
+      objets : cartes reconnues à la pose, figurines suivies sur la dalle,
+      smartphone glissé sous une feuille où l'on voit bouger une forme en
+      transparence.
+    </markdown>
+  </section>
+
+  <section titre="Ce qu'ils ont fabriqué">
+    <markdown>
+      *Le Labyrinthe aux fantômes* : une figurine posée sur l'écran, un plateau de
+      papier par-dessus, des enfants autour.
+
+      *Night of the Living Dead Pixels* : un livre qui est aussi un jeu vidéo.
+
+      Un ballon en pop-up dressé sur un iPad, un plateau de jeu étendu par une
+      tablette posée au milieu, et — leur idée la plus radicale — un livre conçu
+      pour s'autodétruire vingt minutes après ouverture, une résistance chauffante
+      noircissant peu à peu le papier. Une œuvre qui vous impose de la lire d'une
+      traite.
+
+      Le studio n'a pas cessé. Sous le nom **Volumique**, il continue avec des
+      pliages (*Spirogami*, *Paponimo*), de la réalité augmentée, et
+      *Chamonix-Sentinelles*, un jeu d'anticipation sur les Alpes de 2030 à 2100
+      mené avec le chercheur Nicolas Nova.
+    </markdown>
+  </section>
+
+  <section titre="Ce qui a pris, ce qui n'a pas pris">
+    <markdown>
+      Les objets, non. Un livre-plateforme est calibré au millimètre pour l'écran
+      d'un téléphone d'une année donnée : écran plus grand, l'objet ne tombe plus
+      juste ; système mis à jour, l'app ne se lance plus ; app retirée du store,
+      l'objet redevient du carton. Ils fabriquaient du papier — qui dure des
+      siècles — dépendant d'un logiciel qui dure trois ans. Aucun de ces livres
+      n'est jouable aujourd'hui comme il l'était.
+
+      L'invention, oui. La reconnaissance d'objets sur écran capacitif a quitté les
+      livres d'artiste pour entrer dans les boîtes de jeu grand public : leur
+      portfolio revendique la technologie des jeux **Unlock!** — la carte qu'on
+      pose sur le téléphone et que l'app reconnaît. Vendus par centaines de
+      milliers.
+
+      La leçon n'est pas « ils étaient trop tôt ». C'est que **l'idée survit à
+      l'objet quand elle voyage plus léger**. Ce qui a duré, ce n'est pas le beau
+      livre : c'est un motif de points conducteurs imprimé sur une carte, assez
+      simple pour être repris ailleurs par d'autres.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</personne>
