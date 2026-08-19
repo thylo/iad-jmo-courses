@@ -1,0 +1,25 @@
+<oeuvre id="the-electric-knife-orchestra" statut="en-ligne">
+  <titre>The Electric Knife Orchestra</titre>
+  <annee>2017</annee>
+  <par ref="neil-mendoza"/>
+  <url>https://www.neilmendoza.com/portfolio/the-electric-knife-orchestra/</url>
+  <categorie>Installation</categorie>
+
+  <resume>Seize couteaux électriques et un couperet, tous achetés en magasin à un dollar, montés en six machines qui jouent un morceau des Bee Gees. Aucun son enregistré : la musique est produite par les moteurs.</resume>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      La pièce n'est pas interactive. Elle tourne toute seule, on ne fait que la
+      regarder — et elle a sa place ici pour cette raison : elle marque la limite du
+      [panorama](/panorama). Pas de public qui agit, pas de récit, pas de choix.
+      Juste un objet qui fait quelque chose de bien fait.
+
+      Ce qui s'apprend là est concret : le son sort du matériau lui-même, pas d'un
+      haut-parleur. La contrainte (des couteaux à un dollar) est plus intéressante
+      que n'importe quel budget. Et le résultat tient en une phrase — signe qu'il y
+      avait une idée avant qu'il y ait un chantier.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

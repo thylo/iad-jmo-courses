@@ -102,3 +102,33 @@ public en fait, et elle continue sans lui.
 
 - Fictions collaboratives et wikis : la *SCP Foundation*
 - Récits pilotés par une foule : [Twitch Plays Pokémon](/oeuvres/twitch-plays-pokemon)
+
+## En marge : quand il n'y a pas de récit
+
+Les sept familles rangent des œuvres qui racontent. Juste à côté, il y a un
+champ entier où la question ne se pose pas : des installations, des machines,
+des dispositifs qui n'ont ni histoire, ni message, ni utilisateur à servir. La
+famille 4 en effleure le bord — Rain Room, Lozano-Hemmer — mais l'essentiel est
+en dehors de ce classement.
+
+[Neil Mendoza](/personnes/neil-mendoza) en est un bon échantillon : des objets
+de récupération montés en machines absurdes. Son
+[Electric Knife Orchestra](/oeuvres/the-electric-knife-orchestra) — seize
+couteaux à un dollar qui jouent un morceau — n'est même pas interactif. Il
+tourne tout seul. On regarde.
+
+[Sol LeWitt](/personnes/sol-lewitt) est l'ancêtre à connaître, et il n'a jamais
+touché un ordinateur. Ses [Wall Drawings](/oeuvres/wall-drawings) sont des
+consignes écrites, exécutées par d'autres, sur un mur, ailleurs, plus tard.
+L'œuvre est le protocole. C'est ce qu'on fait en écrivant du code.
+
+Pour le reste, le point d'entrée est
+[creativeapplications.net](https://www.creativeapplications.net/), qui documente
+ce milieu depuis 2008. Beaucoup de matière, peu de tri : allez-y comme dans une
+réserve.
+
+Ce n'est pas le sujet du cours et cette page n'ira pas plus loin. Mais il faut
+savoir que ce champ existe, pour deux raisons. C'est de là que sortent la
+plupart des outils qu'on utilise ensuite. Et c'est la preuve qu'une œuvre peut
+n'avoir aucune histoire à raconter et rester une œuvre — ce qui vous évitera de
+plaquer un récit sur un dispositif qui n'en demandait pas.
