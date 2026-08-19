@@ -23,8 +23,9 @@ ici.
 - [Œuvres](/oeuvres) — les œuvres interactives citées en cours
 - [Concepts](/concepts) — le vocabulaire pour les analyser
 - [Personnes](/personnes) — celles et ceux qui les ont faites
+- [Panorama](/panorama) — sept familles de formes, pour s'y retrouver
 
-Ces trois listes servent tous les cours. Rien n'y est réservé à une promo.
+Ces pages servent tous les cours. Rien n'y est réservé à une promo.
 
 ## En chantier
 
