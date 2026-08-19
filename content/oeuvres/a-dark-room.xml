@@ -7,6 +7,9 @@
 
   <resume>Jeu entièrement textuel en JavaScript qui révèle progressivement son univers. Minimalisme extrême au service de l'imagination.</resume>
 
+  <visuel src="a-dark-room.jpg"
+          source="https://adarkroom.doublespeakgames.com/"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Prouve qu'on peut créer une expérience narrative captivante avec presque rien visuellement.

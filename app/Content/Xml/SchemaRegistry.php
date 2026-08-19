@@ -27,13 +27,22 @@ final readonly class SchemaRegistry
                 type: 'oeuvre',
                 fields: [
                     new Field(name: 'annee', label: 'Année'),
+                    // The image of the work: not shown where it is written, like
+                    // the title, because it serves the header of the fiche and
+                    // the thumbnail in every index.
+                    new Field(name: 'visuel', label: 'Visuel', inFiche: false, attribute: 'src'),
                     new Field(name: 'url', label: 'En ligne', isUrl: true),
                     new Field(name: 'par', label: 'Par', repeatable: true, isReference: true, allowsText: true),
                     new Field(name: 'categorie', label: 'Catégories', repeatable: true, values: self::CATEGORIES),
                     new Field(name: 'concept', label: 'Concepts', repeatable: true, isReference: true),
                     new Field(name: 'voir', label: 'Voir aussi', repeatable: true, isReference: true),
                 ],
-                attributes: ['statut' => ['en-ligne', 'hors-ligne', 'archive']],
+                attributes: [
+                    'statut' => ['en-ligne', 'hors-ligne', 'archive'],
+                    // <visuel> says which image; visuel="aucun" says there will
+                    // not be one, and that it was decided rather than forgotten.
+                    'visuel' => ['aucun'],
+                ],
             ),
             new Schema(
                 type: 'personne',

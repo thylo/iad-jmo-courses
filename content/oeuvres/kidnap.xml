@@ -11,6 +11,9 @@
 
   <resume>Loterie où deux gagnants consentants sont kidnappés de leur domicile et retenus 48 heures dans une maison sécurisée. L'expérience complète est diffusée en direct sur Internet avec contrôle interactif de caméra et communication en chat-room entre spectateurs et kidnappeurs.</resume>
 
+  <visuel src="kidnap.jpg"
+          source="https://www.blasttheory.co.uk/projects/kidnap/"/>
+
   <section titre="Ce qui fonctionne">
     <markdown>
       Déconstruit les frontières entre art, réalité, fiction et spectacularité. Force une confrontation éthique : qui regarde ? Pourquoi ? Que signifie donner du consentement à une expérience extrême ? Le livestream transforme les spectateurs en voyeurs participant à quelque chose d'interdit. Questions de confiance, de contrat et de vulnérabilité humaine.

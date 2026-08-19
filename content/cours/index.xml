@@ -1,0 +1,124 @@
+<page id="cours">
+  <titre>Cours</titre>
+  <resume>Les cours, nommés par leur sujet, et la lecture qui leur sert de socle commun.</resume>
+
+  <section titre="Le web n'est pas une brochure">
+    <markdown>
+      Quand on dit « site web », presque tout le monde voit la même chose : un
+      bandeau, un menu, trois pages, un formulaire de contact. C'est un usage
+      possible. Ce n'est pas la définition.
+
+      Les œuvres du [panorama](/panorama) tournent sur exactement les mêmes
+      technologies que ce bandeau et ce menu : HTML, CSS, JavaScript, une adresse et
+      un serveur. Aucune ne demande un langage secret. La différence n'est pas
+      technique — elle est dans ce qu'on décide d'en faire.
+
+      ### Trois parodies et un original
+
+      D'autres l'ont remarqué avant nous, et ont pris la peine de le montrer plutôt
+      que de l'expliquer.
+
+      - [Every Fucking Bootstrap Website Ever](http://www.dagusa.com/) (2016) — le
+        gabarit *Creative* de Bootstrap, rendu à lui-même : en-tête plein écran,
+        quatre icônes, et un bouton dont le seul argument est « This button makes the
+        page scroll »
+      - [Every Fucking Website](https://lxe.github.io/everywebsite/) (2020) — cette
+        fois ce n'est pas la mise en page mais les interruptions : bandeau d'alerte,
+        bandeau cookies, fenêtre d'inscription avec son code promo, robot de chat qui
+        vous salue
+      - [Every Fucking AI-Coded Website Ever](https://vibe-coded.lol/) (2025) — le
+        dégradé sur le titre, le badge de startup, les métriques fières
+        (« $0 REVENUE · ∞ TECHNICAL DEBT · ZERO TESTS »), les liens qui ne mènent
+        nulle part
+
+      Le détail qui compte : le troisième est **littéralement le même gabarit que le
+      premier**, neuf ans plus tard. Même feuille de style `creative.css`, même
+      en-tête, mêmes quatre icônes. Seule la peinture a changé — Bootstrap en 2016,
+      génération automatique en 2025. La monoculture ne s'est pas déplacée, elle
+      s'est rhabillée.
+
+      Et puis il y a [brice.net](https://www.brice.net/), qui n'est pas une parodie.
+      C'est ce qui le rend utile ici.
+
+      Le gabarit y est au complet, dans l'ordre : en-tête plein écran sur fond sombre,
+      coordonnées GPS en sous-titre, portrait, mots-rôles qui défilent,
+      « scroll ↓ », bandes empilées, citation-manifeste, formulaire, infolettre.
+      Jusqu'aux commentaires de code servant d'ornement typographique —
+      « // Working principle », « // Let's talk » — au cas où on douterait qu'on
+      parle à quelqu'un de technique.
+
+      Le texte en porte tous les tics : quatre mots-rôles interchangeables
+      (« tech trendsetter, über geek, visionary, author »), une devise qui ne
+      s'engage sur rien (« Creativity matters *more* than survival »), une promesse
+      qui conviendrait à n'importe quelle agence (« turning the newest technology
+      into something people genuinely love »). Retirez le nom : la page tient
+      toujours debout, et elle peut désigner mille personnes. C'est la définition
+      d'un texte sans personne dedans.
+
+      Reste la question de savoir qui a écrit ça. Elle est moins intéressante qu'elle
+      n'en a l'air. Si c'est une machine, il n'y a rien à ajouter : c'est ce que font
+      les machines, et on reconnaît leur production à cent mètres. Mais si quelqu'un
+      a écrit cette page à la main, en 2025, dans cette langue-là, le cas est plus
+      grave — il ne s'agit plus d'un outil qui produit du générique, mais d'une
+      personne qui a appris à écrire comme lui, et qui trouve que ça sonne bien.
+
+      C'est l'hypothèse qui devrait vous inquiéter. Pas parce qu'une machine écrit
+      mal, mais parce qu'à force de lire la même page, on finit par croire que c'est
+      comme ça qu'une page doit s'écrire.
+
+      Le plus dommage est ailleurs. Une seule chose sur cette page est réellement
+      singulière — être en ligne depuis 1980, c'est-à-dire avant le web. Elle est
+      posée en petites capitales grises au-dessus du titre, coincée entre des
+      coordonnées GPS et un bouton d'appel à l'action, et rien dans la mise en page
+      ne s'y arrête. Quarante-cinq ans d'histoire traités comme une ligne de
+      métadonnée, dans un espace où trois écrans sont réservés à des logos de
+      startups.
+
+      C'est ça, le risque du gabarit : il ne rate pas le style, il rate le sujet.
+      Une forme choisie ailleurs ne peut pas savoir ce que votre propos a
+      d'irremplaçable, donc elle l'aplatit au même rang que le reste. La question
+      n'est jamais « est-ce que c'est joli ». C'est « est-ce que cette forme fait
+      quelque chose dont ce propos-là avait besoin ».
+
+      ### Ce que vous utilisez déjà tourne en HTML
+
+      L'argument vaut surtout ici, dans une école d'audiovisuel, parce que plusieurs
+      logiciels du métier sont concernés.
+
+      - **After Effects, Premiere, Photoshop** — les panneaux d'extension (CEP) sont
+        des pages HTML/CSS/JS. Adobe migre progressivement vers UXP, qui s'en éloigne,
+        mais des milliers d'extensions installées aujourd'hui sont du web
+      - **Figma** — l'interface d'un plugin est une page web, point
+      - **VS Code** — les extensions affichent leurs vues en HTML ; l'éditeur
+        lui-même est une application Electron, c'est-à-dire un navigateur déguisé
+      - **Unity** — l'UI Toolkit se décrit en UXML et se met en forme en USS, deux
+        formats copiés sur HTML et CSS. Le sélecteur, la cascade, le flexbox : tout y est
+      - **Unreal** — un widget navigateur permet d'afficher une page dans le jeu ou
+        dans l'éditeur
+      - **Discord, Slack, Spotify, Notion, Obsidian** — des applications de bureau qui
+        sont des navigateurs embarquant un site
+
+      Que Discord soit un navigateur déguisé n'est d'ailleurs pas une bonne nouvelle
+      en soi : ces applications sont lourdes, gourmandes, et embarquent chacune leur
+      propre moteur de rendu. La bonne conclusion n'est pas « le web a gagné », c'est
+      « vous connaissez déjà le matériau ».
+
+      ### Ce qui sépare une brochure d'une œuvre
+
+      Même socle. Ce sont les capacités qu'on va chercher qui changent tout.
+
+      | | une brochure s'en sert pour | une œuvre s'en sert pour |
+      |---|---|---|
+      | **Canvas et WebGL** | rien | dessiner, générer, rendre en temps réel — [Lusion](/oeuvres/lusion) |
+      | **Web Audio** | rien | analyser une voix, fabriquer un son |
+      | **WebSockets, WebRTC** | rien | synchroniser plusieurs personnes, plusieurs écrans |
+      | **`localStorage`** | un bandeau cookies | retenir où en est le récit |
+      | **le défilement** | descendre la page | doser le rythme d'une lecture |
+      | **la géolocalisation** | « trouver un magasin » | déclencher une scène à un endroit précis |
+
+      Le tableau n'est pas une liste de courses. Il montre juste que la même boîte à
+      outils sert deux projets qui n'ont rien à voir, et qu'aucun de ces noms n'est
+      réservé à qui que ce soit.
+    </markdown>
+  </section>
+</page>

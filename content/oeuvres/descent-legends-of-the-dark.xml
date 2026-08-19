@@ -7,6 +7,9 @@
 
   <resume>App qui gère entièrement le scénario, les dialogues, les objectifs et la progression. Terrain physique en 3D pour les combats tactiques.</resume>
 
+  <visuel src="descent-legends-of-the-dark.jpg"
+          source="https://www.youtube.com/watch?v=qk_BXDKLU28"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Le matériel est spectaculaire : un terrain qui se monte en trois dimensions,

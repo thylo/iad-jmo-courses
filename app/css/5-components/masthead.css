@@ -1,6 +1,22 @@
+/* The masthead: who this is, and what the site is made of. */
+
 .c-masthead {
   font-size: var(--text-meta);
   line-height: var(--space-unit);
 }
 
 .c-masthead__origin { color: var(--color-ink-faint); }
+
+/* The site name is a link, but it is also the wordmark: it keeps the ink and
+   only admits to being clickable on hover. The accent stays reserved for links
+   inside the reading. */
+.c-masthead__home {
+  display: block;
+  color: var(--color-ink);
+  text-decoration: none;
+}
+
+.c-masthead__home:hover {
+  color: var(--color-accent);
+  text-decoration-line: underline;
+}

@@ -1,14 +1,50 @@
-<oeuvre id="weiordie" statut="hors-ligne">
-  <titre>WeiOrDie</titre>
-  <annee>2016</annee>
+<oeuvre id="weiordie" statut="en-ligne">
+  <titre>Wei or Die</titre>
+  <annee>2015</annee>
   <par>Simon Bouisson</par>
+  <par>Olivier Demangel</par>
+  <par>Cinétévé</par>
+  <par>France Télévisions — Nouvelles Écritures</par>
+  <url>https://weiordie.simonbouisson.com/</url>
   <categorie>Fiction</categorie>
 
-  <resume>Expérience narrative web immersive et décalée explorant l'absurde et l'interactivité.</resume>
+  <resume>Un week-end d'intégration en école de commerce tourne mal. Tout est filmé par les téléphones et les caméras des étudiants eux-mêmes, et les quatre-vingt-dix minutes de rushes sont resynchronisées sur une seule frise du temps : le spectateur choisit à chaque instant quelle caméra il regarde, et bascule de l'une à l'autre sans interrompre la nuit. Quarante-cinq minutes au minimum, et il est impossible de tout voir.</resume>
 
   <section titre="Pourquoi c'est inspirant">
     <markdown>
-      Pousse les limites de l'expérience narrative web avec humour et audace.
+      **Le temps est commun, le regard est libre.** Toutes les sources partagent
+      une même horloge. Changer de caméra ne rembobine rien : ce qui se passait
+      ailleurs continuait de se passer. C'est une
+      [[structure-parallele|structure parallèle]] à l'état pur, et le montage
+      passe au spectateur.
+
+      **Manquer quelque chose fait partie du dispositif.** On ne verra pas tout,
+      jamais. Ce qu'on a raté a bel et bien eu lieu — c'est la mécanique du
+      [[choix-exploratoire|choix exploratoire]], et elle produit exactement le
+      malaise du sujet : personne n'a la version complète de cette nuit-là.
+
+      **Le found footage justifie l'interface.** Puisque ce sont des téléphones
+      d'étudiants, la mauvaise image, le cadre de travers et le son saturé ne sont
+      pas des défauts. La forme trouvée sert le fond au lieu de le décorer.
+
+      **C'est du cinéma qui a besoin du web.** Les mêmes rushes montés
+      linéairement donneraient un film correct et sans intérêt particulier. Là,
+      c'est la navigation qui raconte. À montrer à quiconque pense que le web est
+      un canal de diffusion pour la vidéo.
+    </markdown>
+  </section>
+
+  <section titre="Ce qui coince">
+    <markdown>
+      Le récit ne bifurque pas. Les événements sont écrits, tournés, fixés : on
+      choisit son point de vue, pas la suite. Le sous-titre honnête serait
+      « montage interactif », pas « fiction à embranchements » — et ça vaut la
+      peine de le trancher en cours, parce que la confusion entre les deux est
+      permanente.
+
+      Rester quarante-cinq minutes attentif à choisir sa caméra, c'est un effort.
+      Beaucoup lâchent la commande et laissent tourner ; le dispositif redevient
+      alors une vidéo ordinaire.
     </markdown>
   </section>
 

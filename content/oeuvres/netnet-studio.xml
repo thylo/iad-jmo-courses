@@ -7,6 +7,9 @@
 
   <resume>Environnement de développement web interactif et pédagogique. Tutoriels intégrés, visualisation du code en temps réel, explications contextuelles. Apprendre le HTML/CSS/JS en créant directement.</resume>
 
+  <visuel src="netnet-studio.jpg"
+          source="https://netnet.studio/?tutorial=what-is-code"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Réinvente l'apprentissage du code web en le rendant visuel et immédiat. Chaque concept est expliqué avec des exemples interactifs. L'IDE devient outil pédagogique.

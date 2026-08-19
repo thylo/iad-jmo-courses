@@ -1,4 +1,9 @@
-.c-colophon {
+/* Closing note. Sits one step short of a full section break, so it reads as
+   the tail of the page rather than another section of it. */
+
+.c-colophon { --stack-space: var(--space-2xl); }
+
+.c-colophon__text {
   font-size: var(--text-meta);
   line-height: var(--space-unit);
   color: var(--color-ink-faint);

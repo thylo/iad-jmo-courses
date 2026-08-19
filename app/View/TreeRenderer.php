@@ -9,25 +9,27 @@ use App\Content\NavNode;
 use App\Content\TocEntry;
 
 /**
- * Renders the two trees on a page: the navigation and the table of contents.
+ * Renders the two lists a page carries: the sections in the masthead, and the
+ * table of contents.
  *
- * A class rather than a view component: Tempest expands components at compile
- * time, so a component that renders itself never terminates. The compiler also
- * isolates <?php ?> blocks from the template, which rules out declaring a
- * recursive function inline.
+ * A class rather than a view component: the table of contents nests, and
+ * Tempest expands components at compile time, so a component that renders
+ * itself never terminates. The compiler also isolates <?php ?> blocks from the
+ * template, which rules out declaring a recursive function inline.
  */
 final readonly class TreeRenderer
 {
     /**
-     * The navigation, opened along the current page only.
+     * The sections of the site, as one flat line in the masthead.
      *
-     * Every section stays visible, but a section unfolds its pages only when the
-     * reader is inside it. A whole site rendered on every page is not navigation,
-     * it is a sitemap.
+     * Only the top level. A section's own pages are listed by its index page —
+     * /cours names its courses, /oeuvres indexes its œuvres — so unfolding the
+     * tree here would repeat, on every page, what the section already says
+     * better on one.
      *
      * @param NavNode[] $nodes
      */
-    public function nav(array $nodes, string $current): string
+    public function sections(array $nodes, string $current): string
     {
         if ($nodes === []) {
             return '';
@@ -38,25 +40,24 @@ final readonly class TreeRenderer
         foreach ($nodes as $node) {
             $label = $this->escape($node->title);
 
-            $items .= '<li>';
-
             if ($node->slug === '') {
                 // A folder without an index page: a label, nothing to link to.
-                $items .= '<span>' . $label . '</span>';
-            } else {
-                $items .= '<a href="' . $this->escape($node->slug) . '"'
-                    . ($node->slug === $current ? ' aria-current="page"' : '')
-                    . '>' . $label . '</a>';
+                $items .= '<li><span class="c-nav__label">' . $label . '</span></li>';
+
+                continue;
             }
 
-            if ($this->leadsTo($node, $current)) {
-                $items .= $this->nav($node->children, $current);
-            }
+            // The section you are reading inside is marked, but only the page
+            // you are actually on claims to be the current page.
+            $isCurrent = $node->slug === $current;
+            $class = 'c-nav__link' . (! $isCurrent && $this->leadsTo($node, $current) ? ' c-nav__link--within' : '');
 
-            $items .= '</li>';
+            $items .= '<li><a class="' . $class . '" href="' . $this->escape($node->slug) . '"'
+                . ($isCurrent ? ' aria-current="page"' : '')
+                . '>' . $label . '</a></li>';
         }
 
-        return '<ul>' . $items . '</ul>';
+        return '<ul class="c-nav__list">' . $items . '</ul>';
     }
 
     /** Whether the current page is this node or sits somewhere below it. */
@@ -86,12 +87,12 @@ final readonly class TreeRenderer
 
         foreach ($entries as $entry) {
             $items .= '<li>';
-            $items .= '<a href="#' . $this->escape($entry->id) . '">' . $this->escape($entry->label) . '</a>';
+            $items .= '<a class="c-toc__link" href="#' . $this->escape($entry->id) . '">' . $this->escape($entry->label) . '</a>';
             $items .= $this->toc($entry->children);
             $items .= '</li>';
         }
 
-        return '<ul>' . $items . '</ul>';
+        return '<ul class="c-toc__list">' . $items . '</ul>';
     }
 
     private function escape(string $value): string

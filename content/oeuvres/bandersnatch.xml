@@ -8,6 +8,9 @@
 
   <resume>Film dont le spectateur influence le déroulement par des choix à des moments clés. Structure narrative complexe avec multiples fins.</resume>
 
+  <visuel src="bandersnatch.jpg"
+          source="https://www.netflix.com/be-fr/title/80988062"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       A démocratisé le film interactif grand public. Démontre que Netflix peut être un medium interactif.

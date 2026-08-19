@@ -12,6 +12,9 @@
 
   <resume>Bot d'IA qui scanne en temps réel les retransmissions en direct du parlement flamand et tague automatiquement les politiciens qui utilisent leur téléphone, publiant les résultats sur les réseaux sociaux.</resume>
 
+  <visuel src="the-flemish-scrollers.jpg"
+          source="https://driesdepoorter.be/theflemishscrollers/"/>
+
   <section titre="Ce qui fonctionne">
     <markdown>
       Système totalement automatisé : chaque jour, livestream du parlement flamand est analysé par IA de détection d'objets et de reconnaissance de patterns. Quand un smartphone est détecté, le système capture l'écran, identifie le politicien (reconnaissance faciale) et poste immédiatement sur Twitter/Instagram avec un tag @[nom du politicien]. Boucle feedback puissante : plus la publication viralise, plus le politicien se sent contrôlé. Code potentiellement open-source. Continuation automatique depuis 2021.

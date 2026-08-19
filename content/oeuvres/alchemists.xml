@@ -6,6 +6,9 @@
 
   <resume>L'app gère la logique complexe de déduction des potions (quelle combinaison d'ingrédients produit quoi) de façon cohérente et secrète. Les joueurs expérimentent et déduisent.</resume>
 
+  <visuel src="alchemists.jpg"
+          source="https://store.czechgames.com/cdn/shop/files/alchemists-box-contents-2.webp?v=1732132711&amp;width=1445"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       L'app gère une logique trop complexe pour être praticable manuellement, ouvrant de nouvelles mécaniques de jeu.

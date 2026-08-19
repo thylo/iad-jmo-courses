@@ -7,6 +7,9 @@
 
   <resume>Roman où vous choisissez votre chemin à travers un système de liens hypertextes. Narration arborescente classique mais bien exécutée.</resume>
 
+  <visuel src="entering-the-unknown.jpg"
+          source="https://unknownhypertext.com/"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Démontre que l'hypertexte reste un outil narratif puissant quand bien utilisé.

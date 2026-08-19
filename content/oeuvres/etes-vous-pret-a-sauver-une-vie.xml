@@ -9,6 +9,9 @@
 
   <resume>Formation aux premiers secours en fiction vidéo : trois épisodes où l'on décide, dans l'urgence, quel geste poser.</resume>
 
+  <visuel src="etes-vous-pret-a-sauver-une-vie.jpg"
+          source="https://sauveunevie.be/"/>
+
   <section titre="Ce qui fonctionne">
     <markdown>
       La fiction est tournée sérieusement : accident de la route, malaise cardiaque,

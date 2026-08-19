@@ -7,6 +7,9 @@
 
   <resume>Environnement de programmation web pour créer des visualisations de données interactives. Notebooks réactifs où chaque cellule de code s'exécute et affiche son résultat immédiatement.</resume>
 
+  <visuel src="observable.jpg"
+          source="https://observablehq.com/"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Rend la programmation de visualisations accessible et immédiate. Exploration de données devient création.

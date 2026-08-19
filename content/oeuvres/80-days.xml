@@ -10,6 +10,9 @@
 
   <resume>Le tour du monde de Jules Verne rejoué en fiction textuelle : plus de 150 villes, des milliers d'itinéraires, et un récit qui retient tout ce que vous avez fait en route.</resume>
 
+  <visuel src="80-days.jpg"
+          source="https://www.inklestudios.com/80days/"/>
+
   <section titre="Ce qui fonctionne">
     <markdown>
       Vous êtes Passepartout, pas Fogg. Vous ne décidez pas de l'exploit, vous

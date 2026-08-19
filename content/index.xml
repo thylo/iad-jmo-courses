@@ -1,0 +1,34 @@
+<page id="accueil">
+  <titre>Ho, salut !</titre>
+  <resume>Je m'appelle Julien. Je vis en Belgique, j'écris du code pour gagner ma vie et pour le plaisir. Et je partage ça avec des étudiants, à l'IAD.</resume>
+
+  <markdown>
+    Ce site, ce sont mes supports de cours. Le web n'est pas seulement un support
+    pour afficher de l'information : c'est un médium narratif. Le spectateur agit,
+    l'espace porte le récit, le temps n'est pas imposé. C'est ce qu'on travaille
+    ici.
+  </markdown>
+
+  <section titre="Le fonds commun">
+    <markdown>
+      - [Œuvres](/oeuvres) — les œuvres interactives citées en cours
+      - [Concepts](/concepts) — le vocabulaire pour les analyser
+      - [Personnes](/personnes) — celles et ceux qui les ont faites
+      - [Panorama](/panorama) — sept familles de formes, pour s'y retrouver
+      - [Cours](/cours) — les cours par sujet, et pourquoi ces œuvres et un site
+        d'entreprise tournent sur les mêmes technologies
+
+      Ces pages servent tous les cours. Rien n'y est réservé à une promo.
+    </markdown>
+  </section>
+
+  <section titre="En chantier">
+    <markdown>
+      Ce site se reconstruit doucement, sur mon temps libre. Les cours de MM2B et de
+      RTMF1M n'y sont pas encore. Repassez plus tard.
+
+      Une question, une erreur, une œuvre à ajouter : julien@thylo.be.
+      Le reste est [à propos](/a-propos).
+    </markdown>
+  </section>
+</page>

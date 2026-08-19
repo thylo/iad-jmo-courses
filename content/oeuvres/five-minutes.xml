@@ -6,6 +6,9 @@
 
   <resume>Fiction interactive courte optimisée mobile qui utilise des gestes inhabituels (secouer, incliner, toucher de façons spécifiques) pour raconter une histoire. L'interaction gestuelle est intégrée à la narration, pas juste décorative.</resume>
 
+  <visuel src="five-minutes.jpg"
+          source="https://m.media-amazon.com/images/M/MV5BOWJiYjVjNzUtYjk5My00OWQ0LWFmZDEtY2ExZjk5YjEyNWI2XkEyXkFqcGc@._V1_.jpg"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Explore comment les gestes mobiles peuvent devenir langage narratif. Chaque geste a un sens dans l'histoire plutôt que d'être un simple bouton déguisé.

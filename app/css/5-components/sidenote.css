@@ -1,0 +1,41 @@
+/* Margin note. The reason the left column exists.
+
+   It floats out of the reading into the margin, so it sits beside the text at
+   the height it was written, and the measure of the reading never changes to
+   accommodate it. The float lands entirely in negative space — left of the
+   content box — so no line of body text ever wraps around it.
+
+   It annotates what follows it: a float aligns with the top of the block after
+   it, so <marge> is written above the paragraph it comments. */
+
+.c-sidenote {
+  float: left;
+  clear: left;
+  /* One flow step, always — including as a first child, where the owl in
+     prose.css would give none. The block after the note gets the same step, so
+     matching it is what puts the note's first line level with that block. */
+  margin-block-start: var(--space-m);
+  inline-size: var(--sidenote-width);
+  margin-inline-start: calc(-1 * var(--sidebar-width));
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-ink-faint);
+  text-wrap: pretty;
+}
+
+/* Its own paragraphs sit tighter than the body's — the note is one thought. */
+.c-sidenote > * + * { margin-block-start: var(--space-xs); }
+
+/* Below the breakpoint there is no margin to float into. Tufte hides margin
+   material behind a toggle at this width and Gwern drops it back inline; inline
+   is the one that needs no JavaScript and no interaction to read, so the note
+   simply rejoins the flow and takes a rule to say it is an aside. */
+@media (max-width: 47.999em) {
+  .c-sidenote {
+    float: none;
+    inline-size: auto;
+    margin-inline-start: 0;
+    padding-inline-start: var(--space-s);
+    border-inline-start: 1px solid var(--color-rule);
+  }
+}

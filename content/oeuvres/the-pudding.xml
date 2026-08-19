@@ -7,6 +7,9 @@
 
   <resume>Publication de "visual essays" interactifs sur la culture pop et la société. Combine data journalism, visualisations interactives et narration.</resume>
 
+  <visuel src="the-pudding.jpg"
+          source="https://pudding.cool/"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Chaque article est un outil d'exploration interactif unique. Les données deviennent narratives.

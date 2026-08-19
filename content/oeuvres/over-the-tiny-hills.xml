@@ -8,6 +8,9 @@
 
   <resume>Exploration d'un univers artistique à travers un gramophone virtuel où l'audio se spatialise selon la position de la caméra.</resume>
 
+  <visuel src="over-the-tiny-hills.jpg"
+          source="https://www.overthetinyhills.com/"/>
+
   <section titre="Ce qui fonctionne">
     <markdown>
       Combine WebGL et Web Audio API pour créer une expérience où le mouvement de la caméra dans l'espace 3D modifie le positionnement des sources sonores, créant une immersion audio-visuelle.

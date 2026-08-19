@@ -12,6 +12,9 @@
 
   <resume>Jeu de poursuite où jusqu'à 100 joueurs en ligne naviguent une carte 3D virtuelle d'une zone urbaine pendant que des coureurs de Blast Theory les poursuivent dans les vraies rues, équipés de GPS et de communication radio en direct.</resume>
 
+  <visuel src="can-you-see-me-now.jpg"
+          source="https://www.blasttheory.co.uk/projects/can-you-see-me-now/"/>
+
   <section titre="Ce qui fonctionne">
     <markdown>
       Fusion révolutionnaire du virtuel et du réel en temps synchrone. Jusqu'à 100 joueurs en ligne stratégisent ensemble tandis que les coureurs physiques les traquent via GPS satellite. Communication hybride : chat texte des joueurs, flux radio live des coureurs audible aux joueurs. Crée un espace d'interaction nouveau où deux réalités se rencontrent avec conséquences réelles (être 'attrapé').

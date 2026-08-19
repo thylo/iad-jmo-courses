@@ -7,6 +7,9 @@
 
   <resume>Concept (pas implémentation web complète) d'une caméra qui refuse de prendre une photo si le lieu a déjà été trop photographié (analyse géolocalisation + base de données d'images). Critique de l'over-tourisme photographique.</resume>
 
+  <visuel src="camera-restricta.jpg"
+          source="https://philippschmitt.com/archive/2018/work/camera-restricta.html"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Utilise la technologie pour questionner nos comportements. L'outil devient critique social.

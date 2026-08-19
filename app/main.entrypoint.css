@@ -21,6 +21,7 @@
 @import "./css/1-settings/tokens.css";
 
 /* 02 GENERIC */
+@import "./css/2-generic/fonts.css";
 @import "./css/2-generic/reset.css";
 
 /* 03 ELEMENTS */
@@ -39,6 +40,12 @@
 @import "./css/5-components/rule.css";
 @import "./css/5-components/portrait.css";
 @import "./css/5-components/course-list.css";
+@import "./css/5-components/prose.css";
+@import "./css/5-components/figure.css";
+@import "./css/5-components/index.css";
+@import "./css/5-components/nav.css";
+@import "./css/5-components/toc.css";
+@import "./css/5-components/sidenote.css";
 @import "./css/5-components/label.css";
 @import "./css/5-components/colophon.css";
 

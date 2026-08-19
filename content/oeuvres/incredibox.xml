@@ -7,6 +7,9 @@
 
   <resume>Interface drag &amp; drop pour créer de la musique en assignant des sons (beatbox, mélodies, effets) à des personnages animés. Système de découverte de "combos" qui débloquent des animations spéciales. Accessible aux non-musiciens.</resume>
 
+  <visuel src="incredibox.jpg"
+          source="https://www.incredibox.com/"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Démontre qu'un outil de création musicale peut être ludique et immédiatement gratifiant. La contrainte (palette de sons limitée) devient créative.

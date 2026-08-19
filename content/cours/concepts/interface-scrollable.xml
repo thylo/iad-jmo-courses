@@ -1,0 +1,188 @@
+<concept id="interface-scrollable">
+  <titre>Scrollable</titre>
+  <genre>interface</genre>
+  <exemple ref="phallaina"/>
+  <exemple ref="the-boat"/>
+  <exemple ref="le-dernier-gaulois"/>
+  <exemple ref="nsa-files-decoded"/>
+  <exemple ref="do-not-track"/>
+  <exemple ref="snow-fall"/>
+  <voir ref="structure-lineaire"/>
+  <voir ref="structure-elastique"/>
+  <voir ref="interface-point-click"/>
+
+  <resume>L'utilisateur fait défiler verticalement ou horizontalement une séquence d'animations et d'événements.</resume>
+
+  <section titre="Définition">
+    <markdown>
+      L'interface scrollable invite l'utilisateur à faire défiler une séquence linéaire. Le mouvement est vertical ou horizontal, créant une chorégraphie précise de contenus. C'est un geste naturel et quasi-inconscient qui donne l'illusion d'une lecture contrôlée.
+
+      **Caractéristiques :**
+
+      - Mouvement vertical ou horizontal continu
+      - Chorégraphie linéaire de contenus
+      - Geste naturel et quasi-inconscient
+      - Contrôle du rythme par l'utilisateur
+    </markdown>
+  </section>
+
+  <section titre="Intérêt narratif">
+    <markdown>
+      - **Chorégraphie précise** : Comme un montage cinématographique
+      - **Contrôle du rythme** : L'utilisateur décide du tempo
+      - **Combine linéarité et interaction** : Meilleur des deux mondes
+    </markdown>
+  </section>
+
+  <section titre="Enjeux et risques">
+    <markdown>
+      - **Fatigue oculaire** si trop long
+      - **Fluidité technique requise** : Les bugs sont visibles
+      - Créer une sensation de contrôle (pas juste "tourner les pages")
+      - Performance sur mobiles crucial
+    </markdown>
+  </section>
+
+  <section titre="Quand utiliser scrollable ?">
+    <markdown>
+      - ✅ Vous racontez une histoire linéaire
+      - ✅ Vous voulez une chorégraphie visuelle précise
+      - ✅ Le rythme narratif dépend de l'utilisateur
+      - ✅ Vous avez le budget technique pour la fluidité
+    </markdown>
+  </section>
+
+  <section titre="Design">
+    <markdown>
+      ### Sensation de contrôle
+
+      L'utilisateur doit sentir qu'il **contrôle vraiment** le rythme :
+
+      - Scroll fluide (pas de lag)
+      - Réaction immédiate au geste
+      - Possibilité de revenir en arrière
+
+      ### Progression claire
+
+      Montrer où on en est :
+
+      - Progress bar en bas/côté
+      - Visuellement montrer l'avancement
+      - Pas de surprise (savoir combien il reste)
+
+      ### Rythme narratif
+
+      La vitesse de scroll doit être :
+
+      - Ni trop rapide (défilement incontrôlé)
+      - Ni trop lent (frustration)
+      - Adaptée à la lecture des textes
+    </markdown>
+  </section>
+
+  <section titre="Exemples détaillés">
+    <markdown>
+      ### Phallaina (2016)
+
+      - BD scrollable horizontale
+      - Chorégraphie fluide d'animations
+      - Utilisateur contrôle totalement le rythme
+      - Poétique du scroll intégré
+
+      ### NSA Files: Decoded (2013)
+
+      - Scroll vertical révélant des informations
+      - Chorégraphie data + texte + vidéo
+      - Rythme narratif du scroll
+      - Engagement sensoriel
+
+      ### Do Not Track (2015)
+
+      - Scroll horizontal explorant le tracking
+      - Révélation progressive d'information
+      - Intégration du scroll à la narration
+      - Expérience immersive sans click
+
+      ### Snowfall (2012)
+
+      - Scroll vertical avec parallax et animation
+      - Typiquement appelé "storytelling immersif"
+      - Chorégraphie média riche
+      - Rythme musical guidé par scroll
+    </markdown>
+  </section>
+
+  <section titre="Variantes">
+    <markdown>
+      ### Scroll vertical
+      L'utilisateur scroll de haut en bas.
+
+      - Avantage : Naturel, desktop + mobile
+      - Inconvénient : Espace limité (largueur)
+
+      ### Scroll horizontal
+      L'utilisateur scroll de gauche à droite.
+
+      - Avantage : Cinématique, épilepse de BD
+      - Inconvénient : Moins intuitif sur mobile
+
+      ### Parallax scrolling
+      Différentes couches bougent à des vitesses différentes.
+
+      - Avantage : Profondeur, cinéma
+      - Inconvénient : Complexité technique
+
+      ### Snap scrolling
+      Le scroll "accroche" sur des sections discrètes.
+
+      - Avantage : Contrôle de structure
+      - Inconvénient : Moins fluide
+    </markdown>
+  </section>
+
+  <section titre="Combinaisons avec autres interfaces">
+    <markdown>
+      **Scrollable + Point-and-Click**
+
+      - Scrolling linéaire + choix occasionnels
+      - Choix ramènent au scroll
+
+      **Scrollable + Gestural**
+
+      - Scroll + gestes additionnels
+      - Interaction multi-modale
+    </markdown>
+  </section>
+
+  <section titre="Bonnes pratiques">
+    <markdown>
+      1. **Fluidité absolue** : Tout lag détruit l'expérience
+      2. **Progression visible** : Savoir où on en est
+      3. **Adaptation mobile** : Scroll doit marcher sur phone
+      4. **Rythme cohérent** : Pas de changements brutaux
+      5. **Sens du direction** : Où va-t-on ? Vers quoi ?
+    </markdown>
+  </section>
+
+  <section titre="Risques courants">
+    <markdown>
+      ❌ **Lag/Saccades** : Tue l'immersion
+      ❌ **Trop long** : Fatigue oculaire
+      ❌ **Vide narratif** : Juste "tourner les pages"
+      ❌ **Pas d'indication de progression** : Perte d'orientation
+      ❌ **Trop d'animations** : Dizzy/mal de tête
+    </markdown>
+  </section>
+
+  <section titre="Solutions">
+    <markdown>
+      ✅ Tester performance intensément
+      ✅ Ajouter progress bar
+      ✅ Breaker visuels toutes les 3-5 écrans
+      ✅ Intégrer narrativement l'action de scroll
+      ✅ Respecter rythme de lecture (texte)
+    </markdown>
+  </section>
+
+  <retroliens/>
+</concept>

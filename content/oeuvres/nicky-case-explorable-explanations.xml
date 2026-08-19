@@ -7,6 +7,9 @@
 
   <resume>Collection de "jeux" interactifs qui enseignent des concepts complexes : théorie des jeux, évolution, anxiété, biais cognitifs. Chaque concept devient une simulation interactive.</resume>
 
+  <visuel src="nicky-case-explorable-explanations.jpg"
+          source="https://ncase.me/"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Transforme des sujets abstraits en expériences concrètes manipulables. L'outil pédagogique devient œuvre narrative.

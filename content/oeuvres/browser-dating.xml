@@ -12,6 +12,9 @@
 
   <resume>Plateforme de rencontre qui analyse l'historique de navigation pour matcher les utilisateurs sur leurs intérêts authentiques plutôt que leurs profils soignés. Inversion radicale du dating app classique.</resume>
 
+  <visuel src="browser-dating.jpg"
+          source="https://browser.dating/"/>
+
   <section titre="Ce qui fonctionne">
     <markdown>
       Inversion radicale du dating app conventionnel : au lieu de présenter une version idéalisée de soi, les utilisateurs se basent sur leurs véritables comportements de navigation. Algorithme d'IA décentralisé garantissant la confidentialité des données. Export sécurisé via extension navigateur. Interface simple et efficace. Modèle freemium accessible.

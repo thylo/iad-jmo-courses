@@ -7,6 +7,9 @@
   <resume>Chaque clic est analysé, commenté et jugé en temps réel par une voix
   narrative omnisciente. La navigation web banale devient une performance surveillée.</resume>
 
+  <visuel src="click-click-click.jpg"
+          source="https://clickclickclick.click/"/>
+
   <concept ref="surveillance"/>
   <concept ref="retour-immediat"/>
 

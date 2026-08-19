@@ -11,6 +11,9 @@
 
   <resume>Modification pour Doom II où une simple maison résidentielle se transforme en labyrinthe architectural impossible et horrifique, mêlant créativité technique, exploration psychologique et adaptation du roman 'House of Leaves' — explorant isolement, chagrin et traumas via des espaces limites et géométries non-euclidiennes.</resume>
 
+  <visuel src="my-house-wad.jpg"
+          source="https://www.skritz.com/myhouse-wad/"/>
+
   <section titre="Ce qui fonctionne">
     <markdown>
       Fusion élégante de contraintes techniques Doom (téléportations silencieuses, portals GZDoom, lineportals) avec une narration psychologique profonde. La simplicité apparente du début (collecter des cartes de couleur) explose progressivement en zones surréalistes: daycare, bathhouse, brutalisme, airport. Pas d'interface HUD, automap noir, exploration pure. Plusieurs endings basés sur l'exploration et les artefacts collectés.

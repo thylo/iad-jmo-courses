@@ -7,6 +7,9 @@
 
   <resume>Série d'expériences au Science Museum de Londres où des visiteurs en ligne pouvaient contrôler des machines physiques réelles dans le musée : bras robotiques, instruments de musique, etc.</resume>
 
+  <visuel src="web-lab.jpg"
+          source="https://m.youtube.com/watch?v=RrgjufJhmwk"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Démontre le potentiel du web comme interface de contrôle à distance de systèmes physiques complexes. Pionnier de la connexion visiteurs physiques/visiteurs en ligne.

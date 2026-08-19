@@ -7,6 +7,9 @@
 
   <resume>Application web qui orchestre une aventure de jeu de rôle autour d'une table. Gère la narration, les combats, la progression et les sauvegardes pendant que les joueurs manipulent figurines et cartes.</resume>
 
+  <visuel src="familiar-tales.jpg"
+          source="https://www.familiartalesgame.com/"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       C'est un cas où l'application abaisse vraiment une barrière. Pas de livret de

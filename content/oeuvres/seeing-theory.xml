@@ -7,6 +7,9 @@
 
   <resume>Cours de statistiques et probabilités entièrement interactif. Chaque concept (distributions, régression, inférence) est accompagné de visualisations manipulables.</resume>
 
+  <visuel src="seeing-theory.jpg"
+          source="https://seeing-theory.brown.edu/"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Rend les mathématiques tangibles. Les formules deviennent des objets qu'on peut toucher et comprendre visuellement.

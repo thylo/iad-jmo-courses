@@ -1,0 +1,139 @@
+/* Rendered body copy — the HTML that comes out of markdown and out of the XML
+   entities. Nothing in here can be given a class at the source, so this is the
+   one component that styles bare elements. It is scoped to .c-prose for that
+   reason, and it only ever sets rhythm, measure and colour: the type scale
+   already comes from the tokens.
+
+   Every vertical value is a multiple of the 28px baseline. */
+
+.c-prose {
+  max-width: var(--measure-text);
+}
+
+/* The owl runs one level into the wrappers the content layer creates: an XML
+   entity puts each of its parts in a <section>, markdown wraps nothing at all,
+   and the rhythm has to hold in both. :where() keeps these at one class of
+   specificity so the heading rules below still win. */
+.c-prose > * + *,
+.c-prose > :where(section, nav) > * + * {
+  margin-block-start: var(--space-m);
+}
+
+/* Headings claim the space above them, not below: the gap belongs to the
+   break in the argument, not to the words. */
+.c-prose h2 {
+  font-size: var(--text-lead);
+  line-height: var(--space-unit);
+  margin-block-start: var(--space-xl);
+}
+
+.c-prose h3 {
+  font-size: var(--text-title);
+  line-height: var(--space-unit);
+  margin-block-start: var(--space-l);
+}
+
+.c-prose :is(h2, h3) + * { margin-block-start: var(--space-s); }
+
+/* Lists read as blocks of lines, so they keep the body leading and hang their
+   markers in the margin rather than indenting the text away from it. */
+.c-prose :is(ul, ol) {
+  padding-inline-start: var(--space-m);
+}
+
+.c-prose li + li { margin-block-start: var(--space-xs); }
+
+.c-prose li::marker { color: var(--color-ink-faint); }
+
+.c-prose blockquote {
+  padding-inline-start: var(--space-m);
+  border-inline-start: 1px solid var(--color-rule);
+  color: var(--color-ink-muted);
+}
+
+.c-prose hr {
+  border: 0;
+  border-block-start: 1px solid var(--color-rule);
+  margin-block: var(--space-xl);
+}
+
+.c-prose :is(code, pre) {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.875em;
+}
+
+.c-prose pre {
+  padding: var(--space-s) var(--space-m);
+  background-color: var(--color-paper-sunk);
+  overflow-x: auto;
+}
+
+.c-prose figcaption {
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-ink-faint);
+  margin-block-start: var(--space-xs);
+}
+
+/* --- Classes the content itself carries -------------------------------- */
+
+/* The fiche: an entity's typed fields, set as a two-column list of pairs. */
+.c-prose .fiche {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: var(--space-m);
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+}
+
+.c-prose .fiche dt { color: var(--color-ink-faint); }
+
+.c-prose .fiche dd { margin: 0; }
+
+/* An aside earns a rule, not a coloured box. */
+.c-prose .note {
+  padding-inline-start: var(--space-m);
+  border-inline-start: 2px solid var(--color-rule);
+  color: var(--color-ink-muted);
+}
+
+.c-prose .note--attention { border-inline-start-color: var(--color-accent); }
+
+.c-prose .note__titre {
+  font-family: var(--font-display);
+  color: var(--color-ink);
+}
+
+.c-prose .note > * + * { margin-block-start: var(--space-s); }
+
+/* Generated lists — an index of a section, the backlinks of an entity. Each
+   line is already a full statement, so it needs no bullet in front of it. */
+.c-prose :is(.index, .retroliens ul) {
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+/* An entry here runs two or three lines, so the step between them has to be
+   bigger than the step between lines or the list reads as one block. */
+.c-prose :is(.index, .retroliens ul) > li + li {
+  margin-block-start: var(--space-s);
+}
+
+.c-prose .index-vide,
+.c-prose .meta {
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-ink-faint);
+}
+
+/* A link whose target does not exist yet. Said plainly rather than hidden. */
+.c-prose .lien-manquant {
+  color: var(--color-ink-faint);
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+.c-prose .video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}

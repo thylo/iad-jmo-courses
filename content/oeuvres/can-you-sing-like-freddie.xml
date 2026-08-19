@@ -8,6 +8,9 @@
 
   <resume>Chantez du Queen et l'application analyse votre voix en temps réel pour la comparer à Freddie Mercury (justesse, timing, timbre). Web Audio API pour l'analyse vocale.</resume>
 
+  <visuel src="can-you-sing-like-freddie.jpg"
+          source="https://freddiemeter.withyoutube.com/"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Transforme un outil d'analyse audio (Web Audio API) en jeu ludique et engageant.

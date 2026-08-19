@@ -1,0 +1,53 @@
+<oeuvre id="the-botanist" statut="en-ligne">
+  <titre>The Botanist</titre>
+  <annee>2023</annee>
+  <par>Cadin Batrack</par>
+  <url>https://cadinb.itch.io/the-botanist</url>
+  <categorie>Fiction</categorie>
+
+  <resume>Une bande dessinée de science-fiction pour la Playdate, la petite console jaune à manivelle. On tourne la manivelle pour faire défiler les cases ; les couches de dessin se décalent en parallaxe, et certaines scènes n'avancent que si l'on continue de tourner. Dessin en noir et blanc pur, quinze à vingt minutes, construite avec Panels — le cadriciel libre que l'auteur a écrit pour ça.</resume>
+
+  <visuel src="the-botanist.jpg"
+          source="https://cadinb.itch.io/the-botanist"/>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      **La manivelle donne le rythme au lecteur, physiquement.** Tourner plus vite,
+      ralentir, revenir en arrière : le tempo de lecture passe dans la main. C'est
+      la propriété fondamentale de la bande dessinée — le lecteur décide de sa
+      vitesse — rendue à un geste, au lieu d'être confisquée par une animation
+      automatique. Comparez avec le choix de [[protanopia|Protanopia]] de supprimer la musique
+      pour la même raison.
+
+      **Le geste raconte.** Quand le personnage remonte un mécanisme ou creuse, la
+      manivelle fait le même mouvement. L'effort est au bon endroit : ce n'est plus
+      une commande, c'est ce que fait le personnage. C'est exactement le geste
+      motivé décrit dans [[interface-gestural]].
+
+      **La contrainte fabrique la forme.** Un écran de 400 × 240 pixels, deux
+      couleurs, pas de rétroéclairage. Le dessin devient net, contrasté, lisible —
+      il n'y a pas d'autre option. À montrer à quiconque pense qu'il lui manque du
+      matériel pour commencer.
+
+      **L'outil est publié.** Batrack a sorti [Panels](https://cadin.github.io/panels/)
+      en libre : on décrit ses séquences dans un tableau Lua, le cadriciel gère la
+      mise en page, le défilement, la parallaxe, le son et même les branchements.
+      Faire l'œuvre puis donner l'outil, c'est une position sur ce qu'on fait d'une
+      trouvaille.
+    </markdown>
+  </section>
+
+  <section titre="Ce qui coince">
+    <markdown>
+      Il faut une Playdate. Une console à deux cents euros, produite en séries
+      limitées, pour lire une BD de vingt minutes — l'objet fait partie de
+      l'expérience, et il en est aussi la barrière.
+
+      L'histoire est [[structure-lineaire|linéaire]] et courte : la manivelle
+      contrôle le rythme, jamais le récit. Panels sait faire des branchements,
+      The Botanist n'en utilise pas.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

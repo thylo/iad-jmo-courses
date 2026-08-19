@@ -39,8 +39,8 @@ relations, donc elle peut être interrogée.
 elles sont écrites : elles alimentent le graphe et la fiche en tête de page.
 L'ordre dans le fichier n'a pas d'importance.
 
-**Rendu** — `<markdown>`, `<section>`, `<note>`, `<video>`, `<liste>`. Elles
-produisent du HTML sur place, dans l'ordre du document.
+**Rendu** — `<markdown>`, `<section>`, `<note>`, `<video>`, `<image>`, `<liste>`.
+Elles produisent du HTML sur place, dans l'ordre du document.
 
 **Dérivés** — `<index/>`, `<retroliens/>`. Elles produisent du HTML à partir
 d'une requête sur le graphe. Rien à tenir à jour.
@@ -95,8 +95,29 @@ déclarent leur créateur, et la page lit la relation dans l'autre sens.
 
 ## Les types
 
-**`oeuvre`** — attribut `statut`, parmi `en-ligne`, `hors-ligne`, `archive`.
-Champs : `annee`, `url`, `par`, `categorie`, `concept`, `voir`.
+**`oeuvre`** — attributs `statut`, parmi `en-ligne`, `hors-ligne`, `archive`, et
+`visuel="aucun"`, qui dit que l'œuvre n'aura pas d'image et que c'est décidé.
+Champs : `annee`, `visuel`, `url`, `par`, `categorie`, `concept`, `voir`.
+
+`<visuel>` porte sa valeur dans un attribut plutôt que dans son texte :
+
+```xml
+<visuel src="unlock.jpg"
+        alt="Des cartes numérotées étalées sur une table"
+        credit="Space Cowboys"
+        source="https://www.spacecowboys-games.com/game/unlock/"/>
+```
+
+`src` est un nom de fichier, cherché dans `media/oeuvres/`. `alt` s'écrit
+toujours à la main. Voir [les médias](/docs/medias).
+
+À ne pas confondre avec `<image>`, qui est un bloc : une capture au fil de la
+prose, rendue là où elle est écrite, avec une `legende` en plus. `<visuel>` ne
+se rend pas là où il est écrit — il sert l'en-tête de la fiche *et* la vignette
+dans les index, comme `<titre>` sert deux endroits.
+
+Une image dont le fichier n'a pas encore été fabriqué ne s'affiche pas et ne
+casse rien : c'est `content:check` qui en tient le compte.
 
 **`personne`** — attribut `genre`, parmi `personne`, `studio`, `collectif`,
 `organisation`. Champs : `lieu`, `depuis`, `url`.

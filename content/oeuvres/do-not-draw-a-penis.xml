@@ -8,6 +8,9 @@
   algorithme analyse les dessins en temps réel et efface tout ce qui ressemble à
   un pénis. Naturellement, tout le monde essaie d'en dessiner un.</resume>
 
+  <visuel src="do-not-draw-a-penis.jpg"
+          source="https://studiomoniker.com/projects/do-not-draw-a-penis"/>
+
   <concept ref="contrainte-productive"/>
   <concept ref="moderation-algorithmique"/>
 

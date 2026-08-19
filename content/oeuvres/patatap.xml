@@ -8,6 +8,9 @@
 
   <resume>Chaque touche du clavier déclenche un son et une animation visuelle synchronisés. Simple mais infiniment rejouable. Le clavier devient un instrument musical et visuel.</resume>
 
+  <visuel src="patatap.jpg"
+          source="https://patatap.com/"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Transforme un périphérique utilitaire (clavier) en outil de création artistique. Démontre la puissance de la synchronisation audio-visuelle.

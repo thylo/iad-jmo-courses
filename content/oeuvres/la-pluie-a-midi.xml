@@ -7,6 +7,9 @@
 
   <resume>Expérience narrative où les joueurs écoutent une histoire audio tout en manipulant des objets physiques qui influencent le déroulement.</resume>
 
+  <visuel src="la-pluie-a-midi.jpg"
+          source="https://m.youtube.com/watch?v=PjUfFM2bhc0"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Le son devient l'interface narrative principale, les objets physiques sont les contrôles.

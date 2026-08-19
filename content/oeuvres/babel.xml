@@ -7,6 +7,9 @@
 
   <resume>Bande dessinée numérique avec navigation non-linéaire et animations réactives.</resume>
 
+  <visuel src="babel.jpg"
+          source="http://babeltheking.com/"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Explore de nouvelles formes de lecture de BD au-delà du simple "défilement".

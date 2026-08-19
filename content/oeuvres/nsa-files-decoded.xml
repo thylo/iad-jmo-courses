@@ -7,6 +7,9 @@
 
   <resume>Exploration interactive des documents révélés par Edward Snowden. Visualisations de données, navigation dans les documents, explications contextuelles. Transforme des documents complexes en récit compréhensible.</resume>
 
+  <visuel src="nsa-files-decoded.jpg"
+          source="https://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Pionnier du data journalism interactif. Démontre comment rendre accessibles des informations techniques complexes via l'interactivité et la visualisation de données.

@@ -7,6 +7,9 @@
 
   <resume>Tour physique avec écran et app intégrée qui génère les événements, gère le brouillard de guerre et crée l'ambiance. Objet physique imposant au centre de la table.</resume>
 
+  <visuel src="return-to-dark-tower.jpg"
+          source="https://m.youtube.com/watch?v=p-1oU9zZnN0"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Le numérique est intégré dans un objet physique spectaculaire plutôt que séparé sur un écran de smartphone.

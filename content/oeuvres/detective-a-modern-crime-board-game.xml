@@ -7,6 +7,9 @@
 
   <resume>Les joueurs enquêtent physiquement (cartes, indices) mais accèdent à une vraie base de données web (Antares Database) pour vérifier des informations, consulter des dossiers, interroger des témoins virtuels.</resume>
 
+  <visuel src="detective-a-modern-crime-board-game.jpg"
+          source="https://antaresdatabase.com/"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Mélange réel et virtuel pour créer une enquête qui déborde du plateau. Le web devient un outil d'investigation comme dans la vraie vie.

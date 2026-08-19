@@ -2,15 +2,5 @@
   <titre>Œuvres</titre>
   <resume>Les œuvres interactives citées en cours.</resume>
 
-  <markdown>
-    Chaque fiche dit ce qui fonctionne et pourquoi c'est intéressant. Certaines
-    ne sont plus consultables en ligne — installations, jeux de société,
-    performances, sites disparus. Elles restent listées : elles servent toujours
-    en cours.
-
-    Cette liste n'est écrite nulle part. Elle est calculée à partir des fiches,
-    donc corriger une fiche suffit.
-  </markdown>
-
   <index de="oeuvre"/>
 </page>

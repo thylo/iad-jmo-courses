@@ -1,0 +1,83 @@
+<oeuvre id="heredity" statut="en-ligne">
+  <titre>Heredity</titre>
+  <annee>2023</annee>
+  <par>Jérôme Cance</par>
+  <par>Laurent Kobel</par>
+  <par>Darucat</par>
+  <url>https://www.hereditygame.com/</url>
+  <categorie>Jeu</categorie>
+
+  <resume>Campagne coopérative en cinq chapitres, une douzaine d'heures, un à quatre joueurs : une famille traverse un monde d'après, et tout le jeu parle de protéger les siens. Aucune application, aucun écran, 304 cartes. Le tempo tient sur une frise du temps où avance un sablier : les actions y accrochent des cartes, qui se déclenchent quand il passe dessus.</resume>
+
+  <visuel src="heredity.jpg"
+          source="https://www.hereditygame.com/"/>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      **Le sablier est un ordonnanceur.** Ce qu'on décide ne produit pas son effet
+      tout de suite : on accroche un événement plus loin sur la frise, et il arrive.
+      C'est une file d'événements différés — la structure qu'un programme cache dans
+      sa boucle — posée à plat sur la table, lisible par tout le monde. La tension
+      vient de voir approcher ce qu'on a déclenché soi-même.
+
+      **Et la file se construit pendant la partie.** Ce n'est pas une piste imprimée
+      qu'on parcourt : la frise s'allonge au fil des chapitres, et ce sont les
+      actions des joueurs qui y insèrent des cartes. On ne subit pas un minutage,
+      on remplit son propre agenda.
+
+      **Une seule pièce fait trois métiers** : horloge, ordre du tour, file
+      d'attente. La carte Famille posée sur la frise est le tic de la boucle —
+      quand le sablier l'atteint, chacun récupère ses trois jetons d'action. Le tour
+      de jeu n'est pas une règle à retenir, c'est un objet qu'on voit venir.
+
+      **Les blessures se paient en actions.** Un personnage, c'est trois cartes —
+      tête, torse, jambes — couvertes d'emplacements. Agir, c'est couvrir un
+      emplacement libre. Prendre un coup, c'est en faire couvrir un autre par un
+      jeton de dégât. Pas de points de vie à décompter : la santé et le budget
+      d'action sont la même surface, et à mesure qu'elle se remplit, la personne
+      peut de moins en moins de choses. Une ressource, deux significations,
+      entièrement visible.
+
+      **La sauvegarde est en carton.** Entre deux chapitres, l'équipement reste, les
+      gens sauvés reviennent, les autres non. C'est une [[structure-a-etat|structure
+      à état]] posée sur une table, sans variable cachée — et la dizaine d'épilogues
+      possibles ne se distingue que par ce qui est vrai à la fin.
+
+      **Le récit réagit au quand, pas seulement au quoi.** Le scénario est écrit
+      d'avance, mais l'ordre et le moment des actions changent ce qui se percute. La
+      liberté n'est pas dans le choix d'une branche, elle est dans le tempo — une
+      voie de sortie utile quand l'[[structure-embranchements|explosion
+      combinatoire]] rend les branches trop chères.
+
+      Voir [[interface-plateau]].
+    </markdown>
+  </section>
+
+  <section titre="Ce qui coince">
+    <markdown>
+      Le combat est punitif, et quand un personnage tombe, c'est le paquet Karma qui
+      décide s'il meurt. Trois heures de décisions prudentes peuvent finir sur une
+      tête de mort tirée au hasard : l'agentivité s'évapore au moment exact où elle
+      comptait le plus.
+
+      Douze heures avec les mêmes personnes : l'engagement demandé est celui d'une
+      série, et la campagne meurt si le groupe se défait. À côté,
+      [[cartaventura|Cartaventura]] tient en une soirée avec qui passe.
+
+      Et le récit reste écrit d'avance. La frise donne le sentiment d'un monde qui
+      réagit, mais ce qui réagit, ce sont des déclencheurs posés par les auteurs.
+      Beaucoup n'apparaissent qu'une fois, et le jeu s'arrête souvent juste avant
+      d'oser.
+    </markdown>
+  </section>
+
+  <note type="attention" titre="Pour la classe">
+    <markdown>
+      *Heredity : Les Mioches* (2025) rejoue le premier chapitre en une heure, pour
+      une dizaine d'euros. Mêmes mécaniques, même frise, ton plus léger. C'est la
+      seule façon réaliste de faire manipuler le sablier à un groupe.
+    </markdown>
+  </note>
+
+  <retroliens/>
+</oeuvre>

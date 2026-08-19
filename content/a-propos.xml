@@ -1,0 +1,59 @@
+<page id="a-propos">
+  <titre>À propos</titre>
+  <resume>Qui je suis, et par quel chemin j'en suis arrivé à enseigner ça.</resume>
+
+  <markdown>
+    De 2005 à 2009, j'ai étudié le multimédia à l'IAD, à Louvain-la-Neuve. La même
+    école où j'enseigne aujourd'hui.
+
+    Pendant ces années, j'ai eu la chance de croiser des gens très bons, comme
+    [Alban de Fraipont](https://twitter.com/albandf) et
+    [Thomas Henrion](https://www.linkedin.com/in/thomas-henrion-7133ab15/). Flash
+    existait encore, IE6 aussi. La liberté que Flash nous donnait à l'époque me
+    manque toujours. C'est là aussi que j'ai appris le CSS avec l'unique
+    [Jérome Coupé](https://twitter.com/jeromecoupe) : le voir expliquer les floats a
+    changé quelque chose. Et j'y ai croisé
+    [Pierre-Vincent Ledoux](https://twitter.com/pvledoux), passage court mais
+    marquant comme professeur de PHP.
+
+    En 2009, j'ai commencé chez Emakina, où j'ai développé quelques « expériences
+    interactives » en Flash. C'est là que j'ai rencontré
+    [Quentin Delcourt](https://twitter.com/kant312) et
+    [David Jakubowski](https://www.linkedin.com/in/david-jakubowski-7025323/?originalSubdomain=be),
+    avec qui j'ai enduré quelques sites Drupal.
+
+    En 2011, je me suis marié avec la merveilleuse
+    [Aurélie Moreels](https://www.aureliemoreels.be). J'ai aussi rejoint
+    l'entreprise de construction de mon père, Soluce. Elle grandissait vite et
+    n'avait aucun moyen sérieux de suivre ses interventions ; je leur ai développé un
+    système de tickets. À ce moment-là, l'écosystème PHP et JS explosait : j'avais
+    l'impression d'apprendre un framework par semaine — Yii, BackboneJS, AngularJS,
+    et un petit framework PHP peu connu qui s'appelait Laravel. En parallèle, j'ai
+    commencé à prendre des missions en freelance.
+
+    J'ai fini par rejoindre Quentin, Pierre-Vincent et Jérome chez Tcheu!.
+
+    En 2014, quelques mois chez Wepika. Résumé court : Prestashop est arrivé en tête
+    de la pile des logiciels que je ne veux plus jamais réutiliser.
+
+    En 2016, je suis entré chez BetterStreet. J'y ai découvert les joies et les
+    douleurs du développement mobile avec React Native, et modernisé les interfaces
+    citoyen et admin en mettant l'UX au centre. Un plaisir de travailler avec les
+    API de [Pierre Biezemans](https://www.linkedin.com/in/pierre-biezemans-a3a4056b/?originalSubdomain=be).
+
+    De 2019 à 2020, Belighted, où j'ai enfin travaillé avec
+    [Simon Henrotte](https://www.linkedin.com/in/simonhenrotte/?originalSubdomain=be),
+    dont j'avais croisé la route plusieurs fois. En parallèle de ce travail de
+    développeur frontend, j'ai commencé à enseigner « le web dynamique » à l'IAD —
+    en recroisant une fois de plus Thomas et Jérome.
+
+    En 2021, j'ai réalisé un vieux rêve : créer des applications interactives pour
+    des musées. Je travaille depuis en freelance pour Kascen et TinyBigStory.
+
+    Le reste du temps, je m'occupe de mes trois enfants, je bois une bonne bière
+    belge en jouant à des jeux de rôle, et je cherche de nouveaux itinéraires pour
+    aller au travail à vélo.
+
+    Pour me joindre : julien@thylo.be.
+  </markdown>
+</page>

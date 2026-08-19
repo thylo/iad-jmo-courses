@@ -46,7 +46,19 @@
   --measure-lead: 46ch;
   --measure-text: 62ch;
 
-  /* The label column of the asymmetric grid. */
-  --sidebar-width: 10.5rem;           /* 168px */
-  --gutter: var(--space-xl);
+  /* The margin: the label column of the asymmetric grid, and the column the
+     margin notes live in. 5a sized it at 168px for two words of label; a note
+     set there gets 20 characters to a line, which rags badly. Seven baseline
+     units instead, so a note has ~24 and the grid still holds. */
+  --sidebar-width: 12.25rem;          /* 196px */
+  --sidenote-width: calc(var(--sidebar-width) - var(--space-m));
+
+  /* On a phone the page is the width of one column, so the margin only has to
+     keep the text off the edge. The wide margin is what makes the two-column
+     layout read as a spread, and it arrives with the second column. */
+  --gutter: var(--space-m);
+}
+
+@media (min-width: 48em) {
+  :root { --gutter: var(--space-xl); }
 }

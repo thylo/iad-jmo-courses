@@ -12,6 +12,9 @@
 
   <resume>Un roman interactif innovant où les lecteurs suivent Violet Bookman enquêtant sur des disparitions mystérieuses dans une petite ville de l'Ohio. Distribué simultanément via Instagram, Discord, emails, appels téléphoniques, site web dédié et réseaux sociaux.</resume>
 
+  <visuel src="question-mark-ohio.jpg"
+          source="https://questionmarkohio.com/"/>
+
   <section titre="Ce qui fonctionne">
     <markdown>
       Architecture multi-plateforme créant une expérience narrative immersive. Participation active des lecteurs dans la résolution d'énigmes. Mélange de storytelling linéaire (Instagram feed) et exploratoire (site web). Création d'une communauté engagée via Discord. Les créateurs écrivaient les règles en cours de route (« a series of escalating dares »), transformant les contraintes en opportunités narratives.

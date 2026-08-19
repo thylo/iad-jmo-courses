@@ -1,0 +1,35 @@
+/* Illustrated index — the works of a section, shown rather than listed.
+
+   The plain .index list stays what it was: this grid only applies once entries
+   carry a thumbnail, so a half-illustrated corpus never renders as a grid of
+   holes. The modifier is added by IndexElement, not written by hand. */
+
+.c-prose .index--vignettes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: var(--space-m);
+  margin-block: var(--space-l);
+}
+
+/* The step between entries is the grid gap now, not a margin on the item. */
+.c-prose .index--vignettes > li + li {
+  margin-block-start: 0;
+}
+
+.c-prose .index--vignettes img {
+  width: 100%;
+  height: auto;
+  margin-block-end: var(--space-xs);
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background-color: var(--color-paper-sunk);
+}
+
+/* An entry with no image keeps its place in the grid rather than closing the
+   gap: the column of titles stays readable while the corpus fills up. */
+.c-prose .index--vignettes > li {
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+}
+
+.c-prose .index--vignettes .meta { display: block; }

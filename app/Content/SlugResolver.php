@@ -7,9 +7,9 @@ namespace App\Content;
 /**
  * Translates both ways between file path and URL slug.
  *
- *   content/index.md                -> /
- *   content/mm3b.md                 -> /mm3b
- *   content/cours/index.md          -> /cours
+ *   content/index.xml               -> /
+ *   content/panorama.xml            -> /panorama
+ *   content/cours/index.xml         -> /cours
  *   content/oeuvres/a-dark-room.xml -> /oeuvres/a-dark-room
  *
  * Numeric prefixes stay in the URL: they carry the display order, and stripping
@@ -40,7 +40,7 @@ final readonly class SlugResolver
     {
         $relative = trim($slug, '/');
 
-        // XML first: it is the format we are migrating towards, so it wins a tie.
+        // XML first: content/ is XML, .md only exists for a draft in progress.
         $candidates = $relative === ''
             ? ['index.xml', 'index.md']
             : ["{$relative}.xml", "{$relative}.md", "{$relative}/index.xml", "{$relative}/index.md"];

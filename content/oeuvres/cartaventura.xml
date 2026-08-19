@@ -1,0 +1,51 @@
+<oeuvre id="cartaventura" statut="en-ligne">
+  <titre>Cartaventura</titre>
+  <annee>2021</annee>
+  <par>Thomas Dupont</par>
+  <par>Arnaud Ladagnous</par>
+  <par>Blam!</par>
+  <url>https://blam-edition.com/univers-cartaventura/</url>
+  <categorie>Jeu</categorie>
+
+  <resume>Une aventure historique dans une boîte de poche : un paquet de cartes, aucun livret de règles, cinq fins possibles. On étale les cartes, elles forment le monde, une décision en remplace une partie. Pas d'application, pas d'écran, pas de pile. Premiers titres en 2021 ; plus de 300 000 boîtes vendues.</resume>
+
+  <visuel src="cartaventura.jpg"
+          source="https://blam-edition.com/univers-cartaventura/"/>
+
+  <section titre="Pourquoi c'est inspirant">
+    <markdown>
+      **La table est l'état du récit.** Les cartes posées forment une carte du
+      monde ; une décision en révèle d'autres, en remplace certaines. C'est une
+      [[structure-a-etat|structure à état]] entièrement visible : rien n'est caché
+      dans un logiciel, tout est sur la table. On peut montrer la variable du
+      doigt.
+
+      **Les règles sont dans le contenu.** Il n'y a pas de notice. Les premières
+      cartes expliquent comment jouer, puis l'aventure continue sur les mêmes
+      cartes. L'apprentissage n'est pas une étape avant le récit, il est dedans.
+
+      **Beaucoup de choix, cinq fins.** Les chemins se rejoignent, forcément —
+      c'est la réponse la plus simple à l'[[structure-embranchements|explosion
+      combinatoire]], et elle tient dans une boîte grande comme la main. Rejouer
+      ne sert pas à voir une autre histoire, mais l'autre versant de la même.
+
+      **Aucun compte à rebours.** La boîte achetée aujourd'hui se joue encore en
+      2050. Comparez avec ce qui pend au-dessus de chaque jeu de la page
+      [[interface-plateau]].
+    </markdown>
+  </section>
+
+  <section titre="Ce qui coince">
+    <markdown>
+      La deuxième partie n'est plus une aventure, c'est une inspection. On ne suit
+      plus le récit, on cherche les cartes qu'on n'avait pas retournées. Le jeu
+      l'assume — c'est son argument de rejouabilité — mais l'illusion ne tient
+      qu'une fois.
+
+      L'Histoire y sert surtout de décor : on croise Alexandra David-Néel ou Erik
+      le Rouge, on ne discute jamais vraiment de ce qu'ils faisaient là.
+    </markdown>
+  </section>
+
+  <retroliens/>
+</oeuvre>

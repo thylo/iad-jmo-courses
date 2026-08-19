@@ -12,6 +12,9 @@
 
   <resume>Système d'IA qui utilise des caméras de surveillance publiques pour retrouver exactement quand et où chaque photo Instagram géolocalisée a été prise. Révèle le fossé entre la représentation sociale et la réalité documentée.</resume>
 
+  <visuel src="the-follower.jpg"
+          source="https://driesdepoorter.be/thefollower/"/>
+
   <section titre="Ce qui fonctionne">
     <markdown>
       Utilise ingénieusement des données publiques (caméras de surveillance + géotags Instagram) pour créer une contre-narration automatisée. L'IA scrape les livestreams de caméras publiques (EarthCam), analyse les frames et les compare avec les photos Instagram taguées aux mêmes locations. Croise temporalité et géolocalisation pour identifier le contexte réel de prise de vue. Galeries interactives permettent d'explorer les corrélations et de découvrir le "making-of" des photos.

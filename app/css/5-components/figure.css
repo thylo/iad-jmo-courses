@@ -1,0 +1,44 @@
+/* Figures — an image with what is owed to whoever made it.
+
+   These are other people's images on a public course site. The credit is part
+   of the component rather than something a writer remembers to add, which is
+   the only way it stays systematic. */
+
+.c-figure {
+  margin-block: var(--space-l);
+  margin-inline: 0;
+}
+
+/* The lead image of a fiche. It sits between the summary and the fiche proper,
+   so it closes the opening rather than interrupting the reading. */
+.c-figure--lead {
+  margin-block-start: var(--space-m);
+}
+
+.c-figure img {
+  width: 100%;
+  height: auto;
+  background-color: var(--color-paper-sunk);
+}
+
+/* A figure gets one caption. When the image carries both a legend and a credit,
+   the credit sits inside it as a quieter aside rather than as a second block. */
+.c-figure__caption,
+figcaption.c-figure__credit {
+  margin-block-start: var(--space-xs);
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+}
+
+.c-figure__caption { color: var(--color-ink-muted); }
+
+/* The credit is not the caption: it says who owns the image, not what it shows. */
+.c-figure__credit { color: var(--color-ink-faint); }
+
+/* Set on its own line when it follows a legend, so the two do not read as one
+   sentence. */
+.c-figure__caption > .c-figure__credit {
+  display: block;
+}
+
+.c-figure__credit a { color: inherit; }

@@ -1,0 +1,114 @@
+<page id="02-concevoir">
+  <titre>Séance 2 — Concevoir sans contraintes</titre>
+  <resume>Partir d'une émotion et imaginer l'interaction qui la produit.</resume>
+
+  <markdown>
+    Quatre heures. Atelier d'idéation, sans limite technique.
+  </markdown>
+
+  <section titre="Objectifs">
+    <markdown>
+      - Partir de l'intention narrative, pas de la technique
+      - Formuler un concept d'expérience interactive tenable
+      - Défendre un choix d'interaction devant le groupe
+    </markdown>
+  </section>
+
+  <section titre="Déroulé">
+    <markdown>
+      ### 1. Partir d'une émotion
+
+      **Principe :** l'interaction sert l'émotion, pas l'inverse.
+
+      Émotions à explorer : nostalgie, urgence, contemplation, émerveillement,
+      malaise, joie, curiosité, mélancolie, solitude, connexion.
+
+      **Exercice individuel.** Choisissez une émotion et répondez :
+
+      1. Qu'est-ce qui crée cette émotion au cinéma ? Cadrage, sound design, rythme
+         de montage, lumière.
+      2. Comment la créer par l'interaction ? Quel geste de la part du spectateur,
+         quelle réaction en retour ?
+
+      **Partage collectif.** Trois ou quatre volontaires présentent, trois minutes
+      chacun. On discute : est-ce que cette interaction produit vraiment cette
+      émotion ?
+
+      ### 2. Contrainte créative
+
+      En groupes de trois ou quatre :
+
+      > Racontez cette scène avec une seule forme d'interaction :
+      > **une personne attend quelqu'un qui ne viendra pas.**
+
+      **À définir :** chaque groupe tirait au sort une forme dans une liste fermée
+      qui a été retirée. Le principe de l'exercice tient — une contrainte unique par
+      groupe — mais la liste de contraintes est à réécrire.
+
+      ### 3. Discussion critique
+
+      Chaque groupe présente. Le reste de la classe cherche l'endroit où l'interaction
+      devient décorative.
+
+      ### 4. Conception individuelle
+
+      Temps de travail sur son propre concept.
+
+      ### 5. Feedback en petits groupes
+
+      On montre son concept à trois personnes. Elles disent ce qu'elles ont compris,
+      pas ce qu'elles en pensent.
+    </markdown>
+  </section>
+
+  <section titre="Livrable">
+    <markdown>
+      **Concept d'expérience interactive.**
+
+      - Un storyboard de trois à cinq états
+      - Une description écrite, 500 mots minimum
+      - La justification du choix d'interaction
+
+      Contenu attendu :
+
+      1. **Intention narrative** — l'émotion visée, un synopsis en trois phrases, le thème
+      2. **Choix d'interaction** — lequel, et pourquoi celui-là pour cette histoire
+      3. **Storyboard** — états principaux, annotations d'émotion
+      4. **Fonctionnement** — ce que fait le spectateur, ce qui se passe, quelles variations
+    </markdown>
+  </section>
+
+  <section titre="Conseils">
+    <markdown>
+      **Piège 1 — la technique avant l'émotion.**
+      Pas « je veux faire du drag and drop », mais « je veux créer de la nostalgie, le
+      drag pourrait servir ça ».
+
+      **Piège 2 — le concept trop complexe.**
+      Un concept simple et cohérent vaut mieux qu'un concept riche et brouillon.
+
+      **Piège 3 — l'interaction décorative.**
+      Posez-vous la question : si j'enlève l'interaction, est-ce que l'émotion
+      disparaît ? Si non, l'interaction est superflue.
+
+      ### Trouver des idées
+
+      - Partir d'un souvenir personnel : un moment marquant, raconté de façon interactive
+      - Détourner un objet quotidien
+      - Prendre une contrainte absurde et la tenir jusqu'au bout
+    </markdown>
+  </section>
+
+  <section titre="Questions fréquentes">
+    <markdown>
+      **Mon concept doit-il être réalisable techniquement ?**
+      Non. C'est un cours de conception, pas de production.
+
+      **Mon concept peut-il être une installation physique ?**
+      Oui, si l'interaction est au cœur du récit.
+
+      **Et si mon concept ressemble à une œuvre existante ?**
+      Dites-le et assumez-le. Expliquez ce que vous faites différemment.
+    </markdown>
+  </section>
+</page>

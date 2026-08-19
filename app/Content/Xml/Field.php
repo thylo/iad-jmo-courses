@@ -32,6 +32,15 @@ final readonly class Field
         public bool $allowsText = false,
         /** The value is an external URL. */
         public bool $isUrl = false,
+        /**
+         * The value is carried by this attribute rather than by the element's text.
+         *
+         * <visuel src="unlock.jpg" alt="…" credit="…"/> holds one thing the graph
+         * cares about — the file name — and three the renderer reads. Collecting
+         * the src leaves the field model alone; App\Media\Visual reads the rest
+         * back from the element, the way App\Content\Intro reads the rendered HTML.
+         */
+        public ?string $attribute = null,
         /** False when the field is rendered elsewhere, like the title and the summary. */
         public bool $inFiche = true,
         /** @var string[]|null allowed values, null when free */

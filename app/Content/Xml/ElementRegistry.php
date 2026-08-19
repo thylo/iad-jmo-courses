@@ -5,12 +5,14 @@ declare(strict_types=1);
 namespace App\Content\Xml;
 
 use App\Content\Xml\Elements\BacklinksElement;
+use App\Content\Xml\Elements\ImageElement;
 use App\Content\Xml\Elements\IndexElement;
 use App\Content\Xml\Elements\ItemElement;
 use App\Content\Xml\Elements\ListElement;
 use App\Content\Xml\Elements\MarkdownElement;
 use App\Content\Xml\Elements\NoteElement;
 use App\Content\Xml\Elements\SectionElement;
+use App\Content\Xml\Elements\SidenoteElement;
 use App\Content\Xml\Elements\VideoElement;
 
 /**
@@ -29,7 +31,9 @@ final readonly class ElementRegistry
         MarkdownElement $markdown,
         SectionElement $section,
         NoteElement $note,
+        SidenoteElement $sidenote,
         VideoElement $video,
+        ImageElement $image,
         ListElement $list,
         ItemElement $item,
         IndexElement $index,
@@ -39,7 +43,9 @@ final readonly class ElementRegistry
             'markdown' => $markdown,
             'section' => $section,
             'note' => $note,
+            'marge' => $sidenote,
             'video' => $video,
+            'image' => $image,
             'liste' => $list,
             'item' => $item,
             'index' => $index,

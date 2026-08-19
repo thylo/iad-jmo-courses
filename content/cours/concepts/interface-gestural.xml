@@ -1,0 +1,228 @@
+<concept id="interface-gestural">
+  <titre>Interfaces Gestuelles / Tactiles</titre>
+  <genre>interface</genre>
+  <exemple ref="protanopia"/>
+  <exemple ref="the-botanist"/>
+  <voir ref="interface-3d"/>
+
+  <resume>Des gestes naturels (swipe, pinch, draw, shake) créent l'interaction narrative.</resume>
+
+  <section titre="Définition">
+    <markdown>
+      L'interface gestuelle utilise le corps et le geste comme moyens d'interaction. Plutôt que cliquer, l'utilisateur swipe, pinch, dessine, secoue. Cette approche reconnecte l'interaction avec l'émotionnel et le sensorimotor.
+
+      **Caractéristiques :**
+
+      - Gestes physiques variés (swipe, pinch, draw, shake, tilt)
+      - Approche ludique et expérimentale
+      - Interaction instinctive, pas rationnelle
+      - Connexion émotionnelle par le geste
+    </markdown>
+  </section>
+
+  <section titre="Intérêt narratif">
+    <markdown>
+      - **Décolle l'interaction d'une décision rationnelle**
+      - **Crée connexion émotionnelle par le geste**
+      - **Approche expérimentale/artistique**
+      - Corporalité de l'interaction
+    </markdown>
+  </section>
+
+  <section titre="Enjeux et risques">
+    <markdown>
+      - **Trouver le geste qui sert vraiment l'émotion**
+      - **Estimer le niveau de dextérité requis**
+      - **Risque de gadget** si le geste n'est pas signifiant
+      - Accessibilité pour handicaps moteurs
+    </markdown>
+  </section>
+
+  <section titre="Quand utiliser gestural ?">
+    <markdown>
+      - ✅ Vous racontez une histoire émotionnelle/viscérale
+      - ✅ Le geste enrichit le propos narratif
+      - ✅ Public sur mobile/tactile
+      - ✅ Vous visez expérience artistique
+    </markdown>
+  </section>
+
+  <section titre="Design">
+    <markdown>
+      ### Geste signifiant
+
+      Le geste doit être **motivé** :
+
+      - Swipe pour tourner page (naturel)
+      - Dessiner pour créer (poétique)
+      - Secouer pour déclencher (émotion)
+      - Pas de gestes arbitraires
+
+      ### Accessibilité gestuelle
+
+      Pas tout le monde peut faire tous les gestes :
+
+      - Fournir alternatives (clics, touches)
+      - Documenter clairement les gestes
+      - Tester avec utilisateurs diversos
+      - Respecter limites physiques
+
+      ### Feedback tactile
+
+      - Vibration confirme le geste
+      - Animation répond immédiatement
+      - Son renforce l'interaction
+      - Sensorialité multimodale
+
+      ### Progression
+
+      - Commencer simple (swipe)
+      - Complexité augmente graduellement
+      - Pas de gestes impossibles
+      - Tester avec gamers/non-gamers
+    </markdown>
+  </section>
+
+  <section titre="Exemples (à développer)">
+    <markdown>
+      ### Five Minutes (2014)
+
+      - Interactions gestuelles minimalistes
+      - Chaque geste a poids émotionnel
+      - Durée = 5 minutes (timing critique)
+      - Expérience émotionnelle par le geste
+
+      ### Sortie en Mer (2015)
+
+      - Gestes liés à thème (nautique)
+      - Interaction naturelle au contexte
+      - Récit progressif par gestes
+      - Poésie du mouvement
+
+      ### Swap Tales (2016)
+
+      - Déplacer/swapper éléments
+      - Geste crée la narration
+      - Puzzle narratif
+      - Manipulation directe
+    </markdown>
+  </section>
+
+  <section titre="Gestes courants">
+    <markdown>
+      ### Swipe
+      Balayer dans une direction.
+
+      - **Utilité** : Tourner pages, naviguer
+      - **Intuitif** : Très
+
+      ### Pinch / Spread
+      Pincer ou écarter deux doigts.
+
+      - **Utilité** : Zoom, ouverture
+      - **Intuitif** : Moyen (mobile-only)
+
+      ### Draw / Sketch
+      Dessiner à l'écran.
+
+      - **Utilité** : Création, interaction créative
+      - **Intuitif** : Faible (nécessite pratique)
+
+      ### Tap
+      Taper/frapper l'écran.
+
+      - **Utilité** : Interrupteur, action rapide
+      - **Intuitif** : Très
+
+      ### Shake
+      Secouer l'appareil.
+
+      - **Utilité** : Déclencher événement, réaction
+      - **Intuitif** : Moyen (amusant)
+
+      ### Tilt / Rotate
+      Incliner ou tourner l'appareil.
+
+      - **Utilité** : Navigation, contrôle mouvement
+      - **Intuitif** : Moyen (sur mobile)
+    </markdown>
+  </section>
+
+  <section titre="Variantes">
+    <markdown>
+      ### Single geste
+      Seul type de geste utilisé.
+
+      - Avantage : Simplicité, focus
+      - Inconvénient : Limité narrativement
+
+      ### Multi-gestes
+      Plusieurs gestes pour actions différentes.
+
+      - Avantage : Richesse d'interaction
+      - Inconvénient : Courbe d'apprentissage
+
+      ### Gestes contextuels
+      Geste change sens selon contexte.
+
+      - Avantage : Flexibilité
+      - Inconvénient : Confusion possible
+    </markdown>
+  </section>
+
+  <section titre="Combinaisons avec autres interfaces">
+    <markdown>
+      **Gestural + 3D**
+
+      - Navigation 3D par gestes naturels
+      - Interaction immersive
+
+      **Gestural + Scrollable**
+
+      - Gestes + scroll dans même expérience
+      - Interaction multimodale
+    </markdown>
+  </section>
+
+  <section titre="Bonnes pratiques">
+    <markdown>
+      1. **Geste motivé** : Pourquoi ce geste?
+      2. **Apprentissage graduel** : Tutoriel intégré
+      3. **Feedback immédiat** : Confirmation du geste
+      4. **Alternative accessible** : Pas seulement gestes
+      5. **Cohérence** : Même geste = même action
+    </markdown>
+  </section>
+
+  <section titre="Risques courants">
+    <markdown>
+      ❌ **Geste arbitraire** : Pas lié au sens
+      ❌ **Trop de gestes** : Impossible à mémoriser
+      ❌ **Pas d'alternatives** : Inaccessible
+      ❌ **Feedback flou** : On ne sait pas si on a réussi
+      ❌ **Dextérité excessive** : Inaccessible
+    </markdown>
+  </section>
+
+  <section titre="Solutions">
+    <markdown>
+      ✅ Limiter à 2-3 gestes clés
+      ✅ Geste lié thématiquement au sens
+      ✅ Tutoriel dans la narration
+      ✅ Feedback haptique + visuel
+      ✅ Alternative pour handicaps moteurs
+      ✅ Tester sur vrais utilisateurs
+    </markdown>
+  </section>
+
+  <section titre="Considérations d'accessibilité">
+    <markdown>
+      - **Handicaps moteurs** : Gestes impossibles
+      - **Vision** : Feedback audio/haptique
+      - **Cognitif** : Trop de types de gestes
+      - **Âge** : Dextérité varie avec l'âge
+    </markdown>
+  </section>
+
+  <retroliens/>
+</concept>

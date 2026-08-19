@@ -7,6 +7,9 @@
 
   <resume>Documentaire sur un pirate somalien, combinant animation, vidéo et choix narratifs. Le spectateur influence comment l'histoire est racontée.</resume>
 
+  <visuel src="last-hijack-interactive.jpg"
+          source="https://lasthijack.submarinechannel.com/"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Mélange documentaire et fiction interactive pour créer une empathie avec un sujet difficile.

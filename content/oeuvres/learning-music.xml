@@ -7,6 +7,9 @@
 
   <resume>Cours interactif de composition musicale avec séquenceur intégré. Enseigne les bases (rythme, notes, harmonies, structure) en permettant d'expérimenter immédiatement.</resume>
 
+  <visuel src="learning-music.jpg"
+          source="https://learningmusic.ableton.com/"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       L'outil pédagogique est aussi un instrument de création. Apprendre en créant directement.

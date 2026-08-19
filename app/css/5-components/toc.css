@@ -1,0 +1,42 @@
+/* Table of contents, at the top of the reading and not in the margin.
+
+   The margin is for annotation. When a page carries both, the summary is what
+   moves — it belongs to the reading, it is read once, and it is not an aside.
+   Only long pages get one at all; see DocumentView::hasToc(). */
+
+.c-toc {
+  margin-block-end: var(--space-xl);
+  padding-block-end: var(--space-m);
+  border-block-end: 1px solid var(--color-rule);
+}
+
+.c-toc__label {
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-ink-faint);
+}
+
+.c-toc__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: var(--space-m);
+  row-gap: 0;
+}
+
+/* Only the top level runs inline. A nested list would need its own line and
+   turn a one-line summary back into an outline. */
+.c-toc__list .c-toc__list {
+  display: none;
+}
+
+.c-toc__link {
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-ink-muted);
+  text-decoration: none;
+}
+
+.c-toc__link:hover {
+  color: var(--color-accent);
+  text-decoration-line: underline;
+}

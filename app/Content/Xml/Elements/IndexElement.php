@@ -10,6 +10,7 @@ use App\Content\Xml\EntityLink;
 use App\Content\Html;
 use App\Content\Xml\RenderContext;
 use App\Content\Xml\XmlSource;
+use App\Media\ImageTag;
 
 /**
  * <index de="oeuvre" ou="par = self" tri="annee"/>
@@ -23,6 +24,10 @@ use App\Content\Xml\XmlSource;
  */
 final readonly class IndexElement implements ElementRenderer
 {
+    public function __construct(
+        private ImageTag $images,
+    ) {}
+
     public function render(\Dom\Element $element, RenderContext $context): string
     {
         $type = Html::attribute($element, 'de');
@@ -35,12 +40,19 @@ final readonly class IndexElement implements ElementRenderer
         }
 
         $items = '';
+        $illustrated = false;
 
         foreach ($entries as $entry) {
-            $items .= sprintf('<li>%s</li>', $this->line($entry, $context->index));
+            $thumbnail = $this->images->thumbnail($entry);
+            $illustrated = $illustrated || $thumbnail !== '';
+
+            $items .= sprintf('<li>%s%s</li>', $thumbnail, $this->line($entry, $context->index));
         }
 
-        return sprintf('<ul class="index">%s</ul>', $items);
+        // The grid arrives with the images. An index of concepts, or one whose
+        // works have no image yet, stays the list it has always been — so a
+        // half-illustrated corpus never renders as a grid of holes.
+        return sprintf('<ul class="index%s">%s</ul>', $illustrated ? ' index--vignettes' : '', $items);
     }
 
     /**

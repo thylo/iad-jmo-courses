@@ -11,6 +11,9 @@
 
   <resume>Jeu collaboratif où des joueurs en ligne et des joueurs de rue explorent une réalité mixte pour trouver le bureau d'Uncle Roy, puis sont invités à s'engager envers un inconnu pendant un an.</resume>
 
+  <visuel src="uncle-roy-all-around-you.jpg"
+          source="https://www.blasttheory.co.uk/projects/uncle-roy-all-around-you/"/>
+
   <section titre="Ce qui fonctionne">
     <markdown>
       Fusion innovante du jeu, de la performance théâtrale et de la narration interactive. Mélange vécu physique urbain avec coordination virtuelle. Pose des questions philosophiques sur l'engagement social et la technologie mobile. Utilise une inférence de position créative (pas GPS) basée sur la navigation des joueurs dans une carte virtuelle.

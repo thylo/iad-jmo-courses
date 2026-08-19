@@ -7,6 +7,9 @@
 
   <resume>Article qui a révolutionné le journalisme web en combinant scrollytelling, vidéos, animations 3D et cartographie interactive pour raconter une avalanche meurtrière.</resume>
 
+  <visuel src="snow-fall.jpg"
+          source="https://www.nytimes.com/projects/2012/snow-fall/index.html"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Projet pionnier qui a défini le scrollytelling comme forme narrative. A inspiré des milliers d'imitateurs.

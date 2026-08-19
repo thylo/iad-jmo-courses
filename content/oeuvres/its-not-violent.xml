@@ -11,6 +11,9 @@
 
   <resume>Campagne de sensibilisation interactive utilisant des scénarios de textos réalistes où les utilisateurs incarnent une victime de violence conjugale psychologique — exposant comment la manipulation et le contrôle subtils se manifestent dans les communications quotidiennes entre partenaires.</resume>
 
+  <visuel src="its-not-violent.jpg"
+          source="https://itsnotviolent.com/"/>
+
   <section titre="Ce qui fonctionne">
     <markdown>
       Interface de messaging épurée (textos minimaliste) qui crée une proximité affective immédiate. Chaque scénario offre 243 combinaisons possibles de réponses, révélant comment les perceptions de ce qui est 'violent' varient radicalement selon les gens. Pas de 'bonne réponse' — juste des degrés d'inconfort. Afterward content éducatif démystifie les dynamiques d'abus. Structure pédagogique flexible: vote collectif, petits groupes, kiosque public.

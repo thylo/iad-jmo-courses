@@ -9,6 +9,9 @@
 
   <resume>Expérience web interactive combinant rendu 3D temps réel et animations motion design sophistiquées. Exploration visuelle immersive avec interactions subtiles.</resume>
 
+  <visuel src="the-monolith-project.jpg"
+          source="https://themonolithproject.net/"/>
+
   <section titre="Ce qui fonctionne">
     <markdown>
       Qualité exceptionnelle du rendu 3D temps réel dans le navigateur. Animations motion design fluides et soignées qui créent une expérience visuelle marquante. Démontre la maturité des technologies WebGL/Three.js pour créer des expériences visuelles comparables aux applications natives.

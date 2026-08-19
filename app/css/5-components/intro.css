@@ -4,7 +4,11 @@
   max-width: var(--measure-display);
 }
 
+/* One baseline unit under the title. On the homepage the drawn rule sits in
+   between and carries the same value, so the two collapse into one step and
+   the opening keeps its rhythm either way. */
 .c-intro__lead {
+  margin-block-start: var(--space-m);
   font-size: var(--text-lead);
   line-height: var(--leading-lead);
   max-width: var(--measure-lead);

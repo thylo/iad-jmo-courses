@@ -166,6 +166,14 @@ final readonly class XmlParser
                 throw ContentException::at($path, sprintf('<%s> attend un attribut ref.', $name), $node->getLineNo());
             }
 
+            if ($field->attribute !== null && Html::attribute($node, $field->attribute) === '') {
+                throw ContentException::at(
+                    $path,
+                    sprintf('<%s> attend un attribut %s.', $name, $field->attribute),
+                    $node->getLineNo(),
+                );
+            }
+
             $seen[$name] = true;
         }
     }
@@ -249,10 +257,14 @@ final readonly class XmlParser
                 continue;
             }
 
-            $value = $field->isReference ? Html::attribute($child, 'ref') : '';
+            if ($field->attribute !== null) {
+                $value = Html::attribute($child, $field->attribute);
+            } else {
+                $value = $field->isReference ? Html::attribute($child, 'ref') : '';
 
-            if ($value === '' && (! $field->isReference || $field->allowsText)) {
-                $value = $this->text($child);
+                if ($value === '' && (! $field->isReference || $field->allowsText)) {
+                    $value = $this->text($child);
+                }
             }
 
             if ($value !== '') {

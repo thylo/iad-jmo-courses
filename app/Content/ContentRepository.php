@@ -16,8 +16,10 @@ use function Tempest\root_path;
 /**
  * Reads the files under content/ and exposes them as Documents.
  *
- * Markdown and XML live side by side. Markdown carries the pages that are still
- * prose; XML carries the typed entities, and only those take part in the graph.
+ * Every page under content/ is XML now. The markdown path is kept because the
+ * loader still accepts a .md file dropped in while drafting, but nothing ships
+ * that way: only XML sources enter the graph, so only they can be linked to,
+ * indexed, or backlinked.
  *
  * Loading is memoised for the request: a page that renders the full navigation
  * touches every file, so parsing them once is worth it.
@@ -37,6 +39,9 @@ final class ContentRepository
 
     /** @var array<string, true> slugs of typed entities, kept out of the navigation */
     private array $entitySlugs = [];
+
+    /** @var array<string, string> path => why that file did not load */
+    private array $failures = [];
 
     private ?ContentIndex $index = null;
 
@@ -68,6 +73,21 @@ final class ContentRepository
         return $this->all()[$this->slugs->toSlug($path)] ?? null;
     }
 
+    /**
+     * The files that did not load, and why.
+     *
+     * Nothing renders them: their URL is simply not there, which is honest. The
+     * loud part is content:check, whose job is exactly this.
+     *
+     * @return array<string, string> path => message
+     */
+    public function failures(): array
+    {
+        $this->load();
+
+        return $this->failures;
+    }
+
     /** @return Xml\XmlSource[] the typed entities */
     public function sources(): array
     {
@@ -95,6 +115,10 @@ final class ContentRepository
      * Listing the 125 œuvres in the navigation of every page said nothing that
      * /oeuvres does not already say, and drowned the rest.
      *
+     * The homepage is not in it either. The masthead is a link home on every
+     * page, so naming it again at the top of the list was the site telling the
+     * reader twice about the one place they already know how to reach.
+     *
      * @return NavNode[]
      */
     public function tree(): array
@@ -102,12 +126,7 @@ final class ContentRepository
         // buildTree() reads $entitySlugs, which only exists once everything is parsed.
         $this->load();
 
-        $home = $this->all()['/'] ?? null;
-
-        return [
-            ...($home !== null ? [new NavNode(slug: '/', title: $home->title)] : []),
-            ...$this->buildTree($this->contentRoot),
-        ];
+        return $this->buildTree($this->contentRoot);
     }
 
     /** @return NavNode[] */
@@ -180,16 +199,27 @@ final class ContentRepository
         foreach ($this->contentFiles() as $path) {
             $slug = $this->slugs->toSlug($path);
 
-            // Leaving a converted .md next to its .xml would give one URL two
-            // sources, and the navigation two entries.
-            if (isset($documents[$slug])) {
-                throw ContentException::at(
-                    $path,
-                    sprintf('Même URL (%s) que %s.', $slug, $documents[$slug]->path),
-                );
-            }
+            // One bad file is one missing page, not a site that is down. The
+            // rule is still that a half-rendered page is worse than a plain
+            // error — but the error belongs to the file that carries it. A
+            // typo in one œuvre used to take the other 139 with it, plus the
+            // homepage, which is a punishment out of all proportion.
+            try {
+                if (isset($documents[$slug])) {
+                    // Leaving a converted .md next to its .xml would give one URL
+                    // two sources, and the navigation two entries.
+                    throw ContentException::at(
+                        $path,
+                        sprintf('Même URL (%s) que %s.', $slug, $documents[$slug]->path),
+                    );
+                }
 
-            if (str_ends_with($path, '.xml')) {
+                if (! str_ends_with($path, '.xml')) {
+                    $documents[$slug] = $this->parseMarkdown($path, $slug);
+
+                    continue;
+                }
+
                 $source = $this->xml->parse($path, $slug);
                 $sources[] = $source;
 
@@ -206,11 +236,9 @@ final class ContentRepository
                     path: $path,
                     render: fn (): string => $this->renderer->render($source, $this->index()),
                 );
-
-                continue;
+            } catch (ContentException $exception) {
+                $this->failures[$path] = $exception->getMessage();
             }
-
-            $documents[$slug] = $this->parseMarkdown($path, $slug);
         }
 
         $this->documents = $documents;

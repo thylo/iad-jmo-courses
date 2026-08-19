@@ -6,6 +6,8 @@ namespace App\Console;
 
 use App\Content\ContentRepository;
 use App\Content\Document;
+use App\Media\MediaCheck;
+use App\Media\VisualDoubts;
 use Tempest\Console\ConsoleCommand;
 use Tempest\Console\ExitCode;
 use Tempest\Console\HasConsole;
@@ -22,6 +24,8 @@ final readonly class ContentCheckCommand
 
     public function __construct(
         private ContentRepository $content,
+        private MediaCheck $media,
+        private VisualDoubts $doubts,
     ) {}
 
     #[ConsoleCommand(name: 'content:check', description: 'Liste les pages, signale les liens morts et les entités à écrire')]
@@ -41,9 +45,32 @@ final readonly class ContentCheckCommand
             $this->console->writeln(sprintf(' <em>%s</em>  %s', str_pad($slug, 24), $document->title));
         }
 
+        $this->reportFailures();
         $this->reportMissingEntities();
+        $this->reportImages();
 
         return $this->reportBrokenLinks($documents);
+    }
+
+    /**
+     * Files that did not load at all.
+     *
+     * These are the only content errors that cost a URL, so they come first and
+     * they are errors rather than warnings.
+     */
+    private function reportFailures(): void
+    {
+        $failures = $this->content->failures();
+
+        if ($failures === []) {
+            return;
+        }
+
+        $this->console->header('Fichiers illisibles');
+
+        foreach ($failures as $message) {
+            $this->console->error($message);
+        }
     }
 
     /**
@@ -78,6 +105,65 @@ final readonly class ContentCheckCommand
         }
     }
 
+    /**
+     * The images, as two queues and two errors.
+     *
+     * Illustrating and describing are content work that will take weeks; a file
+     * named by a fiche but absent from media/, or lying in media/ without a
+     * fiche, is a mistake to fix now.
+     */
+    private function reportImages(): void
+    {
+        $report = $this->media->run();
+
+        $this->console->header('Images');
+
+        $this->console->writeln(sprintf(
+            ' %d illustrées sur %d, %d avec une alternative textuelle.%s',
+            $report->illustrated(),
+            $report->total,
+            $report->described(),
+            $report->declined !== [] ? sprintf(' %d sans image, décidé.', count($report->declined)) : '',
+        ));
+
+        // Counts, not lists: naming 78 works to illustrate on every run would
+        // bury the two lines under it that are actual mistakes.
+        if ($report->withoutVisual !== [] || $report->withoutAlt !== []) {
+            $this->console->warning(sprintf(
+                '%d à illustrer, %d alt à écrire.',
+                count($report->withoutVisual),
+                count($report->withoutAlt),
+            ));
+        }
+
+        $doubts = $this->doubts->all();
+
+        if ($doubts !== []) {
+            $this->console->warning(sprintf(
+                '%d image%s à vérifier : php ./tempest media:review --doubtful',
+                count($doubts),
+                count($doubts) > 1 ? 's' : '',
+            ));
+        }
+
+        if ($report->unbuilt !== []) {
+            $this->console->error(sprintf(
+                '%d image%s pas encore fabriquée%s (elles ne s\'affichent pas) : php ./tempest media:build',
+                count($report->unbuilt),
+                count($report->unbuilt) > 1 ? 's' : '',
+                count($report->unbuilt) > 1 ? 's' : '',
+            ));
+        }
+
+        foreach ($report->missing as $id => $file) {
+            $this->console->error(sprintf('%s — fichier absent de media/ : %s', $id, $file));
+        }
+
+        foreach ($report->orphans as $path) {
+            $this->console->error(sprintf('%s — plus aucune fiche ne cite ce fichier', $path));
+        }
+    }
+
     /** @param array<string, Document> $documents */
     private function reportBrokenLinks(array $documents): ExitCode
     {
@@ -88,7 +174,7 @@ final readonly class ContentCheckCommand
         if ($broken === []) {
             $this->console->success(sprintf('%d pages, aucun lien mort.', count($documents)));
 
-            return ExitCode::SUCCESS;
+            return $this->content->failures() === [] ? ExitCode::SUCCESS : ExitCode::ERROR;
         }
 
         foreach ($broken as $slug => $targets) {

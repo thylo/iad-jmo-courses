@@ -7,6 +7,9 @@
 
   <resume>Jeu narratif qui explore trois films fictifs à travers leurs rushes. Le joueur reconstitue l'histoire en explorant les images, découvrant des connections cachées entre les scènes. Interface de montage vidéo détournée en outil narratif.</resume>
 
+  <visuel src="immortality.jpg"
+          source="https://store.steampowered.com/app/1350200/IMMORTALITY/"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Réinvente la narration interactive en utilisant le langage du cinéma. Le montage devient le mécanisme de jeu. Démontre qu'on peut créer une narration complexe en laissant le spectateur assembler les pièces.

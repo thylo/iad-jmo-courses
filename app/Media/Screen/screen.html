@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Revue des visuels</title>
+<style>
+  :root {
+    color-scheme: dark;
+    --ink: #ece7e1;
+    --dim: #8b857e;
+    --ground: #161513;
+    --panel: #1e1d1a;
+    --rule: #302e2a;
+    --warn: #d9a441;
+    --gone: #b4574a;
+    --serif: "Iowan Old Style", Palatino, Georgia, serif;
+    --sans: ui-sans-serif, -apple-system, "Helvetica Neue", sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 1.1rem 1.5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .count {
+    font-variant-numeric: tabular-nums;
+    color: var(--dim);
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+  }
+
+  h1 {
+    margin: 0;
+    font-family: var(--serif);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  .link { margin-left: auto; display: flex; align-items: center; gap: 0.5rem; color: var(--dim); font-size: 0.8rem; }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--gone); }
+  .dot.live { background: #6a9a5b; }
+
+  main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 21rem;
+    min-height: 0;
+  }
+
+  @media (max-width: 60rem) {
+    main { grid-template-columns: 1fr; grid-template-rows: 1fr auto; }
+  }
+
+  .stage {
+    display: grid;
+    place-items: center;
+    padding: 1.5rem;
+    min-height: 0;
+    background:
+      repeating-conic-gradient(#1a1917 0% 25%, #1e1d1a 0% 50%) 50% / 22px 22px;
+  }
+
+  .stage img {
+    max-width: 100%;
+    max-height: calc(100vh - 9rem);
+    object-fit: contain;
+    box-shadow: 0 1.5rem 3rem rgb(0 0 0 / 0.45);
+  }
+
+  .empty {
+    font-family: var(--serif);
+    font-size: 1.1rem;
+    color: var(--dim);
+    text-align: center;
+    max-width: 22rem;
+    text-wrap: balance;
+  }
+
+  aside {
+    padding: 1.5rem;
+    border-left: 1px solid var(--rule);
+    background: var(--panel);
+    overflow-y: auto;
+  }
+
+  @media (max-width: 60rem) {
+    aside { border-left: 0; border-top: 1px solid var(--rule); }
+  }
+
+  dl { margin: 0 0 1.25rem; display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 0.9rem; }
+  dt { color: var(--dim); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.09em; padding-top: 0.15rem; }
+  dd { margin: 0; overflow-wrap: anywhere; }
+  dd a { color: inherit; text-underline-offset: 3px; }
+
+  .summary { margin: 0 0 1.25rem; color: #c7c1b9; font-size: 0.9rem; }
+
+  .doubt {
+    margin: 0 0 0.5rem;
+    padding: 0.55rem 0.75rem;
+    border-left: 2px solid var(--warn);
+    background: rgb(217 164 65 / 0.08);
+    font-size: 0.85rem;
+  }
+
+  .doubt b { color: var(--warn); font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 0.7rem; display: block; }
+
+  footer { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--rule); color: var(--dim); font-size: 0.78rem; }
+  footer a { color: var(--dim); }
+</style>
+</head>
+<body>
+  <header>
+    <span class="count" id="count"></span>
+    <h1 id="title">Revue des visuels</h1>
+    <span class="link"><span class="dot" id="dot"></span><span id="state">connexion…</span></span>
+  </header>
+
+  <main>
+    <div class="stage" id="stage">
+      <p class="empty" id="empty">En attente du terminal. Répondez aux questions là-bas, les images arrivent ici.</p>
+    </div>
+    <aside id="panel" hidden>
+      <div id="doubts"></div>
+      <p class="summary" id="summary"></p>
+      <dl id="facts"></dl>
+      <footer id="footer"></footer>
+    </aside>
+  </main>
+
+<script>
+  const el = (id) => document.getElementById(id);
+  const text = (node, value) => { node.textContent = value ?? ''; };
+
+  function link(value) {
+    if (!/^https?:\/\//.test(value)) return document.createTextNode(value);
+    const a = document.createElement('a');
+    a.href = value;
+    a.target = '_blank';
+    a.rel = 'noreferrer';
+    a.textContent = value.replace(/^https?:\/\//, '').replace(/\/$/, '');
+    return a;
+  }
+
+  function render(frame) {
+    if (frame.done) {
+      text(el('count'), '');
+      text(el('title'), 'Revue terminée');
+      el('panel').hidden = true;
+      el('stage').innerHTML = '<p class="empty">C’est fini. Le terminal a le compte.</p>';
+      return;
+    }
+
+    text(el('count'), frame.position + '/' + frame.total);
+    text(el('title'), frame.title);
+
+    const stage = el('stage');
+    stage.innerHTML = '';
+
+    if (frame.image) {
+      const img = new Image();
+      img.src = frame.image;
+      img.alt = '';
+      stage.append(img);
+    } else {
+      const empty = document.createElement('p');
+      empty.className = 'empty';
+      empty.textContent = 'Pas encore d’image. Le terminal attend un fichier ou une adresse.';
+      stage.append(empty);
+    }
+
+    const doubts = el('doubts');
+    doubts.innerHTML = '';
+    (frame.doubts || []).forEach((reason) => {
+      const p = document.createElement('p');
+      p.className = 'doubt';
+      p.innerHTML = '<b>À vérifier</b>';
+      p.append(document.createTextNode(reason));
+      doubts.append(p);
+    });
+
+    const summary = el('summary');
+    summary.hidden = !frame.summary;
+    text(summary, frame.summary);
+
+    const facts = el('facts');
+    facts.innerHTML = '';
+    Object.entries(frame.facts || {}).forEach(([label, value]) => {
+      const dt = document.createElement('dt');
+      dt.textContent = label;
+      const dd = document.createElement('dd');
+      dd.append(link(String(value)));
+      facts.append(dt, dd);
+    });
+
+    const footer = el('footer');
+    footer.innerHTML = '';
+    if (frame.caption) footer.append(document.createTextNode(frame.caption));
+    if (frame.source) {
+      footer.append(document.createElement('br'), document.createTextNode('vient de '), link(frame.source));
+    }
+
+    el('panel').hidden = false;
+  }
+
+  function connect() {
+    const socket = new WebSocket('{{url}}');
+
+    socket.addEventListener('open', () => {
+      el('dot').classList.add('live');
+      text(el('state'), 'en direct');
+    });
+
+    socket.addEventListener('message', (event) => render(JSON.parse(event.data)));
+
+    socket.addEventListener('close', () => {
+      el('dot').classList.remove('live');
+      text(el('state'), 'reconnexion…');
+      setTimeout(connect, 1000);
+    });
+
+    socket.addEventListener('error', () => socket.close());
+  }
+
+  connect();
+</script>
+</body>
+</html>

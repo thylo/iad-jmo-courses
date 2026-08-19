@@ -9,6 +9,9 @@
 
   <resume>Application mobile gratuite transformant une visite de Tournai en expérience ludique où les utilisateurs découvrent la ville via des énigmes et des défis, guidés par le personnage emblématique Pichou.</resume>
 
+  <visuel src="city-strip-tournai.jpg"
+          source="https://www.visittournai.be/agenda/citystrip/"/>
+
   <section titre="Ce qui fonctionne">
     <markdown>
       Gamification fluide d'une expérience urbaine réelle : intégration seamless de puzzles narratifs et d'énigmes aux véritables points d'intérêt patrimoniaux de Tournai. Trois niveaux d'accès (Express 45min/5 étapes, Tip-Top 1h15/10 étapes, Complet 2h/15 étapes) permettent scalabilité selon temps disponible. Interface en bande dessinée animée rend les énigmes visuellement engageantes. Système audio guide complète les visuels. Scoring et gameplay multiplayer créent motivation compétitive entre visiteurs. GPS synchronise l'exploration virtuelle et la réalité physique urbaine. Pichou comme narrateur guide l'expérience sans forcer un scénario linéaire.

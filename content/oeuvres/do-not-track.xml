@@ -10,6 +10,9 @@
 
   <resume>Série documentaire qui explore la vie privée en ligne en demandant aux spectateurs de fournir leurs propres données, modifiant ainsi le déroulement selon leurs choix. L'interactivité sert directement le propos sur le tracking.</resume>
 
+  <visuel src="do-not-track.jpg"
+          source="https://episode3.donottrack-doc.com/fr/"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Démontre comment l'interaction peut être au service du message documentaire. Le spectateur expérimente concrètement ce qu'il apprend.

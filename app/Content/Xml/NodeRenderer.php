@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Content\Xml;
 
 use App\Content\Html;
+use App\Media\ImageTag;
 
 /**
  * Walks an entity tree and dispatches each element to its renderer.
@@ -22,14 +23,18 @@ final readonly class NodeRenderer
     public function __construct(
         private ElementRegistry $elements,
         private SchemaRegistry $schemas,
+        private ImageTag $images,
     ) {}
 
     public function render(XmlSource $source, ContentIndex $index): string
     {
         $context = new RenderContext($source, $index, $this);
 
+        // The image sits between the summary and the fiche: it is the only place
+        // where it says something before anything has been read.
         return sprintf('<h1>%s</h1>', Html::escape($source->title))
             . ($source->summary !== null ? sprintf('<p class="resume">%s</p>', Html::escape($source->summary)) : '')
+            . $this->images->lead($source)
             . $this->dataList($source, $index)
             . $this->children($source->root, $context);
     }

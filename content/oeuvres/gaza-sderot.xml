@@ -8,6 +8,9 @@
 
   <resume>Deux villes, deux perspectives du conflit israélo-palestinien. Écrans partagés permettant de basculer entre les témoignages quotidiens des deux côtés. Structure parallèle exemplaire.</resume>
 
+  <visuel src="gaza-sderot.jpg"
+          source="https://www.ina.fr/ina-eclaire-actu/gaza-sderot"/>
+
   <section titre="Pourquoi c'est inspirant">
     <markdown>
       Démontre comment l'interface peut matérialiser la complexité d'un conflit. Le spectateur construit sa propre compréhension en naviguant entre les points de vue.
