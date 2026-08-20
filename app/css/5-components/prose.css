@@ -41,9 +41,10 @@
 
 .c-prose li::marker { color: var(--color-ink-faint); }
 
+/* A quotation is set off by a drawn stroke, not a border — see trait.css for
+   why the two are not the same thing. .c-trait-cote carries the geometry; this
+   only says what it means. */
 .c-prose blockquote {
-  padding-inline-start: var(--space-m);
-  border-inline-start: 1px solid var(--color-rule);
   color: var(--color-ink-muted);
 }
 
@@ -69,14 +70,12 @@
 /* --- Classes the content itself carries -------------------------------- */
 
 
-/* An aside earns a rule, not a coloured box. */
+/* An aside earns a stroke, not a coloured box. */
 .c-prose .note {
-  padding-inline-start: var(--space-m);
-  border-inline-start: 2px solid var(--color-rule);
   color: var(--color-ink-muted);
 }
 
-.c-prose .note--attention { border-inline-start-color: var(--color-accent); }
+.c-prose .note--attention { --trait-encre: var(--color-accent); }
 
 .c-prose .note__titre {
   font-family: var(--font-display);

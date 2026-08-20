@@ -1,18 +1,26 @@
-/* Every rule on this site is drawn, not printed.
+/* Every rule on this site is drawn, not bordered.
 
-   A 1px border says a machine set this page. A crooked line says someone did.
-   That is the whole argument, and it costs one element property: the rules are
-   masks over a coloured box, so they take the ink token like anything else and
-   they cost no request.
+   A 1px border says a machine set this page. An inked line says someone did.
+   The whole thing is one mechanism: a mask over a box painted with an ink
+   token, so it costs no request and takes the colour like anything else.
 
-   Three drawings in the tokens, used in turn so the same squiggle never appears
-   twice on one page. The signature — the accented mark on the homepage — is a
-   fourth, and it is the only one that is not grey. */
+   Two sizes of box, and the reason matters. A mask stretched with
+   preserveAspectRatio="none" keeps the pen's weight on the axis it is NOT
+   stretched along — so a horizontal rule's box must be exactly as tall as its
+   drawing (8px), and a vertical stroke's box exactly as wide as its drawing
+   (8px). Get that wrong and the line thins to nothing, which is how the first
+   attempt at this vanished. */
+
+/* --- Long rules ---------------------------------------------------------
+   The full-width separators. They barely wobble: a hand drawing 1400px drifts
+   three or four pixels, which nobody sees, and more than that reads as a wave.
+   What makes these read as ink is the pressure and the tapered ends. */
 
 .c-trait,
-.c-prose hr {
-  border: 0;
+.c-trait-dessous::after,
+.c-trait-dessus::before {
   display: block;
+  border: 0;
   inline-size: 100%;
   block-size: 0.5rem;
   background-color: var(--color-rule);
@@ -24,20 +32,41 @@
   -webkit-mask-repeat: no-repeat;
 }
 
+.c-trait-dessous::after,
+.c-trait-dessus::before { content: ""; }
+
+.c-trait-dessous::after { margin-block-start: var(--space-s); }
+.c-trait-dessus::before { margin-block-end: var(--space-m); }
+
 .c-trait--2 { --trait: var(--trait-2); }
 .c-trait--3 { --trait: var(--trait-3); }
 
-/* An <hr> in the prose is a break in the argument, so it keeps the space a
-   heading would claim. It also gets its own drawing, or every long page would
-   repeat the masthead's. */
+/* --- Short marks --------------------------------------------------------
+   Where the hand is actually visible. Same pen, a tenth of the length. */
+
+/* A break in the prose. It used to be a hairline across the measure; a line
+   that wide can only be a border, so it is a mark instead — which is what a
+   break in an argument looks like in a book anyway. */
 .c-prose hr {
-  --trait: var(--trait-2);
+  --trait: var(--trait-court);
+
+  display: block;
+  border: 0;
+  inline-size: 11rem;
+  block-size: 0.875rem;
   margin-block: var(--space-xl);
   margin-inline: 0;
+  background-color: var(--color-rule);
+  mask-image: var(--trait);
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: var(--trait);
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
 }
 
-/* The signature. One mark, in the accent, on the homepage only — it introduces
-   the person writing, which happens once. */
+/* The signature: the one mark in the accent, on the homepage only — it
+   introduces the person writing, which happens once. Left exactly as drawn. */
 .c-signature {
   --trait: var(--trait-signature);
 
@@ -54,22 +83,59 @@
   -webkit-mask-repeat: no-repeat;
 }
 
-/* A block that closes on a drawn rule rather than on a border. The pseudo is a
-   block in normal flow, so it needs no positioning and no extra markup. */
-.c-trait-dessous::after,
-.c-trait-dessus::before {
+/* --- The vertical stroke ------------------------------------------------
+   What sits beside a note, a quotation, an aside that has lost its margin. It
+   replaces a border, so it takes the same room: 8px of box at the start of the
+   block, placed absolutely so it stretches to however tall the block turns out
+   to be. Short enough that the wobble reads, at any height it is pulled to. */
+
+/* The markdown blockquote and the <note> cannot be given a class at the source,
+   so they are named here rather than carrying the modifier. Same reason
+   prose.css styles bare elements: the content layer writes that HTML, not us. */
+.c-trait-cote,
+.c-prose blockquote,
+.c-prose .note {
+  position: relative;
+  padding-inline-start: var(--space-m);
+}
+
+.c-trait-cote::before,
+.c-prose blockquote::before,
+.c-prose .note::before {
   content: "";
-  display: block;
-  inline-size: 100%;
-  block-size: 0.5rem;
-  background-color: var(--color-rule);
-  mask-image: var(--trait, var(--trait-1));
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: 0;
+  inline-size: 0.5rem;
+  background-color: var(--trait-encre, var(--color-rule));
+  mask-image: var(--trait-vertical);
   mask-size: 100% 100%;
   mask-repeat: no-repeat;
-  -webkit-mask-image: var(--trait, var(--trait-1));
+  -webkit-mask-image: var(--trait-vertical);
   -webkit-mask-size: 100% 100%;
   -webkit-mask-repeat: no-repeat;
 }
 
-.c-trait-dessous::after { margin-block-start: var(--space-s); }
-.c-trait-dessus::before { margin-block-end: var(--space-m); }
+/* Below the breakpoint the margin note loses its margin and rejoins the flow.
+   It takes the stroke too — that is what says it is still an aside. */
+@media (max-width: 47.999em) {
+  .c-sidenote {
+    position: relative;
+    padding-inline-start: var(--space-s);
+  }
+
+  .c-sidenote::before {
+    content: "";
+    position: absolute;
+    inset-block: 0;
+    inset-inline-start: 0;
+    inline-size: 0.5rem;
+    background-color: var(--color-rule);
+    mask-image: var(--trait-vertical);
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: var(--trait-vertical);
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+  }
+}

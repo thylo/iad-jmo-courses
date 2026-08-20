@@ -36,7 +36,5 @@
     float: none;
     inline-size: auto;
     margin-inline-start: 0;
-    padding-inline-start: var(--space-s);
-    border-inline-start: 1px solid var(--color-rule);
   }
 }

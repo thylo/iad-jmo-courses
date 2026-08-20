@@ -22,6 +22,14 @@
     border-block-start: 1px solid #000;
   }
 
+  .c-trait-cote::before {
+    inline-size: 0;
+    background: none;
+    mask-image: none;
+    -webkit-mask-image: none;
+    border-inline-start: 1px solid #000;
+  }
+
   .c-signature { display: none; }
 
   a::after { content: " (" attr(href) ")"; font-size: var(--text-meta); }
