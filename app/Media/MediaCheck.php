@@ -7,6 +7,7 @@ namespace App\Media;
 use App\Content\ContentRepository;
 use App\Content\Html;
 use App\Content\Xml\SchemaRegistry;
+use App\Content\Xml\XmlSource;
 
 /**
  * What is left to do on the images, as four lists.
@@ -38,6 +39,12 @@ final readonly class MediaCheck
         $total = 0;
 
         foreach ($this->content->sources() as $entity) {
+            // Before the type check: a page has no <visuel>, but it can still
+            // carry an <image>, and that file is used like any other.
+            foreach ($this->blockImages($entity) as $path) {
+                $used[$path] = true;
+            }
+
             if ($this->schemas->get($entity->type)?->field('visuel') === null) {
                 continue;
             }
@@ -84,6 +91,30 @@ final readonly class MediaCheck
                 static fn (string $path): bool => ! isset($used[$path]),
             )),
         );
+    }
+
+    /**
+     * The files an <image> block cites, anywhere in a document.
+     *
+     * The orphan list used to be built from the <visuel> fields alone, so the
+     * only picture on /oeuvres — a page, which has no such field — read as a
+     * file nobody uses. An image in the prose is a use like any other.
+     *
+     * @return string[] absolute paths
+     */
+    private function blockImages(XmlSource $source): array
+    {
+        $paths = [];
+
+        foreach ($source->root->getElementsByTagName('image') as $element) {
+            $visual = Visual::from($element, $source->type);
+
+            if ($visual !== null) {
+                $paths[] = MediaLibrary::sourcePath(Visual::directory($source->type), $visual->file);
+            }
+        }
+
+        return $paths;
     }
 
     /** @return string[] absolute paths of everything sitting in media/ */
