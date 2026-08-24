@@ -11,3 +11,23 @@
   color: var(--color-ink-faint);
   max-width: var(--measure-text);
 }
+
+/* On the homepage the closing note sits in a sunk band across the full bleed,
+   rather than under a rule. It is the last block of a page that is mostly
+   drawing, and a band closes that better than one more line.
+
+   Same :has() as the hero: the portrait is what marks the homepage out. The
+   padding is the gutter on purpose — that is exactly where marge-start and
+   champ-end fall, so the text stays on the same two edges as everything above
+   it and the band is the only thing that moves. */
+
+.o-canvas:has(.c-portrait) { padding-block-end: 0; }
+
+.o-canvas:has(.c-portrait) .c-colophon {
+  grid-column: bleed-start / bleed-end;
+  padding: var(--space-xl) var(--gutter);
+  background-color: var(--color-paper-sunk);
+}
+
+/* The band does the separating now; the rule would only be a line inside it. */
+.o-canvas:has(.c-portrait) .c-colophon::before { display: none; }

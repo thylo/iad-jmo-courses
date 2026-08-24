@@ -45,6 +45,8 @@
 @import "./css/5-components/sidenote.css";
 @import "./css/5-components/colophon.css";
 @import "./css/5-components/trait.css";
+@import "./css/5-components/wobble.css";
+@import "./css/5-components/signature.css";
 
 /* 06 UTILITIES */
 @import "./css/6-utilities/measure.css";

@@ -7,7 +7,8 @@
     --color-accent: #000;
   }
 
-  .c-portrait { display: none; }
+  .c-portrait,
+  .c-wobble { display: none; }
 
   /* Browsers drop background paint when printing, and every rule here is a
      masked background. On paper they go back to being borders. */

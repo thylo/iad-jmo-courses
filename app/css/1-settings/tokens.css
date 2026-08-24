@@ -35,8 +35,21 @@
   --leading-text: 1.75;      /* 1 unit at 16px */
 
   /* Colour. One paper, one ink at three strengths, one accent.
-     The accent is reserved for interactive text and the signature mark. */
-  --color-paper: oklch(97.5% 0.008 85);
+
+     The paper is white and every grey on it is warm. That pairing is chosen,
+     not left over: a neutral grey next to a white this clean goes cold and
+     photographic, and these greys sit under a drawing. Warm ones keep the
+     disc and the closing band reading as paper rather than as screen.
+
+     So do not "correct" the chroma to zero. If the warmth ever looks like
+     beige rather than grey, it is the amount that is wrong, not the hue —
+     tune the chroma and leave the hue alone.
+
+     The accent is reserved for interactive text, the domain in the masthead,
+     and the stretch of a title a page asks for with <titre accent="…">. The
+     drawn marks are not in it: rules take --color-rule, the portrait and the
+     signature take the ink. */
+  --color-paper: oklch(100% 0 0);
   --color-paper-sunk: oklch(93% 0.012 85);
   --color-ink: oklch(21% 0.008 60);
   --color-ink-muted: oklch(40% 0.008 60);
@@ -94,7 +107,4 @@
      downwards, so it is the height that stretches and the pen that holds. */
   --trait-vertical: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 400' preserveAspectRatio='none'%3E%3Cpath d='M1.99 0Q1.52 15.4 1.59 23.1Q1.67 30.8 1.33 38.5Q0.99 46.2 0.68 53.9Q0.37 61.5 0.53 69.2Q0.69 76.9 1.04 84.6Q1.4 92.3 2.01 100Q2.63 107.7 3.24 115.4Q3.85 123.1 3.97 130.8Q4.1 138.5 4.05 146.2Q4.01 153.8 4.14 161.5Q4.27 169.2 4.38 176.9Q4.49 184.6 4.49 192.3Q4.49 200 4.5 207.7Q4.51 215.4 4.57 223.1Q4.63 230.8 4.84 238.5Q5.05 246.2 5.16 253.8Q5.27 261.5 5.14 269.2Q5.01 276.9 4.88 284.6Q4.74 292.3 4.36 300Q3.97 307.7 3.71 315.4Q3.44 323.1 3.33 330.8Q3.22 338.5 3.12 346.1Q3.02 353.8 2.94 361.5Q2.86 369.2 2.87 376.9Q2.87 384.6 3.25 392.3L3.63 400L4.18 400Q5.08 384.6 5.22 376.9Q5.37 369.2 5.45 361.5Q5.53 353.8 5.62 346.1Q5.7 338.5 5.69 330.8Q5.68 323.1 5.89 315.4Q6.1 307.7 6.4 300Q6.7 292.3 6.72 284.6Q6.74 276.9 6.56 269.2Q6.38 261.5 6.37 253.8Q6.35 246.2 6.38 238.5Q6.41 230.8 6.3 223.1Q6.19 215.4 6.11 207.7Q6.03 200 5.89 192.3Q5.75 184.6 5.53 176.9Q5.31 169.2 5.23 161.5Q5.15 153.8 5.21 146.2Q5.28 138.5 5.05 130.8Q4.82 123.1 4.21 115.4Q3.61 107.7 3.21 100Q2.82 92.3 2.58 84.6Q2.35 76.9 2.42 69.2Q2.49 61.5 2.78 53.9Q3.06 46.2 3.3 38.5Q3.55 30.8 3.56 23.1Q3.57 15.4 3.12 7.7L2.67 0Z' fill='%23000'/%3E%3C/svg%3E");
 
-  /* The signature: the one mark that carries the accent, drawn once for the
-     homepage and left exactly as it was drawn. */
-  --trait-signature: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 176 14' preserveAspectRatio='none'%3E%3Cpath d='M2 9.2c14-5.6 27.5 3.4 41.5-.6 14-4 21 5.2 35.5 1.2s24-6.4 38-2.4 24.5-1.6 31-4.4' fill='none' stroke='%23000' stroke-width='2.2' stroke-linecap='round'/%3E%3C/svg%3E");
 }

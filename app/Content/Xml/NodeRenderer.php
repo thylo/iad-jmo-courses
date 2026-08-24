@@ -10,9 +10,10 @@ use App\Media\ImageTag;
 /**
  * Walks an entity tree and dispatches each element to its renderer.
  *
- * A plain class rather than a view component, for the same reason as
- * App\View\TreeRenderer: Tempest expands components at compile time, so a
- * component that renders itself never terminates.
+ * A plain class rather than a view component: Tempest expands components at
+ * compile time, so a component that renders itself never terminates — and this
+ * tree is arbitrarily deep, unlike the navigation and the summary, which are
+ * flat enough to be written as <x-masthead> and <x-toc>.
  *
  * The page opens with the identity block — title, summary, data fields — and
  * then follows the document order for everything that renders in place. That
@@ -32,11 +33,41 @@ final readonly class NodeRenderer
 
         // The image sits between the summary and the fiche: it is the only place
         // where it says something before anything has been read.
-        return sprintf('<h1>%s</h1>', Html::escape($source->title))
+        return sprintf('<h1>%s</h1>', $this->title($source))
             . ($source->summary !== null ? sprintf('<p class="resume">%s</p>', Html::escape($source->summary)) : '')
             . $this->images->lead($source)
             . $this->dataList($source, $index)
             . $this->children($source->root, $context);
+    }
+
+    /**
+     * The title, with the stretch the page named set in the accent.
+     *
+     * Escaping happens before the wrap, and the needle is escaped the same way,
+     * so the search runs over comparable text and the only markup this can
+     * produce is the span. XmlParser has already refused an accent that is not
+     * in the title, so there is nothing to fall back to here.
+     *
+     * The last occurrence, not the first: the accented part is the end of the
+     * phrase — "Ho, salut !" — and a word that appears twice should take the
+     * mark where the eye lands, not where the string search does.
+     */
+    private function title(XmlSource $source): string
+    {
+        $title = Html::escape($source->title);
+
+        if ($source->titleAccent === null) {
+            return $title;
+        }
+
+        $accent = Html::escape($source->titleAccent);
+
+        return substr_replace(
+            $title,
+            sprintf('<span class="u-ink-accent">%s</span>', $accent),
+            (int) strrpos($title, $accent),
+            strlen($accent),
+        );
     }
 
     /** Renders every child element that has a renderer; data fields are skipped. */

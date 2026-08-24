@@ -1,25 +1,48 @@
 /* The face, on the homepage only.
 
-   It floats into the margin like a note does, and for the same reason: it is
-   an aside to the reading, not a part of it. Same mechanism, same negative
-   margin — one less special case. */
+   It no longer floats into the margin as a note does. It sits in the opening,
+   overlapping the title by one column — see the hero block in intro.css. The
+   overlap is the composition: the face reads as something the title was
+   written over, not as an illustration set beside it.
+
+   Two layers, for the same reason every rule here is a mask: the drawing came
+   with its own grey disc baked in, and a baked colour is a colour that cannot
+   follow the palette. So the disc is painted by the box and the line is masked
+   over it, and both take a token.
+
+   The numbers are the drawing's own. Its circle is cx 317, cy 363, r 317 in a
+   634 x 726 frame: full width, starting 46/726 of the way down. */
 
 .c-portrait {
-  float: left;
-  clear: left;
-  margin-block-start: var(--space-m);
-  margin-inline-start: calc(-1 * var(--sidebar-width));
-  inline-size: 5.25rem;
-  block-size: 5.25rem;
-  border-radius: 50%;
-  background-color: var(--color-paper-sunk);
-  border: 1px solid var(--color-rule);
-  object-fit: cover;
+  position: relative;
+  inline-size: 100%;
+  aspect-ratio: 634 / 726;
 }
 
-@media (max-width: 47.999em) {
-  .c-portrait {
-    float: none;
-    margin-inline-start: 0;
-  }
+.c-portrait::before,
+.c-portrait::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+}
+
+.c-portrait::before {
+  inset-block-start: 6.34%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: var(--color-paper-sunk);
+}
+
+/* The line runs the full frame rather than the disc, so the hair and the elbow
+   spill over the edge of the circle. That spill is what makes it a drawing
+   rather than an avatar, and clipping it to the disc would throw it away. */
+.c-portrait::after {
+  inset-block: 0;
+  background-color: var(--color-ink);
+  mask-image: url("../../../resources/svg/me.svg");
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url("../../../resources/svg/me.svg");
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
 }

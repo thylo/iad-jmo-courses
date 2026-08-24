@@ -49,12 +49,56 @@ final readonly class XmlParser
             type: $type,
             id: $this->id($path, $root),
             title: $data['titre'][0],
+            titleAccent: $this->titleAccent($path, $root, $data['titre'][0]),
             summary: $data['resume'][0] ?? null,
             layout: $this->layout($root),
             root: $root,
             data: $data,
             references: $this->references($root, $schema),
         );
+    }
+
+    /**
+     * The stretch of <titre> the page wants in the accent, read off the element.
+     *
+     * <titre accent="salut !">Ho, salut !</titre>. The attribute names a piece
+     * of the title rather than repeating it, so the field's value — which is
+     * what sorts, indexes and fills the <title> tag — stays plain text and only
+     * the <h1> is affected.
+     *
+     * Collecting the text and reading the rest back off the element is the same
+     * arrangement <visuel src alt credit> uses: the graph gets the one value it
+     * cares about, the renderer gets the trimmings.
+     *
+     * A part that is not in the title is a content error, not a shrug: silently
+     * dropping the accent would leave someone changing the title and losing the
+     * mark without being told.
+     */
+    private function titleAccent(string $path, \Dom\Element $root, string $title): ?string
+    {
+        foreach ($this->elementChildren($path, $root) as $node) {
+            if ($node->localName !== 'titre') {
+                continue;
+            }
+
+            $accent = Html::attribute($node, 'accent');
+
+            if ($accent === '') {
+                return null;
+            }
+
+            if (! str_contains($title, $accent)) {
+                throw ContentException::at(
+                    $path,
+                    sprintf('accent="%s" ne se trouve pas dans le titre « %s ».', $accent, $title),
+                    $node->getLineNo(),
+                );
+            }
+
+            return $accent;
+        }
+
+        return null;
     }
 
     private function load(string $path): \Dom\XMLDocument

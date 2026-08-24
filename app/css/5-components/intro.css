@@ -34,3 +34,34 @@
 /* A fiche opens as a pair: what the work is on the left, what is known about it
    on the right. The opening gives up the field for that, and only then. */
 .c-intro--avec-fiche { grid-column: marge-start / texte-end; }
+
+/* --- The hero, on the homepage only -------------------------------------
+   The title and the portrait share one row and overlap by a column: the title
+   takes the first two, the drawing the last two, the drawing goes underneath.
+   That overlap is the composition. Set side by side they would be a heading
+   and an illustration; set on top of each other they are one mark.
+
+   Selected with :has() rather than with a modifier class, because the portrait
+   is what makes an opening a hero and no page but the homepage has one. The
+   template already knows that — it is the page that fills the slot — so there
+   is nothing to plumb through.
+
+   Three tracks of a fixed maximum and one fluid, for the same reason as the
+   canvas: the composition keeps its size and the window's surplus goes to the
+   field. The tracks shrink below the breakpoint because their minimum is 0,
+   so the overlap survives a phone. */
+
+.c-intro:has(.c-portrait) {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 13rem)) minmax(0, 1fr);
+  align-items: center;
+}
+
+.c-intro:has(.c-portrait) .c-intro__title {
+  grid-area: 1 / 1 / 2 / 3;
+  z-index: 1;
+}
+
+.c-intro:has(.c-portrait) .c-portrait { grid-area: 1 / 2 / 2 / 4; }
+
+.c-intro:has(.c-portrait) .c-intro__lead { grid-area: 2 / 1 / 3 / 5; }

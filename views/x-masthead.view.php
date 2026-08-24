@@ -16,7 +16,7 @@
  */
 ?>
 <header class="c-masthead c-trait-dessous">
-    <a class="c-masthead__home" href="/">Thylo</a>
+    <a class="c-masthead__home" href="/">thylo<span class="c-masthead__tld">.be</span></a>
 
     <nav class="c-nav" aria-label="Sections du site">
         <ul class="c-nav__list">

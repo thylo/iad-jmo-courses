@@ -33,3 +33,8 @@
   color: var(--color-accent);
   text-decoration-line: underline;
 }
+
+/* The domain, in the accent: the one place the accent lands on something that
+   is neither a link nor a title. The signature at the foot is ink, not this —
+   a hand writing its own name does not change pen for the last two letters. */
+.c-masthead__tld { color: var(--color-accent); }

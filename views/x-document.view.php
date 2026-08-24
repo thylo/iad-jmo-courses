@@ -2,8 +2,9 @@
 /**
  * The body of a page: its opening, its fiche, its reading.
  *
- * Two slots are open in it, and they are how a page adds something of its own
- * without this file having to know which page it is. Both are empty on every
+ * Three slots are open in it, and they are how a page adds something of its
+ * own without this file having to know which page it is: one before the lead,
+ * one at the head of the reading, one after it. All three are empty on every
  * page but the homepage.
  *
  * @var \App\View\DocumentView $this
@@ -35,4 +36,6 @@
     <x-toc :if="$this->hasToc()" :entries="$this->toc->entries" />
 
     {!! $this->intro->body !!}
+
+    <x-slot name="closing" />
 </article>

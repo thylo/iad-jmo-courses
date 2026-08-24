@@ -65,24 +65,6 @@
   -webkit-mask-repeat: no-repeat;
 }
 
-/* The signature: the one mark in the accent, on the homepage only — it
-   introduces the person writing, which happens once. Left exactly as drawn. */
-.c-signature {
-  --trait: var(--trait-signature);
-
-  display: block;
-  inline-size: min(11rem, 100%);
-  block-size: 0.875rem;
-  margin-block: var(--space-s) var(--space-m);
-  background-color: var(--color-accent);
-  mask-image: var(--trait);
-  mask-size: 100% 100%;
-  mask-repeat: no-repeat;
-  -webkit-mask-image: var(--trait);
-  -webkit-mask-size: 100% 100%;
-  -webkit-mask-repeat: no-repeat;
-}
-
 /* --- The vertical stroke ------------------------------------------------
    What sits beside a note, a quotation, an aside that has lost its margin. It
    replaces a border, so it takes the same room: 8px of box at the start of the

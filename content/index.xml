@@ -1,5 +1,5 @@
 <page id="accueil" layout="home">
-  <titre>Ho, salut !</titre>
+  <titre accent="salut !">Ho, salut !</titre>
   <resume>Je m'appelle Julien. Je vis en Belgique, j'écris du code pour gagner ma vie et pour le plaisir. Et je partage ça avec des étudiants, à l'IAD.</resume>
 
   <section titre="Ce qu'il y a ici">

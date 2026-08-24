@@ -1,0 +1,31 @@
+/* The wobble: the break between the opening and the reading, on the homepage.
+
+   Same mechanism as the rules in trait.css — a mask over a box painted with an
+   ink token — but this one is a real drawing rather than a generated line, so
+   it is masked from a file instead of a data URI. It is short, and that is the
+   point: a hand shows over 314px, and does not over 1400.
+
+   The box is the measure and the mark is centred inside it, rather than the
+   box being the mark and centred by auto margins. Auto margins would centre it
+   on the reading, and the reading is the measure PLUS the field — so the mark
+   would drift out to the right of the prose it is breaking. Sizing the mask
+   instead keeps it over the column it belongs to. */
+
+.c-wobble {
+  display: block;
+  inline-size: 100%;
+  max-inline-size: var(--measure-text);
+  block-size: 2.125rem; /* 34px, the height it was drawn at */
+  /* The canvas already sets a step above the reading, and the wobble opens
+     it — so only the step below is this mark's to set. */
+  margin-block: 0 var(--space-2xl);
+  background-color: var(--color-rule);
+  mask-image: url("../../../resources/svg/wobbly.svg");
+  mask-size: min(19.625rem, 100%) 100%; /* 314px, the width it was drawn at */
+  mask-position: center;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url("../../../resources/svg/wobbly.svg");
+  -webkit-mask-size: min(19.625rem, 100%) 100%;
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+}

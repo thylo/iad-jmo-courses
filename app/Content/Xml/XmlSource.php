@@ -22,6 +22,15 @@ final readonly class XmlSource
         /** Stable identity, the target of [[wikilinks]]. Independent of the path. */
         public string $id,
         public string $title,
+        /**
+         * The stretch of the title set in the accent, or null when none is.
+         *
+         * A piece of the title, never a second copy of it: the plain string is
+         * what feeds the <title> tag, the index and the sort, and only the <h1>
+         * knows this exists. XmlParser has already checked that it occurs in
+         * the title, so the renderer can wrap it without looking.
+         */
+        public ?string $titleAccent,
         public ?string $summary,
         /** The layout the page asks for; an entity always keeps the ordinary one. */
         public Layout $layout,
