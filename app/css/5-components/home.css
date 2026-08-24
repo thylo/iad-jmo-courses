@@ -1,33 +1,36 @@
 /* The homepage reading: an editorial layout across all three columns.
 
-   The canvas has always had three — marge, texte, champ — and the homepage
+   The canvas has always had three — margin, text, field — and the homepage
    used one. Everything sat on the measure and the field stayed empty, so a
    wide window bought nothing but blank paper on the right. That is the part
    that did not respect the medium: an edgeless surface handed the reader more
    room and the page had no answer for it.
 
    The answer is not to stretch the prose. A measure is a property of reading
-   and 62ch is 62ch on any screen. It is to give the other two columns work,
-   and the page already had the material for it:
+   and 62ch is 62ch on any screen. It is to give the other two columns work:
 
-     marge   the section's heading
-     texte   the prose, still on the measure
-     champ   the index of destinations, three abreast
+     margin   the section's heading
+     text     the prose, still on the measure
+     field    what the index of destinations puts there
 
-   Nothing separates any of it but space and alignment. No rules between the
-   sections, no rule over each entry, no numbers in the margin: a heading that
-   has left the column it belongs to is already a break, and three blocks that
-   start on the same line are already a set. Drawing a line to say so as well
-   is saying it twice, and the second time is decoration.
+   What is left in this file is only the first of those two. The index moved
+   out to destinations.css the day the content grew a tag for it: this sheet
+   used to reach for `> section ul` and hope the only list in the homepage
+   reading was that one, which held exactly as long as no second list was
+   written. Guessing from the page a block happens to sit on is not the same
+   as knowing what the block is, and the tag is the difference.
+
+   Nothing separates any of it but space and alignment. No rule between the
+   sections: a heading that has left the column it belongs to is already a
+   break, and drawing a line to say so as well is saying it twice.
 
    That leaves the page with exactly three marks on it — the portrait, the
    wobble, the signature — which are drawings rather than furniture. Every
    other distinction here is made by where a thing sits and how big it is.
 
-   None of it is placed by hand either. The headings float into the margin the
-   way a sidenote does — the same negative margin, the same mechanism — and the
-   index is a grid that folds from three columns to one on its own. Nothing
-   here knows the width of the window, only what to do with more of it.
+   Neither of the two is placed by hand: the headings float into the margin
+   the way a sidenote does, the same negative margin and the same mechanism.
+   Nothing here knows the width of the window, only what to do with more of it.
 
    Scoped by :has(.c-wobble): the wobble opens the homepage reading and opens
    no other, the same trick the hero uses with the portrait. */
@@ -37,7 +40,7 @@
    from the largest one used inside a section, so the gap between two sections
    can never be read as a gap between two paragraphs. */
 
-.c-prose:has(.c-wobble) > section {
+.o-canvas__reading:has(.c-wobble) > .c-section {
   margin-block-start: var(--space-3xl);
 }
 
@@ -49,7 +52,7 @@
    page set outside the measure, so it reads as a label on the prose rather
    than as a line of it. The prose then starts at the top of the measure with
    nothing above it, and a section begins on its first line. */
-.c-prose:has(.c-wobble) > section > h2 {
+.o-canvas__reading:has(.c-wobble) > .c-section > .c-section__title {
   float: left;
   clear: left;
   inline-size: var(--sidenote-width);
@@ -59,70 +62,17 @@
   line-height: var(--space-unit);
 }
 
-/* --- The index of destinations ------------------------------------------
-   The one list in the homepage reading is its index — Œuvres, Panorama,
-   Cours. It is the only thing on the page that has somewhere to go, so it
-   gets the width: the measure and the field together, three abreast.
-
-   auto-fit rather than three fixed columns. Three is what the content happens
-   to be today; what the layout actually says is "as many as fit at 15rem",
-   which survives a fourth destination and a narrow window alike.
-
-   The gap is a full step wider than the one between paragraphs. That gap is
-   the only thing holding the entries apart now, so it has to be big enough
-   that no one looks for a line in it. */
-
-.c-prose:has(.c-wobble) > section ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  gap: var(--space-l) var(--space-xl);
-  max-width: none;
-  margin-block-start: var(--space-xl);
-  padding-inline-start: 0;
-  list-style: none;
-}
-
-.c-prose:has(.c-wobble) > section li {
-  margin-block-start: 0;
-  font-size: var(--text-meta);
-  line-height: var(--space-unit);
-  color: var(--color-ink-muted);
-}
-
-/* The destination in display type on its own line, the description underneath
-   at reading size. The jump between the two is what ranks them — it is doing
-   the work the em dash used to do in the content, and the work a rule over
-   each entry was doing a moment ago. */
-.c-prose:has(.c-wobble) > section li a {
-  display: block;
-  margin-block-end: var(--space-s);
-  font-family: var(--font-display);
-  font-size: var(--text-lead);
-  line-height: var(--space-unit);
-  color: var(--color-ink);
-  text-decoration: none;
-}
-
-.c-prose:has(.c-wobble) > section li a:hover {
-  color: var(--color-accent);
-  text-decoration-line: underline;
-}
-
 /* --- Below the fold of the second column --------------------------------
    The margin goes, so the heading comes back into the flow above its prose
    and the index becomes one column. Same content, one track, no leftovers.
 
-   Stacked, the entries lose the alignment that set them apart, so the step
-   between them grows to take over. */
+   The index has its own component and its own breakpoint; nothing of it is
+   left here. */
 
 @media (max-width: 47.999em) {
-  .c-prose:has(.c-wobble) > section > h2 {
+  .o-canvas__reading:has(.c-wobble) > .c-section > .c-section__title {
     float: none;
     inline-size: auto;
     margin-inline-start: 0;
-  }
-
-  .c-prose:has(.c-wobble) > section ul {
-    gap: var(--space-xl);
   }
 }

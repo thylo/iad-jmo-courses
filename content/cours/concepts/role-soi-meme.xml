@@ -9,7 +9,7 @@
 
   <resume>L'utilisateur ne joue aucun personnage. Il participe authentiquement en tant que lui-même, avec ses propres données et motivations.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       Le rôle de soi-même invite le public à participer sans masque, sans incarnation. Il apporte ses données réelles, ses motivations authentiques, son identité véritable à l'expérience. C'est une participation non-fictionelle dans un univers qui peut être fictionnel ou réel.
 
@@ -30,7 +30,7 @@
     </markdown>
   </section>
 
-  <section titre="La métaphore cinématographique">
+  <section title="La métaphore cinématographique">
     <markdown>
       Être invité sur le **plateau de tournage** pour participer au documentaire en tant que vous-même.
 
@@ -38,7 +38,7 @@
     </markdown>
   </section>
 
-  <section titre="Pouvoir du public">
+  <section title="Pouvoir du public">
     <markdown>
       L'interactivité du public comme soi-même repose sur :
 
@@ -49,7 +49,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce que le soi-même PEUT faire">
+  <section title="Ce que le soi-même PEUT faire">
     <markdown>
       - Contribuer authentiquement
       - Influencer le résultat collectif
@@ -59,7 +59,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce que le soi-même ne peut PAS faire">
+  <section title="Ce que le soi-même ne peut PAS faire">
     <markdown>
       - Inventer un passé fictif
       - Se cacher derrière un personnage
@@ -68,7 +68,7 @@
     </markdown>
   </section>
 
-  <section titre="Intention créative">
+  <section title="Intention créative">
     <markdown>
       **Je veux que le public :**
 
@@ -80,7 +80,7 @@
     </markdown>
   </section>
 
-  <section titre="Adapté pour">
+  <section title="Adapté pour">
     <markdown>
       - Documentaires participatifs
       - Enquêtes collectives
@@ -91,7 +91,7 @@
     </markdown>
   </section>
 
-  <section titre="Avantages">
+  <section title="Avantages">
     <markdown>
       - Engagement authentique profond
       - Données réelles et signifiantes
@@ -101,7 +101,7 @@
     </markdown>
   </section>
 
-  <section titre="Inconvénients">
+  <section title="Inconvénients">
     <markdown>
       - Données sensibles à gérer éthiquement
       - Respect de la vie privée compliqué
@@ -111,7 +111,7 @@
     </markdown>
   </section>
 
-  <section titre="Design d'interface">
+  <section title="Design d'interface">
     <markdown>
       L'interface d'une personne authentique est typiquement :
 
@@ -124,7 +124,7 @@
     </markdown>
   </section>
 
-  <section titre="Exemples détaillés">
+  <section title="Exemples détaillés">
     <markdown>
       ### Do Not Track (2015)
 
@@ -156,7 +156,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand choisir le rôle de soi-même ?">
+  <section title="Quand choisir le rôle de soi-même ?">
     <markdown>
       - ✅ Votre projet est **documentaire ou participatoire**
       - ✅ L'authenticité est thématiquement importante
@@ -166,7 +166,7 @@
     </markdown>
   </section>
 
-  <section titre="Combinaisons courantes">
+  <section title="Combinaisons courantes">
     <markdown>
       Le rôle de soi-même s'associe bien avec :
 
@@ -176,7 +176,7 @@
     </markdown>
   </section>
 
-  <section titre="Variantes du rôle de soi-même">
+  <section title="Variantes du rôle de soi-même">
     <markdown>
       ### Anonymat préservé
       Participer en tant que soi-même mais anonymement.
@@ -195,7 +195,7 @@
     </markdown>
   </section>
 
-  <section titre="Responsabilités éthiques majeures">
+  <section title="Responsabilités éthiques majeures">
     <markdown>
       ### 1. Consentement clair
 
@@ -223,7 +223,7 @@
     </markdown>
   </section>
 
-  <section titre="Gestion des attentes">
+  <section title="Gestion des attentes">
     <markdown>
       Le piège majeur : **violation de confiance** en utilisant mal les données.
 
@@ -237,7 +237,7 @@
     </markdown>
   </section>
 
-  <section titre="Cas d'école : The Johnny Cash Project">
+  <section title="Cas d'école : The Johnny Cash Project">
     <markdown>
       **Concept :**
 
@@ -256,7 +256,7 @@
     </markdown>
   </section>
 
-  <section titre="Distinction importante">
+  <section title="Distinction importante">
     <markdown>
       **Rôle du public ≠ Forme d'interactivité**
 
@@ -273,5 +273,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

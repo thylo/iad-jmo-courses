@@ -10,11 +10,11 @@
   <visuel src="dialtones-a-telesymphony.jpg"
           source="http://www.flong.com/archive/projects/telesymphony/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Pionnier de l'utilisation créative des téléphones mobiles. Transforme une nuisance (sonneries en concert) en l'œuvre elle-même. Le public devient orchestre malgré lui.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

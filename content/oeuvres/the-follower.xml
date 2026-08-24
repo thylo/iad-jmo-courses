@@ -15,13 +15,13 @@
   <visuel src="the-follower.jpg"
           source="https://driesdepoorter.be/thefollower/"/>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Utilise ingénieusement des données publiques (caméras de surveillance + géotags Instagram) pour créer une contre-narration automatisée. L'IA scrape les livestreams de caméras publiques (EarthCam), analyse les frames et les compare avec les photos Instagram taguées aux mêmes locations. Croise temporalité et géolocalisation pour identifier le contexte réel de prise de vue. Galeries interactives permettent d'explorer les corrélations et de découvrir le "making-of" des photos.
     </markdown>
   </section>
 
-  <section titre="Mécanique du projet">
+  <section title="Mécanique du projet">
     <markdown>
       ### Étapes de matching
 
@@ -46,7 +46,7 @@
     </markdown>
   </section>
 
-  <section titre="Implications éthiques et pédagogiques">
+  <section title="Implications éthiques et pédagogiques">
     <markdown>
       ### Surveillance par agrégation de données
 
@@ -78,7 +78,7 @@
     </markdown>
   </section>
 
-  <section titre="Pistes d'analyse">
+  <section title="Pistes d'analyse">
     <markdown>
       1. **Données comme matériau créatif** : Fusion de sources hétérogènes pour créer du sens nouveau
       2. **Critique de l'interface narrative** : Instagram crée une narration fausse qu'on peut démonter
@@ -87,7 +87,7 @@
     </markdown>
   </section>
 
-  <section titre="Débats et questions pédagogiques">
+  <section title="Débats et questions pédagogiques">
     <markdown>
       - **Art or surveillance?** Est-ce que Dries Depoorter crée une œuvre ou un outil de stalking?
       - **Public vs. private** : Comment définir les limites du "public" à l'ère des données?
@@ -96,11 +96,11 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Expose radicalement la vulnérabilité des données apparemment "publiques" et de la géolocalisation. Critique implicite mais puissante du curating Instagram : ce que vous montrez vs. ce qui s'est vraiment passé. Démontre concrètement comment l'IA et la fusion de datasets peut tracer les individus. Pertinent pédagogiquement pour comprendre : surveillance de masse, consentement des données, vie privée à l'ère du partage, implications éthiques de l'IA.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

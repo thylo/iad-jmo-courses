@@ -10,11 +10,11 @@
   <visuel src="snow-fall.jpg"
           source="https://www.nytimes.com/projects/2012/snow-fall/index.html"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Projet pionnier qui a défini le scrollytelling comme forme narrative. A inspiré des milliers d'imitateurs.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

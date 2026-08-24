@@ -6,11 +6,11 @@
 
   <resume>L'app génère des scénarios procéduraux, gère les événements, les monstres et maintient le suspense. Setup physique minimal guidé par l'application.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Démontre comment l'app peut créer de la rejouabilité en variant les scénarios tout en préservant l'expérience tactile.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

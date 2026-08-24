@@ -1,6 +1,6 @@
 /* The wobble: the break between the opening and the reading, on the homepage.
 
-   Same mechanism as the rules in trait.css — a mask over a box painted with an
+   Same mechanism as the rules in rule.css — a mask over a box painted with an
    ink token — but this one is a real drawing rather than a generated line, so
    it is masked from a file instead of a data URI. It is short, and that is the
    point: a hand shows over 314px, and does not over 1400.
@@ -19,7 +19,7 @@
   display: block;
   inline-size: calc(100% + var(--sidebar-width));
   max-inline-size: none;
-  /* Out to marge-start, where the masthead rule and the closing band already
+  /* Out to margin-start, where the masthead rule and the closing band already
      begin. The prose starts one column in; the marks that structure the page
      do not. */
   margin-inline-start: calc(-1 * var(--sidebar-width));

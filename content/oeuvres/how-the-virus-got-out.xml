@@ -7,11 +7,11 @@
 
   <resume>Visualisation du début de la pandémie COVID-19 avec animations synchronisées au scroll et cartographie interactive.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Rend compréhensible un sujet complexe grâce à la synchronisation scroll/animation.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

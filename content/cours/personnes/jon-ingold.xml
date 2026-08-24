@@ -19,9 +19,9 @@
     résultat.
   </markdown>
 
-  <section titre="Chez inkle">
-    <index de="oeuvre" ou="par = inkle" tri="-annee"/>
+  <section title="Chez inkle">
+    <grid of="oeuvre" where="par = inkle" sort="-annee"/>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </personne>

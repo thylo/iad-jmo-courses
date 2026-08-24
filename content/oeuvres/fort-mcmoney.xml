@@ -12,11 +12,11 @@
   <visuel src="fort-mcmoney.jpg"
           source="https://www.youtube.com/watch?v=b_nHPKhtUmA"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Pionnier du "jeu documentaire" où les mécaniques ludiques servent à faire comprendre les enjeux politiques et écologiques. Le spectateur devient acteur.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

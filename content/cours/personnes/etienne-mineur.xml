@@ -19,7 +19,7 @@
     prend le motif pour des doigts.
   </markdown>
 
-  <section titre="Pourquoi il est utile ici">
+  <section title="Pourquoi il est utile ici">
     <markdown>
       Parce qu'il est l'exemple le plus net de quelqu'un qui **invente ses
       contraintes** plutôt que d'utiliser les outils disponibles. Personne ne lui
@@ -37,5 +37,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </personne>

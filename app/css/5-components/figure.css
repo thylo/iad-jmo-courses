@@ -21,6 +21,45 @@
   background-color: var(--color-paper-sunk);
 }
 
+/* A figure in the open field — the mirror of the margin note, and the reason
+   the third column exists.
+
+   It floats right out of the reading, so it sits beside the text at the height
+   it was written and the measure never changes to accommodate it. Its width is
+   the field exactly: the reading less the measure and the step between them, so
+   the float's left edge lands on text-end and no line ever wraps around it.
+
+   Like a margin note, it annotates what follows it — a float aligns with the
+   top of the next block — so <image width="field"/> is written above the
+   paragraph it accompanies, and its step matches that block's.
+
+   Written between sections rather than inside one: the reading is a grid item
+   and contains its floats, a <section> is not and does not. A tall figure at
+   the end of a section would otherwise reach into the next. */
+
+.c-figure--field {
+  float: right;
+  clear: right;
+  inline-size: calc(100% - var(--measure-text) - var(--space-xl));
+  margin-block: var(--space-m);
+}
+
+/* The one place the sheet needs a second breakpoint, and it is a property of
+   this component rather than of the page.
+
+   The text column is minmax(0, measure): below about 72em it is served less
+   than the measure, so the width above — the reading less the measure — goes
+   negative and there is no field to float into. Even just above the canvas
+   breakpoint the field is barely 120px, which is not an image. So the figure
+   stays in the flow until the field is worth having, and takes the reading
+   like any other. */
+@media (max-width: 71.999em) {
+  .c-figure--field {
+    float: none;
+    inline-size: auto;
+  }
+}
+
 /* A figure gets one caption. When the image carries both a legend and a credit,
    the credit sits inside it as a quieter aside rather than as a second block. */
 .c-figure__caption,

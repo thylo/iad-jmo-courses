@@ -7,11 +7,11 @@
 
   <resume>Utilise le machine learning pour reconstruire en 3D un quartier détruit lors du massacre de Tulsa. Navigation immersive dans l'histoire.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Combine technologie de pointe (ML, 3D) avec narration historique pour rendre palpable ce qui a été perdu.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

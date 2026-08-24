@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace App\Content;
 
 /**
- * Splits a rendered page into its opening, its fiche, and the rest of its body.
+ * Splits a rendered page into its opening, its facts, and the rest of its body.
  *
  * Every page opens the same way, whether it came from markdown or from XML:
  * one <h1>, then a paragraph saying what the page is. The design gives that
@@ -27,8 +27,8 @@ final readonly class Intro
         public ?string $title,
         /** Inner HTML of the paragraph right after it, when there is one. */
         public ?string $lead,
-        /** The <dl class="fiche"> of an entity, or null on a page that has none. */
-        public ?string $fiche,
+        /** The <dl class="c-facts"> of an entity, or null on a page that has none. */
+        public ?string $facts,
         /** Everything left, in document order. */
         public string $body,
     ) {}
@@ -54,22 +54,22 @@ final readonly class Intro
     }
 
     /**
-     * Lifts the fiche out of what is left, and builds the split.
+     * Lifts the facts out of what is left, and builds the split.
      *
-     * A <dl class="fiche"> never nests another, so the non-greedy match is
+     * A <dl class="c-facts"> never nests another, so the non-greedy match is
      * exact. NodeRenderer writes it, and it writes one at most; a page with no
      * typed fields comes through untouched.
      */
     private static function rest(?string $title, ?string $lead, string $html): self
     {
-        if (preg_match('#\s*<dl class="fiche">.*?</dl>\s*#is', $html, $match) !== 1) {
-            return new self(title: $title, lead: $lead, fiche: null, body: $html);
+        if (preg_match('#\s*<dl class="c-facts">.*?</dl>\s*#is', $html, $match) !== 1) {
+            return new self(title: $title, lead: $lead, facts: null, body: $html);
         }
 
         return new self(
             title: $title,
             lead: $lead,
-            fiche: trim($match[0]),
+            facts: trim($match[0]),
             body: str_replace($match[0], '', $html),
         );
     }

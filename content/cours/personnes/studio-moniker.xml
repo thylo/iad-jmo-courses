@@ -16,9 +16,9 @@
     d'interaction et le pousse jusqu'à ce qu'il devienne visible.
   </markdown>
 
-  <section titre="Leurs œuvres">
-    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  <section title="Leurs œuvres">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </personne>

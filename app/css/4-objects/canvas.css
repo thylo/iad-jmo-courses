@@ -24,11 +24,11 @@
   display: grid;
   grid-template-columns:
     [bleed-start] var(--gutter)
-    [marge-start] var(--sidebar-width)
-    [texte-start] minmax(0, var(--measure-text))
-    [texte-end] var(--space-xl)
-    [champ-start] minmax(0, 1fr)
-    [champ-end] var(--gutter) [bleed-end];
+    [margin-start] var(--sidebar-width)
+    [text-start] minmax(0, var(--measure-text))
+    [text-end] var(--space-xl)
+    [field-start] minmax(0, 1fr)
+    [field-end] var(--gutter) [bleed-end];
   align-items: start;
   padding-block: var(--space-m) var(--space-2xl);
 }
@@ -36,20 +36,32 @@
 /* The default span: from the margin to the far edge of the field. The masthead,
    the opening and the colophon all sit on it, which is what makes them read as
    the frame of the page rather than as part of the reading. */
-.o-canvas > * { grid-column: marge-start / champ-end; }
+.o-canvas > * { grid-column: margin-start / field-end; }
 
 /* Vertical rhythm belongs to the page, not to the blocks — same owl as before,
    applied to grid items instead of flow children. */
 .o-canvas > * + * { margin-block-start: var(--canvas-space, var(--space-2xl)); }
 
-.o-canvas__marge { grid-column: marge-start / texte-start; }
-.o-canvas__texte { grid-column: texte-start / texte-end; }
-.o-canvas__champ { grid-column: champ-start / champ-end; }
+.o-canvas__margin { grid-column: margin-start / text-start; }
+.o-canvas__text { grid-column: text-start / text-end; }
+.o-canvas__field { grid-column: field-start / field-end; }
 
 /* The reading takes the text column AND the field. The prose inside keeps the
-   measure; only figures and indexes use the extra width. That is the whole
+   measure; only figures and grids use the extra width. That is the whole
    arrangement: one block, two behaviours, no second container. */
-.o-canvas__lecture { grid-column: texte-start / champ-end; }
+.o-canvas__reading { grid-column: text-start / field-end; }
+
+/* The step between two blocks of the reading — a paragraph block, an index, a
+   figure, a note. It belongs to the page rather than to the prose: .c-prose is
+   one of the blocks now, not the container, and it keeps its own rhythm inside.
+
+   The owl runs one level into the wrappers the content layer writes: a section
+   holds its own stack. :where() keeps these at one class of specificity, so a
+   component that has something to say about its own step still wins. */
+.o-canvas__reading > * + *,
+.o-canvas__reading > :where(section, nav) > * + * {
+  margin-block-start: var(--space-m);
+}
 
 /* The measure is capped on the blocks, not on the article: a <section> is full
    width and what it contains sits on the measure. Cap the section instead and
@@ -57,14 +69,14 @@
 
    :where() keeps this at zero specificity so a component can still speak for
    itself. */
-.o-canvas__lecture > :where(:not(section, nav)),
-.o-canvas__lecture > :where(section, nav) > * {
+.o-canvas__reading > :where(:not(section, nav)),
+.o-canvas__reading > :where(section, nav) > * {
   max-width: var(--measure-text);
 }
 
 /* What is allowed past the measure. The only exception in the system, and it is
    named rather than implied. */
-.o-canvas__lecture :where(figure, .index--vignettes, .c-bleed) {
+.o-canvas__reading :where(figure, .c-grid--thumbnails, .c-bleed) {
   max-width: none;
 }
 
@@ -83,8 +95,8 @@
   .o-canvas {
     grid-template-columns:
       [bleed-start] var(--gutter)
-      [marge-start texte-start] minmax(0, 1fr)
-      [texte-end champ-start champ-end] var(--gutter) [bleed-end];
+      [margin-start text-start] minmax(0, 1fr)
+      [text-end field-start field-end] var(--gutter) [bleed-end];
   }
 
   .o-canvas > * + * { margin-block-start: var(--canvas-space, var(--space-xl)); }

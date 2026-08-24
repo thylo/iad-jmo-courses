@@ -49,6 +49,7 @@ final class ContentRepository
         private readonly Markdown $markdown,
         private readonly XmlParser $xml,
         private readonly NodeRenderer $renderer,
+        private readonly Autolinks $autolinks,
     ) {
         $this->contentRoot = realpath(root_path('content')) ?: root_path('content');
         $this->slugs = new SlugResolver($this->contentRoot);
@@ -302,6 +303,7 @@ final class ContentRepository
         $raw = (string) file_get_contents($path);
         $frontmatter = $this->frontmatter($raw);
         $markdown = $this->markdown;
+        $autolinks = $this->autolinks;
 
         return new Document(
             slug: $slug,
@@ -311,7 +313,7 @@ final class ContentRepository
             path: $path,
             // Prose pages get the same URL handling as the prose inside an
             // entity — the syntax should not mean two different things.
-            render: static fn (): string => $markdown->parse(Autolinks::expand($raw))->html,
+            render: static fn (): string => $markdown->parse($autolinks->expand($raw))->html,
             layout: $this->layout($path, $frontmatter),
         );
     }

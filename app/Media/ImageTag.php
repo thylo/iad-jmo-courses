@@ -6,6 +6,7 @@ namespace App\Media;
 
 use App\Content\Html;
 use App\Content\Xml\XmlSource;
+use App\View\Component;
 
 /**
  * Renders an image, or nothing at all.
@@ -19,6 +20,9 @@ use App\Content\Xml\XmlSource;
  * That is the opposite of the rule the text follows — a fiche without its title
  * is not a fiche — and the difference is deliberate: the sanction has to stay
  * smaller than the fault.
+ *
+ * What an image looks like is in views/x-image and views/x-figure. This decides
+ * which file, how wide, and whether it waits.
  */
 final readonly class ImageTag
 {
@@ -36,8 +40,17 @@ final readonly class ImageTag
     /** A bleed spans the paper, edge to edge. */
     private const string SIZES_BLEED = '100vw';
 
+    /**
+     * The field is what the window gives beyond everything of fixed width, so a
+     * figure set there is the window less the two gutters, the margin, the
+     * measure and the step between — about 62rem across the range. Same
+     * approximation as SIZES_FIGURE, and the same reason it is allowed.
+     */
+    private const string SIZES_FIELD = '(min-width: 48em) calc(100vw - 62rem), calc(100vw - 3.5rem)';
+
     public function __construct(
         private MediaLibrary $library,
+        private Component $components,
     ) {}
 
     /** The image at the top of a fiche. Visible on load, so never deferred. */
@@ -55,11 +68,7 @@ final readonly class ImageTag
             return '';
         }
 
-        return sprintf(
-            '<figure class="c-figure c-figure--lead">%s%s</figure>',
-            $image,
-            $this->caption($visual),
-        );
+        return $this->figure($visual, $image, 'c-figure c-figure--lead');
     }
 
     /** One thumbnail among many: always deferred, always the narrow variant. */
@@ -75,14 +84,23 @@ final readonly class ImageTag
     }
 
     /**
-     * A capture in the middle of the prose: <image src="…" legende="…"/>.
+     * A capture in the middle of the prose: <image src="…" caption="…"/>.
      *
      * Same markup as the lead image, with the caption the block carries and the
      * credit under it. Lazy: it is below the fold by definition.
      *
-     * pleine="oui" is the one thing the writer decides about width. A figure
-     * takes the reading — text column plus open field — unless the image is
-     * worth looking at before anything is read, and then it takes the paper.
+     * width="…" is the one thing the writer decides, and it is an editorial
+     * decision rather than a property of the file: it says what the image does
+     * to the reading, and the grid already has a column for each answer.
+     *
+     *   field    the open column, beside the text — the reading continues
+     *   reading  the text column plus the field — the reading stops (default)
+     *   full     the paper, edge to edge — the reading stops before it began
+     *
+     * The rule that follows: at most one image per page takes the paper, and it
+     * is the first one. Every image after it belongs in the field, where a
+     * figure annotates instead of interrupting — which is the whole reason a
+     * page can carry several without turning into a slideshow.
      */
     public function block(\Dom\Element $element, string $type): string
     {
@@ -92,25 +110,19 @@ final readonly class ImageTag
             return '';
         }
 
-        $bleed = Html::attribute($element, 'pleine') === 'oui';
+        [$class, $sizes, $fallback] = match (Html::attribute($element, 'width')) {
+            'full' => ['c-figure c-bleed', self::SIZES_BLEED, 1280],
+            'field' => ['c-figure c-figure--field', self::SIZES_FIELD, 640],
+            default => ['c-figure', self::SIZES_FIGURE, 1280],
+        };
 
-        $image = $this->tag(
-            $visual,
-            width: 1280,
-            sizes: $bleed ? self::SIZES_BLEED : self::SIZES_FIGURE,
-            lazy: true,
-        );
+        $image = $this->tag($visual, width: $fallback, sizes: $sizes, lazy: true);
 
         if ($image === '') {
             return '';
         }
 
-        return sprintf(
-            '<figure class="c-figure%s">%s%s</figure>',
-            $bleed ? ' c-bleed' : '',
-            $image,
-            $this->caption($visual),
-        );
+        return $this->figure($visual, $image, $class);
     }
 
     private function tag(Visual $visual, int $width, string $sizes, bool $lazy): string
@@ -123,60 +135,37 @@ final readonly class ImageTag
             return '';
         }
 
-        return sprintf(
-            '<img src="%s" srcset="%s" sizes="%s" width="%d" height="%d" alt="%s" decoding="async"%s>',
-            Html::escape($asset->src($width)),
-            Html::escape($asset->srcset()),
-            Html::escape($sizes),
-            $asset->width,
-            $asset->height,
+        return $this->components->render(
+            'x-image',
+            src: $asset->src($width),
+            srcset: $asset->srcset(),
+            sizes: $sizes,
+            width: (string) $asset->width,
+            height: (string) $asset->height,
             // An alt nobody has written yet is an empty one: a screen reader
             // skipping an image beats it reading out "unlock.jpg".
-            Html::escape($visual->alt ?? ''),
-            $lazy ? ' loading="lazy"' : '',
+            alt: $visual->alt ?? '',
+            lazy: $lazy,
         );
     }
 
     /**
-     * What the image says under itself: its caption, then who owns it.
+     * The image and what is owed to whoever made it.
      *
-     * One <figcaption> holds both — a <figure> only ever gets one, and the
-     * credit is a detail of the caption rather than a second statement.
-     *
-     * These are other people's images on a public course site, so the credit is
-     * part of the component rather than something a writer remembers to add.
-     * That is the only way it stays systematic.
+     * The credit is part of the component rather than something a writer
+     * remembers to add — these are other people's images on a public course
+     * site, and that is the only way it stays systematic. A visual that names a
+     * source but nobody to credit still says "Source", linked.
      */
-    private function caption(Visual $visual): string
+    private function figure(Visual $visual, string $image, string $class): string
     {
-        $credit = $this->credit($visual);
-
-        if ($visual->caption === null && $credit === '') {
-            return '';
-        }
-
-        if ($visual->caption === null) {
-            return sprintf('<figcaption class="c-figure__credit">%s</figcaption>', $credit);
-        }
-
-        return sprintf(
-            '<figcaption class="c-figure__caption">%s%s</figcaption>',
-            Html::escape($visual->caption),
-            $credit !== '' ? sprintf('<span class="c-figure__credit">%s</span>', $credit) : '',
+        return $this->components->render(
+            'x-figure',
+            class: $class,
+            image: $image,
+            caption: $visual->caption,
+            credit: $visual->credit ?? ($visual->source !== null ? 'Source' : null),
+            creditUrl: $visual->source,
         );
-    }
-
-    /** Who holds the rights, linked to where the file came from. */
-    private function credit(Visual $visual): string
-    {
-        if ($visual->credit === null && $visual->source === null) {
-            return '';
-        }
-
-        $name = Html::escape($visual->credit ?? 'Source');
-
-        return $visual->source !== null
-            ? sprintf('<a href="%s" rel="noreferrer">%s</a>', Html::escape($visual->source), $name)
-            : $name;
     }
 }

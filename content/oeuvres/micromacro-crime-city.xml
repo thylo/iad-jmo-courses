@@ -8,7 +8,7 @@
 
   <resume>Un poster de 76 sur 114 centimètres, une ville dessinée au trait, seize enquêtes. Les cartes d'un cas posent des questions ; les réponses sont quelque part sur l'image. Un même personnage y figure plusieurs fois, à des moments différents de son histoire : suivre quelqu'un, c'est parcourir la carte d'avant en arrière dans le temps. Spiel des Jahres 2021.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       **L'espace tient lieu de temps.** Toute l'affaire est là, déjà imprimée, du
       premier repérage jusqu'au meurtre. Le récit ne se déroule pas : il est
@@ -29,7 +29,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       L'enquête est un jeu d'observation, pas de déduction : on ne raisonne presque
       jamais, on cherche. Une fois la scène trouvée, elle se lit d'elle-même.
@@ -39,5 +39,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

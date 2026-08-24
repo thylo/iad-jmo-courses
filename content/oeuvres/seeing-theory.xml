@@ -10,11 +10,11 @@
   <visuel src="seeing-theory.jpg"
           source="https://seeing-theory.brown.edu/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Rend les mathématiques tangibles. Les formules deviennent des objets qu'on peut toucher et comprendre visuellement.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

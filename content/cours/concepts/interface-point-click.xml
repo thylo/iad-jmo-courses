@@ -11,7 +11,7 @@
 
   <resume>L'interface présente plusieurs choix visuels à l'écran. L'utilisateur clique pour avancer dans le récit.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       L'interface point-and-click matérialise les choix visuellement à l'écran. Elle crée une alternance entre temps de réflexion (le choix) et temps de consommation (le résultat). L'utilisateur clique sur des éléments pour avancer dans le récit.
 
@@ -24,7 +24,7 @@
     </markdown>
   </section>
 
-  <section titre="Intérêt narratif">
+  <section title="Intérêt narratif">
     <markdown>
       - **Matérialise la liberté** offerte aux utilisateurs
       - **Marque le temps du choix** (pause narrative)
@@ -32,7 +32,7 @@
     </markdown>
   </section>
 
-  <section titre="Enjeux et risques">
+  <section title="Enjeux et risques">
     <markdown>
       - Risque de **"syndrome menu de DVD"** (choix qui cassent l'immersion)
       - Nécessite une **scénarisation forte** des moments de choix
@@ -41,7 +41,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand utiliser point-and-click ?">
+  <section title="Quand utiliser point-and-click ?">
     <markdown>
       - ✅ Vous racontez une histoire avec choix narratifs clairs
       - ✅ Vous voulez une pause temporelle à chaque décision
@@ -50,7 +50,7 @@
     </markdown>
   </section>
 
-  <section titre="Design">
+  <section title="Design">
     <markdown>
       ### Signaux et feedback clairs
 
@@ -76,7 +76,7 @@
     </markdown>
   </section>
 
-  <section titre="Exemples détaillés">
+  <section title="Exemples détaillés">
     <markdown>
       ### Jeu d'influences (2013)
 
@@ -98,7 +98,7 @@
     </markdown>
   </section>
 
-  <section titre="Variantes">
+  <section title="Variantes">
     <markdown>
       ### Menu textuel
       Choix présentés en texte simple.
@@ -131,7 +131,7 @@
     </markdown>
   </section>
 
-  <section titre="Combinaisons avec autres interfaces">
+  <section title="Combinaisons avec autres interfaces">
     <markdown>
       **Point-and-Click + Scrollable**
 
@@ -145,7 +145,7 @@
     </markdown>
   </section>
 
-  <section titre="Bonnes pratiques">
+  <section title="Bonnes pratiques">
     <markdown>
       1. **Clarté visuelle** : Les choix doivent être évidents
       2. **Contexte** : Donner assez d'infos pour choisir éclairé
@@ -155,7 +155,7 @@
     </markdown>
   </section>
 
-  <section titre="Risques courants">
+  <section title="Risques courants">
     <markdown>
       ❌ **Trop de choix** : Paralyse le public
       ❌ **Pas assez d'infos** : Choix basé sur le hasard
@@ -165,7 +165,7 @@
     </markdown>
   </section>
 
-  <section titre="Solutions">
+  <section title="Solutions">
     <markdown>
       ✅ Limiter à 3 choix max
       ✅ Contextualiser chaque option
@@ -175,5 +175,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

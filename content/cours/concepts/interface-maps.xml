@@ -10,7 +10,7 @@
 
   <resume>Une carte géographique interactive sert de hub de navigation. Les contenus sont géolocalisés.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       L'interface map utilise une carte comme structure narrative. L'utilisateur clique sur des lieux géographiques pour découvrir contenus associés. La géographie devient métaphore et structure pour le récit.
 
@@ -23,7 +23,7 @@
     </markdown>
   </section>
 
-  <section titre="Intérêt narratif">
+  <section title="Intérêt narratif">
     <markdown>
       - **Ancre le récit dans un territoire réel**
       - **Valorise les contenus géolocalisés**
@@ -32,7 +32,7 @@
     </markdown>
   </section>
 
-  <section titre="Enjeux et risques">
+  <section title="Enjeux et risques">
     <markdown>
       - **Esthétique souvent froide** (ressemble à Google Maps)
       - **Les cartes créent une distance** (pas d'immersion)
@@ -41,7 +41,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand utiliser maps ?">
+  <section title="Quand utiliser maps ?">
     <markdown>
       - ✅ Vous racontez une histoire géolocalisée
       - ✅ La géographie a importance thématique
@@ -50,7 +50,7 @@
     </markdown>
   </section>
 
-  <section titre="Design">
+  <section title="Design">
     <markdown>
       ### Style cartographique
 
@@ -80,7 +80,7 @@
     </markdown>
   </section>
 
-  <section titre="Exemples (à développer)">
+  <section title="Exemples (à développer)">
     <markdown>
       ### Riding the New Silk Road (2013)
 
@@ -105,7 +105,7 @@
     </markdown>
   </section>
 
-  <section titre="Variantes">
+  <section title="Variantes">
     <markdown>
       ### Carte stylisée
       Design artistique, pas réaliste.
@@ -133,7 +133,7 @@
     </markdown>
   </section>
 
-  <section titre="Combinaisons avec autres interfaces">
+  <section title="Combinaisons avec autres interfaces">
     <markdown>
       **Map + Scrollable**
 
@@ -152,7 +152,7 @@
     </markdown>
   </section>
 
-  <section titre="Bonnes pratiques">
+  <section title="Bonnes pratiques">
     <markdown>
       1. **Clarté géographique** : Où sommes-nous réellement?
       2. **Symboles informatifs** : Savez-vous cliquer où?
@@ -162,7 +162,7 @@
     </markdown>
   </section>
 
-  <section titre="Risques courants">
+  <section title="Risques courants">
     <markdown>
       ❌ **Design froid** : Ressemble à Google Maps
       ❌ **Pas de narration** : Juste une carte
@@ -172,7 +172,7 @@
     </markdown>
   </section>
 
-  <section titre="Solutions">
+  <section title="Solutions">
     <markdown>
       ✅ Style artistique distinct
       ✅ Chaque point conte une histoire
@@ -183,7 +183,7 @@
     </markdown>
   </section>
 
-  <section titre="Considérations réalistes">
+  <section title="Considérations réalistes">
     <markdown>
       - **Géographie doit être juste** (ou clairement fictive)
       - **Contexte culturel/historique** de la géographie importe
@@ -192,5 +192,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

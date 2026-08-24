@@ -98,7 +98,7 @@ qu'il n'y en aura pas. Sans lui, une œuvre que personne n'a jamais photographi�
 reste dans la file pour toujours et le compte ne veut plus rien dire.
 
 **`<image>` — un bloc.** Une capture au fil de la prose, dans une `<section>`.
-Mêmes attributs, plus `legende` au lieu de `credit` seul. Rendu sur place.
+Mêmes attributs, plus `caption` au lieu de `credit` seul. Rendu sur place.
 
 **`<video poster="…">` — un attribut de plus.** Le nom de la vignette locale.
 Sans lui, la façade n'a rien à afficher.

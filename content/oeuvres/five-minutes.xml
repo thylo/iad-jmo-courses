@@ -9,11 +9,11 @@
   <visuel src="five-minutes.jpg"
           source="https://m.media-amazon.com/images/M/MV5BOWJiYjVjNzUtYjk5My00OWQ0LWFmZDEtY2ExZjk5YjEyNWI2XkEyXkFqcGc@._V1_.jpg"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Explore comment les gestes mobiles peuvent devenir langage narratif. Chaque geste a un sens dans l'histoire plutôt que d'être un simple bouton déguisé.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

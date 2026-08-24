@@ -12,19 +12,19 @@
   <visuel src="the-monolith-project.jpg"
           source="https://themonolithproject.net/"/>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Qualité exceptionnelle du rendu 3D temps réel dans le navigateur. Animations motion design fluides et soignées qui créent une expérience visuelle marquante. Démontre la maturité des technologies WebGL/Three.js pour créer des expériences visuelles comparables aux applications natives.
     </markdown>
   </section>
 
-  <section titre="Concept et expérience">
+  <section title="Concept et expérience">
     <markdown>
       The Monolith Project mise sur l'excellence visuelle plutôt que la complexité interactive. L'œuvre démontre que le rendu 3D temps réel dans le navigateur peut atteindre une qualité professionnelle comparable aux applications natives.
     </markdown>
   </section>
 
-  <section titre="Points forts techniques">
+  <section title="Points forts techniques">
     <markdown>
       ### Rendu 3D temps réel
 
@@ -40,7 +40,7 @@
     </markdown>
   </section>
 
-  <section titre="Pistes d'analyse">
+  <section title="Pistes d'analyse">
     <markdown>
       - Une expérience immersive peut exister sur un simple écran
       - La 3D crée un espace narratif explorable, qui contient le récit
@@ -49,7 +49,7 @@
     </markdown>
   </section>
 
-  <section titre="Points de discussion">
+  <section title="Points de discussion">
     <markdown>
       ### Interaction vs. Contemplation
       Les interactions sont légères, mais est-ce un défaut ? L'œuvre privilégie la contemplation active sur la manipulation directe. Question ouverte : Quand l'interaction minimale est-elle un choix artistique valide ?
@@ -62,11 +62,11 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Excellence technique du rendu 3D web. Preuve qu'une expérience visuelle peut porter un projet même avec des interactions légères. Équilibre entre sophistication visuelle et accessibilité web.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

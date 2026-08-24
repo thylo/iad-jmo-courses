@@ -6,11 +6,11 @@
 
   <resume>L'application remplace le narrateur humain en guidant la phase de nuit, gérant les timers et créant l'ambiance sonore. Les joueurs peuvent tous participer.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Utilise le web pour supprimer le besoin d'un maître du jeu, permettant à tous de jouer simultanément.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

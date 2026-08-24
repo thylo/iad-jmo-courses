@@ -10,11 +10,11 @@
   <visuel src="incredibox.jpg"
           source="https://www.incredibox.com/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Démontre qu'un outil de création musicale peut être ludique et immédiatement gratifiant. La contrainte (palette de sons limitée) devient créative.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

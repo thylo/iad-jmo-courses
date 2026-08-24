@@ -7,11 +7,11 @@
 
   <resume>Éditeur en ligne pour créer et partager des shaders (programmes graphiques). Communauté immense, galerie de créations époustouflantes. Code + rendu en temps réel côte à côte.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Démocratise l'art génératif et le creative coding. Montre ce qui est possible avec du code pur. Source d'inspiration infinie pour la création procédurale.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

@@ -10,19 +10,19 @@
 
   <resume>Robot CNC automatisé qui peint au spray sur les murs en convertissant des fichiers vectoriels en graffiti mécanique — démontrant comment l'automatisation et la collaboration locale transforment l'authenticité du street art.</resume>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Fusion hybride de technologie CNC (deux axes motorisés, perceuses sans fil, contrôle Arduino) avec l'esthétique du graffiti urbain. Le Graffomat accumule des couches: images vectorielles, images raster en matrices CYMK, précision mécanique + coups de pinceau imparfaits. L'outil devient accessible à ceux sans des années de pratique.
     </markdown>
   </section>
 
-  <section titre="Vue d'ensemble">
+  <section title="Vue d'ensemble">
     <markdown>
       Le **Graffomat** est un **robot CNC open-source** créé par Niklas Roy qui peint automatiquement au spray sur les murs urbains. Plutôt qu'un projet solitaire, c'est un **écosystème collaboratif** où les artistes locaux de graffiti, les hackers et les artistes numériques ont ensemble expérimenté les possibilités de l'automatisation créative.
     </markdown>
   </section>
 
-  <section titre="Fonctionnement technique">
+  <section title="Fonctionnement technique">
     <markdown>
       ### Architecture matérielle
 
@@ -46,7 +46,7 @@
     </markdown>
   </section>
 
-  <section titre="Contexte de création">
+  <section title="Contexte de création">
     <markdown>
       Le Graffomat a été développé dans la **scène locale de street art berlinoise**, spécifiquement pour le "Hall of Fame" de Parkaue, un mur légal où les graffeurs expérimentent.
 
@@ -59,7 +59,7 @@
     </markdown>
   </section>
 
-  <section titre="Dimensions collaboratives">
+  <section title="Dimensions collaboratives">
     <markdown>
       ### Local (Berlin)
       La scène graffiti locale a **adopté et remixé** le Graffomat:
@@ -82,7 +82,7 @@
     </markdown>
   </section>
 
-  <section titre="Enjeux pédagogiques clés">
+  <section title="Enjeux pédagogiques clés">
     <markdown>
       ### 1. Automatisation vs. Authenticité
       Le Graffomat pose une question centrale: **"Un robot peut-il faire du street art ?"**
@@ -124,17 +124,17 @@
     </markdown>
   </section>
 
-  <section titre="Reconnaissance institutionnelle">
+  <section title="Reconnaissance institutionnelle">
     <markdown>
       Roy a reçu une **bourse du Sénat de Berlin** reconnaissant l'importance culturelle du projet — validation que les institutions voient au-delà du "simple robot".
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Exemplaire pour enseigner: (1) l'automatisation créative vs. l'authenticité, (2) la collaboration locale (graffeurs + hackers + artistes), (3) l'open-source comme mode de création collectif, (4) la démocratisation des outils de création, (5) la critique subtile de l'automatisation dans l'art.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

@@ -6,7 +6,7 @@
 
   <resume>Illusion de choix sans vraies conséquences narratives. Un piège à connaître.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       Un faux choix est une décision qui semble rationnelle (avec conséquences annoncées) mais s'avère exploratoire (aucune vraie conséquence). C'est une rupture du contrat entre l'auteur et le public. Le public sent qu'on l'a trompé.
 
@@ -19,7 +19,7 @@
     </markdown>
   </section>
 
-  <section titre="Qu'est-ce qu'un faux choix ?">
+  <section title="Qu'est-ce qu'un faux choix ?">
     <markdown>
       **Exemple typique :**
 
@@ -38,7 +38,7 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est un problème">
+  <section title="Pourquoi c'est un problème">
     <markdown>
       ### 1. Rupture du contrat
 
@@ -67,7 +67,7 @@
     </markdown>
   </section>
 
-  <section titre="Types de faux choix">
+  <section title="Types de faux choix">
     <markdown>
       ### Le cosmétique
 
@@ -119,7 +119,7 @@
     </markdown>
   </section>
 
-  <section titre="Faux choix intentionnels">
+  <section title="Faux choix intentionnels">
     <markdown>
       Parfois, un faux choix est **voulu**.
 
@@ -145,7 +145,7 @@
     </markdown>
   </section>
 
-  <section titre="Comment identifier un faux choix">
+  <section title="Comment identifier un faux choix">
     <markdown>
       ### Test de conséquence
 
@@ -170,7 +170,7 @@
     </markdown>
   </section>
 
-  <section titre="Comment ÉVITER les faux choix">
+  <section title="Comment ÉVITER les faux choix">
     <markdown>
       ### 1. Soyez clair sur la nature du choix
 
@@ -205,7 +205,7 @@
     </markdown>
   </section>
 
-  <section titre="Exemple de bon design avec convergence">
+  <section title="Exemple de bon design avec convergence">
     <markdown>
       ```
                           Objectif final
@@ -229,7 +229,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand les faux choix peuvent marcher">
+  <section title="Quand les faux choix peuvent marcher">
     <markdown>
       ### Si c'est métanarratif
 
@@ -245,7 +245,7 @@
     </markdown>
   </section>
 
-  <section titre="Distinguer faux choix vs choix exploratoire">
+  <section title="Distinguer faux choix vs choix exploratoire">
     <markdown>
       | Aspect | Choix exploratoire | Faux choix |
       |--------|-------------------|-----------|
@@ -256,7 +256,7 @@
     </markdown>
   </section>
 
-  <section titre="Leçons à retenir">
+  <section title="Leçons à retenir">
     <markdown>
       ✅ **FAIRE** : Choix rationnel honnête avec vraies conséquences
       ✅ **FAIRE** : Choix exploratoire honnête sans prétendre à plus
@@ -265,7 +265,7 @@
     </markdown>
   </section>
 
-  <section titre="Analyse critique">
+  <section title="Analyse critique">
     <markdown>
       Pour chaque expérience interactive vous analysez :
 
@@ -276,7 +276,7 @@
     </markdown>
   </section>
 
-  <section titre="Pour votre propre création">
+  <section title="Pour votre propre création">
     <markdown>
       **Questions fondamentales :**
 
@@ -289,5 +289,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

@@ -11,7 +11,7 @@
   <visuel src="the-fallen-of-world-war-ii.jpg"
           source="https://www.neilfilms.com/ww2/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       **L'interaction attend son tour.** Le film décide quand vous pouvez agir. Le
       reste du temps, c'est du montage, avec un rythme et une voix. Cette
@@ -34,7 +34,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       L'interactivité est mince : trois ou quatre pauses où l'on peut cliquer.
       Retirez-les et il reste un très bon film. Utile comme cas limite — jusqu'où
@@ -47,5 +47,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

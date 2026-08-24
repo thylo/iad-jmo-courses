@@ -10,11 +10,11 @@
   <visuel src="real-life-first-person-shooter.jpg"
           source="https://m.youtube.com/watch?v=p747PrxmZJ4"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Transforme le jeu vidéo en performance live interactive. Le web devient le canal de contrôle.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

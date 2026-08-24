@@ -10,11 +10,11 @@
   <visuel src="rain-room.jpg"
           source="https://www.random-international.com/rain-room"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Installation spectaculaire qui transforme l'environnement en fonction de la présence humaine. Succès viral international (files d'attente de 4h au MoMA). Démontre la puissance d'une interaction simple mais poétique.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

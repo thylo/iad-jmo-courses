@@ -1,0 +1,22 @@
+/* The aside in the flow — what <note type="…" title="…"> renders.
+
+   It earns a stroke, not a coloured box: rule.css draws it, this only says
+   what it means. The margin note is a different register and a different
+   component — see sidenote.css. */
+
+.note {
+  --prose-step: var(--space-s);
+
+  color: var(--color-ink-muted);
+}
+
+.note--attention { --rule-ink: var(--color-accent); }
+
+.note__title {
+  font-family: var(--font-display);
+  color: var(--color-ink);
+}
+
+/* A note is one thought, so its parts sit tighter than the reading does —
+   whether they are blocks of its own or the prose it holds. */
+.note > * + * { margin-block-start: var(--space-s); }

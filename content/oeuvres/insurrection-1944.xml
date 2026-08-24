@@ -7,11 +7,11 @@
 
   <resume>Application mobile qui superpose des témoignages historiques sur les lieux réels de l'insurrection parisienne de 1944. La géolocalisation déclenche automatiquement les contenus audio quand on se trouve aux endroits où les événements se sont déroulés.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Transforme une ville en musée vivant sans infrastructure physique. Le web mobile devient un outil de révélation du passé invisible. Pionnier du parcours audio géolocalisé narratif.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

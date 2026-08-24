@@ -10,11 +10,11 @@
   <visuel src="i-d-hide-you.jpg"
           source="https://www.blasttheory.co.uk/projects/id-hide-you/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Transforme la marche urbaine banale en narration immersive. La ville devient personnage. Utilise intelligemment les contraintes mobiles (pas toujours de réseau, marche lente) comme éléments narratifs.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

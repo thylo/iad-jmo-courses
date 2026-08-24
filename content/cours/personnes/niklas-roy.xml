@@ -1,9 +1,9 @@
 <personne id="niklas-roy" genre="personne">
   <titre>Niklas Roy</titre>
 
-  <section titre="Ici">
-    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </personne>

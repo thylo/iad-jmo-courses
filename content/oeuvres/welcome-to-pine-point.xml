@@ -10,11 +10,11 @@
   <visuel src="welcome-to-pine-point.jpg"
           source="https://pinepoint.nfb.ca/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Démontre comment le scroll peut devenir un outil narratif pour avancer dans le temps et l'espace.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

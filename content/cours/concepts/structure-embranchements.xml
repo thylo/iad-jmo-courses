@@ -9,7 +9,7 @@
 
   <resume>L'histoire se divise en branches selon les choix du spectateur. Chaque décision mène à un chemin différent.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       La structure d'embranchements divise le récit en arborescence selon les choix du spectateur.
       Chaque décision ferme certains chemins et ouvre d'autres, créant une multiplicité d'histoires
@@ -24,13 +24,13 @@
     </markdown>
   </section>
 
-  <section titre="Interaction">
+  <section title="Interaction">
     <markdown>
       Prendre des décisions à des moments clés. Chaque choix se solde par une progression vers une fin parmi plusieurs possibles.
     </markdown>
   </section>
 
-  <section titre="Schéma">
+  <section title="Schéma">
     <markdown>
       ```
                           Fin A
@@ -46,7 +46,7 @@
     </markdown>
   </section>
 
-  <section titre="Avantages">
+  <section title="Avantages">
     <markdown>
       - Fort sentiment d'agence du spectateur
       - Rejouabilité très élevée
@@ -55,7 +55,7 @@
     </markdown>
   </section>
 
-  <section titre="Inconvénients">
+  <section title="Inconvénients">
     <markdown>
       - Production exponentielle (2 choix × 5 moments = 32 fins possibles)
       - Difficile de rendre tous les chemins satisfaisants
@@ -69,7 +69,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand l'utiliser">
+  <section title="Quand l'utiliser">
     <markdown>
       - Dilemmes moraux importants
       - Exploration de conséquences d'actions
@@ -79,7 +79,7 @@
     </markdown>
   </section>
 
-  <section titre="Variantes">
+  <section title="Variantes">
     <markdown>
       - **Binaire simple** : Chaque choix = 2 branches
       - **Embranchements qui convergent** : Les branches se rejoignent (réduit la production)
@@ -91,7 +91,7 @@
     </markdown>
   </section>
 
-  <section titre="Erreurs courantes">
+  <section title="Erreurs courantes">
     <markdown>
       - Faux choix : Donner l'illusion du choix sans vraies conséquences
       - Explosion combinatoire : Trop d'embranchements = production impossible
@@ -119,5 +119,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

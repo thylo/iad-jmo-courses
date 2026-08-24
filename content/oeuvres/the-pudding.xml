@@ -10,11 +10,11 @@
   <visuel src="the-pudding.jpg"
           source="https://pudding.cool/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Chaque article est un outil d'exploration interactif unique. Les données deviennent narratives.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

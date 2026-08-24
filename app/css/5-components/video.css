@@ -1,0 +1,16 @@
+/* An embed — what <video src="youtube:…"> renders.
+
+   A figure like any other, except that what it frames has a fixed ratio and
+   no intrinsic size, so the box has to state one. */
+
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.video figcaption {
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-ink-faint);
+  margin-block-start: var(--space-s);
+}

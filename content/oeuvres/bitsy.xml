@@ -7,11 +7,11 @@
 
   <resume>Éditeur web pour créer des petits jeux narratifs en pixel art. Interface simple, contraintes fortes (palette 3 couleurs, sprites 8×8), mais résultats étonnamment expressifs. Communauté active de créateurs.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Prouve que des contraintes extrêmes libèrent la créativité. Outil parfait pour apprendre la narration interactive sans se perdre dans la technique. Des centaines de jeux créés montrent la richesse possible dans la simplicité.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

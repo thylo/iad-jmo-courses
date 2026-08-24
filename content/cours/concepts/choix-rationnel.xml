@@ -12,7 +12,7 @@
 
   <resume>Choix qui modifie réellement le cours de l'histoire avec des conséquences visibles et différentes.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       Le choix rationnel crée un embranchement narratif réel. Chaque option mène à des conséquences différentes et visibles. Le public influence vraiment le récit via ses décisions. C'est l'équivalent du montage alternatif de Rashomon : plusieurs versions de la même scène.
 
@@ -26,7 +26,7 @@
     </markdown>
   </section>
 
-  <section titre="La métaphore cinématographique">
+  <section title="La métaphore cinématographique">
     <markdown>
       Le **montage alternatif de Rashomon** : plusieurs versions de la même scène, chacune change la vérité.
 
@@ -34,7 +34,7 @@
     </markdown>
   </section>
 
-  <section titre="Intention créative">
+  <section title="Intention créative">
     <markdown>
       **Je veux que le public :**
 
@@ -45,7 +45,7 @@
     </markdown>
   </section>
 
-  <section titre="Avantages">
+  <section title="Avantages">
     <markdown>
       - Immersion émotionnelle profonde
       - Agentivité réelle du public
@@ -55,7 +55,7 @@
     </markdown>
   </section>
 
-  <section titre="Inconvénients">
+  <section title="Inconvénients">
     <markdown>
       - Explosion combinatoire (20 choix = 1M+ fins)
       - Production complexe
@@ -65,7 +65,7 @@
     </markdown>
   </section>
 
-  <section titre="Exemples détaillés">
+  <section title="Exemples détaillés">
     <markdown>
       ### Jeu d'Influences (2013)
 
@@ -104,7 +104,7 @@
     </markdown>
   </section>
 
-  <section titre="Les trois piliers du choix rationnel">
+  <section title="Les trois piliers du choix rationnel">
     <markdown>
       ### 1. Objectif clair
 
@@ -154,7 +154,7 @@
     </markdown>
   </section>
 
-  <section titre="Solutions à l'explosion combinatoire">
+  <section title="Solutions à l'explosion combinatoire">
     <markdown>
       ### 1. Convergence narrative
 
@@ -197,7 +197,7 @@
     </markdown>
   </section>
 
-  <section titre="Piège à éviter : Les faux choix">
+  <section title="Piège à éviter : Les faux choix">
     <markdown>
       **Définition :** Un choix qui semble rationnel mais n'a aucune vraie conséquence.
 
@@ -219,7 +219,7 @@
     </markdown>
   </section>
 
-  <section titre="Bonnes pratiques">
+  <section title="Bonnes pratiques">
     <markdown>
       1. **Objectif cristallin** : Public sait ce qu'il veut
       2. **Information complète** : Suffit pour décider éclairé
@@ -230,7 +230,7 @@
     </markdown>
   </section>
 
-  <section titre="Risques courants">
+  <section title="Risques courants">
     <markdown>
       ❌ **Explosion combinatoire** : Impossibilité de produire
       ❌ **Faux choix** : Rupture de confiance
@@ -240,7 +240,7 @@
     </markdown>
   </section>
 
-  <section titre="Solutions">
+  <section title="Solutions">
     <markdown>
       ✅ Hiérarchiser les choix
       ✅ Converger les branches narrative
@@ -251,7 +251,7 @@
     </markdown>
   </section>
 
-  <section titre="Relation avec les interfaces">
+  <section title="Relation avec les interfaces">
     <markdown>
       Le choix rationnel s'associe bien avec :
 
@@ -261,7 +261,7 @@
     </markdown>
   </section>
 
-  <section titre="La magie du choix rationnel">
+  <section title="La magie du choix rationnel">
     <markdown>
       Quand bien fait, le choix rationnel crée :
 
@@ -272,5 +272,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

@@ -6,12 +6,13 @@ namespace App\Content\Xml\Elements;
 
 use App\Content\Xml\ElementRenderer;
 use App\Content\Xml\RenderContext;
+use App\View\Component;
 
 /**
- * <marge>…</marge> — a margin note, set beside the reading rather than in it.
+ * <sidenote>…</sidenote> — a margin note, set beside the reading rather than in it.
  *
  * Distinct from <note> on purpose. A <note> interrupts: it carries a title, it
- * sits in the flow, the reader is meant to stop. A <marge> does not interrupt:
+ * sits in the flow, the reader is meant to stop. A <sidenote> does not interrupt:
  * it is the aside you would pencil next to a paragraph, and the reader may
  * never look at it. Two registers, two tags — deciding between them is an
  * editorial act, not a length threshold.
@@ -22,6 +23,10 @@ use App\Content\Xml\RenderContext;
  */
 final readonly class SidenoteElement implements ElementRenderer
 {
+    public function __construct(
+        private Component $components,
+    ) {}
+
     public function render(\Dom\Element $element, RenderContext $context): string
     {
         $body = $context->renderer->children($element, $context);
@@ -30,6 +35,6 @@ final readonly class SidenoteElement implements ElementRenderer
             return '';
         }
 
-        return sprintf('<aside class="c-sidenote">%s</aside>', $body);
+        return $this->components->render('x-sidenote', body: $body);
     }
 }

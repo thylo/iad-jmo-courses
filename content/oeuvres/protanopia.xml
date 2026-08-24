@@ -11,7 +11,7 @@
   <visuel src="protanopia.jpg"
           source="https://apps.apple.com/lu/app/protanopia/id1289546434"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       **La case devient un volume.** Le dessin est découpé en plans superposés,
       chacun animé séparément. On ne regarde plus une image fixe : on regarde
@@ -34,7 +34,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       L'histoire est un prétexte. On retient les cases, pas le récit — et la
       démonstration technique porte l'ensemble. C'est assumé (« an experimental
@@ -51,5 +51,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

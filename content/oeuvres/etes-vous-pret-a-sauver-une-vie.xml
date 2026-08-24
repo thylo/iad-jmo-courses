@@ -12,7 +12,7 @@
   <visuel src="etes-vous-pret-a-sauver-une-vie.jpg"
           source="https://sauveunevie.be/"/>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       La fiction est tournée sérieusement : accident de la route, malaise cardiaque,
       brûlure. On est mis en situation, seul devant quelqu'un au sol, et la question
@@ -21,7 +21,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       L'emballage promet un film à [[structure-embranchements|embranchements]]. La
       structure réelle n'en est pas une : un mauvais choix n'ouvre aucune branche,
@@ -35,7 +35,7 @@
     </markdown>
   </section>
 
-  <section titre="À retenir">
+  <section title="À retenir">
     <markdown>
       Contre-exemple utile. La contrainte est réelle — en secourisme, la seule fin
       acceptable est celle où la victime survit, personne ne va produire la branche
@@ -47,5 +47,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

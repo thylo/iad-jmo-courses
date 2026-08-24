@@ -11,7 +11,7 @@
   <visuel src="hidden-folks.jpg"
           source="https://hiddenfolks.com/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       **La transposition va dans l'autre sens.** L'objet de départ est un livre —
       le *Wimmelbuch*, la double page saturée où l'on cherche un personnage. Le
@@ -32,7 +32,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       Il n'y a pas de récit, et le jeu ne prétend pas le contraire. Aucun
       personnage n'a d'intention, rien ne se passe : on cherche, on trouve, on
@@ -42,5 +42,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

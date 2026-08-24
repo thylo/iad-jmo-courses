@@ -21,9 +21,9 @@
     *A Highland Song* (2023), la même méthode, chaque fois sur un sujet différent.
   </markdown>
 
-  <section titre="Ici">
-    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </personne>

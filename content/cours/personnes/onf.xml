@@ -1,9 +1,9 @@
 <personne id="onf" genre="organisation">
   <titre>Office national du film du Canada</titre>
 
-  <section titre="Ici">
-    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </personne>

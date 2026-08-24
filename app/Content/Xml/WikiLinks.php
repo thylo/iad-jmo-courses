@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Content\Xml;
 
-use App\Content\Html;
+use App\View\Component;
 
 /**
  * Rewrites [[id]], [[id|label]] and ![[id]] before the markdown is parsed.
@@ -23,6 +23,8 @@ final readonly class WikiLinks
 
     public function __construct(
         private ContentIndex $index,
+        private EntityLink $links,
+        private Component $components,
     ) {}
 
     public function expand(string $markdown): string
@@ -33,7 +35,7 @@ final readonly class WikiLinks
             self::PATTERN,
             fn (array $match): string => $match[1] === '!'
                 ? $this->transclusion($match[2])
-                : EntityLink::html($this->index, $match[2], ($match[3] ?? '') !== '' ? $match[3] : null),
+                : $this->links->html($this->index, $match[2], ($match[3] ?? '') !== '' ? $match[3] : null),
             $markdown,
         );
 
@@ -51,13 +53,13 @@ final readonly class WikiLinks
     /** ![[id]] pulls in the target's <resume>, next to its link. */
     private function transclusion(string $id): string
     {
-        $link = EntityLink::html($this->index, $id);
+        $link = $this->links->html($this->index, $id);
         $summary = $this->index->find($id)?->summary;
 
         if ($summary === null) {
             return $link;
         }
 
-        return sprintf('<span class="transclusion">%s — %s</span>', $link, Html::escape($summary));
+        return $this->components->render('x-transclusion', link: $link, summary: $summary);
     }
 }

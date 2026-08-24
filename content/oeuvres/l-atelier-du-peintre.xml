@@ -1,16 +1,39 @@
 <oeuvre id="l-atelier-du-peintre" statut="hors-ligne">
-  <titre>L'Atelier du Peintre</titre>
+  <titre>Entrez dans l'Atelier</titre>
   <annee>2015</annee>
-  <par ref="arte"/>
+  <par>Musée d'Orsay</par>
+  <par>Orange</par>
+  <par>Polymorph</par>
+  <par>Total Immersion</par>
   <categorie>Muséale</categorie>
 
-  <resume>Exploration interactive du tableau "L'Atelier du peintre" de Gustave Courbet. Navigation dans l'espace de la toile révélant des détails, histoires et analyses des personnages. La peinture devient un espace navigable.</resume>
+  <resume>Quatre tablettes posées sur un pupitre, face à « L'Atelier du peintre » de Gustave Courbet, au musée d'Orsay. Une trentaine de minutes pour entrer dans la toile : les personnages peints prennent la parole et racontent qui ils sont et pourquoi ils sont là. Une partie interactive montre la fabrication du tableau et les enjeux de sa restauration. Un relief tactile, conçu par Tactile Studio, double le dispositif pour les visiteurs aveugles. Ouvert le 7 mai 2015, prolongé quelques semaines plus tard par un site dédié.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
-      Transforme une œuvre d'art statique en espace d'exploration narrative. Chaque zone de la toile cache des récits. Démontre comment augmenter une œuvre patrimoniale sans la dénaturer.
+      **L'interface est devant l'œuvre, pas à sa place.** On lève les yeux, on
+      compare, on revient à l'écran. Le dispositif accepte d'être secondaire —
+      rare, et beaucoup plus difficile à concevoir qu'une expérience qui
+      remplace le tableau.
+
+      **Un tableau que personne ne comprend devient lisible.** L'Atelier est une
+      allégorie opaque de vingt personnages. Le découpage par personnage donne
+      une entrée par curiosité plutôt qu'un cartel de plus.
+
+      **L'accessibilité fait partie du projet.** Le relief tactile n'est pas une
+      version dégradée à côté : c'est le même contenu, par un autre sens.
     </markdown>
   </section>
 
-  <retroliens/>
+  <section title="Ce qui coince">
+    <markdown>
+      Le dispositif de salle a été démonté et le site `entrezdanslatelier.fr` a
+      été abandonné, puis récupéré par quelqu'un d'autre : le domaine sert
+      aujourd'hui à un blog sans rapport. Pire qu'un lien mort — un lien qui
+      marche et qui ment. Vérifiez toujours ce qu'il y a au bout d'une URL avant
+      de la citer.
+    </markdown>
+  </section>
+
+  <backlinks/>
 </oeuvre>

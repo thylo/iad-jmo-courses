@@ -12,19 +12,19 @@
 
   <resume>Installation interactive qui détecte les passants par caméra et positionne un rideau motorisé pour obstruer la vue — créant un paradoxe ironique où le mécanisme de protection attire plus l'attention qu'il ne la détourne.</resume>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Fusion élégante de technologies (vision par ordinateur, détection de mouvement, moteur motorisé) avec une critique des systèmes de surveillance. Le rideau devient un acteur involontaire qui révèle l'absurdité de vouloir se protéger en attirant les regards. Fonctionne techniquement à la perfection mais échoue complètement dans son objectif initial.
     </markdown>
   </section>
 
-  <section titre="Vue d'ensemble">
+  <section title="Vue d'ensemble">
     <markdown>
       Niklas Roy a transformé sa fenêtre d'atelier berlinois en une **installation critique** sur la surveillance et la vie privée. Au lieu de simplement fermer les rideaux, il a conçu un système automatisé qui **détecte les passants et positionne un rideau motorisé exactement face à leur position**.
     </markdown>
   </section>
 
-  <section titre="Fonctionnement technique">
+  <section title="Fonctionnement technique">
     <markdown>
       ### Hardware
 
@@ -42,7 +42,7 @@
     </markdown>
   </section>
 
-  <section titre="La critique ironique">
+  <section title="La critique ironique">
     <markdown>
       Roy nous livre lui-même l'analyse : **"Le rideau ne protège pas du tout ma vie privée."**
 
@@ -55,7 +55,7 @@
     </markdown>
   </section>
 
-  <section titre="Contexte d'exposition">
+  <section title="Contexte d'exposition">
     <markdown>
       Le projet a circulé dans plusieurs institutions :
 
@@ -68,7 +68,7 @@
     </markdown>
   </section>
 
-  <section titre="Enjeux pédagogiques clés">
+  <section title="Enjeux pédagogiques clés">
     <markdown>
       **Interface comme critique** : L'interface n'est pas neutre — elle **révèle les paradoxes du système**. Une interface "bien conçue" peut fonctionner parfaitement tout en échouant complètement dans son intention.
 
@@ -80,11 +80,11 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Exemplaire pour enseigner: (1) comment l'interface révèle les paradoxes des systèmes, (2) la performativité involontaire en art urbain, (3) la théorie de l'acteur réseau (le rideau n'est pas passif), (4) les frontières de l'art participatif non-consentant.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

@@ -11,19 +11,19 @@
 
   <resume>Spectacle interactif où le public explore les obstacles psychologiques et collectifs à l'action climatique via une télécommande, guidé par GaIA une intelligence artificielle et le personnage de Camille incarné par des actrices.</resume>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Fusion réussie de la performance théâtrale et de la technologie interactive, où GaIA devient un véritable device narratif représentant la conscience planétaire. Les votes collectifs des spectateurs créent une responsabilité commune et une réflexivité immédiate. L'exposition préalable avec œuvres d'art (Gloria Friedmann, Chris Jordan, Yannick Monget) contextualize les enjeux climatiques. La scalabilité (120+ personnes par session) conserve l'intimité émotionnelle malgré le nombre. Format 45 minutes optimisé pour l'attention.
     </markdown>
   </section>
 
-  <section titre="Qu'est-ce que The Climate Show ?">
+  <section title="Qu'est-ce que The Climate Show ?">
     <markdown>
       **The Climate Show** est une installation théâtrale et muséale immersive créée par **Tempora Production**, **Cap Sciences Bordeaux Nouvelle-Aquitaine** et **Climate Voices**. Présentée au Brussels Expo (Palais 2 du Heysel) de mars à juin 2022, puis en septembre-octobre 2022, cette expérience interactive redéfinit la façon d'aborder les enjeux climatiques.
     </markdown>
   </section>
 
-  <section titre="Le Concept : Un Spectacle à la Limite entre Cinéma et Théâtre">
+  <section title="Le Concept : Un Spectacle à la Limite entre Cinéma et Théâtre">
     <markdown>
       The Climate Show occupe un espace unique « à la frontière entre cinéma et théâtre ». Plutôt qu'une exposition traditionnelle ou une conférence, c'est un **spectacle de 45 minutes** où :
 
@@ -34,7 +34,7 @@
     </markdown>
   </section>
 
-  <section titre="Les Personnages et Dispositifs">
+  <section title="Les Personnages et Dispositifs">
     <markdown>
       ### GaIA : L'Intelligence Artificielle Planétaire
       Au cœur du spectacle se trouve **GaIA**, une entité artificielle représentant la conscience planétaire. Elle apparaît sur **trois écrans géants** et interagit directement avec les spectateurs. GaIA n'est pas juste une voix informatique : c'est un véritable **personnage dramatique** doté de présence, d'émotions numériques et d'une agency narrative puissante.
@@ -47,7 +47,7 @@
     </markdown>
   </section>
 
-  <section titre="La Dynamique Interactive">
+  <section title="La Dynamique Interactive">
     <markdown>
       Les spectateurs votent sur les stratégies présentées à Camille :
 
@@ -57,7 +57,7 @@
     </markdown>
   </section>
 
-  <section titre="L'Exposition Préalable">
+  <section title="L'Exposition Préalable">
     <markdown>
       Avant d'entrer dans la salle de spectacle, les visiteurs traversent une **exposition d'art contemporain** :
 
@@ -69,7 +69,7 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi C'est Innovant">
+  <section title="Pourquoi C'est Innovant">
     <markdown>
       ### Pour la Narration Interactive
       The Climate Show transcende le faux paradoxe entre « spectacle » et « éducation ». L'IA devient un **opérateur dramatique** en soi. Les votes collectifs ne sont pas des quiz au service d'une leçon prédigérée, mais des **moments de réflexion commune** qui généraient responsabilité partagée.
@@ -82,7 +82,7 @@
     </markdown>
   </section>
 
-  <section titre="Caractéristiques Techniques">
+  <section title="Caractéristiques Techniques">
     <markdown>
       | Aspect | Détail |
       |--------|--------|
@@ -96,7 +96,7 @@
     </markdown>
   </section>
 
-  <section titre="Pour la Classe">
+  <section title="Pour la Classe">
     <markdown>
       **The Climate Show** représente un **modèle exemplaire** pour les sorties scolaires et l'éducation relative à l'environnement. Elle :
 
@@ -109,7 +109,7 @@
     </markdown>
   </section>
 
-  <section titre="Influences et Postérité">
+  <section title="Influences et Postérité">
     <markdown>
       The Climate Show s'inscrit dans une lignée de **interactive performances** qui réinventent le rapport entre IA, performance humaine et audience participation. Elle préfigure une évolution où :
 
@@ -128,11 +128,11 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Modèle exemplaire pour l'éducation climatique : dépasse le paradigme de l'exposition passive en forçant à se positionner et argumenter. Recommandé pour sorties scolaires, ce spectacle déverrouille les freins psychologiques plutôt que de culpabiliser. Combine narration émotionnelle et témoignages vidéos d'experts. Démontre que l'IA peut être un personnage dramatique complexe, porteur de signification, pas juste informatif. Ouvre des perspectives pour l'interactive performance en contexte muséal.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

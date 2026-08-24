@@ -10,11 +10,11 @@
   <visuel src="albertine-meunier-livre-infini.jpg"
           source="https://www.albertinemeunier.net/livre-infini"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Questionne la notion même de livre et de lecture à l'ère numérique. Projet qui démontre comment allier concept fort et réalisation technique. Génération procédurale au service de la narration.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

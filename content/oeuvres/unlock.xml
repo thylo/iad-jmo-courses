@@ -8,7 +8,7 @@
 
   <resume>Escape game en boîte : un paquet de cartes numérotées et une application gratuite. Les énigmes donnent le numéro de la carte suivante ; l'application tient le chronomètre, reçoit les codes, distribue les indices et fait tourner les mécanismes qu'on ne peut pas imprimer. Première boîte en février 2017, As d'Or à Cannes la même semaine.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       **Le récit est sur les cartes.** Lieux, objets, personnages : on les fouille,
       on les combine, on les étale sur la table. L'application ne raconte rien —
@@ -34,7 +34,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       L'application reste obligatoire, et sans elle la boîte ne se joue pas. Le même
       compte à rebours que partout ailleurs : le jour où Space Cowboys cesse de
@@ -46,5 +46,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

@@ -10,7 +10,7 @@
   <visuel src="the-botanist.jpg"
           source="https://cadinb.itch.io/the-botanist"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       **La manivelle donne le rythme au lecteur, physiquement.** Tourner plus vite,
       ralentir, revenir en arrière : le tempo de lecture passe dans la main. C'est
@@ -37,7 +37,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       Il faut une Playdate. Une console à deux cents euros, produite en séries
       limitées, pour lire une BD de vingt minutes — l'objet fait partie de
@@ -49,5 +49,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

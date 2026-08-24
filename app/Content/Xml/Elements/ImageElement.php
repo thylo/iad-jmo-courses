@@ -9,7 +9,7 @@ use App\Content\Xml\RenderContext;
 use App\Media\ImageTag;
 
 /**
- * <image src="unlock-detail.jpg" alt="…" legende="…" credit="…"/>
+ * <image src="unlock-detail.jpg" alt="…" caption="…" credit="…"/>
  *
  * The image that renders where it is written, as opposed to <visuel>, which is
  * a data field feeding the header and the indexes. Same attributes, plus a

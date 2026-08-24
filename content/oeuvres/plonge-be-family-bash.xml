@@ -7,11 +7,11 @@
 
   <resume>Jeu web qui accompagne une expérience de sensibilisation. Mélange jeu physique et interface web pour créer une expérience éducative collective.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Démontre comment le web peut servir d'interface pour des expériences éducatives collectives. Le numérique au service de la sensibilisation.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

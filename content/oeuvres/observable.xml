@@ -10,11 +10,11 @@
   <visuel src="observable.jpg"
           source="https://observablehq.com/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Rend la programmation de visualisations accessible et immédiate. Exploration de données devient création.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

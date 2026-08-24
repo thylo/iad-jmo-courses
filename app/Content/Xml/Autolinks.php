@@ -22,6 +22,10 @@ namespace App\Content\Xml;
  */
 final readonly class Autolinks
 {
+    public function __construct(
+        private ExternalLink $links,
+    ) {}
+
     /** <https://…>, the CommonMark form. */
     private const string BRACKETED = '~<(https?://[^\s<>]+)>~u';
 
@@ -34,7 +38,7 @@ final readonly class Autolinks
     /** Trailing punctuation that belongs to the sentence, not to the URL. */
     private const string TRAILING = '.,;:!?»…';
 
-    public static function expand(string $markdown): string
+    public function expand(string $markdown): string
     {
         [$markdown, $code] = CodeSpans::hide($markdown);
 
@@ -44,7 +48,7 @@ final readonly class Autolinks
             self::BRACKETED,
             $markdown,
             $held,
-            static fn (array $match): string => ExternalLink::html($match[1]),
+            fn (array $match): string => $this->links->html($match[1]),
         );
 
         $markdown = self::hold(
@@ -56,10 +60,10 @@ final readonly class Autolinks
 
         $markdown = preg_replace_callback(
             self::BARE,
-            static function (array $match): string {
+            function (array $match): string {
                 [$url, $tail] = self::split($match[1]);
 
-                return ExternalLink::html($url) . $tail;
+                return $this->links->html($url) . $tail;
             },
             $markdown,
         ) ?? $markdown;

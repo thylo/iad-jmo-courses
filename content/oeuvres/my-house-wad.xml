@@ -14,13 +14,13 @@
   <visuel src="my-house-wad.jpg"
           source="https://www.skritz.com/myhouse-wad/"/>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Fusion élégante de contraintes techniques Doom (téléportations silencieuses, portals GZDoom, lineportals) avec une narration psychologique profonde. La simplicité apparente du début (collecter des cartes de couleur) explose progressivement en zones surréalistes: daycare, bathhouse, brutalisme, airport. Pas d'interface HUD, automap noir, exploration pure. Plusieurs endings basés sur l'exploration et les artefacts collectés.
     </markdown>
   </section>
 
-  <section titre="Vue d'ensemble">
+  <section title="Vue d'ensemble">
     <markdown>
       **MyHouse.wad** est une **modification pour Doom II** créée par Steve Nelson (pseudonyme: Veddge) et Kaelan Evans, sortie le **3 mars 2023**. C'est une des expériences les plus ambitieuses de la communauté Doom: une maison résidentielle ordinaire qui se transforme progressivement en **labyrinthe architecturalement impossible et psychologiquement horrifique**.
 
@@ -28,7 +28,7 @@
     </markdown>
   </section>
 
-  <section titre="Contexte créatif">
+  <section title="Contexte créatif">
     <markdown>
       ### L'histoire derrière l'histoire
 
@@ -45,7 +45,7 @@
     </markdown>
   </section>
 
-  <section titre="Fonctionnement technique">
+  <section title="Fonctionnement technique">
     <markdown>
       ### Architecture mécanique de l'impossible
 
@@ -73,7 +73,7 @@
     </markdown>
   </section>
 
-  <section titre="Les zones narratives">
+  <section title="Les zones narratives">
     <markdown>
       ### Phase 1 : La maison ordinaire
 
@@ -101,7 +101,7 @@
     </markdown>
   </section>
 
-  <section titre="Thèmes narratifs profonds">
+  <section title="Thèmes narratifs profonds">
     <markdown>
       ### Le chagrin comme architecture
 
@@ -149,7 +149,7 @@
     </markdown>
   </section>
 
-  <section titre="Enjeux pédagogiques clés">
+  <section title="Enjeux pédagogiques clés">
     <markdown>
       ### 1. Le jeu vidéo comme médium littéraire
 
@@ -213,7 +213,7 @@
     </markdown>
   </section>
 
-  <section titre="Réception critique">
+  <section title="Réception critique">
     <markdown>
       - **Cacoward 2023** : Plus prestigieuse récompense de la communauté Doom
       - **Couverture académique** : Analysée comme adaptation littéraire en gaming
@@ -222,7 +222,7 @@
     </markdown>
   </section>
 
-  <section titre="Accès et installation">
+  <section title="Accès et installation">
     <markdown>
       - **Site officiel** : skritz.com/myhouse-wad/
       - **Plateforme** : Nécessite Doom II + GZDoom + fichier myhouse.pk3
@@ -231,7 +231,7 @@
     </markdown>
   </section>
 
-  <section titre="Pistes d'analyse">
+  <section title="Pistes d'analyse">
     <markdown>
       - Comment l'interface crée la narration
       - L'adaptation littéraire en jeu vidéo
@@ -244,7 +244,7 @@
     </markdown>
   </section>
 
-  <section titre="Ressources documentaires">
+  <section title="Ressources documentaires">
     <markdown>
       - **DoomWiki.org** : Documentation technique complète
       - **TV Tropes** : Analyse narrative
@@ -254,11 +254,11 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Exemplaire pour enseigner: (1) comment l'architecture virtuelle raconte une histoire psychologique, (2) les liminal spaces et creepypasta comme langage narratif du jeu vidéo, (3) l'adaptation de littérature (House of Leaves) en expérience interactive, (4) les contraintes techniques créatives (détourner les capacités de Doom), (5) le grief et le trauma comme substrat narratif.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

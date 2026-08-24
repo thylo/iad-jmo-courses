@@ -7,13 +7,15 @@
    wraps around it.
 
    It annotates what follows it: a float aligns with the top of the block after
-   it, so <marge> is written above the paragraph it comments. */
+   it, so <sidenote> is written above the paragraph it comments. */
 
 .c-sidenote {
+  --prose-step: var(--space-s);
+
   float: left;
   clear: left;
   /* One flow step, always — including as a first child, where the owl in
-     prose.css would give none. The block after the note gets the same step, so
+     canvas.css would give none. The block after the note gets the same step, so
      matching it is what puts the note's first line level with that block. */
   margin-block-start: var(--space-m);
   inline-size: var(--sidenote-width);
@@ -24,7 +26,8 @@
   text-wrap: pretty;
 }
 
-/* Its own paragraphs sit tighter than the body's — the note is one thought. */
+/* Its own paragraphs sit tighter than the body's — the note is one thought.
+   --prose-step above says the same to the prose it holds. */
 .c-sidenote > * + * { margin-block-start: var(--space-s); }
 
 /* Below the breakpoint there is no margin to float into. Tufte hides margin

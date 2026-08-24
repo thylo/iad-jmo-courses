@@ -12,7 +12,7 @@
   <visuel src="heredity.jpg"
           source="https://www.hereditygame.com/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       **Le sablier est un ordonnanceur.** Ce qu'on décide ne produit pas son effet
       tout de suite : on accroche un événement plus loin sur la frise, et il arrive.
@@ -53,7 +53,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       Le combat est punitif, et quand un personnage tombe, c'est le paquet Karma qui
       décide s'il meurt. Trois heures de décisions prudentes peuvent finir sur une
@@ -71,7 +71,7 @@
     </markdown>
   </section>
 
-  <note type="attention" titre="Pour la classe">
+  <note type="attention" title="Pour la classe">
     <markdown>
       *Heredity : Les Mioches* (2025) rejoue le premier chapitre en une heure, pour
       une dizaine d'euros. Mêmes mécaniques, même frise, ton plus léger. C'est la
@@ -79,5 +79,5 @@
     </markdown>
   </note>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

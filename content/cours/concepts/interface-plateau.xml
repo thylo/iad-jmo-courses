@@ -14,7 +14,7 @@
 
   <resume>Un jeu de plateau dont une partie de la logique vit dans une application. La bonne question n'est pas ce que l'app ajoute, mais ce qu'elle remplace.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       Des gens sont assis autour d'une table. Il y a du carton, des figurines, des
       cartes — et un téléphone ou une tablette qui tient une partie du jeu. L'app
@@ -33,7 +33,7 @@
     </markdown>
   </section>
 
-  <section titre="La seule question qui compte">
+  <section title="La seule question qui compte">
     <markdown>
       Devant chacun de ces jeux, posez la question dans ce sens-là :
 
@@ -50,7 +50,7 @@
     </markdown>
   </section>
 
-  <section titre="Deux tests">
+  <section title="Deux tests">
     <markdown>
       ```
       Sans app                       App-narrateur
@@ -81,7 +81,7 @@
     </markdown>
   </section>
 
-  <section titre="Trois usages">
+  <section title="Trois usages">
     <markdown>
       ### 1. Elle fait ce que le carton ne peut pas
 
@@ -163,7 +163,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui meurt, ce qui survit">
+  <section title="Ce qui meurt, ce qui survit">
     <markdown>
       Les objets des [[editions-volumiques|volumiques]] ne se jouent plus. Non pas
       parce qu'ils étaient trop tôt, mais parce qu'ils étaient **trop couplés au
@@ -187,7 +187,7 @@
     </markdown>
   </section>
 
-  <section titre="Et sans écran du tout">
+  <section title="Et sans écran du tout">
     <markdown>
       La question « qu'est-ce que l'application remplace ? » a une réponse extrême :
       rien, parce qu'il n'y en a pas. Trois jeux récents tiennent une charge
@@ -218,7 +218,7 @@
     </markdown>
   </section>
 
-  <section titre="Avantages">
+  <section title="Avantages">
     <markdown>
       - Le récit varie sans préparation : personne ne lit le scénario à l'avance
       - Aucun joueur n'est sacrifié au rôle d'arbitre
@@ -228,7 +228,7 @@
     </markdown>
   </section>
 
-  <section titre="Inconvénients">
+  <section title="Inconvénients">
     <markdown>
       - L'app ne lit pas la salle : elle déroule son texte, table endormie ou pas
       - Les regards migrent vers l'écran, et le jeu devient parallèle plutôt que collectif
@@ -239,7 +239,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand l'utiliser">
+  <section title="Quand l'utiliser">
     <markdown>
       - Quand la contrainte que vous voulez imposer n'existe pas sur du carton
         (temps réel, silence, information asymétrique)
@@ -250,7 +250,7 @@
     </markdown>
   </section>
 
-  <section titre="Pour votre projet">
+  <section title="Pour votre projet">
     <markdown>
       C'est le terrain le plus accessible du cours : une page web sur un téléphone,
       posée à côté d'objets réels. Pas d'app store, pas d'installation, une URL.
@@ -272,5 +272,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

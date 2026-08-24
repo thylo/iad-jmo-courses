@@ -4,16 +4,16 @@ declare(strict_types=1);
 
 namespace App\Content\Xml\Elements;
 
+use App\Content\Html;
 use App\Content\Xml\ContentIndex;
 use App\Content\Xml\ElementRenderer;
-use App\Content\Xml\EntityLink;
-use App\Content\Html;
 use App\Content\Xml\RenderContext;
 use App\Content\Xml\XmlSource;
 use App\Media\ImageTag;
+use App\View\Component;
 
 /**
- * <index de="oeuvre" ou="par = self" tri="annee"/>
+ * <grid of="oeuvre" where="par = self" sort="-annee"/>
  *
  * The derived block: a page states what it wants to show, not what it shows.
  * A studio page never names its works — the works name the studio, and this
@@ -21,38 +21,36 @@ use App\Media\ImageTag;
  *
  * The predicate is deliberately minimal: `field = value`, where value may be
  * the keyword `self`. No query language until a real need shows up.
+ *
+ * This answers the query and stops there: what an entry looks like is in
+ * views/x-grid.view.php. The tree walk cannot be a view component — Tempest
+ * expands those at compile time, and NodeRenderer says why — but a flat list
+ * of entries can, so it is one.
  */
-final readonly class IndexElement implements ElementRenderer
+final readonly class GridElement implements ElementRenderer
 {
     public function __construct(
         private ImageTag $images,
+        private Component $components,
     ) {}
 
     public function render(\Dom\Element $element, RenderContext $context): string
     {
-        $type = Html::attribute($element, 'de');
-        $entries = $type !== '' ? $context->index->ofType($type) : [];
-        $entries = $this->filter($entries, Html::attribute($element, 'ou'), $context->source);
-        $entries = $this->sort($entries, Html::attribute($element, 'tri'));
+        $type = Html::attribute($element, 'of');
+        $found = $type !== '' ? $context->index->ofType($type) : [];
+        $found = $this->filter($found, Html::attribute($element, 'where'), $context->source);
+        $found = $this->sort($found, Html::attribute($element, 'sort'));
 
-        if ($entries === []) {
-            return '<p class="index-vide">Rien pour l’instant.</p>';
-        }
+        $entries = array_map(
+            fn (XmlSource $source): GridEntry => $this->entry($source, $context->index),
+            $found,
+        );
 
-        $items = '';
-        $illustrated = false;
-
-        foreach ($entries as $entry) {
-            $thumbnail = $this->images->thumbnail($entry);
-            $illustrated = $illustrated || $thumbnail !== '';
-
-            $items .= sprintf('<li>%s%s</li>', $thumbnail, $this->line($entry, $context->index));
-        }
-
-        // The grid arrives with the images. An index of concepts, or one whose
-        // works have no image yet, stays the list it has always been — so a
-        // half-illustrated corpus never renders as a grid of holes.
-        return sprintf('<ul class="index%s">%s</ul>', $illustrated ? ' index--vignettes' : '', $items);
+        return $this->components->render(
+            'x-grid',
+            entries: $entries,
+            thumbnails: array_any($entries, static fn (GridEntry $entry): bool => $entry->hasImage()),
+        );
     }
 
     /**
@@ -103,21 +101,22 @@ final readonly class IndexElement implements ElementRenderer
         return $descending ? array_reverse($entries) : $entries;
     }
 
-    private function line(XmlSource $entry, ContentIndex $index): string
+    /**
+     * An entry always resolves: it came out of the index, so it has a slug.
+     * The unresolved case belongs to EntityLink, which serves the prose, where
+     * you can name an entity before it exists.
+     */
+    private function entry(XmlSource $source, ContentIndex $index): GridEntry
     {
-        $link = EntityLink::html($index, $entry->id);
+        $meta = array_filter([$source->value('annee'), $this->creators($source, $index)]);
 
-        $meta = array_filter([$entry->value('annee'), $this->creators($entry, $index)]);
-
-        if ($meta !== []) {
-            $link .= sprintf(' <span class="meta">%s</span>', Html::escape(implode(', ', $meta)));
-        }
-
-        if ($entry->summary !== null) {
-            $link .= ' — ' . Html::escape($entry->summary);
-        }
-
-        return $link;
+        return new GridEntry(
+            title: $source->title,
+            href: $source->slug,
+            meta: $meta === [] ? null : implode(', ', $meta),
+            summary: $source->summary,
+            thumbnail: $this->images->thumbnail($source),
+        );
     }
 
     private function creators(XmlSource $entry, ContentIndex $index): ?string

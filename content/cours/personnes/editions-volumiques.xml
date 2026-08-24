@@ -23,7 +23,7 @@
     1993. Un graphiste et un informaticien : ça se voit dans le travail.
   </markdown>
 
-  <section titre="L'invention">
+  <section title="L'invention">
     <markdown>
       Leur trouvaille technique est simple et jolie : une dalle tactile ne
       distingue pas un doigt d'autre chose de conducteur. En imprimant sur du
@@ -39,7 +39,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qu'ils ont fabriqué">
+  <section title="Ce qu'ils ont fabriqué">
     <markdown>
       *Le Labyrinthe aux fantômes* : une figurine posée sur l'écran, un plateau de
       papier par-dessus, des enfants autour.
@@ -59,7 +59,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui a pris, ce qui n'a pas pris">
+  <section title="Ce qui a pris, ce qui n'a pas pris">
     <markdown>
       Les objets, non. Un livre-plateforme est calibré au millimètre pour l'écran
       d'un téléphone d'une année donnée : écran plus grand, l'objet ne tombe plus
@@ -70,5 +70,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </personne>

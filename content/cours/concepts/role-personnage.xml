@@ -11,7 +11,7 @@
 
   <resume>L'utilisateur incarne un personnage de l'histoire et prend des décisions qui affectent ce personnage et le récit.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       Le rôle de personnage place le public au cœur du récit. Il incarne un personnage dont il dirige les actions et les décisions. Les autres personnages le voient et réagissent à lui. C'est le rôle d'immersion maximale dans l'univers narratif.
 
@@ -32,7 +32,7 @@
     </markdown>
   </section>
 
-  <section titre="La métaphore cinématographique">
+  <section title="La métaphore cinématographique">
     <markdown>
       Être l'**acteur principal** dont vous dirigez les actions dans un scénario existant.
 
@@ -40,7 +40,7 @@
     </markdown>
   </section>
 
-  <section titre="Pouvoir du public">
+  <section title="Pouvoir du public">
     <markdown>
       L'interactivité du personnage repose sur :
 
@@ -51,7 +51,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce que le personnage CAN faire">
+  <section title="Ce que le personnage CAN faire">
     <markdown>
       - Influencer le cours des événements
       - Changer ses relations avec d'autres personnages
@@ -60,7 +60,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce que le personnage ne peut PAS faire">
+  <section title="Ce que le personnage ne peut PAS faire">
     <markdown>
       - Sortir de son rôle défini
       - Changer fondamentalement l'univers
@@ -68,7 +68,7 @@
     </markdown>
   </section>
 
-  <section titre="Intention créative">
+  <section title="Intention créative">
     <markdown>
       **Je veux que le public :**
 
@@ -80,7 +80,7 @@
     </markdown>
   </section>
 
-  <section titre="Adapté pour">
+  <section title="Adapté pour">
     <markdown>
       - Jeux narratifs
       - Films interactifs
@@ -90,7 +90,7 @@
     </markdown>
   </section>
 
-  <section titre="Avantages">
+  <section title="Avantages">
     <markdown>
       - Immersion émotionnelle profonde
       - Agentivité réelle du public
@@ -100,7 +100,7 @@
     </markdown>
   </section>
 
-  <section titre="Inconvénients">
+  <section title="Inconvénients">
     <markdown>
       - Production de contenu complexe (branches narratives)
       - Risque de faux choix (l'illusion sans conséquence)
@@ -110,7 +110,7 @@
     </markdown>
   </section>
 
-  <section titre="Design d'interface">
+  <section title="Design d'interface">
     <markdown>
       L'interface d'un personnage est typiquement :
 
@@ -122,7 +122,7 @@
     </markdown>
   </section>
 
-  <section titre="Exemples détaillés">
+  <section title="Exemples détaillés">
     <markdown>
       ### Lifeline (2015)
 
@@ -154,7 +154,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand choisir le rôle de personnage ?">
+  <section title="Quand choisir le rôle de personnage ?">
     <markdown>
       - ✅ Vous racontez une histoire **personnelle** ou **morale**
       - ✅ L'engagement émotionnel est votre priorité
@@ -164,7 +164,7 @@
     </markdown>
   </section>
 
-  <section titre="Combinaisons courantes">
+  <section title="Combinaisons courantes">
     <markdown>
       Le rôle de personnage s'associe bien avec :
 
@@ -174,7 +174,7 @@
     </markdown>
   </section>
 
-  <section titre="Variantes du rôle de personnage">
+  <section title="Variantes du rôle de personnage">
     <markdown>
       ### Personnage fixe
       Vous incarnez un personnage avec une identité prédéfinie (nom, passé).
@@ -193,7 +193,7 @@
     </markdown>
   </section>
 
-  <section titre="Gestion des attentes">
+  <section title="Gestion des attentes">
     <markdown>
       Le piège majeur : **les faux choix** où vos décisions ne changent rien.
 
@@ -205,7 +205,7 @@
     </markdown>
   </section>
 
-  <section titre="Distinction importante">
+  <section title="Distinction importante">
     <markdown>
       **Rôle du public ≠ Forme d'interactivité**
 
@@ -222,5 +222,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

@@ -5,7 +5,7 @@
    Only long pages get one at all; see DocumentView::hasToc(). */
 
 .c-toc {
-  --trait: var(--trait-3);
+  --rule: var(--rule-3);
   margin-block-end: var(--space-xl);
 }
 

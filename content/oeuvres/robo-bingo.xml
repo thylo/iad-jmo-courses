@@ -7,17 +7,17 @@
 
   <resume>Bingo détourné où les joueurs utilisent leur smartphone au lieu de cartons physiques. Commence comme du bingo classique mais évolue vers des mini-jeux absurdes : aider le robot bingo à capturer des grenouilles, naviguer dans des labyrinthes, etc. L'interface mobile devient progressivement plus ex...</resume>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Bingo détourné où les joueurs utilisent leur smartphone au lieu de cartons physiques. Commence comme du bingo classique mais évolue vers des mini-jeux absurdes : aider le robot bingo à capturer des grenouilles, naviguer dans des labyrinthes, etc. L'interface mobile devient progressivement plus expérimentale.
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Subvertit un format rigide (bingo) en spectacle interactif évolutif. Démontre qu'on peut partir d'une mécanique familière pour amener le public vers des interactions surprenantes. Auto-décrit comme "bingo pour introvertis".
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

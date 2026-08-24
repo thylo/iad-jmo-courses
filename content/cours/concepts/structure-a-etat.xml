@@ -7,7 +7,7 @@
 
   <resume>Le récit ne retient pas un chemin, mais des faits : où vous êtes passé, ce que vous portez, qui est mort. Chaque scène se réécrit selon ce qui est vrai au moment où on l'atteint.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       Dans un [[structure-embranchements|arbre]], la mémoire est dans la position :
       « vous êtes dans la branche 3-B », et tout ce que vous avez fait avant est
@@ -29,7 +29,7 @@
     </markdown>
   </section>
 
-  <section titre="Interaction">
+  <section title="Interaction">
     <markdown>
       Explorer, prendre, casser, revenir. Le public décide de l'ordre. Le texte,
       lui, doit rester juste quel que soit cet ordre : il vérifie l'état avant de
@@ -37,7 +37,7 @@
     </markdown>
   </section>
 
-  <section titre="Schéma">
+  <section title="Schéma">
     <markdown>
       ```
       État courant
@@ -56,7 +56,7 @@
     </markdown>
   </section>
 
-  <section titre="L'exemple : inkle">
+  <section title="L'exemple : inkle">
     <markdown>
       Le studio [[inkle]] a poussé ce principe plus loin que quiconque en fiction
       commerciale.
@@ -81,7 +81,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qu'en dit Jon Ingold">
+  <section title="Ce qu'en dit Jon Ingold">
     <markdown>
       [[jon-ingold]], cofondateur d'[[inkle]], a exposé la méthode dans une conférence à la
       GDC 2017, [*Narrative Sorcery: Coherent Storytelling in an Open
@@ -102,7 +102,7 @@
     </markdown>
   </section>
 
-  <section titre="Avantages">
+  <section title="Avantages">
     <markdown>
       - **Production linéaire, pas exponentielle** : on ajoute des faits, pas des
         branches. Cinq variables, ce n'est pas trente-deux fins à écrire.
@@ -113,7 +113,7 @@
     </markdown>
   </section>
 
-  <section titre="Inconvénients">
+  <section title="Inconvénients">
     <markdown>
       - La combinatoire ne disparaît pas, elle se déplace dans le **test** : on ne
         peut plus jouer tous les états possibles
@@ -125,7 +125,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand l'utiliser">
+  <section title="Quand l'utiliser">
     <markdown>
       - Mondes ouverts, récits de voyage, enquêtes
       - Quand l'ordre de découverte doit vraiment appartenir au public
@@ -134,7 +134,7 @@
     </markdown>
   </section>
 
-  <section titre="Variantes">
+  <section title="Variantes">
     <markdown>
       - **Inventaire** : l'état, ce sont des objets qu'on porte
       - **Mémoire des lieux** : première visite / retour
@@ -145,7 +145,7 @@
     </markdown>
   </section>
 
-  <section titre="Erreurs courantes">
+  <section title="Erreurs courantes">
     <markdown>
       - Écrire un texte qui suppose un ordre : le villageois qui annonce un loup
         déjà mort
@@ -156,7 +156,7 @@
     </markdown>
   </section>
 
-  <section titre="Pour votre projet">
+  <section title="Pour votre projet">
     <markdown>
       Trois variables suffisent. Vraiment.
 
@@ -169,5 +169,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

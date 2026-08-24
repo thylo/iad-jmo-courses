@@ -6,7 +6,7 @@
 
   <resume>Présentation en grille ou galerie explorable. L'utilisateur choisit son point d'entrée.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       L'interface galerie présente un ensemble d'options visuelles (vignettes, cartes, objets) sous forme de grille. L'utilisateur choisit son point d'entrée, contrôlant l'ordre et le rythme de découverte.
 
@@ -19,7 +19,7 @@
     </markdown>
   </section>
 
-  <section titre="Intérêt narratif">
+  <section title="Intérêt narratif">
     <markdown>
       - **Permet expériences courtes et modulaires**
       - **Donne contrôle de l'ordre de découverte**
@@ -28,7 +28,7 @@
     </markdown>
   </section>
 
-  <section titre="Enjeux et risques">
+  <section title="Enjeux et risques">
     <markdown>
       - **Risque de simple "menu avec images"** (pas de narration)
       - **Trop de choix simultanés = paralysie** (choice overload)
@@ -37,7 +37,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand utiliser galeries ?">
+  <section title="Quand utiliser galeries ?">
     <markdown>
       - ✅ Votre histoire est modulaire (épisodes, chapitres)
       - ✅ L'ordre de découverte ne dérange pas
@@ -46,7 +46,7 @@
     </markdown>
   </section>
 
-  <section titre="Design">
+  <section title="Design">
     <markdown>
       ### Arrangement visuel
 
@@ -78,7 +78,7 @@
     </markdown>
   </section>
 
-  <section titre="Exemples (à développer)">
+  <section title="Exemples (à développer)">
     <markdown>
       ### The {} And (2015)
 
@@ -100,7 +100,7 @@
     </markdown>
   </section>
 
-  <section titre="Variantes">
+  <section title="Variantes">
     <markdown>
       ### Grille carrée
       Arrangement régulier 2x2, 3x3, etc.
@@ -128,7 +128,7 @@
     </markdown>
   </section>
 
-  <section titre="Combinaisons avec autres interfaces">
+  <section title="Combinaisons avec autres interfaces">
     <markdown>
       **Galeries + Point-and-Click**
 
@@ -142,7 +142,7 @@
     </markdown>
   </section>
 
-  <section titre="Bonnes pratiques">
+  <section title="Bonnes pratiques">
     <markdown>
       1. **Visuels clairs** : Chaque vignette parle d'elle-même
       2. **Équilibre** : Pas un module qui domine
@@ -152,7 +152,7 @@
     </markdown>
   </section>
 
-  <section titre="Risques courants">
+  <section title="Risques courants">
     <markdown>
       ❌ **Simple menu avec images** : Pas de narration
       ❌ **Trop de modules** : Paralysie du choix
@@ -162,7 +162,7 @@
     </markdown>
   </section>
 
-  <section titre="Solutions">
+  <section title="Solutions">
     <markdown>
       ✅ Narration dans la structure de la galerie
       ✅ Limiter à 6-9 modules
@@ -172,5 +172,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

@@ -6,11 +6,11 @@
 
   <resume>100 façons différentes et créatives d'interagir avec un simple bouton. Secouer, double-cliquer, rester appuyé, tracer un cercle autour, etc. Célèbre la microinteraction.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Prouve qu'on peut créer une expérience riche et variée avec l'élément d'interface le plus basique. L'interaction devient le jeu.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

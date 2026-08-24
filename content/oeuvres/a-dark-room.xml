@@ -10,11 +10,11 @@
   <visuel src="a-dark-room.jpg"
           source="https://adarkroom.doublespeakgames.com/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Prouve qu'on peut créer une expérience narrative captivante avec presque rien visuellement.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

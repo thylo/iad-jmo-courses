@@ -7,11 +7,11 @@
 
   <resume>Bibliothèque JavaScript pour créer des générateurs de texte basés sur des grammaires. Utilisée pour créer des bots Twitter, des générateurs de noms, des histoires procédurales.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Outil simple mais puissant pour créer des narrations génératives infinies. La contrainte grammaticale crée de la variété.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

@@ -10,7 +10,7 @@
 
   <resume>Choix permettant de découvrir du contenu supplémentaire sans changer le fil principal du récit.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       Le choix exploratoire permet de découvrir des détails, des annexes, des bonus, sans modifier la structure narrative principale. Le fil central reste identique pour tous. C'est comme les bonus d'un DVD : vous apprenez des choses, mais le film reste le même.
 
@@ -24,7 +24,7 @@
     </markdown>
   </section>
 
-  <section titre="La métaphore cinématographique">
+  <section title="La métaphore cinématographique">
     <markdown>
       Les **bonus d'un DVD** : vous apprenez des choses sur le making-of, mais le film reste le même.
 
@@ -32,7 +32,7 @@
     </markdown>
   </section>
 
-  <section titre="Intention créative">
+  <section title="Intention créative">
     <markdown>
       **Je veux que le public :**
 
@@ -43,7 +43,7 @@
     </markdown>
   </section>
 
-  <section titre="Avantages">
+  <section title="Avantages">
     <markdown>
       - Pas d'explosion combinatoire
       - Production contrôlée
@@ -53,7 +53,7 @@
     </markdown>
   </section>
 
-  <section titre="Inconvénients">
+  <section title="Inconvénients">
     <markdown>
       - Sentiment d'agentivité limité
       - Public peut se sentir passif
@@ -62,7 +62,7 @@
     </markdown>
   </section>
 
-  <section titre="Exemples détaillés">
+  <section title="Exemples détaillés">
     <markdown>
       ### Hors-Jeu (2016)
 
@@ -87,7 +87,7 @@
     </markdown>
   </section>
 
-  <section titre="Types de contenu exploratoire">
+  <section title="Types de contenu exploratoire">
     <markdown>
       ### Détails contextuels
 
@@ -115,7 +115,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand utiliser choix exploratoire ?">
+  <section title="Quand utiliser choix exploratoire ?">
     <markdown>
       - ✅ Vous racontez une histoire linéaire
       - ✅ Vous voulez richesse de détails
@@ -125,7 +125,7 @@
     </markdown>
   </section>
 
-  <section titre="Gestion des attentes">
+  <section title="Gestion des attentes">
     <markdown>
       Être **honnête** avec le public :
 
@@ -135,7 +135,7 @@
     </markdown>
   </section>
 
-  <section titre="Structure narrative recommandée">
+  <section title="Structure narrative recommandée">
     <markdown>
       ```
       Découverte exploratoire
@@ -153,7 +153,7 @@
     </markdown>
   </section>
 
-  <section titre="Distinction importante">
+  <section title="Distinction importante">
     <markdown>
       **Choix exploratoire ≠ Passivité**
 
@@ -165,7 +165,7 @@
     </markdown>
   </section>
 
-  <section titre="Bonnes pratiques">
+  <section title="Bonnes pratiques">
     <markdown>
       1. **Contenu riche** : L'exploration doit valoir la peine
       2. **Clarté** : Public sait que ce sont des détails
@@ -175,7 +175,7 @@
     </markdown>
   </section>
 
-  <section titre="Risques courants">
+  <section title="Risques courants">
     <markdown>
       ❌ **Contenu faible** : Détails peu intéressants
       ❌ **Confusion** : Utilisateur pense que c'est rationnel
@@ -185,7 +185,7 @@
     </markdown>
   </section>
 
-  <section titre="Solutions">
+  <section title="Solutions">
     <markdown>
       ✅ Détails narrativement riche
       ✅ Signaler la nature exploratoire
@@ -195,7 +195,7 @@
     </markdown>
   </section>
 
-  <section titre="Relation avec les structures narratives">
+  <section title="Relation avec les structures narratives">
     <markdown>
       Le choix exploratoire s'associe bien avec :
 
@@ -205,5 +205,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

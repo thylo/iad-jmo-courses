@@ -11,7 +11,7 @@
   <visuel src="le-silence-de-claire-lagrange.jpg"
           source="https://compagniedelabetenoire.be/spectacles/le-silence-de-claire-lagrange"/>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Le dispositif est simple et assumé : des figurines Playmobil, une maquette, une
       caméra, deux comédiennes. La distance du jouet rend racontable ce qui ne l'est
@@ -26,7 +26,7 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Démonstration nette qu'un dispositif minimal et pauvre en moyens peut porter un
       récit dense. Utile comme contre-exemple au réflexe « il me faut de gros moyens
@@ -38,7 +38,7 @@
     </markdown>
   </section>
 
-  <section titre="Voir">
+  <section title="Voir">
     <markdown>
       - Fiche de la compagnie : &lt;https://compagniedelabetenoire.be/spectacles/le-silence-de-claire-lagrange&gt;
       - Le Vilar, Louvain-la-Neuve (Théâtre Blocry, avril 2026) : &lt;https://levilar.be/la-saison/lagrange/&gt;
@@ -50,5 +50,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

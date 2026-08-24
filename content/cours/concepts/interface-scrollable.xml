@@ -13,7 +13,7 @@
 
   <resume>L'utilisateur fait défiler verticalement ou horizontalement une séquence d'animations et d'événements.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       L'interface scrollable invite l'utilisateur à faire défiler une séquence linéaire. Le mouvement est vertical ou horizontal, créant une chorégraphie précise de contenus. C'est un geste naturel et quasi-inconscient qui donne l'illusion d'une lecture contrôlée.
 
@@ -26,7 +26,7 @@
     </markdown>
   </section>
 
-  <section titre="Intérêt narratif">
+  <section title="Intérêt narratif">
     <markdown>
       - **Chorégraphie précise** : Comme un montage cinématographique
       - **Contrôle du rythme** : L'utilisateur décide du tempo
@@ -34,7 +34,7 @@
     </markdown>
   </section>
 
-  <section titre="Enjeux et risques">
+  <section title="Enjeux et risques">
     <markdown>
       - **Fatigue oculaire** si trop long
       - **Fluidité technique requise** : Les bugs sont visibles
@@ -43,7 +43,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand utiliser scrollable ?">
+  <section title="Quand utiliser scrollable ?">
     <markdown>
       - ✅ Vous racontez une histoire linéaire
       - ✅ Vous voulez une chorégraphie visuelle précise
@@ -52,7 +52,7 @@
     </markdown>
   </section>
 
-  <section titre="Design">
+  <section title="Design">
     <markdown>
       ### Sensation de contrôle
 
@@ -80,7 +80,7 @@
     </markdown>
   </section>
 
-  <section titre="Exemples détaillés">
+  <section title="Exemples détaillés">
     <markdown>
       ### Phallaina (2016)
 
@@ -112,7 +112,7 @@
     </markdown>
   </section>
 
-  <section titre="Variantes">
+  <section title="Variantes">
     <markdown>
       ### Scroll vertical
       L'utilisateur scroll de haut en bas.
@@ -140,7 +140,7 @@
     </markdown>
   </section>
 
-  <section titre="Combinaisons avec autres interfaces">
+  <section title="Combinaisons avec autres interfaces">
     <markdown>
       **Scrollable + Point-and-Click**
 
@@ -154,7 +154,7 @@
     </markdown>
   </section>
 
-  <section titre="Bonnes pratiques">
+  <section title="Bonnes pratiques">
     <markdown>
       1. **Fluidité absolue** : Tout lag détruit l'expérience
       2. **Progression visible** : Savoir où on en est
@@ -164,7 +164,7 @@
     </markdown>
   </section>
 
-  <section titre="Risques courants">
+  <section title="Risques courants">
     <markdown>
       ❌ **Lag/Saccades** : Tue l'immersion
       ❌ **Trop long** : Fatigue oculaire
@@ -174,7 +174,7 @@
     </markdown>
   </section>
 
-  <section titre="Solutions">
+  <section title="Solutions">
     <markdown>
       ✅ Tester performance intensément
       ✅ Ajouter progress bar
@@ -184,5 +184,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

@@ -13,11 +13,13 @@
         </p>
     </div>
 
-    <article class="c-prose o-canvas__lecture">
-        <p>
-            Les sections du site sont en haut de page. Si le lien qui vous a
-            amené ici venait d'ici, l'erreur est de mon côté :
-            <a href="mailto:julien@thylo.be">julien@thylo.be</a>.
-        </p>
+    <article class="o-canvas__reading">
+        <div class="c-prose">
+            <p>
+                Les sections du site sont en haut de page. Si le lien qui vous a
+                amené ici venait d'ici, l'erreur est de mon côté :
+                <a href="mailto:julien@thylo.be">julien@thylo.be</a>.
+            </p>
+        </div>
     </article>
 </x-base>

@@ -16,7 +16,7 @@
 
   <voir ref="click-click-click"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Démontre qu'une contrainte crée l'engagement. Sans l'interdit, le canvas
       partagé serait vide ; avec lui, la censure algorithmique devient le jeu.
@@ -26,5 +26,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

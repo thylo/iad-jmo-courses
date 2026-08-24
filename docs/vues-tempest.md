@@ -217,14 +217,67 @@ app/
 └── main.entrypoint.css              découvert par Vite
 views/
 ├── x-base.view.php                  override du x-base du framework
-├── x-masthead.view.php
+├── x-masthead.view.php              le cadre : entête, sommaire, pied
 ├── x-toc.view.php
 ├── x-colophon.view.php
-├── x-document.view.php              le corps commun, avec ses deux slots
+├── x-document.view.php              le corps commun, avec ses slots
+├── x-entity.view.php                une page : titre, résumé, fiche, corps
+├── x-facts.view.php
+├── x-prose.view.php                 les blocs du vocabulaire XML : un
+├── x-section.view.php               composant par balise, plus ceux que
+├── x-note.view.php                  les blocs composent entre eux
+├── x-sidenote.view.php
+├── x-list.view.php
+├── x-list-item.view.php
+├── x-grid.view.php
+├── x-backlinks.view.php
+├── x-destinations.view.php
+├── x-destination.view.php
+├── x-video.view.php
+├── x-figure.view.php                l'image et ce qu'on doit à qui l'a faite
+├── x-image.view.php
+├── x-credit.view.php
+├── x-link.view.php                  les feuilles : un lien, un texte
+├── x-external-link.view.php
+├── x-transclusion.view.php
+├── x-text.view.php
 ├── document.view.php                mise en page « document »
 ├── home.view.php                    mise en page « home »
 └── not-found.view.php               le 404
 ```
+
+## Rendre un composant depuis du PHP
+
+La couche contenu produit une chaîne : elle parcourt un arbre, et un composant
+qui se rendrait lui-même ne terminerait jamais — Tempest les développe à la
+compilation. Mais aucune classe n'écrit de balise. `App\View\Component` est la
+seule porte entre les deux :
+
+```php
+return $this->components->render('x-note', type: $type, title: $title, body: $body);
+```
+
+Un renderer d'élément répond ce qu'il veut montrer ; le `.view.php` décide de
+quoi ça a l'air. Trois conséquences :
+
+- **Pas d'échappement en PHP.** `{{ }}` s'en charge. `App\Content\Html` n'a plus
+  de méthode `escape()` : plus personne n'en avait besoin.
+- **Un composant rendu par son chemin, pas appelé par sa balise.** L'appelant est
+  du PHP qui attend une chaîne. `<x-credit/>` dans `x-figure` reste possible :
+  entre templates, la balise marche normalement.
+- **Coût mesuré** : 0,05 ms par rendu avec `VIEW_CACHE=true`, 0,5 ms sans. La
+  page la plus lourde du site — 141 entrées, autant de vignettes — passe de
+  155 ms à 55 ms selon le cache. Attention : le cache de vues est indexé sur le
+  chemin, pas sur la date du fichier. Modifier un template avec `VIEW_CACHE=true`
+  ne se voit qu'après un vidage.
+
+Deux pièges de gabarit, tous deux vérifiés plutôt que supposés :
+
+- `:attribut="…"` disparaît quand la valeur est vide, ce qui efface un `alt=""`
+  voulu. Un attribut ordinaire avec `{{ }}` le garde — voir `x-image`.
+- Un `:if` **dans** une ligne de texte y insère un retour à la ligne. Le titre
+  accentué de `x-entity` est écrit deux fois pour ça : un accent qui commence au
+  milieu d'un mot se lirait sinon avec une espace dedans.
 
 La mise en page n'est pas choisie par le code : la page la déclare, avec
 `layout="home"` sur la racine du fichier XML — voir [le format](/docs/format-xml).

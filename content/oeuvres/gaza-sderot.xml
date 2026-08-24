@@ -1,21 +1,54 @@
-<oeuvre id="gaza-sderot" statut="hors-ligne">
-  <titre>Gaza / Sderot</titre>
+<oeuvre id="gaza-sderot" statut="archive">
+  <titre>Gaza / Sderot — La vie malgré tout</titre>
   <annee>2008</annee>
   <par ref="arte"/>
+  <par ref="upian"/>
+  <par>Bo Travail !</par>
+  <par>Alma Films</par>
   <par>Trabelsi Productions</par>
-  <url>https://www.ina.fr/ina-eclaire-actu/gaza-sderot</url>
+  <par>Ramattan Studios</par>
+  <url>http://gaza-sderot.arte.tv/</url>
   <categorie>Documentaire</categorie>
 
-  <resume>Deux villes, deux perspectives du conflit israélo-palestinien. Écrans partagés permettant de basculer entre les témoignages quotidiens des deux côtés. Structure parallèle exemplaire.</resume>
+  <resume>Deux villes distantes de trois kilomètres, de part et d'autre de la frontière. Chaque jour, une équipe palestinienne à Gaza et une équipe israélienne à Sderot filment une chronique de deux minutes ; les deux vidéos du jour se regardent côte à côte. Six habitants d'un côté, six de l'autre, suivis du 26 octobre au 23 décembre 2008 — quarante épisodes, quatre-vingts vidéos. Prix Europa 2008.</resume>
 
   <visuel src="gaza-sderot.jpg"
-          source="https://www.ina.fr/ina-eclaire-actu/gaza-sderot"/>
+          source="http://gaza-sderot.arte.tv/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
-      Démontre comment l'interface peut matérialiser la complexité d'un conflit. Le spectateur construit sa propre compréhension en naviguant entre les points de vue.
+      **L'écran partagé est l'argument.** Aucun commentaire ne dit « les deux
+      camps se ressemblent » : c'est le montage côte à côte qui le fait, et le
+      spectateur en tire lui-même la conclusion. Voir
+      [[interface-split-screen]].
+
+      **Quatre entrées dans le même corpus.** Le temps, les gens, les lieux, les
+      thèmes : quatre façons de traverser les mêmes quatre-vingts vidéos. On
+      choisit ce qui nous intéresse — chronologie, personne, géographie ou sujet
+      — sans qu'aucune ne soit la bonne.
+
+      **Publié au jour le jour.** Le projet a été diffusé pendant qu'il se
+      tournait, cinq jours par semaine, sans savoir ce qui arriverait. Le web
+      permet une forme documentaire que le film fini ne permet pas.
+
+      **Coproduire de part et d'autre d'une frontière fermée.** Deux équipes qui
+      ne peuvent pas se rencontrer, un tiers en France pour tenir l'ensemble.
+      La contrainte politique est devenue la structure de l'œuvre.
     </markdown>
   </section>
 
-  <retroliens/>
+  <section title="Ce qui coince">
+    <markdown>
+      Le lecteur était en Flash. Fin 2020, Flash est mort et l'interface avec :
+      le site est toujours debout, mais il s'ouvre sur un message d'excuses et un
+      renvoi vers des solutions de repli. Le contenu existe, la forme non — et
+      c'était la forme qui portait le propos.
+
+      Sur le fond, à discuter en cours : la symétrie du dispositif met les deux
+      villes sur le même plan. C'est ce qui rend le projet possible, et c'est
+      aussi ce qu'on peut lui reprocher.
+    </markdown>
+  </section>
+
+  <backlinks/>
 </oeuvre>

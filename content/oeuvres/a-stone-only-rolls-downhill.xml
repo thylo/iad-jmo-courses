@@ -16,13 +16,13 @@
   <visuel src="a-stone-only-rolls-downhill.jpg"
           source="https://okgo.net/2025/02/14/a-stone-only-rolls-downhill/"/>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Innovation technique majeure: 2h20min de contenu filmé sur 64 téléphones condensé en 4 minutes finales via 1000+ prises sur 8 jours. L'approche 'hardware DIY' (sans composition numérique) rend la coordination des images visible et tangible. Chaque téléphone représente une couche narrative autonome mais coordonnée, créant une métaphore visuelle puissante de la multiplicité interne.
     </markdown>
   </section>
 
-  <section titre="Approche Technique">
+  <section title="Approche Technique">
     <markdown>
       OK Go a créé ce clip en tournant **une vidéo distincte pour chacun des 64 téléphones**, plutôt que d'utiliser des effets numériques ou de la composition digitale. Les 64 vidéos ont ensuite été arrangées côte à côte sur un sol en béton, créant une mosaïque d'écrans.
 
@@ -30,13 +30,13 @@
     </markdown>
   </section>
 
-  <section titre="Concept Thématique">
+  <section title="Concept Thématique">
     <markdown>
       Le clip visualise la complexité psychologique interne — *"les nombreuses parties contradictoires de nous-mêmes combattant pour se coalescer comme un tout unique"*. C'est particulièrement pertinent pour le contexte de la chanson : rester optimiste dans une période difficile tout en reconnaissant les conflits internes.
     </markdown>
   </section>
 
-  <section titre="Processus de Production">
+  <section title="Processus de Production">
     <markdown>
       - **Durée totale de tournage**: 8 jours
       - **Nombre de prises**: 1000+
@@ -48,11 +48,11 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Exemplaire pour enseigner les récits menés en parallèle, et l'interface comme forme narrative à part entière. Cas d'école de transformation des contraintes techniques en opportunités créatives. Démontre comment les smartphones peuvent être des médiums créatifs professionnels. Visualise des concepts abstraits via technologie tangible et observable.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

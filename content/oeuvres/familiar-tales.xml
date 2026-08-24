@@ -10,7 +10,7 @@
   <visuel src="familiar-tales.jpg"
           source="https://www.familiartalesgame.com/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       C'est un cas où l'application abaisse vraiment une barrière. Pas de livret de
       règles à lire avant de commencer, personne à recruter pour tenir le rôle du
@@ -20,7 +20,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       Elle tient aussi la narration, et là le compte n'y est plus.
 
@@ -35,5 +35,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

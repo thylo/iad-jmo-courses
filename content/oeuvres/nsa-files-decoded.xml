@@ -10,11 +10,11 @@
   <visuel src="nsa-files-decoded.jpg"
           source="https://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Pionnier du data journalism interactif. Démontre comment rendre accessibles des informations techniques complexes via l'interactivité et la visualisation de données.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

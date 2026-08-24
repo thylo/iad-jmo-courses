@@ -14,13 +14,13 @@
   <visuel src="uncle-roy-all-around-you.jpg"
           source="https://www.blasttheory.co.uk/projects/uncle-roy-all-around-you/"/>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Fusion innovante du jeu, de la performance théâtrale et de la narration interactive. Mélange vécu physique urbain avec coordination virtuelle. Pose des questions philosophiques sur l'engagement social et la technologie mobile. Utilise une inférence de position créative (pas GPS) basée sur la navigation des joueurs dans une carte virtuelle.
     </markdown>
   </section>
 
-  <section titre="Fonctionnement">
+  <section title="Fonctionnement">
     <markdown>
       **Joueurs de rue** : Équipés de PDAs, ils ont 60 minutes pour localiser le bureau d'Uncle Roy en suivant des indices cartographiques et des instructions d'un personnage virtuel. Ils se débarrassent d'objets personnels et reçoivent un code unique.
 
@@ -30,7 +30,7 @@
     </markdown>
   </section>
 
-  <section titre="Innovations Narratives">
+  <section title="Innovations Narratives">
     <markdown>
       - **Inférence de position créative** : Sans GPS, le système déduisait la position des joueurs en observant quelles sections de carte ils consultaient
       - **Narration distribuée** : L'histoire se développait différemment pour chaque équipe selon leur progression
@@ -38,7 +38,7 @@
     </markdown>
   </section>
 
-  <section titre="Contexte Pédagogique">
+  <section title="Contexte Pédagogique">
     <markdown>
       Parfait pour explorer :
 
@@ -50,11 +50,11 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Pionnier de la réalité mixte et du jeu de localisation. Démontre comment la technologie mobile peut transformer l'espace urbain en zone de jeu collaborative. Excellente étude de cas pour explorer l'interaction homme-machine-environnement et les possibilités narratives du monde réel comme plateforma interactive.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

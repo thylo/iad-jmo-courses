@@ -6,11 +6,11 @@
 
   <resume>Série de fictions historiques interactives où vos choix modifient le cours de l'histoire. Explore les "et si..." historiques. Multiples fins selon les décisions prises.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Utilise l'interactivité pour explorer les bifurcations historiques. Pédagogique tout en restant narratif.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

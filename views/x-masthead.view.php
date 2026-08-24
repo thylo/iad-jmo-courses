@@ -15,7 +15,7 @@
  * @var string $current
  */
 ?>
-<header class="c-masthead c-trait-dessous">
+<header class="c-masthead c-rule-under">
     <a class="c-masthead__home" href="/">thylo<span class="c-masthead__tld">.be</span></a>
 
     <nav class="c-nav" aria-label="Sections du site">

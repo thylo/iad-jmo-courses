@@ -10,11 +10,11 @@
   <visuel src="late-shift.jpg"
           source="https://ctrlmovie.com/late-shift"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Démontre qu'un film interactif peut avoir une qualité cinématographique professionnelle. Pionnier de l'expérience collective en salle (avant Bandersnatch). Gestion intelligente de l'embranchement narratif.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

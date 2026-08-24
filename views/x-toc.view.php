@@ -8,7 +8,7 @@
  * @var \App\Content\TocEntry[] $entries
  */
 ?>
-<nav class="c-toc c-trait-dessous" aria-label="Sommaire">
+<nav class="c-toc c-rule-under" aria-label="Sommaire">
     <p class="c-toc__label">Sur cette page</p>
 
     <ul class="c-toc__list">

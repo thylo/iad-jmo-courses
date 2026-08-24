@@ -7,7 +7,7 @@
 
   <resume>Les événements sont présentés chronologiquement. L'utilisateur navigue librement dans le temps.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       L'interface timeline organise les événements selon une chronologie explicite. L'utilisateur navigue librement dans le temps, explorant les connexions de causalité. Les dates structurent la narration.
 
@@ -20,7 +20,7 @@
     </markdown>
   </section>
 
-  <section titre="Intérêt narratif">
+  <section title="Intérêt narratif">
     <markdown>
       - **Construit un récit sur chronologie précise**
       - **Montre les relations de causalité**
@@ -29,7 +29,7 @@
     </markdown>
   </section>
 
-  <section titre="Enjeux et risques">
+  <section title="Enjeux et risques">
     <markdown>
       - **Peut se réduire à un énoncé de dates** (froid, non-narratif)
       - **Difficile de raconter une histoire** avec "juste des dates"
@@ -38,7 +38,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand utiliser timeline ?">
+  <section title="Quand utiliser timeline ?">
     <markdown>
       - ✅ Vous racontez une histoire évoluant dans le temps
       - ✅ Les dates ont importance thématique
@@ -47,7 +47,7 @@
     </markdown>
   </section>
 
-  <section titre="Design">
+  <section title="Design">
     <markdown>
       ### Clarté chronologique
 
@@ -73,7 +73,7 @@
     </markdown>
   </section>
 
-  <section titre="Exemples (à développer)">
+  <section title="Exemples (à développer)">
     <markdown>
       ### I Love Your Work (2014)
 
@@ -90,7 +90,7 @@
     </markdown>
   </section>
 
-  <section titre="Variantes">
+  <section title="Variantes">
     <markdown>
       ### Timeline linéaire
       Axe unique, événements ordonnés.
@@ -112,7 +112,7 @@
     </markdown>
   </section>
 
-  <section titre="Combinaisons avec autres interfaces">
+  <section title="Combinaisons avec autres interfaces">
     <markdown>
       **Timeline + Scrollable**
 
@@ -126,7 +126,7 @@
     </markdown>
   </section>
 
-  <section titre="Bonnes pratiques">
+  <section title="Bonnes pratiques">
     <markdown>
       1. **Repères visuels** : Dater clairement
       2. **Connexions significatives** : Pas juste chronologie
@@ -136,7 +136,7 @@
     </markdown>
   </section>
 
-  <section titre="Risques courants">
+  <section title="Risques courants">
     <markdown>
       ❌ **Simple liste de dates** : Table de matière
       ❌ **Trop d'événements** : Surcharge cognitive
@@ -146,7 +146,7 @@
     </markdown>
   </section>
 
-  <section titre="Solutions">
+  <section title="Solutions">
     <markdown>
       ✅ Raconter des histoires via les dates
       ✅ Limiter à 5-10 moments clés
@@ -156,5 +156,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

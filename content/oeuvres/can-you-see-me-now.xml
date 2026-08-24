@@ -15,13 +15,13 @@
   <visuel src="can-you-see-me-now.jpg"
           source="https://www.blasttheory.co.uk/projects/can-you-see-me-now/"/>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Fusion révolutionnaire du virtuel et du réel en temps synchrone. Jusqu'à 100 joueurs en ligne stratégisent ensemble tandis que les coureurs physiques les traquent via GPS satellite. Communication hybride : chat texte des joueurs, flux radio live des coureurs audible aux joueurs. Crée un espace d'interaction nouveau où deux réalités se rencontrent avec conséquences réelles (être 'attrapé').
     </markdown>
   </section>
 
-  <section titre="Mécanique de Jeu">
+  <section title="Mécanique de Jeu">
     <markdown>
       **Joueurs en ligne** : Jusqu'à 100 participants naviguent une carte 3D d'une zone urbaine (Sheffield, Rotterdam, Cologne, Brighton, Barcelone, Tokyo, Chicago, Dublin, Madrid, etc.). Ils voient les positions des coureurs en temps réel via GPS satellite et communiquent via chat texte.
 
@@ -31,7 +31,7 @@
     </markdown>
   </section>
 
-  <section titre="Innovations Narratives">
+  <section title="Innovations Narratives">
     <markdown>
       - **Synchronisation temps réel** : Deux mondes fusionnent dans une seule expérience
       - **Espace géographique comme interface** : La véritable topologie urbaine façonne le gameplay
@@ -40,7 +40,7 @@
     </markdown>
   </section>
 
-  <section titre="Impacts et Reconnaissance">
+  <section title="Impacts et Reconnaissance">
     <markdown>
       - **Golden Nica Ars Electronica 2003** : Reconnaissance comme art interactif révolutionnaire
       - **Nomination BAFTA** : Reconnaissance du statut de médium narratif
@@ -49,7 +49,7 @@
     </markdown>
   </section>
 
-  <section titre="Contexte Pédagogique">
+  <section title="Contexte Pédagogique">
     <markdown>
       Fondamental pour :
 
@@ -61,11 +61,11 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Pionnier absolu de la réalité mixte et du jeu de localisation. Redéfinit les notions de présence, absence et intimité numérique. Démontre comment la technologie mobile peut transformer l'espace urbain en zone de jeu collaborative. Fondateur pour comprendre comment les technologies de localisation façonnent l'interaction narrative spatiale.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

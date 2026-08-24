@@ -13,7 +13,7 @@
   <visuel src="80-days.jpg"
           source="https://www.inklestudios.com/80days/"/>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Vous êtes Passepartout, pas Fogg. Vous ne décidez pas de l'exploit, vous
       gérez l'intendance : la malle, l'argent, la santé de votre patron, le
@@ -29,7 +29,7 @@
     </markdown>
   </section>
 
-  <section titre="La structure">
+  <section title="La structure">
     <markdown>
       Exemple de référence pour la [[structure-a-etat]]. Le jeu ne mémorise pas un
       chemin dans un arbre — impossible à cette échelle — mais une liste de faits :
@@ -44,7 +44,7 @@
     </markdown>
   </section>
 
-  <section titre="À retenir">
+  <section title="À retenir">
     <markdown>
       Une partie dure quelques heures, une ville se lit en cinq minutes. C'est
       l'objet à montrer quand on veut comprendre ce que « le récit se souvient »
@@ -52,5 +52,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

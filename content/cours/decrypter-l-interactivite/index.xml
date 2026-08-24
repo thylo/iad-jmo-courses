@@ -7,7 +7,7 @@
     ses choix. Aucun code.
   </markdown>
 
-  <section titre="Séances">
+  <section title="Séances">
     <markdown>
       - [Séance 1 — Analyser des œuvres](/cours/decrypter-l-interactivite/01-analyser)
       - [Séance 2 — Concevoir sans contraintes](/cours/decrypter-l-interactivite/02-concevoir)
@@ -16,10 +16,10 @@
     </markdown>
   </section>
 
-  <section titre="Pour travailler">
+  <section title="Pour travailler">
     <markdown>
       Les œuvres à analyser se prennent dans la [liste](/oeuvres). Le vocabulaire
-      d'analyse est dans les [concepts](/concepts).
+      d'analyse est dans les [concepts](/cours/concepts).
     </markdown>
   </section>
 </page>

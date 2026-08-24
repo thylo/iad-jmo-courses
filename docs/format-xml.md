@@ -22,14 +22,14 @@ relations, donc elle peut être interrogée.
 
   <resume>Chaque clic est analysé, commenté et jugé en temps réel.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Révèle par l'absurde ce que nos interactions livrent sur nous.
       Même parti pris chez [[studio-moniker]].
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>
 ```
 
@@ -39,11 +39,18 @@ relations, donc elle peut être interrogée.
 elles sont écrites : elles alimentent le graphe et la fiche en tête de page.
 L'ordre dans le fichier n'a pas d'importance.
 
-**Rendu** — `<markdown>`, `<section>`, `<note>`, `<video>`, `<image>`, `<liste>`.
-Elles produisent du HTML sur place, dans l'ordre du document.
+**Rendu** — `<markdown>`, `<section>`, `<note>`, `<sidenote>`, `<video>`,
+`<image>`, `<list>`. Elles produisent du HTML sur place, dans l'ordre du
+document.
 
-**Dérivés** — `<index/>`, `<retroliens/>`. Elles produisent du HTML à partir
+**Dérivés** — `<grid/>`, `<backlinks/>`. Elles produisent du HTML à partir
 d'une requête sur le graphe. Rien à tenir à jour.
+
+Les balises de rendu et leurs attributs sont en anglais, les champs de données
+en français : `<section title="…">` nomme une pièce du gabarit, `<annee>` nomme
+une donnée. La frontière est la même que pour `layout` — ce qui appartient au
+code se dit en anglais, ce qui appartient au contenu se dit dans la langue du
+contenu.
 
 ## La prose
 
@@ -59,7 +66,7 @@ Pour référencer une entité au fil d'une phrase, on n'écrit pas de balise :
 
 Ces liens visent un `id`, pas un chemin. Déplacer ou renommer un fichier ne les
 casse pas. Une cible qui n'existe pas encore n'est pas une erreur : le lien
-s'affiche en `lien-manquant` et `content:check` l'ajoute à la liste des entités
+s'affiche en `missing-link` et `content:check` l'ajoute à la liste des entités
 à écrire. On écrit avant de créer.
 
 Pour une adresse extérieure, les trois écritures marchent :
@@ -81,16 +88,16 @@ passe tel quel.
 ## Les requêtes
 
 ```xml
-<index de="oeuvre" ou="par = self" tri="-annee"/>
+<grid of="oeuvre" where="par = self" sort="-annee"/>
 ```
 
-`de` filtre par type, `ou` par champ, `tri` ordonne — préfixe `-` pour
+`of` filtre par type, `where` par champ, `sort` ordonne — préfixe `-` pour
 décroissant. Le mot-clé `self` désigne l'entité de la page courante.
 
 C'est ce qui fait qu'une page de studio ne liste jamais ses œuvres : les œuvres
 déclarent leur créateur, et la page lit la relation dans l'autre sens.
 
-`<retroliens/>` affiche qui pointe ici, tous liens confondus — `ref=` comme
+`<backlinks/>` affiche qui pointe ici, tous liens confondus — `ref=` comme
 `[[…]]`.
 
 ## Les types
@@ -112,7 +119,7 @@ Champs : `annee`, `visuel`, `url`, `par`, `categorie`, `concept`, `voir`.
 toujours à la main. Voir [les médias](/docs/medias).
 
 À ne pas confondre avec `<image>`, qui est un bloc : une capture au fil de la
-prose, rendue là où elle est écrite, avec une `legende` en plus. `<visuel>` ne
+prose, rendue là où elle est écrite, avec une `caption` en plus. `<visuel>` ne
 se rend pas là où il est écrit — il sert l'en-tête de la fiche *et* la vignette
 dans les index, comme `<titre>` sert deux endroits.
 

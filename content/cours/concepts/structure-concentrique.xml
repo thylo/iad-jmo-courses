@@ -8,7 +8,7 @@
 
   <resume>Plusieurs couches narratives autour d'un événement central. Le spectateur explore différentes perspectives ou moments autour d'un même noyau.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       La structure concentrique présente plusieurs récits ou perspectives qui tournent autour
       d'un événement, un lieu ou un personnage central. Chaque couche offre une compréhension
@@ -23,13 +23,13 @@
     </markdown>
   </section>
 
-  <section titre="Interaction">
+  <section title="Interaction">
     <markdown>
       Choisir quelle perspective, époque ou couche explorer. Pas d'ordre imposé, navigation libre entre les couches.
     </markdown>
   </section>
 
-  <section titre="Schéma">
+  <section title="Schéma">
     <markdown>
       ```
             Perspective A
@@ -41,7 +41,7 @@
     </markdown>
   </section>
 
-  <section titre="Avantages">
+  <section title="Avantages">
     <markdown>
       - Révèle la complexité d'une situation
       - Encourage la réflexion critique
@@ -50,7 +50,7 @@
     </markdown>
   </section>
 
-  <section titre="Inconvénients">
+  <section title="Inconvénients">
     <markdown>
       - Peut être répétitif si mal exécuté
       - Difficile de maintenir l'intérêt sur toutes les perspectives
@@ -59,7 +59,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand l'utiliser">
+  <section title="Quand l'utiliser">
     <markdown>
       - Histoires avec plusieurs protagonistes
       - Événements controversés nécessitant plusieurs points de vue
@@ -69,7 +69,7 @@
     </markdown>
   </section>
 
-  <section titre="Variantes">
+  <section title="Variantes">
     <markdown>
       - **Temporelles** : Un lieu exploré à différentes époque (passé, présent, futur)
       - **Perspectivistes** : Un événement vu par différents personnages
@@ -77,5 +77,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

@@ -11,7 +11,7 @@
   <visuel src="lusion.jpg"
           source="https://lusion.co/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       **Le portfolio est le travail.** Pas de captures d'écran d'anciens projets
       alignées sur une grille : le site fait la chose. C'est la forme la plus
@@ -29,7 +29,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       Il n'y a pas de récit. C'est une vitrine, aussi belle soit-elle, et le
       commanditaire final est une marque — Porsche, Coca-Cola, Google. À citer
@@ -43,5 +43,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

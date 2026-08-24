@@ -10,11 +10,11 @@
   <visuel src="immortality.jpg"
           source="https://store.steampowered.com/app/1350200/IMMORTALITY/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Réinvente la narration interactive en utilisant le langage du cinéma. Le montage devient le mécanisme de jeu. Démontre qu'on peut créer une narration complexe en laissant le spectateur assembler les pièces.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

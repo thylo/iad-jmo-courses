@@ -8,11 +8,11 @@
 
   <resume>Documentaire photographique sur la route de la soie moderne organisé via une carte interactive. Chaque point géographique révèle photos, textes et témoignages. La géographie structure la narration.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       La carte n'est pas un simple outil de navigation mais l'interface narrative principale. Démontre comment l'espace géographique peut raconter une histoire politique et sociale.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

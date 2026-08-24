@@ -2,23 +2,31 @@
   <titre accent="salut !">Ho, salut !</titre>
   <resume>Je m'appelle Julien. Je vis en Belgique, j'écris du code pour gagner ma vie et pour le plaisir. Et je partage ça avec des étudiants, à l'IAD.</resume>
 
-  <section titre="Ce qu'il y a ici">
+  <section title="Ce qu'il y a ici">
     <markdown>
       Ce site tient du syllabus, du pense-bête et de la pile de liens ramassés en
       chemin. Un [jardin numérique](https://maggieappleton.com/garden-history) :
       des notes qui poussent, pas des articles finis. Mon
       [coin du web](https://indieweb.org/) — chez moi, pas chez une plateforme.
-
-      - [Œuvres](/oeuvres) — mon humble cabinet de curiosités : des œuvres
-        interactives et quelques trouvailles
-      - [Panorama](/cours/panorama) — une fresque circulaire de la création
-        numérique, et mes tentatives pour la classer
-      - [Cours](/cours) — les cours par sujet, et pourquoi ces œuvres et un site
-        d'entreprise tournent sur les mêmes technologies
     </markdown>
+
+    <destinations>
+      <destination to="oeuvres">
+        mon humble cabinet de curiosités : des œuvres interactives et quelques
+        trouvailles
+      </destination>
+      <destination to="panorama">
+        une fresque circulaire de la création numérique, et mes tentatives pour
+        la classer
+      </destination>
+      <destination to="cours">
+        les cours par sujet, et pourquoi ces œuvres et un site d'entreprise
+        tournent sur les mêmes technologies
+      </destination>
+    </destinations>
   </section>
 
-  <section titre="En chantier">
+  <section title="En chantier">
     <markdown>
       Ce site se reconstruit doucement, sur mon temps libre.
       Repassez plus tard.

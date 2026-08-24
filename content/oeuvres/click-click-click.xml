@@ -15,7 +15,7 @@
 
   <voir ref="do-not-draw-a-penis"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       « Vous hésitez. » « Ce clic était nerveux. » « Vous essayez de tromper le
       système. » La page ne fait rien d'autre que décrire ce que vous faites, et
@@ -27,5 +27,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

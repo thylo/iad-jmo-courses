@@ -7,7 +7,7 @@
 
   <resume>Des gestes naturels (swipe, pinch, draw, shake) créent l'interaction narrative.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       L'interface gestuelle utilise le corps et le geste comme moyens d'interaction. Plutôt que cliquer, l'utilisateur swipe, pinch, dessine, secoue. Cette approche reconnecte l'interaction avec l'émotionnel et le sensorimotor.
 
@@ -20,7 +20,7 @@
     </markdown>
   </section>
 
-  <section titre="Intérêt narratif">
+  <section title="Intérêt narratif">
     <markdown>
       - **Décolle l'interaction d'une décision rationnelle**
       - **Crée connexion émotionnelle par le geste**
@@ -29,7 +29,7 @@
     </markdown>
   </section>
 
-  <section titre="Enjeux et risques">
+  <section title="Enjeux et risques">
     <markdown>
       - **Trouver le geste qui sert vraiment l'émotion**
       - **Estimer le niveau de dextérité requis**
@@ -38,7 +38,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand utiliser gestural ?">
+  <section title="Quand utiliser gestural ?">
     <markdown>
       - ✅ Vous racontez une histoire émotionnelle/viscérale
       - ✅ Le geste enrichit le propos narratif
@@ -47,7 +47,7 @@
     </markdown>
   </section>
 
-  <section titre="Design">
+  <section title="Design">
     <markdown>
       ### Geste signifiant
 
@@ -83,7 +83,7 @@
     </markdown>
   </section>
 
-  <section titre="Exemples (à développer)">
+  <section title="Exemples (à développer)">
     <markdown>
       ### Five Minutes (2014)
 
@@ -108,7 +108,7 @@
     </markdown>
   </section>
 
-  <section titre="Gestes courants">
+  <section title="Gestes courants">
     <markdown>
       ### Swipe
       Balayer dans une direction.
@@ -148,7 +148,7 @@
     </markdown>
   </section>
 
-  <section titre="Variantes">
+  <section title="Variantes">
     <markdown>
       ### Single geste
       Seul type de geste utilisé.
@@ -170,7 +170,7 @@
     </markdown>
   </section>
 
-  <section titre="Combinaisons avec autres interfaces">
+  <section title="Combinaisons avec autres interfaces">
     <markdown>
       **Gestural + 3D**
 
@@ -184,7 +184,7 @@
     </markdown>
   </section>
 
-  <section titre="Bonnes pratiques">
+  <section title="Bonnes pratiques">
     <markdown>
       1. **Geste motivé** : Pourquoi ce geste?
       2. **Apprentissage graduel** : Tutoriel intégré
@@ -194,7 +194,7 @@
     </markdown>
   </section>
 
-  <section titre="Risques courants">
+  <section title="Risques courants">
     <markdown>
       ❌ **Geste arbitraire** : Pas lié au sens
       ❌ **Trop de gestes** : Impossible à mémoriser
@@ -204,7 +204,7 @@
     </markdown>
   </section>
 
-  <section titre="Solutions">
+  <section title="Solutions">
     <markdown>
       ✅ Limiter à 2-3 gestes clés
       ✅ Geste lié thématiquement au sens
@@ -215,7 +215,7 @@
     </markdown>
   </section>
 
-  <section titre="Considérations d'accessibilité">
+  <section title="Considérations d'accessibilité">
     <markdown>
       - **Handicaps moteurs** : Gestes impossibles
       - **Vision** : Feedback audio/haptique
@@ -224,5 +224,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

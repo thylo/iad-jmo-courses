@@ -15,13 +15,13 @@
   <visuel src="browser-dating.jpg"
           source="https://browser.dating/"/>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Inversion radicale du dating app conventionnel : au lieu de présenter une version idéalisée de soi, les utilisateurs se basent sur leurs véritables comportements de navigation. Algorithme d'IA décentralisé garantissant la confidentialité des données. Export sécurisé via extension navigateur. Interface simple et efficace. Modèle freemium accessible.
     </markdown>
   </section>
 
-  <section titre="Concept et mécanique">
+  <section title="Concept et mécanique">
     <markdown>
       Browser.dating renverse la logique du matching traditionnel. Au lieu de profils :
 
@@ -37,7 +37,7 @@
     </markdown>
   </section>
 
-  <section titre="Architecture technique">
+  <section title="Architecture technique">
     <markdown>
       1. **Export** : Extension navigateur exporte votre historique (Chrome/Firefox)
       2. **Traitement** : Données analysées localement sur GPU dédié
@@ -47,7 +47,7 @@
     </markdown>
   </section>
 
-  <section titre="Implications pédagogiques">
+  <section title="Implications pédagogiques">
     <markdown>
       ### Identité numérique
 
@@ -77,7 +77,7 @@
     </markdown>
   </section>
 
-  <section titre="Pistes d'analyse">
+  <section title="Pistes d'analyse">
     <markdown>
       1. **Expérience interactif où les données = interface** : Votre historique devient le contenu
       2. **Mise en lumière des systèmes algorithmiques** : Transparence sur comment l'IA fonctionne
@@ -86,7 +86,7 @@
     </markdown>
   </section>
 
-  <section titre="Débats possibles en classe">
+  <section title="Débats possibles en classe">
     <markdown>
       - **« C'est invasif »** vs. **« Ça crée une authentique connexion »**
       - L'historique de navigation révèle-t-il nos "vrais" désirs ou seulement nos intérêts du moment?
@@ -95,11 +95,11 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Démontre comment les données non intentionnelles (historique de navigation) révèlent l'identité profonde. Critique efficace des réseaux sociaux et de la construction de personnage en ligne. Pose des questions éthiques fondamentales : authentique vs. curé, vie privée vs. connexion, profilage algorithmique. Pertinent pédagogiquement pour explorer l'identité numérique et les données personnelles comme matériau.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

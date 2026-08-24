@@ -8,7 +8,7 @@
 
   <resume>Plusieurs récits se déroulent simultanément. Le spectateur choisit lequel suivre, peut basculer entre eux.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       La structure parallèle présente plusieurs récits indépendants qui se déroulent simultanément
       dans le même univers. Le spectateur peut choisir lequel suivre et basculer entre eux,
@@ -23,13 +23,13 @@
     </markdown>
   </section>
 
-  <section titre="Interaction">
+  <section title="Interaction">
     <markdown>
       Switcher entre les fils narratifs. Le spectateur construit son propre ordre de lecture et découvre progressivement les connexions.
     </markdown>
   </section>
 
-  <section titre="Schéma">
+  <section title="Schéma">
     <markdown>
       ```
       Récit A: Début → Scène 1 → Scène 2 → Fin A
@@ -41,7 +41,7 @@
     </markdown>
   </section>
 
-  <section titre="Avantages">
+  <section title="Avantages">
     <markdown>
       - Richesse narrative considérable
       - Le spectateur construit sa propre compréhension
@@ -50,7 +50,7 @@
     </markdown>
   </section>
 
-  <section titre="Inconvénients">
+  <section title="Inconvénients">
     <markdown>
       - Difficile de suivre plusieurs fils simultanément
       - Peut être frustrant (FOMO - peur de rater quelque chose)
@@ -59,7 +59,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand l'utiliser">
+  <section title="Quand l'utiliser">
     <markdown>
       - Récits chorale (plusieurs personnages équivalents)
       - Exploration d'une communauté/ville par plusieurs habitants
@@ -69,7 +69,7 @@
     </markdown>
   </section>
 
-  <section titre="Variantes">
+  <section title="Variantes">
     <markdown>
       - **Parallèle convergente** : Les récits se rejoignent vers une fin commune
       - **Parallèle divergente** : Les récits s'éloignent progressivement
@@ -77,5 +77,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

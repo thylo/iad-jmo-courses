@@ -10,11 +10,11 @@
   <visuel src="the-electric-knife-orchestra.jpg"
           source="https://www.neilmendoza.com/portfolio/the-electric-knife-orchestra/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       La pièce n'est pas interactive. Elle tourne toute seule, on ne fait que la
       regarder — et elle a sa place ici pour cette raison : elle marque la limite du
-      [panorama](/panorama). Pas de public qui agit, pas de récit, pas de choix.
+      [panorama](/cours/panorama). Pas de public qui agit, pas de récit, pas de choix.
       Juste un objet qui fait quelque chose de bien fait.
 
       Ce qui s'apprend là est concret : le son sort du matériau lui-même, pas d'un
@@ -24,5 +24,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

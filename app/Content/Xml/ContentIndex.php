@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace App\Content\Xml;
 
-use App\Content\ContentException;
-
 /**
  * Every entity, keyed by id, plus the reverse of their references.
  *
@@ -30,14 +28,10 @@ final readonly class ContentIndex
         $backlinks = [];
 
         foreach ($sources as $source) {
-            if (isset($byId[$source->id])) {
-                throw ContentException::at(
-                    $source->path,
-                    sprintf('id « %s » déjà utilisé par %s.', $source->id, $byId[$source->id]->path),
-                );
-            }
-
-            $byId[$source->id] = $source;
+            // The loader rejects a second file claiming an id and records it as
+            // that file's failure, so it never gets here. Building the graph is
+            // not the place to take the site down: first read wins.
+            $byId[$source->id] ??= $source;
         }
 
         foreach ($sources as $source) {

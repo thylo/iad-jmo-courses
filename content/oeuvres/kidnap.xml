@@ -14,13 +14,13 @@
   <visuel src="kidnap.jpg"
           source="https://www.blasttheory.co.uk/projects/kidnap/"/>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Déconstruit les frontières entre art, réalité, fiction et spectacularité. Force une confrontation éthique : qui regarde ? Pourquoi ? Que signifie donner du consentement à une expérience extrême ? Le livestream transforme les spectateurs en voyeurs participant à quelque chose d'interdit. Questions de confiance, de contrat et de vulnérabilité humaine.
     </markdown>
   </section>
 
-  <section titre="Déroulement de l'Événement (1998)">
+  <section title="Déroulement de l'Événement (1998)">
     <markdown>
       **Recrutement** : Loterie publique ouverte aux habitants de l'Angleterre et du Pays de Galles. Les candidats remplissaient un formulaire de candidature et signaient un contrat légal.
 
@@ -36,7 +36,7 @@
     </markdown>
   </section>
 
-  <section titre="Implications Éthiques et Narratives">
+  <section title="Implications Éthiques et Narratives">
     <markdown>
       ### L'Expérience du Consentement
 
@@ -58,13 +58,13 @@
     </markdown>
   </section>
 
-  <section titre="Contexte Historique">
+  <section title="Contexte Historique">
     <markdown>
       Inspiré par la **Spanner Trial** (1990) : cas légal où des hommes consentants avaient été poursuivis pour coups consentis. *Kidnap* pousse la question plus loin : jusqu'où peut aller le consentement ?
     </markdown>
   </section>
 
-  <section titre="Pédagogiquement">
+  <section title="Pédagogiquement">
     <markdown>
       Crucial pour :
 
@@ -78,11 +78,11 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Référent historique crucial pour comprendre les arts numériques des années 1990 et le livestreaming. Interroge l'éthique de l'interactivité—le fait qu'on PEUT faire quelque chose ne veut pas dire qu'on DOIT le faire. Éclaire la performativité et l'authentique dans l'art interactif. Important pour cours d'éthique du design et de performance.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

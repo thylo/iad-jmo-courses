@@ -14,7 +14,7 @@
      body so they can be set as an introduction rather than as prose. It
      spans the sheet; the reading below steps in by one column, and that
      step is what announces the margin. --}}
-<div :class="$this->intro->fiche ? 'c-intro c-intro--avec-fiche' : 'c-intro'">
+<div :class="$this->intro->facts ? 'c-intro c-intro--with-facts' : 'c-intro'">
     <h1 :if="$this->intro->title" class="c-intro__title">{!! $this->intro->title !!}</h1>
 
     <x-slot name="opening" />
@@ -22,15 +22,19 @@
     <p :if="$this->intro->lead" class="c-intro__lead">{!! $this->intro->lead !!}</p>
 </div>
 
-{{-- The fiche is data, not prose: it leaves the reading for the open field,
+{{-- The facts are data, not prose: it leaves the reading for the open field,
      level with the opening it describes. --}}
-<div :if="$this->intro->fiche" class="o-canvas__champ">
-    {!! $this->intro->fiche !!}
+<div :if="$this->intro->facts" class="o-canvas__field">
+    {!! $this->intro->facts !!}
 </div>
 
-{{-- The reading. It takes the text column and the field: the prose keeps to
-     the measure, and only figures and indexes use the extra width. --}}
-<article class="c-prose o-canvas__lecture">
+{{-- The reading. It takes the text column and the field: what it holds keeps
+     to the measure, and only figures and indexes use the extra width.
+
+     It is a stack of blocks, not a block of prose: each block the content layer
+     writes says what it is, and .c-prose is one of them — the one markdown
+     produces, because markdown is the only source that cannot name itself. --}}
+<article class="o-canvas__reading">
     <x-slot name="reading" />
 
     <x-toc :if="$this->hasToc()" :entries="$this->toc->entries" />

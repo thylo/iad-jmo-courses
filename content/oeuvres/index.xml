@@ -1,6 +1,28 @@
 <page id="oeuvres">
   <titre>Œuvres</titre>
-  <resume>Les œuvres interactives citées en cours.</resume>
+  <resume>Mon humble cabinet de curiosités : des œuvres interactives et quelques trouvailles. Rien d'exhaustif — ce qui m'a arrêté en chemin.</resume>
 
-  <index de="oeuvre"/>
+  <image src="cabinet-de-curiosites.jpg"
+         width="full"
+         alt="Un intérieur encombré de tableaux, de coquillages, de statuettes et de monnaies ; au centre, Ulysse tend une épée à Achille déguisé en femme parmi les filles de Lycomède."
+         caption="Frans Francken le Jeune, « Ulysse reconnaissant Achille parmi les filles de Lycomède », après 1620. Musée du Louvre."
+         credit="© RMN-Grand Palais (musée du Louvre) / Hervé Lewandowski"
+         source="https://histoire-image.org/etudes/cabinets-curiosites"/>
+
+  <section title="Pourquoi un cabinet de curiosités">
+    <markdown>
+      Avant les musées, il y avait les cabinets de curiosités. Une pièce, un
+      collectionneur, et tout ce qu'il avait ramassé : un coquillage à côté d'une
+      monnaie romaine, une machine à côté d'un animal empaillé. Aucune discipline
+      ne séparait les objets. Le rangement était celui d'une personne, pas d'un
+      savoir.
+
+      Ici, c'est pareil. Un jeu de plateau voisine avec un documentaire
+      interactif et un site qui ne sert à rien. Ils n'appartiennent pas à la même
+      famille, et c'est le but : ce qu'ils ont en commun ne se voit qu'une fois
+      posés l'un près de l'autre.
+    </markdown>
+  </section>
+
+  <grid of="oeuvre"/>
 </page>

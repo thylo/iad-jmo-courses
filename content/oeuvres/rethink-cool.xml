@@ -7,11 +7,11 @@
 
   <resume>Collectif et studio qui crée des expériences interactives pour musées et expositions. Approche multidisciplinaire mêlant installation physique, numérique et narration.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Portfolio de projets qui montrent comment créer des expériences muséales engageantes. Exemples concrets d'installations réussies combinant physique et numérique.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

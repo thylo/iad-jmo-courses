@@ -14,13 +14,13 @@
   <visuel src="its-not-violent.jpg"
           source="https://itsnotviolent.com/"/>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Interface de messaging épurée (textos minimaliste) qui crée une proximité affective immédiate. Chaque scénario offre 243 combinaisons possibles de réponses, révélant comment les perceptions de ce qui est 'violent' varient radicalement selon les gens. Pas de 'bonne réponse' — juste des degrés d'inconfort. Afterward content éducatif démystifie les dynamiques d'abus. Structure pédagogique flexible: vote collectif, petits groupes, kiosque public.
     </markdown>
   </section>
 
-  <section titre="Vue d'ensemble">
+  <section title="Vue d'ensemble">
     <markdown>
       **It's Not Violent** est une **campagne interactive de sensibilisation** créée en 2018 par l'agence de design montréalaise **Locomotive** en partenariat avec **SOS Violence Conjugale**. Le projet utilise des **scénarios de textos réalistes** pour éduquer les jeunes de 15-25 ans sur les formes insidieuses de violence relationnelle: manipulation psychologique, contrôle, coercition sexuelle, surveillance, isolement.
 
@@ -28,7 +28,7 @@
     </markdown>
   </section>
 
-  <section titre="Contexte et mission">
+  <section title="Contexte et mission">
     <markdown>
       ### SOS Violence Conjugale
 
@@ -44,7 +44,7 @@
     </markdown>
   </section>
 
-  <section titre="Fonctionnement technique">
+  <section title="Fonctionnement technique">
     <markdown>
       ### Architecture de l'expérience
 
@@ -81,7 +81,7 @@
     </markdown>
   </section>
 
-  <section titre="Enjeux pédagogiques critiques">
+  <section title="Enjeux pédagogiques critiques">
     <markdown>
       ### 1. La reconnaissance de la violence non-physique
 
@@ -142,7 +142,7 @@
     </markdown>
   </section>
 
-  <section titre="Formats d'utilisation pédagogique">
+  <section title="Formats d'utilisation pédagogique">
     <markdown>
       ### 1. Méthode du groupe large (vote collectif)
 
@@ -171,7 +171,7 @@
     </markdown>
   </section>
 
-  <section titre="Reconnaissance critique">
+  <section title="Reconnaissance critique">
     <markdown>
       - **Awwwards Site of the Day** : Reconnaissance de l'excellence en design web
       - **Awwwards Developer Award** : Technical implementation sophistication
@@ -182,14 +182,14 @@
     </markdown>
   </section>
 
-  <section titre="Ressources complémentaires">
+  <section title="Ressources complémentaires">
     <markdown>
       - **Animation guide** : itsnotviolent.com/animation-guide
       - **SOS Violence Conjugale** : sosviolenceconjugale.ca (français)
     </markdown>
   </section>
 
-  <section titre="Pistes d'analyse">
+  <section title="Pistes d'analyse">
     <markdown>
       - L'**interface minimaliste** crée une **charge émotionnelle maximale**
       - Le jeu "sans gagner" : un anti-game design assumé
@@ -202,7 +202,7 @@
     </markdown>
   </section>
 
-  <section titre="Notes de facilitation importantes">
+  <section title="Notes de facilitation importantes">
     <markdown>
       Ce projet **demande une préparation psychologique** :
 
@@ -215,11 +215,11 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Exemplaire pour enseigner: (1) comment les technologies relationnelles (textos) amplifient l'abus, (2) la reconnaissance des abus psychologiques/émotionnels (non-physiques), (3) la polysémie du consentement et du contrôle, (4) le design participatif comme outil de sensibilisation, (5) la création d'espaces psychologiquement sûrs pour parler de violence domestique.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

@@ -7,11 +7,11 @@
 
   <resume>Plus de 160 simulations interactives pour enseigner sciences, maths, chimie, physique. Manipuler des atomes, construire des circuits, observer l'évolution, etc.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       L'apprentissage devient expérimentation interactive. Comprendre en manipulant plutôt qu'en lisant.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

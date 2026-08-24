@@ -11,17 +11,17 @@
   <visuel src="over-the-tiny-hills.jpg"
           source="https://www.overthetinyhills.com/"/>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Combine WebGL et Web Audio API pour créer une expérience où le mouvement de la caméra dans l'espace 3D modifie le positionnement des sources sonores, créant une immersion audio-visuelle.
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Transforme l'écoute musicale en exploration spatiale. L'audio spatialisé rend tangible le lien entre espace visuel et expérience sonore. Le visiteur navigue dans l'univers graphique de McBess en utilisant la position de sa caméra pour modifier sa perception acoustique, créant une expérience synesthésique où voir et entendre sont intimement liés.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

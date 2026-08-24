@@ -9,11 +9,11 @@
   <visuel src="chronicles-of-crime.jpg"
           source="https://www.jeuxdenim.be/images/articles/221889_1_large.jpg"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Combine objets physiques (cartes) et contenu numérique (dialogues, AR) de façon fluide. Les QR codes deviennent une interface narrative.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

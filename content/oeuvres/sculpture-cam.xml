@@ -13,7 +13,7 @@
 
   <voir ref="touch-for-luck"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Transforme un parc en terrain de jeu social spontané. Le web y est un
       médiateur d'interaction physique, pas un substitut.
@@ -23,5 +23,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

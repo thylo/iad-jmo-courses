@@ -12,7 +12,7 @@
   <visuel src="cartaventura.jpg"
           source="https://blam-edition.com/univers-cartaventura/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       **La table est l'état du récit.** Les cartes posées forment une carte du
       monde ; une décision en révèle d'autres, en remplace certaines. C'est une
@@ -35,7 +35,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       La deuxième partie n'est plus une aventure, c'est une inspection. On ne suit
       plus le récit, on cherche les cartes qu'on n'avait pas retournées. Le jeu
@@ -47,5 +47,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

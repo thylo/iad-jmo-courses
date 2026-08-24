@@ -15,13 +15,13 @@
   <visuel src="the-flemish-scrollers.jpg"
           source="https://driesdepoorter.be/theflemishscrollers/"/>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Système totalement automatisé : chaque jour, livestream du parlement flamand est analysé par IA de détection d'objets et de reconnaissance de patterns. Quand un smartphone est détecté, le système capture l'écran, identifie le politicien (reconnaissance faciale) et poste immédiatement sur Twitter/Instagram avec un tag @[nom du politicien]. Boucle feedback puissante : plus la publication viralise, plus le politicien se sent contrôlé. Code potentiellement open-source. Continuation automatique depuis 2021.
     </markdown>
   </section>
 
-  <section titre="Mécanique du projet">
+  <section title="Mécanique du projet">
     <markdown>
       ### Le système automatisé
 
@@ -37,7 +37,7 @@
     </markdown>
   </section>
 
-  <section titre="Implications politiques et critiques">
+  <section title="Implications politiques et critiques">
     <markdown>
       ### L'ironie de la surveillance
 
@@ -63,7 +63,7 @@
     </markdown>
   </section>
 
-  <section titre="Implications technologiques">
+  <section title="Implications technologiques">
     <markdown>
       ### Deepfakes et détection
 
@@ -85,7 +85,7 @@
     </markdown>
   </section>
 
-  <section titre="Pistes d'analyse">
+  <section title="Pistes d'analyse">
     <markdown>
       1. **Art activiste** : Utilisation créative de la technologie pour faire passer un message politique
       2. **Critique de la gouvernance** : Interroge l'attention et la présence dans l'espace public
@@ -94,7 +94,7 @@
     </markdown>
   </section>
 
-  <section titre="Débats et questions pédagogiques">
+  <section title="Débats et questions pédagogiques">
     <markdown>
       - **Éthique de la surveillance** : Qui a le droit de surveiller qui?
       - **Privacy des politiciens** : Ont-ils moins de droit à la vie privée que les citoyens?
@@ -104,11 +104,11 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Brillante inversion ironique : outil de surveillance pour dénoncer la surveillance elle-même. Retourne les outils de l'État contre les élus. Critique politique efficace via viralité plutôt que manifeste. Automatisation de la "vigilance citoyenne". Démontre concrètement les capacités des systèmes d'IA de détection (et leurs risques). Pertinent pédagogiquement pour comprendre : surveillance mutuelle, responsabilité publique, technologie comme arme activiste, implicites du pouvoir.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

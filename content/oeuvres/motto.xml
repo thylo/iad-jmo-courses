@@ -13,7 +13,7 @@
   <visuel src="motto.jpg"
           source="https://motto.io/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       **Le téléphone n'est pas un petit écran, c'est un capteur.** Caméra, micro,
       accéléromètre, une lampe : Motto s'en sert comme matière première au lieu de
@@ -34,7 +34,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       Il faut être seul, au calme, et accepter de faire ce qu'on vous dit —
       souffler dans le micro, filmer son plafond. En groupe, dans une salle de
@@ -47,5 +47,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

@@ -6,7 +6,7 @@
 
   <resume>Navigation dans un espace 3D. La narration est environnementale et exploratoire.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       L'interface 3D invite l'utilisateur à déambuler librement dans un espace tridimensionnel. La narration se construit par l'environnement lui-même, sans dialogue ou exposition directe. C'est la grammaire du jeu vidéo appliquée au storytelling.
 
@@ -19,7 +19,7 @@
     </markdown>
   </section>
 
-  <section titre="Intérêt narratif">
+  <section title="Intérêt narratif">
     <markdown>
       - **Sensation de liberté maximale**
       - **Narration environnementale** (l'espace raconte)
@@ -28,7 +28,7 @@
     </markdown>
   </section>
 
-  <section titre="Enjeux et risques">
+  <section title="Enjeux et risques">
     <markdown>
       - **Difficile de guider sans diriger**
       - **Complexité technique énorme** (3D, performances, VR)
@@ -37,7 +37,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand utiliser 3D ?">
+  <section title="Quand utiliser 3D ?">
     <markdown>
       - ✅ Vous racontez une histoire exploratoire
       - ✅ L'univers spatial est central
@@ -46,7 +46,7 @@
     </markdown>
   </section>
 
-  <section titre="Design">
+  <section title="Design">
     <markdown>
       ### Guidage subtil
 
@@ -84,7 +84,7 @@
     </markdown>
   </section>
 
-  <section titre="Exemples (à développer)">
+  <section title="Exemples (à développer)">
     <markdown>
       ### Life is Strange (2015)
 
@@ -116,7 +116,7 @@
     </markdown>
   </section>
 
-  <section titre="Variantes">
+  <section title="Variantes">
     <markdown>
       ### Monde ouvert
       Complète liberté d'exploration.
@@ -144,7 +144,7 @@
     </markdown>
   </section>
 
-  <section titre="Combinaisons avec autres interfaces">
+  <section title="Combinaisons avec autres interfaces">
     <markdown>
       **3D + Point-and-Click**
 
@@ -159,7 +159,7 @@
     </markdown>
   </section>
 
-  <section titre="Bonnes pratiques">
+  <section title="Bonnes pratiques">
     <markdown>
       1. **Orientation claire** : On sait toujours où on est
       2. **Guidage subtil** : Diriger sans forcer
@@ -169,7 +169,7 @@
     </markdown>
   </section>
 
-  <section titre="Risques courants">
+  <section title="Risques courants">
     <markdown>
       ❌ **Monde vide** : Beau mais sans narration
       ❌ **Perte d'orientation** : Désorienté après 5 min
@@ -179,7 +179,7 @@
     </markdown>
   </section>
 
-  <section titre="Solutions">
+  <section title="Solutions">
     <markdown>
       ✅ Narration environnementale (pas juste beau)
       ✅ Landmarks, compass, mini-map si besoin
@@ -190,7 +190,7 @@
     </markdown>
   </section>
 
-  <section titre="Considérations VR spéciales">
+  <section title="Considérations VR spéciales">
     <markdown>
       - **Sickness VR** : Mouvement fluide, pas de téléportation brutale
       - **Confort** : Pas d'escalade impossible
@@ -199,5 +199,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

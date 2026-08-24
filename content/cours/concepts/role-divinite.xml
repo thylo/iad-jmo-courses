@@ -8,7 +8,7 @@
 
   <resume>L'utilisateur a un contrôle omniscient et omnipotent sur l'univers narratif, au-delà du simple rôle de personnage.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       Le rôle de divinité place le public au-dessus du récit. Il n'appartient pas au monde narratif mais le contrôle entièrement. Il manipule le temps, l'espace, les règles et les destinées. C'est le pouvoir créateur absolu.
 
@@ -29,7 +29,7 @@
     </markdown>
   </section>
 
-  <section titre="La métaphore cinématographique">
+  <section title="La métaphore cinématographique">
     <markdown>
       Être le **monteur** qui réorganise les scènes, ralentit ou accélère le temps, juxtapose les images selon sa volonté narrative.
 
@@ -37,7 +37,7 @@
     </markdown>
   </section>
 
-  <section titre="Pouvoir du public">
+  <section title="Pouvoir du public">
     <markdown>
       L'interactivité de la divinité repose sur :
 
@@ -48,7 +48,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce que la divinité PEUT faire">
+  <section title="Ce que la divinité PEUT faire">
     <markdown>
       - Modifier les règles du monde
       - Réorganiser les événements
@@ -58,7 +58,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce que la divinité ne peut PAS faire">
+  <section title="Ce que la divinité ne peut PAS faire">
     <markdown>
       - Vivre émotionnellement dans l'univers (elle est extérieure)
       - Créer du contenu entièrement nouveau (elle remixe)
@@ -66,7 +66,7 @@
     </markdown>
   </section>
 
-  <section titre="Intention créative">
+  <section title="Intention créative">
     <markdown>
       **Je veux que le public :**
 
@@ -78,7 +78,7 @@
     </markdown>
   </section>
 
-  <section titre="Adapté pour">
+  <section title="Adapté pour">
     <markdown>
       - Jeux de puzzle narratif
       - Expériences de montage vidéo
@@ -88,7 +88,7 @@
     </markdown>
   </section>
 
-  <section titre="Avantages">
+  <section title="Avantages">
     <markdown>
       - Sensation de contrôle absolu
       - Exploration systémique riche
@@ -98,7 +98,7 @@
     </markdown>
   </section>
 
-  <section titre="Inconvénients">
+  <section title="Inconvénients">
     <markdown>
       - Perte d'immersion émotionnelle
       - Distance avec le récit
@@ -108,7 +108,7 @@
     </markdown>
   </section>
 
-  <section titre="Design d'interface">
+  <section title="Design d'interface">
     <markdown>
       L'interface d'une divinité est typiquement :
 
@@ -120,7 +120,7 @@
     </markdown>
   </section>
 
-  <section titre="Exemples détaillés">
+  <section title="Exemples détaillés">
     <markdown>
       ### Swap Tales (2016)
 
@@ -152,7 +152,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand choisir le rôle de divinité ?">
+  <section title="Quand choisir le rôle de divinité ?">
     <markdown>
       - ✅ Vous explorez un **système complexe**
       - ✅ Le contrôle absolu est thématiquement pertinent
@@ -162,7 +162,7 @@
     </markdown>
   </section>
 
-  <section titre="Combinaisons courantes">
+  <section title="Combinaisons courantes">
     <markdown>
       Le rôle de divinité s'associe bien avec :
 
@@ -172,7 +172,7 @@
     </markdown>
   </section>
 
-  <section titre="Variantes du rôle de divinité">
+  <section title="Variantes du rôle de divinité">
     <markdown>
       ### Divinité limitée
       Contrôle sur un aspect seulement (ex : temps mais pas espace).
@@ -191,7 +191,7 @@
     </markdown>
   </section>
 
-  <section titre="Gestion des attentes">
+  <section title="Gestion des attentes">
     <markdown>
       Le piège majeur : **paralysie du choix** où trop de liberté devient frustrante.
 
@@ -204,7 +204,7 @@
     </markdown>
   </section>
 
-  <section titre="Rupture du 4e mur">
+  <section title="Rupture du 4e mur">
     <markdown>
       Le rôle divinité introduit naturellement des jeux avec le 4e mur :
 
@@ -216,7 +216,7 @@
     </markdown>
   </section>
 
-  <section titre="Distinction importante">
+  <section title="Distinction importante">
     <markdown>
       **Rôle du public ≠ Forme d'interactivité**
 
@@ -232,5 +232,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

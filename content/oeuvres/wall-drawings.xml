@@ -10,7 +10,7 @@
   <visuel src="wall-drawings.jpg"
           source="https://massmoca.org/event/sol-lewitt-a-wall-drawing-retrospective/"/>
 
-  <section titre="Le principe">
+  <section title="Le principe">
     <markdown>
       Wall Drawing #118 (1971) tient en trois phrases :
 
@@ -29,7 +29,7 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       C'est un programme écrit en français, exécuté par des humains. On y voit à nu
       ce qu'on ne voit plus dans du code : une contrainte assez serrée pour être
@@ -41,5 +41,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

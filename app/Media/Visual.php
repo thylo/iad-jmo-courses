@@ -74,7 +74,7 @@ final readonly class Visual
             alt: self::attribute($element, 'alt'),
             credit: self::attribute($element, 'credit'),
             source: self::attribute($element, 'source'),
-            caption: self::attribute($element, 'legende'),
+            caption: self::attribute($element, 'caption'),
         );
     }
 

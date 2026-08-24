@@ -10,11 +10,11 @@
   <visuel src="surveillance-speaker.jpg"
           source="https://driesdepoorter.be/surveillancespeaker/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Rend audible et explicite ce qui est normalement silencieux. La voix transforme l'observation passive en présence oppressante. Métaphore efficace de la surveillance algorithmique omniprésente.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

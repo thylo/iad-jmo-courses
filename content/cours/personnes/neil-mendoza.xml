@@ -14,10 +14,10 @@
     en accès libre sur son site.
   </markdown>
 
-  <section titre="Pourquoi il est utile ici">
+  <section title="Pourquoi il est utile ici">
     <markdown>
       Comme échantillon d'un champ voisin du cours, décrit sur le
-      [panorama](/panorama) : l'installation qui n'a ni histoire ni message ni
+      [panorama](/cours/panorama) : l'installation qui n'a ni histoire ni message ni
       utilisateur à servir. Elle existe, elle fonctionne, elle est bien faite.
 
       Utile aussi pour l'échelle. Ce sont des pièces petites, faisables, faites avec
@@ -26,9 +26,9 @@
     </markdown>
   </section>
 
-  <section titre="Ici">
-    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </personne>

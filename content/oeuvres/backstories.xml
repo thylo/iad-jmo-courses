@@ -15,7 +15,7 @@
   <visuel src="backstories.jpg"
           source="https://www.laboitedejeu.fr/backstories-seule-sous-la-glace/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       **Le geste physique est la requête.** Poser une carte Action sur un lieu et
       retourner l'ensemble, c'est exactement ce que fait un clic : choisir un verbe,
@@ -40,7 +40,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       Le tableau doit être rempli. Chaque croisement action-lieu demande un texte,
       y compris les dizaines qui ne servent à rien. Les réponses creuses — « rien
@@ -52,5 +52,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

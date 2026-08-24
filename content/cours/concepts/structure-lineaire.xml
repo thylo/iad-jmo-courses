@@ -8,7 +8,7 @@
 
   <resume>Une seule séquence narrative, un seul chemin. Le spectateur avance dans l'histoire sans pouvoir influencer le déroulement.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       La structure linéaire présente une progression narrative unique et déterminée.
       Le spectateur n'a aucun pouvoir d'intervention sur le déroulement de l'histoire,
@@ -23,13 +23,13 @@
     </markdown>
   </section>
 
-  <section titre="Interaction">
+  <section title="Interaction">
     <markdown>
       Le spectateur ne fait que progresser dans l'histoire : avancer/reculer, pause, parfois choix cosmétiques qui n'affectent pas l'histoire.
     </markdown>
   </section>
 
-  <section titre="Schéma">
+  <section title="Schéma">
     <markdown>
       ```
       Début → Scène 1 → Scène 2 → Scène 3 → Fin
@@ -37,7 +37,7 @@
     </markdown>
   </section>
 
-  <section titre="Avantages">
+  <section title="Avantages">
     <markdown>
       - Contrôle total de l'auteur sur l'expérience
       - Facile à produire et tester
@@ -46,7 +46,7 @@
     </markdown>
   </section>
 
-  <section titre="Inconvénients">
+  <section title="Inconvénients">
     <markdown>
       - Peu d'interactivité réelle
       - Pas de rejouabilité
@@ -55,7 +55,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand l'utiliser">
+  <section title="Quand l'utiliser">
     <markdown>
       - Quand le message nécessite un ordre précis
       - Pour des documentaires informatifs
@@ -64,5 +64,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

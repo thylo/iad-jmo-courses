@@ -10,11 +10,11 @@
   <visuel src="netnet-studio.jpg"
           source="https://netnet.studio/?tutorial=what-is-code"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Réinvente l'apprentissage du code web en le rendant visuel et immédiat. Chaque concept est expliqué avec des exemples interactifs. L'IDE devient outil pédagogique.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

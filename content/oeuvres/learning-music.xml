@@ -10,11 +10,11 @@
   <visuel src="learning-music.jpg"
           source="https://learningmusic.ableton.com/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       L'outil pédagogique est aussi un instrument de création. Apprendre en créant directement.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

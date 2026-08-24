@@ -1,0 +1,55 @@
+/* The derived index — what <grid of="…"/> renders.
+
+   Each line is already a full statement: a title, what it is, who made it. So
+   it takes no bullet, and the step between two entries is bigger than the step
+   between two lines, or the list reads as one block. */
+
+.c-grid {
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.c-grid > li + li { margin-block-start: var(--space-s); }
+
+.c-grid-empty,
+.c-grid .meta {
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-ink-faint);
+}
+
+/* --- Illustrated ---------------------------------------------------------
+   The works of a section, shown rather than listed. The plain list stays what
+   it was: the columns only arrive once entries carry a thumbnail, so a
+   half-illustrated corpus never renders as a grid of holes. The modifier is
+   decided in views/x-grid.view.php, not written by hand. */
+
+.c-grid--thumbnails {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: var(--space-m);
+  margin-block: var(--space-l);
+}
+
+/* The step between entries is the grid gap now, not a margin on the item. */
+.c-grid--thumbnails > li + li {
+  margin-block-start: 0;
+}
+
+.c-grid--thumbnails img {
+  width: 100%;
+  height: auto;
+  margin-block-end: var(--space-s);
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background-color: var(--color-paper-sunk);
+}
+
+/* An entry with no image keeps its place in the grid rather than closing the
+   gap: the column of titles stays readable while the corpus fills up. */
+.c-grid--thumbnails > li {
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+}
+
+.c-grid--thumbnails .meta { display: block; }

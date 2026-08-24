@@ -294,7 +294,7 @@ final readonly class XmlParser
                 continue;
             }
 
-            if (trim($node->textContent) !== '') {
+            if (trim($node->textContent) !== '' && ! $this->elements->holdsText($parent->localName)) {
                 throw ContentException::at(
                     $path,
                     sprintf('Du texte hors balise dans <%s>. La prose se met dans <markdown>.', $parent->localName),
@@ -372,6 +372,6 @@ final readonly class XmlParser
     /** Field values are single-line: the XML indentation is not part of the value. */
     private function text(\Dom\Element $element): string
     {
-        return trim(preg_replace('/\s+/u', ' ', $element->textContent) ?? '');
+        return Html::line($element);
     }
 }

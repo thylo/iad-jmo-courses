@@ -8,7 +8,7 @@
 
   <resume>Une trame narrative principale avec des digressions optionnelles. Le spectateur peut explorer des contenus supplémentaires mais revient toujours à la ligne principale.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       La structure élastique combine un récit principal linéaire avec des contenus optionnels
       (digressions, approfondissements) que le spectateur peut explorer sans affecter la progression
@@ -23,13 +23,13 @@
     </markdown>
   </section>
 
-  <section titre="Interaction">
+  <section title="Interaction">
     <markdown>
       Cliquer sur des éléments pour approfondir, puis revenir au récit principal. Le chemin par défaut reste accessible sans explorer les digressions.
     </markdown>
   </section>
 
-  <section titre="Schéma">
+  <section title="Schéma">
     <markdown>
       ```
       Début → Scène 1 ─┬─→ Digression A
@@ -39,7 +39,7 @@
     </markdown>
   </section>
 
-  <section titre="Avantages">
+  <section title="Avantages">
     <markdown>
       - Satisfait différents niveaux d'intérêt
       - Tous finissent l'histoire principale
@@ -48,7 +48,7 @@
     </markdown>
   </section>
 
-  <section titre="Inconvénients">
+  <section title="Inconvénients">
     <markdown>
       - Risque de surcharger de contenu optionnel
       - Difficulté à doser les digressions
@@ -57,7 +57,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand l'utiliser">
+  <section title="Quand l'utiliser">
     <markdown>
       - Documentaires éducatifs
       - Récits avec contexte riche
@@ -67,7 +67,7 @@
     </markdown>
   </section>
 
-  <section titre="Variantes">
+  <section title="Variantes">
     <markdown>
       - **Digressions multiples** : Plusieurs niveaux d'approfondissement
       - **Digressions imbriquées** : Des digressions contenant d'autres digressions
@@ -75,5 +75,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

@@ -10,11 +10,11 @@
   <visuel src="web-lab.jpg"
           source="https://m.youtube.com/watch?v=RrgjufJhmwk"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Démontre le potentiel du web comme interface de contrôle à distance de systèmes physiques complexes. Pionnier de la connexion visiteurs physiques/visiteurs en ligne.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

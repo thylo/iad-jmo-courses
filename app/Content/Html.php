@@ -4,20 +4,14 @@ declare(strict_types=1);
 
 namespace App\Content;
 
-/** Escaping helpers, so nothing that renders has to remember the flags. */
+/**
+ * Reading helpers for the content layer.
+ *
+ * There is no escaping here any more: nothing in PHP writes HTML, so nothing in
+ * PHP has to escape it. A template does it, through {{ }}.
+ */
 final class Html
 {
-    /**
-     * Escapes text and attribute values alike.
-     *
-     * Apostrophes are left alone — every attribute we emit is double-quoted, and
-     * escaping them turns readable French prose into &#039; soup.
-     */
-    public static function escape(string $value): string
-    {
-        return htmlspecialchars($value, ENT_COMPAT | ENT_SUBSTITUTE, 'UTF-8');
-    }
-
     /**
      * Reads a trimmed attribute.
      *
@@ -28,6 +22,16 @@ final class Html
     public static function attribute(\Dom\Element $element, string $name): string
     {
         return trim($element->getAttribute($name) ?? '');
+    }
+
+    /**
+     * An element's text as a single line: the indentation of the XML is not
+     * part of what was written. Shared with XmlParser, which reads field values
+     * the same way — a value and a description are both one line of prose.
+     */
+    public static function line(\Dom\Element $element): string
+    {
+        return trim(preg_replace('/\s+/u', ' ', $element->textContent) ?? '');
     }
 
     /**

@@ -10,11 +10,11 @@
   <visuel src="silk-interactive-generative-art.jpg"
           source="http://weavesilk.com/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Transforme le geste simple en œuvre complexe grâce à la symétrie et la génération procédurale. L'algorithme amplifie la créativité.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

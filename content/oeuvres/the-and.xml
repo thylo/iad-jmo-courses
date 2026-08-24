@@ -6,11 +6,11 @@
 
   <resume>Expérience narrative où vous choisissez visuellement votre personnage en début d'histoire. L'interface galerie transforme le choix narratif en moment visuel fort. Chaque personnage mène à une version différente de l'histoire.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Le choix de personnage devient un moment esthétique et narratif significatif. Démontre qu'une galerie visuelle peut être une interface narrative puissante.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

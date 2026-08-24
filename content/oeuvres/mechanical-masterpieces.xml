@@ -10,11 +10,11 @@
   <visuel src="mechanical-masterpieces.jpg"
           source="https://www.neilmendoza.com/portfolio/mechanical-masterpieces/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Rend l'art classique ludique et accessible pour un jeune public. Démontre comment l'interaction mécanique peut transformer l'expérience de contemplation passive en exploration active. Approche décalée et joyeuse de la médiation culturelle.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

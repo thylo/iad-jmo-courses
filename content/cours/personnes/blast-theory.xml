@@ -24,7 +24,7 @@
     Nottingham.
   </markdown>
 
-  <section titre="Pourquoi c'est utile ici">
+  <section title="Pourquoi c'est utile ici">
     <markdown>
       C'est la démonstration la plus nette qu'une narration interactive n'a pas
       besoin d'un moteur de jeu ni d'un gros budget. Une carte, une position,
@@ -37,9 +37,9 @@
     </markdown>
   </section>
 
-  <section titre="Ici">
-    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </personne>

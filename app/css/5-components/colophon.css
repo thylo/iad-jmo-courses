@@ -1,7 +1,7 @@
 /* Closing note, under a drawn rule. */
 
 .c-colophon {
-  --trait: var(--trait-2);
+  --rule: var(--rule-2);
   --canvas-space: var(--space-3xl);
 }
 
@@ -17,8 +17,8 @@
    drawing, and a band closes that better than one more line.
 
    Same :has() as the hero: the portrait is what marks the homepage out. The
-   padding is the gutter on purpose — that is exactly where marge-start and
-   champ-end fall, so the text stays on the same two edges as everything above
+   padding is the gutter on purpose — that is exactly where margin-start and
+   field-end fall, so the text stays on the same two edges as everything above
    it and the band is the only thing that moves. */
 
 .o-canvas:has(.c-portrait) { padding-block-end: 0; }

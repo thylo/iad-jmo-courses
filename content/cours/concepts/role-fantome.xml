@@ -10,7 +10,7 @@
 
   <resume>Le spectateur est un témoin invisible de l'action. Il observe sans être vu ni pouvoir interagir directement avec les personnages.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       Le rôle de fantôme place le public en observateur invisible. Il suit les personnages et les événements sans pouvoir les influencer directement. Son agentivité se limite au contrôle du point de vue : choisir où regarder, le rythme d'exploration, quelle perspective suivre.
 
@@ -31,7 +31,7 @@
     </markdown>
   </section>
 
-  <section titre="La métaphore cinématographique">
+  <section title="La métaphore cinématographique">
     <markdown>
       Être le **chef opérateur** qui choisit les cadrages, mais pas le scénariste qui écrit l'histoire.
 
@@ -39,7 +39,7 @@
     </markdown>
   </section>
 
-  <section titre="Pouvoir du public">
+  <section title="Pouvoir du public">
     <markdown>
       L'interactivité du fantôme repose sur :
 
@@ -50,7 +50,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce que le fantôme ne peut PAS faire">
+  <section title="Ce que le fantôme ne peut PAS faire">
     <markdown>
       - Parler aux personnages
       - Prendre des décisions pour eux
@@ -59,7 +59,7 @@
     </markdown>
   </section>
 
-  <section titre="Intention créative">
+  <section title="Intention créative">
     <markdown>
       **Je veux que le public :**
 
@@ -71,7 +71,7 @@
     </markdown>
   </section>
 
-  <section titre="Adapté pour">
+  <section title="Adapté pour">
     <markdown>
       - Documentaires immersifs
       - Récits linéaires exploratoires
@@ -81,7 +81,7 @@
     </markdown>
   </section>
 
-  <section titre="Avantages">
+  <section title="Avantages">
     <markdown>
       - Contrôle créatif total de l'auteur
       - Univers cohérent et prévisible
@@ -91,7 +91,7 @@
     </markdown>
   </section>
 
-  <section titre="Inconvénients">
+  <section title="Inconvénients">
     <markdown>
       - Sentiment limité d'agentivité
       - Public non-engagé émotionnellement
@@ -100,7 +100,7 @@
     </markdown>
   </section>
 
-  <section titre="Design d'interface">
+  <section title="Design d'interface">
     <markdown>
       L'interface d'un fantôme est typiquement :
 
@@ -111,7 +111,7 @@
     </markdown>
   </section>
 
-  <section titre="Exemples détaillés">
+  <section title="Exemples détaillés">
     <markdown>
       ### Wei or Die (2015)
 
@@ -143,7 +143,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand choisir le rôle de fantôme ?">
+  <section title="Quand choisir le rôle de fantôme ?">
     <markdown>
       - ✅ Vous racontez une histoire linéaire
       - ✅ Vous voulez un contrôle créatif total
@@ -153,7 +153,7 @@
     </markdown>
   </section>
 
-  <section titre="Combinaisons courantes">
+  <section title="Combinaisons courantes">
     <markdown>
       Le rôle de fantôme s'associe bien avec :
 
@@ -163,7 +163,7 @@
     </markdown>
   </section>
 
-  <section titre="Distinction importante">
+  <section title="Distinction importante">
     <markdown>
       **Rôle du public ≠ Forme d'interactivité**
 
@@ -179,5 +179,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

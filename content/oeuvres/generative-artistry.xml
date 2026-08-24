@@ -8,11 +8,11 @@
 
   <resume>Collection de tutoriels interactifs qui enseignent à créer de l'art génératif (Tiled Lines, Joy Division, Cubic Disarray, etc.). Chaque tutoriel combine explication et canvas interactif.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Démystifie l'art génératif en montrant les algorithmes simples qui créent des résultats complexes.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

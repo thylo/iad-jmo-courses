@@ -10,11 +10,11 @@
   <visuel src="return-to-dark-tower.jpg"
           source="https://m.youtube.com/watch?v=p-1oU9zZnN0"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Le numérique est intégré dans un objet physique spectaculaire plutôt que séparé sur un écran de smartphone.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

@@ -8,7 +8,7 @@
 
   <resume>Pas de structure hiérarchique. Chaque élément narratif est connecté à plusieurs autres. Navigation libre, pas de début/fin imposés.</resume>
 
-  <section titre="Définition">
+  <section title="Définition">
     <markdown>
       La structure constellation (ou rhizome) abandonne la logique hiérarchique traditionnelle.
       Les éléments narratifs forment un réseau où chaque nœud est connecté à plusieurs autres.
@@ -24,13 +24,13 @@
     </markdown>
   </section>
 
-  <section titre="Interaction">
+  <section title="Interaction">
     <markdown>
       Explorer librement. Chaque élément narratif mène à d'autres selon une logique de connexions, pas de chemin prédestiné.
     </markdown>
   </section>
 
-  <section titre="Schéma">
+  <section title="Schéma">
     <markdown>
       ```
          A ─── B
@@ -44,7 +44,7 @@
     </markdown>
   </section>
 
-  <section titre="Avantages">
+  <section title="Avantages">
     <markdown>
       - Liberté totale d'exploration
       - Chacun construit son propre récit
@@ -53,7 +53,7 @@
     </markdown>
   </section>
 
-  <section titre="Inconvénients">
+  <section title="Inconvénients">
     <markdown>
       - Peut être désorientant
       - Difficile de garantir une expérience satisfaisante
@@ -62,7 +62,7 @@
     </markdown>
   </section>
 
-  <section titre="Quand l'utiliser">
+  <section title="Quand l'utiliser">
     <markdown>
       - Exploration poétique
       - Bases de données (archives, mémoires)
@@ -72,7 +72,7 @@
     </markdown>
   </section>
 
-  <section titre="Variantes">
+  <section title="Variantes">
     <markdown>
       - **Constellation guidée** : Des indices subtils sans imposer un chemin
       - **Constellation avec attracteurs** : Certains nœuds sont plus "visibles" que d'autres
@@ -80,5 +80,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

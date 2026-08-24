@@ -10,11 +10,11 @@
   <visuel src="fantasy-bnf-demeure-du-guide.jpg"
           source="https://fantasy.bnf.fr/fr/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Démontre comment une institution culturelle peut utiliser le web interactif pour rendre ses collections accessibles de façon ludique et narrative. Mélange culture savante et narration engageante.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

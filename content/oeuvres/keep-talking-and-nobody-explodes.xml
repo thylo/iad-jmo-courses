@@ -7,11 +7,11 @@
 
   <resume>Un joueur voit une bombe sur l'écran, les autres ont le manuel de désamorçage (papier ou PDF). Communication verbale urgente requise. Interface web synchronisée entre désamorceur et experts.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Crée une expérience de communication intense en séparant l'information visuellement. Le web devient l'interface du joueur actif.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

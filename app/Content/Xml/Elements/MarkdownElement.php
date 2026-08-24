@@ -7,8 +7,10 @@ namespace App\Content\Xml\Elements;
 use App\Content\Xml\Autolinks;
 use App\Content\Xml\ContentIndex;
 use App\Content\Xml\ElementRenderer;
+use App\Content\Xml\EntityLink;
 use App\Content\Xml\RenderContext;
 use App\Content\Xml\WikiLinks;
+use App\View\Component;
 use Tempest\Markdown\Markdown;
 
 /**
@@ -16,11 +18,19 @@ use Tempest\Markdown\Markdown;
  *
  * The prose leaf: dedent, expand [[wikilinks]] and bare URLs, hand over to
  * tempest/markdown.
+ *
+ * What comes back is the only HTML on the site that cannot be given a class at
+ * the source — bare <p>, <h2>, <ul>, <blockquote>. That is what .c-prose is
+ * for, so the wrapper goes here and nowhere else: every other block the content
+ * layer writes says what it is.
  */
 final readonly class MarkdownElement implements ElementRenderer
 {
     public function __construct(
         private Markdown $markdown,
+        private Autolinks $autolinks,
+        private EntityLink $links,
+        private Component $components,
     ) {}
 
     public function render(\Dom\Element $element, RenderContext $context): string
@@ -36,9 +46,12 @@ final readonly class MarkdownElement implements ElementRenderer
             return '';
         }
 
-        $prose = new WikiLinks($index)->expand($dedented);
+        $prose = new WikiLinks($index, $this->links, $this->components)->expand($dedented);
 
-        return $this->markdown->parse(Autolinks::expand($prose))->html;
+        return $this->components->render(
+            'x-prose',
+            html: $this->markdown->parse($this->autolinks->expand($prose))->html,
+        );
     }
 
     /**

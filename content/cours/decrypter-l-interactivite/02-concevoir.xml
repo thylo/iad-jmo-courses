@@ -6,7 +6,7 @@
     Quatre heures. Atelier d'idéation, sans limite technique.
   </markdown>
 
-  <section titre="Objectifs">
+  <section title="Objectifs">
     <markdown>
       - Partir de l'intention narrative, pas de la technique
       - Formuler un concept d'expérience interactive tenable
@@ -14,7 +14,7 @@
     </markdown>
   </section>
 
-  <section titre="Déroulé">
+  <section title="Déroulé">
     <markdown>
       ### 1. Partir d'une émotion
 
@@ -61,7 +61,7 @@
     </markdown>
   </section>
 
-  <section titre="Livrable">
+  <section title="Livrable">
     <markdown>
       **Concept d'expérience interactive.**
 
@@ -78,7 +78,7 @@
     </markdown>
   </section>
 
-  <section titre="Conseils">
+  <section title="Conseils">
     <markdown>
       **Piège 1 — la technique avant l'émotion.**
       Pas « je veux faire du drag and drop », mais « je veux créer de la nostalgie, le
@@ -99,7 +99,7 @@
     </markdown>
   </section>
 
-  <section titre="Questions fréquentes">
+  <section title="Questions fréquentes">
     <markdown>
       **Mon concept doit-il être réalisable techniquement ?**
       Non. C'est un cours de conception, pas de production.

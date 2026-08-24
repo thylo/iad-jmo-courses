@@ -13,7 +13,7 @@
   <visuel src="le-dernier-gaulois.jpg"
           source="https://immersive-g.com/projects/le-dernier-gaulois/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       **Le défilement remplace la case.** Pas de vignettes séparées : une image
       continue, et c'est la position dans la page qui découpe le récit. Le
@@ -30,7 +30,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       Le défilement révèle, il ne décide de rien. On avance à son rythme, mais
       l'histoire est [[structure-lineaire|la même pour tout le monde]] : c'est de
@@ -45,5 +45,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

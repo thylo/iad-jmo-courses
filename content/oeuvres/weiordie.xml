@@ -10,7 +10,7 @@
 
   <resume>Un week-end d'intégration en école de commerce tourne mal. Tout est filmé par les téléphones et les caméras des étudiants eux-mêmes, et les quatre-vingt-dix minutes de rushes sont resynchronisées sur une seule frise du temps : le spectateur choisit à chaque instant quelle caméra il regarde, et bascule de l'une à l'autre sans interrompre la nuit. Quarante-cinq minutes au minimum, et il est impossible de tout voir.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       **Le temps est commun, le regard est libre.** Toutes les sources partagent
       une même horloge. Changer de caméra ne rembobine rien : ce qui se passait
@@ -34,7 +34,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       Le récit ne bifurque pas. Les événements sont écrits, tournés, fixés : on
       choisit son point de vue, pas la suite. Le sous-titre honnête serait
@@ -48,5 +48,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

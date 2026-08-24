@@ -4,17 +4,17 @@ declare(strict_types=1);
 
 namespace App\Content\Xml;
 
-use App\Content\Html;
+use App\View\Component;
 
 /** The one place that turns an outside URL into an anchor. */
-final class ExternalLink
+final readonly class ExternalLink
 {
-    public static function html(string $url): string
+    public function __construct(
+        private Component $components,
+    ) {}
+
+    public function html(string $url): string
     {
-        return sprintf(
-            '<a href="%s" rel="noopener noreferrer">%s</a>',
-            Html::escape($url),
-            Html::escape($url),
-        );
+        return $this->components->render('x-external-link', url: $url);
     }
 }

@@ -15,7 +15,7 @@
     [[wall-drawings|les Wall Drawings]].
   </markdown>
 
-  <section titre="Pourquoi il est utile ici">
+  <section title="Pourquoi il est utile ici">
     <markdown>
       Parce qu'il sépare proprement deux choses qu'on confond tout le temps :
       **écrire la règle** et **produire le résultat**.
@@ -35,9 +35,9 @@
     </markdown>
   </section>
 
-  <section titre="Ici">
-    <index de="oeuvre" ou="par = self" tri="-annee"/>
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </personne>

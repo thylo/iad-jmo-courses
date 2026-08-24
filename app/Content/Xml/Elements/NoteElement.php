@@ -4,23 +4,27 @@ declare(strict_types=1);
 
 namespace App\Content\Xml\Elements;
 
-use App\Content\Xml\ElementRenderer;
 use App\Content\Html;
+use App\Content\Xml\ElementRenderer;
 use App\Content\Xml\RenderContext;
+use App\View\Component;
 
-/** <note type="astuce|attention">…</note> — the aside, with a real title this time. */
+/** <note type="astuce|attention" title="…">…</note> — the aside, with a real title this time. */
 final readonly class NoteElement implements ElementRenderer
 {
+    public function __construct(
+        private Component $components,
+    ) {}
+
     public function render(\Dom\Element $element, RenderContext $context): string
     {
-        $type = Html::attribute($element, 'type') ?: 'note';
-        $title = Html::attribute($element, 'titre');
+        $title = Html::attribute($element, 'title');
 
-        return sprintf(
-            '<aside class="note note--%s">%s%s</aside>',
-            Html::escape($type),
-            $title !== '' ? sprintf('<p class="note__titre">%s</p>', Html::escape($title)) : '',
-            $context->renderer->children($element, $context),
+        return $this->components->render(
+            'x-note',
+            type: Html::attribute($element, 'type') ?: 'note',
+            title: $title !== '' ? $title : null,
+            body: $context->renderer->children($element, $context),
         );
     }
 }

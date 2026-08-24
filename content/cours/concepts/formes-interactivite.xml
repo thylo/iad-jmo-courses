@@ -17,9 +17,9 @@
 
   <resume>Trois interlocuteurs possibles pour le public : le système, les autres spectateurs, ou l'œuvre elle-même, qu'il fabrique. Le choix décide de ce qu'il y a à produire, et de ce qui peut échapper à l'auteur.</resume>
 
-  <section titre="La question">
+  <section title="La question">
     <markdown>
-      Le [panorama des formes](/panorama) dit **où** le récit se trouve : un
+      Le [panorama des formes](/cours/panorama) dit **où** le récit se trouve : un
       écran, une rue, une table. Cette page pose l'autre question, moins visible
       quand on regarde une œuvre : **avec qui le public interagit-il ?**
 
@@ -27,7 +27,7 @@
     </markdown>
   </section>
 
-  <section titre="Machine — le public interagit avec le système">
+  <section title="Machine — le public interagit avec le système">
     <markdown>
       Tout est écrit d'avance. Le public explore un univers fini, où chaque
       action produit un résultat prévu et testé. L'œuvre du premier jour est
@@ -50,7 +50,7 @@
     </markdown>
   </section>
 
-  <section titre="Sociale — le public interagit avec d'autres">
+  <section title="Sociale — le public interagit avec d'autres">
     <markdown>
       L'auteur ne fournit pas le contenu : il fournit le lieu et la raison de
       s'y parler. L'œuvre est ce qui se passe entre les gens.
@@ -79,7 +79,7 @@
     </markdown>
   </section>
 
-  <section titre="Contributive — le public fabrique l'œuvre">
+  <section title="Contributive — le public fabrique l'œuvre">
     <markdown>
       Le public ne réagit pas au contenu : il l'apporte. Ce qu'il dépose reste,
       et l'œuvre grossit.
@@ -99,7 +99,7 @@
     </markdown>
   </section>
 
-  <section titre="Les combinaisons">
+  <section title="Les combinaisons">
     <markdown>
       Elles sont la règle, pas l'exception. [[the-climate-show]] est machine
       pendant quarante-cinq minutes de dramaturgie écrite, et sociale aux
@@ -113,7 +113,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce que chaque forme coûte">
+  <section title="Ce que chaque forme coûte">
     <markdown>
       La question n'est pas seulement esthétique, elle est budgétaire. Et ça se
       voit dans les œuvres.
@@ -133,7 +133,7 @@
     </markdown>
   </section>
 
-  <section titre="À ne pas confondre">
+  <section title="À ne pas confondre">
     <markdown>
       **La forme n'est pas le rôle du public.** Ce sont deux axes indépendants.
       [[lifeline]] est machine par sa forme — un système fermé — et le public y
@@ -146,5 +146,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

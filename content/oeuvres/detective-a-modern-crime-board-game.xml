@@ -10,11 +10,11 @@
   <visuel src="detective-a-modern-crime-board-game.jpg"
           source="https://antaresdatabase.com/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Mélange réel et virtuel pour créer une enquête qui déborde du plateau. Le web devient un outil d'investigation comme dans la vraie vie.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

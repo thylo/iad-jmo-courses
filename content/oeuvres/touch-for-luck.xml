@@ -16,7 +16,7 @@
 
   <voir ref="sculpture-cam"/>
 
-  <section titre="Le geste">
+  <section title="Le geste">
     <markdown>
       Il n'y a qu'un geste possible : toucher l'écran sans relâcher. Pas de
       navigation, pas de boutons, pas de menus. La pression continue du doigt
@@ -26,14 +26,14 @@
       L'écart entre les deux échelles est tout le propos.
     </markdown>
 
-    <liste>
+    <list>
       <item><markdown>Chaque doigt relâché fait perdre du temps de présence.</markdown></item>
       <item><markdown>Chaque moment de persistance rapporte des *lucky charms* qui décorent le poisson.</markdown></item>
       <item><markdown>Plus on joue de façon compulsive, plus la créature devient belle.</markdown></item>
-    </liste>
+    </list>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Plutôt que de *parler* de l'addiction aux écrans, l'œuvre la fait vivre.
       En jouant, on éprouve la compulsion, la fatigue du doigt, l'obligation de
@@ -46,12 +46,12 @@
     </markdown>
   </section>
 
-  <note type="attention" titre="Pour la classe">
+  <note type="attention" title="Pour la classe">
     <markdown>
       Faire jouer le groupe cinq minutes, puis couper. La discussion qui suit
       vaut mieux que n'importe quelle analyse préparée.
     </markdown>
   </note>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

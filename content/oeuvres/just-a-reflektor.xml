@@ -8,11 +8,11 @@
 
   <resume>Clip interactif utilisant le smartphone comme télécommande pour contrôler l'expérience desktop. Utilise gyroscope et multitouch pour créer des effets visuels synchronisés.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Pionnier de l'utilisation du smartphone comme contrôleur pour une expérience desktop. Multi-device avant que ce soit courant.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

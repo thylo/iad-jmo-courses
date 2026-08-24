@@ -1,18 +1,19 @@
-/* Rendered body copy — the HTML that comes out of markdown and out of the XML
-   entities. Nothing in here can be given a class at the source, so this is the
-   one component that styles bare elements. It is scoped to .c-prose for that
-   reason, and it only ever sets rhythm, measure and colour: the type scale
-   already comes from the tokens.
+/* Rendered body copy — the HTML that comes out of markdown, and only that.
 
-   Every vertical value is a multiple of the 28px baseline. */
+   Markdown is the one source on the site that cannot name what it writes: it
+   produces bare <p>, <h2>, <ul>, <blockquote>. So this is the one component
+   that styles bare elements, and MarkdownElement wraps its output in .c-prose
+   to say where that licence stops. Everything else the content layer writes —
+   a section, a note, an index, a figure — carries a class and is styled by
+   name, because it can be.
 
-/* The owl runs one level into the wrappers the content layer creates: an XML
-   entity puts each of its parts in a <section>, markdown wraps nothing at all,
-   and the rhythm has to hold in both. :where() keeps these at one class of
-   specificity so the heading rules below still win. */
-.c-prose > * + *,
-.c-prose > :where(section, nav) > * + * {
-  margin-block-start: var(--space-m);
+   It only ever sets rhythm, measure and colour: the type scale already comes
+   from the tokens. Every vertical value is a multiple of the 28px baseline. */
+
+/* The owl. An aside that holds prose sets --prose-step to tighten it, the same
+   way the canvas lets a page set --canvas-space. */
+.c-prose > * + * {
+  margin-block-start: var(--prose-step, var(--space-m));
 }
 
 /* Headings claim the space above them, not below: the gap belongs to the
@@ -41,13 +42,12 @@
 
 .c-prose li::marker { color: var(--color-ink-faint); }
 
-/* A quotation is set off by a drawn stroke, not a border — see trait.css for
-   why the two are not the same thing. .c-trait-cote carries the geometry; this
+/* A quotation is set off by a drawn stroke, not a border — see rule.css for
+   why the two are not the same thing. .c-rule-beside carries the geometry; this
    only says what it means. */
 .c-prose blockquote {
   color: var(--color-ink-muted);
 }
-
 
 .c-prose :is(code, pre) {
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
@@ -58,60 +58,4 @@
   padding: var(--space-s) var(--space-m);
   background-color: var(--color-paper-sunk);
   overflow-x: auto;
-}
-
-.c-prose figcaption {
-  font-size: var(--text-meta);
-  line-height: var(--space-unit);
-  color: var(--color-ink-faint);
-  margin-block-start: var(--space-s);
-}
-
-/* --- Classes the content itself carries -------------------------------- */
-
-
-/* An aside earns a stroke, not a coloured box. */
-.c-prose .note {
-  color: var(--color-ink-muted);
-}
-
-.c-prose .note--attention { --trait-encre: var(--color-accent); }
-
-.c-prose .note__titre {
-  font-family: var(--font-display);
-  color: var(--color-ink);
-}
-
-.c-prose .note > * + * { margin-block-start: var(--space-s); }
-
-/* Generated lists — an index of a section, the backlinks of an entity. Each
-   line is already a full statement, so it needs no bullet in front of it. */
-.c-prose :is(.index, .retroliens ul) {
-  padding-inline-start: 0;
-  list-style: none;
-}
-
-/* An entry here runs two or three lines, so the step between them has to be
-   bigger than the step between lines or the list reads as one block. */
-.c-prose :is(.index, .retroliens ul) > li + li {
-  margin-block-start: var(--space-s);
-}
-
-.c-prose .index-vide,
-.c-prose .meta {
-  font-size: var(--text-meta);
-  line-height: var(--space-unit);
-  color: var(--color-ink-faint);
-}
-
-/* A link whose target does not exist yet. Said plainly rather than hidden. */
-.c-prose .lien-manquant {
-  color: var(--color-ink-faint);
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-}
-
-.c-prose .video {
-  aspect-ratio: 16 / 9;
-  width: 100%;
 }

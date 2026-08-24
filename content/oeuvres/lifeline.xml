@@ -7,11 +7,11 @@
 
   <resume>Jeu narratif textuel où vous communiquez avec un astronaute échoué via notifications mobiles. L'histoire se déroule en temps réel : si l'astronaute dort 8h, vous attendez vraiment 8h. Choix binaires qui influencent la survie du personnage.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Transforme les contraintes du mobile (notifications) en atout narratif. Le temps réel crée une connexion émotionnelle forte avec le personnage. Prouve qu'on peut créer une expérience narrative puissante avec uniquement du texte.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

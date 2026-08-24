@@ -11,13 +11,13 @@
 
   <resume>Installation interactive où les passants tirent sur des cordes pour contrôler une machine CNC qui peint sur une toile collective — transformant instantanément tout le monde en artiste collaboratif, suivi d'une mise aux enchères des œuvres co-créées.</resume>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Interface mécanique brillante utilisant les corde en Dyneema (feedback tactile) pour contrôler 3 axes (X, Y, paint trigger). Les passants de tous âges créent ensemble sans formation, sans électricité, sans interface écran. L'œuvre finie est immédiatement monétisée et vendue, donnant une récompense tangible aux participants.
     </markdown>
   </section>
 
-  <section titre="Vue d'ensemble">
+  <section title="Vue d'ensemble">
     <markdown>
       **Instant Art Career** est une **installation collaborative et performative** créée par Niklas Roy et Kati Hyyppä qui transforme les passants en artistes painters. Lors du **Katowice Street Art Festival en Pologne** (2013), une **machine CNC mécanique** a été installée dans une galerie abandonnée avec son interface exposée à la rue. Les gens tirent sur des cordes — sans électricité, sans écran — pour créer ensemble des peintures.
 
@@ -25,7 +25,7 @@
     </markdown>
   </section>
 
-  <section titre="Fonctionnement technique">
+  <section title="Fonctionnement technique">
     <markdown>
       ### Architecture mécanique
 
@@ -55,7 +55,7 @@
     </markdown>
   </section>
 
-  <section titre="Contexte d'exposition">
+  <section title="Contexte d'exposition">
     <markdown>
       ### Katowice Street Art Festival (2013) — Original
 
@@ -73,7 +73,7 @@
     </markdown>
   </section>
 
-  <section titre="Dimensions collaboratives">
+  <section title="Dimensions collaboratives">
     <markdown>
       ### Co-création involontaire → consciente
       La semaine progresse:
@@ -105,7 +105,7 @@
     </markdown>
   </section>
 
-  <section titre="Enjeux pédagogiques clés">
+  <section title="Enjeux pédagogiques clés">
     <markdown>
       ### 1. Interface gestuelle vs. interface écran
       Pourquoi les cordes au lieu d'une tablette tactile ou un joystick ?
@@ -157,7 +157,7 @@
     </markdown>
   </section>
 
-  <section titre="Enjeux critiques">
+  <section title="Enjeux critiques">
     <markdown>
       ### Le paradoxe du contrôle
 
@@ -178,7 +178,7 @@
     </markdown>
   </section>
 
-  <section titre="Évolution et variantes">
+  <section title="Évolution et variantes">
     <markdown>
       Le succès à Katowice a inspiré :
 
@@ -189,7 +189,7 @@
     </markdown>
   </section>
 
-  <section titre="Impact et reconnaissance">
+  <section title="Impact et reconnaissance">
     <markdown>
       - Couverture dans **Make Magazine**, **VICE**, **DesignBoom**, **Arduino Blog**
       - Présentations dans festivals d'art de rue majeurs
@@ -200,7 +200,7 @@
     </markdown>
   </section>
 
-  <section titre="Ressources pédagogiques">
+  <section title="Ressources pédagogiques">
     <markdown>
       - **Site officiel** : niklasroy.com/project/156/InstantArtCareer
       - **Vidéos de processus** : montrant les gens tirant les cordes
@@ -209,11 +209,11 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Exemplaire pour enseigner: (1) comment l'interface gestuelle démocratise la création, (2) l'art participatif comme spectacle vivant et théâtre social, (3) la performativité involontaire transformée en co-création consciente, (4) l'économie de l'art remise en question par la contribution collective, (5) la mécanique sans électricité comme engagement physique.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

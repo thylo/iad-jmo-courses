@@ -15,19 +15,19 @@
   <visuel src="question-mark-ohio.jpg"
           source="https://questionmarkohio.com/"/>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       Architecture multi-plateforme créant une expérience narrative immersive. Participation active des lecteurs dans la résolution d'énigmes. Mélange de storytelling linéaire (Instagram feed) et exploratoire (site web). Création d'une communauté engagée via Discord. Les créateurs écrivaient les règles en cours de route (« a series of escalating dares »), transformant les contraintes en opportunités narratives.
     </markdown>
   </section>
 
-  <section titre="Vue d'ensemble">
+  <section title="Vue d'ensemble">
     <markdown>
       **Question Mark, Ohio** est une expérience narrative révolutionnaire où le medium lui-même devient partie intégrante de l'histoire. Lancé en avril 2023, ce projet collaboratif entre le romancier **Joe Meno** et le créateur médias **Dan Sinker** réinvente la narration sérielle pour l'époque numérique.
     </markdown>
   </section>
 
-  <section titre="L'histoire">
+  <section title="L'histoire">
     <markdown>
       Le roman suit **Violet Bookman**, une jeune femme ordinaire confrontée à des disparitions inexplicables dans sa petite ville natale de l'Ohio. Plutôt que d'être une simple héroïne passive, Violet incarne la curiosité des lecteurs : elle pose les questions, elle enquête, elle compile les indices.
 
@@ -40,7 +40,7 @@
     </markdown>
   </section>
 
-  <section titre="L'Innovation Multi-Plateforme">
+  <section title="L'Innovation Multi-Plateforme">
     <markdown>
       Ce qui rend **Question Mark, Ohio** unique, c'est son architecture distribuée :
 
@@ -54,7 +54,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui fonctionne">
+  <section title="Ce qui fonctionne">
     <markdown>
       1. **Le Web Comme Medium Narratif Pur** : Les créateurs ont construit des **faux sites web réalistes** pour raconter l'histoire. Ce n'est pas une adaptation narrative sur le web—c'est une narration *faite de* web. Les mensonges du policier sont incarnés dans son compte Twitter. La corruption de l'entreprise dans son LinkedIn. L'autorité municipale sur son site officiel. Le medium web lui-même devient le message.
 
@@ -70,7 +70,7 @@
     </markdown>
   </section>
 
-  <section titre="Implications Pédagogiques">
+  <section title="Implications Pédagogiques">
     <markdown>
       **Question Mark, Ohio** illustre plusieurs concepts clés :
 
@@ -84,11 +84,11 @@
     </markdown>
   </section>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Démontre comment fragmenter une narration complexe à travers plusieurs canaux numériques sans perdre la cohérence. Exemple d'interactivité hybride combinant machine (interface web), sociale (Discord, appels téléphoniques), et contributive (résolution collaborative). Modèle d'engagement lecteur en temps réel. Cas d'étude pour le narrative design contemporain et l'émergence créative.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

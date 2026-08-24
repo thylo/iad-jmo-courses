@@ -10,7 +10,7 @@
   <visuel src="descent-legends-of-the-dark.jpg"
           source="https://www.youtube.com/watch?v=qk_BXDKLU28"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Le matériel est spectaculaire : un terrain qui se monte en trois dimensions,
       des bâtiments qu'on assemble, une table qu'on a envie de photographier.
@@ -24,7 +24,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       Le plateau n'est jamais qu'un **écran déporté**. Chaque action faite sur la
       table doit être répliquée dans l'application : on déplace la figurine, puis on
@@ -53,5 +53,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

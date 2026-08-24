@@ -12,7 +12,7 @@
   <visuel src="the-boat.jpg"
           source="https://www.sbs.com.au/theboat/"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       **Le scroll devient le roulis.** Défiler fait bouger le bateau. Le geste de
       lecture et le mouvement raconté sont le même mouvement : on ne regarde pas
@@ -33,7 +33,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       Le lecteur ne décide de rien : le récit est
       [[structure-lineaire|entièrement linéaire]], seul le rythme lui appartient.
@@ -45,5 +45,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

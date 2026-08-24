@@ -15,7 +15,7 @@
   <visuel src="flashback-zombie-kidz.jpg"
           source="https://www.scorpionmasque.com/fr/FlashbackZK"/>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       **Le lien est dessiné.** Il n'y a ni bouton, ni liste d'options : on regarde
       l'image, on y repère quelqu'un, on prend sa vue. La zone cliquable est un
@@ -36,7 +36,7 @@
     </markdown>
   </section>
 
-  <section titre="Ce qui coince">
+  <section title="Ce qui coince">
     <markdown>
       Les questions posées à la fin transforment la compréhension en contrôle : il y
       a une bonne lecture de la scène, et on vérifie que vous l'avez trouvée. Ça
@@ -45,5 +45,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

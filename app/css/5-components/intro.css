@@ -33,7 +33,7 @@
 
 /* A fiche opens as a pair: what the work is on the left, what is known about it
    on the right. The opening gives up the field for that, and only then. */
-.c-intro--avec-fiche { grid-column: marge-start / texte-end; }
+.c-intro--with-facts { grid-column: margin-start / text-end; }
 
 /* --- The hero, on the homepage only -------------------------------------
    The title and the portrait share one row and overlap by a column: the title

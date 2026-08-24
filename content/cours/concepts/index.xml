@@ -7,27 +7,27 @@
     sa page, sans que personne ait à tenir la liste.
   </markdown>
 
-  <section titre="Structures narratives">
-    <index de="concept" ou="genre = structure"/>
+  <section title="Structures narratives">
+    <grid of="concept" where="genre = structure"/>
   </section>
 
-  <section titre="Formes d'interactivité">
-    <index de="concept" ou="genre = forme"/>
+  <section title="Formes d'interactivité">
+    <grid of="concept" where="genre = forme"/>
   </section>
 
-  <section titre="Rôles du public">
-    <index de="concept" ou="genre = role"/>
+  <section title="Rôles du public">
+    <grid of="concept" where="genre = role"/>
   </section>
 
-  <section titre="Interfaces narratives">
-    <index de="concept" ou="genre = interface"/>
+  <section title="Interfaces narratives">
+    <grid of="concept" where="genre = interface"/>
   </section>
 
-  <section titre="Types de choix">
-    <index de="concept" ou="genre = choix"/>
+  <section title="Types de choix">
+    <grid of="concept" where="genre = choix"/>
   </section>
 
-  <section titre="Ressources techniques">
-    <index de="concept" ou="genre = ressource"/>
+  <section title="Ressources techniques">
+    <grid of="concept" where="genre = ressource"/>
   </section>
 </page>

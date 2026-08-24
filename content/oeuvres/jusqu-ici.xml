@@ -7,11 +7,11 @@
 
   <resume>Expérience narrative immersive accessible via web qui mêle vidéo 360°, VR et narration interactive pour explorer des espaces.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Utilise le web comme plateforme d'immersion accessible sans casque VR dédié. Démontre que l'immersion peut être accessible.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

@@ -6,11 +6,11 @@
 
   <resume>Documentaire immersif sur le sauvetage en mer utilisant des interactions gestuelles pour renforcer l'immersion. Le spectateur doit parfois interagir physiquement (secouer, incliner) pour simuler les actions des sauveteurs.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Utilise l'interaction gestuelle pour créer de l'empathie. Le geste physique renforce la compréhension émotionnelle du documentaire.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>

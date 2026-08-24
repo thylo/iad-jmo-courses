@@ -1,0 +1,12 @@
+/* A list whose items hold more than prose — what <list><item> renders.
+
+   Set like a markdown list, because that is what it is to the reader; it exists
+   as a tag only so an item can hold an image or an index. */
+
+.c-list {
+  padding-inline-start: var(--space-m);
+}
+
+.c-list > li + li { margin-block-start: var(--space-s); }
+
+.c-list > li::marker { color: var(--color-ink-faint); }

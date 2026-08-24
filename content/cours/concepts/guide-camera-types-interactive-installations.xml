@@ -5,7 +5,7 @@
 
   <resume>Guide complet sur le choix des caméras pour les installations interactives. Couvre webcams, caméras infrarouge, de profondeur et thermiques avec leurs avantages, inconvénients et cas d'usage.</resume>
 
-  <section titre="Résumé">
+  <section title="Résumé">
     <markdown>
       Ce guide complet de Blair Neal couvre les types de caméras disponibles pour les installations interactives, du plus basique (webcam USB) aux plus sophistiquées (thermique). L'article souligne que "choisir le bon type de caméra est l'une des décisions techniques les plus importantes que vous pouvez prendre dans vos phases de planification initiale."
 
@@ -15,7 +15,7 @@
     </markdown>
   </section>
 
-  <section titre="Types de Caméras Couverts">
+  <section title="Types de Caméras Couverts">
     <markdown>
       ### 1. Webcams Basiques (RGB)
 
@@ -61,7 +61,7 @@
     </markdown>
   </section>
 
-  <section titre="Points Clés à Retenir">
+  <section title="Points Clés à Retenir">
     <markdown>
       ### Évaluation Environnementale
       Avant de choisir une caméra, évaluer:
@@ -101,7 +101,7 @@
     </markdown>
   </section>
 
-  <section titre="Cas d'Usage par Type de Caméra">
+  <section title="Cas d'Usage par Type de Caméra">
     <markdown>
       | Type | Meilleur pour | Limitation |
       |------|---------------|-----------|
@@ -115,7 +115,7 @@
     </markdown>
   </section>
 
-  <section titre="Questions de Conception">
+  <section title="Questions de Conception">
     <markdown>
       Avant de choisir une caméra, se poser:
 
@@ -129,7 +129,7 @@
     </markdown>
   </section>
 
-  <section titre="Intérêt Pédagogique">
+  <section title="Intérêt Pédagogique">
     <markdown>
       Ce guide est **essentiel** pour:
 
@@ -143,5 +143,5 @@
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </concept>

@@ -8,11 +8,11 @@
 
   <resume>Histoire racontée simultanément du point de vue de 3 personnages. Le spectateur bascule entre les perspectives, révélant progressivement la vérité. Navigation fluide entre les flux vidéo parallèles.</resume>
 
-  <section titre="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est inspirant">
     <markdown>
       Utilise la structure parallèle pour créer du mystère et de la révélation. Le spectateur construit sa compréhension en assemblant les pièces. Interface élégante qui matérialise les perspectives multiples.
     </markdown>
   </section>
 
-  <retroliens/>
+  <backlinks/>
 </oeuvre>
