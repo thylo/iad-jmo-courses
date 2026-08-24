@@ -6,3 +6,6 @@
 ## Frontend
 
 - Use Tempest view components where it makes sense
+- Templates live in `views/` at the root, classes in `app/View/`. The
+  `"Views\\": "views/"` entry in composer.json has no class behind it: it is
+  only there so Tempest scans the directory for `x-*` components.

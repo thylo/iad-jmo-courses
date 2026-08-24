@@ -16,8 +16,25 @@ final readonly class NavNode
         public array $children = [],
     ) {}
 
-    public function hasChildren(): bool
+    /** A folder without an index page: a label, nothing to link to. */
+    public function isLabel(): bool
     {
-        return $this->children !== [];
+        return $this->slug === '';
+    }
+
+    /** Whether the given page is this node or sits somewhere below it. */
+    public function leadsTo(string $slug): bool
+    {
+        if ($this->slug === $slug) {
+            return true;
+        }
+
+        foreach ($this->children as $child) {
+            if ($child->leadsTo($slug)) {
+                return true;
+            }
+        }
+
+        return false;
     }
 }
