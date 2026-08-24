@@ -196,6 +196,9 @@ final class ContentRepository
         $documents = [];
         $sources = [];
 
+        /** @var array<string, string> id => the file that took it first */
+        $ids = [];
+
         foreach ($this->contentFiles() as $path) {
             $slug = $this->slugs->toSlug($path);
 
@@ -222,6 +225,17 @@ final class ContentRepository
 
                 $source = $this->xml->parse($path, $slug);
 
+                if (isset($ids[$source->id])) {
+                    // Two files claiming one id would make [[wikilinks]] point
+                    // at whichever was read last. Same verdict as a duplicated
+                    // URL: the second file loses, and says so.
+                    throw ContentException::at(
+                        $path,
+                        sprintf('id « %s » déjà utilisé par %s.', $source->id, $ids[$source->id]),
+                    );
+                }
+
+                $ids[$source->id] = $path;
                 $sources[] = $source;
 
                 // 'page' is the only XML type that is not an entity.
