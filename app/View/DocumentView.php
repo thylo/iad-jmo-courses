@@ -6,6 +6,7 @@ namespace App\View;
 
 use App\Content\Document;
 use App\Content\Intro;
+use App\Content\Layout;
 use App\Content\TableOfContents;
 use Tempest\View\IsView;
 use Tempest\View\View;
@@ -13,11 +14,16 @@ use Tempest\View\View;
 use function Tempest\root_path;
 
 /**
- * Ce qu'une page de contenu a besoin de savoir pour s'afficher.
+ * What a content page needs to know in order to be rendered.
  *
  * The chrome around the page — the site sections in the masthead — is not here:
  * it is the same on every page, so NavigationViewProcessor supplies it, and
  * <x-masthead> reads it as view data.
+ *
+ * Which template renders the document is not decided here either: the page
+ * declares its layout — layout="home" — and this only maps it to a file.
+ * The templates share <x-document> and add what is theirs through its slots,
+ * so no template has to test which page it is rendering.
  */
 final class DocumentView implements View, HasNavigation
 {
@@ -44,7 +50,10 @@ final class DocumentView implements View, HasNavigation
     public function __construct(
         public readonly Document $document,
     ) {
-        $this->path = root_path('views/document.view.php');
+        $this->path = root_path(match ($document->layout) {
+            Layout::Document => 'views/document.view.php',
+            Layout::Home => 'views/home.view.php',
+        });
         $this->intro = Intro::split($document->html);
         $this->toc = TableOfContents::fromHtml($document->html);
 
@@ -53,16 +62,6 @@ final class DocumentView implements View, HasNavigation
             title: $document->title,
             description: $document->description,
         );
-    }
-
-    /**
-     * The homepage carries two marks no other page does: the drawn rule and the
-     * portrait. They only work as an introduction to the person writing, which
-     * happens once.
-     */
-    public function isHome(): bool
-    {
-        return $this->document->slug === '/';
     }
 
     public function hasToc(): bool

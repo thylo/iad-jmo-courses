@@ -6,6 +6,7 @@ namespace App\Content\Xml;
 
 use App\Content\ContentException;
 use App\Content\Html;
+use App\Content\Layout;
 
 /**
  * Reads one .xml file into an XmlSource, refusing anything the schema does not allow.
@@ -49,6 +50,7 @@ final readonly class XmlParser
             id: $this->id($path, $root),
             title: $data['titre'][0],
             summary: $data['resume'][0] ?? null,
+            layout: $this->layout($root),
             root: $root,
             data: $data,
             references: $this->references($root, $schema),
@@ -93,6 +95,19 @@ final readonly class XmlParser
         }
 
         return $id;
+    }
+
+    /**
+     * The layout declared on the root element, the ordinary one by default.
+     *
+     * No validation here: checkAttributes() has already refused any name the
+     * schema does not list, and the schema lists exactly the enum's names.
+     */
+    private function layout(\Dom\Element $root): Layout
+    {
+        $declared = Html::attribute($root, 'layout');
+
+        return $declared === '' ? Layout::Document : Layout::from($declared);
     }
 
     private function checkAttributes(string $path, \Dom\Element $root, Schema $schema): void

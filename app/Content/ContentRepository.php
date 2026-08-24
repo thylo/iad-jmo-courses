@@ -221,6 +221,7 @@ final class ContentRepository
                 }
 
                 $source = $this->xml->parse($path, $slug);
+
                 $sources[] = $source;
 
                 // 'page' is the only XML type that is not an entity.
@@ -235,6 +236,7 @@ final class ContentRepository
                     frontmatter: [],
                     path: $path,
                     render: fn (): string => $this->renderer->render($source, $this->index()),
+                    layout: $source->layout,
                 );
             } catch (ContentException $exception) {
                 $this->failures[$path] = $exception->getMessage();
@@ -296,6 +298,30 @@ final class ContentRepository
             // Prose pages get the same URL handling as the prose inside an
             // entity — the syntax should not mean two different things.
             render: static fn (): string => $markdown->parse(Autolinks::expand($raw))->html,
+            layout: $this->layout($path, $frontmatter),
+        );
+    }
+
+    /**
+     * The layout declared in frontmatter, the ordinary one by default.
+     *
+     * XML gets this check from its schema. Markdown has none, so it happens
+     * here rather than at render time, where an unknown name would only show
+     * up as a missing template.
+     *
+     * @param array<string, mixed> $frontmatter
+     */
+    private function layout(string $path, array $frontmatter): Layout
+    {
+        $declared = $frontmatter['layout'] ?? null;
+
+        if ($declared === null) {
+            return Layout::Document;
+        }
+
+        return Layout::tryFrom((string) $declared) ?? throw ContentException::at(
+            $path,
+            sprintf('layout « %s » inconnu. Attendus : %s.', $declared, implode(' | ', Layout::names())),
         );
     }
 

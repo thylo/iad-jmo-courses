@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace App\Content\Xml;
 
+use App\Content\Layout;
+
 /**
  * A parsed XML entity: its identity, its data, and the tree left to render.
  *
@@ -21,6 +23,8 @@ final readonly class XmlSource
         public string $id,
         public string $title,
         public ?string $summary,
+        /** The layout the page asks for; an entity always keeps the ordinary one. */
+        public Layout $layout,
         public \Dom\Element $root,
         /** @var array<string, string[]> field name => values (text, or referenced id) */
         public array $data,

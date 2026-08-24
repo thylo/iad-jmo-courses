@@ -130,6 +130,23 @@ casse rien : c'est `content:check` qui en tient le compte.
 Aucun champ, juste des blocs. C'est ce qui permet à `/oeuvres` d'être calculée
 plutôt que tenue à la main.
 
+C'est aussi le seul type qui choisit sa mise en page, avec l'attribut
+`layout` :
+
+```xml
+<page id="accueil" layout="home">
+```
+
+Deux valeurs pour l'instant, `document` et `home`. Sans attribut, c'est
+`document` — la mise en page ordinaire. `home` ajoute les deux marques qui
+n'appartiennent qu'à la page d'accueil : le trait dessiné sous le titre, le
+portrait dans la lecture. Une entité n'a pas cet attribut : une œuvre est
+toujours composée comme un document.
+
+Les noms de mise en page sont en anglais, comme le reste du code : `layout`
+nomme un template, pas du contenu. Une mise en page de plus, c'est un cas dans
+`App\Content\Layout` et un fichier du même nom dans `views/`.
+
 `id` et `<titre>` sont obligatoires partout, `<resume>` optionnel : les trois
 sont fournis à tous les types, aucun schéma ne les redéclare. `par`, `categorie`,
 `concept`, `voir` et `exemple` sont répétables.

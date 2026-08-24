@@ -220,9 +220,22 @@ views/
 ├── x-masthead.view.php
 ├── x-toc.view.php
 ├── x-colophon.view.php
-├── document.view.php                rendue par DocumentView
-└── not-found.view.php               rendue par NotFoundView
+├── x-document.view.php              le corps commun, avec ses deux slots
+├── document.view.php                mise en page « document »
+├── home.view.php                    mise en page « home »
+└── not-found.view.php               le 404
 ```
+
+La mise en page n'est pas choisie par le code : la page la déclare, avec
+`layout="home"` sur la racine du fichier XML — voir [le format](/docs/format-xml).
+`DocumentView` ne fait que la correspondance nom → fichier, et `App\Content\Layout`
+tient la liste, dont le schéma XML se sert pour valider.
+
+Ce qu'une seule page possède ne se teste pas dans le corps commun :
+`x-document` ouvre deux slots nommés (`opening`, `reading`), et seul
+`home.view.php` les remplit. Un `:if` sur « est-ce que je suis l'accueil ? »
+dans un template partagé est le même défaut qu'un processor accroché à une
+classe : le générique qui connaît un cas particulier.
 
 Le 404 mérite une ligne. Un `new NotFound()` sans corps n'est pas une page
 vide : `HandleRouteExceptionMiddleware` relance toute réponse 4xx en exception,

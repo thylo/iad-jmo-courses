@@ -27,6 +27,8 @@ final class Document
          * cycle — only a construction order to respect.
          */
         private readonly \Closure $render,
+        /** The layout the page asks for. Last, because it is the only optional one. */
+        public readonly Layout $layout = Layout::Document,
     ) {}
 
     public string $html {

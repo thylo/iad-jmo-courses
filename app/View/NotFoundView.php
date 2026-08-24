@@ -10,7 +10,7 @@ use Tempest\View\View;
 use function Tempest\root_path;
 
 /**
- * La page qui répond quand l'adresse ne mène à rien.
+ * The page that answers when an address leads nowhere.
  *
  * Without it, Tempest answers a 404 with its own error page: English, dark, and
  * pulling Tailwind from a CDN. A visitor who mistypes an address should still

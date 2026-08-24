@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace App\Content\Xml;
 
+use App\Content\Layout;
+
 /**
  * The known entity types.
  *
@@ -69,7 +71,14 @@ final readonly class SchemaRegistry
             // A page that is not an entity: a listing, an introduction. It has an
             // id so it can be linked to, and blocks like any other page — which is
             // what lets an index be derived instead of maintained by hand.
-            new Schema(type: 'page', fields: []),
+            //
+            // It is also the only type that picks its layout: an entity is
+            // always set as an ordinary document.
+            new Schema(
+                type: 'page',
+                fields: [],
+                attributes: ['layout' => Layout::names()],
+            ),
         ];
 
         $this->schemas = array_column($schemas, null, 'type');
