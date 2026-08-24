@@ -44,6 +44,14 @@ final readonly class MediaBuilder
                 $built[$name] = $this->buildOne($name, $path, $hash);
                 $report->record(MediaOutcome::written($name, implode('/', $built[$name]->widths)));
             } catch (MediaException $exception) {
+                // The previous variants are still on disk and still correct, so
+                // the entry stays: a failed encode must not take the image off
+                // every page that uses it. Its hash stays the old one, which is
+                // what makes the next run try again.
+                if ($existing !== null && $this->variantsExist($existing)) {
+                    $built[$name] = $existing;
+                }
+
                 $report->record(MediaOutcome::failed($name, $exception->getMessage()));
             }
         }

@@ -113,27 +113,27 @@ final readonly class Visuals
     {
         $file = $entity->id . '.jpg';
         $path = MediaLibrary::sourcePath(Visual::directory($entity->type), $file);
-        $target = $dry ? (string) tempnam(sys_get_temp_dir(), 'visuel') : $path;
+
+        // Written beside its target, never over it: a candidate that turns out
+        // to be a logo must not take away the image already in place.
+        $pending = $path . '.pending';
 
         try {
-            [$width] = $this->images->store($binary, $target);
+            [$width] = $this->images->store($binary, $pending);
         } catch (MediaException $exception) {
-            return $exception->getMessage();
+            return str_replace($pending, $path, $exception->getMessage());
         }
 
         $tooSmall = $width < self::MIN_WIDTH;
 
         if ($dry || $tooSmall) {
-            unlink($target);
+            unlink($pending);
+
+            return $tooSmall ? sprintf('trop petite (%dpx)', $width) : null;
         }
 
-        if ($tooSmall) {
-            return sprintf('trop petite (%dpx)', $width);
-        }
-
-        if (! $dry) {
-            $this->writer->write($entity, $file, source: $source);
-        }
+        rename($pending, $path);
+        $this->writer->write($entity, $file, source: $source);
 
         return null;
     }
