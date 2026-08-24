@@ -25,7 +25,7 @@
    the credit sits inside it as a quieter aside rather than as a second block. */
 .c-figure__caption,
 figcaption.c-figure__credit {
-  margin-block-start: var(--space-xs);
+  margin-block-start: var(--space-s);
   font-size: var(--text-meta);
   line-height: var(--space-unit);
 }

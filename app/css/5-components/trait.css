@@ -17,18 +17,27 @@
    What makes these read as ink is the pressure and the tapered ends. */
 
 .c-trait,
+/* The box is a value of the scale, the drawing keeps the weight it was drawn
+   at, and it sits in the middle of the box. A mark in the flow weighs on the
+   rhythm exactly like a margin does, so its box has to be on the scale — but
+   stretching the pen to 14px would thicken it by 75%, which is a different
+   drawing. So the box takes the half step and the mask keeps its 8px.
+
+   Same move as the portrait and the signature: size the box, never the mark. */
 .c-trait-dessous::after,
 .c-trait-dessus::before {
   display: block;
   border: 0;
   inline-size: 100%;
-  block-size: 0.5rem;
+  block-size: var(--space-s);   /* 14, the half step */
   background-color: var(--color-rule);
   mask-image: var(--trait, var(--trait-1));
-  mask-size: 100% 100%;
+  mask-size: 100% 0.5rem;       /* 8px, the weight it was drawn at */
+  mask-position: left center;
   mask-repeat: no-repeat;
   -webkit-mask-image: var(--trait, var(--trait-1));
-  -webkit-mask-size: 100% 100%;
+  -webkit-mask-size: 100% 0.5rem;
+  -webkit-mask-position: left center;
   -webkit-mask-repeat: no-repeat;
 }
 

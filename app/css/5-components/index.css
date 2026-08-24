@@ -19,7 +19,7 @@
 .c-prose .index--vignettes img {
   width: 100%;
   height: auto;
-  margin-block-end: var(--space-xs);
+  margin-block-end: var(--space-s);
   aspect-ratio: 16 / 10;
   object-fit: cover;
   background-color: var(--color-paper-sunk);

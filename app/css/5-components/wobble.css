@@ -5,27 +5,49 @@
    it is masked from a file instead of a data URI. It is short, and that is the
    point: a hand shows over 314px, and does not over 1400.
 
-   The box is the measure and the mark is centred inside it, rather than the
-   box being the mark and centred by auto margins. Auto margins would centre it
-   on the reading, and the reading is the measure PLUS the field — so the mark
-   would drift out to the right of the prose it is breaking. Sizing the mask
-   instead keeps it over the column it belongs to. */
+   Flush left, at the head of the reading. It used to be centred on the
+   measure, which made it an ornament sitting in the middle of a column; set
+   against the same edge as everything else it becomes structure — the mark
+   that says the introduction has ended and the reading has started.
+
+   The box is the full width and the mark is placed inside it rather than the
+   box being the mark: a box sized to the drawing would take auto margins to
+   place, and auto margins centre on the reading, which is the measure PLUS
+   the field. Sizing the mask keeps the placement honest at any width. */
 
 .c-wobble {
   display: block;
-  inline-size: 100%;
-  max-inline-size: var(--measure-text);
-  block-size: 2.125rem; /* 34px, the height it was drawn at */
+  inline-size: calc(100% + var(--sidebar-width));
+  max-inline-size: none;
+  /* Out to marge-start, where the masthead rule and the closing band already
+     begin. The prose starts one column in; the marks that structure the page
+     do not. */
+  margin-inline-start: calc(-1 * var(--sidebar-width));
+  /* The box is on the scale, the drawing keeps its 34px inside it. A mark in
+     the flow weighs on the rhythm like a margin, so the box has to be a
+     multiple — but pulling the wobble to 42 would flatten the hand out of it,
+     and that hand is the whole reason this mark is a file rather than a
+     generated line. So: box 42, drawing 34, centred. */
+  block-size: var(--space-l); /* 42, and the drawing sits in the middle of it */
   /* The canvas already sets a step above the reading, and the wobble opens
      it — so only the step below is this mark's to set. */
   margin-block: 0 var(--space-2xl);
   background-color: var(--color-rule);
   mask-image: url("../../../resources/svg/wobbly.svg");
-  mask-size: min(19.625rem, 100%) 100%; /* 314px, the width it was drawn at */
-  mask-position: center;
+  /* 314 x 34, the size it was drawn at */
+  mask-size: min(19.625rem, 100%) 2.125rem;
+  mask-position: left center;
   mask-repeat: no-repeat;
   -webkit-mask-image: url("../../../resources/svg/wobbly.svg");
-  -webkit-mask-size: min(19.625rem, 100%) 100%;
-  -webkit-mask-position: center;
+  -webkit-mask-size: min(19.625rem, 100%) 2.125rem;
+  -webkit-mask-position: left center;
   -webkit-mask-repeat: no-repeat;
+}
+
+/* No margin column below the breakpoint, so nothing to reach back into. */
+@media (max-width: 47.999em) {
+  .c-wobble {
+    inline-size: 100%;
+    margin-inline-start: 0;
+  }
 }

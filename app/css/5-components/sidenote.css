@@ -25,7 +25,7 @@
 }
 
 /* Its own paragraphs sit tighter than the body's — the note is one thought. */
-.c-sidenote > * + * { margin-block-start: var(--space-xs); }
+.c-sidenote > * + * { margin-block-start: var(--space-s); }
 
 /* Below the breakpoint there is no margin to float into. Tufte hides margin
    material behind a toggle at this width and Gwern drops it back inline; inline

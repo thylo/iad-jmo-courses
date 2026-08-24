@@ -13,10 +13,26 @@
    The numbers are the drawing's own. Its circle is cx 317, cy 363, r 317 in a
    634 x 726 frame: full width, starting 46/726 of the way down. */
 
+/* The height is what is set and the width follows from it — the reverse of
+   what this was. A width of 100% with an aspect ratio gave a height of 476.4px
+   at the size the hero is drawn, and that fraction of a pixel shifted every
+   row below it off the baseline for the rest of the page. Rows are auto here,
+   so nothing downstream can put it back.
+
+   So the box takes a value of the scale in each of the two zones, and the
+   drawing keeps its proportions from it. Both widths stay inside the two
+   tracks the hero gives this mark, at every viewport those zones cover. */
 .c-portrait {
   position: relative;
-  inline-size: 100%;
+  block-size: calc(var(--space-unit) * 7);   /* 196, the drawing 171 wide */
+  inline-size: auto;
   aspect-ratio: 634 / 726;
+}
+
+@media (min-width: 48em) {
+  .c-portrait {
+    block-size: calc(var(--space-unit) * 17);   /* 476, the drawing 416 wide */
+  }
 }
 
 .c-portrait::before,

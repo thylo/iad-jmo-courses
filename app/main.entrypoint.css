@@ -47,8 +47,10 @@
 @import "./css/5-components/trait.css";
 @import "./css/5-components/wobble.css";
 @import "./css/5-components/signature.css";
+@import "./css/5-components/home.css";
 
 /* 06 UTILITIES */
+@import "./css/6-utilities/baseline.css";
 @import "./css/6-utilities/measure.css";
 @import "./css/6-utilities/ink.css";
 @import "./css/6-utilities/visually-hidden.css";
