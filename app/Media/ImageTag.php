@@ -50,6 +50,15 @@ final readonly class ImageTag
      */
     private const string SIZES_FIELD = '(min-width: 48em) calc(100vw - 62rem), calc(100vw - 3.5rem)';
 
+    /**
+     * The opening plate is the only image that changes column with the window:
+     * the field beside the summary where there is a field worth having, the
+     * reading below it where there is not. figure.css owns that switch and
+     * names the threshold; this is the same threshold said in the one place
+     * the browser reads before the layout exists.
+     */
+    private const string SIZES_OPENING = '(min-width: 72em) calc(100vw - 62rem), (min-width: 48em) calc(100vw - 20rem), calc(100vw - 3.5rem)';
+
     public function __construct(
         private MediaLibrary $library,
         private InlineProse $prose,
@@ -96,6 +105,7 @@ final readonly class ImageTag
      * decision rather than a property of the file: it says what the image does
      * to the reading, and the grid already has a column for each answer.
      *
+     *   opening  the field, level with the summary — the reading has not begun
      *   field    the open column, beside the text — the reading continues
      *   reading  the text column plus the field — the reading stops (default)
      *   full     the paper, edge to edge — the reading stops before it began
@@ -104,6 +114,15 @@ final readonly class ImageTag
      * is the first one. Every image after it belongs in the field, where a
      * figure annotates instead of interrupting — which is the whole reason a
      * page can carry several without turning into a slideshow.
+     *
+     * `opening` is the same column as `field` and a different row: the plate
+     * that opens the page rides beside the title and the summary rather than
+     * beside the first paragraph. A figure in the field aligns with the top of
+     * the block it annotates, so it needs a block as tall as itself standing
+     * beside it — and the block at the top of a page is one paragraph long. The
+     * opening is the one place on the sheet with room for a plate and nothing
+     * to interrupt, which is exactly what a fiche already does with its facts.
+     * App\Content\Intro lifts it out on that class.
      */
     public function block(\Dom\Element $element, string $type, ContentIndex $index): string
     {
@@ -115,6 +134,7 @@ final readonly class ImageTag
 
         [$class, $sizes, $fallback] = match (Html::attribute($element, 'width')) {
             'full' => ['c-figure c-bleed', self::SIZES_BLEED, 1280],
+            'opening' => ['c-figure c-figure--opening', self::SIZES_OPENING, 640],
             'field' => ['c-figure c-figure--field', self::SIZES_FIELD, 640],
             default => ['c-figure', self::SIZES_FIGURE, 1280],
         };

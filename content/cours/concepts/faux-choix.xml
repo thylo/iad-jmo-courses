@@ -1,6 +1,7 @@
 <concept id="faux-choix">
   <titre>Faux Choix</titre>
   <genre>choix</genre>
+  <exemple ref="etes-vous-pret-a-sauver-une-vie"/>
   <voir ref="choix-rationnel"/>
   <voir ref="choix-exploratoire"/>
 

@@ -1,30 +1,140 @@
 <page id="introduction">
   <titre>Introduction</titre>
 
-  <resume>Le tour du terrain, rangé par l'endroit où le récit se tient : un film qui bifurque, une messagerie, une rue, une table. À lire en premier.</resume>
+  <resume>Ce qu'est l'interactivité et d'où elle vient — l'arène avant l'écran. Puis le tour du terrain, rangé par l'endroit où le récit se tient. À lire en premier.</resume>
 
-  <image src="jardin-des-delices.jpg"
-         width="full"
-         alt="Un triptyque peint : à gauche un jardin vert où Adam et Ève se tiennent devant une fontaine rose, entourés d'animaux ; au centre un panneau plus large, une foule de corps nus dans un paysage de bassins, de fruits géants et de constructions roses et bleues ; à droite un enfer nocturne où brûlent des villes, avec des instruments de musique changés en instruments de supplice."
-         caption="Jheronimus Bosch, « Le Jardin des délices », vers 1500. Museo Nacional del Prado, Madrid. Trois panneaux, aucun ordre de lecture imposé : on regarde d'abord ce qui accroche."
-         credit="Domaine public, via Wikimedia Commons"
-         source="https://commons.wikimedia.org/wiki/File:The_Garden_of_earthly_delights.jpg"/>
-
-  <markdown>
-    Commencez ici. Cette page fait le tour du terrain en rangeant les œuvres par
-    l'endroit où le récit se tient, et elle va du film qui bifurque à la rue
-    transformée en décor. Sept catégories, pour voir d'un coup ce qui existe.
-  </markdown>
   <spotify id="https://open.spotify.com/intl-fr/track/18rvAAZfZ35a9J374TnSxh?si=9220e5e324894c15"/>
+
+  <image src="pollice-verso-gerome.jpg"
+         width="opening"
+         alt="Un tableau d'arène : au centre un gladiateur casqué d'or, debout, le pied posé sur la gorge d'un adversaire renversé qui lève la main vers les gradins pour demander grâce. Au premier plan deux corps à terre. Sur le podium, des femmes en voile blanc se penchent par-dessus les tentures et tendent le poing, le pouce retourné vers le bas ; derrière elles, les gradins montent pleins jusqu'en haut."
+         caption="Jean-Léon Gérôme, « Pollice Verso », 1872. Phoenix Art Museum. Le récit s'arrête, et ce sont les gradins qui décident de la suite."
+         credit="Domaine public, via Wikimedia Commons"
+         source="https://commons.wikimedia.org/wiki/File:Jean-Leon_Gerome_Pollice_Verso.jpg"/>
+
+  <section title="Ça commence dans une arène">
+    <markdown>
+      L'interactivité tient en une phrase : **le public agit, et ce qu'il fait change
+      ce qui se passe.** Rien là-dedans ne parle de technologie.
+
+      Rome, les *munera*. Un gladiateur à terre lève l'index : il demande grâce. Les
+      gradins répondent — *mitte*, laisse-le partir, ou *iugula*, égorge. Celui qui
+      paie les jeux tranche, et il tranche en écoutant la salle : il est venu acheter
+      sa popularité, pas contredire les gradins.
+
+      Tout y est déjà :
+
+      - un moment prévu où le récit s'arrête et attend
+      - deux issues, pas mille
+      - une conséquence irréversible
+      - une salle qui décide ensemble, à voix haute
+    </markdown>
+
+    <image src="pollice-verso.gif"
+           width="field"
+           alt="Un homme jeune assis dans une tribune, en tunique sombre, le bras tendu devant lui, poing fermé et pouce sorti à l'horizontale. Il regarde l'arène, puis retourne lentement le pouce vers le bas."
+           caption="Commode rend son verdict. Le geste est faux, le principe est juste : la fin dépend de quelqu'un dans les gradins."
+           credit="Gladiator, Ridley Scott, 2000 — via Giphy"
+           source="https://giphy.com/gifs/qiDb8McXyj6Eg"/>
+
+    <markdown>
+      Reste un détail moins flatteur, la décision appartient à
+      celui qui tient les jeux. Il peut suivre la foule, la contredire, ou lui laisser
+      croire qu'elle a choisi pendant qu'il fait ce qui était prévu. Deux mille ans
+      plus tard, c'est mot pour mot le problème du [faux choix](/panorama/choix).
+    </markdown>
+  </section>
+
+  <note title="Le pouce qu'on croit connaître">
+    <markdown>
+      Ce qu'on ignore de cette scène : quel geste voulait dire quoi. Les textes latins
+      parlent d'un pouce — *pollice verso* chez Juvénal, « pouce retourné » — sans
+      jamais dire vers où. Le pouce baissé qui condamne, lui, vient d'un tableau :
+      *Pollice Verso*, de Jean-Léon Gérôme, 1872 — celui qui ouvre cette page,
+      peint dix-huit siècles après les faits. Ridley Scott a raconté que c'est cette
+      toile qui l'a décidé à tourner *Gladiator*, et le film a fixé le geste pour tout
+      le monde, y compris dans ce GIF.
+
+      Notre image de la plus vieille interaction connue est donc une reconstitution de
+      reconstitution. À savoir avant de citer l'Antiquité comme une autorité.
+    </markdown>
+  </note>
+
+  <section title="Ce que l'écran n'a pas inventé">
+    <markdown>
+      L'arène n'est pas un cas isolé. Le conteur coupe une digression quand la salle
+      décroche et rallonge ce qui prend. Le rite et le jeu donnent un rôle à tenir au
+      lieu d'un spectacle à regarder. La *commedia dell'arte* joue sur un canevas, pas
+      sur un texte : la salle fait partie du dispositif. Plus près de nous, le jeu de
+      rôle sur table (1974) et les livres dont vous êtes le héros (1979) posent, sans
+      une ligne de code, tout ce que le web refera ensuite.
+    </markdown>
+
+    <video src="youtube:A4fwA4-yNkk"
+           caption="La partie de Donjons &amp; Dragons qui ouvre Stranger Things (Duffer Brothers, 2016) : un canevas, un maître du jeu, et une table qui décide."/>
+
+    <markdown>
+      L'écran n'apporte donc pas l'interaction. C'est une option, pas un passage
+      obligé : un paquet de cartes peut tenir aujourd'hui un récit interactif entier.
+      C'est pour ça que [le hors écran](/panorama/hors-ecran) est dans ce panorama au
+      même titre que le reste, et pas comme une curiosité d'avant.
+
+      La mémoire non plus n'est pas de lui. [Heredity](/oeuvres/heredity) accroche ses
+      cartes sur une frise du temps et les déclenche une heure plus tard ;
+      [Cartaventura](/oeuvres/cartaventura) laisse l'état du récit posé sur la table,
+      où tout le monde le voit. Le carton se souvient très bien.
+
+      Ce que l'écran apporte, ce sont trois choses :
+
+      - **les médias** — image, son, vidéo, 3D, animation, dans le même objet et au
+        moment exact
+      - **la diffusion** — mille personnes à la fois, chacune sa version, rien à
+        imprimer ni à expédier
+      - **l'adaptation** — le carton ne peut proposer que ce qu'il a imprimé ; une
+        machine recombine, et les choix restent moins figés
+
+      Ce que la salle avait, elle, ne se remplace pas pour autant : une machine
+      s'adapte à l'intérieur de ce qu'on a écrit pour elle, quelqu'un qui vous regarde
+      peut inventer autre chose.
+    </markdown>
+  </section>
+
+  <section title="Une fois qu'on est sur l'écran">
+    <markdown>
+      Benjamin Hoguet, dans *La Narration Réinventée*, donne à l'interactivité un
+      périmètre plus large que celui de l'arène : toutes les formes d'échange entre un
+      public et un contenu numérique. Il en distingue trois.
+
+      - **Machine** — on touche, on clique, on fait défiler ; l'action porte sur le
+        contenu lui-même
+      - **Sociale** — on échange avec d'autres autour du contenu : un fil, un salon,
+        une messagerie
+      - **Collaborative** — le public participe à la construction de l'œuvre
+
+      Ce sont exactement les trois interlocuteurs possibles, vus depuis l'autre bout :
+      [face à qui le public se trouve](/panorama/interlocuteurs).
+
+      Il en tire une conséquence qui vaut d'être retenue. L'interactivité n'est pas un
+      supplément qu'on ajoute à un contenu déjà fini : c'est le plus petit dénominateur
+      commun entre un blog obscur, une application de service et une grande plateforme
+      sociale. Tout ce qui est numérique en a une part, même minuscule. La question
+      n'est donc jamais « est-ce interactif », mais **jusqu'où, et pour quoi faire**.
+
+      D'où une définition de travail, un cran plus large que celle du début de page :
+      l'interactivité est la capacité d'un contenu à intégrer l'action de son public et
+      à y répondre — un geste, un échange avec d'autres, ou une contribution à l'œuvre
+      elle-même.
+    </markdown>
+  </section>
+
   <markdown>
-    C'est le découpage le plus grossier du site, et c'est voulu. Deux œuvres de la
-    même catégorie peuvent n'avoir aucune structure en commun, et deux œuvres que
-    tout sépare ici peuvent se répondre exactement dès qu'on regarde
-    [la forme du récit](/panorama/structures). Prenez cette page pour ce qu'elle est :
-    un inventaire, pas une analyse — celle-ci commence sur les autres pages.
+    Le reste de cette page range ce qui se fait aujourd'hui, par l'endroit où le récit
+    se tient : un écran qui bifurque, une messagerie, une rue, une table, un tableur.
+    Sept catégories. C'est le découpage le plus grossier du site, et c'est voulu : il
+    sert à voir d'un coup ce qui existe, pas à analyser une œuvre. Deux voisines ici
+    peuvent n'avoir aucune structure en commun, et deux œuvres que tout sépare peuvent
+    se répondre exactement dès qu'on regarde [la forme du récit](/panorama/structures).
   </markdown>
-
-
 
   <section title="Le linéaire qui bifurque">
     <markdown>

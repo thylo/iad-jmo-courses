@@ -35,6 +35,7 @@
 /* 05 COMPONENTS */
 @import "./css/5-components/masthead.css";
 @import "./css/5-components/nav.css";
+@import "./css/5-components/trail.css";
 @import "./css/5-components/intro.css";
 @import "./css/5-components/portrait.css";
 @import "./css/5-components/prose.css";
@@ -45,11 +46,13 @@
 @import "./css/5-components/link.css";
 @import "./css/5-components/facts.css";
 @import "./css/5-components/figure.css";
+@import "./css/5-components/diagram.css";
 @import "./css/5-components/video.css";
 @import "./css/5-components/spotify.css";
 @import "./css/5-components/grid.css";
 @import "./css/5-components/backlinks.css";
 @import "./css/5-components/destinations.css";
+@import "./css/5-components/glossary.css";
 @import "./css/5-components/toc.css";
 @import "./css/5-components/sidenote.css";
 @import "./css/5-components/colophon.css";

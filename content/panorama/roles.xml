@@ -6,20 +6,32 @@
     Qui êtes-vous dans le récit ? La question paraît accessoire. Elle décide de
     l'écriture entière, et elle la décide avant qu'une ligne de code soit écrite.
 
-    Quatre réponses courantes, et chacune impose ses contraintes :
-
-    - **[Vous-même](/cours/concepts/role-soi-meme)** — l'œuvre vous parle à vous, sans
-      costume. C'est ce que fait [Lifeline](/oeuvres/lifeline) quand l'app sonne à
-      trois heures du matin. Le prix : il faut écrire sans savoir qui lit.
-    - **[Un personnage](/cours/concepts/role-personnage)** — vous héritez d'une
-      histoire, d'un nom, de motivations qui ne sont pas les vôtres. Confortable à
-      écrire, plus difficile à faire habiter.
-    - **[Un fantôme](/cours/concepts/role-fantome)** — vous voyez tout et ne pouvez
-      rien. Vos gestes déplacent le regard, pas les événements.
-    - **[Une divinité](/cours/concepts/role-divinite)** — vous n'êtes nulle part dans
-      la fiction et vous en tenez les leviers. C'est la position par défaut de tout
-      ce qui se [manipule comme un modèle](/panorama/introduction).
+    Quatre réponses courantes, et chacune impose ses contraintes.
   </markdown>
+
+  <glossary>
+    <term name="Vous-même" to="role-soi-meme">
+      L'œuvre vous parle à vous, sans costume, et travaille avec vos vraies données :
+      ce qu'elle finit par vous montrer, c'est vous. Le prix : il faut écrire sans
+      savoir qui lit.
+    </term>
+
+    <term name="Un personnage" to="role-personnage">
+      Vous héritez d'une histoire, d'un nom, de motivations qui ne sont pas les
+      vôtres. Confortable à écrire, plus difficile à faire habiter.
+    </term>
+
+    <term name="Un fantôme" to="role-fantome">
+      Vous voyez tout et ne pouvez rien. Vos gestes déplacent le regard, pas les
+      événements.
+    </term>
+
+    <term name="Une divinité" to="role-divinite">
+      Vous n'êtes nulle part dans la fiction et vous en tenez les leviers. C'est la
+      position par défaut de tout ce qui se
+      [manipule comme un modèle](/panorama/introduction).
+    </term>
+  </glossary>
 
   <section title="L'erreur fréquente">
     <markdown>
@@ -40,6 +52,4 @@
       [les types de choix](/panorama/choix).
     </markdown>
   </section>
-
-  <grid of="concept" where="genre = role"/>
 </page>

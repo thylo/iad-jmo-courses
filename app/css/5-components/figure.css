@@ -21,6 +21,43 @@
   background-color: var(--color-paper-sunk);
 }
 
+/* The plate that opens a page — <image width="opening"/>.
+
+   It is not in the reading at all: App\Content\Intro lifts it into the field
+   beside the title and the summary, where the fiche puts its facts. So it needs
+   no float, no width and no clearing — the grid gave it a column, and the
+   column is the whole of its geometry.
+
+   The margins go, and that is the point of the class. A figure in the flow owns
+   the space around it because it interrupts something; this one interrupts
+   nothing, and its top edge lining up with the top of the opening is what makes
+   the two read as one composition rather than as two blocks that happen to be
+   side by side. */
+
+.c-figure--opening {
+  margin-block: 0;
+}
+
+/* Same threshold as .c-figure--field below, same arithmetic, and here it moves
+   a whole composition rather than one float: under about 72em the field is a
+   couple of hundred pixels, and a plate set in that is a thumbnail with a
+   caption four lines deep beside a title in display type. So the pair breaks —
+   the opening takes the sheet back, and the plate drops under it at the width
+   of the reading, which is where an image goes when it has no column of its own.
+
+   Selected through the block that holds it rather than with a modifier of its
+   own: the same wrapper carries an entity's facts, and a <dl> of five rows is
+   perfectly readable in a narrow field. It is the image that cannot. */
+@media (max-width: 71.999em) {
+  .c-intro--paired:has(+ * .c-figure--opening) {
+    grid-column: margin-start / field-end;
+  }
+
+  .o-canvas__field:has(> .c-figure--opening) {
+    grid-column: text-start / field-end;
+  }
+}
+
 /* A figure in the open field — the mirror of the margin note, and the reason
    the third column exists.
 

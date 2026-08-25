@@ -1,0 +1,45 @@
+/* The trail: the address of the page, set above its title.
+
+   It is a caption over a heading, the way a newspaper sets a section name over
+   an article — so it takes the meta size and the muted ink, and the title
+   underneath keeps all the weight. Nothing here competes with the <h1>: what
+   the reader wants first is what the page is, and only then where it sits.
+
+   It belongs to the opening rather than to the masthead. The band at the top
+   says what the site is made of and never changes; this changes on every page,
+   and it is read at the moment the title is read. */
+
+.c-trail {
+  margin-block-end: var(--space-s);
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+}
+
+.c-trail__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: var(--space-s);
+  row-gap: 0;
+}
+
+/* The separator is drawn by the stylesheet, not written in the markup: it is
+   punctuation between two links, not a third thing to read. Screen readers get
+   an ordered list, which already says what the chevrons say.
+
+   It sits in the rule colour — the same grey as every line on the page — so a
+   trail of three reads as one address rather than as a row of arrows. */
+.c-trail__list > li + li::before {
+  content: "›";
+  margin-inline-end: var(--space-s);
+  color: var(--color-rule);
+}
+
+.c-trail__link {
+  color: var(--color-ink-muted);
+  text-decoration: none;
+}
+
+.c-trail__link:hover {
+  color: var(--color-accent);
+  text-decoration-line: underline;
+}

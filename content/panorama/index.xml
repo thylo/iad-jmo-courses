@@ -10,36 +10,44 @@
          source="https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Children%E2%80%99s_Games_-_Google_Art_Project.jpg"/>
 
   <markdown>
-    La narration interactive ne se limite pas au site web. Elle passe par des
-    cartes, des rues, des salles, des podcasts, des tableurs. Cette page est la porte
-    d'entrée : elle rassemble les différentes façons de ranger tout ça.
-
-    Aucun de ces découpages ne prime sur les autres. Chacun montre quelque chose que
-    les autres cachent, et la même œuvre apparaît dans plusieurs — c'est le
-    signe qu'ils fonctionnent. Le vocabulaire d'analyse est dans les
-    [concepts](/cours/concepts), la liste complète des œuvres est [ici](/oeuvres).
+    La narration interactive ne se limite pas aux jeux vidéos. Elle passe par des
+    cartes, des rues, des salles, des podcasts, des tableurs, des projections...
+    Cette page est une porte d'entrée : elle tente de présenter l'étendue souvent méconnue de cette forme de narration.
   </markdown>
 
+  <image src="mitchell-scanner.gif"
+         width="field"
+         alt="Un carlin vu à travers l'interface d'un robot : un cadre turquoise l'entoure et une vignette propose une identification, qui change sans jamais se fixer — un golden retriever et « DOG…? », un cochon et « PIG…? », un golden retriever encore, puis une miche et « LOAF OF BREAD ». L'écran vire au rouge sur « SYSTEM ERROR »."
+         caption="Michael Rianda et Jeff Rowe, « Les Mitchell contre les machines », 2021. Le scanner hésite entre chien, cochon et pain, puis renonce."
+         credit="Sony Pictures Animation"
+         source="https://giphy.com/gifs/sonyanimation-9KOpAjVoo00qvQosqC"/>
+
   <markdown>
-    Ranger n'est jamais neutre. Un classement décide de ce qui se ressemble et de
-    ce qui n'a pas de case, et il le fait sans le dire. Sur des œuvres, ça ne coûte
-    rien. Sur des gens, la même technique — la fiche, le code, le tiroir, aujourd'hui
-    le modèle statistique — a servi à [autre chose](/panorama/ranger).
+    Proposer une classification n'est jamais neutre. Un classement décide de ce qui
+    se ressemble et de ce qui n'a pas de case, et il le fait sans le dire. Sur des
+    œuvres, ça ne coûte rien. Sur des gens, le même geste ne décrit pas : il décide
+    qui entre dans quelle case, et qui n'entre nulle part. Ce n'est pas de l'histoire
+    ancienne — c'est aujourd'hui le métier des modèles statistiques. Une page à part
+    montre [ce que classer fait aux gens qu'on classe](/panorama/ranger).
 
     Les classements qui suivent sont donc des propositions parmi d'autres, établies
     dans un seul but : montrer l'étendue de ce qui existe. Des tiroirs, pas des faits.
-
-    Ils ne font pas tous le même métier, et il vaut mieux le dire d'entrée : il y a
-    la carte, les grilles de lecture, l'outil de fabrication, et les deux bords du
-    terrain.
   </markdown>
 
-  <destinations>
-    <destination to="introduction">
-      Le film qui bifurque, la messagerie, la rue, la table, le tableur. Sept
-      catégories, rangées par l'endroit où le récit se tient
-    </destination>
-  </destinations>
+  <section title="La carte">
+    <markdown>
+      À lire en premier. C'est le découpage le plus grossier du site, et c'est
+      voulu : il ne sert pas à analyser une œuvre, il sert à voir d'un coup ce qui
+      existe. Les grilles qui suivent se lisent mieux une fois ce tour-là fait.
+    </markdown>
+
+    <destinations rank="lead">
+      <destination to="introduction">
+        Le film qui bifurque, la messagerie, la rue, la table, le tableur. Sept
+        catégories, rangées par l'endroit où le récit se tient
+      </destination>
+    </destinations>
+  </section>
 
   <section title="Les grilles de lecture">
     <markdown>

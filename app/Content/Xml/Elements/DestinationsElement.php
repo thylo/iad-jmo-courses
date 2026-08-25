@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Content\Xml\Elements;
 
+use App\Content\Html;
 use App\Content\Xml\ElementRenderer;
 use App\Content\Xml\RenderContext;
 use App\View\Component;
@@ -28,16 +29,35 @@ final readonly class DestinationsElement implements ElementRenderer
 
     public function render(\Dom\Element $element, RenderContext $context): string
     {
+        $modifiers = [];
+
+        // Columns are a rhythm, and a rhythm of one is not one: a lone door in
+        // the grid reads as a table that lost its other rows. The view drops the
+        // columns for it, the same way <grid> drops them for a corpus with no
+        // thumbnails. The author still writes <destinations> either way — how
+        // many there are is a fact about the content, not a decision to take
+        // again in the markup.
+        if ($element->getElementsByTagName('destination')->length === 1) {
+            $modifiers[] = 'c-destinations--single';
+        }
+
+        // rank="lead" is the one thing the writer decides here, and like an
+        // image's width= it is editorial rather than a fact about the content:
+        // it says this index is the way in rather than one group among the
+        // others. Nothing in the markup could be read to mean that — a page's
+        // front door and its last aside are both <destinations> with one entry
+        // inside a <section> — so it has to be said.
+        if (Html::attribute($element, 'rank') === 'lead') {
+            $modifiers[] = 'c-destinations--lead';
+        }
+
         return $this->components->render(
             'x-destinations',
             entries: $context->renderer->children($element, $context),
-            // Columns are a rhythm, and a rhythm of one is not one: a lone door
-            // in the grid reads as a table that lost its other rows. The view
-            // drops the columns for it, the same way <grid> drops them for a
-            // corpus with no thumbnails. The author still writes <destinations>
-            // either way — how many there are is a fact about the content, not
-            // a decision to take again in the markup.
-            single: $element->getElementsByTagName('destination')->length === 1,
+            // Composed here rather than in the view, the way <figure> takes the
+            // classes its caller assembled: two independent modifiers make a
+            // ternary in the template that reads as neither of them.
+            class: implode(' ', ['c-destinations', ...$modifiers]),
         );
     }
 }

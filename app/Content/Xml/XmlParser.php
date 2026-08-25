@@ -240,8 +240,11 @@ final readonly class XmlParser
     /** Below the root, only rendering elements are allowed. */
     private function checkBlocks(string $path, \Dom\Element $parent): void
     {
-        // <markdown> is opaque on purpose: its content is prose, not a tree.
-        if ($parent->localName === 'markdown') {
+        // The prose leaves are opaque on purpose: what they hold is a document
+        // in another language, not a tree. <destination> and <term> hold text
+        // too and are NOT here — they hold one line and no prose, so a stray
+        // tag inside one is a mistake worth reporting.
+        if (in_array($parent->localName, ['markdown', 'preamble'], true)) {
             return;
         }
 
@@ -362,8 +365,10 @@ final readonly class XmlParser
             }
         }
 
-        foreach ($root->getElementsByTagName('markdown') as $markdown) {
-            $references = [...$references, ...WikiLinks::targets($markdown->textContent)];
+        foreach (['markdown', 'preamble'] as $tag) {
+            foreach ($root->getElementsByTagName($tag) as $prose) {
+                $references = [...$references, ...WikiLinks::targets($prose->textContent)];
+            }
         }
 
         // A caption is prose too, and it is the one piece of prose that lives in

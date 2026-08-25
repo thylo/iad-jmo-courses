@@ -7,6 +7,9 @@
  * nobody has described yet is decorative until someone says otherwise, and a
  * screen reader skipping it beats it reading out "unlock.jpg".
  *
+ * srcset and sizes are dropped when there is nothing to choose between — a
+ * file served as it is, an animated GIF, has one width and one file.
+ *
  * @var string $src
  * @var string $srcset
  * @var string $sizes
@@ -16,4 +19,4 @@
  * @var bool $lazy
  */
 ?>
-<img src="{{ $src }}" srcset="{{ $srcset }}" sizes="{{ $sizes }}" width="{{ $width }}" height="{{ $height }}" alt="{{ $alt }}" decoding="async" :loading="$lazy ? 'lazy' : null">
+<img src="{{ $src }}" :srcset="$srcset !== '' ? $srcset : null" :sizes="$srcset !== '' ? $sizes : null" width="{{ $width }}" height="{{ $height }}" alt="{{ $alt }}" decoding="async" :loading="$lazy ? 'lazy' : null">

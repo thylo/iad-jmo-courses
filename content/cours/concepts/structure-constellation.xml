@@ -8,6 +8,13 @@
 
   <resume>Pas de structure hiérarchique. Chaque élément narratif est connecté à plusieurs autres. Navigation libre, pas de début/fin imposés.</resume>
 
+  <image src="jardin-des-delices.jpg"
+         width="opening"
+         alt="Un triptyque peint : à gauche un jardin vert où Adam et Ève se tiennent devant une fontaine rose, entourés d'animaux ; au centre un panneau plus large, une foule de corps nus dans un paysage de bassins, de fruits géants et de constructions roses et bleues ; à droite un enfer nocturne où brûlent des villes, avec des instruments de musique changés en instruments de supplice."
+         caption="Jheronimus Bosch, « Le Jardin des délices », vers 1500. Museo Nacional del Prado, Madrid. Ni centre, ni ordre de lecture : on entre par le détail qui accroche, et chaque détail en désigne un autre."
+         credit="Domaine public, via Wikimedia Commons"
+         source="https://commons.wikimedia.org/wiki/File:The_Garden_of_earthly_delights.jpg"/>
+
   <section title="Définition">
     <markdown>
       La structure constellation (ou rhizome) abandonne la logique hiérarchique traditionnelle.

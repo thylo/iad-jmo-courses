@@ -133,3 +133,28 @@
   .c-destinations__link { display: block; }
   .c-destinations__description { margin-block-start: var(--space-s); }       /* 14 */
 }
+
+/* --- The way in ---------------------------------------------------------
+   An index that is not one group among the others but the door the page wants
+   you to take first — what rank="lead" asks for.
+
+   Only the type changes, and that is the whole move. The door name leaves the
+   h3 step for the lead step, so it outranks every other door on the page and
+   ties with the headings that name the groups below — which is honest, because
+   that is what it is: not an entry inside a group, but a group of one.
+
+   The two are still told apart by the family. A section heading is body copy;
+   a door name is set in the display face, and mincho at 24px next to gothic at
+   24px is not the same weight on the page.
+
+   Nothing else moves. The opening step stays at 42, because what stands above
+   this index is the prose that introduces it — the same relation as anywhere
+   else on the page — and 84 there would tear the door away from the sentence
+   that explains it. Prominence is what the door is set in, not how far it
+   floats from its own introduction. The homepage buys the extra space with the
+   heading it sent out to the margin; a page that keeps its heading in the
+   reading has not paid for it. */
+
+.c-destinations--lead .c-destinations__name {
+  font-size: var(--text-lead);
+}

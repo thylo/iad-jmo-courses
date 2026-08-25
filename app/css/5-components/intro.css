@@ -1,4 +1,4 @@
-/* The opening: the label, the title, the summary.
+/* The opening: the trail, the title, the summary.
 
    It sits on the outer span — margin to the far edge of the field — and the
    reading steps in by one column underneath. That step is what announces the
@@ -6,19 +6,11 @@
    place notes will land.
 */
 
-.c-intro__label {
-  font-size: var(--text-meta);
-  line-height: var(--space-unit);
-  color: var(--color-ink-faint);
-}
-
 .c-intro__title {
   font-size: var(--text-display);
   line-height: var(--leading-display);
   max-width: var(--measure-display);
 }
-
-.c-intro__label + .c-intro__title { margin-block-start: var(--space-s); }
 
 /* One baseline unit under the title. On the homepage the signature sits in
    between and carries the same value, so the two collapse into one step and the
@@ -31,9 +23,36 @@
   color: oklch(26% 0.008 60);
 }
 
-/* A fiche opens as a pair: what the work is on the left, what is known about it
-   on the right. The opening gives up the field for that, and only then. */
-.c-intro--with-facts { grid-column: margin-start / text-end; }
+/* The prose that carries on from the summary instead of starting the reading —
+   what <preamble> renders.
+
+   It steps in by one column, so it lands exactly where the reading lands
+   underneath. That step is the same one the reading takes and it says the same
+   thing: this is no longer the opening statement, and the margin beside it is a
+   margin. What keeps it in the opening is only that it is level with what the
+   page put in the field — under the summary, beside the plate — instead of
+   below it.
+
+   The indent goes with the margin column. Below the fold there is no margin to
+   step out of, so there is nothing to step in from either. */
+
+.c-intro__preamble {
+  margin-block-start: var(--space-m);
+  max-width: var(--measure-text);
+}
+
+@media (min-width: 48em) {
+  .c-intro__preamble { margin-inline-start: var(--sidebar-width); }
+}
+
+/* An opening that has something beside it: what the work is on the left, what is
+   known about it on the right — or, on a page that named one, the plate that
+   opens it. The opening gives up the field for that, and only then.
+
+   It is one modifier for both because it is one composition. The field block is
+   the next grid item and its columns start after this one ends, so the sparse
+   auto-placement puts it on the same row without either of them naming a row. */
+.c-intro--paired { grid-column: margin-start / text-end; }
 
 /* --- The hero, on the homepage only -------------------------------------
    The title and the portrait share one row and overlap by a column: the title

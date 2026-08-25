@@ -16,6 +16,14 @@ namespace App\Content;
  * rather than prose, and the layout sets it in the open field beside the
  * opening rather than in the reading, so it comes out here too.
  *
+ * A page may ask for two more. <image width="opening"/> is the plate that opens
+ * it — same move as the facts and for the same reason, the field beside the
+ * summary is the one place on the sheet with room for an image and nothing for
+ * it to interrupt. <preamble> is the paragraph that carries on from the summary
+ * instead of starting the reading, and it stays in the opening block, under the
+ * lead. Both are lifted off the class their renderer writes, and a page gets
+ * one of each; a second stays where it was written, which is what it deserves.
+ *
  * Reading them back out of the rendered HTML keeps the copy in content/ where
  * it belongs. Writing it into a template instead would mean maintaining the
  * homepage in two places.
@@ -29,6 +37,10 @@ final readonly class Intro
         public ?string $lead,
         /** The <dl class="c-facts"> of an entity, or null on a page that has none. */
         public ?string $facts,
+        /** The <figure> a page named as its opening plate, or null. */
+        public ?string $plate,
+        /** The prose a page set with <preamble>, or null. */
+        public ?string $preamble,
         /** Everything left, in document order. */
         public string $body,
     ) {}
@@ -54,23 +66,49 @@ final readonly class Intro
     }
 
     /**
-     * Lifts the facts out of what is left, and builds the split.
+     * Lifts the three blocks that belong to the opening, and builds the split.
      *
-     * A <dl class="c-facts"> never nests another, so the non-greedy match is
-     * exact. NodeRenderer writes it, and it writes one at most; a page with no
-     * typed fields comes through untouched.
+     * None of the three ever nests another of its own kind — a <dl class=
+     * "c-facts">, a <figure>, and the single <div> x-prose writes — so the
+     * non-greedy matches are exact. All three are written by code rather than
+     * by hand: NodeRenderer writes the facts, ImageTag writes the figure and
+     * only on width="opening", PreambleElement writes the second class on the
+     * prose box. So the classes are a contract with this file and not a guess
+     * about what an author typed.
      */
     private static function rest(?string $title, ?string $lead, string $html): self
     {
-        if (preg_match('#\s*<dl class="c-facts">.*?</dl>\s*#is', $html, $match) !== 1) {
-            return new self(title: $title, lead: $lead, facts: null, body: $html);
-        }
+        [$plate, $html] = self::lift('#\s*<figure class="c-figure c-figure--opening">.*?</figure>\s*#is', $html);
+        [$preamble, $html] = self::lift('#\s*<div class="c-prose c-intro__preamble">.*?</div>\s*#is', $html);
+        [$facts, $html] = self::lift('#\s*<dl class="c-facts">.*?</dl>\s*#is', $html);
 
         return new self(
             title: $title,
             lead: $lead,
-            facts: trim($match[0]),
-            body: str_replace($match[0], '', $html),
+            facts: $facts,
+            plate: $plate,
+            preamble: $preamble,
+            body: $html,
         );
+    }
+
+    /**
+     * The first block the pattern matches, and the body without it.
+     *
+     * Cut by offset rather than by str_replace: two identical figures on one
+     * page would otherwise both disappear, and the second one is a mistake to
+     * see rather than a mistake to hide.
+     *
+     * @return array{0: ?string, 1: string}
+     */
+    private static function lift(string $pattern, string $html): array
+    {
+        if (preg_match($pattern, $html, $match, PREG_OFFSET_CAPTURE) !== 1) {
+            return [null, $html];
+        }
+
+        [$block, $offset] = $match[0];
+
+        return [trim($block), substr_replace($html, '', $offset, strlen($block))];
     }
 }

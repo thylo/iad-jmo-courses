@@ -62,10 +62,19 @@
       - Risque d'illusion de choix si mal fait
       - Maintenance complexe
 
+      **Les embranchements coûtent, l'état ne coûte pas.** Deux choix par scène, dix
+      scènes, et il faut écrire mille chemins que personne ne lira. C'est l'explosion
+      combinatoire. Elle n'est pas qu'un problème de budget : c'est elle qui fabrique
+      la plupart des [[faux-choix|faux choix]], parce qu'il faut bien recoller les
+      branches qu'on n'a pas pu écrire.
+
       L'explosion vient de ce que la mémoire du récit est dans la position : être
       « en 3-B » contient tout ce qui a été fait avant. Sortir cette mémoire du
       chemin pour la mettre dans des faits — le loup est mort, j'ai la lanterne —
-      supprime l'explosion. C'est la [[structure-a-etat|structure à état]].
+      supprime l'explosion. Trois variables mémorisées produisent plus de situations
+      distinctes qu'un arbre de vingt scènes, pour un centième du travail. Si votre
+      projet a besoin que les décisions comptent, commencez par la
+      [[structure-a-etat|structure à état]].
     </markdown>
   </section>
 

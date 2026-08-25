@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace App\Content\Xml\Elements;
 
 use App\Content\Xml\Autolinks;
-use App\Content\Xml\ContentIndex;
 use App\Content\Xml\ElementRenderer;
 use App\Content\Xml\EntityLink;
 use App\Content\Xml\RenderContext;
@@ -23,6 +22,10 @@ use Tempest\Markdown\Markdown;
  * the source — bare <p>, <h2>, <ul>, <blockquote>. That is what .c-prose is
  * for, so the wrapper goes here and nowhere else: every other block the content
  * layer writes says what it is.
+ *
+ * <preamble> is prose too, and it borrows the pipeline through prose(): same
+ * dedent, same wikilinks, same parser, a second class on the same box. The one
+ * thing it does not borrow is where it lands on the page.
  */
 final readonly class MarkdownElement implements ElementRenderer
 {
@@ -35,21 +38,29 @@ final readonly class MarkdownElement implements ElementRenderer
 
     public function render(\Dom\Element $element, RenderContext $context): string
     {
-        return $this->toHtml($element->textContent, $context->index);
+        return $this->prose($element, $context, 'c-prose');
     }
 
-    private function toHtml(string $source, ContentIndex $index): string
+    /**
+     * The prose of an element, wrapped in the box the classes name.
+     *
+     * Shared with <preamble>, which is the same prose in another place on the
+     * sheet. An element holding nothing but whitespace renders nothing at all,
+     * rather than an empty box the owl would still count.
+     */
+    public function prose(\Dom\Element $element, RenderContext $context, string $class): string
     {
-        $dedented = $this->dedent($source);
+        $dedented = $this->dedent($element->textContent);
 
         if ($dedented === '') {
             return '';
         }
 
-        $prose = new WikiLinks($index, $this->links, $this->components)->expand($dedented);
+        $prose = new WikiLinks($context->index, $this->links, $this->components)->expand($dedented);
 
         return $this->components->render(
             'x-prose',
+            class: $class,
             html: $this->markdown->parse($this->autolinks->expand($prose))->html,
         );
     }

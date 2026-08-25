@@ -17,15 +17,30 @@ final readonly class MediaAsset
         public array $widths,
         /** Of the original, so an untouched file is not encoded twice. */
         public string $hash,
+        /**
+         * "webp" for everything that goes through the encoder, "gif" for a
+         * file served as it is. An animated GIF has one file and no variants:
+         * see MediaBuilder for why it is copied rather than encoded.
+         */
+        public string $format = 'webp',
     ) {}
 
     public function src(int $width): string
     {
+        if ($this->format !== 'webp') {
+            return sprintf('/media/%s.%s', $this->name, $this->format);
+        }
+
         return sprintf('/media/%s-%d.webp', $this->name, $this->closest($width));
     }
 
+    /** Empty when there is nothing to choose between: one file, one width. */
     public function srcset(): string
     {
+        if ($this->format !== 'webp') {
+            return '';
+        }
+
         return implode(', ', array_map(
             fn (int $width): string => sprintf('/media/%s-%d.webp %dw', $this->name, $width, $width),
             $this->widths,
@@ -47,6 +62,7 @@ final readonly class MediaAsset
             height: (int) $entry['height'],
             widths: array_map(intval(...), (array) $entry['widths']),
             hash: (string) $entry['hash'],
+            format: (string) ($entry['format'] ?? 'webp'),
         );
     }
 
@@ -58,6 +74,7 @@ final readonly class MediaAsset
             'height' => $this->height,
             'widths' => $this->widths,
             'hash' => $this->hash,
+            'format' => $this->format,
         ];
     }
 

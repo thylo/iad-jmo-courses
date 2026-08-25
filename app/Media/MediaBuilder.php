@@ -17,7 +17,17 @@ use function Tempest\root_path;
  */
 final readonly class MediaBuilder
 {
-    private const array EXTENSIONS = ['jpg', 'jpeg', 'png', 'webp'];
+    private const array EXTENSIONS = ['jpg', 'jpeg', 'png', 'webp', 'gif'];
+
+    /**
+     * Copied as it is, never encoded.
+     *
+     * GD reads one frame of an animated GIF and would hand back a still, so
+     * the encoder is the wrong tool: there is nothing to scale here, only a
+     * finished object to serve. A GIF that is too heavy for a page is a
+     * problem to fix in the file, not in the build.
+     */
+    private const array VERBATIM = ['gif'];
 
     public function __construct(
         private Images $images,
@@ -64,6 +74,20 @@ final readonly class MediaBuilder
     private function buildOne(string $name, string $path, string $hash): MediaAsset
     {
         [$width, $height] = $this->images->dimensions($path);
+        $format = strtolower(pathinfo($path, PATHINFO_EXTENSION));
+
+        if (in_array($format, self::VERBATIM, true)) {
+            $this->copy($path, $this->verbatimPath($name, $format));
+
+            return new MediaAsset(
+                name: $name,
+                width: $width,
+                height: $height,
+                widths: [$width],
+                hash: $hash,
+                format: $format,
+            );
+        }
 
         $asset = new MediaAsset(
             name: $name,
@@ -78,6 +102,19 @@ final readonly class MediaBuilder
         }
 
         return $asset;
+    }
+
+    private function copy(string $source, string $target): void
+    {
+        $directory = dirname($target);
+
+        if (! is_dir($directory)) {
+            mkdir($directory, recursive: true);
+        }
+
+        if (! copy($source, $target)) {
+            throw MediaException::unreadable($source);
+        }
     }
 
     /** @return int[] */
@@ -135,8 +172,17 @@ final readonly class MediaBuilder
         return root_path('public', 'media', sprintf('%s-%d.webp', $name, $width));
     }
 
+    private function verbatimPath(string $name, string $format): string
+    {
+        return root_path('public', 'media', sprintf('%s.%s', $name, $format));
+    }
+
     private function variantsExist(MediaAsset $asset): bool
     {
+        if ($asset->format !== 'webp') {
+            return is_file($this->verbatimPath($asset->name, $asset->format));
+        }
+
         foreach ($asset->widths as $width) {
             if (! is_file($this->variantPath($asset->name, $width))) {
                 return false;

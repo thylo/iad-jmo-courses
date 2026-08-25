@@ -21,20 +21,4 @@ final readonly class NavNode
     {
         return $this->slug === '';
     }
-
-    /** Whether the given page is this node or sits somewhere below it. */
-    public function leadsTo(string $slug): bool
-    {
-        if ($this->slug === $slug) {
-            return true;
-        }
-
-        foreach ($this->children as $child) {
-            if ($child->leadsTo($slug)) {
-                return true;
-            }
-        }
-
-        return false;
-    }
 }

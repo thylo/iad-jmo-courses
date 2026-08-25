@@ -23,17 +23,37 @@
     </markdown>
   </section>
 
-  <section title="Interaction">
+  <section title="Critique">
     <markdown>
-      Le spectateur ne fait que progresser dans l'histoire : avancer/reculer, pause, parfois choix cosmétiques qui n'affectent pas l'histoire.
-    </markdown>
-  </section>
+      **C'est la forme par défaut, et c'est là le problème.** Le cinéma, les séries,
+      les clips, la quasi-totalité des travaux de fin d'études : tout est une ligne.
+      Vous l'avez pratiquée mille fois, vous la maîtrisez, et elle fonctionne. Elle
+      fonctionne parce que le réalisateur décide de tout : l'ordre, le rythme, ce
+      qu'on voit et à quel moment. Le spectateur reçoit une vision, celle de l'auteur,
+      et n'a rien à y faire.
 
-  <section title="Schéma">
-    <markdown>
+      Cette forme n'a pas été choisie, elle a été dictée. Par le medium. La pellicule
+      se déroule, elle ne sait rien faire d'autre. Le livre se lit page apres pages.
+      La bande magnétique défile à sa vitesse. Pendant des siècles, raconter voulait
+      dire composer avec ces matières, et la ligne était la seule chose qu'elles
+      savaient faire.
+
+      Le web casse ces barrières. Il est interactif de naissance : un lien est déjà une bifurcation,
+      une page attend qu'on agisse pour exister. Y faire une ligne, ce n'est donc plus
+      hériter d'une contrainte — c'est en fabriquer une, le plus souvent sans l'avoir
+      décidé. On apporte la caméra, les plans, le montage, et on oublie que le medium
+      a changé. Une ligne sur le web, c'est planplan : de la vidéo avec des temps de
+      chargement.
+
       ```
       Début → Scène 1 → Scène 2 → Scène 3 → Fin
       ```
+    </markdown>
+  </section>
+
+  <section title="Interaction">
+    <markdown>
+      Le spectateur ne fait que progresser dans l'histoire : avancer/reculer, pause, parfois choix cosmétiques qui n'affectent pas l'histoire.
     </markdown>
   </section>
 
@@ -52,15 +72,26 @@
       - Pas de rejouabilité
       - Spectateur passif
       - Engagement émotionnel limité
+
+
     </markdown>
   </section>
 
   <section title="Quand l'utiliser">
     <markdown>
       - Quand le message nécessite un ordre précis
-      - Pour des documentaires informatifs
       - Quand vous voulez contrôler totalement le rythme
       - Récits avec climax et résolution importants
+
+      La ligne se défend quand l'ordre **est** le sens : une démonstration qui
+      s'écroule si on la prend au milieu, un suspense qui a besoin de son avant et de
+      son après, un témoignage qu'il faut entendre en entier. Mais il faut la
+      défendre. Si votre réponse à « pourquoi une ligne ? » est « parce que c'est
+      comme ça qu'on fait », ce n'est pas une réponse.
+
+      Et si vous tenez à la ligne sans vouloir enfermer le public, la
+      [[structure-elastique|structure élastique]] la garde et lui ouvre des écarts :
+      on avance tout droit, on peut s'arrêter en chemin.
     </markdown>
   </section>
 

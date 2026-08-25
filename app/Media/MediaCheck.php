@@ -34,6 +34,7 @@ final readonly class MediaCheck
         $withoutAlt = [];
         $declined = [];
         $missing = [];
+        $missingDiagrams = [];
         $unbuilt = [];
         $used = [];
         $total = 0;
@@ -43,6 +44,17 @@ final readonly class MediaCheck
             // carry an <image>, and that file is used like any other.
             foreach ($this->blockImages($entity) as $path) {
                 $used[$path] = true;
+            }
+
+            // Drawings are originals too: they live in media/, no fiche field
+            // names them, and without this every one of them reads as an orphan.
+            foreach ($this->diagrams($entity) as $file) {
+                $path = Diagrams::path($file);
+                $used[$path] = true;
+
+                if (! is_file($path)) {
+                    $missingDiagrams[$entity->id][] = $file;
+                }
             }
 
             if ($this->schemas->get($entity->type)?->field('visuel') === null) {
@@ -86,11 +98,35 @@ final readonly class MediaCheck
             declined: $declined,
             unbuilt: $unbuilt,
             missing: $missing,
+            missingDiagrams: $missingDiagrams,
             orphans: array_values(array_filter(
                 $this->originals(),
                 static fn (string $path): bool => ! isset($used[$path]),
             )),
         );
+    }
+
+    /**
+     * The drawings a <diagram> block cites, anywhere in a document.
+     *
+     * Names, not paths: a src that is not a plain .svg file name never reaches
+     * the disk in Diagrams, so it is not a file anyone is missing either.
+     *
+     * @return string[] file names
+     */
+    private function diagrams(XmlSource $source): array
+    {
+        $files = [];
+
+        foreach ($source->root->getElementsByTagName('diagram') as $element) {
+            $file = Html::attribute($element, 'src');
+
+            if (Diagrams::isName($file)) {
+                $files[] = $file;
+            }
+        }
+
+        return $files;
     }
 
     /**

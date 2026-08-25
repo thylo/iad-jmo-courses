@@ -20,6 +20,8 @@ final readonly class MediaCheckReport
         public array $unbuilt,
         /** @var array<string, string> entity id => file name absent from media/ */
         public array $missing,
+        /** @var array<string, string[]> entity id => drawings absent from media/diagrams/ */
+        public array $missingDiagrams,
         /** @var string[] files in media/ no fiche points at */
         public array $orphans,
     ) {}

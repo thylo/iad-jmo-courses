@@ -159,6 +159,14 @@ final readonly class ContentCheckCommand
             $this->console->error(sprintf('%s — fichier absent de media/ : %s', $id, $file));
         }
 
+        foreach ($report->missingDiagrams as $id => $files) {
+            $this->console->error(sprintf(
+                '%s — schéma absent de media/diagrams/ : %s',
+                $id,
+                implode(', ', $files),
+            ));
+        }
+
         foreach ($report->orphans as $path) {
             $this->console->error(sprintf('%s — plus aucune fiche ne cite ce fichier', $path));
         }
