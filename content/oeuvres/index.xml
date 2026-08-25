@@ -9,6 +9,13 @@
          credit="© RMN-Grand Palais (musée du Louvre) / Hervé Lewandowski"
          source="https://histoire-image.org/etudes/cabinets-curiosites"/>
 
+  <image src="cabinet-de-curiosites-remps.jpg"
+         width="field"
+         alt="Une armoire peinte en trompe-l'œil, portes ouvertes : six casiers vitrés remplis de coraux, de coquillages, de camées, d'un crâne, d'un homard, d'un scarabée, de petits tableaux ; sur les portes, des paysages encadrés, des médailles et une gravure retenue par un clou."
+         caption="Domenico Remps, « Cabinet de curiosités », années 1690. Le meuble n'a jamais existé : c'est une peinture en trompe-l'œil. Museo dell'Opificio delle pietre dure, Florence."
+         credit="Domaine public, via Wikimedia Commons"
+         source="https://commons.wikimedia.org/wiki/File:Domenico_Remps_-_Cabinet_of_Curiosities.jpg"/>
+
   <section title="Pourquoi un cabinet de curiosités">
     <markdown>
       Avant les musées, il y avait les cabinets de curiosités. Une pièce, un
@@ -23,6 +30,8 @@
       posés l'un près de l'autre.
     </markdown>
   </section>
+
+
 
   <grid of="oeuvre"/>
 </page>

@@ -1,0 +1,69 @@
+<page id="choix">
+  <titre>Types de choix</titre>
+  <resume>Le seul découpage qui juge au lieu de décrire. Un choix peut être rationnel, exploratoire, ou faux — et le faux choix est partout.</resume>
+
+  <markdown>
+    Les sept autres découpages rangent. Celui-ci évalue, et il faut le dire
+    franchement plutôt que de faire semblant d'être neutre.
+
+    Devant une proposition faite au public, trois cas :
+
+    - **[Rationnel](/cours/concepts/choix-rationnel)** — vous avez de quoi décider.
+      L'œuvre vous a donné l'information, vous pesez, vous tranchez, et la
+      conséquence correspond. C'est le plus coûteux à écrire.
+    - **[Exploratoire](/cours/concepts/choix-exploratoire)** — vous n'avez pas de quoi
+      décider, et c'est voulu. On choisit pour voir. La curiosité remplace le calcul,
+      et ça fonctionne très bien tant que l'œuvre ne prétend pas le contraire.
+    - **[Faux](/cours/concepts/faux-choix)** — les deux portes mènent au même couloir.
+      Le récit continue identique, éventuellement repeint.
+  </markdown>
+
+  <section title="Sur le faux choix">
+    <markdown>
+      Il est partout, y compris dans des œuvres très bien faites, et il n'est pas
+      toujours une faute. Certains servent le rythme, d'autres laissent le public
+      exprimer quelque chose sans que ça engage la suite.
+
+      Ce qui blesse n'est pas le faux choix : c'est le faux choix **annoncé comme un
+      vrai**. Quand une œuvre construit sa promesse sur « vos décisions comptent » et
+      qu'on découvre au deuxième passage que non, on ne se sent pas déçu, on se sent
+      pris pour un imbécile. La confiance ne revient pas.
+
+      La cause est presque toujours mécanique, et elle est expliquée
+      [du côté des structures](/panorama/structures) : un arbre trop ambitieux, un
+      budget qui n'a pas suivi, des branches qu'il a fallu recoller. Ici on ne
+      regarde que le résultat, du point de vue de celui qui joue. D'où le conseil qui
+      revient partout — **peu de choix, mais qui comptent.**
+    </markdown>
+  </section>
+
+  <section title="Démasquer une interactivité de façade">
+    <markdown>
+      C'est ici qu'on découvre qu'une œuvre annoncée comme interactive ne l'est
+      presque pas. Un webdoc où le seul geste possible est de choisir l'ordre des
+      chapitres demande exactement ce que demandait un DVD de 2003.
+
+      Ce n'est pas un défaut en soi. C'en est un quand toute la communication de
+      l'œuvre repose dessus.
+    </markdown>
+  </section>
+
+  <section title="À quoi ça sert en atelier">
+    <markdown>
+      C'est le meilleur outil d'analyse collective qu'on ait. Deux tests, dans cet
+      ordre.
+
+      **Refaites le parcours à l'envers.** Relevez chaque choix proposé, rejouez en
+      prenant l'autre porte à chaque fois, et notez ce qui a changé. La liste est en
+      général plus courte que ce que l'œuvre laissait croire.
+
+      **Enlevez l'interaction.** Si le récit tient debout sans elle, elle est un
+      ornement — ce n'est pas grave, mais il faut le savoir et arrêter de la défendre
+      comme le cœur du projet. S'il s'effondre, vous tenez quelque chose.
+
+      Faites les deux sur votre propre projet avant de le défendre.
+    </markdown>
+  </section>
+
+  <grid of="concept" where="genre = choix"/>
+</page>

@@ -1,0 +1,46 @@
+<page id="structures">
+  <titre>Structures narratives</titre>
+  <resume>Le découpage qui ignore le support et ne regarde que la forme du récit : une ligne, des embranchements, une constellation, un système qui se souvient.</resume>
+
+  <markdown>
+    Enlevez l'écran, la salle, la table. Ne gardez que le dessin que fait le récit
+    quand on le trace sur une feuille : combien de chemins, où ils se séparent, où
+    ils se rejoignent, ce que l'œuvre retient de ce qui a déjà été fait.
+
+    C'est le découpage le plus abstrait des huit, et le plus transposable. Deux
+    œuvres qui n'ont rien en commun à l'écran peuvent partager la même structure :
+    [Bandersnatch](/oeuvres/bandersnatch) et un paquet de
+    [Cartaventura](/oeuvres/cartaventura) branchent de la même façon, l'un sur
+    Netflix et l'autre sur une table de cuisine. Inversement, deux webdocs de la
+    même [catégorie](/panorama/introduction) peuvent n'avoir aucune structure
+    commune.
+  </markdown>
+
+  <section title="Ce que le découpage révèle">
+    <markdown>
+      Une chose surtout, et elle est décisive quand vous fabriquez : **les
+      embranchements coûtent, l'état ne coûte pas.**
+
+      Deux choix par scène, dix scènes, et il faut écrire mille chemins que personne
+      ne lira. C'est l'explosion combinatoire. Elle n'est pas qu'un problème de
+      budget : c'est elle qui fabrique la plupart des
+      [faux choix](/panorama/choix), et cette page-là s'occupe des dégâts.
+
+      Une [structure à état](/cours/concepts/structure-a-etat) résout le même besoin
+      autrement. Le récit ne se dédouble pas, il retient. Trois variables mémorisées
+      produisent plus de situations distinctes qu'un arbre de vingt scènes, pour un
+      centième du travail d'écriture. C'est la leçon la plus utile de cette page.
+    </markdown>
+  </section>
+
+  <section title="Ce qu'il cache">
+    <markdown>
+      Tout ce qui fait qu'une œuvre est supportable ou non. Une structure linéaire
+      peut être bouleversante et une constellation illisible ; le schéma ne dit rien
+      du rythme, du ton, ni de ce qu'on ressent en y étant. Ne choisissez pas une
+      structure parce qu'elle est plus riche sur le papier.
+    </markdown>
+  </section>
+
+  <grid of="concept" where="genre = structure"/>
+</page>

@@ -1,0 +1,65 @@
+<page id="interlocuteurs">
+  <titre>Avec qui le public interagit</titre>
+  <resume>Trois interlocuteurs possibles : le système, les autres spectateurs, ou l'œuvre elle-même qu'on fabrique. Une seule réponse laisse l'auteur maître de ce qui se raconte.</resume>
+
+  <markdown>
+    Ce découpage ne demande ni où se trouve le récit, ni quelle forme il a, ni ce
+    qu'on a le droit d'y faire. Une seule question, et elle ne se voit pas en
+    regardant l'œuvre : **face à qui le public se trouve-t-il ?**
+
+    Trois réponses. Elles ne demandent pas le même travail, ne produisent pas le même
+    risque, et ne se remplacent pas.
+  </markdown>
+
+  <section title="Face au système">
+    <markdown>
+      Tout est écrit d'avance. Le public explore un univers fini où chaque action
+      produit un résultat prévu et testé. L'œuvre du premier jour est celle du
+      dernier.
+
+      C'est la seule des trois qu'une personne seule peut mener jusqu'au bout, et
+      c'est pour ça que c'est presque toujours celle de vos projets. C'est aussi la
+      plus coûteuse à remplir : il faut produire la totalité du contenu, y compris
+      les branches que presque personne ne verra. D'où l'attention à porter à
+      [ce que ça coûte d'écrire](/panorama/structures).
+    </markdown>
+  </section>
+
+  <section title="Face aux autres">
+    <markdown>
+      L'œuvre met des gens en présence et se contente de tenir le cadre. Ce qui se
+      passe entre eux n'est pas écrit — [Alice is Missing](/oeuvres/alice-is-missing)
+      donne des cartes et un silence obligatoire, et le récit se fabrique dans les
+      messages que les joueurs s'envoient.
+
+      Beaucoup moins de contenu à produire, beaucoup plus de règles à régler. Le
+      risque change de nature : ce n'est plus « ai-je écrit assez de branches »,
+      c'est « est-ce que ça tient si le groupe ne joue pas le jeu ».
+    </markdown>
+  </section>
+
+  <section title="Face à l'œuvre qu'on fabrique">
+    <markdown>
+      Le public produit la matière, et l'auteur ne l'a pas vue avant.
+      [The Johnny Cash Project](/oeuvres/the-johnny-cash-project) demande une image
+      par personne et les assemble en clip ; personne ne sait à quoi ressemblera le
+      résultat, l'auteur compris.
+
+      C'est la seule des trois qui échappe vraiment à celui qui l'a lancée. Elle
+      demande peu de contenu et beaucoup de dispositif : un cadre assez solide pour
+      qu'une contribution médiocre ne casse pas l'ensemble, assez ouvert pour que
+      contribuer ait un intérêt.
+    </markdown>
+  </section>
+
+  <section title="Pourquoi la question compte tôt">
+    <markdown>
+      Parce qu'elle décide de ce que vous allez passer trois semaines à faire :
+      écrire du contenu, régler des règles, ou construire un dispositif. Ce ne sont
+      pas les mêmes semaines, et on ne change pas de réponse à mi-parcours sans tout
+      reprendre.
+    </markdown>
+  </section>
+
+  <grid of="concept" where="genre = forme"/>
+</page>
