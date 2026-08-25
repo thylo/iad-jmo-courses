@@ -86,14 +86,14 @@
    same mark, and saying so twice in two files would be worse. */
 .c-rule-beside,
 .c-prose blockquote,
-.note {
+.c-note {
   position: relative;
   padding-inline-start: var(--space-m);
 }
 
 .c-rule-beside::before,
 .c-prose blockquote::before,
-.note::before {
+.c-note::before {
   content: "";
   position: absolute;
   inset-block: 0;

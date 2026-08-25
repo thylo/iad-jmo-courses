@@ -5,10 +5,10 @@
    reach for `> section ul` and hope the only list in the reading was this one.
    The tag ended that, so the selector can name what it styles.
 
-   Three doors with no order between them: nothing here is counted, ranked or
-   read in a sequence. There is no number in the markup and none drawn in the
-   margin — a number is an assertion, and that one would be false. What ranks
-   the entries is that they are three, starting on the same line.
+   Doors with no order between them: nothing here is counted, ranked or read in
+   a sequence. There is no number in the markup and none drawn in the margin —
+   a number is an assertion, and that one would be false. What ranks the entries
+   is that they start on the same line.
 
    What is left all has a job: the name, what you find there, and the arrow.
    The arrow shows at rest, not on hover — it is the thing that says "this
@@ -24,21 +24,35 @@
    place where the rhythm outranks the finer typographic move.
 
    Nothing separates the entries but space, and the step that OPENS the index
-   is a rank above the step that separates them — 84 against 42. A rank cannot
+   is a rank above the step that separates them — 42 against 28. A rank cannot
    open a group if it does not beat the rank that divides that group: the same
-   gap for "this begins" and "this continues" says neither. */
+   gap for "this begins" and "this continues" says neither.
+
+   Which rank depends on what stands above the index. The default is an index
+   introduced by a heading still in the reading: the heading opens at 56, so
+   the index has to open below that, and its entries below that again — 56, 42,
+   28, one step down per level of nesting. The homepage is the exception and
+   states it in home.css: there the heading has left the column for the margin,
+   the index is the top of the flow, and it opens at 84 over entries at 42.
+
+   Same reason for the type. A door NAME is the h3 step, one below the h2 that
+   owns it, because that is what it is — the h2 names the group, the door names
+   one thing inside it. Both are set in the display face, so if they also share
+   a size there is nothing left to tell them apart. On the homepage the door
+   goes back up to the lead step, for the same reason it gets more space: the
+   heading is a label in the margin, not a line above it. */
 
 /* One class, and it beats the owl on the reading: canvas.css keeps that at one
    class of specificity and comes first in the cascade. */
 .c-destinations {
   max-width: none;
-  margin-block-start: var(--space-2xl);   /* 84 — the step between two blocks */
+  margin-block-start: var(--space-l);   /* 42 — under the 56 that opens the section */
   padding-inline-start: 0;
   list-style: none;
 }
 
 .c-destinations__entry + .c-destinations__entry {
-  margin-block-start: var(--space-l);   /* 42 */
+  margin-block-start: var(--space-m);   /* 28 — under the 42 that opens the index */
 }
 
 /* The whole entry is the target, description included. It takes the columns
@@ -62,7 +76,7 @@
   align-items: center;
   gap: var(--space-s);
   font-family: var(--font-display);
-  font-size: var(--text-lead);
+  font-size: var(--text-title);
   line-height: var(--space-unit);
   color: var(--color-ink);
 }
@@ -96,15 +110,26 @@
 /* A destination whose target does not exist yet. Said plainly, like every
    other unresolved link on the site: it keeps its place in the index rather
    than disappearing from it, and content:check reports it. */
-.c-destinations__link.missing-link .c-destinations__name { color: var(--color-ink-faint); }
-.c-destinations__link.missing-link .c-destinations__label { text-decoration-style: dotted; }
+.c-destinations__link.c-missing-link .c-destinations__name { color: var(--color-ink-faint); }
+.c-destinations__link.c-missing-link .c-destinations__label { text-decoration-style: dotted; }
 
-/* Below the fold of the second column the field is gone, so the description
-   moves under the name, a half step down. What makes an entry a door is the
-   name, the arrow and the gap — none of that lives in the columns. */
+/* --- One door, and below the fold ---------------------------------------
+   The same layout, reached two ways. The columns are a rhythm and a rhythm
+   needs a repeat: a single door laid on the grid is a table that lost its
+   other rows, with a name on the left and a paragraph stranded away to the
+   right lining up with nothing. Below the fold the field is gone and there is
+   no second column to line up with in the first place.
+
+   Either way the description moves under the name, a half step down. What
+   makes an entry a door is the name, the arrow and the gap — none of that
+   lives in the columns, so none of it is lost. */
+.c-destinations--single .c-destinations__link { display: block; }
+
+.c-destinations--single .c-destinations__description {
+  margin-block-start: var(--space-s);   /* 14 */
+}
+
 @media (max-width: 47.999em) {
-  .c-destinations { margin-block-start: var(--space-xl); }   /* 56 */
-
   .c-destinations__link { display: block; }
   .c-destinations__description { margin-block-start: var(--space-s); }       /* 14 */
 }

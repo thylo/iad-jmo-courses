@@ -47,7 +47,7 @@ final readonly class NodeRenderer
             accent: $accent,
             after: $after,
             summary: $source->summary,
-            image: $this->images->lead($source),
+            image: $this->images->lead($source, $index),
             facts: $this->dataList($source, $index),
             body: $this->children($source->root, $context),
         );

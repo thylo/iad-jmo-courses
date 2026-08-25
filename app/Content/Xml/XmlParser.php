@@ -366,6 +366,15 @@ final readonly class XmlParser
             $references = [...$references, ...WikiLinks::targets($markdown->textContent)];
         }
 
+        // A caption is prose too, and it is the one piece of prose that lives in
+        // an attribute — so it has to be read separately or the backlink it
+        // renders would not exist in the graph.
+        foreach (['image', 'visuel'] as $tag) {
+            foreach ($root->getElementsByTagName($tag) as $element) {
+                $references = [...$references, ...WikiLinks::targets(Html::attribute($element, 'caption'))];
+            }
+        }
+
         return array_values(array_unique($references));
     }
 

@@ -227,6 +227,11 @@ Les "linéaires" manquent ça. Ils apportent la technologie du cinéma au web (c
 ### Code et structure
 
 - **Styling :** CSS pur (ITCSS, BEM) - pas Tailwind
+- **Préfixes CSS :** **toute** classe porte son namespace ITCSS, sans exception —
+  `c-` composant, `o-` objet, `u-` utilitaire. Pas de `.video`, pas de `.meta` :
+  `.c-video`, `.c-grid__meta`. Le préfixe dit à quelle couche appartient la règle,
+  donc où la modifier et ce qu'elle a le droit de faire. Une classe sans préfixe
+  est un bug, y compris dans un composant qui en contient déjà de préfixées.
 - **Code comments :** Anglais, clairs et fonctionnels — le français est réservé au contenu
 - **Principes :** DRY, KISS, SRP
 - **Variables :** Nommage clair (ex: `dureeAnimation` pas `toto`)

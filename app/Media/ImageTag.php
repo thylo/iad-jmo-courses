@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace App\Media;
 
 use App\Content\Html;
+use App\Content\Xml\ContentIndex;
+use App\Content\Xml\InlineProse;
 use App\Content\Xml\XmlSource;
 use App\View\Component;
 
@@ -50,11 +52,12 @@ final readonly class ImageTag
 
     public function __construct(
         private MediaLibrary $library,
+        private InlineProse $prose,
         private Component $components,
     ) {}
 
     /** The image at the top of a fiche. Visible on load, so never deferred. */
-    public function lead(XmlSource $entity): string
+    public function lead(XmlSource $entity, ContentIndex $index): string
     {
         $visual = Visual::of($entity);
 
@@ -68,7 +71,7 @@ final readonly class ImageTag
             return '';
         }
 
-        return $this->figure($visual, $image, 'c-figure c-figure--lead');
+        return $this->figure($visual, $image, 'c-figure c-figure--lead', $index);
     }
 
     /** One thumbnail among many: always deferred, always the narrow variant. */
@@ -102,7 +105,7 @@ final readonly class ImageTag
      * figure annotates instead of interrupting — which is the whole reason a
      * page can carry several without turning into a slideshow.
      */
-    public function block(\Dom\Element $element, string $type): string
+    public function block(\Dom\Element $element, string $type, ContentIndex $index): string
     {
         $visual = Visual::from($element, $type);
 
@@ -122,7 +125,7 @@ final readonly class ImageTag
             return '';
         }
 
-        return $this->figure($visual, $image, $class);
+        return $this->figure($visual, $image, $class, $index);
     }
 
     private function tag(Visual $visual, int $width, string $sizes, bool $lazy): string
@@ -156,14 +159,17 @@ final readonly class ImageTag
      * remembers to add — these are other people's images on a public course
      * site, and that is the only way it stays systematic. A visual that names a
      * source but nobody to credit still says "Source", linked.
+     *
+     * The caption goes through the prose pipeline: it is a sentence, and a
+     * sentence that names a work should be able to link to it.
      */
-    private function figure(Visual $visual, string $image, string $class): string
+    private function figure(Visual $visual, string $image, string $class, ContentIndex $index): string
     {
         return $this->components->render(
             'x-figure',
             class: $class,
             image: $image,
-            caption: $visual->caption,
+            caption: $visual->caption !== null ? $this->prose->toHtml($visual->caption, $index) : null,
             credit: $visual->credit ?? ($visual->source !== null ? 'Source' : null),
             creditUrl: $visual->source,
         );

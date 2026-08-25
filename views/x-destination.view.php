@@ -16,7 +16,7 @@
  */
 ?>
 <li class="c-destinations__entry">
-    <a :class="$href === null ? 'c-destinations__link missing-link' : 'c-destinations__link'" :href="$href">
+    <a :class="$href === null ? 'c-destinations__link c-missing-link' : 'c-destinations__link'" :href="$href">
         <span class="c-destinations__name"><span class="c-destinations__label">{{ $label }}</span><svg class="c-destinations__arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h11"></path><path d="M11 6l4 4-4 4"></path></svg></span>
         <span class="c-destinations__description">{{ $description }}</span>
     </a>

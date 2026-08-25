@@ -122,7 +122,7 @@
 .c-grid__list > li + li { margin-block-start: var(--space-s); }
 
 .c-grid__empty,
-.c-grid__list .meta {
+.c-grid__meta {
   font-size: var(--text-meta);
   line-height: var(--space-unit);
   color: var(--color-ink-faint);
@@ -162,4 +162,4 @@
   line-height: var(--space-unit);
 }
 
-.c-grid__list--thumbnails .meta { display: block; }
+.c-grid__list--thumbnails .c-grid__meta { display: block; }

@@ -11,4 +11,4 @@
  * @var string $label
  */
 ?>
-<a :if="$href !== null" :href="$href">{{ $label }}</a><a :else class="missing-link">{{ $label }}</a>
+<a :if="$href !== null" :href="$href">{{ $label }}</a><a :else class="c-missing-link">{{ $label }}</a>

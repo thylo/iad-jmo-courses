@@ -31,6 +31,13 @@ final readonly class DestinationsElement implements ElementRenderer
         return $this->components->render(
             'x-destinations',
             entries: $context->renderer->children($element, $context),
+            // Columns are a rhythm, and a rhythm of one is not one: a lone door
+            // in the grid reads as a table that lost its other rows. The view
+            // drops the columns for it, the same way <grid> drops them for a
+            // corpus with no thumbnails. The author still writes <destinations>
+            // either way — how many there are is a fact about the content, not
+            // a decision to take again in the markup.
+            single: $element->getElementsByTagName('destination')->length === 1,
         );
     }
 }

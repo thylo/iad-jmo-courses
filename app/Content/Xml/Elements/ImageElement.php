@@ -23,6 +23,6 @@ final readonly class ImageElement implements ElementRenderer
 
     public function render(\Dom\Element $element, RenderContext $context): string
     {
-        return $this->images->block($element, $context->source->type);
+        return $this->images->block($element, $context->source->type, $context->index);
     }
 }

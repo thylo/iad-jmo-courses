@@ -3,7 +3,7 @@
  * Who points here — what <backlinks/> renders.
  *
  * Every entry came out of the index, so every entry resolves: there is no
- * missing-link case to carry here, unlike a link written in the prose.
+ * c-missing-link case to carry here, unlike a link written in the prose.
  *
  * @var string $title
  * @var string $id

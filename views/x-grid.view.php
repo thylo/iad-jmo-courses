@@ -54,7 +54,7 @@
         <li :foreach="$entries as $entry">
             {!! $entry->thumbnail !!}
             <a :href="$entry->href">{{ $entry->title }}</a>
-            <span :if="$entry->meta !== null" class="meta">{{ $entry->meta }}</span>
+            <span :if="$entry->meta !== null" class="c-grid__meta">{{ $entry->meta }}</span>
         </li>
     </ul>
 

@@ -13,3 +13,15 @@
 /* What follows a heading belongs to it: a half step, not the step between two
    blocks of the reading. */
 .c-section__title + * { margin-block-start: var(--space-s); }
+
+/* A section with no heading. One door needs no label above it — the prose that
+   introduces it already says what it is, and a heading there would name the
+   same thing twice.
+
+   The step that opens a section is carried by its heading, so a section with
+   none has nothing to carry it and falls back to the 28 between two blocks of
+   the reading. It would then open half as wide as every other group on the
+   page, which is the one thing a group must not do. It takes the step itself. */
+.c-section:not(:has(.c-section__title)) {
+  margin-block-start: var(--space-xl);
+}

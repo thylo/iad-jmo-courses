@@ -225,7 +225,7 @@ seul endroit où la mise en page change vraiment.
 `VideoElement` gagne la façade :
 
 ```html
-<figure class="video">
+<figure class="c-video">
   <button type="button" data-video="ID" aria-label="Lire la vidéo : …">
     <img src="/media/videos/unlock-640.webp" …>
   </button>

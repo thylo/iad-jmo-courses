@@ -7,7 +7,7 @@
  * @var string $body
  */
 ?>
-<aside :class="'note note--' . $type">
-    <p :if="$title !== null" class="note__title">{{ $title }}</p>
+<aside :class="'c-note c-note--' . $type">
+    <p :if="$title !== null" class="c-note__title">{{ $title }}</p>
     {!! $body !!}
 </aside>

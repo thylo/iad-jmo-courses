@@ -62,17 +62,46 @@
   line-height: var(--space-unit);
 }
 
+/* --- The index of destinations -----------------------------------------
+   destinations.css sets the nested case: an index introduced by a heading that
+   is still in the reading, opening one rank below it. Here the heading has left
+   for the margin, so nothing stands above the index in the flow and it is the
+   top of its section rather than a block inside one. It gets the ranks back:
+   84 to open over 42 between entries, and the door name back at the lead step.
+
+   That last one is the whole reason the homepage reads the way it does. The
+   heading is a small label out in the margin; if the doors sat at the h3 step
+   as well, the page would open on nothing. */
+
+.o-canvas__reading:has(.c-wobble) .c-destinations {
+  margin-block-start: var(--space-2xl);   /* 84 */
+}
+
+.o-canvas__reading:has(.c-wobble) .c-destinations__entry + .c-destinations__entry {
+  margin-block-start: var(--space-l);   /* 42 */
+}
+
+.o-canvas__reading:has(.c-wobble) .c-destinations__name {
+  font-size: var(--text-lead);
+}
+
 /* --- Below the fold of the second column --------------------------------
    The margin goes, so the heading comes back into the flow above its prose
    and the index becomes one column. Same content, one track, no leftovers.
 
-   The index has its own component and its own breakpoint; nothing of it is
-   left here. */
+   The index keeps its own component and its own breakpoint for the columns;
+   what is here is only the ranks this layout takes back from it. */
 
 @media (max-width: 47.999em) {
   .o-canvas__reading:has(.c-wobble) > .c-section > .c-section__title {
     float: none;
     inline-size: auto;
     margin-inline-start: 0;
+  }
+
+  /* The heading is back in the flow above the index, so the index stops being
+     the top of anything and gives a step back. */
+  .o-canvas__reading:has(.c-wobble) .c-destinations {
+    margin-block-start: var(--space-xl);   /* 56 */
   }
 }
