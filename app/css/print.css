@@ -10,6 +10,10 @@
   .c-portrait,
   .c-wobble { display: none; }
 
+  /* A search field on paper is dead ink: nothing can be typed into it, and the
+     count under it already says how long the index is. */
+  .c-grid__search { display: none; }
+
   /* Browsers drop background paint when printing, and every rule here is a
      masked background. On paper they go back to being borders. */
   .c-rule,

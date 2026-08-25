@@ -25,6 +25,8 @@ final readonly class Schema
      */
     public function __construct(
         public string $type,
+        /** What a collection of these is called, for the count above an index. */
+        public string $plural,
         array $fields,
         public array $attributes = [],
     ) {

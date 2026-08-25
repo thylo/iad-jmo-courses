@@ -61,5 +61,6 @@
 @import "./css/6-utilities/measure.css";
 @import "./css/6-utilities/ink.css";
 @import "./css/6-utilities/visually-hidden.css";
+@import "./css/6-utilities/clearfix.css";
 
 @import "./css/print.css";

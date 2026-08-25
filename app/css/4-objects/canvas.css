@@ -76,7 +76,7 @@
 
 /* What is allowed past the measure. The only exception in the system, and it is
    named rather than implied. */
-.o-canvas__reading :where(figure, .c-grid--thumbnails, .c-bleed) {
+.o-canvas__reading :where(figure, .c-grid__list--thumbnails, .c-bleed) {
   max-width: none;
 }
 

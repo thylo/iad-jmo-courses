@@ -27,6 +27,7 @@ final readonly class SchemaRegistry
         $schemas = [
             new Schema(
                 type: 'oeuvre',
+                plural: 'œuvres',
                 fields: [
                     new Field(name: 'annee', label: 'Année'),
                     // The image of the work: not shown where it is written, like
@@ -48,6 +49,7 @@ final readonly class SchemaRegistry
             ),
             new Schema(
                 type: 'personne',
+                plural: 'personnes',
                 fields: [
                     new Field(name: 'lieu', label: 'Lieu'),
                     new Field(name: 'depuis', label: 'Depuis'),
@@ -57,6 +59,7 @@ final readonly class SchemaRegistry
             ),
             new Schema(
                 type: 'concept',
+                plural: 'concepts',
                 fields: [
                     new Field(
                         name: 'genre',
@@ -76,6 +79,7 @@ final readonly class SchemaRegistry
             // always set as an ordinary document.
             new Schema(
                 type: 'page',
+                plural: 'pages',
                 fields: [],
                 attributes: ['layout' => Layout::names()],
             ),
