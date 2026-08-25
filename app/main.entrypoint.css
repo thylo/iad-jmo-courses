@@ -41,10 +41,12 @@
 @import "./css/5-components/section.css";
 @import "./css/5-components/list.css";
 @import "./css/5-components/note.css";
+@import "./css/5-components/quote.css";
 @import "./css/5-components/link.css";
 @import "./css/5-components/facts.css";
 @import "./css/5-components/figure.css";
 @import "./css/5-components/video.css";
+@import "./css/5-components/spotify.css";
 @import "./css/5-components/grid.css";
 @import "./css/5-components/backlinks.css";
 @import "./css/5-components/destinations.css";

@@ -13,8 +13,10 @@ use App\Content\Xml\Elements\ItemElement;
 use App\Content\Xml\Elements\ListElement;
 use App\Content\Xml\Elements\MarkdownElement;
 use App\Content\Xml\Elements\NoteElement;
+use App\Content\Xml\Elements\QuoteElement;
 use App\Content\Xml\Elements\SectionElement;
 use App\Content\Xml\Elements\SidenoteElement;
+use App\Content\Xml\Elements\SpotifyElement;
 use App\Content\Xml\Elements\VideoElement;
 
 /**
@@ -47,8 +49,10 @@ final readonly class ElementRegistry
         MarkdownElement $markdown,
         SectionElement $section,
         NoteElement $note,
+        QuoteElement $quote,
         SidenoteElement $sidenote,
         VideoElement $video,
+        SpotifyElement $spotify,
         ImageElement $image,
         ListElement $list,
         ItemElement $item,
@@ -61,8 +65,10 @@ final readonly class ElementRegistry
             'markdown' => $markdown,
             'section' => $section,
             'note' => $note,
+            'quote' => $quote,
             'sidenote' => $sidenote,
             'video' => $video,
+            'spotify' => $spotify,
             'image' => $image,
             'list' => $list,
             'item' => $item,

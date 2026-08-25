@@ -39,7 +39,7 @@ relations, donc elle peut être interrogée.
 elles sont écrites : elles alimentent le graphe et la fiche en tête de page.
 L'ordre dans le fichier n'a pas d'importance.
 
-**Rendu** — `<markdown>`, `<section>`, `<note>`, `<sidenote>`, `<video>`,
+**Rendu** — `<markdown>`, `<section>`, `<note>`, `<sidenote>`, `<quote>`, `<video>`, `<spotify>`,
 `<image>`, `<list>`. Elles produisent du HTML sur place, dans l'ordre du
 document.
 
@@ -66,7 +66,7 @@ Pour référencer une entité au fil d'une phrase, on n'écrit pas de balise :
 
 Ces liens visent un `id`, pas un chemin. Déplacer ou renommer un fichier ne les
 casse pas. Une cible qui n'existe pas encore n'est pas une erreur : le lien
-s'affiche en `missing-link` et `content:check` l'ajoute à la liste des entités
+s'affiche en `c-missing-link` et `content:check` l'ajoute à la liste des entités
 à écrire. On écrit avant de créer.
 
 Pour une adresse extérieure, les trois écritures marchent :
@@ -84,6 +84,30 @@ donne un lien puis un point.
 Rien d'autre n'est inventé. Une adresse mail s'écrit comme le lien qu'elle est,
 `<a href="mailto:julien@thylo.be">julien@thylo.be</a>` : le HTML au fil du texte
 passe tel quel.
+
+## Citer quelqu'un
+
+Un `>` en markdown et `<quote>` ne font pas le même travail. Le premier est un
+effet de mise en page : de la prose détachée de la prose, sans dire de qui elle
+est. Le second est une citation attribuée, et l'attribution appartient au
+composant plutôt qu'à une ligne qu'on pense à écrire dessous — même raison que
+le crédit sous une image.
+
+```xml
+<quote lang="en"
+       credit="Leonardo Nicoletti et Dina Bass, Bloomberg"
+       source="https://www.bloomberg.com/graphics/2023-generative-ai-bias/">
+  <markdown>
+    The world according to Stable Diffusion is run by White male CEOs.
+  </markdown>
+</quote>
+```
+
+`credit` dit qui, `source` dit où lire — le crédit devient le lien, et l'adresse
+sert aussi de `cite` sur le `<blockquote>`. `lang` se met quand le passage n'est
+pas dans la langue de la page — c'est ce dont un lecteur d'écran a besoin pour
+le prononcer. Si on traduit plutôt que de citer en langue d'origine, `lang` saute
+et le crédit le dit.
 
 ## Les requêtes
 
