@@ -8,6 +8,10 @@
   <par>France Télévisions — Nouvelles Écritures</par>
   <url>https://www.pltv.fr/jeu-dinfluences-les-strateges-de-la-communication/</url>
   <categorie>Jeu</categorie>
+  <concept ref="forme-machine"/>
+  <concept ref="role-personnage"/>
+  <concept ref="interface-point-click"/>
+  <concept ref="choix-rationnel"/>
 
   <resume>Vous dirigez une entreprise de BTP. Un ingénieur vient de se suicider. Un spin doctor vous appelle : jusqu'où suivrez-vous ses conseils ? Un jeu documentaire sur la communication de crise, où le scénario fictif est régulièrement interrompu par des extraits de l'enquête télévisée de Luc Hermann sur de vraies stratégies d'étouffement. Game design : Florent Maurin (The Pixel Hunt).</resume>
 
@@ -23,7 +27,7 @@
       des gens le font pour de vrai. La preuve arrive quand elle fait mal.
 
       **Petite production, sujet lourd.** Du texte, de l'audio, des inserts vidéo.
-      Rien de spectaculaire techniquement — tout tient dans l'écriture des
+      Rien de spectaculaire techniquement : tout tient dans l'écriture des
       dilemmes.
     </markdown>
   </section>

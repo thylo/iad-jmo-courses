@@ -2,14 +2,42 @@
   <titre>QWOP</titre>
   <annee>2008</annee>
   <par>Bennett Foddy</par>
-  <url>http://www.foddy.net/Athletics.html</url>
-  <categorie>Outil</categorie>
+  <url>https://www.foddy.net/Athletics.html</url>
+  <categorie>Jeu</categorie>
+  <categorie>Expérimentation</categorie>
 
-  <resume>Course à pied où chaque touche contrôle une cuisse ou un mollet indépendamment. Résultat : chaos hilarant et difficulté extrême pour faire 100 mètres. L'interface devient l'obstacle.</resume>
+  <resume>Un sprinteur olympique, cent mètres à parcourir, et quatre touches : Q et W commandent les cuisses, O et P les mollets. Il n'y a pas de touche « courir ». Le corps est une poupée de chiffon soumise à une simulation physique, et la course se solde à peu près toujours par un effondrement. Fait en Flash en 2008, devenu un phénomène en 2010, toujours jouable.</resume>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      Subvertit les conventions de contrôle pour créer du challenge et de l'humour. Démontre que la difficulté d'interface peut être un choix narratif.
+      **La correspondance entre le geste et l'action est le sujet.** Dans toutes les
+      autres œuvres, courir est une touche : la traduction entre ce que fait le doigt
+      et ce que fait le corps à l'écran est masquée, et c'est ce masquage qu'on appelle
+      une bonne interface. QWOP l'expose. Il ne rend pas la course difficile, il rend
+      la **traduction** difficile, et tout ce que le joueur éprouve vient de là.
+
+      **La difficulté est écrite, pas subie.** Bennett Foddy conçoit des jeux qui
+      portent sur l'effort, l'échec et le rapport du joueur au contrôle. Rien n'est mal
+      réglé ici : la maladresse est le propos, exactement comme la lenteur pénible est
+      le propos de [[the-boat|The Boat]].
+
+      **À montrer avant tout atelier d'interface.** C'est la démonstration la plus
+      courte que le choix des commandes n'est pas une question d'ergonomie mais une
+      décision d'auteur — et qu'elle produit du sens, de la comédie et de la
+      frustration avant qu'un mot soit écrit.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Il n'y a aucun récit, aucune structure, aucun rôle assigné. Les grilles du
+      [panorama](/panorama) n'ont pas prise, et c'est normal : cette pièce appartient
+      au champ où [l'interaction est l'œuvre](/panorama/interactivite-oeuvre), pas au
+      champ où elle transporte quelque chose.
+
+      Et la blague ne dure pas. Cinq minutes d'hilarité, puis soit on s'entraîne
+      sérieusement, soit on ferme l'onglet. Le dispositif n'a rien à donner à ceux qui
+      restent.
     </markdown>
   </section>
 

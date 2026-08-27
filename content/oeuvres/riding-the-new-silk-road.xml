@@ -5,6 +5,8 @@
   <par>Arnold van Bruggen</par>
   <url>https://www.robhornstra.com/the-sochi-project/</url>
   <categorie>Documentaire</categorie>
+  <concept ref="structure-concentrique"/>
+  <concept ref="interface-maps"/>
 
   <resume>Documentaire photographique sur la route de la soie moderne organisé via une carte interactive. Chaque point géographique révèle photos, textes et témoignages. La géographie structure la narration.</resume>
 

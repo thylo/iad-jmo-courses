@@ -1,14 +1,47 @@
 <oeuvre id="in-c" statut="en-ligne">
   <titre>In C</titre>
+  <annee>1964</annee>
   <par>Terry Riley</par>
-  <par>multiples implémentations web</par>
   <categorie>Performance</categorie>
 
-  <resume>Composition minimaliste où chaque musicien joue 53 phrases musicales courtes dans l'ordre mais à son propre rythme. Versions web permettent à chacun de participer via navigateur, créant une performance collective synchronisée mais non dirigée.</resume>
+  <resume>Une partition d'une seule page : cinquante-trois courts motifs, à jouer dans l'ordre. Aucune instrumentation n'est indiquée, aucun tempo non plus, et le nombre de musiciens est libre. Chacun décide quand il entre, combien de fois il répète un motif, quand il passe au suivant. La pièce dure entre vingt minutes et plusieurs heures, et ne sonne jamais deux fois pareil. Créée le 4 novembre 1964 au Tape Music Center de San Francisco.</resume>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      Démontre que l'harmonie peut émerger du chaos contrôlé. Chaque participant a de l'autonomie mais le système crée de la cohérence. Modèle intéressant d'orchestration distribuée.
+      **L'œuvre est le protocole.** Ce que Riley a écrit tient sur une page et ne
+      décrit aucun résultat : il décrit une règle de comportement. Ce qu'on entend est
+      produit par des gens qui appliquent cette règle en s'écoutant les uns les autres.
+      C'est exactement ce que fait le code, et exactement ce que font les
+      [[wall-drawings|Wall Drawings]] de [[sol-lewitt|Sol LeWitt]] — **quatre ans plus
+      tard**. Utile pour ne pas laisser croire que l'idée est née dans les arts
+      visuels.
+
+      **La règle est minuscule, le résultat ne l'est pas.** Cinquante-trois motifs et
+      trois phrases de consigne produisent une pièce différente à chaque exécution,
+      sans hasard et sans machine. C'est le meilleur argument qu'on ait contre l'idée
+      qu'un système riche demande beaucoup de contenu — le même argument que porte la
+      [[structure-a-etat|structure à état]] côté récit.
+
+      **La contrainte est ce qui fait tenir la liberté.** Tout le monde joue les mêmes
+      motifs, dans le même ordre, sur une pulsation commune. Retirez ça, il ne reste
+      qu'une improvisation. C'est la démonstration, en musique, de ce que Jenkins dit
+      des récits émergents : **ce n'est pas l'absence de structure qui permet
+      l'émergence, c'est une conception très rigoureuse.** Voir
+      [raconter par l'espace](/panorama/raconter-par-l-espace).
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le public n'y fait rien. Ce sont les interprètes qui décident, pas la salle :
+      c'est un protocole partagé entre exécutants, pas un dispositif interactif. La
+      distinction vaut d'être tenue, sinon tout devient interactif et le mot ne sert
+      plus à rien.
+
+      La pièce existe en plusieurs versions jouables dans un navigateur, où la machine
+      tient le rôle des musiciens. Elles sont commodes pour entendre le principe, et
+      elles perdent précisément ce qui fait la pièce : des gens qui s'écoutent et
+      hésitent.
     </markdown>
   </section>
 

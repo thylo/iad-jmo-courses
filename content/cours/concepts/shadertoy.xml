@@ -1,0 +1,32 @@
+<concept id="shadertoy">
+  <titre>Shadertoy</titre>
+  <genre>ressource</genre>
+
+  <resume>Des milliers d'images calculées pixel par pixel, avec leur code en regard. La réserve à aller voir quand on veut savoir ce qu'un navigateur sait dessiner.</resume>
+
+  <section title="Ce que c'est">
+    <markdown>
+      [Shadertoy](https://www.shadertoy.com/), d'Iñigo Quilez et Pol Jeremias (2013).
+      Un éditeur en ligne pour écrire des *shaders* : de petits programmes qui, pour
+      chaque pixel de l'écran et à chaque image, calculent une couleur. Le code est à
+      gauche, le résultat tourne à droite, et tout est public.
+
+      Il n'y a ni modèle 3D, ni image de départ, ni bibliothèque. Un paysage, une mer,
+      un nuage y sont écrits en mathématiques.
+    </markdown>
+  </section>
+
+  <section title="Pourquoi c'est ici">
+    <markdown>
+      Pas pour que vous en écriviez. Pour deux autres raisons.
+
+      La première est de mesurer ce que la machine sait faire sans qu'on lui donne
+      quoi que ce soit : c'est le fond technique de ce qui rend possible une œuvre
+      comme [[lusion]].
+
+      La seconde est que tout y est lisible. Un effet qui vous plaît est accompagné de
+      sa recette, et personne ne demande d'autorisation. C'est de la documentation
+      d'atelier à ciel ouvert, et il y en a peu.
+    </markdown>
+  </section>
+</concept>

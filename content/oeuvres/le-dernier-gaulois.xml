@@ -7,6 +7,7 @@
   <par>France Télévisions — Nouvelles Écritures</par>
   <url>https://immersive-g.com/projects/le-dernier-gaulois/</url>
   <categorie>Fiction</categorie>
+  <concept ref="interface-scrollable"/>
 
   <resume>Une bande dessinée qui se lit en faisant défiler la page : de longues illustrations dessinées à la main, traversées de haut en bas, où le défilement déclenche les animations et le passage d'une scène à l'autre. Apator, chef éduen, raconte la Gaule d'avant Alésia. C'était le volet web d'un docu-fiction de France 2 diffusé fin 2015.</resume>
 
@@ -17,7 +18,7 @@
     <markdown>
       **Le défilement remplace la case.** Pas de vignettes séparées : une image
       continue, et c'est la position dans la page qui découpe le récit. Le
-      lecteur ne tourne pas la page, il la traverse — voir
+      lecteur ne tourne pas la page, il la traverse. Voir
       [[interface-scrollable]].
 
       **Une seule commande.** Scroller. Rien d'autre à apprendre, rien à
@@ -35,13 +36,13 @@
       Le défilement révèle, il ne décide de rien. On avance à son rythme, mais
       l'histoire est [[structure-lineaire|la même pour tout le monde]] : c'est de
       la lecture augmentée, pas de la narration interactive. Bon exemple pour
-      trancher la question en cours — est-ce que le public agit, ou est-ce qu'il
+      trancher la question en cours : est-ce que le public agit, ou est-ce qu'il
       appuie sur play plus lentement ?
 
       Et l'œuvre a disparu. Le site de France Télévisions qui l'hébergeait n'existe
       plus ; il reste la page du studio et quelques captures. Deux millions et demi
       d'euros de production, un projet primé, et rien à montrer aux étudiants dix
-      ans après — la démonstration la plus nette du problème d'archivage du web.
+      ans après. La démonstration la plus nette du problème d'archivage du web.
     </markdown>
   </section>
 

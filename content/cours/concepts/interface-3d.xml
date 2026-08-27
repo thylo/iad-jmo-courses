@@ -1,201 +1,111 @@
 <concept id="interface-3d">
-  <titre>Environnements 3D / Immersifs</titre>
+  <titre>L'espace en trois dimensions</titre>
   <genre>interface</genre>
   <exemple ref="clouds-over-sidra"/>
+  <exemple ref="lusion"/>
+  <exemple ref="protanopia"/>
   <voir ref="interface-gestural"/>
+  <voir ref="structure-lineaire"/>
 
-  <resume>Navigation dans un espace 3D. La narration est environnementale et exploratoire.</resume>
+  <resume>Un volume plutôt qu'un plan. La question n'est jamais « est-ce que ça tourne », c'est « qu'est-ce que la profondeur raconte que le cadre ne raconterait pas ».</resume>
 
   <section title="Définition">
     <markdown>
-      L'interface 3D invite l'utilisateur à déambuler librement dans un espace tridimensionnel. La narration se construit par l'environnement lui-même, sans dialogue ou exposition directe. C'est la grammaire du jeu vidéo appliquée au storytelling.
+      Le récit se tient dans un espace qu'on regarde de plusieurs côtés : une scène
+      qu'on contourne, un décor en couches, une vidéo à trois cent soixante degrés, un
+      monde rendu en temps réel dans le navigateur.
 
-      **Caractéristiques :**
-
-      - Exploration spatiale libre
-      - Grammaire du jeu vidéo
-      - Monde ouvert ou semi-ouvert
-      - Narration environnementale
+      C'est l'interface la plus impressionnante en démonstration et la plus décevante
+      en projet, pour une raison simple : elle retire le cadre. Or le cadre est le
+      premier outil de l'audiovisuel, celui que vos étudiants savent utiliser. Une
+      œuvre en trois dimensions doit inventer autre chose pour diriger le regard, et la
+      plupart n'inventent rien.
     </markdown>
   </section>
 
-  <section title="Intérêt narratif">
+  <section title="Schéma">
     <markdown>
-      - **Sensation de liberté maximale**
-      - **Narration environnementale** (l'espace raconte)
-      - **Vision moins dirigiste** de la narration
-      - Présence et immersion profondes
+      ```
+      Le cadre                        Le volume
+
+      ┌──────────────┐                    ↖  ↑  ↗
+      │      ●       │   vous voyez      ←   ●   →   vous voyez
+      │              │   ce qu'on vous    ↙  ↓  ↘   ce que vous
+      └──────────────┘   montre                      cherchez
+
+      L'auteur décide.                Le public décide, et rate
+      Le hors-champ est un outil.     ce qui se passe derrière lui.
+
+                     La question : qu'est-ce qui vaut
+                     ce que vous venez de perdre ?
+      ```
     </markdown>
   </section>
 
-  <section title="Enjeux et risques">
+  <section title="Ce que la profondeur ajoute">
     <markdown>
-      - **Difficile de guider sans diriger**
-      - **Complexité technique énorme** (3D, performances, VR)
-      - **Comment raconter si l'utilisateur ne va pas où prévu?**
-      - Risque d'ennui (trop de liberté = perte de direction)
+      **L'échelle et la présence.** [[clouds-over-sidra]] pose le spectateur dans le
+      camp de Za'atari, en Jordanie, aux côtés d'une adolescente syrienne. Il ne se
+      passe rien qu'un film ne pourrait montrer ; ce qui change, c'est qu'on est à
+      hauteur d'enfant, au milieu, et que le camp continue derrière soi. La
+      [[structure-lineaire|structure reste entièrement linéaire]] — vous tournez la
+      tête, pas l'histoire.
+
+      **La couche cachée.** [[protanopia]] fait le contraire du monde ouvert : chaque
+      case de bande dessinée est un petit théâtre en couches, et incliner l'appareil
+      découvre ce que le plan cachait. La profondeur y est un secret plutôt qu'un
+      espace, et ça tient dans une case.
+
+      **Le temps réel.** [[lusion]] est le site d'un studio de Bristol qui est aussi
+      sa démonstration : des milliers de particules qui répondent au curseur, des
+      transitions sans coupure, tout calculé dans le navigateur. Aucun récit là-dedans,
+      et c'est assumé — c'est un catalogue de ce que la machine sait faire, utile à
+      connaître pour savoir ce qui est possible.
     </markdown>
   </section>
 
-  <section title="Quand utiliser 3D ?">
+  <section title="Ce que ça coûte">
     <markdown>
-      - ✅ Vous racontez une histoire exploratoire
-      - ✅ L'univers spatial est central
-      - ✅ Vous avez ressources technique + artistique
-      - ✅ VR/immersion enrichit votre propos
+      **La direction du regard.** Sans cadre, il faut ramener l'attention par le son,
+      la lumière, le mouvement — c'est-à-dire refaire à la main ce que le cadrage
+      faisait gratuitement.
+
+      **La production.** Modéliser, texturer, éclairer, optimiser : c'est un métier
+      entier, et ce n'est pas celui d'un atelier de narration. Une captation à trois
+      cent soixante degrés est en revanche à la portée de tout le monde.
+
+      **Le confort.** Le mal des transports en casque est réel, il touche surtout les
+      gens qu'on n'a pas testés, et il n'y a pas de rattrapage : la personne enlève le
+      casque.
+
+      **Le matériel.** Un casque exclut le public seul, ne se prête pas, ne se
+      partage pas. Le navigateur, si.
     </markdown>
   </section>
 
-  <section title="Design">
+  <section title="Erreurs courantes">
     <markdown>
-      ### Guidage subtil
-
-      Comment diriger sans forcer :
-
-      - Éclairage attire vers zones importantes
-      - Architecture oriente naturellement
-      - NPCs placés stratégiquement
-      - Micro-indicateurs (son, particules)
-
-      ### Landmarks visuels
-
-      Créer repères mémorables :
-
-      - Monuments distinctifs
-      - Variations de terrain/architecture
-      - Indices visuels pour orientation
-      - Cohérence spatiale (pas de téléportation)
-
-      ### Narration environnementale
-
-      Raconter via l'espace :
-
-      - Design d'intérieur parle du personnage
-      - Dégradation montre l'histoire
-      - Détails trouvables révèlent le backstory
-      - Monde cohérent avec sa propre logique
-
-      ### Performance critique
-
-      - Frame rate stable (surtout VR)
-      - Pas de lag = immersion brisée
-      - Optimisation géométrique
-      - Streaming du contenu
+      - Poser une caméra à trois cent soixante degrés et appeler ça de l'immersion.
+        Sans raison d'être là, on est seulement mal assis
+      - Mettre l'action derrière le spectateur au début, avant qu'il ait appris à
+        tourner
+      - Couper une séquence trop tôt : en volume, il faut le temps de regarder autour,
+        et le montage rapide est physiquement illisible
+      - Croire que le public explorera. Il regarde surtout devant lui
     </markdown>
   </section>
 
-  <section title="Exemples (à développer)">
+  <section title="Pour votre projet">
     <markdown>
-      ### Life is Strange (2015)
+      **Faites-le sans casque.** Une scène en volume dans le navigateur, qu'on fait
+      tourner à la souris ou en inclinant le téléphone, se montre à n'importe qui avec
+      un lien.
 
-      - Environnements 3D exploratoires
-      - Investigation par déambulation
-      - Narration via environnement
-      - Freedom mais avec structure
+      **Une scène, pas un monde.** Un seul lieu qu'on peut contourner produit plus
+      qu'un environnement vide qu'on parcourt.
 
-      ### Bear 71 (2012)
-
-      - Déambulation dans nature 3D
-      - Suivi de la vie d'un ours
-      - Espace réel comme personnage
-      - Immersion contemplatif
-
-      ### Journey (2012)
-
-      - Environnement 3D épique
-      - Exploration libre guidée subtilement
-      - Narration entièrement par l'espace
-      - Expérience contemplative
-
-      ### Clouds Over Sidra (2015)
-
-      - Réalité virtuelle de camp de réfugiés
-      - Navigation immersive
-      - Empathie par présence
-      - 360° story
-    </markdown>
-  </section>
-
-  <section title="Variantes">
-    <markdown>
-      ### Monde ouvert
-      Complète liberté d'exploration.
-
-      - Avantage : Sens liberté max
-      - Inconvénient : Risque de perdre le fil
-
-      ### Monde semi-ouvert
-      Zones explorables librement, limites
-
-      - Avantage : Direction + liberté
-      - Inconvénient : Peut sembler artificiel
-
-      ### Couloir linéaire 3D
-      Chemin linéaire prédessiné en 3D.
-
-      - Avantage : Contrôle narratif
-      - Inconvénient : Pas vraie liberté
-
-      ### Réalité virtuelle (VR)
-      Véritable immersion 360°.
-
-      - Avantage : Empathie/présence max
-      - Inconvénient : Sickness VR, coût
-    </markdown>
-  </section>
-
-  <section title="Combinaisons avec autres interfaces">
-    <markdown>
-      **3D + Point-and-Click**
-
-      - Navigation 3D libre
-      - Interactions via clic sur objets
-      - Dialogue sur NPC
-
-      **3D + Gestural**
-
-      - Navigation par gestes naturels
-      - Interaction tactile avec l'espace
-    </markdown>
-  </section>
-
-  <section title="Bonnes pratiques">
-    <markdown>
-      1. **Orientation claire** : On sait toujours où on est
-      2. **Guidage subtil** : Diriger sans forcer
-      3. **Performance** : Jamais de lag
-      4. **Espace significatif** : Chaque zone raconte
-      5. **Découvrabilité** : Contenu caché mais trouvable
-    </markdown>
-  </section>
-
-  <section title="Risques courants">
-    <markdown>
-      ❌ **Monde vide** : Beau mais sans narration
-      ❌ **Perte d'orientation** : Désorienté après 5 min
-      ❌ **Performance lag** : Immersion cassée
-      ❌ **Trop linéaire** : Faux liberté
-      ❌ **Complexité technique** : Sur-ambitieux
-    </markdown>
-  </section>
-
-  <section title="Solutions">
-    <markdown>
-      ✅ Narration environnementale (pas juste beau)
-      ✅ Landmarks, compass, mini-map si besoin
-      ✅ Optimisation agressif dès le start
-      ✅ Zones exploratoires + hub structure
-      ✅ Prototypage intensif pour scope
-      ✅ User testing pour orientation/guidage
-    </markdown>
-  </section>
-
-  <section title="Considérations VR spéciales">
-    <markdown>
-      - **Sickness VR** : Mouvement fluide, pas de téléportation brutale
-      - **Confort** : Pas d'escalade impossible
-      - **Durée** : VR fatigue après 15-20min
-      - **Accessibilité** : Options pour handicaps
+      **Gardez le son au centre.** C'est le seul outil de mise en scène qui vous reste
+      quand vous n'avez plus de cadre, et c'est celui que vous savez déjà utiliser.
     </markdown>
   </section>
 

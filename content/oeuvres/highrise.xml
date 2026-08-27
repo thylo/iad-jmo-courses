@@ -1,15 +1,43 @@
 <oeuvre id="highrise" statut="en-ligne">
-  <titre>Highrise</titre>
-  <annee>2009</annee>
+  <titre>HIGHRISE — Out My Window</titre>
+  <annee>2010</annee>
+  <par>Katerina Cizek</par>
   <par ref="onf"/>
-  <url>https://www.nfb.ca/interactive/a_short_history_of_the_highrise/</url>
+  <url>https://collection.nfb.ca/interactive/highrise_out_my_window_en</url>
   <categorie>Documentaire</categorie>
+  <concept ref="structure-parallele"/>
+  <concept ref="role-fantome"/>
+  <concept ref="interface-3d"/>
 
-  <resume>Exploration de la vie en appartement dans les grandes villes à travers témoignages, photos et animations interactives. Navigation spatiale et temporelle innovante.</resume>
+  <resume>Quarante-neuf récits, treize villes, treize langues, et à chaque fois le même point de vue : celui d'un appartement en tour, filmé à trois cent soixante degrés. On pivote dans le salon, on clique sur les objets, on regarde par la fenêtre, et l'habitant raconte. Premier documentaire web en 360° (2010), premier prix IDFA DocLab, Emmy numérique international. Volet d'un projet de l'ONF mené sur plusieurs années par Katerina Cizek sur l'habitat vertical.</resume>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      Utilise le web comme espace d'exploration documentaire plutôt que simple diffusion vidéo.
+      **Le même cadre, partout.** Toronto, Beyrouth, Bangalore, Prague : la contrainte
+      est identique dans les quarante-neuf cas, un salon en hauteur et une fenêtre. Ce
+      n'est pas une limite de production, c'est l'argument : la tour d'habitation est
+      la même forme sur toute la planète, et ce qu'on voit par la fenêtre change tout.
+      Voir [[structure-parallele|la structure parallèle]].
+
+      **L'intérieur est le témoignage.** L'appartement n'illustre pas la parole, il la
+      porte : les objets posés là racontent une trajectoire, un exil, un métier. C'est
+      un récit embarqué au sens de Jenkins, dans dix mètres carrés — voir
+      [raconter par l'espace](/panorama/raconter-par-l-espace).
+
+      **Le 360° avant les casques.** Fait pour un navigateur, à la souris, en 2010, et
+      toujours consultable dans la collection de l'ONF. À comparer avec les webdocs
+      contemporains disparus : ce qui dure, c'est ce qui n'a pas parié sur un greffon.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Quarante-neuf récits, c'est plus que ce que quiconque parcourra. Le dispositif
+      assume la profusion, mais rien n'indique par où entrer ni ce qu'on a déjà vu, et
+      la visite s'arrête en général au troisième appartement.
+
+      C'est le défaut classique de la structure parallèle sans carte : la liberté
+      d'ordre sans repère se vit comme de la désorientation.
     </markdown>
   </section>
 

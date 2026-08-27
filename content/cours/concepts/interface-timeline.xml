@@ -1,158 +1,85 @@
 <concept id="interface-timeline">
-  <titre>Timeline</titre>
+  <titre>La frise du temps</titre>
   <genre>interface</genre>
-  <voir ref="structure-parallele"/>
-  <voir ref="structure-concentrique"/>
+  <exemple ref="the-fallen-of-world-war-ii"/>
+  <exemple ref="heredity"/>
+  <exemple ref="welcome-to-pine-point"/>
   <voir ref="interface-maps"/>
+  <voir ref="structure-concentrique"/>
 
-  <resume>Les événements sont présentés chronologiquement. L'utilisateur navigue librement dans le temps.</resume>
+  <resume>Le temps devient un espace qu'on parcourt. Ne se justifie que si l'écart entre deux dates est lui-même l'information.</resume>
 
   <section title="Définition">
     <markdown>
-      L'interface timeline organise les événements selon une chronologie explicite. L'utilisateur navigue librement dans le temps, explorant les connexions de causalité. Les dates structurent la narration.
+      Les événements sont posés sur un axe, et on s'y déplace. C'est la cousine de
+      [[interface-maps|la carte]], avec une dimension au lieu de deux, et elle pose
+      exactement la même question : **est-ce que l'écart entre deux points veut dire
+      quelque chose ?**
 
-      **Caractéristiques :**
-
-      - Organisation chronologique explicite
-      - Navigation temporelle libre
-      - Dates comme structure narrative
-      - Causalité temporelle matérialisée
+      Si oui, la frise est irremplaçable : elle montre d'un coup ce qu'un texte met
+      trois paragraphes à établir. Si non, c'est une liste posée à l'horizontale.
     </markdown>
   </section>
 
-  <section title="Intérêt narratif">
+  <section title="Schéma">
     <markdown>
-      - **Construit un récit sur chronologie précise**
-      - **Montre les relations de causalité**
-      - **Donne contrôle du temps au spectateur**
-      - Référence commune (tous comprennent les dates)
+      ```
+      Frise-sommaire                   Frise qui raconte
+
+      ├──●──●──●──●──●──┤              ├─●─●─●───────────────●┤
+        ch.1 2  3  4  5                 ▲▲▲                  ▲
+                                        │││                  │
+      points équidistants :             trois ans            puis rien
+      le temps n'informe pas            de tout              pendant vingt
+                                                             ans
+                                        l'écart EST le récit
+      ```
     </markdown>
   </section>
 
-  <section title="Enjeux et risques">
+  <section title="Quand l'écart est le sujet">
     <markdown>
-      - **Peut se réduire à un énoncé de dates** (froid, non-narratif)
-      - **Difficile de raconter une histoire** avec "juste des dates"
-      - **Conception linéaire du temps** n'est pas universelle
-      - Risque de table de matière plutôt que narration
+      [[the-fallen-of-world-war-ii]] est le cas majeur. Le film empile les morts de la
+      guerre en barres qui montent, et le choc ne vient pas des chiffres : il vient de
+      voir combien de temps la barre soviétique continue de monter après que les
+      autres se sont arrêtées. Puis le film s'arrête et vous laisse fouiller. La durée
+      est l'argument.
+
+      [[welcome-to-pine-point]] fait l'inverse : une ville minière démontée et emportée
+      par camions, reconstituée à partir des albums photo de ceux qui y vivaient. La
+      frise n'y sert pas à mesurer, elle sert à ce qu'on sente qu'il y a eu un avant et
+      qu'il n'y a pas d'après.
+
+      Et [[heredity]] montre qu'une frise n'a besoin d'aucun écran. Un sablier avance
+      sur une bande de carton, les joueurs y accrochent des cartes, et ces cartes se
+      déclenchent quand il passe dessus. C'est une file d'événements différés, posée à
+      plat, visible par toute la table — la structure de données rendue jouable parce
+      qu'elle est rendue visible.
     </markdown>
   </section>
 
-  <section title="Quand utiliser timeline ?">
+  <section title="Erreurs courantes">
     <markdown>
-      - ✅ Vous racontez une histoire évoluant dans le temps
-      - ✅ Les dates ont importance thématique
-      - ✅ Causalité temporelle est centrale
-      - ✅ Vous avez contenu riche pour chaque période
+      - Espacer les points régulièrement. C'est le geste qui tue la frise : si dix ans
+        et dix minutes occupent la même largeur, l'axe ne dit plus rien
+      - Faire une frise pour un récit qui n'a pas de chronologie
+      - Confondre la frise et le sommaire. Numéroter des chapitres sur une ligne
+        n'est pas raconter par le temps
+      - Oublier l'échelle sur mobile : une frise large devient un défilement
+        horizontal, c'est-à-dire le geste que personne ne fait spontanément
     </markdown>
   </section>
 
-  <section title="Design">
+  <section title="Pour votre projet">
     <markdown>
-      ### Clarté chronologique
+      **Respectez les proportions, ou assumez de les casser.** Les deux sont
+      défendables ; ce qui ne l'est pas, c'est de ne pas y avoir pensé.
 
-      La timeline doit être immédiatement comprise :
+      **Le vide est du contenu.** Une longue portion sans rien est souvent la chose la
+      plus éloquente de la frise.
 
-      - Axe temporel visible
-      - Dates clairement indiquées
-      - Direction du temps évidente (gauche-droite ou haut-bas)
-
-      ### Densité temporelle
-
-      - Trop espacé : Manque de densité
-      - Trop serré : Impossible à naviguer
-      - Équilibre : Regrouper par périodes significatives
-
-      ### Connexions causales
-
-      Montrer comment les événements se causent mutuellement :
-
-      - Flèches, lignes de connexion
-      - Événements liés visualisés ensemble
-      - Causalité pas seulement chronologie
-    </markdown>
-  </section>
-
-  <section title="Exemples (à développer)">
-    <markdown>
-      ### I Love Your Work (2014)
-
-      - Timeline de carrière d'une artiste
-      - Exploration libre de périodes
-      - Chronologie structure le récit
-      - Causalité: carrière se construit dans le temps
-
-      ### Stains, beau pays (2014)
-
-      - Timeline d'une région/histoire
-      - Navigation temporelle révélant événements
-      - Dates structurent la compréhension
-    </markdown>
-  </section>
-
-  <section title="Variantes">
-    <markdown>
-      ### Timeline linéaire
-      Axe unique, événements ordonnés.
-
-      - Avantage : Simple, univoque
-      - Inconvénient : Pas de ramifications
-
-      ### Timeline arborescente
-      Multiples branches temporelles.
-
-      - Avantage : Causalités multiples
-      - Inconvénient : Complexité
-
-      ### Timeline circulaire
-      Temps conçu comme cyclique.
-
-      - Avantage : Pour histoires cycliques
-      - Inconvénient : Moins intuitif
-    </markdown>
-  </section>
-
-  <section title="Combinaisons avec autres interfaces">
-    <markdown>
-      **Timeline + Scrollable**
-
-      - Scroll révèle progression temporelle
-      - Événements s'ajoutent chronologiquement
-
-      **Timeline + Écrans partagés**
-
-      - Comparer deux chronologies
-      - Événements parallèles visualisés ensemble
-    </markdown>
-  </section>
-
-  <section title="Bonnes pratiques">
-    <markdown>
-      1. **Repères visuels** : Dater clairement
-      2. **Connexions significatives** : Pas juste chronologie
-      3. **Densité narrative** : Contenu riche par période
-      4. **Navigation intuitive** : Clair comment se déplacer
-      5. **Contexte** : Pourquoi cette date importe?
-    </markdown>
-  </section>
-
-  <section title="Risques courants">
-    <markdown>
-      ❌ **Simple liste de dates** : Table de matière
-      ❌ **Trop d'événements** : Surcharge cognitive
-      ❌ **Pas de connexions** : Juste du chronologique
-      ❌ **Design froid** : Graphique sans poésie
-      ❌ **Non-intuitif** : Dur de naviguer
-    </markdown>
-  </section>
-
-  <section title="Solutions">
-    <markdown>
-      ✅ Raconter des histoires via les dates
-      ✅ Limiter à 5-10 moments clés
-      ✅ Visualiser causalité et connexions
-      ✅ Ajouter imagery/design riche
-      ✅ Tester navigation avec utilisateurs
+      **Une frise se combine bien avec une carte.** Où et quand sont deux axes ; les
+      croiser demande peu de production et raconte beaucoup.
     </markdown>
   </section>
 

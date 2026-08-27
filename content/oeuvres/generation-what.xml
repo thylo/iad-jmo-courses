@@ -5,6 +5,9 @@
   <par ref="upian"/>
   <url>https://generation-what.fr/</url>
   <categorie>Documentaire</categorie>
+  <concept ref="structure-parallele"/>
+  <concept ref="forme-collaborative"/>
+  <concept ref="role-soi-meme"/>
 
   <resume>Questionnaire massif auprès des 18-34 ans européens. Plus de 1 million de participants. Les résultats sont visualisés en temps réel et comparés selon pays, genre, âge. Chacun peut explorer les données et se situer.</resume>
 

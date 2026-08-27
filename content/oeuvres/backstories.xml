@@ -9,8 +9,9 @@
   <par>La Boîte de Jeu</par>
   <url>https://www.laboitedejeu.fr/backstories-seule-sous-la-glace/</url>
   <categorie>Jeu</categorie>
+  <concept ref="interface-point-click"/>
 
-  <resume>Un point &amp; click sans écran. Des cartes Panorama montrent des lieux ; des cartes Action perforées — Fouiller, Discuter, Explorer, utiliser un objet — se posent dessus, et la fenêtre découpée révèle la conséquence. Une heure, de un à six joueurs. Première boîte : « Seule sous la glace » (juin 2024), puis « Les Noces d'Émeraude » et « L'Embrasement ».</resume>
+  <resume>Un point &amp; click sans écran. Des cartes Panorama montrent des lieux ; des cartes Action perforées (Fouiller, Discuter, Explorer, utiliser un objet) se posent dessus, et la fenêtre découpée révèle la conséquence. Une heure, de un à six joueurs. Première boîte : « Seule sous la glace » (juin 2024), puis « Les Noces d'Émeraude » et « L'Embrasement ».</resume>
 
   <visuel src="backstories.jpg"
           source="https://www.laboitedejeu.fr/backstories-seule-sous-la-glace/"/>
@@ -26,7 +27,7 @@
       **La perforation est une table de correspondance.** Action × lieu →
       conséquence : c'est un tableau à double entrée, celui qu'un jeu vidéo garde en
       mémoire. Ici il est imprimé, et la découpe fait la recherche. Aucun numéro de
-      paragraphe à chercher, aucun livret à feuilleter — le mécanisme de lecture
+      paragraphe à chercher, aucun livret à feuilleter : le mécanisme de lecture
       disparaît complètement.
 
       **Le vocabulaire est celui du [[interface-point-click|point &amp; click]].**
@@ -35,7 +36,7 @@
 
       **Le dessin porte l'interface.** Les cartes Panorama sont à la fois le décor
       et la zone cliquable : ce qui est dessiné est ce qu'on peut désigner. Un lieu
-      mal composé, et le joueur ne voit pas où agir — même problème qu'à l'écran,
+      mal composé, et le joueur ne voit pas où agir. Même problème qu'à l'écran,
       sans les affordances du curseur pour rattraper le coup.
     </markdown>
   </section>
@@ -43,8 +44,8 @@
   <section title="Ce qui coince">
     <markdown>
       Le tableau doit être rempli. Chaque croisement action-lieu demande un texte,
-      y compris les dizaines qui ne servent à rien. Les réponses creuses — « rien
-      d'intéressant ici » — sont les coutures du système, et on les sent.
+      y compris les dizaines qui ne servent à rien. Les réponses creuses (« rien
+      d'intéressant ici ») sont les coutures du système, et on les sent.
 
       Et l'histoire ne se joue qu'une fois : une fois les fenêtres lues, la boîte
       est vide. C'est le régime de l'escape game, pas celui de

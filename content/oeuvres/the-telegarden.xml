@@ -1,15 +1,50 @@
-<oeuvre id="the-telegarden" statut="archive">
+<oeuvre id="the-telegarden" statut="hors-ligne">
   <titre>The Telegarden</titre>
   <annee>1995</annee>
   <par>Ken Goldberg</par>
+  <par>Joseph Santarromana</par>
   <url>https://goldberg.berkeley.edu/garden/Ars/</url>
-  <categorie>Muséale</categorie>
+  <categorie>Installation</categorie>
+  <concept ref="forme-sociale"/>
+  <concept ref="forme-collaborative"/>
 
-  <resume>Les visiteurs du site web pouvaient contrôler un bras robotique réel pour planter et arroser des graines dans un vrai jardin. Œuvre pionnière d'interaction web/monde physique.</resume>
+  <resume>Un petit potager circulaire, un bras robotisé industriel au centre, une caméra montée dessus, et une page web. De n'importe où dans le monde, on prenait la main sur le bras pour regarder la terre, semer une graine, arroser. Développé à l'université de Californie du Sud, montré à Los Angeles en 1995, puis installé à l'Ars Electronica de Linz où il a tourné vingt-quatre heures sur vingt-quatre pendant huit ans. Éteint en août 2004.</resume>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      Projet visionnaire datant de 1995 qui démontrait déjà que le web pouvait contrôler le monde physique. Ancêtre des objets connectés. Installation artistique web historique.
+      **L'action a un coût réel et un délai réel.** Une graine met des semaines à
+      pousser, et si personne n'arrose pendant vos vacances, elle meurt. C'est
+      l'inverse exact d'une interface qui répond instantanément : ici le geste engage
+      quelque chose de vivant, à des milliers de kilomètres, et rien ne se recharge.
+
+      **Ce que les gens en ont fait.** Les organisateurs ont constaté qu'ils parlaient
+      entre eux de nature et de technique, presque sans agressivité ; qu'ils se
+      demandaient mutuellement d'arroser leurs plants pendant leurs absences ; qu'ils
+      semaient à côté les uns des autres pour être voisins. Un jardinier est mort et la
+      communauté l'a pleuré. Un couple s'y est fiancé.
+
+      **À mettre en regard de [[do-not-draw-a-penis]].** Deux dispositifs qui donnent
+      une liberté à une foule anonyme, et deux résultats opposés. Ce n'est pas la
+      nature humaine qui décide, c'est ce que le dispositif rend visible et ce qu'il
+      fait coûter — argument développé dans
+      [le poids d'un choix](/panorama/poids-du-choix). Ici, ce qu'on abîme met un mois
+      à repousser, et tout le monde vous voit le faire.
+
+      **Ça date de 1995.** Avant les réseaux sociaux, avant le haut débit. À montrer
+      quand quelqu'un croit que l'interaction en ligne à plusieurs est une invention
+      récente.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Neuf ans en fonctionnement, puis l'arrêt : un bras robotisé industriel demande
+      une maintenance qu'aucune institution ne finance indéfiniment. Il reste des
+      captations et l'archive du site.
+
+      C'est aussi la limite du genre : l'œuvre était le dispositif *en train de
+      tourner*, avec ses jardiniers dedans. Ce qu'on peut en montrer aujourd'hui n'en
+      est que la documentation.
     </markdown>
   </section>
 

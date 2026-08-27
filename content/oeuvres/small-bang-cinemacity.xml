@@ -1,14 +1,44 @@
 <oeuvre id="small-bang-cinemacity" statut="hors-ligne">
-  <titre>Small Bang - Cinemacity</titre>
+  <titre>Cinemacity</titre>
   <annee>2013</annee>
   <par>Small Bang</par>
+  <par ref="arte"/>
+  <par>Forum des images</par>
   <categorie>Urbain</categorie>
+  <concept ref="structure-constellation"/>
+  <concept ref="role-soi-meme"/>
+  <concept ref="interface-maps"/>
 
-  <resume>Parcours urbain guidé par une application qui fait découvrir les lieux de tournage de films emblématiques. Extraits de films déclenchés à l'emplacement exact où ils ont été tournés. Transformation de la ville en plateau de cinéma virtuel.</resume>
+  <resume>Une application qui pose des extraits de films à l'endroit exact où ils ont été tournés, dans Paris. On marche, le téléphone signale qu'une scène a été tournée là, et on décide de la regarder ou non, debout dans le décor. Des parcours par quartier sont proposés, et chacun peut déposer sa propre reconstitution d'une scène. Coproduit par Arte et Small Bang avec la Ville de Paris et le Forum des images, en trois langues.</resume>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      Superpose la fiction cinématographique sur la réalité urbaine. La ville devient un écran de projection mental. Pionnier de la "balade augmentée" qui mêle culture cinéphile et déambulation urbaine.
+      **Le lieu fait tout le travail.** Il n'y a rien à écrire : le film existe déjà,
+      la rue existe déjà, et l'œuvre se contente de les faire coïncider. C'est le
+      dispositif le moins coûteux du corpus pour l'effet produit, et c'est
+      [[interface-maps|une carte qui se justifie]] — la position n'est pas un rangement,
+      c'est l'information même.
+
+      **On est [[role-soi-meme|soi-même]], et debout.** Pas d'avatar, pas de fiction :
+      votre corps est à l'endroit où une caméra s'est trouvée. La superposition se fait
+      dans la tête, pas à l'écran, ce qui vaut mieux que bien des réalités augmentées.
+
+      **La structure est une [[structure-constellation|constellation]] assumée.** Aucun
+      ordre, aucune fin, aucune obligation de tout voir. On croise ce qu'on croise.
+      C'est ce que la ville permet, et vouloir y imposer un parcours unique aurait été
+      une faute.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      C'est une application, donc un compte à rebours : elle n'est plus distribuée. Un
+      dispositif qui ne demandait qu'une carte, des extraits et des coordonnées aurait
+      pu tenir dans une page web et vivre plus longtemps.
+
+      Et le catalogue conditionne tout : sans droits sur les extraits, il n'y a pas
+      d'œuvre. C'est ce qui rend le modèle difficile à reproduire en atelier — sauf à
+      le faire avec ses propres images, ce qui est précisément l'exercice intéressant.
     </markdown>
   </section>
 

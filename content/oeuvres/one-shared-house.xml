@@ -1,19 +1,89 @@
 <oeuvre id="one-shared-house" statut="en-ligne">
   <titre>One Shared House</titre>
-  <annee>2013</annee>
-  <par>Bregtje van der Haak</par>
-  <par>Thomas Walther</par>
-  <url>http://onesharedhouse.com/</url>
+  <annee>2016</annee>
+  <par>Irene Pereyra</par>
+  <par>Anton Repponen</par>
+  <par>Anton &amp; Irene</par>
+  <url>https://onesharedhouse.com/</url>
   <categorie>Documentaire</categorie>
+  <concept ref="structure-concentrique"/>
+  <concept ref="role-fantome"/>
 
-  <resume>Exploration d'une maison berlinoise sur 30 ans d'histoire à travers des témoignages de ses habitants. Navigation spatiale dans les pièces déclenche les récits.</resume>
+  <resume>Amsterdam, fin des années 1980 : face à la crise du logement et aux squats, la
+    ville impose qu'un pour cent des logements neufs soit communautaire. Huit femmes
+    fondent Kollontai, du nom d'Alexandra Kollontaï, révolutionnaire féministe russe.
+    Irene Pereyra y a grandi. Trente ans plus tard, elle en tire un documentaire
+    interactif de dix minutes avec Anton Repponen : deux ans de travail, autoproduit,
+    couvrant 1984 à 2014, raconté par les habitants d'hier et d'aujourd'hui.</resume>
 
   <visuel src="one-shared-house.jpg"
           source="https://onesharedhouse.com/"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Le film est dans un coin de l'écran">
     <markdown>
-      L'espace physique devient l'interface narrative. Chaque pièce raconte une époque.
+      C'est là qu'est l'idée de forme. Le film ne tient pas toute la page : il joue en
+      haut à gauche d'une grille, et tout autour se rangent des blocs : des textes, des
+      photos, des chiffres sur le logement collectif, l'histoire du bâtiment.
+
+      On peut laisser tourner sans rien toucher, ou mettre en pause et aller fouiller un
+      bloc, puis revenir. Chacun règle son niveau d'engagement, et aucun des deux
+      régimes n'est présenté comme le bon.
+
+      C'est une [[structure-concentrique|structure concentrique]] rendue littéralement
+      visible : un noyau au centre, des couches autour, et la mise en page qui dit
+      laquelle est laquelle. La plupart des œuvres cachent cette hiérarchie dans un
+      menu ; celle-ci la dessine.
+    </markdown>
+  </section>
+
+  <section title="Le questionnaire retourne le sujet">
+    <markdown>
+      À la fin, deux séries de questions. D'abord ce que vous accepteriez de partager :
+      la douche, les toilettes, la cuisine, le salon, les repas du soir, les courses, la
+      voiture, la garde des enfants, le ménage, la machine à laver, le jardin, le gaz et
+      l'électricité, internet. Ensuite qui vous êtes : genre, pays, âge.
+
+      Puis on vous montre où vous vous situez par rapport à tous les autres.
+
+      Le geste est plus malin qu'il n'en a l'air. Pendant dix minutes, on regardait
+      l'enfance de quelqu'un d'autre ; en trois écrans, le sujet devient votre propre
+      rapport à la propriété et à la promiscuité. Et le documentaire se transforme au
+      passage en jeu de données que ses auteurs peuvent publier. Ils ont d'ailleurs
+      lancé le site en bêta pour commencer à collecter les réponses avant la sortie.
+    </markdown>
+  </section>
+
+  <section title="Ce qu'on peut en tirer">
+    <markdown>
+      **Le scope est exemplaire.** Deux personnes, autofinancé, dix minutes de film. Rien
+      dans cette pièce ne demandait une équipe ou un budget : elle demandait deux ans de
+      constance et une idée de mise en page. C'est le modèle réaliste à montrer avant un
+      projet d'atelier.
+
+      **La forme vient d'ailleurs que du web.** Blocs géométriques, aplats contrastés,
+      caractères modernistes, aucune texture ni dégradé : le graphisme néerlandais, et
+      Karel Martens revendiqué comme référence. Une direction artistique choisie dans
+      l'histoire du design plutôt que dans les tendances du moment, ce qui explique
+      qu'elle n'ait pas vieilli.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le questionnaire mange le film. C'est lui qu'on retient, lui qui a circulé, et
+      beaucoup de gens l'ont rempli sans avoir regardé les dix minutes qui le précèdent.
+
+      Et le succès de la formule l'a détachée de son sujet. SPACE10, le laboratoire
+      prospectif d'IKEA à Copenhague, les a contactés ; il en est sorti *One Shared
+      House 2030* (2017), un questionnaire en vingt-et-un thèmes sur l'habitat partagé
+      de demain, rempli par plus de sept mille personnes dans près de cent cinquante
+      pays. Les réponses sont publiées en libre accès, ce qui est plus honnête que la
+      moyenne du genre.
+
+      Reste le glissement, et il vaut d'être vu : on part du récit d'une maison
+      autogérée par huit femmes, on arrive à une étude sur le logement financée par le
+      plus gros vendeur de meubles du monde. Personne n'a menti à personne. C'est
+      simplement ce qui arrive à une bonne idée de forme.
     </markdown>
   </section>
 

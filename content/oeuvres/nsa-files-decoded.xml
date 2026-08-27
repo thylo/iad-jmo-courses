@@ -4,6 +4,7 @@
   <par>The Guardian</par>
   <url>https://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded</url>
   <categorie>Documentaire</categorie>
+  <concept ref="interface-scrollable"/>
 
   <resume>Exploration interactive des documents révélés par Edward Snowden. Visualisations de données, navigation dans les documents, explications contextuelles. Transforme des documents complexes en récit compréhensible.</resume>
 

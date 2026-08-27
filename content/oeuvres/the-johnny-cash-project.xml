@@ -5,6 +5,9 @@
   <par>Aaron Koblin</par>
   <url>http://www.thejohnnycashproject.com/</url>
   <categorie>Interface</categorie>
+  <concept ref="forme-collaborative"/>
+  <concept ref="role-soi-meme"/>
+  <concept ref="interface-galleries"/>
 
   <resume>Des milliers de personnes dessinent des frames individuelles d'un clip vidéo pour la chanson "Ain't No Grave". Chaque spectateur contribue en redessinant une image, créant collectivement le clip final.</resume>
 

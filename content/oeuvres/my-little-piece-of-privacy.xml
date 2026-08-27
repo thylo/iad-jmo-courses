@@ -10,7 +10,7 @@
   <voir ref="gaza-sderot"/>
   <voir ref="camera-restricta"/>
 
-  <resume>Installation interactive qui détecte les passants par caméra et positionne un rideau motorisé pour obstruer la vue — créant un paradoxe ironique où le mécanisme de protection attire plus l'attention qu'il ne la détourne.</resume>
+  <resume>Installation interactive qui détecte les passants par caméra et positionne un rideau motorisé pour obstruer la vue, créant un paradoxe ironique où le mécanisme de protection attire plus l'attention qu'il ne la détourne.</resume>
 
   <section title="Ce qui fonctionne">
     <markdown>
@@ -46,7 +46,7 @@
     <markdown>
       Roy nous livre lui-même l'analyse : **"Le rideau ne protège pas du tout ma vie privée."**
 
-      Le projet fonctionne techniquement à la perfection — mais **échoue complètement dans son objectif**. Pourquoi ?
+      Le projet fonctionne techniquement à la perfection, mais **échoue complètement dans son objectif**. Pourquoi ?
 
       1. **L'intention devient visible** : les passants réalisent immédiatement qu'il se passe quelque chose
       2. **L'attraction se crée** : au lieu de l'ignorer, les gens s'arrêtent pour observer le mécanisme
@@ -70,11 +70,11 @@
 
   <section title="Enjeux pédagogiques clés">
     <markdown>
-      **Interface comme critique** : L'interface n'est pas neutre — elle **révèle les paradoxes du système**. Une interface "bien conçue" peut fonctionner parfaitement tout en échouant complètement dans son intention.
+      **Interface comme critique** : L'interface n'est pas neutre, elle **révèle les paradoxes du système**. Une interface "bien conçue" peut fonctionner parfaitement tout en échouant complètement dans son intention.
 
       **Surveillance vs. Performance** : Le projet démontre que **toute tentative de se cacher engage une performance involontaire**. Crucial dans l'ère des caméras intelligentes et de la reconnaissance faciale.
 
-      **Théorie de l'acteur réseau** : Le rideau n'est pas un objet passif — c'est un **acteur** qui modifie le comportement des passants. C'est du Bruno Latour en action.
+      **Théorie de l'acteur réseau** : Le rideau n'est pas un objet passif, c'est un **acteur** qui modifie le comportement des passants. C'est du Bruno Latour en action.
 
       **Participation non-consentante** : Contrairement à l'art interactif traditionnel, ici les gens **interagissent malgré eux**. C'est pertinent pour interroger les frontières éthiques de l'art participatif.
     </markdown>

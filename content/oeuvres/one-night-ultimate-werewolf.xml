@@ -1,14 +1,44 @@
 <oeuvre id="one-night-ultimate-werewolf" statut="en-ligne">
   <titre>One Night Ultimate Werewolf</titre>
   <annee>2014</annee>
+  <par>Ted Alspach</par>
   <par>Bezier Games</par>
   <categorie>Jeu</categorie>
+  <concept ref="forme-sociale"/>
+  <concept ref="interface-plateau"/>
 
-  <resume>L'application remplace le narrateur humain en guidant la phase de nuit, gérant les timers et créant l'ambiance sonore. Les joueurs peuvent tous participer.</resume>
+  <resume>Un Loup-Garou sans élimination et sans meneur : une seule nuit, un seul vote, dix minutes. Une application gratuite tient le rôle du narrateur — elle appelle les rôles dans l'ordre, gère les temps de silence et referme la nuit. Personne n'est mis hors jeu, donc tout le monde joue jusqu'au bout.</resume>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      Utilise le web pour supprimer le besoin d'un maître du jeu, permettant à tous de jouer simultanément.
+      **L'application ne remplace pas un conteur, elle remplace un chronomètre.** Le
+      meneur du Loup-Garou classique ne raconte rien : il récite une séquence et compte
+      les secondes. C'est précisément le genre de travail qu'une machine fait mieux, et
+      c'est le bon côté de la question posée par
+      [[interface-plateau|Plateau augmenté]] : qu'est-ce que l'application remplace ?
+      Ici, de la comptabilité — bon échange.
+
+      **Le gain est social, pas technique.** En supprimant ce rôle, on rend un joueur à
+      la table. En supprimant l'élimination, on garde tout le monde dans la partie
+      jusqu'à la fin. Deux décisions de règle, aucune technologie, et le dispositif
+      change de nature.
+
+      **Le récit se fabrique entièrement dans la discussion.** L'application se tait dès
+      que le jour se lève. Ce qui se joue ensuite — les accusations, les mensonges, les
+      revirements — est une [[forme-sociale|forme sociale]] pure : l'auteur a fourni les
+      rôles et la minuterie, rien d'autre.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le dispositif ne tient qu'avec des gens qui acceptent de mentir en face. Il ne
+      produit rien avec un groupe qui ne se connaît pas ou qui n'ose pas, et aucune
+      règle ne peut compenser ça.
+
+      Et la partie dure dix minutes pour une demi-heure de discussion : c'est un
+      excellent objet d'atelier, pas un objet d'analyse narrative très riche. Il n'y a
+      pas d'histoire écrite du tout.
     </markdown>
   </section>
 

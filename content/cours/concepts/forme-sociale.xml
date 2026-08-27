@@ -1,0 +1,81 @@
+<concept id="forme-sociale">
+  <titre>Interactivité Sociale (face aux autres)</titre>
+  <genre>forme</genre>
+  <exemple ref="alice-is-missing"/>
+  <exemple ref="the-climate-show"/>
+  <voir ref="forme-machine"/>
+  <voir ref="forme-collaborative"/>
+  <voir ref="interface-plateau"/>
+
+  <resume>L'auteur ne fournit pas le contenu : il fournit le lieu et la raison de s'y parler. L'œuvre est ce qui se passe entre les gens, et il ne l'a pas écrit.</resume>
+
+  <section title="Ce que l'auteur fournit">
+    <markdown>
+      Un point de départ, un espace, des règles. Rien de ce qui sera dit.
+
+      [[alice-is-missing]] tient dans un paquet de cartes. Trois à cinq joueurs
+      sont assis dans la même pièce et n'ont pas le droit de parler : toute
+      l'enquête sur la disparition d'Alice se joue par messages, sur leurs
+      téléphones, en quatre-vingt-dix minutes. L'auteur fournit les cartes, le
+      compte à rebours et la règle du silence. Le récit, lui, est écrit
+      entièrement par les joueurs, et il n'existe qu'une fois.
+
+      Variante plus dirigée : [[the-climate-show]] (Bruxelles, 2022). Cent vingt
+      spectateurs, une télécommande chacun, et des votes collectifs qui orientent
+      un spectacle par ailleurs écrit d'avance.
+    </markdown>
+  </section>
+
+  <section title="Ce que ça coûte">
+    <markdown>
+      Beaucoup moins de contenu à produire, beaucoup plus de règles à régler. Et
+      le coût ne s'arrête pas à la sortie : il est dans l'animation, dans la
+      modération, dans tout ce qui fait qu'un groupe continue de jouer le jeu.
+
+      Ça ne veut pas dire que la forme est hors de portée. Alice is Missing, c'est
+      un paquet de cartes et les téléphones qu'on a déjà dans la poche. Les œuvres
+      les plus intéressantes de cette famille sont rarement les plus chères, mais
+      celles dont le cadre est le mieux trouvé.
+    </markdown>
+  </section>
+
+  <section title="La limite">
+    <markdown>
+      La salle vide. Une œuvre sociale sans public ne raconte rien : elle n'existe
+      pas à moitié, elle n'existe pas.
+
+      Le risque change donc de nature. Ce n'est plus « ai-je écrit assez de
+      branches », c'est « est-ce que ça tient si le groupe ne joue pas le jeu ».
+    </markdown>
+  </section>
+
+  <section title="Ce qui marche">
+    <markdown>
+      Un dispositif qui tient debout à trois personnes. Alice is Missing en
+      demande trois et n'a jamais eu besoin d'une communauté. Viser la foule est
+      le moyen le plus sûr de n'avoir personne.
+    </markdown>
+  </section>
+
+  <section title="Ce que la modération peut, et ne peut pas">
+    <markdown>
+      C'est là que la forme montre son vrai prix. Modérer permet d'écarter ce qui
+      déborde, pas de décider de ce qui sera dit. L'auteur choisit le sujet et le
+      cadre. Le contenu, ce sont les gens.
+
+      Choisir cette forme, c'est donc accepter de ne pas savoir ce que son œuvre
+      racontera.
+    </markdown>
+  </section>
+
+  <section title="À ne pas confondre">
+    <markdown>
+      **La forme n'est pas le support.** Un jeu de plateau peut être une œuvre
+      sociale entière, sans une ligne de code : la table met des gens en présence
+      et les règles tiennent le cadre, ce qui est exactement la définition. Voir
+      [[interface-plateau]] et [ce qui se passe hors écran](/panorama/hors-ecran).
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

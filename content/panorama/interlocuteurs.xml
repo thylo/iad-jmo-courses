@@ -7,48 +7,41 @@
     qu'on a le droit d'y faire. Une seule question, et elle ne se voit pas en
     regardant l'œuvre : **face à qui le public se trouve-t-il ?**
 
-    Trois réponses. Elles ne demandent pas le même travail, ne produisent pas le même
-    risque, et ne se remplacent pas.
+    Les trois réponses sont celles de
+    [Benjamin Hoguet](/cours/personnes/benjamin-hoguet) dans *La Narration
+    Réinventée*, et on garde ses mots. Elles ne demandent pas le même travail, ne
+    produisent pas le même risque, et ne se remplacent pas.
   </markdown>
 
-  <section title="Face au système">
+  <glossary>
+    <term name="Machine" to="forme-machine">
+      Le public agit sur un contenu écrit d'avance. Tout est prévu, testé, fini. La
+      seule des trois qu'une personne seule peut mener jusqu'au bout, et donc
+      presque toujours celle de vos projets.
+    </term>
+
+    <term name="Sociale" to="forme-sociale">
+      L'auteur fournit le lieu et les règles, le récit se fabrique entre les gens.
+      Beaucoup moins de contenu à produire, beaucoup plus de réglage.
+    </term>
+
+    <term name="Collaborative" to="forme-collaborative">
+      Le public apporte la matière, et l'auteur ne l'a pas vue avant. La seule qui
+      échappe vraiment à celui qui l'a lancée.
+    </term>
+  </glossary>
+
+  <section title="Les combinaisons">
     <markdown>
-      Tout est écrit d'avance. Le public explore un univers fini où chaque action
-      produit un résultat prévu et testé. L'œuvre du premier jour est celle du
-      dernier.
+      Elles sont la règle, pas l'exception. [[the-climate-show]] est machine
+      pendant quarante-cinq minutes de dramaturgie écrite, et sociale aux quelques
+      instants où la salle vote. [[generation-what]] est collaborative quand on
+      répond au questionnaire, et machine quand on explore le million de réponses
+      des autres.
 
-      C'est la seule des trois qu'une personne seule peut mener jusqu'au bout, et
-      c'est pour ça que c'est presque toujours celle de vos projets. C'est aussi la
-      plus coûteuse à remplir : il faut produire la totalité du contenu, y compris
-      les branches que presque personne ne verra. D'où l'attention à porter à
-      [ce que ça coûte d'écrire](/panorama/structures).
-    </markdown>
-  </section>
-
-  <section title="Face aux autres">
-    <markdown>
-      L'œuvre met des gens en présence et se contente de tenir le cadre. Ce qui se
-      passe entre eux n'est pas écrit — [Alice is Missing](/oeuvres/alice-is-missing)
-      donne des cartes et un silence obligatoire, et le récit se fabrique dans les
-      messages que les joueurs s'envoient.
-
-      Beaucoup moins de contenu à produire, beaucoup plus de règles à régler. Le
-      risque change de nature : ce n'est plus « ai-je écrit assez de branches »,
-      c'est « est-ce que ça tient si le groupe ne joue pas le jeu ».
-    </markdown>
-  </section>
-
-  <section title="Face à l'œuvre qu'on fabrique">
-    <markdown>
-      Le public produit la matière, et l'auteur ne l'a pas vue avant.
-      [The Johnny Cash Project](/oeuvres/the-johnny-cash-project) demande une image
-      par personne et les assemble en clip ; personne ne sait à quoi ressemblera le
-      résultat, l'auteur compris.
-
-      C'est la seule des trois qui échappe vraiment à celui qui l'a lancée. Elle
-      demande peu de contenu et beaucoup de dispositif : un cadre assez solide pour
-      qu'une contribution médiocre ne casse pas l'ensemble, assez ouvert pour que
-      contribuer ait un intérêt.
+      Il n'y a rien à retenir de plus : nommer une forme « hybride » n'explique
+      rien. Ce qui compte, c'est de repérer à quel moment de l'expérience on
+      bascule, et pourquoi.
     </markdown>
   </section>
 
@@ -56,10 +49,29 @@
     <markdown>
       Parce qu'elle décide de ce que vous allez passer trois semaines à faire :
       écrire du contenu, régler des règles, ou construire un dispositif. Ce ne sont
-      pas les mêmes semaines, et on ne change pas de réponse à mi-parcours sans tout
-      reprendre.
+      pas les mêmes semaines, et on ne change pas de réponse à mi-parcours sans
+      tout reprendre.
+
+      Le coût ne se place pas au même endroit non plus.
+
+      - **Machine** : dans l'écriture. Connu d'avance, payable par une personne
+        seule, et d'autant plus lourd que la
+        [structure branche](/panorama/structures).
+      - **Sociale** : dans l'animation, après la sortie. Il ne s'arrête pas.
+      - **Collaborative** : dans l'outil et la modération. Rien n'existe tant que
+        personne n'a rien déposé.
     </markdown>
   </section>
 
-  <grid of="concept" where="genre = forme"/>
+  <section title="Ce qu'il cache">
+    <markdown>
+      La forme n'est ni le rôle du public, ni le support. Trois axes indépendants,
+      qu'on confond d'autant plus facilement qu'ils se recouvrent souvent.
+
+      Une œuvre machine peut vous faire jouer [[role-personnage|un personnage]] ou
+      vous laisser [[role-soi-meme|vous-même]]. Une œuvre sociale peut tenir dans
+      un [[interface-plateau|jeu de plateau]], sans une ligne de code. Ce découpage
+      dit face à qui vous êtes, pas qui vous êtes ni sur quoi ça tourne.
+    </markdown>
+  </section>
 </page>

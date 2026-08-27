@@ -6,14 +6,14 @@
   <url>https://hiddenfolks.com/</url>
   <categorie>Jeu</categorie>
 
-  <resume>Un livre d'objets cachés devenu machine. Trente-deux paysages dessinés à la main, au trait noir, plus de trois cents cibles à trouver — et un décor qui répond : on écarte les pans de tente, on coupe les buissons, on claque les portes. Tous les sons du jeu sont faits à la bouche par ses auteurs. Février 2017.</resume>
+  <resume>Un livre d'objets cachés devenu machine. Trente-deux paysages dessinés à la main, au trait noir, plus de trois cents cibles à trouver, et un décor qui répond : on écarte les pans de tente, on coupe les buissons, on claque les portes. Tous les sons du jeu sont faits à la bouche par ses auteurs. Février 2017.</resume>
 
   <visuel src="hidden-folks.jpg"
           source="https://hiddenfolks.com/"/>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      **La transposition va dans l'autre sens.** L'objet de départ est un livre —
+      **La transposition va dans l'autre sens.** L'objet de départ est un livre :
       le *Wimmelbuch*, la double page saturée où l'on cherche un personnage. Le
       passage à l'écran n'ajoute ni texte ni caméra : il rend l'image manipulable.
       Ce qui était à regarder devient à fouiller. C'est le trajet inverse de
@@ -36,7 +36,7 @@
     <markdown>
       Il n'y a pas de récit, et le jeu ne prétend pas le contraire. Aucun
       personnage n'a d'intention, rien ne se passe : on cherche, on trouve, on
-      passe. C'est un dispositif, très bien tenu, pas une narration — utile à
+      passe. C'est un dispositif, très bien tenu, pas une narration. Utile à
       garder en tête avant de plaquer une histoire sur une mécanique qui n'en
       demande pas.
     </markdown>

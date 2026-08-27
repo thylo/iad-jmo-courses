@@ -1,181 +1,103 @@
 <concept id="role-fantome">
-  <titre>Le Public comme Fantôme</titre>
+  <titre>Un fantôme</titre>
   <genre>role</genre>
   <exemple ref="weiordie"/>
   <exemple ref="phallaina"/>
   <exemple ref="gaza-sderot"/>
   <exemple ref="one-shared-house"/>
-  <voir ref="structure-lineaire"/>
-  <voir ref="structure-elastique"/>
+  <exemple ref="the-boat"/>
+  <voir ref="role-divinite"/>
+  <voir ref="choix-exploratoire"/>
 
-  <resume>Le spectateur est un témoin invisible de l'action. Il observe sans être vu ni pouvoir interagir directement avec les personnages.</resume>
+  <resume>Vous voyez tout et ne pouvez rien. Vos gestes déplacent le regard, pas les événements.</resume>
 
   <section title="Définition">
     <markdown>
-      Le rôle de fantôme place le public en observateur invisible. Il suit les personnages et les événements sans pouvoir les influencer directement. Son agentivité se limite au contrôle du point de vue : choisir où regarder, le rythme d'exploration, quelle perspective suivre.
+      Le récit se déroule sans vous et ne vous attend pas. Ce qu'on vous confie, c'est
+      la place d'où on regarde : quelle caméra, quel témoin, quel moment, à quelle
+      vitesse.
 
-      **Caractéristiques :**
-
-      - Le spectateur est un témoin invisible
-      - Il suit les personnages sans pouvoir les influencer
-      - Il influence le **point de vue** du récit
-      - Les personnages n'ont pas conscience de sa présence
-      - Il décide du **rythme** et de l'**ordre** d'exploration
-
-      **Interactions typiques :**
-
-      - Choisir quelle caméra/perspective suivre
-      - Décider de l'ordre d'exploration des contenus
-      - Naviguer dans l'espace narratif
-      - Contrôler le rythme (scroll, navigation)
+      C'est le rôle le plus fréquent du documentaire interactif, et le plus honnête
+      quand la matière est réelle : on ne va pas laisser le public modifier ce qui est
+      arrivé. La liberté d'angle est la seule qu'on puisse lui donner sans mentir.
     </markdown>
   </section>
 
-  <section title="La métaphore cinématographique">
+  <section title="Schéma">
     <markdown>
-      Être le **chef opérateur** qui choisit les cadrages, mais pas le scénariste qui écrit l'histoire.
+      ```
+      les événements  ──────────────────────────────►  (fixes)
 
-      Vous décidez de l'angle de caméra, du plan serré ou large, mais vous suivez le scénario prévu.
+              ▲          ▲          ▲
+              │          │          │
+            vous       vous       vous
+          (angle 1)  (angle 2)  (angle 3)
+
+      Ce que vous déplacez : la position du regard
+      Ce que vous ne déplacez pas : une seule chose de ce qui arrive
+      ```
     </markdown>
   </section>
 
-  <section title="Pouvoir du public">
+  <section title="Ce que l'angle produit">
     <markdown>
-      L'interactivité du fantôme repose sur :
+      [[gaza-sderot]] filme quarante jours de part et d'autre de la même frontière et
+      vous laisse choisir par qui commencer. Aucun fait ne bouge. Ce qui change, c'est
+      de quel côté vous étiez installé pour les recevoir, et le dispositif tient
+      entièrement là-dessus : deux vies ordinaires, à quelques kilomètres, à la même
+      heure.
 
-      - **Navigation spatiale** : Explorer différents lieux
-      - **Navigation temporelle** : Revenir/avancer dans les événements
-      - **Navigation perspectivale** : Choisir quel personnage suivre
-      - **Rythme** : Contrôler la vitesse de déroulement
+      [[weiordie|Wei or Die]] pousse le principe au montage. Le récit est fixe, les
+      caméras sont multiples, et refaire le parcours en changeant de point de vue
+      donne une autre affaire à partir des mêmes images.
+
+      [[one-shared-house]] vous laisse entrer dans un immeuble communautaire
+      d'Amsterdam par n'importe quel habitant. Trente ans d'histoire, un lieu, plusieurs
+      témoins : la [[structure-concentrique|structure concentrique]] est faite pour ce
+      rôle.
+
+      [[phallaina]] et [[the-boat]] en donnent la version minimale : le geste ne
+      choisit même plus un angle, seulement un rythme. On pousse l'image, l'histoire
+      avance, et rien n'attend de décision. Ça fonctionne, ce qui vaut d'être noté
+      avant de croire qu'il faut brancher pour impliquer.
     </markdown>
   </section>
 
-  <section title="Ce que le fantôme ne peut PAS faire">
+  <section title="Ce que ça permet, et ce que ça interdit">
     <markdown>
-      - Parler aux personnages
-      - Prendre des décisions pour eux
-      - Changer les événements majeurs
-      - Influencer le dénouement
+      **Ça permet** de garder la maîtrise complète de ce qui se raconte tout en
+      donnant une liberté réelle. La production reste linéaire : on écrit chaque
+      module une fois.
+
+      **Ça interdit** la culpabilité. Un fantôme ne peut rien avoir sur la
+      conscience, donc il ne peut pas non plus être bouleversé par ce qu'il a fait.
+      Si votre sujet est la responsabilité, ce n'est pas le rôle qu'il vous faut :
+      voir [[role-personnage|un personnage]] ou [le poids du
+      choix](/panorama/poids-du-choix).
     </markdown>
   </section>
 
-  <section title="Intention créative">
+  <section title="Erreurs courantes">
     <markdown>
-      **Je veux que le public :**
-
-      - **Observe** mes personnages
-      - **Explore** mon univers
-      - **Découvre** progressivement
-
-      C'est idéal si vous racontez une histoire linéaire mais que vous voulez que le public la **découvre** à son rythme.
+      - Habiller le rôle en autre chose. Une interface qui dit « agissez » pour un
+        public qui ne peut qu'observer produit un [[faux-choix|faux choix]]
+      - Multiplier les angles sans qu'aucun ne dise quelque chose. Trois caméras
+        n'informent que si elles ne montrent pas la même chose
+      - Oublier de terminer. Un fantôme peut errer indéfiniment ; c'est à l'auteur de
+        décider où le regard se pose en dernier
     </markdown>
   </section>
 
-  <section title="Adapté pour">
+  <section title="Pour votre projet">
     <markdown>
-      - Documentaires immersifs
-      - Récits linéaires exploratoires
-      - BD/Comics scrollables
-      - Expériences spatiales immersives
-      - Observations de personnages
-    </markdown>
-  </section>
+      C'est le rôle le plus tenable en atelier avec de la matière documentaire, et le
+      moins cher à produire.
 
-  <section title="Avantages">
-    <markdown>
-      - Contrôle créatif total de l'auteur
-      - Univers cohérent et prévisible
-      - Le public garde une certaine agentivité
-      - Exploration sensorielle
-      - Pas de "faux choix" - c'est honnête
-    </markdown>
-  </section>
+      **Deux angles bien opposés valent mieux que six.** La comparaison est
+      l'information ; au-delà de trois, plus personne ne compare.
 
-  <section title="Inconvénients">
-    <markdown>
-      - Sentiment limité d'agentivité
-      - Public non-engagé émotionnellement
-      - Risque d'ennui si l'univers n'est pas riche
-      - Le public peut se sentir passif
-    </markdown>
-  </section>
-
-  <section title="Design d'interface">
-    <markdown>
-      L'interface d'un fantôme est typiquement :
-
-      - **Navigation** : scrolling, navigation spatiale
-      - **Sélection de perspective** : cliquer pour changer de vue
-      - **Contrôles de caméra** : zoom, panoramique
-      - **Pas de dialogues** ou dialogues sans réponse du public
-    </markdown>
-  </section>
-
-  <section title="Exemples détaillés">
-    <markdown>
-      ### Wei or Die (2015)
-
-      - Vous suivez Wei, un jeune homme sans pouvoir l'influencer
-      - Navigation exploratoire dans son environnement quotidien
-      - Vous découvrez progressivement qui il est
-      - L'histoire se déroule selon son propre chemin
-
-      ### Phallaina (2016)
-
-      - Vous scrollez horizontalement pour faire avancer l'histoire
-      - Le récit est linéaire mais vous contrôlez le rythme
-      - Vous choisissez d'explorer les détails ou d'avancer
-      - Métaphore : lire un livre en tournant les pages vous-même
-
-      ### Gaza / Sderot (2008-2012)
-
-      - Vous basculez entre les perspectives de deux villes
-      - Vous voyez comment le conflit affecte les deux côtés
-      - Votre choix : quelle perspective privilégier
-      - Les événements se déroulent indépendamment
-
-      ### One Shared House (2013)
-
-      - Exploration spatiale d'une maison et de ses histoires
-      - Vous êtes fantôme visitant les souvenirs des lieux
-      - Découverte des liens entre les habitants
-      - Chaque pièce révèle des narratifs différents
-    </markdown>
-  </section>
-
-  <section title="Quand choisir le rôle de fantôme ?">
-    <markdown>
-      - ✅ Vous racontez une histoire linéaire
-      - ✅ Vous voulez un contrôle créatif total
-      - ✅ L'atmosphère/observation est plus important que l'agentivité
-      - ✅ Votre public aime découvrir progressivement
-      - ❌ Vous voulez une profonde implication émotionnelle
-    </markdown>
-  </section>
-
-  <section title="Combinaisons courantes">
-    <markdown>
-      Le rôle de fantôme s'associe bien avec :
-
-      - **Structures narratives** : Linéaire, Élastique
-      - **Formes d'interactivité** : Machine (exploration pure)
-      - **Types de choix** : Exploratoires (où aller, quoi voir)
-    </markdown>
-  </section>
-
-  <section title="Distinction importante">
-    <markdown>
-      **Rôle du public ≠ Forme d'interactivité**
-
-      Un fantôme peut explorer une univers créé par machine interaction, mais aussi un univers où les utilisateurs débattent socialement. La différence :
-
-      - **Rôle** : Fantôme - je suis observateur
-      - **Forme** : Machine ou Sociale - avec quoi j'interagis
-
-      **Exemple :**
-
-      - Fort McMoney en exploration : vous êtes fantôme (observez la ville)
-      - Fort McMoney lors des votes : vous restez fantôme mais la forme devient sociale
+      **Demandez-vous ce que l'angle révèle.** Si passer de l'un à l'autre ne change
+      pas ce qu'on comprend, vous avez fait un menu, pas un point de vue.
     </markdown>
   </section>
 

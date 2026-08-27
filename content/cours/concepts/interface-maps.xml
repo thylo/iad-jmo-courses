@@ -1,194 +1,84 @@
 <concept id="interface-maps">
-  <titre>Maps / Navigation Géographique</titre>
+  <titre>La carte</titre>
   <genre>interface</genre>
-  <exemple ref="riding-the-new-silk-road"/>
-  <exemple ref="welcome-to-pine-point"/>
   <exemple ref="micromacro-crime-city"/>
-  <voir ref="structure-parallele"/>
+  <exemple ref="riding-the-new-silk-road"/>
+  <exemple ref="80-days"/>
   <voir ref="structure-constellation"/>
   <voir ref="interface-timeline"/>
 
-  <resume>Une carte géographique interactive sert de hub de navigation. Les contenus sont géolocalisés.</resume>
+  <resume>Une carte sert de porte d'entrée au récit. Elle ne se justifie que si la distance, l'itinéraire ou le voisinage sont l'information.</resume>
 
   <section title="Définition">
     <markdown>
-      L'interface map utilise une carte comme structure narrative. L'utilisateur clique sur des lieux géographiques pour découvrir contenus associés. La géographie devient métaphore et structure pour le récit.
+      Les contenus sont posés sur un plan, et c'est en s'y déplaçant qu'on les
+      atteint. Le plan peut être une carte du monde, un quartier, une maison, un
+      poster d'un mètre.
 
-      **Caractéristiques :**
-
-      - Géographie comme structure narrative
-      - Contenus géolocalisés
-      - Dimension spatiale et réelle
-      - Navigation par lieu
+      C'est l'interface la plus demandée en atelier et la plus souvent injustifiée.
+      La question à se poser tient en une ligne : **est-ce que la position de deux
+      contenus l'un par rapport à l'autre veut dire quelque chose ?** Si non, une
+      liste fait le même travail et se lit mieux.
     </markdown>
   </section>
 
-  <section title="Intérêt narratif">
+  <section title="Schéma">
     <markdown>
-      - **Ancre le récit dans un territoire réel**
-      - **Valorise les contenus géolocalisés**
-      - **Référence commune pour tous** (la géographie)
-      - Connexion au monde réel
+      ```
+      Carte-menu                      Carte qui raconte
+
+        ●     ●        chaque point     ●───────●   la distance coûte
+             ●         est une entrée      \     \  quelque chose
+        ●        ●     et leur position     ●─────●
+                       est arbitraire            \  le voisinage
+        = une liste, en plus lent                 ●  est un indice
+      ```
     </markdown>
   </section>
 
-  <section title="Enjeux et risques">
+  <section title="Trois raisons valables">
     <markdown>
-      - **Esthétique souvent froide** (ressemble à Google Maps)
-      - **Les cartes créent une distance** (pas d'immersion)
-      - **Difficile de raconter une histoire** avec carte seule
-      - Risque de tabletop plutôt que narration
+      **La distance coûte.** [[80-days]] est un tour du monde : chaque ligne prend du
+      temps et de l'argent, et le trajet est le récit. La carte n'y est pas un menu,
+      c'est un budget. Elle ne s'ouvre d'ailleurs pas toute seule — les lignes
+      n'apparaissent qu'en écoutant les gens croisés en chemin.
+
+      **Le lieu est le témoignage.** [[riding-the-new-silk-road]] accroche des
+      photographies et des paroles à des points d'une route réelle. Le sens vient de
+      savoir *où* on est quand on entend ça.
+
+      **Le voisinage est l'indice.** [[micromacro-crime-city]] est la démonstration la
+      plus économique du principe : un poster d'un mètre, imprimé, sans écran. Toute
+      l'affaire y figure d'un coup, un même personnage apparaît à plusieurs endroits
+      et à plusieurs moments, et c'est le regard qui fabrique la chronologie. Se
+      pencher remplace le zoom.
     </markdown>
   </section>
 
-  <section title="Quand utiliser maps ?">
+  <section title="Erreurs courantes">
     <markdown>
-      - ✅ Vous racontez une histoire géolocalisée
-      - ✅ La géographie a importance thématique
-      - ✅ Contenus sont réellement situés géographiquement
-      - ✅ Parcours/territoire enrichit le sens
+      - La carte-menu : des points dont la position ne dit rien, et qui auraient tenu
+        dans une liste
+      - Ressembler à un outil. Une carte qui a l'air de Google Maps est lue comme un
+        outil, et on y cherche une adresse au lieu d'y lire une histoire
+      - Trop de points. Au-delà d'une vingtaine, plus personne ne sait ce qu'il a vu
+      - Aucun ordre suggéré. La liberté totale sur une carte vide se vit comme de
+        l'abandon : il faut au moins un endroit où commencer
+      - Le zoom qui perd le fil. Un plan lisible sur grand écran devient illisible sur
+        téléphone, et c'est là que le public est
     </markdown>
   </section>
 
-  <section title="Design">
+  <section title="Pour votre projet">
     <markdown>
-      ### Style cartographique
+      **Dessinez plutôt que d'emprunter.** Une carte illustrée est à vous, un fond
+      cartographique appartient à quelqu'un d'autre et impose son esthétique.
 
-      - Réaliste (Google Maps) ou stylisé?
-      - Couleurs communiquent l'atmosphère
-      - Symboles clairs pour points d'intérêt
-      - Lisibilité sur mobile crucial
+      **Le plan peut être un intérieur.** Une maison, un bureau, une table : les
+      mêmes règles s'appliquent, avec dix points au lieu de cent.
 
-      ### Densité de points
-
-      - Trop de points : Surcharge
-      - Trop peu : Pas d'exploration
-      - Groupage par région aide
-
-      ### Interaction claire
-
-      - Cliquer sur point = ouvre contenu
-      - Zoom pour détail
-      - Pan pour navigation
-      - Retour simple à vue globale
-
-      ### Légende/Contexte
-
-      - Qu'est-ce que chaque symbole?
-      - Quelles régions importantes?
-      - Comment lire la carte?
-    </markdown>
-  </section>
-
-  <section title="Exemples (à développer)">
-    <markdown>
-      ### Riding the New Silk Road (2013)
-
-      - Carte de la nouvelle route de la soie
-      - Cliquer sur villes pour histoires commerciales
-      - Géographie = structure du projet
-      - Exploration par lieu
-
-      ### Welcome to Pine Point (2015)
-
-      - Carte d'une petite ville du Canada
-      - Points d'intérêt = interviews habitants
-      - Géographie organise les témoignages
-      - Nostalgie de lieu
-
-      ### Fort McMoney (2013)
-
-      - Carte de la ville fort McMurray
-      - Exploration spatiale de la cité
-      - Enjeux géographiques (industrie, climat)
-      - Map hybride avec autres interfaces
-    </markdown>
-  </section>
-
-  <section title="Variantes">
-    <markdown>
-      ### Carte stylisée
-      Design artistique, pas réaliste.
-
-      - Avantage : Unique, atmosphérique
-      - Inconvénient : Moins informatif
-
-      ### Satellite/Réelle
-      Vue réelle (Google Maps, satellite).
-
-      - Avantage : Ancrage au réel
-      - Inconvénient : Froid, impersonnel
-
-      ### Zoom progressif
-      Détails révélés au zoom.
-
-      - Avantage : Stratification narrative
-      - Inconvénient : Navigation complexe
-
-      ### Multi-layer
-      Plusieurs cartes superposables.
-
-      - Avantage : Comparaison temporelle/thématique
-      - Inconvénient : Complexité
-    </markdown>
-  </section>
-
-  <section title="Combinaisons avec autres interfaces">
-    <markdown>
-      **Map + Scrollable**
-
-      - Cliquer sur point lance scroll
-      - Retour à map après
-
-      **Map + Timeline**
-
-      - Même lieu, différents temps
-      - Voir évolution géographique
-
-      **Map + Point-and-Click**
-
-      - Map pour choisir lieu
-      - Choix à l'intérieur du lieu
-    </markdown>
-  </section>
-
-  <section title="Bonnes pratiques">
-    <markdown>
-      1. **Clarté géographique** : Où sommes-nous réellement?
-      2. **Symboles informatifs** : Savez-vous cliquer où?
-      3. **Hiérarchie** : Lieux importants ressortons
-      4. **Style cohérent** : La carte reflète l'univers
-      5. **Échelle compréhensible** : Comprendre les distances
-    </markdown>
-  </section>
-
-  <section title="Risques courants">
-    <markdown>
-      ❌ **Design froid** : Ressemble à Google Maps
-      ❌ **Pas de narration** : Juste une carte
-      ❌ **Surcharge de points** : Impossible de naviguer
-      ❌ **Lien mince** : Pourquoi ces lieux?
-      ❌ **Mobile non-optimisé** : Impossible de zoomer
-    </markdown>
-  </section>
-
-  <section title="Solutions">
-    <markdown>
-      ✅ Style artistique distinct
-      ✅ Chaque point conte une histoire
-      ✅ Limiter à 5-10 lieux clés
-      ✅ Géographie thématiquement pertinente
-      ✅ Responsive design mobile
-      ✅ Zoom intuitif et contrôlé
-    </markdown>
-  </section>
-
-  <section title="Considérations réalistes">
-    <markdown>
-      - **Géographie doit être juste** (ou clairement fictive)
-      - **Contexte culturel/historique** de la géographie importe
-      - **Accessibilité** : Daltonisme, zoom, contraste
-      - **Performance** : Maps peut être lourd techniquement
+      **Testez sans les libellés.** Si on ne comprend rien à la carte quand on cache
+      les noms, c'est que la géographie ne raconte pas encore.
     </markdown>
   </section>
 

@@ -6,6 +6,7 @@
   <par>Darucat</par>
   <url>https://www.hereditygame.com/</url>
   <categorie>Jeu</categorie>
+  <concept ref="interface-timeline"/>
 
   <resume>Campagne coopérative en cinq chapitres, une douzaine d'heures, un à quatre joueurs : une famille traverse un monde d'après, et tout le jeu parle de protéger les siens. Aucune application, aucun écran, 304 cartes. Le tempo tient sur une frise du temps où avance un sablier : les actions y accrochent des cartes, qui se déclenchent quand il passe dessus.</resume>
 
@@ -16,8 +17,8 @@
     <markdown>
       **Le sablier est un ordonnanceur.** Ce qu'on décide ne produit pas son effet
       tout de suite : on accroche un événement plus loin sur la frise, et il arrive.
-      C'est une file d'événements différés — la structure qu'un programme cache dans
-      sa boucle — posée à plat sur la table, lisible par tout le monde. La tension
+      C'est une file d'événements différés (la structure qu'un programme cache dans
+      sa boucle) posée à plat sur la table, lisible par tout le monde. La tension
       vient de voir approcher ce qu'on a déclenché soi-même.
 
       **Et la file se construit pendant la partie.** Ce n'est pas une piste imprimée
@@ -26,12 +27,12 @@
       on remplit son propre agenda.
 
       **Une seule pièce fait trois métiers** : horloge, ordre du tour, file
-      d'attente. La carte Famille posée sur la frise est le tic de la boucle —
+      d'attente. La carte Famille posée sur la frise est le tic de la boucle :
       quand le sablier l'atteint, chacun récupère ses trois jetons d'action. Le tour
       de jeu n'est pas une règle à retenir, c'est un objet qu'on voit venir.
 
-      **Les blessures se paient en actions.** Un personnage, c'est trois cartes —
-      tête, torse, jambes — couvertes d'emplacements. Agir, c'est couvrir un
+      **Les blessures se paient en actions.** Un personnage, c'est trois cartes
+      (tête, torse, jambes) couvertes d'emplacements. Agir, c'est couvrir un
       emplacement libre. Prendre un coup, c'est en faire couvrir un autre par un
       jeton de dégât. Pas de points de vie à décompter : la santé et le budget
       d'action sont la même surface, et à mesure qu'elle se remplit, la personne
@@ -40,12 +41,12 @@
 
       **La sauvegarde est en carton.** Entre deux chapitres, l'équipement reste, les
       gens sauvés reviennent, les autres non. C'est une [[structure-a-etat|structure
-      à état]] posée sur une table, sans variable cachée — et la dizaine d'épilogues
+      à état]] posée sur une table, sans variable cachée, et la dizaine d'épilogues
       possibles ne se distingue que par ce qui est vrai à la fin.
 
       **Le récit réagit au quand, pas seulement au quoi.** Le scénario est écrit
       d'avance, mais l'ordre et le moment des actions changent ce qui se percute. La
-      liberté n'est pas dans le choix d'une branche, elle est dans le tempo — une
+      liberté n'est pas dans le choix d'une branche, elle est dans le tempo, une
       voie de sortie utile quand l'[[structure-embranchements|explosion
       combinatoire]] rend les branches trop chères.
 

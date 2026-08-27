@@ -8,6 +8,9 @@
   <par ref="upian"/>
   <url>https://donottrack-doc.com/fr/</url>
   <categorie>Documentaire</categorie>
+  <concept ref="structure-elastique"/>
+  <concept ref="role-soi-meme"/>
+  <concept ref="interface-scrollable"/>
 
   <resume>Série documentaire qui explore la vie privée en ligne en demandant aux spectateurs de fournir leurs propres données, modifiant ainsi le déroulement selon leurs choix. L'interactivité sert directement le propos sur le tracking.</resume>
 

@@ -14,21 +14,21 @@
 
     Sa thèse tient en une phrase. Une donnée ne se trouve pas, elle se fabrique.
     Quelqu'un décide de quoi compter, avec quelles cases, et surtout de quoi
-    laisser dehors — et une fois le tableau rempli, la décision a disparu. Il ne
+    laisser dehors. Une fois le tableau rempli, la décision a disparu. Il ne
     reste que des chiffres, qui ont l'air d'avoir toujours été là. Le reste de son
     travail consiste à les rendre à nouveau discutables.
   </markdown>
 
   <section title="Deux pièces à connaître">
     <markdown>
-      *A Sort of Joy* (2015) — la base de collection du MoMA, 123 951 objets,
+      *A Sort of Joy* (2015) : la base de collection du MoMA, 123 951 objets,
       donnée à lire à voix haute par les acteurs d'Elevator Repair Service. Arrive
       la liste des prénoms d'artistes les plus fréquents : John, Robert, David,
       Paul, Richard, William, Peter, Charles… trente prénoms, pas un féminin, et
       deux cents John. Personne au MoMA n'a écrit la règle. Elle était dans la
       base ; il fallait la lire à voix haute pour l'entendre.
 
-      *Le mémorial du 11-Septembre* (2009) — près de trois mille noms à graver, et
+      *Le mémorial du 11-Septembre* (2009) : près de trois mille noms à graver, et
       un ordre à trouver. Alphabétique, l'affaire était réglée en une ligne de
       code. Avec Jake Barton, il construit l'inverse : les familles et les
       collègues disent quel nom doit en toucher un autre, et l'algorithme se
@@ -40,8 +40,8 @@
   <section title="Pourquoi il est utile ici">
     <markdown>
       Parce qu'il donne le vocabulaire pour critiquer un jeu de données sans être
-      informaticien — la seule chose que le cours vous demande vraiment de savoir
-      faire avec l'IA que vous allez toutes et tous utiliser.
+      informaticien. C'est la seule chose que le cours vous demande vraiment de
+      savoir faire avec l'IA que vous allez toutes et tous utiliser.
 
       Et parce que ses deux pièces tiennent les deux bouts. La première montre ce
       qu'un classement fait dire à un corpus sans que personne l'ait voulu ; la

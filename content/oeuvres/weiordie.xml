@@ -7,6 +7,8 @@
   <par>France Télévisions — Nouvelles Écritures</par>
   <url>https://weiordie.simonbouisson.com/</url>
   <categorie>Fiction</categorie>
+  <concept ref="role-fantome"/>
+  <concept ref="choix-exploratoire"/>
 
   <resume>Un week-end d'intégration en école de commerce tourne mal. Tout est filmé par les téléphones et les caméras des étudiants eux-mêmes, et les quatre-vingt-dix minutes de rushes sont resynchronisées sur une seule frise du temps : le spectateur choisit à chaque instant quelle caméra il regarde, et bascule de l'une à l'autre sans interrompre la nuit. Quarante-cinq minutes au minimum, et il est impossible de tout voir.</resume>
 
@@ -19,7 +21,7 @@
       passe au spectateur.
 
       **Manquer quelque chose fait partie du dispositif.** On ne verra pas tout,
-      jamais. Ce qu'on a raté a bel et bien eu lieu — c'est la mécanique du
+      jamais. Ce qu'on a raté a bel et bien eu lieu : c'est la mécanique du
       [[choix-exploratoire|choix exploratoire]], et elle produit exactement le
       malaise du sujet : personne n'a la version complète de cette nuit-là.
 
@@ -38,7 +40,7 @@
     <markdown>
       Le récit ne bifurque pas. Les événements sont écrits, tournés, fixés : on
       choisit son point de vue, pas la suite. Le sous-titre honnête serait
-      « montage interactif », pas « fiction à embranchements » — et ça vaut la
+      « montage interactif », pas « fiction à embranchements », et ça vaut la
       peine de le trancher en cours, parce que la confusion entre les deux est
       permanente.
 

@@ -4,6 +4,9 @@
   <par>CtrlMovie</par>
   <url>https://lateshift-movie.com/</url>
   <categorie>Fiction</categorie>
+  <concept ref="structure-embranchements"/>
+  <concept ref="forme-machine"/>
+  <concept ref="interface-point-click"/>
 
   <resume>Thriller interactif filmé avec acteurs réels. 180 points de décision mènent à 7 fins différentes. Diffusé en salles avec système de vote collectif, puis adapté pour streaming individuel.</resume>
 

@@ -4,8 +4,9 @@
   <par>Cadin Batrack</par>
   <url>https://cadinb.itch.io/the-botanist</url>
   <categorie>Fiction</categorie>
+  <concept ref="interface-gestural"/>
 
-  <resume>Une bande dessinée de science-fiction pour la Playdate, la petite console jaune à manivelle. On tourne la manivelle pour faire défiler les cases ; les couches de dessin se décalent en parallaxe, et certaines scènes n'avancent que si l'on continue de tourner. Dessin en noir et blanc pur, quinze à vingt minutes, construite avec Panels — le cadriciel libre que l'auteur a écrit pour ça.</resume>
+  <resume>Une bande dessinée de science-fiction pour la Playdate, la petite console jaune à manivelle. On tourne la manivelle pour faire défiler les cases ; les couches de dessin se décalent en parallaxe, et certaines scènes n'avancent que si l'on continue de tourner. Dessin en noir et blanc pur, quinze à vingt minutes, construite avec Panels, le cadriciel libre que l'auteur a écrit pour ça.</resume>
 
   <visuel src="the-botanist.jpg"
           source="https://cadinb.itch.io/the-botanist"/>
@@ -14,8 +15,8 @@
     <markdown>
       **La manivelle donne le rythme au lecteur, physiquement.** Tourner plus vite,
       ralentir, revenir en arrière : le tempo de lecture passe dans la main. C'est
-      la propriété fondamentale de la bande dessinée — le lecteur décide de sa
-      vitesse — rendue à un geste, au lieu d'être confisquée par une animation
+      la propriété fondamentale de la bande dessinée (le lecteur décide de sa
+      vitesse) rendue à un geste, au lieu d'être confisquée par une animation
       automatique. Comparez avec le choix de [[protanopia|Protanopia]] de supprimer la musique
       pour la même raison.
 
@@ -25,7 +26,7 @@
       motivé décrit dans [[interface-gestural]].
 
       **La contrainte fabrique la forme.** Un écran de 400 × 240 pixels, deux
-      couleurs, pas de rétroéclairage. Le dessin devient net, contrasté, lisible —
+      couleurs, pas de rétroéclairage. Le dessin devient net, contrasté, lisible :
       il n'y a pas d'autre option. À montrer à quiconque pense qu'il lui manque du
       matériel pour commencer.
 
@@ -40,7 +41,7 @@
   <section title="Ce qui coince">
     <markdown>
       Il faut une Playdate. Une console à deux cents euros, produite en séries
-      limitées, pour lire une BD de vingt minutes — l'objet fait partie de
+      limitées, pour lire une BD de vingt minutes. L'objet fait partie de
       l'expérience, et il en est aussi la barrière.
 
       L'histoire est [[structure-lineaire|linéaire]] et courte : la manivelle

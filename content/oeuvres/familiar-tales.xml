@@ -4,6 +4,7 @@
   <par>Plaid Hat Games</par>
   <url>https://www.familiartalesgame.com/</url>
   <categorie>Jeu</categorie>
+  <concept ref="interface-plateau"/>
 
   <resume>Application web qui orchestre une aventure de jeu de rôle autour d'une table. Gère la narration, les combats, la progression et les sauvegardes pendant que les joueurs manipulent figurines et cartes.</resume>
 
@@ -15,7 +16,7 @@
       C'est un cas où l'application abaisse vraiment une barrière. Pas de livret de
       règles à lire avant de commencer, personne à recruter pour tenir le rôle du
       maître de jeu, et une campagne longue qui reste jouable avec des enfants. Elle
-      tient les états, la progression et les sauvegardes — c'est-à-dire tout ce qui
+      tient les états, la progression et les sauvegardes, c'est-à-dire tout ce qui
       décourage une famille de rouvrir la boîte un deuxième soir.
     </markdown>
   </section>
@@ -28,7 +29,7 @@
       décrochent, en rajouter quand ça prend : c'était le travail de la personne qui
       racontait, et c'est précisément ce qui fait la soirée. L'application déroule le
       même texte au même rythme, table endormie ou pas. Elle a pris la comptabilité
-      *et* le conteur — le premier échange est bon, le second beaucoup moins.
+      *et* le conteur : le premier échange est bon, le second beaucoup moins.
 
       À comparer avec [[tracks]], où la technologie en fait beaucoup moins et donne
       davantage. Voir [[interface-plateau]].

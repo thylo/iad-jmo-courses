@@ -9,7 +9,7 @@
   <url>https://ordesa.arte.tv/</url>
   <categorie>Fiction</categorie>
 
-  <resume>Un huis clos fantastique : Lise revient dans la maison familiale après deux ans d'absence, les retrouvailles avec son père tournent mal, une présence s'installe. Le spectateur n'a ni bouton ni menu — c'est là où il regarde qui fait avancer le film, et il devient peu à peu un personnage de l'histoire. Écrit par Nicolas Peufaillit (scénariste d'« Un Prophète ») et Nicolas Pelloille-Oudart, qui réalise avec Frédéric Jamain. Application iOS, Android et Apple TV, sortie le 15 octobre 2020 ; le site n'est qu'une vitrine.</resume>
+  <resume>Un huis clos fantastique : Lise revient dans la maison familiale après deux ans d'absence, les retrouvailles avec son père tournent mal, une présence s'installe. Le spectateur n'a ni bouton ni menu : c'est là où il regarde qui fait avancer le film, et il devient peu à peu un personnage de l'histoire. Écrit par Nicolas Peufaillit (scénariste d'« Un Prophète ») et Nicolas Pelloille-Oudart, qui réalise avec Frédéric Jamain. Application iOS, Android et Apple TV, sortie le 15 octobre 2020 ; le site n'est qu'une vitrine.</resume>
 
   <visuel src="ordesa.jpg"
           source="https://ordesa.arte.tv/"/>
@@ -33,7 +33,7 @@
   <section title="Ce qui coince">
     <markdown>
       C'est une application de boutique, pas une page web. Rien à ouvrir en cours
-      d'un clic, rien à archiver — le jour où Apple retire l'app, il n'en reste
+      d'un clic, rien à archiver. Le jour où Apple retire l'app, il n'en reste
       rien. Voir [[babel]].
     </markdown>
   </section>

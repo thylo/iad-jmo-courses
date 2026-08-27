@@ -1,18 +1,84 @@
 <oeuvre id="welcome-to-pine-point" statut="en-ligne">
   <titre>Welcome to Pine Point</titre>
   <annee>2011</annee>
-  <par>ONF/The Goggles</par>
+  <par>The Goggles</par>
+  <par>Michael Simons</par>
+  <par>Paul Shoebridge</par>
+  <par ref="onf"/>
   <url>https://pinepoint.nfb.ca/</url>
   <categorie>Documentaire</categorie>
+  <concept ref="structure-lineaire"/>
+  <concept ref="interface-timeline"/>
 
-  <resume>Mêle photos, son, animations et scrolling narratif pour raconter l'histoire d'une ville disparue. Pionnier du scrollytelling documentaire.</resume>
+  <resume>Pine Point, Territoires du Nord-Ouest : une ville de mine construite à partir de
+    1962, 1 915 habitants au sommet en 1976, fermée en 1988. Les maisons ont été vendues
+    pour rien et emportées par camion vers Fort Resolution, Hay River et le nord de
+    l'Alberta ; le reste a été démoli. Il ne reste que le tracé des rues. Deux anciens
+    directeurs artistiques d'Adbusters en ont fait un album de famille en ligne. Deux
+    Webby en 2011.</resume>
 
   <visuel src="welcome-to-pine-point.jpg"
           source="https://pinepoint.nfb.ca/"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Le projet vient d'un site amateur">
     <markdown>
-      Démontre comment le scroll peut devenir un outil narratif pour avancer dans le temps et l'espace.
+      Michael Simons et Paul Shoebridge préparaient un livre sur la disparition de
+      l'album photo. En cherchant, ils tombent sur *Pine Point Revisited*, un site
+      construit par Richard Cloutier, ancien habitant, atteint de sclérose en plaques,
+      qui rassemblait patiemment les photos et les histoires de la ville effacée.
+
+      Le documentaire existe parce que quelqu'un avait déjà fait l'archive. C'est la
+      remarque à garder : les données ne se trouvent pas, quelqu'un décide un jour de
+      les relever. Voir [[ranger|ranger n'est pas neutre]]. Ici, ce quelqu'un n'était
+      ni journaliste ni chercheur, et son site n'avait aucune ambition.
+    </markdown>
+  </section>
+
+  <section title="Une ville qu'on a emportée">
+    <markdown>
+      Ce n'est pas une ville fantôme. Une ville fantôme, il en reste quelque chose à
+      filmer. Pine Point a été démontée et distribuée : les bâtiments sont partis sur
+      des camions, la patinoire comprise.
+
+      D'où la forme. Il n'y avait rien à tourner, donc l'œuvre est faite de photos
+      d'amateurs, de pages d'annuaire scolaire, de films de famille et de voix. Le sujet
+      n'est pas la ville, c'est ce qu'il en reste dans la tête de quatre personnes, et
+      la façon dont on se souvient, qui arrange toujours un peu.
+    </markdown>
+  </section>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Mi-livre, mi-film.** On avance d'une page à l'autre, à son rythme, et le récit
+      ne bifurque pas. C'est un cas franc de [[structure-lineaire|structure linéaire]] :
+      l'interaction ne règle que le tempo, et personne ne prétend le contraire. Le
+      dispositif ne promet aucune ramification, donc il n'en doit aucune.
+
+      **La bande-son est écrite pour ça.** The Besnard Lakes ont composé et joué la
+      musique. Ce n'est pas de l'habillage ajouté à la fin : elle tient le rythme que la
+      pagination ne peut pas tenir.
+
+      **La nostalgie est le sujet, pas le ton.** Le piège du genre était de célébrer un
+      passé perdu. La pièce fait l'inverse : elle regarde comment la mémoire se
+      fabrique, et laisse voir les endroits où les souvenirs des quatre ne concordent
+      pas.
+    </markdown>
+  </section>
+
+  <section title="Il a fallu le sauver">
+    <markdown>
+      L'original était en Flash. À ce titre, il aurait dû mourir avec lui, comme la
+      moitié des webdocs de cette génération. Le site est d'ailleurs référencé dans les
+      musées du Flash.
+
+      Il est encore là parce que l'ONF l'a reconstruit : la page servie aujourd'hui est
+      une application JavaScript qui diffuse la vidéo en HLS. Rien à voir avec le code
+      de 2011.
+
+      C'est le contre-exemple utile à opposer à toutes les fiches de ce site qui
+      commencent par « le site a fermé ». Une œuvre en ligne ne survit pas toute seule ;
+      elle survit quand une institution accepte de payer deux fois. Presque personne ne
+      le fait.
     </markdown>
   </section>
 

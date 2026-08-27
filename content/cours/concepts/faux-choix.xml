@@ -4,289 +4,123 @@
   <exemple ref="etes-vous-pret-a-sauver-une-vie"/>
   <voir ref="choix-rationnel"/>
   <voir ref="choix-exploratoire"/>
+  <voir ref="structure-embranchements"/>
 
-  <resume>Illusion de choix sans vraies conséquences narratives. Un piège à connaître.</resume>
+  <resume>Les deux portes mènent au même couloir. Ce n'est pas la convergence qui blesse, c'est la promesse : un faux choix est un choix annoncé comme vrai qui ne l'est pas.</resume>
 
   <section title="Définition">
     <markdown>
-      Un faux choix est une décision qui semble rationnelle (avec conséquences annoncées) mais s'avère exploratoire (aucune vraie conséquence). C'est une rupture du contrat entre l'auteur et le public. Le public sent qu'on l'a trompé.
+      Une décision qui se présente comme [[choix-rationnel|rationnelle]] — on vous
+      donne de quoi peser, on vous annonce des conséquences — et qui se révèle sans
+      portée. Le récit continue identique, éventuellement repeint.
 
-      **Caractéristiques :**
-
-      - Semble rationnel à première vue
-      - Les conséquences annoncées n'arrivent pas
-      - En réalité exploratoire déguisé
-      - Sensation de manipulation
+      Le mot important est **annoncée**. Un [[choix-exploratoire|choix exploratoire]]
+      ne change rien lui non plus et ne blesse personne : il n'a jamais rien promis.
+      Ce qui sépare les deux n'est pas dans le code, c'est dans ce que l'œuvre a
+      laissé croire avant qu'on tranche.
     </markdown>
   </section>
 
-  <section title="Qu'est-ce qu'un faux choix ?">
-    <markdown>
-      **Exemple typique :**
-
-      ```
-      Le jeu : "Voulez-vous sauver Marie ou Jean ?"
-      Vous : [Choisissez Jean]
-      Le jeu : "Vous avez sauvé Jean !"
-      [5 minutes plus tard]
-      Le jeu : "Marie est sauvée aussi par quelqu'un d'autre"
-      ```
-
-      **Le contrat rompu :**
-
-      - L'interface disait : "Votre choix aura des conséquences"
-      - La réalité : "Votre choix n'a changé rien"
-    </markdown>
-  </section>
-
-  <section title="Pourquoi c'est un problème">
-    <markdown>
-      ### 1. Rupture du contrat
-
-      Le public accepte l'interactive narrative basée sur un contrat implicite : "Mes choix importent."
-
-      Les faux choix rompent ce contrat.
-
-      ### 2. Sentiment de manipulation
-
-      "L'auteur m'a trompé. Je ne lui fais plus confiance."
-
-      Après un faux choix, le public doute de tous les choix suivants.
-
-      ### 3. Perte d'immersion
-
-      "Si ce choix ne change rien, pourquoi devrais-je continuer ?"
-
-      L'agentivité disparaît, l'engagement s'effondre.
-
-      ### 4. Frustration viscérale
-
-      C'est différent de l'exploratoire honnête.
-
-      - Exploratoire honnête : "C'est un détail"
-      - Faux choix : "C'était censé compter"
-    </markdown>
-  </section>
-
-  <section title="Types de faux choix">
-    <markdown>
-      ### Le cosmétique
-
-      Seule la phrasing change, pas les événements.
-
-      **Exemple :**
-
-      - "Allez par la porte ou la fenêtre"
-      - Les deux mènent au même endroit
-      - Seul le dialogue change
-
-      **Problème :** Sentiment que c'était du temps gaspillé
-
-      ### Le convergence tardive
-
-      Les choix divergent puis convergent brusquement.
-
-      **Exemple :**
-
-      - Choisir A vs B
-      - 10 minutes de contenu différent
-      - Puis : "Mais les deux personnages se retrouvent de toute manière"
-
-      **Problème :** L'investissement émotionnel est soudainement annulé
-
-      ### Le faux dilemme
-
-      Les deux options menacent au même endroit.
-
-      **Exemple :**
-
-      - "Sauvez la ville ou la forêt"
-      - Vous choisissez la forêt
-      - Vous découvrez que la ville était inévitable
-
-      **Problème :** Vous avez fait un choix moral sans vraie base
-
-      ### Le choix révélé comme illusion
-
-      L'univers narr admet que le choix n'existait pas.
-
-      **Exemple :**
-
-      - "Vous aviez le choix"
-      - [Révélation] "Mais vous n'aviez vraiment pas le choix"
-      - Peut être intentionnel (meta) mais frustrant
-
-      **Problème :** Dépend si c'est ironique ou vraiment faux
-    </markdown>
-  </section>
-
-  <section title="Faux choix intentionnels">
-    <markdown>
-      Parfois, un faux choix est **voulu**.
-
-      ### Rupture du 4e mur
-
-      **Exemple : The Stanley Parable**
-
-      - "Vous avez le choix"
-      - Toutes les options mènent au même endroit
-      - C'est une critique de l'illusion du choix
-
-      **Quand c'est efficace :** Public comprend que c'est méta-critique
-
-      **Quand ça échoue :** Public pense juste que c'est mauvais design
-
-      ### Simulation d'agentivité
-
-      **Exemple : Narrative game where you "choose" but can't really**
-
-      Intentionnel si le message est clair : "Vous n'aviez jamais le choix"
-
-      Non-intentionnel si c'est juste mal fait.
-    </markdown>
-  </section>
-
-  <section title="Comment identifier un faux choix">
-    <markdown>
-      ### Test de conséquence
-
-      - Rejouez avec un choix différent
-      - Voyez-vous vraiment du contenu différent?
-      - Ou est-ce exactement le même?
-
-      ### Test d'impact
-
-      - Après le choix, y a-t-il un changement visible?
-      - Pas de changement = probablement faux
-
-      ### Test de durabilité
-
-      - L'effet du choix dure-t-il?
-      - Ou est-il immédiatement annulé?
-
-      ### Test de rejoueabilité
-
-      - Avez-vous envie de rejouer pour voir l'autre choix?
-      - Si non, c'était probablement faux
-    </markdown>
-  </section>
-
-  <section title="Comment ÉVITER les faux choix">
-    <markdown>
-      ### 1. Soyez clair sur la nature du choix
-
-      **Si exploratoire :**
-
-      - "Découvrez l'une ou l'autre histoire"
-      - C'est honnête
-
-      **Si rationnel :**
-
-      - "Ce choix affectera la fin"
-      - Et VRAIMENT affecter la fin
-
-      ### 2. Convergence honnête
-
-      Si les chemins convergent, le signaler:
-
-      - "Tous les chemins menent à Rome"
-      - C'est acceptable si c'est honnête
-
-      ### 3. Hiérarchiser les choix
-
-      - Certains choix sont mineurs
-      - D'autres sont majeurs
-      - Classer clairement
-
-      ### 4. Tester chaque chemin
-
-      - Rejouez avec chaque choix
-      - Voyez-vous vraiment des différences?
-      - Pas de raccourcis: TESTER
-    </markdown>
-  </section>
-
-  <section title="Exemple de bon design avec convergence">
+  <section title="Schéma">
     <markdown>
       ```
-                          Objectif final
-                          /    /    \    \
-                        /    /        \    \
-                  Chemin A  Chemin B  Chemin C  Chemin D
-                  |         |        |        |
-              Choix 1a    Choix 1b   Choix 1c  Choix 1d
+      Faux choix                      Choix honnête qui converge
+
+        « Sauver Marie ou Jean ? »      « Par qui commencer ? »
+             ┌─────┴─────┐                   ┌─────┴─────┐
+             A           B                   A           B
+             └─────┬─────┘                   └─────┬─────┘
+            même scène suivante             même scène suivante
+                                            vue d'un autre bord
+
+        Promis : « ça compte »          Promis : « vous choisissez d'où
+        Livré  : rien                             vous regardez »
+                                        Livré  : ça
       ```
 
-      - Chaque choix mène à un chemin différent
-      - Tous les chemins convergent à un point commun
-      - MAIS : le voyage était différent
-      - MAIS : la transition est narrativement justifiée
-
-      **Exemple réel : Life is Strange**
-
-      - Choix majeurs affectent le voyage
-      - Tous convergent vers un climax commun
-      - Mais comment on y arrive change vraiment
+      Le dessin est le même des deux côtés. C'est la ligne du bas qui décide.
     </markdown>
   </section>
 
-  <section title="Quand les faux choix peuvent marcher">
+  <section title="Ce qui blesse n'est pas la convergence">
     <markdown>
-      ### Si c'est métanarratif
+      Presque toute œuvre qui branche finit par recoller ses branches : un
+      [[structure-embranchements|arbre]] double sa production à chaque nœud, et
+      personne n'a le budget d'un arbre complet. Recoller est le métier, pas la faute.
 
-      - Le jeu reconnaît que c'étaient des faux choix
-      - C'est une critique intentionnelle
-      - **BUT:** Le public doit **comprendre** que c'est intentionnel
+      [[weiordie|Wei or Die]] fixe le récit et vous laisse choisir la caméra. Rien de
+      ce que vous faites ne modifie ce qui arrive à Wei, et rien dans l'œuvre ne
+      prétend le contraire. Personne ne se sent trompé.
 
-      ### Si c'est exploratoire honnête
+      [[gaza-sderot|Gaza / Sderot]] fait plus fort avec moins : choisir par qui
+      commencer ne change pas un fait des quarante jours filmés, ça change de quel
+      côté vous étiez installé pour les recevoir. La promesse tient parce qu'elle
+      était juste.
 
-      - "Voici plusieurs perspectives"
-      - Elles coexistent sans hiérarchie
-      - C'est clairement exploratoire
+      À l'inverse, quand la communication repose sur le nombre — cent quatre-vingts
+      points de décision chez [[late-shift|Late Shift]], le compte des fins chez
+      [[bandersnatch|Bandersnatch]] — l'œuvre signe un contrat que le second passage
+      vient vérifier. **Un choix ne doit jamais promettre plus que ce que l'œuvre a
+      les moyens de tenir.**
     </markdown>
   </section>
 
-  <section title="Distinguer faux choix vs choix exploratoire">
+  <section title="Le cas d'école">
     <markdown>
-      | Aspect | Choix exploratoire | Faux choix |
-      |--------|-------------------|-----------|
-      | **Contrat** | "Découvrez du bonus" | "Ce choix compte" |
-      | **Conséquence** | Aucune prévue | Prétend en avoir |
-      | **Intégrité** | Honnête | Trompeuse |
-      | **Sentiment** | Enrichissement | Frustration |
+      [[etes-vous-pret-a-sauver-une-vie]] met le spectateur devant une victime et des
+      décisions à prendre. À chaque mauvaise réponse, l'œuvre reprend la main et
+      rejoue la scène jusqu'à ce que vous trouviez. On ne vous laisse jamais échouer,
+      donc rien ne vous coûte rien.
+
+      Il n'y avait pourtant rien à produire de plus pour que ça tienne. En secourisme,
+      la seule fin acceptable est celle où la victime survit : l'œuvre avait une
+      excellente raison de n'avoir qu'une issue, il suffisait de le dire. Beaucoup de
+      faux choix sont des œuvres correctes qui se sont mal annoncées.
     </markdown>
   </section>
 
-  <section title="Leçons à retenir">
+  <section title="Quand ce n'en est pas un">
     <markdown>
-      ✅ **FAIRE** : Choix rationnel honnête avec vraies conséquences
-      ✅ **FAIRE** : Choix exploratoire honnête sans prétendre à plus
-      ✅ **FAIRE** : Méta-critique intentionnelle sur les faux choix
-      ❌ **NE PAS FAIRE** : Faux choix accidentels qui trompent
+      **Le choix qui change le regard.** Il déplace votre position sans toucher à
+      l'intrigue, et ne l'a jamais prétendu. C'est [[jeu-d-influences|Jeu
+      d'influences]] : l'affaire suit son cours, ce qui se transforme est jusqu'où
+      vous étiez prêt à aller. Voir [le poids du choix](/panorama/poids-du-choix).
+
+      **Le récit qui ne branche pas.** [[phallaina]] se lit en poussant l'image
+      pendant une heure : la main travaille, la séquence ne bouge pas d'un pouce. Un
+      [[structure-lineaire|récit linéaire]] réussi n'a pas de compte à rendre.
+
+      **Le choix mineur assumé.** Toutes les décisions ne doivent pas peser. Le
+      problème n'apparaît que si on les vend au prix des grandes.
     </markdown>
   </section>
 
-  <section title="Analyse critique">
+  <section title="Le repérer">
     <markdown>
-      Pour chaque expérience interactive vous analysez :
+      Les deux tests de la [page des types de choix](/panorama/choix) : refaites le
+      parcours à l'envers, puis enlevez l'interaction et voyez si le récit tient
+      debout.
 
-      - Y a-t-il des faux choix?
-      - Sont-ils intentionnels?
-      - Comment le public réagit-il?
-      - L'intégrité narrative est-elle sauvée?
+      Un troisième, pour une œuvre qu'on n'a pas le temps de rejouer : lisez sa page
+      de présentation avant d'y entrer, notez ce qu'elle promet. C'est contre ce
+      texte-là que le faux choix se mesure, pas contre un idéal d'interactivité.
     </markdown>
   </section>
 
-  <section title="Pour votre propre création">
+  <section title="Pour votre projet">
     <markdown>
-      **Questions fondamentales :**
+      La cause est presque toujours de production : un arbre trop ambitieux, un
+      calendrier qui n'a pas suivi, des branches recollées à la fin.
 
-      1. Ce choix a-t-il vraies conséquences?
-      2. Ai-je les ressources pour les produire?
-      3. Si non, ai-je le courage de le dire explicitement?
-      4. Si c'est une critique meta, est-ce clair?
+      **Écrivez la conséquence avant la question.** Si vous ne savez pas dire en une
+      phrase ce que l'autre porte produit, la question n'est pas écrite.
 
-      **Règle d'or :** Respectez le contrat avec votre public.
+      **Prenez de la mémoire plutôt que des branches.** Trois variables dans une
+      [[structure-a-etat|structure à état]] produisent plus de sensation de
+      conséquence que dix branches jamais terminées.
+
+      Et le conseil qui revient partout ici : **peu de choix, mais qui comptent.**
+      Cinq fins tenues valent mieux que trente annoncées.
     </markdown>
   </section>
 

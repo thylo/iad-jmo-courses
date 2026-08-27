@@ -1,14 +1,48 @@
 <oeuvre id="uchroniques" statut="hors-ligne">
   <titre>Uchroniques</titre>
-  <annee>2014</annee>
-  <par>France Télévisions</par>
+  <annee>2015</annee>
+  <par>Thierry Tripod</par>
+  <par>Patrick Mallet</par>
+  <par>Brainworks</par>
+  <par>France Télévisions Nouvelles Écritures</par>
+  <categorie>Documentaire</categorie>
   <categorie>Fiction</categorie>
+  <concept ref="structure-embranchements"/>
+  <concept ref="role-personnage"/>
 
-  <resume>Série de fictions historiques interactives où vos choix modifient le cours de l'histoire. Explore les "et si..." historiques. Multiples fins selon les décisions prises.</resume>
+  <resume>Dix moments de l'Histoire qu'on rejoue de l'intérieur. On est Lee Harvey Oswald, un technicien de Tchernobyl, Rudolf Hess, un contrôleur aérien le 11 septembre 2001 — et à chaque fois la même question : laisser les choses arriver, ou les empêcher. Le montage travaille des images d'archives, laissées intactes ou réinterprétées. Deux épisodes par semaine à partir du 12 mai 2015, soutenu par le CNC et Pictanovo.</resume>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      Utilise l'interactivité pour explorer les bifurcations historiques. Pédagogique tout en restant narratif.
+      **Le choix par défaut est de ne rien faire.** Contrairement à presque toute
+      fiction à embranchements, l'option « laisser l'Histoire se dérouler » est
+      disponible et documentée : elle mène à ce qui s'est réellement passé. Le public
+      sait donc à l'avance ce que produit l'une des deux portes. C'est une contrainte
+      d'écriture très inhabituelle, et elle inverse le problème du
+      [[faux-choix|faux choix]] : ici, l'issue connue n'est pas une déception, c'est
+      le point de comparaison.
+
+      **L'archive sert de conséquence.** Quand vous ne changez rien, on vous montre les
+      images réelles. Quand vous changez, il faut fabriquer. La production est donc
+      asymétrique par nature — moitié documentaire, moitié fiction — et c'est un modèle
+      économique de branchement rarement vu.
+
+      **Ça pose une vraie question morale en cours.** Faire endosser Oswald ou Hess à
+      un spectateur n'est pas neutre, et le dispositif ne s'en cache pas. C'est le
+      genre de matière qui déclenche une discussion utile sur ce qu'un
+      [[role-personnage|rôle assigné]] engage.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le site n'est plus en ligne. Un projet financé par le CNC, un fonds régional et
+      un diffuseur public, dix épisodes, et rien de consultable dix ans plus tard.
+
+      Et le principe a un plafond que la série n'a pas franchi : changer un événement
+      historique ne produit qu'une branche courte, faute de moyens pour tenir les
+      conséquences. On mesure vite l'écart entre l'ambition du « et si » et ce qu'un
+      budget de série web permet d'écrire.
     </markdown>
   </section>
 

@@ -1,0 +1,30 @@
+<personne id="rafael-lozano-hemmer" genre="personne">
+  <titre>Rafael Lozano-Hemmer</titre>
+  <lieu>Montréal</lieu>
+  <url>https://www.lozano-hemmer.com/</url>
+
+  <resume>Artiste mexicano-canadien. Il a forgé le terme d'« architecture relationnelle » pour des dispositifs qui transforment un bâtiment ou une place en machine à réagir aux gens qui s'y trouvent.</resume>
+
+  <markdown>
+    Il travaille depuis le début des années 1990 avec des caméras, des capteurs et du
+    logiciel écrit sur mesure. *Surface Tension* (1992) est déjà un œil vidéo géant qui
+    suit le visiteur du regard : la surveillance comme matériau, trente ans avant que
+    le sujet devienne courant.
+
+    Ce qui revient d'une pièce à l'autre : le corps du public est l'entrée du système,
+    et le résultat n'existe que tant que quelqu'un est là. Dans *Pulse Room*, on tient
+    une poignée, un ordinateur relève le pouls, et une ampoule se met à clignoter au
+    rythme exact du cœur ; la pièce entière garde en mémoire les battements de ceux qui
+    sont passés avant.
+
+    À regarder à côté de [[neil-mendoza]] et du [[the-telegarden|Telegarden]] pour voir
+    le champ que le panorama appelle
+    [l'interactivité comme œuvre](/panorama/interactivite-oeuvre).
+  </markdown>
+
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
+  </section>
+
+  <backlinks/>
+</personne>

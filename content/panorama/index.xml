@@ -4,35 +4,43 @@
 
   <image src="jeux-d-enfants.jpg"
          width="full"
-         alt="Une place de village peinte à vue plongeante, entièrement occupée par des enfants — plus de deux cents, jusqu'au fond de la rue. Chacun est pris dans un jeu différent : cerceau, toupie, échasses, saute-mouton, colin-maillard, poupées, pyramide humaine, tonneau qu'on roule, bâtons, osselets. Aucun groupe n'est plus grand ni plus au centre que les autres, et aucun adulte ne surveille."
+         alt="Une place de village peinte à vue plongeante, entièrement occupée par des enfants. Ils sont plus de deux cents, jusqu'au fond de la rue. Chacun est pris dans un jeu différent : cerceau, toupie, échasses, saute-mouton, colin-maillard, poupées, pyramide humaine, tonneau qu'on roule, bâtons, osselets. Aucun groupe n'est plus grand ni plus au centre que les autres, et aucun adulte ne surveille."
          caption="Pieter Bruegel l'Ancien, [[jeux-d-enfants|Les Jeux d'enfants]], 1560. Quatre-vingt-trois jeux dans un seul cadre, aucun au premier plan."
          credit="Kunsthistorisches Museum, Vienne — domaine public, via Wikimedia Commons"
          source="https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Children%E2%80%99s_Games_-_Google_Art_Project.jpg"/>
 
   <markdown>
-    La narration interactive ne se limite pas aux jeux vidéos. Elle passe par des
-    cartes, des rues, des salles, des podcasts, des tableurs, des projections...
-    Cette page est une porte d'entrée : elle tente de présenter l'étendue souvent méconnue de cette forme de narration.
+    La narration interactive ne se limite pas aux jeux vidéo. Elle passe par des
+    cartes, des rues, des salles, des podcasts, des tableurs, des projections.
+    Cette page est une porte d'entrée : elle montre l'étendue, souvent méconnue,
+    de cette forme de narration.
+
+    Les jeux vidéo en sont en grande partie absents, volontairement. Pas par
+    mépris, j'y ai beaucoup joué. Mais comme toute forme dominante, ils occupent
+    tout le champ et masquent des œuvres tout aussi intéressantes, que des
+    professionnels de l'audiovisuel ont intérêt à connaître.
   </markdown>
 
-  <image src="mitchell-scanner.gif"
+  <image src="mitchell-scanner.webp"
          width="field"
-         alt="Un carlin vu à travers l'interface d'un robot : un cadre turquoise l'entoure et une vignette propose une identification, qui change sans jamais se fixer — un golden retriever et « DOG…? », un cochon et « PIG…? », un golden retriever encore, puis une miche et « LOAF OF BREAD ». L'écran vire au rouge sur « SYSTEM ERROR »."
+         alt="Un carlin vu à travers l'interface d'un robot : un cadre turquoise l'entoure et une vignette propose une identification, qui change sans jamais se fixer. Un golden retriever et « DOG…? », un cochon et « PIG…? », un golden retriever encore, puis une miche et « LOAF OF BREAD ». L'écran vire au rouge sur « SYSTEM ERROR »."
          caption="Michael Rianda et Jeff Rowe, « Les Mitchell contre les machines », 2021. Le scanner hésite entre chien, cochon et pain, puis renonce."
          credit="Sony Pictures Animation"
          source="https://giphy.com/gifs/sonyanimation-9KOpAjVoo00qvQosqC"/>
 
-  <markdown>
-    Proposer une classification n'est jamais neutre. Un classement décide de ce qui
-    se ressemble et de ce qui n'a pas de case, et il le fait sans le dire. Sur des
-    œuvres, ça ne coûte rien. Sur des gens, le même geste ne décrit pas : il décide
-    qui entre dans quelle case, et qui n'entre nulle part. Ce n'est pas de l'histoire
-    ancienne — c'est aujourd'hui le métier des modèles statistiques. Une page à part
-    montre [ce que classer fait aux gens qu'on classe](/panorama/ranger).
+  <note>
+    <markdown>
+      Proposer une classification n'est jamais neutre. Un classement décide de ce qui
+      se ressemble et de ce qui n'a pas de case, et il le fait sans le dire. Sur des
+      œuvres, ça ne coûte rien. Sur des gens, le même geste ne décrit pas : il décide
+      qui entre dans quelle case, et qui n'entre nulle part. Ce n'est pas de l'histoire
+      ancienne : c'est aujourd'hui le métier des modèles statistiques. Une page à part
+      montre [ce que classer fait aux gens qu'on classe](/panorama/ranger).
 
-    Les classements qui suivent sont donc des propositions parmi d'autres, établies
-    dans un seul but : montrer l'étendue de ce qui existe. Des tiroirs, pas des faits.
-  </markdown>
+      Les classements qui suivent sont donc des propositions parmi d'autres, établies
+      dans un seul but : montrer l'étendue de ce qui existe. Des tiroirs, pas des faits.
+    </markdown>
+  </note>
 
   <section title="La carte">
     <markdown>
@@ -51,7 +59,7 @@
 
   <section title="Les grilles de lecture">
     <markdown>
-      Quatre questions à poser à une œuvre. Chacune coupe dans un
+      Cinq questions à poser à une œuvre. Chacune coupe dans un
       sens différent, aucune ne dit tout, et la même œuvre change de voisines à
       chaque fois. C'est le cœur de ce que le cours vous demande de savoir faire.
     </markdown>
@@ -59,7 +67,7 @@
     <destinations>
       <destination to="structures">
         Une ligne, des embranchements, une constellation, un système qui se souvient.
-        La forme du récit seule, support ignoré — et ce qu'elle coûte à écrire
+        La forme du récit seule, support ignoré, et ce qu'elle coûte à écrire
       </destination>
       <destination to="interlocuteurs">
         Le système, les autres spectateurs, ou l'œuvre elle-même qu'on fabrique. Une
@@ -72,6 +80,10 @@
       <destination to="choix">
         Rationnel, exploratoire, ou faux. Le seul découpage qui juge au lieu de
         décrire, et celui qui démasque une interactivité de façade
+      </destination>
+      <destination to="raconter-par-l-espace">
+        Un espace évocateur, un trajet, un palais de mémoire, un cadre où le récit
+        se fabrique tout seul. Ce que le lieu raconte quand personne ne parle
       </destination>
     </destinations>
   </section>
@@ -94,7 +106,7 @@
   <section title="Les deux bords du terrain">
     <markdown>
       Où le panorama s'arrête. La première page retire l'écran, la seconde retire le
-      récit — et dans les deux cas il reste quelque chose. Savoir quoi vous évitera
+      récit. Dans les deux cas, il reste quelque chose. Savoir quoi vous évitera
       de croire que le numérique est obligatoire, ou qu'il faut une histoire.
     </markdown>
 

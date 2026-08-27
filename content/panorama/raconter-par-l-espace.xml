@@ -1,0 +1,229 @@
+<page id="raconter-par-l-espace">
+  <titre>Raconter par l'espace</titre>
+  <resume>Quand personne ne raconte, il reste le lieu. Quatre façons de faire tenir un
+    récit dans un espace plutôt que dans une succession. Et pourquoi ça ne veut pas
+    dire qu'il n'y a pas de dramaturgie.
+  </resume>
+
+  <preamble>
+    Les autres grilles demandent quelle forme a le récit, à qui on parle, quelle place
+    on vous donne, ce que valent vos choix. Celle-ci demande autre chose : et si le
+    récit n'était pas raconté du tout, mais **posé quelque part**, à charge pour vous de
+    le trouver ?
+  </preamble>
+
+  <note title="D'où vient cette grille">
+    <markdown>
+      De Henry Jenkins, chercheur en études médiatiques, et de son texte *Game Design as
+      Narrative Architecture* (2004). Je suis passé par
+      [la traduction française](https://www.ageron.net/wp-content/uploads/2021/01/Le-game-design-_-une-architecture-narrative-Par-Henry-Jenkins.pdf),
+      trouvée dans le mémoire de Louise Guillaume (IAD, 2026).
+
+      Jenkins écrit sur le jeu vidéo. Mais lui-même s'appuie sur **Don Carson,
+      concepteur d'attractions chez Disney**, qui avait théorisé tout ça à partir des
+      parcs à thème. La théorie ne vient donc pas de l'écran : elle vient de lieux
+      qu'on traverse à pied. La ramener vers les parcours urbains, les escape games,
+      les scénographies et les webdocs n'est pas une extrapolation : c'est un retour.
+    </markdown>
+  </note>
+
+  <section title="Le débat qu'il fallait dépasser">
+    <markdown>
+      Il y a eu, longtemps, deux camps. Les **ludologues** tenaient que l'interactivité
+      et la narration s'opposent : dans un récit classique l'auteur contrôle le
+      déroulement, dans un dispositif interactif c'est le public qui agit, donc toute
+      contrainte affaiblit l'interaction et tout écart au plan prévu abîme le récit. Les
+      **narratologues** répondaient en analysant ces œuvres comme de vrais récits, quitte
+      à leur imposer des structures empruntées au cinéma ou à la littérature.
+
+      Vous reconnaîtrez le second camp. C'est celui qui regarde un webdoc en cherchant
+      l'acte II, et qui conclut qu'il en manque un.
+
+      Jenkins propose une troisième voie, et c'est la seule qui nous serve : ceux qui
+      conçoivent ces œuvres ne sont pas des conteurs, ce sont des **architectes
+      narratifs**. Ils ne racontent pas seulement des histoires, ils créent des mondes et
+      sculptent des espaces. Ce qui rejoint l'histoire réelle du métier, plus longtemps
+      occupé à dessiner des lieux qu'à écrire des intrigues.
+
+      Et ça branche notre travail sur une tradition beaucoup plus vieille que le cinéma :
+      celle du **récit spatial** : les récits de voyage, les odyssées, les quêtes, où le
+      sens naît du déplacement autant que de l'enchaînement de cause à effet.
+    </markdown>
+  </section>
+
+  <section title="Chaque texture, chaque son, chaque virage">
+    <markdown>
+      La règle de Carson tient en une phrase : l'élément narratif imprègne l'espace que
+      traverse le visiteur, et chaque texture, chaque son, chaque virage doit renforcer
+      le concept, sinon l'immersion se brise.
+
+      Ce n'est pas une métaphore d'ambiance, c'est un budget. Ça veut dire que dans un
+      parcours, il n'y a pas de « décor neutre » : ce qui ne travaille pas pour le propos
+      travaille contre lui. La moquette compte. Le bruit de la ventilation compte.
+
+      Un escape game bien fait applique ça sans avoir lu Carson. Une salle de musée mal
+      faite l'ignore, et c'est pour ça qu'on n'y ressent rien malgré les objets.
+    </markdown>
+  </section>
+
+  <section title="Quatre façons de raconter par l'espace">
+    <markdown>
+      Jenkins en distingue quatre. Elles ne s'excluent pas (une même œuvre en tient
+      souvent deux) et aucune ne demande un moteur 3D.
+
+      ### Les espaces évocateurs
+
+      L'environnement s'appuie sur un récit que le public a déjà en tête. On entre
+      physiquement dans un univers qu'on connaissait par la pensée, via des livres, des
+      films, des tableaux. Jenkins cite *American McGee's Alice*, qui n'a rien à
+      réexpliquer du Pays des Merveilles et peut donc se contenter de l'assombrir.
+
+      [Le Jardin des délices](/oeuvres/tuin-der-lusten) fonctionne pareil, sans une ligne
+      de scénario : le triptyque de Bosch est déjà dans votre tête depuis un manuel
+      scolaire, et il suffit d'ouvrir le zoom. Le
+      [trailer immersif du *Tour d'écrou*](/oeuvres/the-turn-of-the-screw-immersive-trailer)
+      emprunte à Henry James de la même façon.
+
+      **Ce que ça vous économise :** la construction du monde. C'est le levier le moins
+      cher qui existe, et le plus souvent négligé en atelier. Avant d'inventer un
+      univers, demandez-vous lequel votre public transporte déjà.
+
+      ### Le récit joué
+
+      Le récit est structuré directement par les déplacements dans l'espace. Les
+      obstacles et les rencontres retardent ou facilitent la progression, et c'est ça, la
+      dramaturgie. Jenkins insiste sur un point qu'il faut retenir : **ce n'est pas un
+      récit mal construit.** Il obéit à d'autres principes esthétiques, il privilégie
+      l'exploration à la construction classique d'une intrigue. C'est exactement la
+      réponse à faire à qui vous reprochera de ne pas avoir d'acte II.
+
+      [Rider Spoke](/oeuvres/rider-spoke) est le cas pur : vous traversez la ville à
+      vélo, les questions deviennent plus intimes à mesure que vous vous éloignez, et le
+      trajet **est** la montée dramatique. [Ordesa](/oeuvres/ordesa) fait la même chose
+      dans une seule maison, sans bouton ni menu : c'est l'endroit où vous regardez qui
+      fait avancer le film. Et [80 Days](/oeuvres/80-days) est littéralement l'odyssée
+      dont parle Jenkins : le sens vient de l'itinéraire, pas de l'intrigue.
+
+      Jenkins y ajoute la notion de **micro-récit** : de courtes unités capables de
+      produire un fort impact en quelques secondes, comme l'apparition soudaine d'un
+      panorama ou une sensation de vitesse. C'est la brique dont vous avez besoin quand vous n'avez
+      pas de trois actes : une œuvre spatiale se tient debout sur une suite de moments
+      courts et forts, pas sur une courbe.
+
+      ### Les récits embarqués
+
+      L'espace devient un palais de mémoire, dont le contenu doit être décodé pour
+      reconstituer un événement passé. Une porte forcée, des traces d'explosion, un
+      véhicule accidenté : tout ça raconte un drame sans qu'un mot soit prononcé. Jenkins
+      cite *Clive Barker's Undying*, où fouiller la chambre de chaque personnage donne à
+      voir à la fois l'humain qu'il a été et la créature qu'il est devenu.
+
+      C'est la catégorie la plus riche du corpus, et elle n'a pas besoin d'écran.
+      [MicroMacro : Crime City](/oeuvres/micromacro-crime-city) est un poster : toute
+      l'affaire y est imprimée d'un coup, du repérage au meurtre, et c'est le regard qui
+      fabrique la chronologie. [Welcome to Pine Point](/oeuvres/welcome-to-pine-point)
+      reconstitue une ville démontée et emportée par camions à partir des albums photo
+      de ceux qui y vivaient, et
+      [What the 1921 Tulsa Race Massacre Destroyed](/oeuvres/what-the-1921-tulsa-race-massacre-destroyed)
+      rebâtit une rue détruite en 1921 pour qu'on puisse la descendre, en laissant nus
+      les bâtiments dont il ne reste aucune photo. Un escape game comme
+      [Unlock!](/oeuvres/unlock) ne fait rien d'autre : une pièce, des traces, et à vous
+      de recoller. La version la plus extrême est
+      [MyHouse.wad](/oeuvres/my-house-wad), où une maison ordinaire devient le plan d'un
+      deuil.
+
+      **Ce que ça demande :** pas de production supplémentaire, de l'écriture. Un objet
+      posé au bon endroit vaut trois minutes de témoignage.
+
+      ### Les récits émergents
+
+      Ni pré-structurés ni pré-programmés, ils prennent forme dans l'usage. L'exemple de
+      Jenkins est *Les Sims*, et son analyse est ce qu'il faut retenir : le jeu ne propose
+      pas un espace vide et neutre, mais un environnement conçu pour que chaque objet,
+      chaque interaction possible ouvre une perspective narrative. **Ce n'est donc pas
+      l'absence de structure qui permet l'émergence, c'est au contraire une conception
+      très rigoureuse de l'espace**, où chaque élément porte une fonction précise.
+
+      Retenez la phrase et ressortez-la chaque fois qu'un projet d'atelier annonce
+      « les gens feront ce qu'ils veulent ». Ils ne feront rien du tout, sauf si on a
+      travaillé.
+
+      [Do Not Draw a Penis](/oeuvres/do-not-draw-a-penis) tient sur un canvas partagé et
+      une seule interdiction, et le récit est entièrement produit par la foule.
+      [Alice is Missing](/oeuvres/alice-is-missing) donne un cadre serré (des cartes,
+      quatre-vingt-dix minutes, le silence) et l'histoire se fabrique entre les joueurs.
+      [Rider Spoke](/oeuvres/rider-spoke) laisse quinze mille voix accrochées à des
+      coins de rue : personne n'a écrit cette archive, mais le dispositif qui la rend
+      possible, si.
+    </markdown>
+  </section>
+
+  <section title="Le dosage, qui est tout le métier">
+    <markdown>
+      Une seule difficulté, et elle est sérieuse. Indices trop discrets, l'histoire se
+      perd et personne ne la voit. Indices trop appuyés, l'immersion casse et le procédé
+      paraît artificiel.
+
+      C'est cet équilibre entre suggestion et clarté qui sépare un environnement qui
+      raconte vraiment quelque chose d'un environnement qui n'est que du décor. Il n'y a
+      pas de règle : il n'y a que des tests avec des gens qui découvrent, et vous qui
+      vous taisez pendant qu'ils cherchent.
+
+      Le piège d'atelier est toujours le même : vous connaissez votre espace par cœur,
+      donc vos indices vous semblent énormes. Ils sont invisibles.
+    </markdown>
+  </section>
+
+  <section title="Quand l'espace est fabriqué par une machine">
+    <markdown>
+      Jenkins pose une mise en garde qui a pris de l'âge et gagné en actualité. Deux
+      logiques s'opposent en apparence : la narration environnementale place ses indices
+      avec précision, la génération procédurale introduit du hasard. Un environnement
+      généré doit rester cohérent, porteur de sens, sinon il ne raconte plus rien : il
+      paraît simplement aléatoire.
+
+      Ça vaut pour tout ce qui est assemblé automatiquement à partir d'une base : un
+      corpus filtré, une carte peuplée par requête, un parcours recomposé à chaque
+      visite. La machine peut disposer les éléments. Elle ne décide pas de ce qu'ils
+      veulent dire ensemble, et si personne ne l'a décidé, ils ne veulent rien dire.
+
+      C'est le même geste que sur [ranger n'est pas neutre](/panorama/ranger), pris par
+      l'autre bout : là on regardait ce qu'un classement fait aux gens qu'il range, ici
+      ce qu'un arrangement fait au sens qu'il produit. Dans les deux cas, ce qui n'a pas
+      été décidé par quelqu'un ne devient pas neutre pour autant.
+    </markdown>
+  </section>
+
+  <section title="En atelier">
+    <markdown>
+      Deux exercices, et aucun ne demande de code.
+
+      **Le relevé.** Prenez une œuvre spatiale : un escape game, un webdoc, une salle de
+      musée, un jeu de plateau. Listez tout ce qui, dans l'espace, porte de
+      l'information : un objet, une trace, une couleur, un son, un manque. Puis dites
+      pour chacun laquelle des quatre catégories il sert. Ce qui ne rentre nulle part est
+      du décor. Ce n'est pas une faute, mais il faut savoir combien il y en a.
+
+      **Le plan avant le texte.** Sur votre propre projet, avant d'écrire une ligne :
+      dessinez le lieu. Où on entre, ce qu'on voit d'abord, ce qui est caché, ce qu'on
+      trouve seulement en revenant. Beaucoup de projets qui coincent à l'écriture
+      coincent en réalité parce que leur espace n'existe pas.
+
+      Le reste des grilles est [ici](/panorama).
+    </markdown>
+  </section>
+
+  <section title="Les sources">
+    <markdown>
+      - Henry Jenkins, *Game Design as Narrative Architecture* (2004),
+        [en français](https://www.ageron.net/wp-content/uploads/2021/01/Le-game-design-_-une-architecture-narrative-Par-Henry-Jenkins.pdf).
+        Le débat ludologues/narratologues, les architectes narratifs, les quatre formes,
+        la mise en garde sur le procédural
+      - Don Carson, concepteur d'attractions chez Disney, cité par Jenkins : la narration
+        environnementale théorisée depuis les parcs à thème
+      - Louise Guillaume, *L'expérience émotionnelle du joueur dans les jeux vidéo*
+        (IAD, 2026, promoteur Thomas Henrion), chapitre IV : c'est par là que je suis
+        arrivé à Jenkins, et sa synthèse est plus claire que la mienne
+    </markdown>
+  </section>
+</page>

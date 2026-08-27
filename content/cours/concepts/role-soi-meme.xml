@@ -1,275 +1,105 @@
 <concept id="role-soi-meme">
-  <titre>Le Public comme Lui-même</titre>
+  <titre>Vous-même</titre>
   <genre>role</genre>
   <exemple ref="do-not-track"/>
   <exemple ref="generation-what"/>
   <exemple ref="the-johnny-cash-project"/>
-  <voir ref="structure-parallele"/>
-  <voir ref="structure-constellation"/>
+  <exemple ref="lifeline"/>
+  <voir ref="role-personnage"/>
+  <voir ref="forme-collaborative"/>
 
-  <resume>L'utilisateur ne joue aucun personnage. Il participe authentiquement en tant que lui-même, avec ses propres données et motivations.</resume>
+  <resume>L'œuvre vous parle à vous, sans costume, et travaille avec vos vraies données : ce qu'elle finit par vous montrer, c'est vous. Le prix : il faut écrire sans savoir qui lit.</resume>
 
   <section title="Définition">
     <markdown>
-      Le rôle de soi-même invite le public à participer sans masque, sans incarnation. Il apporte ses données réelles, ses motivations authentiques, son identité véritable à l'expérience. C'est une participation non-fictionelle dans un univers qui peut être fictionnel ou réel.
+      Pas d'avatar, pas de nom donné, pas de passé à endosser. L'œuvre s'adresse à la
+      personne qui est devant l'écran et se sert de ce qu'elle sait d'elle : une
+      réponse, une adresse, un historique de navigation, une webcam, l'heure qu'il est
+      chez vous.
 
-      **Caractéristiques :**
-
-      - Vous n'incarnez aucun personnage
-      - Vous participez avec votre identité réelle
-      - Vos données personnelles peuvent être intégrées au récit
-      - Vos motivations sont les vôtres, pas celles d'un personnage
-      - Participation authentique et honnête
-
-      **Interactions typiques :**
-
-      - Questionnaires personnels
-      - Utilisation de vos données (localisation, photos, réseaux sociaux)
-      - Contribution créative (dessins, textes, vidéos)
-      - Participation sociale authentique
+      C'est le seul rôle où le contenu n'est pas entièrement écrit d'avance, puisqu'une
+      partie vient du spectateur. Et c'est le seul où le spectateur ne peut pas se
+      cacher derrière quelqu'un d'autre.
     </markdown>
   </section>
 
-  <section title="La métaphore cinématographique">
+  <section title="Schéma">
     <markdown>
-      Être invité sur le **plateau de tournage** pour participer au documentaire en tant que vous-même.
+      ```
+      Un personnage                    Vous-même
 
-      Vous n'êtes pas un acteur, vous êtes un participant authentique.
+      auteur ──► personnage ──► vous   auteur ──► gabarit ──┐
+                                                            ├──► vous
+              vous héritez d'un        vos données ─────────┘
+              passé et de motivations
+              qui ne sont pas les      l'auteur écrit la forme,
+              vôtres                   vous fournissez le fond
+      ```
     </markdown>
   </section>
 
-  <section title="Pouvoir du public">
+  <section title="Ce que ça produit">
     <markdown>
-      L'interactivité du public comme soi-même repose sur :
+      [[do-not-track]] est le cas de référence. Le documentaire vous demande
+      l'autorisation, regarde ce que votre navigateur laisse filtrer, et vous renvoie
+      votre propre profil publicitaire au milieu d'un épisode sur la publicité ciblée.
+      Le sujet est démontré sur vous plutôt qu'expliqué.
 
-      - **Authenticité** : Vos vraies données et réponses
-      - **Contribution** : Ajouter votre voix/création
-      - **Personnalisation** : L'expérience change selon VOS informations
-      - **Responsabilité** : Vous êtes responsable de vos actions réelles
+      [[generation-what]] pose des questions et vous situe ensuite dans le million de
+      réponses des autres. Le retour n'est pas « voici ce que vous êtes », c'est
+      « voici où vous êtes ». Le collectif fait le travail.
+
+      [[lifeline]] ne vous donne aucun rôle : vous êtes vous, avec votre téléphone, et
+      quelqu'un vous écrit depuis une lune. Le temps réel achève l'effet — quand
+      Taylor dort huit heures, vous attendez huit heures.
+
+      [[the-johnny-cash-project]] va au bout : vous dessinez une image du clip, et ce
+      que vous avez fait de votre main reste dans l'œuvre. Là, être soi-même bascule
+      dans la [[forme-collaborative|forme collaborative]].
     </markdown>
   </section>
 
-  <section title="Ce que le soi-même PEUT faire">
+  <section title="Ce que ça coûte">
     <markdown>
-      - Contribuer authentiquement
-      - Influencer le résultat collectif
-      - Exposer ses données/opinions
-      - Créer du contenu personnel
-      - Participer à quelque chose de réel
+      **Écrire sans savoir qui lit.** Le texte doit tenir pour quelqu'un de vingt ans
+      comme de soixante, seul ou en classe, à Bruxelles ou ailleurs. Toute supposition
+      ratée casse l'adresse d'un coup.
+
+      **Les données ne viennent pas toujours.** Permission refusée, navigateur
+      verrouillé, réponse vide : il faut une version qui fonctionne quand il n'y a
+      rien. C'est le cas par défaut, pas le cas dégradé.
+
+      **La question du consentement se pose vraiment.** Se servir des données de
+      quelqu'un pour lui parler de lui suppose de dire ce qu'on prend, et de tenir
+      quand il refuse. Une œuvre qui prend sans demander fait la chose qu'elle
+      dénonce, ce qui rejoint
+      [ce que classer fait aux gens qu'on classe](/panorama/ranger).
     </markdown>
   </section>
 
-  <section title="Ce que le soi-même ne peut PAS faire">
+  <section title="Erreurs courantes">
     <markdown>
-      - Inventer un passé fictif
-      - Se cacher derrière un personnage
-      - Refuser sa responsabilité authentique
-      - Prétendre être quelqu'un d'autre
+      - Glisser vers [[role-personnage|un personnage]] parce qu'une scène avait besoin
+        d'un passé. Le public ne sait plus à qui on s'adresse, et ça coûte l'adhésion
+      - Confondre personnalisation et adresse. Afficher un prénom dans un gabarit n'est
+        pas parler à quelqu'un
+      - Prendre une donnée sans en faire quelque chose : si le résultat aurait été le
+        même sans elle, elle n'avait pas à être demandée
+      - Oublier que le public peut mentir, et il ment
     </markdown>
   </section>
 
-  <section title="Intention créative">
+  <section title="Pour votre projet">
     <markdown>
-      **Je veux que le public :**
+      C'est le rôle le plus accessible en atelier, parce qu'il ne demande ni
+      production de personnage ni comédien.
 
-      - **Participe** authentiquement
-      - **Contribue** sa perspective réelle
-      - **Engage** sa responsabilité personnelle
+      **Une seule donnée suffit.** L'heure locale, une réponse, une couleur choisie.
+      Prenez-en une, faites-en beaucoup, plutôt que d'en collecter dix pour les
+      afficher en tableau.
 
-      C'est idéal si vous créez des expériences **documentaires**, **participatoires** ou **d'enquête collective**.
-    </markdown>
-  </section>
-
-  <section title="Adapté pour">
-    <markdown>
-      - Documentaires participatifs
-      - Enquêtes collectives
-      - Projets d'archive/participation sociale
-      - Expériences de data-storytelling
-      - Mouvements de sensibilisation
-      - Conversations publiques authentiques
-    </markdown>
-  </section>
-
-  <section title="Avantages">
-    <markdown>
-      - Engagement authentique profond
-      - Données réelles et signifiantes
-      - Responsabilité du public
-      - Communauté authentique
-      - Impact réel possible
-    </markdown>
-  </section>
-
-  <section title="Inconvénients">
-    <markdown>
-      - Données sensibles à gérer éthiquement
-      - Respect de la vie privée compliqué
-      - Responsabilité légale et morale augmentée
-      - Public moins nombreux (nécessite confiance)
-      - Difficulté à créer expérience ludique
-    </markdown>
-  </section>
-
-  <section title="Design d'interface">
-    <markdown>
-      L'interface d'une personne authentique est typiquement :
-
-      - **Formulaires** : Questionnaires, entrée de données
-      - **Authentification** : Souvent nécessaire (login réel)
-      - **Affichage personnel** : Vos data personnalisées
-      - **Contribution** : Upload, écriture, création
-      - **Consentement** : Clairement visible (RGPD, etc.)
-      - **Contexte** : Pourquoi vos données sont utilisées
-    </markdown>
-  </section>
-
-  <section title="Exemples détaillés">
-    <markdown>
-      ### Do Not Track (2015)
-
-      - Vous fournissez vos vraies données pour comprendre le tracking
-      - L'expérience change selon VOS informations personnelles
-      - Révèle comment les sites vous suivent
-      - Participation authentique = apprentissage réel
-
-      ### Génération What ? (2016)
-
-      - Questionnaire où vous répondez en tant que vous-même
-      - Comparaison avec les autres participants réels
-      - Base de données de millions de réponses authentiques
-      - Visualisation collective de vos générations
-
-      ### Léon Vivien (2014)
-
-      - Dialogue sur Facebook avec votre vraie identité
-      - Interaction sociale authentique avec un personnage fictif
-      - Vos amis voient votre participation
-      - Participation socialement visible
-
-      ### The Johnny Cash Project (2010)
-
-      - Contribution créative personnelle (dessiner une frame)
-      - Votre création fait partie de l'œuvre collective
-      - Millions de contributeurs authentiques
-      - Archive collective de créativité
-    </markdown>
-  </section>
-
-  <section title="Quand choisir le rôle de soi-même ?">
-    <markdown>
-      - ✅ Votre projet est **documentaire ou participatoire**
-      - ✅ L'authenticité est thématiquement importante
-      - ✅ Vous gérez correctement données personnelles
-      - ✅ La communauté authentique prime sur le spectacle
-      - ❌ Vous racontez une fiction immersive
-    </markdown>
-  </section>
-
-  <section title="Combinaisons courantes">
-    <markdown>
-      Le rôle de soi-même s'associe bien avec :
-
-      - **Structures narratives** : Parallèle, Constellation (multiples voix)
-      - **Formes d'interactivité** : Contributive ou Sociale
-      - **Types de choix** : Authentiques (vos vrais choix)
-    </markdown>
-  </section>
-
-  <section title="Variantes du rôle de soi-même">
-    <markdown>
-      ### Anonymat préservé
-      Participer en tant que soi-même mais anonymement.
-
-      - **Exemple :** Viols, les Voix du Silence (témoignages anonymes)
-
-      ### Participation collective
-      Plusieurs soi-même créent ensemble.
-
-      - **Exemple :** Génération What ? (millions de participants)
-
-      ### Participation hybride
-      Soi-même + données publiques/sociales.
-
-      - **Exemple :** Do Not Track (vos data de tracking)
-    </markdown>
-  </section>
-
-  <section title="Responsabilités éthiques majeures">
-    <markdown>
-      ### 1. Consentement clair
-
-      - Expliquer explicitement l'utilisation des données
-      - Obtenir consentement informé
-      - Permettre retrait du consentement
-
-      ### 2. Sécurité des données
-
-      - Protéger les données personnelles
-      - Chiffrer, anonymiser si nécessaire
-      - Pas de vente à tiers
-
-      ### 3. Transparence
-
-      - Montrer comment les données sont utilisées
-      - Rendre compte publiquement
-      - Respecter RGPD, CCPA, etc.
-
-      ### 4. Respect de la vie privée
-
-      - Minimum nécessaire de données
-      - Contrôle utilisateur maximal
-      - Anonymité quand c'est possible
-    </markdown>
-  </section>
-
-  <section title="Gestion des attentes">
-    <markdown>
-      Le piège majeur : **violation de confiance** en utilisant mal les données.
-
-      **Solutions :**
-
-      - Être hyper-transparent
-      - Donner contrôle au public
-      - Avoir une politique de données robuste
-      - Tester avec des groupes avant lancement
-      - Réagir rapidement aux problèmes
-    </markdown>
-  </section>
-
-  <section title="Cas d'école : The Johnny Cash Project">
-    <markdown>
-      **Concept :**
-
-      - Chaque frame d'un clip est dessinée par 1 personne
-      - Contributeurs du monde entier
-      - 10 000+ contributions
-
-      **Résultat :**
-
-      - Archive collective de créativité
-      - Chacun voit son œuvre dans le résultat final
-      - Fierté de participation authentique
-      - Communauté mondiale organisée
-
-      **Leçon :** Participation authentique crée engagement profond.
-    </markdown>
-  </section>
-
-  <section title="Distinction importante">
-    <markdown>
-      **Rôle du public ≠ Forme d'interactivité**
-
-      Une personne authentique interagit toujours avec une **forme** :
-
-      - **Interactivité Contributive** : Créer du contenu personnel (Johnny Cash Project)
-      - **Interactivité Sociale** : Participer dans communauté authentique
-      - **Interactivité Machine** : Répondre à questionnaires (Génération What ?)
-
-      La différence :
-
-      - **Rôle** : Soi-même - je suis authentique et vraiment moi
-      - **Forme** : Comment je participe techniquement (créer, débattre, répondre)
+      **Testez avec quelqu'un qui n'est pas vous.** C'est le rôle où l'auteur est le
+      plus mauvais public : vous savez ce qu'il fallait répondre.
     </markdown>
   </section>
 

@@ -9,7 +9,7 @@
   <categorie>Performance</categorie>
   <voir ref="my-little-piece-of-privacy"/>
 
-  <resume>Installation interactive où les passants tirent sur des cordes pour contrôler une machine CNC qui peint sur une toile collective — transformant instantanément tout le monde en artiste collaboratif, suivi d'une mise aux enchères des œuvres co-créées.</resume>
+  <resume>Installation interactive où les passants tirent sur des cordes pour contrôler une machine CNC qui peint sur une toile collective, transformant instantanément tout le monde en artiste collaboratif, suivi d'une mise aux enchères des œuvres co-créées.</resume>
 
   <section title="Ce qui fonctionne">
     <markdown>
@@ -19,7 +19,7 @@
 
   <section title="Vue d'ensemble">
     <markdown>
-      **Instant Art Career** est une **installation collaborative et performative** créée par Niklas Roy et Kati Hyyppä qui transforme les passants en artistes painters. Lors du **Katowice Street Art Festival en Pologne** (2013), une **machine CNC mécanique** a été installée dans une galerie abandonnée avec son interface exposée à la rue. Les gens tirent sur des cordes — sans électricité, sans écran — pour créer ensemble des peintures.
+      **Instant Art Career** est une **installation collaborative et performative** créée par Niklas Roy et Kati Hyyppä qui transforme les passants en artistes painters. Lors du **Katowice Street Art Festival en Pologne** (2013), une **machine CNC mécanique** a été installée dans une galerie abandonnée avec son interface exposée à la rue. Les gens tirent sur des cordes (sans électricité, sans écran) pour créer ensemble des peintures.
 
       À la fin de la semaine, les œuvres ont été mises aux enchères, et **les profits ont été partagés entre les participants**. Soudainement, tout le monde avait un "Instant Art Career".
     </markdown>
@@ -41,10 +41,10 @@
       ### Interface tactile
       Le choix de la **corde en Dyneema** est critique :
 
-      - Feedback tactile direct — vous **sentez la résistance**
-      - Basse latence — action immédiate
-      - Pas de confusion numérique — tout est mécanique et transparent
-      - Engagement physique — on doit vraiment **tirer fort**
+      - Feedback tactile direct : vous **sentez la résistance**
+      - Basse latence : action immédiate
+      - Pas de confusion numérique : tout est mécanique et transparent
+      - Engagement physique : on doit vraiment **tirer fort**
 
       ### Système de couleurs
 
@@ -57,7 +57,7 @@
 
   <section title="Contexte d'exposition">
     <markdown>
-      ### Katowice Street Art Festival (2013) — Original
+      ### Katowice Street Art Festival (2013), l'original
 
       - **Galerie abandonnée** : Façade ouverte exposée à la rue
       - **Une semaine complète** : Ouvert à la participation publique continue
@@ -80,7 +80,7 @@
 
       - **Jour 1** : Les gens jouent, découvrent, testent les limites
       - **Jour 2-3** : Ils deviennent plus intentionnels, composent avec les coups des autres
-      - **Jour 4-5** : Des collaborations émergentes — on reconnaît les "habitués"
+      - **Jour 4-5** : Des collaborations émergentes, on reconnaît les "habitués"
       - **Jour 6-7** : Moments de performance collective, de danse avec la machine
 
       ### Théâtre social
@@ -101,7 +101,7 @@
       - Un participant qui a tiré une fois reçoit une part
       - Soudainement, l'art devient **économiquement valorisé pour chacun**
 
-      C'est une critique du monde de l'art — comment se créent les hiérarchies d'artistes valant de l'argent vs. autres.
+      C'est une critique du monde de l'art : comment se créent les hiérarchies d'artistes valant de l'argent vs. autres.
     </markdown>
   </section>
 
@@ -113,9 +113,9 @@
       **Les cordes offrent**:
 
       - Feedback mécanique direct (resistance = réalité physique)
-      - Transparence — même les enfants comprennent le système
-      - Engagement du corps entier — pas juste des doigts
-      - Absence de médiation numérique — pas d'écran entre vous et l'action
+      - Transparence : même les enfants comprennent le système
+      - Engagement du corps entier : pas juste des doigts
+      - Absence de médiation numérique : pas d'écran entre vous et l'action
 
       C'est une **critique silencieuse des interfaces numériques**.
 
@@ -125,7 +125,7 @@
       - Pas de formations d'art requises
       - Pas de dextérité spéciale demandée
       - **Zéro coût** pour participer
-      - **Zéro risque** — c'est du jeu, pas de "mauvaise" création
+      - **Zéro risque** : c'est du jeu, pas de "mauvaise" création
 
       Mais en devenant accessible, qu'avez-vous perdu ? La distinction entre "artiste" et "non-artiste" devient floue.
 
@@ -143,7 +143,7 @@
       L'installation **accumule au fil du temps**:
 
       - Les œuvres se construisent, s'empilent, se superposent
-      - Rien n'est effacé — chaque coup reste
+      - Rien n'est effacé : chaque coup reste
       - Une **archéologie d'interactions**
 
       Comment cela diffère d'une installation interactif éphémère ?
@@ -170,9 +170,9 @@
 
       ### Authenticité du geste
 
-      - Les cordes donnent l'impression d'une **création "vraie"** — mécanique, directe
+      - Les cordes donnent l'impression d'une **création "vraie"**, mécanique et directe
       - **Mais** : c'est aussi une interface, une médiation
-      - Le geste est **amplifié par la machine** — vous tirez, la machine bouge plus grande
+      - Le geste est **amplifié par la machine** : vous tirez, la machine bouge plus grande
 
       Qu'en est-il de l'authenticité de l'art quand il est médiatisé ?
     </markdown>

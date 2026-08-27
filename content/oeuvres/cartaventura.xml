@@ -6,6 +6,7 @@
   <par>Blam!</par>
   <url>https://blam-edition.com/univers-cartaventura/</url>
   <categorie>Jeu</categorie>
+  <concept ref="choix-rationnel"/>
 
   <resume>Une aventure historique dans une boîte de poche : un paquet de cartes, aucun livret de règles, cinq fins possibles. On étale les cartes, elles forment le monde, une décision en remplace une partie. Pas d'application, pas d'écran, pas de pile. Premiers titres en 2021 ; plus de 300 000 boîtes vendues.</resume>
 
@@ -24,7 +25,7 @@
       cartes expliquent comment jouer, puis l'aventure continue sur les mêmes
       cartes. L'apprentissage n'est pas une étape avant le récit, il est dedans.
 
-      **Beaucoup de choix, cinq fins.** Les chemins se rejoignent, forcément —
+      **Beaucoup de choix, cinq fins.** Les chemins se rejoignent, forcément :
       c'est la réponse la plus simple à l'[[structure-embranchements|explosion
       combinatoire]], et elle tient dans une boîte grande comme la main. Rejouer
       ne sert pas à voir une autre histoire, mais l'autre versant de la même.
@@ -39,7 +40,7 @@
     <markdown>
       La deuxième partie n'est plus une aventure, c'est une inspection. On ne suit
       plus le récit, on cherche les cartes qu'on n'avait pas retournées. Le jeu
-      l'assume — c'est son argument de rejouabilité — mais l'illusion ne tient
+      l'assume (c'est son argument de rejouabilité) mais l'illusion ne tient
       qu'une fois.
 
       L'Histoire y sert surtout de décor : on croise Alexandra David-Néel ou Erik

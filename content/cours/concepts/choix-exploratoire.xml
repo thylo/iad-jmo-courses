@@ -5,203 +5,104 @@
   <exemple ref="weiordie"/>
   <exemple ref="phallaina"/>
   <voir ref="structure-elastique"/>
-  <voir ref="structure-parallele"/>
+  <voir ref="structure-constellation"/>
   <voir ref="choix-rationnel"/>
+  <voir ref="faux-choix"/>
 
-  <resume>Choix permettant de découvrir du contenu supplémentaire sans changer le fil principal du récit.</resume>
+  <resume>Vous n'avez pas de quoi décider, et c'est voulu. On choisit pour voir. La curiosité remplace le calcul, et ça marche très bien tant que l'œuvre ne prétend pas le contraire.</resume>
 
   <section title="Définition">
     <markdown>
-      Le choix exploratoire permet de découvrir des détails, des annexes, des bonus, sans modifier la structure narrative principale. Le fil central reste identique pour tous. C'est comme les bonus d'un DVD : vous apprenez des choses, mais le film reste le même.
+      Le public choisit sans information préalable, parce que l'ordre lui appartient
+      ou parce qu'il veut savoir ce qu'il y a derrière la porte. Le fil principal ne
+      dévie pas : ce qui change, c'est ce qu'on aura vu et dans quel ordre.
 
-      **Caractéristiques :**
-
-      - Explore des détails, des annexes, des bonus
-      - Le récit principal reste inchangé
-      - Enrichit la compréhension sans modifier la structure
-      - Peut être ignoré sans conséquence majeure
-      - Impact narratif : Faible
+      C'est le [[choix-rationnel|choix rationnel]] moins l'information — et ce n'est
+      pas un [[faux-choix|faux choix]], parce que rien n'a été promis. La différence
+      ne se lit pas dans le dispositif, elle se lit dans la phrase de présentation.
     </markdown>
   </section>
 
-  <section title="La métaphore cinématographique">
-    <markdown>
-      Les **bonus d'un DVD** : vous apprenez des choses sur le making-of, mais le film reste le même.
-
-      Vous explorez sans décider vraiment le cours de l'histoire.
-    </markdown>
-  </section>
-
-  <section title="Intention créative">
-    <markdown>
-      **Je veux que le public :**
-
-      - **Découvre** du contenu supplémentaire
-      - **Enrichisse** sa compréhension
-      - **S'immerge** dans mon univers
-      - Mais reste sur **le même chemin narratif**
-    </markdown>
-  </section>
-
-  <section title="Avantages">
-    <markdown>
-      - Pas d'explosion combinatoire
-      - Production contrôlée
-      - Richesse de détails possible
-      - Liberté exploratoire sans branching complexe
-      - Engagement sans responsabilité morale
-    </markdown>
-  </section>
-
-  <section title="Inconvénients">
-    <markdown>
-      - Sentiment d'agentivité limité
-      - Public peut se sentir passif
-      - "C'est juste du contenu bonus"
-      - Risque d'ennui si contenu supplémentaire peu motivant
-    </markdown>
-  </section>
-
-  <section title="Exemples détaillés">
-    <markdown>
-      ### Hors-Jeu (2016)
-
-      - Vous choisissez quel personnage suivre
-      - Mais toutes les histoires coexistent, aucune ne change l'autre
-      - Pure exploration sans conséquence narrative
-      - Chaque chemin raconte une partie de la même histoire
-
-      ### Wei or Die (2015)
-
-      - Vous choisissez entre plusieurs flux vidéo parallèles
-      - Chaque flux raconte la même histoire sous un angle différent
-      - Votre choix = votre perspective, pas l'histoire elle-même
-      - Tous les flux menacent au même endroit
-
-      ### Phallaina (2016)
-
-      - Vous scrollez à votre rythme (choix du tempo)
-      - Mais le récit reste linéaire et identique pour tous
-      - Choix de lecture, pas de narration
-      - Tous arrivent au même dénouement
-    </markdown>
-  </section>
-
-  <section title="Types de contenu exploratoire">
-    <markdown>
-      ### Détails contextuels
-
-      - Clics pour en savoir plus sur un personnage
-      - Background information sur le monde
-      - Anecdotes enrichissantes
-
-      ### Chemins parallèles
-
-      - Perspectives différentes du même événement
-      - Angles de caméra alternatives
-      - Interprétations multiples
-
-      ### Bonus narratifs
-
-      - Scènes additionnelles non-critiques
-      - Prologues/epilogues
-      - "Coulisses" de l'histoire
-
-      ### Énigmes/Puzzles
-
-      - Contenus cachés à découvrir
-      - Collectibles non-critiques
-      - Easter eggs narratifs
-    </markdown>
-  </section>
-
-  <section title="Quand utiliser choix exploratoire ?">
-    <markdown>
-      - ✅ Vous racontez une histoire linéaire
-      - ✅ Vous voulez richesse de détails
-      - ✅ Exploration prime sur embranchement
-      - ✅ Vous avez contenu supplémentaire riche
-      - ❌ Vous voulez engagement décisionnel fort
-    </markdown>
-  </section>
-
-  <section title="Gestion des attentes">
-    <markdown>
-      Être **honnête** avec le public :
-
-      - Si un choix est exploratoire, le signaler
-      - Ne pas faire croire à des conséquences réelles
-      - Valoriser l'exploration pour sa propre valeur
-    </markdown>
-  </section>
-
-  <section title="Structure narrative recommandée">
+  <section title="Schéma">
     <markdown>
       ```
-      Découverte exploratoire
-               ↓
-          Point clé
-        /        \
-      Détail A   Détail B  (les deux convergent)
-        \        /
-          Convergence
-               ↓
-          Résolution
+      Exploratoire                     Rationnel
+
+        ──●──────●──────●──►             ──●──►  A ──► fin A
+          │      │      │                  └──►  B ──► fin B
+          ○      ○      ○
+        digressions optionnelles         le tronc se sépare
+        dont on revient                  et ne revient pas
+
+      Ici on choisit l'ordre           Ici on choisit la suite
+      et la quantité                   et on ne revient pas
       ```
-
-      Les branchements exploratoires convergent rapidement vers l'arcs principal.
     </markdown>
   </section>
 
-  <section title="Distinction importante">
+  <section title="Trois façons de s'en servir">
     <markdown>
-      **Choix exploratoire ≠ Passivité**
+      **Choisir l'angle.** [[weiordie|Wei or Die]] fixe le récit et vous donne les
+      caméras. Vous ne décidez pas de ce qui arrive à Wei, vous décidez d'où vous le
+      regardez. L'œuvre ne promet rien d'autre, et elle le tient.
 
-      L'exploration n'est pas passive si elle est richement récompensée :
+      **Choisir l'ordre.** [[hors-jeu|Hors-Jeu]] découpe dix-huit mois d'enquête sur
+      la corruption du football en quatre-vingt-dix-neuf cartes à collectionner.
+      Chacune tient seule, aucun ordre n'est imposé, et personne n'est obligé de tout
+      voir : une [[structure-constellation|constellation]] appliquée au journalisme.
 
-      - Contenus découverts sont savoureux
-      - Détails enrichissent profondément
-      - Le monde devient plus riche pour avoir exploré
+      **Choisir de s'arrêter.** [[phallaina]] se lit d'un bout à l'autre en poussant
+      l'image ; ce qu'on choisit, c'est le temps qu'on passe sur chaque passage. Le
+      geste appartient au lecteur, la séquence appartient à l'auteur.
+
+      Dans les trois cas la liberté est réelle. Ce qu'elle ne fait pas, c'est
+      déplacer l'intrigue — et aucune des trois œuvres ne le prétend.
     </markdown>
   </section>
 
-  <section title="Bonnes pratiques">
+  <section title="Ce que ça permet">
     <markdown>
-      1. **Contenu riche** : L'exploration doit valoir la peine
-      2. **Clarté** : Public sait que ce sont des détails
-      3. **Continuité** : Après exploration, retour naturel
-      4. **Récompense** : Découverte enrichit réellement
-      5. **Optionalité** : On peut ignorer sans se perdre
+      Le rapport coût/effet est le meilleur des trois types de choix. Il n'y a pas de
+      branche à écrire deux fois : chaque module est écrit une seule fois et vu par
+      qui le veut bien. C'est ce qui rend possible une
+      [[structure-elastique|structure élastique]] — un fil qu'on suit, des
+      digressions dont on revient — sans exploser la production.
+
+      C'est aussi ce qui convient à la matière documentaire, où le fond ne se
+      renégocie pas : on ne va pas laisser le public modifier ce qui est arrivé. Lui
+      laisser l'ordre et la profondeur est la seule liberté honnête qu'on puisse lui
+      donner.
     </markdown>
   </section>
 
-  <section title="Risques courants">
+  <section title="Erreurs courantes">
     <markdown>
-      ❌ **Contenu faible** : Détails peu intéressants
-      ❌ **Confusion** : Utilisateur pense que c'est rationnel
-      ❌ **Surcharge** : Trop de chemins exploratoires
-      ❌ **Perdition** : Difficile de revenir au fil principal
-      ❌ **Padding** : Contenu juste pour allonger
+      - L'annoncer comme rationnel. C'est là, et seulement là, que ça devient un
+        [[faux-choix|faux choix]]
+      - Croire qu'exploratoire veut dire facultatif : un module qu'on peut sauter doit
+        quand même tenir seul, et supposer que le public l'a vu est le bug le plus
+        courant
+      - Confondre exploration et menu. Choisir l'ordre des chapitres d'un webdoc, c'est
+        ce que demandait un DVD de 2003 ; ce n'est pas un défaut, ça en devient un
+        quand toute la communication repose dessus
+      - Ne pas montrer ce qui reste à voir. Sans repère, la liberté d'ordre se vit
+        comme de la désorientation
     </markdown>
   </section>
 
-  <section title="Solutions">
+  <section title="Pour votre projet">
     <markdown>
-      ✅ Détails narrativement riche
-      ✅ Signaler la nature exploratoire
-      ✅ Retours clairs vers arcs principal
-      ✅ Contenu peu à peu enrichissant
-      ✅ Tests : utilisateur comprend-il la structure?
-    </markdown>
-  </section>
+      C'est le type de choix qui convient à un projet d'atelier, et il faut le dire
+      franchement plutôt que de faire semblant d'avoir écrit un arbre.
 
-  <section title="Relation avec les structures narratives">
-    <markdown>
-      Le choix exploratoire s'associe bien avec :
+      **Écrivez des modules qui tiennent seuls.** Chacun doit se comprendre sans ce
+      qui le précède : c'est la seule contrainte, et elle est sérieuse.
 
-      - **Structure élastique** : Annexes optionnels
-      - **Structure parallèle** : Perspectives coexistantes
-      - **Structure constellation** : Points exploratoires
+      **Dites-le dans la première phrase.** « Explorez dans l'ordre que vous voulez »
+      est une promesse tenable. « Vos choix comptent » ne l'est pas.
+
+      **Donnez une carte.** Une progression visible, un compteur, des cases qui se
+      remplissent : la curiosité a besoin de savoir qu'il reste quelque chose.
     </markdown>
   </section>
 

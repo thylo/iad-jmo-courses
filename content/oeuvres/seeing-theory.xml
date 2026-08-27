@@ -4,6 +4,7 @@
   <par>Brown University</par>
   <url>https://seeing-theory.brown.edu/</url>
   <categorie>Outil</categorie>
+  <concept ref="role-divinite"/>
 
   <resume>Cours de statistiques et probabilités entièrement interactif. Chaque concept (distributions, régression, inférence) est accompagné de visualisations manipulables.</resume>
 

@@ -1,14 +1,44 @@
 <oeuvre id="mansions-of-madness" statut="en-ligne">
-  <titre>Mansions of Madness</titre>
+  <titre>Mansions of Madness — seconde édition</titre>
   <annee>2016</annee>
   <par ref="fantasy-flight-games"/>
+  <url>https://www.fantasyflightgames.com/en/products/mansions-of-madness-second-edition/</url>
   <categorie>Jeu</categorie>
+  <concept ref="structure-a-etat"/>
+  <concept ref="forme-machine"/>
+  <concept ref="interface-plateau"/>
 
-  <resume>L'app génère des scénarios procéduraux, gère les événements, les monstres et maintient le suspense. Setup physique minimal guidé par l'application.</resume>
+  <resume>Une enquête lovecraftienne sur un plateau de tuiles. Dans la première édition (2011), un joueur tenait le rôle du Gardien : il connaissait le scénario, plaçait les monstres, mentait avec le sourire. La seconde édition supprime ce joueur et confie son rôle à une application, qui compose la carte, la garde dans l'ombre tant qu'on n'a pas exploré, fait apparaître les créatures et déclenche les événements. Le jeu devient entièrement coopératif, et jouable seul.</resume>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      Démontre comment l'app peut créer de la rejouabilité en variant les scénarios tout en préservant l'expérience tactile.
+      **On peut comparer les deux versions.** C'est ce qui rend ce jeu utile bien
+      au-delà du jeu de plateau : la même œuvre existe avec et sans la personne, et on
+      peut mesurer ce que le remplacement coûte et rapporte. L'analyse est dans
+      [[interface-plateau|Plateau augmenté]].
+
+      **Le gain est réel.** Plus personne n'est sacrifié à la logistique, tout le monde
+      joue du même côté, et le jeu se joue en solo — ce qu'aucune version à Gardien ne
+      pouvait offrir.
+
+      **La carte cachée est un vrai apport.** Le plateau ne se dévoile qu'en explorant.
+      Sur du carton seul, il faudrait qu'un joueur sache où sont les pièces, donc
+      qu'il ne joue pas. L'application tient un [[structure-a-etat|état]] que la table
+      ne peut pas tenir : c'est le bon usage.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le Gardien ne se contentait pas de placer des pions : il regardait les visages,
+      accélérait quand la table s'ennuyait, gardait une créature pour le moment où
+      elle ferait le plus d'effet. L'application, elle, déroule sa table de probabilités
+      que la partie soit tendue ou molle. Elle ne rate jamais rien, donc elle ne
+      surprend jamais.
+
+      Et elle est une boîte noire : on ne peut ni la discuter, ni la contourner, ni
+      négocier avec elle comme on négociait avec la personne assise en face. Le jour où
+      l'éditeur cesse la maintenance, la boîte reste pleine et le jeu est mort.
     </markdown>
   </section>
 

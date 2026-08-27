@@ -1,14 +1,43 @@
 <oeuvre id="lord-of-the-rings-journeys-in-middle-earth" statut="en-ligne">
-  <titre>Lord of the Rings: Journeys in Middle Earth</titre>
+  <titre>The Lord of the Rings: Journeys in Middle-earth</titre>
   <annee>2019</annee>
   <par ref="fantasy-flight-games"/>
+  <url>https://www.fantasyflightgames.com/en/news/2019/1/13/the-lord-of-the-rings-journeys-in-middle-earth/</url>
   <categorie>Jeu</categorie>
+  <concept ref="structure-a-etat"/>
+  <concept ref="forme-machine"/>
+  <concept ref="interface-plateau"/>
 
-  <resume>L'application gère l'IA des ennemis, les scénarios, les sauvegardes et la progression de campagne. Les joueurs se concentrent sur les décisions stratégiques et tactiques.</resume>
+  <resume>Un jeu de plateau coopératif de un à cinq joueurs, entièrement piloté par une application gratuite. Elle compose la carte à chaque partie à partir de vingt-deux tuiles double face, place les jetons, décide du comportement des ennemis, tient l'inventaire et les compétences, résout les combats, sauvegarde la campagne d'une séance à l'autre et infléchit l'histoire selon vos décisions et vos résultats.</resume>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      L'app supprime le besoin d'un "maître du jeu" en gérant toute la logique cachée, permettant une expérience coopérative complète.
+      **C'est une [[structure-a-etat|structure à état]] complète, en boîte.** La
+      campagne retient ce que vous avez fait, ce que vous portez, qui a été blessé, et
+      les scénarios suivants se réécrivent en conséquence. Ce que
+      [[80-days]] fait avec du texte, ce jeu le fait avec des figurines.
+
+      **La carte est recomposée à chaque partie.** Une part de génération procédurale
+      dans un objet en carton : le même scénario rejoué ne donne pas le même terrain.
+      C'est exactement la mise en garde de Jenkins sur le procédural, prise du bon
+      côté — la machine dispose, mais le sens vient de ce que les auteurs ont écrit
+      pour chaque élément. Voir
+      [raconter par l'espace](/panorama/raconter-par-l-espace).
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      C'est le cas extrême du [[interface-plateau|plateau déporté]]. L'application tient
+      la carte, les règles, les combats, l'inventaire et le récit ; le matériel
+      magnifique sert d'affichage. Les joueurs déplacent des figurines, puis déclarent à
+      l'écran qu'ils les ont déplacées. Ils font gratuitement le travail qu'un jeu vidéo
+      ferait tout seul.
+
+      Et la dépendance est totale : sans l'application, il n'y a pas de partie
+      possible, pas même une variante dégradée. La boîte de 2019 est vivante tant que
+      l'éditeur recompile. À comparer avec [[cartaventura]], qui tient le même genre de
+      mémoire narrative avec des cartes posées sur la table.
     </markdown>
   </section>
 

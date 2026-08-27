@@ -1,0 +1,32 @@
+<concept id="shake-that-button">
+  <titre>Shake That Button</titre>
+  <genre>ressource</genre>
+  <voir ref="interface-gestural"/>
+
+  <resume>Un recensement de contrôleurs alternatifs, d'installations jouables et de performances : tout ce qui se joue avec autre chose qu'une manette ou un clavier.</resume>
+
+  <section title="Ce que c'est">
+    <markdown>
+      [Shake That Button](https://shakethatbutton.com/), de Pierre Corbinais, avec la
+      communauté de l'Alternative Controller Hangout. Des centaines de fiches, chacune
+      documentant un objet qu'on a fabriqué pour jouer : un flipper qu'on se pose sur
+      la tête, des vêtements équipés de capteurs dont deux personnes se servent en se
+      touchant, des machines de foire, des meubles.
+
+      C'est une base, pas un article : on y entre par les images et on suit les liens.
+    </markdown>
+  </section>
+
+  <section title="Pourquoi c'est ici">
+    <markdown>
+      Parce que c'est la réserve du champ que le panorama appelle
+      [l'interactivité comme œuvre](/panorama/interactivite-oeuvre), et le meilleur
+      endroit pour se débarrasser de l'idée qu'une interaction passe par un écran et
+      deux mains.
+
+      Et parce que presque tout y est fabriqué par une ou deux personnes, avec des
+      capteurs à quelques euros. C'est de la documentation d'atelier : on regarde
+      comment c'est câblé, on recommence.
+    </markdown>
+  </section>
+</concept>

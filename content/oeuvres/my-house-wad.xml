@@ -9,7 +9,7 @@
   <categorie>Interface</categorie>
   <voir ref="do-not-track"/>
 
-  <resume>Modification pour Doom II où une simple maison résidentielle se transforme en labyrinthe architectural impossible et horrifique, mêlant créativité technique, exploration psychologique et adaptation du roman 'House of Leaves' — explorant isolement, chagrin et traumas via des espaces limites et géométries non-euclidiennes.</resume>
+  <resume>Modification pour Doom II où une simple maison résidentielle se transforme en labyrinthe architectural impossible et horrifique, mêlant créativité technique, exploration psychologique et adaptation du roman 'House of Leaves', explorant isolement, chagrin et traumas via des espaces limites et géométries non-euclidiennes.</resume>
 
   <visuel src="my-house-wad.jpg"
           source="https://www.skritz.com/myhouse-wad/"/>
@@ -34,7 +34,7 @@
 
       Selon la narration officielle, la map a été "retrouvée" sur une disquette vintage appartenant à un ami décédé de longue date de Steve Nelson, nommé Tom. Tom aurait commencé le projet en 1999 et l'aurait laissé inachevé.
 
-      **Ce cadre narratif n'est pas accidentel** — c'est le cœur thématique de l'œuvre:
+      **Ce cadre narratif n'est pas accidentel**, c'est le cœur thématique de l'œuvre:
 
       - **Chagrin** : création en hommage à un ami disparu
       - **Nostalgie** : maison d'enfance, années 1990, disquettes
@@ -53,7 +53,7 @@
 
       - **Teleports silencieux** : Vous bougez sans le savoir, redéfinissant votre position spatiale
       - **Lineportals** : Portails qui créent des connexions spatiales impossibles
-      - **Automap noir** : La carte standard Doom est désactivée (affiche du noir) — vous devez naviguer par exploration et mémoire
+      - **Automap noir** : La carte standard Doom est désactivée (affiche du noir), vous devez naviguer par exploration et mémoire
       - **Triggers cachés** : Portes qui se révèlent progressivement
       - **Sans jumping/crouching** : Limitation volontaire de l'agency pour forcer une progression linéaire malgré l'apparence non-linéaire
 
@@ -90,7 +90,7 @@
       - **Brutalist Apartment** : Architecture brutaliste béton, corridors massifs, isolation urbaine
       - **Airport (Aéroport)** : Terminal liminal, area de salle de bain cryptique, voyage en avion
       - **Mirrored House** : Maison inversée avec indices subtils
-      - **Labyrinth** : Référence directe à *The Navidson Record* du roman House of Leaves — un labyrinthe sans fin
+      - **Labyrinth** : Référence directe à *The Navidson Record* du roman House of Leaves, un labyrinthe sans fin
 
       ### Phase 3 : L'impossible
 
@@ -107,7 +107,7 @@
 
       La théorie centrale: **le chagrin crée de l'espace**.
 
-      Les zones de MyHouse ne sont pas des lieux "réels" — ce sont des **manifestations architecturales du chagrin**:
+      Les zones de MyHouse ne sont pas des lieux "réels", ce sont des **manifestations architecturales du chagrin**:
 
       - La daycare = perte de l'enfance
       - Le bathhouse = nettoyage de la culpabilité
@@ -123,7 +123,7 @@
       - Escaliers infinis
       - Backrooms
 
-      Ces espaces **magnifient l'isolement** — pas de gens, pas de but, juste l'attente.
+      Ces espaces **magnifient l'isolement** : pas de gens, pas de but, juste l'attente.
 
       ### House of Leaves comme source textuelle
 
@@ -134,7 +134,7 @@
       - Appendices et documents mystérieux (Google Drive link inclus)
       - Thèmes d'espace impossible et de descente psychologique
 
-      Mais contrairement au roman (littérature), c'est une **adaptation en navigable 3D** — vous vivez l'expérience, ne la lisez pas.
+      Mais contrairement au roman (littérature), c'est une **adaptation en navigable 3D** : vous vivez l'expérience, ne la lisez pas.
 
       ### Soundtrack et la démence
 
@@ -145,7 +145,7 @@
       - Dégradation progressive
       - Silence final
 
-      La musique n'est pas juste un accompagnement — elle IS le narrative.
+      La musique n'est pas juste un accompagnement, elle IS le narrative.
     </markdown>
   </section>
 
@@ -185,7 +185,7 @@
 
       ### 3. Le deuil en jeu vidéo
 
-      Peu de jeux vidéo traitent le chagrin sincèrement — la plupart évitent cette émotion.
+      Peu de jeux vidéo traitent le chagrin sincèrement, la plupart évitent cette émotion.
 
       MyHouse.wad **place le deuil au centre** de l'expérience:
 
@@ -209,7 +209,7 @@
 
       Les "liminal spaces" (aéroports vides, hôtels sans gens, escaliers interminables) sont devenus un **langage visuel de l'internet**.
 
-      MyHouse.wad légitime ces images comme **esthétique narratif valide** — pas juste meme, mais expression artistique sérieuse.
+      MyHouse.wad légitime ces images comme **esthétique narratif valide**, pas juste meme, mais expression artistique sérieuse.
     </markdown>
   </section>
 

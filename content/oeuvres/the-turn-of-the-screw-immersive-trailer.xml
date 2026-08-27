@@ -1,18 +1,73 @@
 <oeuvre id="the-turn-of-the-screw-immersive-trailer" statut="en-ligne">
-  <titre>The Turn of the Screw - Immersive Trailer</titre>
-  <annee>2018</annee>
+  <titre>The Turn of the Screw — Immersive Trailer</titre>
+  <annee>2020</annee>
+  <par>Lusion</par>
+  <par>James Bulley</par>
   <par>Opera North</par>
+  <par>AudioLab, University of York</par>
   <url>https://www.operanorth.co.uk/turn-of-the-screw-immersive-trailer/</url>
-  <categorie>Muséale</categorie>
+  <categorie>Performance</categorie>
+  <categorie>Interface</categorie>
+  <voir ref="lusion"/>
 
-  <resume>Trailer web immersif à 360° pour un opéra. Le spectateur peut explorer visuellement et auditivement l'espace de la performance.</resume>
+  <resume>Une bande-annonce web pour la production 2020 du « Tour d'écrou » de Britten
+    par Opera North, d'après la nouvelle de Henry James. Cinq tableaux suivant l'arc de
+    l'opéra (Opening, Dawn, Day, Dusk, Night) dans lesquels on se déplace. Le champ
+    sonore a été capté à 360° au microphone ambisonique : au casque, le mixage binaural
+    reproduit le fait de bouger dans la pièce. On survole une silhouette pour l'entendre
+    de près, ou juste derrière soi. Réalisé par le studio Lusion avec le compositeur
+    James Bulley, l'AudioLab de l'université de York, et l'orchestre et le chœur d'Opera
+    North.</resume>
 
   <visuel src="the-turn-of-the-screw-immersive-trailer.jpg"
           source="https://www.operanorth.co.uk/turn-of-the-screw-immersive-trailer/"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Le son est le sujet, pas l'image">
     <markdown>
-      Utilise le web pour donner un avant-goût spatial d'une œuvre scénique. Démocratise l'accès à l'opéra via une expérience immersive.
+      C'est la raison d'être de cette fiche. Presque tout ce qu'on montre en cours
+      travaille l'image et pose le son par-dessus. Ici c'est l'inverse : le rendu WebGL
+      est le cadre, l'enregistrement ambisonique est l'œuvre.
+
+      La différence est concrète. Une piste audio classique joue *pour* vous, à la même
+      distance quoi que vous fassiez. Un champ ambisonique existe *autour* de vous : les
+      voix ont une position, vous en avez une, et bouger l'une par rapport aux autres
+      change ce que vous entendez. Le navigateur sait faire ça depuis des années et
+      presque personne ne s'en sert.
+
+      Comparez avec le tableau des [cours](/cours) : une brochure utilise Web Audio
+      pour rien.
+    </markdown>
+  </section>
+
+  <section title="Une bande-annonce qui fait ce qu'elle annonce">
+    <markdown>
+      Un objet promotionnel est en général un résumé : des extraits, une voix off, une
+      date. Celui-ci est un échantillon du dispositif lui-même : on ne vous raconte pas
+      que l'opéra est une histoire de fantômes, on vous met dans une pièce où vous
+      n'êtes jamais sûr de qui se tient derrière vous.
+
+      C'est exactement l'argument de James : dans *Le Tour d'écrou*, on ne sait pas si
+      les fantômes existent ou si la gouvernante les invente. Un dispositif où le son
+      vient de derrière et où l'on ne peut pas se retourner assez vite est une traduction
+      juste de ce doute, pas une illustration.
+
+      À montrer quand quelqu'un veut « faire un teaser » pour son projet. La question
+      n'est pas de résumer l'œuvre, c'est de trouver le geste qui en donne un morceau
+      vrai.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Sans casque, il ne reste rien : le mixage binaural s'effondre sur des haut-parleurs
+      d'ordinateur, et c'est la moitié de la pièce qui disparaît. L'œuvre le demande, mais
+      une bonne partie du public ne lira pas la consigne.
+
+      Le rendu temps réel est lourd, donc l'entrée est réservée à qui a la machine.
+
+      Et c'est de la promotion pour une production qui s'est terminée. L'objet survit à
+      ce qu'il annonçait, ce qui est le sort habituel des bandes-annonces, sauf que
+      celle-ci vaut mieux que ça.
     </markdown>
   </section>
 

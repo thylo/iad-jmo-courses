@@ -4,6 +4,7 @@
   <par>Portal Games</par>
   <url>https://antaresdatabase.com/</url>
   <categorie>Jeu</categorie>
+  <concept ref="interface-plateau"/>
 
   <resume>Les joueurs enquêtent physiquement (cartes, indices) mais accèdent à une vraie base de données web (Antares Database) pour vérifier des informations, consulter des dossiers, interroger des témoins virtuels.</resume>
 

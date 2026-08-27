@@ -1,0 +1,71 @@
+<concept id="forme-collaborative">
+  <titre>Interactivité Collaborative (face à l'œuvre qu'on fabrique)</titre>
+  <genre>forme</genre>
+  <exemple ref="the-johnny-cash-project"/>
+  <exemple ref="twitch-plays-pokemon"/>
+  <exemple ref="the-telegarden"/>
+  <exemple ref="do-not-draw-a-penis"/>
+  <exemple ref="generation-what"/>
+  <voir ref="forme-machine"/>
+  <voir ref="forme-sociale"/>
+  <voir ref="role-soi-meme"/>
+  <voir ref="structure-constellation"/>
+
+  <resume>Le public ne réagit pas au contenu : il l'apporte. Ce qu'il dépose reste, et l'œuvre grossit. C'est la seule des trois formes qui échappe vraiment à celui qui l'a lancée.</resume>
+
+  <section title="Ce que l'auteur fournit">
+    <markdown>
+      Un outil, un cadre, et les règles du tri. Pas la matière.
+
+      [[the-johnny-cash-project]] demande une image par personne et les assemble
+      en clip : des milliers de gens redessinent chacun une frame, et le résultat
+      n'existe que par eux. Personne ne sait à quoi il ressemblera, l'auteur
+      compris. [[viols-les-voix-du-silence]] : les témoignages déposés *sont* le
+      documentaire. [[do-not-draw-a-penis]] : un canvas partagé, un algorithme qui
+      efface une seule chose, et tout le monde essaie de dessiner exactement cette
+      chose. La contribution y devient le sujet.
+    </markdown>
+  </section>
+
+  <section title="Ce que ça coûte">
+    <markdown>
+      Peu de contenu et beaucoup de dispositif. Le coût est dans l'outil et dans
+      la modération, et rien n'existe tant que personne n'a rien déposé.
+
+      Il faut un cadre assez solide pour qu'une contribution médiocre ne casse pas
+      l'ensemble, assez ouvert pour que contribuer ait un intérêt. C'est le vrai
+      travail de cette forme, et il ne se voit nulle part dans le résultat.
+    </markdown>
+  </section>
+
+  <section title="La limite">
+    <markdown>
+      La page blanche collective. Tant que personne n'a rien déposé, il n'y a pas
+      d'œuvre, seulement un formulaire.
+    </markdown>
+  </section>
+
+  <section title="Ce qui marche">
+    <markdown>
+      Une contrainte forte. Redessiner une image précise, répondre à une question
+      précise. Personne ne contribue à « exprimez-vous » : plus la demande est
+      étroite, plus les gens répondent, et plus l'ensemble tient.
+    </markdown>
+  </section>
+
+  <section title="Ce qu'on accepte en la choisissant">
+    <markdown>
+      De ne pas être maître du résultat, et de le publier quand même. C'est ce qui
+      la distingue des deux autres : une œuvre machine ne surprend jamais son
+      auteur, une œuvre sociale le surprend le temps d'une partie, celle-ci lui
+      revient transformée.
+
+      Le public y est presque toujours [[role-soi-meme|lui-même]] : il apporte sa
+      main, sa voix ou ses données, sans personnage pour s'abriter derrière. Ce
+      qui déplace la question sur un terrain qui n'est plus esthétique, mais
+      éthique : ce qu'on collecte, ce qu'on en montre, et ce qu'on en fait après.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

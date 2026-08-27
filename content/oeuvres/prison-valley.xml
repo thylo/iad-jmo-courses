@@ -1,16 +1,45 @@
 <oeuvre id="prison-valley" statut="hors-ligne">
   <titre>Prison Valley</titre>
-  <annee>2009</annee>
-  <par ref="onf"/>
+  <annee>2010</annee>
+  <par>David Dufresne</par>
+  <par>Philippe Brault</par>
   <par ref="upian"/>
+  <par ref="arte"/>
   <url>https://www.youtube.com/watch?v=2g3KJvHWqFU</url>
   <categorie>Documentaire</categorie>
+  <concept ref="structure-elastique"/>
+  <concept ref="role-fantome"/>
+  <concept ref="interface-maps"/>
 
-  <resume>Documentaire pionnier sur une ville américaine où 1 habitant sur 2 travaille dans l'industrie carcérale. Mélange vidéos, photos et navigation interactive. A défini les codes du webdoc moderne.</resume>
+  <resume>Cañon City, Colorado : treize prisons pour trente-six mille habitants, et à peu près tout le monde vit de l'industrie carcérale. Un journaliste et un photographe y font un road trip que le spectateur suit en voiture, de motel en motel, avec la possibilité de s'arrêter pour lire les documents, écouter les entretiens complets et discuter avec les autres visiteurs. Produit par Upian pour Arte, prix World Press Photo 2011 du multimédia non linéaire.</resume>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      Un des premiers grands webdocs interactifs qui a prouvé que le format pouvait être aussi puissant qu'un documentaire TV traditionnel. Navigation innovante pour l'époque.
+      **Le trajet fait la dramaturgie.** On avance sur une route, on s'arrête où l'on
+      veut, on repart. C'est une [[structure-elastique|structure élastique]] avant que
+      le mot existe : un fil qui se parcourt d'un bout à l'autre, et des digressions
+      dont on revient. Voir [raconter par l'espace](/panorama/raconter-par-l-espace).
+
+      **Les auteurs sont dans le cadre.** Dufresne et Brault ne commentent pas de
+      l'extérieur : ce sont eux qui roulent, qui sonnent aux portes, qui se font
+      éconduire. Le spectateur est un passager, pas un destinataire.
+
+      **C'est l'œuvre qui a fixé les codes.** Ce qu'on appelle « webdoc » en France
+      pendant dix ans se calque là-dessus. À connaître pour cette raison, et pour
+      mesurer ce qui a vieilli.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le site d'origine ne tourne plus : Flash est mort, et avec lui la moitié de
+      l'âge d'or du webdoc. Il reste une captation vidéo, c'est-à-dire exactement ce
+      que l'œuvre refusait d'être.
+
+      C'est le meilleur argument du cours contre la dépendance à une technologie
+      propriétaire. Une œuvre primée, coproduite par une chaîne publique, disparue en
+      quinze ans — pendant que [[the-boat|The Boat]], plus modeste et fait en HTML,
+      tourne encore.
     </markdown>
   </section>
 

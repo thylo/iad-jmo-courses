@@ -7,6 +7,9 @@
   <categorie>Jeu</categorie>
   <categorie>Fiction</categorie>
   <concept ref="structure-a-etat"/>
+  <concept ref="role-personnage"/>
+  <concept ref="choix-rationnel"/>
+  <concept ref="interface-maps"/>
 
   <resume>Le tour du monde de Jules Verne rejoué en fiction textuelle : plus de 150 villes, des milliers d'itinéraires, et un récit qui retient tout ce que vous avez fait en route.</resume>
 
@@ -20,7 +23,7 @@
       prochain train. Ce déplacement du point de vue fait tout le jeu.
 
       La carte n'est pas un menu. Les lignes ne s'ouvrent qu'en écoutant les gens
-      croisés en chemin — une rumeur au bar de l'hôtel devient une route possible.
+      croisés en chemin : une rumeur au bar de l'hôtel devient une route possible.
       Explorer, ici, c'est parler.
 
       Le monde est une uchronie où la colonisation occidentale a moins gagné. Ce
@@ -32,7 +35,7 @@
   <section title="La structure">
     <markdown>
       Exemple de référence pour la [[structure-a-etat]]. Le jeu ne mémorise pas un
-      chemin dans un arbre — impossible à cette échelle — mais une liste de faits :
+      chemin dans un arbre (impossible à cette échelle) mais une liste de faits :
       votre itinéraire, ce que contient la malle, à qui vous avez menti, ce qu'on
       vous a raconté.
 
@@ -48,7 +51,7 @@
     <markdown>
       Une partie dure quelques heures, une ville se lit en cinq minutes. C'est
       l'objet à montrer quand on veut comprendre ce que « le récit se souvient »
-      veut dire concrètement — et à quel point ça tient à peu de choses.
+      veut dire concrètement, et à quel point ça tient à peu de choses.
     </markdown>
   </section>
 

@@ -17,6 +17,7 @@ final readonly class SchemaRegistry
     private const array CATEGORIES = [
         'Fiction', 'Documentaire', 'Interface', 'Outil', 'Jeu',
         'Performance', 'Urbain', 'Muséale', 'Installation',
+        'Expérimentation',
     ];
 
     /** @var array<string, Schema> */

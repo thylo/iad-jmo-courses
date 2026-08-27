@@ -16,7 +16,7 @@
       **Le geste est l'action narrative.** Toucher un nuage déclenche l'orage qui
       fait tomber le chat. Ce n'est pas une décoration posée sur un texte : le
       lecteur provoque l'événement. C'est un exemple net de ce que décrit
-      [[interface-gestural]], et il tient sans aucune interface visible — pas de
+      [[interface-gestural]], et il tient sans aucune interface visible : pas de
       bouton, pas de menu, juste le dessin.
 
       **Public de 2 ans.** Contrainte utile : un enfant qui ne lit pas ne peut pas
@@ -34,7 +34,7 @@
       L'œuvre n'a existé que dans l'App Store. Aujourd'hui l'application a disparu
       des boutiques et le site officiel renvoie une erreur serveur : il ne reste
       que des articles de presse et quelques captures. Publier dans une boutique,
-      c'est confier la survie de son travail à quelqu'un d'autre — le web ouvert
+      c'est confier la survie de son travail à quelqu'un d'autre. Le web ouvert
       n'est pas éternel non plus, mais au moins il s'archive.
     </markdown>
   </section>

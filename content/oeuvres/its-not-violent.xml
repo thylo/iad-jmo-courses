@@ -9,14 +9,14 @@
   <categorie>Performance</categorie>
   <voir ref="do-not-track"/>
 
-  <resume>Campagne de sensibilisation interactive utilisant des scénarios de textos réalistes où les utilisateurs incarnent une victime de violence conjugale psychologique — exposant comment la manipulation et le contrôle subtils se manifestent dans les communications quotidiennes entre partenaires.</resume>
+  <resume>Campagne de sensibilisation interactive utilisant des scénarios de textos réalistes où les utilisateurs incarnent une victime de violence conjugale psychologique, exposant comment la manipulation et le contrôle subtils se manifestent dans les communications quotidiennes entre partenaires.</resume>
 
   <visuel src="its-not-violent.jpg"
           source="https://itsnotviolent.com/"/>
 
   <section title="Ce qui fonctionne">
     <markdown>
-      Interface de messaging épurée (textos minimaliste) qui crée une proximité affective immédiate. Chaque scénario offre 243 combinaisons possibles de réponses, révélant comment les perceptions de ce qui est 'violent' varient radicalement selon les gens. Pas de 'bonne réponse' — juste des degrés d'inconfort. Afterward content éducatif démystifie les dynamiques d'abus. Structure pédagogique flexible: vote collectif, petits groupes, kiosque public.
+      Interface de messaging épurée (textos minimaliste) qui crée une proximité affective immédiate. Chaque scénario offre 243 combinaisons possibles de réponses, révélant comment les perceptions de ce qui est 'violent' varient radicalement selon les gens. Pas de 'bonne réponse', juste des degrés d'inconfort. Afterward content éducatif démystifie les dynamiques d'abus. Structure pédagogique flexible: vote collectif, petits groupes, kiosque public.
     </markdown>
   </section>
 
@@ -24,7 +24,7 @@
     <markdown>
       **It's Not Violent** est une **campagne interactive de sensibilisation** créée en 2018 par l'agence de design montréalaise **Locomotive** en partenariat avec **SOS Violence Conjugale**. Le projet utilise des **scénarios de textos réalistes** pour éduquer les jeunes de 15-25 ans sur les formes insidieuses de violence relationnelle: manipulation psychologique, contrôle, coercition sexuelle, surveillance, isolement.
 
-      Plutôt que de présenter un **jugement moral clair**, le projet place l'utilisateur face à l'**ambiguïté de situations réelles** où la violence n'est pas évidente au premier abord — et c'est précisément le propos.
+      Plutôt que de présenter un **jugement moral clair**, le projet place l'utilisateur face à l'**ambiguïté de situations réelles** où la violence n'est pas évidente au premier abord, et c'est précisément le propos.
     </markdown>
   </section>
 
@@ -36,7 +36,7 @@
 
       Insight: **Les jeunes ne reconnaissent pas la violence quand elle n'est pas physique.**
 
-      Plutôt que montrer des cas extrêmes (violence physique évidente), SOS Violence voulait montrer l'ordinaire — les **textos manipulateurs quotidiens** que beaucoup vivent sans réaliser que c'est de l'abus.
+      Plutôt que montrer des cas extrêmes (violence physique évidente), SOS Violence voulait montrer l'ordinaire : les **textos manipulateurs quotidiens** que beaucoup vivent sans réaliser que c'est de l'abus.
 
       ### Locomotive
 
@@ -115,7 +115,7 @@
         - Une menace voilée pour quelqu'un d'autre
         - Un contrôle normal de couple pour un tiers
 
-      **Leçon critique** : L'intention du sender n'est pas ce qui compte — c'est l'**impact sur le receiver**.
+      **Leçon critique** : L'intention du sender n'est pas ce qui compte, c'est l'**impact sur le receiver**.
 
       Ça interroge: Pourquoi on demande toujours "mais qu'est-ce que tu pensais vouloir dire ?" aux agresseurs ? Pourquoi leur intention prime sur ta sécurité ?
 
@@ -138,7 +138,7 @@
       - **Ressources présentes** : SOS Violence Conjugale line (1-800-363-9010) affichée
       - **Deuxième adulte** : Quelqu'un pour soutenir si quelqu'un divulgue un abus personnel
 
-      Ça reconnaît que **l'éducation sur la violence n'est pas neutre** — c'est du soin.
+      Ça reconnaît que **l'éducation sur la violence n'est pas neutre**, c'est du soin.
     </markdown>
   </section>
 

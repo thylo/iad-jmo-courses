@@ -3,6 +3,7 @@
   <annee>2018</annee>
   <par>Lucky Duck Games</par>
   <categorie>Jeu</categorie>
+  <concept ref="interface-plateau"/>
 
   <resume>Scannez des QR codes sur les cartes pour interroger des témoins via l'app, qui gère le dialogue et les indices selon vos découvertes. Certaines versions utilisent la réalité augmentée pour explorer les scènes de crime.</resume>
 

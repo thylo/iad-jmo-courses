@@ -6,6 +6,9 @@
   <par>SBS Australia</par>
   <url>https://www.sbs.com.au/theboat/</url>
   <categorie>Fiction</categorie>
+  <concept ref="role-fantome"/>
+  <concept ref="interface-scrollable"/>
+  <concept ref="structure-lineaire"/>
 
   <resume>Une bande dessinée à l'encre noire qui se lit en faisant défiler la page. Mai, seize ans, est mise sur un bateau qui quitte le Viêt Nam en 1979. Le défilement fait tanguer les dessins, monter la fumée, submerger l'écran ; adapté d'une nouvelle de Nam Le. Une trentaine de minutes, dans le navigateur, toujours en ligne dix ans après.</resume>
 
@@ -17,7 +20,7 @@
       **Le scroll devient le roulis.** Défiler fait bouger le bateau. Le geste de
       lecture et le mouvement raconté sont le même mouvement : on ne regarde pas
       la traversée, on la fait avancer. C'est le cas rare où l'interaction n'est
-      pas un supplément mais la métaphore centrale — voir [[interface-scrollable]].
+      pas un supplément mais la métaphore centrale. Voir [[interface-scrollable]].
 
       **L'encre fait le son.** Pas de musique omniprésente, pas de voix off : des
       lavis noirs qui envahissent l'écran, du texte qui apparaît par blocs, du
@@ -37,7 +40,7 @@
     <markdown>
       Le lecteur ne décide de rien : le récit est
       [[structure-lineaire|entièrement linéaire]], seul le rythme lui appartient.
-      Utile pour poser la question franchement — est-ce encore de l'interactivité,
+      Utile pour poser la question franchement : est-ce encore de l'interactivité,
       ou une très bonne mise en scène de la lecture ?
 
       Sur mobile, la longueur se paie : les séquences les plus lentes deviennent du

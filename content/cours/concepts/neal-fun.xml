@@ -1,0 +1,36 @@
+<concept id="neal-fun">
+  <titre>neal.fun</titre>
+  <genre>ressource</genre>
+  <voir ref="role-divinite"/>
+  <voir ref="interface-scrollable"/>
+
+  <resume>Une collection de petites pièces interactives faites par une seule personne. Le meilleur argument qu'on ait contre l'idée qu'il faut une équipe et un budget.</resume>
+
+  <section title="Ce que c'est">
+    <markdown>
+      [neal.fun](https://neal.fun/), de Neal Agarwal. Des dizaines d'objets courts, un
+      par page, chacun tenant sur une seule idée : descendre au fond de l'océan en
+      défilant, dépenser une fortune indécente, lancer un astéroïde sur sa ville,
+      remonter l'échelle du temps.
+
+      Aucun n'a de récit. Tous ont un dispositif, et chacun se comprend en trois
+      secondes.
+    </markdown>
+  </section>
+
+  <section title="Pourquoi c'est ici">
+    <markdown>
+      **Une idée, tenue jusqu'au bout.** C'est la règle du site, et c'est celle qu'on
+      demande en atelier. *The Deep Sea* n'est qu'un [[interface-scrollable|défilement]]
+      très long — mais il est long pour de vrai, et c'est ce qui produit la sensation.
+      Retirez la durée, il ne reste rien.
+
+      **Le public y est [[role-divinite|une divinité]].** On tourne les boutons, on
+      regarde le système répondre, on n'est nulle part dedans. Utile pour voir combien
+      ce rôle peut être satisfaisant sans une once de fiction.
+
+      **C'est faisable.** Une personne, du HTML, pas de production. À montrer avant de
+      laisser un projet d'atelier se convaincre qu'il lui faut une équipe.
+    </markdown>
+  </section>
+</concept>

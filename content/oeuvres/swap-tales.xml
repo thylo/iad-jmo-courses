@@ -1,15 +1,46 @@
 <oeuvre id="swap-tales" statut="en-ligne">
-  <titre>Swap Tales</titre>
+  <titre>SwapTales : Léon !</titre>
   <annee>2016</annee>
-  <par>Luma Arcade</par>
-  <url>https://www.swapta.me/</url>
-  <categorie>Interface</categorie>
+  <par>Witty Wings</par>
+  <par>Plug In Digital</par>
+  <url>http://www.wittywings.fr/en/swap-tales-leon/</url>
+  <categorie>Jeu</categorie>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-embranchements"/>
+  <concept ref="role-divinite"/>
 
-  <resume>Jeu narratif mobile où vous manipulez physiquement les éléments de l'histoire en les déplaçant sur l'écran tactile. Swap des objets, personnages et décors pour résoudre des énigmes et avancer dans le récit. L'interface devient manipulation littérale de la narration.</resume>
+  <resume>Un album illustré sur tablette dont on échange les mots. Chaque page contient deux à sept mots permutables : intervertissez-les et la phrase change, donc l'image change, donc l'histoire change. Léon veut échapper à sa baby-sitter. Soixante-deux pages, plus de deux mille cinq cents combinaisons, une trentaine de fins. Sorti sur iOS à l'automne 2016, sur Android en décembre.</resume>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      Transforme le tactile en outil de réorganisation narrative. Le geste de swipe/drag devient le mécanisme narratif principal. Interface comme métaphore du contrôle de l'histoire.
+      **La phrase est l'interface.** Il n'y a pas de bouton, pas de menu de choix, pas
+      de « que faire ? ». On touche un mot du texte, on le met ailleurs, et le monde
+      obéit. C'est l'une des rares œuvres où le geste d'interaction et l'acte
+      d'écriture sont exactement le même geste.
+
+      **C'est de la [[role-divinite|divinité]] à l'état pur.** Vous n'êtes pas Léon,
+      vous n'êtes nulle part dans l'histoire : vous êtes la personne qui récrit la
+      phrase. La position est claire, elle est tenue de bout en bout, et un enfant de
+      huit ans la comprend sans qu'on l'explique.
+
+      **La combinatoire est produite par la grammaire.** Deux mille cinq cents
+      combinaisons pour soixante-deux pages illustrées : ce n'est pas un
+      [[structure-embranchements|arbre]] dessiné à la main, c'est une contrainte
+      linguistique qui fabrique les branches. À montrer à quiconque annonce trente fins
+      dans un projet d'atelier — voici ce qu'il faut pour les tenir, et voici l'astuce
+      qui permet de ne pas les dessiner une par une.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      C'est une application, sur des magasins, avec un compte à rebours. La version qui
+      tournait sur les tablettes de 2016 ne tourne plus partout, et l'œuvre dépend de
+      quelqu'un qui la recompile.
+
+      Et l'astuce a un plafond : elle marche parce que les phrases sont courtes et les
+      images fixes. Transposer le principe à du texte long ou à de la vidéo demanderait
+      autre chose, et personne ne l'a encore fait.
     </markdown>
   </section>
 

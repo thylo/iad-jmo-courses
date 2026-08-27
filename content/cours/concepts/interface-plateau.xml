@@ -8,7 +8,7 @@
   <exemple ref="mansions-of-madness"/>
   <exemple ref="descent-legends-of-the-dark"/>
   <exemple ref="familiar-tales"/>
-  <voir ref="formes-interactivite"/>
+  <voir ref="forme-sociale"/>
   <voir ref="structure-a-etat"/>
   <voir ref="role-personnage"/>
 
@@ -17,7 +17,7 @@
   <section title="Définition">
     <markdown>
       Des gens sont assis autour d'une table. Il y a du carton, des figurines, des
-      cartes — et un téléphone ou une tablette qui tient une partie du jeu. L'app
+      cartes, et un téléphone ou une tablette qui tient une partie du jeu. L'app
       raconte, chronomètre, garde les secrets, calcule, se souvient.
 
       C'est une [[structure-a-etat|structure à état]] posée au milieu du salon. Le
@@ -28,7 +28,7 @@
 
       - Une part de la règle est cachée dans le logiciel
       - L'app peut garder une information qu'aucun joueur ne détient
-      - Le tangible reste au centre — sinon c'est un jeu vidéo avec des accessoires
+      - Le tangible reste au centre, sinon c'est un jeu vidéo avec des accessoires
       - Le récit peut varier sans que personne ait à le préparer
     </markdown>
   </section>
@@ -39,8 +39,8 @@
 
       > Qu'est-ce que l'application **remplace** ?
 
-      Si elle remplace un travail de comptabilité — additionner, chercher un
-      paragraphe dans un livret, tenir un tableau d'état — elle libère du temps
+      Si elle remplace un travail de comptabilité (additionner, chercher un
+      paragraphe dans un livret, tenir un tableau d'état), elle libère du temps
       pour l'histoire. Bon échange.
 
       Si elle remplace **une personne**, regardez ce que cette personne faisait
@@ -66,14 +66,14 @@
       tous les regards a remplacé la table, pas le narrateur.
 
       **Qui fait la saisie ?** Le second test est plus mécanique, et il tranche
-      vite. Regardez un geste fait sur la table — déplacer une figurine, ouvrir une
-      porte — et demandez-vous s'il **compte** en lui-même, ou s'il faut ensuite le
+      vite. Regardez un geste fait sur la table (déplacer une figurine, ouvrir une
+      porte) et demandez-vous s'il **compte** en lui-même, ou s'il faut ensuite le
       redire à l'application pour qu'il existe.
 
       Si le geste doit être répliqué à l'écran, le plateau n'est pas augmenté : il
       est **déporté**. C'est l'affichage d'un jeu vidéo qui se trouve être en
       carton, et les joueurs en sont les périphériques de saisie. Ils font
-      gratuitement le travail qu'un jeu vidéo ferait tout seul — bouger le pion,
+      gratuitement le travail qu'un jeu vidéo ferait tout seul : bouger le pion,
       puis déclarer qu'on l'a bougé.
 
       Le vrai plateau augmenté est celui où le geste physique est l'action, et où
@@ -88,7 +88,7 @@
       [[alice-is-missing]] (2020) est le cas propre. On joue à plusieurs, dans la
       même pièce, et on n'a **pas le droit de parler** : tout passe par des
       messages écrits. Le téléphone n'illustre pas le jeu, il *est* la contrainte.
-      Le silence dans la pièce pendant que les téléphones vibrent — aucune règle
+      Le silence dans la pièce pendant que les téléphones vibrent : aucune règle
       écrite sur du carton ne produit ça.
 
       [[chronicles-of-crime]] (2018) et [[detective-a-modern-crime-board-game]]
@@ -100,26 +100,26 @@
       [[tracks]] (2022) est la version minimale, et sans doute la plus juste. Vous
       êtes une unité de surveillance sonore, la S.B.A.S., chargée d'écouter la
       ville de Siren Bay. L'enquête est dans la bande son : on écoute au casque, on
-      suit une cible au bruit — un train qui passe, une porte, une voix — et on
+      suit une cible au bruit (un train qui passe, une porte, une voix) et on
       trace son trajet sur un plan de papier.
 
       L'application existe, mais elle ne fait qu'une chose : jouer le son. Elle ne
       calcule rien, ne garde aucun secret, n'arbitre rien. Toute l'intelligence est
       dans le montage. Un indice caché dans un fond sonore, qu'on n'entend qu'à la
-      deuxième écoute, ce n'est pas de la programmation — c'est du travail de
+      deuxième écoute, ce n'est pas de la programmation, c'est du travail de
       monteur son.
 
       Et ce que le carton ne fait pas, le son le fait : il impose son tempo à la
       table, il force à écouter ensemble, il ne se relit pas en diagonale.
 
       C'est la démonstration que **augmenté ne veut pas dire intelligent**. Au
-      passage, le jeu prend pour sujet ce qu'il fait faire au public — de la
-      [[surveillance|surveillance]] — ce qui n'est pas si courant.
+      passage, le jeu prend pour sujet ce qu'il fait faire au public, de la
+      [[surveillance|surveillance]], ce qui n'est pas si courant.
 
       [[unlock|Unlock!]] (2017) tient sa place ici pour une raison précise :
       l'application n'y raconte rien. Elle affiche des énigmes et des mini-jeux qui
-      seraient impraticables sur du carton — un mécanisme qu'il faut manipuler, une
-      image qu'on fouille, une machine à régler — puis elle vérifie les codes, tient
+      seraient impraticables sur du carton (un mécanisme qu'il faut manipuler, une
+      image qu'on fouille, une machine à régler), puis elle vérifie les codes, tient
       le chronomètre et distribue les indices. Rien d'autre. Le récit, lui, est sur
       les cartes.
 
@@ -127,7 +127,7 @@
       contraire. Taper un code dans l'application, ce n'est pas ressaisir un geste
       déjà fait sur la table : le code **est** la réponse, c'est le coup qu'on joue.
       Déclarer qu'on a déplacé un pion, c'est de la manutention ; annoncer une
-      solution, c'est jouer. La différence tient à ça — l'application reçoit-elle
+      solution, c'est jouer. La différence tient à ça : l'application reçoit-elle
       une décision, ou un compte rendu ?
 
       ### 2. Elle remplace le maître de jeu
@@ -139,7 +139,7 @@
 
       Le gain est réel : plus personne n'est sacrifié à la logistique, tout le
       monde joue du même côté. Mais la personne qui jouait le méchant faisait
-      autre chose que placer des pions — elle regardait vos visages.
+      autre chose que placer des pions : elle regardait vos visages.
 
       [[descent-legends-of-the-dark]] (2021) et [[familiar-tales]] (2022) vont plus
       loin : l'app tient le scénario entier, les dialogues, la progression. Le
@@ -151,7 +151,7 @@
       Les [[editions-volumiques|éditions volumiques]] (Étienne Mineur et Bertrand
       Duplat, depuis 2009) ont pris le problème à l'envers : cacher l'écran.
 
-      Leur trouvaille tient en une observation — une dalle tactile ne distingue pas
+      Leur trouvaille tient en une observation : une dalle tactile ne distingue pas
       un doigt d'autre chose de conducteur. Un motif de points conducteurs imprimé
       sur une carte ou moulé sous un pion, et l'écran reconnaît l'objet posé
       dessus, sa position, son orientation. Pas de caméra, pas de puce, pas de
@@ -173,7 +173,7 @@
       carton. Du papier qui dure des siècles, dépendant d'un logiciel qui dure
       trois ans.
 
-      L'atelier, lui, a survécu — en cessant d'éditer pour équiper les autres. Son
+      L'atelier, lui, a survécu en cessant d'éditer pour équiper les autres. Son
       portfolio compte aujourd'hui les applications des boîtes [[unlock|Unlock!]],
       vendues par centaines de milliers. Ce qui a duré n'est pas le bel objet, c'est
       le savoir-faire : assez léger pour voyager dans le travail de gens qui ne
@@ -208,8 +208,8 @@
       il passe dessus. Une file d'événements différés, visible par toute la table.
 
       Ce que ces jeux montrent est utile même si vous ne ferez jamais de carton.
-      Chaque mécanisme est une structure de données — un état, une table, une file
-      — et le carton oblige à la rendre visible pour qu'elle soit jouable. Une app
+      Chaque mécanisme est une structure de données (un état, une table, une file)
+      et le carton oblige à la rendre visible pour qu'elle soit jouable. Une app
       n'a pas cette contrainte : elle peut cacher n'importe quoi, et souvent elle
       cache le jeu.
 
@@ -234,7 +234,7 @@
       - Les regards migrent vers l'écran, et le jeu devient parallèle plutôt que collectif
       - Un narrateur logiciel ne rate jamais rien, donc il ne surprend jamais
       - Dépendance totale : plus de mise à jour, plus de jeu
-      - L'app est une boîte noire — on ne peut ni la discuter, ni la contourner, ni
+      - L'app est une boîte noire : on ne peut ni la discuter, ni la contourner, ni
         négocier avec elle comme on négocie avec un maître de jeu
     </markdown>
   </section>
@@ -267,7 +267,7 @@
       peuvent pas retenir, et rien d'autre.
 
       **Testez sans écran d'abord.** Si votre jeu ne fonctionne pas du tout avec un
-      humain qui lit les cartes à voix haute, l'app ne le sauvera pas — elle
+      humain qui lit les cartes à voix haute, l'app ne le sauvera pas, elle
       cachera juste le problème derrière une interface.
     </markdown>
   </section>

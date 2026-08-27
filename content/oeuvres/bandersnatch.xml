@@ -5,6 +5,9 @@
   <par>Charlie Brooker</par>
   <url>https://www.netflix.com/title/80988062</url>
   <categorie>Fiction</categorie>
+  <concept ref="structure-embranchements"/>
+  <concept ref="forme-machine"/>
+  <concept ref="role-personnage"/>
 
   <resume>Film dont le spectateur influence le déroulement par des choix à des moments clés. Structure narrative complexe avec multiples fins.</resume>
 

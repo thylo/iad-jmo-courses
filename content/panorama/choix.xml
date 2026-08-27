@@ -1,9 +1,9 @@
 <page id="choix">
   <titre>Types de choix</titre>
-  <resume>Le seul découpage qui juge au lieu de décrire. Un choix peut être rationnel, exploratoire, ou faux — et le faux choix est partout.</resume>
+  <resume>Le seul découpage qui juge au lieu de décrire. Un choix peut être rationnel, exploratoire, ou faux. Le faux choix est partout.</resume>
 
   <markdown>
-    Les sept autres découpages rangent. Celui-ci évalue, et il faut le dire
+    Les autres découpages rangent. Celui-ci évalue, et il faut le dire
     franchement plutôt que de faire semblant d'être neutre.
 
     Devant une proposition faite au public, trois cas.
@@ -42,7 +42,7 @@
       [du côté des structures](/panorama/structures) : un arbre trop ambitieux, un
       budget qui n'a pas suivi, des branches qu'il a fallu recoller. Ici on ne
       regarde que le résultat, du point de vue de celui qui joue. D'où le conseil qui
-      revient partout — **peu de choix, mais qui comptent.**
+      revient partout : **peu de choix, mais qui comptent.**
     </markdown>
   </section>
 
@@ -67,10 +67,25 @@
       général plus courte que ce que l'œuvre laissait croire.
 
       **Enlevez l'interaction.** Si le récit tient debout sans elle, elle est un
-      ornement — ce n'est pas grave, mais il faut le savoir et arrêter de la défendre
-      comme le cœur du projet. S'il s'effondre, vous tenez quelque chose.
+      ornement. Ce n'est pas grave, mais il faut le savoir, et arrêter de la
+      défendre comme le cœur du projet. S'il s'effondre, vous tenez quelque chose.
 
       Faites les deux sur votre propre projet avant de le défendre.
     </markdown>
+  </section>
+
+  <section title="Une fois le choix reconnu comme vrai">
+    <markdown>
+      Reste la question que ce découpage ne pose pas : parmi les choix qui comptent
+      vraiment, tous ne pèsent pas pareil, et deux mécaniques très ordinaires suffisent
+      à en annuler le poids.
+    </markdown>
+
+    <destinations>
+      <destination to="poids-du-choix">
+        Trois degrés de liberté, la sauvegarde et la cinématique, et pourquoi la
+        branche sombre ne sera vue que par une personne sur dix
+      </destination>
+    </destinations>
   </section>
 </page>

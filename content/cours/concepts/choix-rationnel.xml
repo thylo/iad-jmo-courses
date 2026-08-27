@@ -3,272 +3,107 @@
   <genre>choix</genre>
   <exemple ref="jeu-d-influences"/>
   <exemple ref="lifeline"/>
-  <exemple ref="bandersnatch"/>
-  <exemple ref="late-shift"/>
-  <exemple ref="the-boat"/>
+  <exemple ref="cartaventura"/>
+  <exemple ref="80-days"/>
   <voir ref="structure-embranchements"/>
+  <voir ref="structure-a-etat"/>
   <voir ref="choix-exploratoire"/>
   <voir ref="faux-choix"/>
 
-  <resume>Choix qui modifie réellement le cours de l'histoire avec des conséquences visibles et différentes.</resume>
+  <resume>Vous avez de quoi décider, vous pesez, vous tranchez, et la conséquence correspond. C'est le choix le plus coûteux à écrire, et le seul qui tienne la promesse que font toutes les autres œuvres.</resume>
 
   <section title="Définition">
     <markdown>
-      Le choix rationnel crée un embranchement narratif réel. Chaque option mène à des conséquences différentes et visibles. Le public influence vraiment le récit via ses décisions. C'est l'équivalent du montage alternatif de Rashomon : plusieurs versions de la même scène.
+      Trois conditions, et il faut les trois. L'œuvre vous a donné l'information avant
+      de demander. Vous pouvez peser une option contre l'autre. Ce qui suit correspond
+      à ce que vous avez fait.
 
-      **Caractéristiques :**
-
-      - Décision stratégique ou morale
-      - Embranchement narratif réel
-      - Conséquences visibles et différentes selon les choix
-      - Sentiment de responsabilité
-      - Impact narratif : Fort
+      Enlevez la première, vous obtenez un [[choix-exploratoire|choix exploratoire]] :
+      on choisit pour voir, ce qui est honnête tant que l'œuvre ne prétend pas le
+      contraire. Enlevez la troisième, vous obtenez un [[faux-choix|faux choix]].
     </markdown>
   </section>
 
-  <section title="La métaphore cinématographique">
+  <section title="Schéma">
     <markdown>
-      Le **montage alternatif de Rashomon** : plusieurs versions de la même scène, chacune change la vérité.
-
-      Vous incarnez vraiment le metteur en scène de votre histoire.
-    </markdown>
-  </section>
-
-  <section title="Intention créative">
-    <markdown>
-      **Je veux que le public :**
-
-      - **Décide** vraiment du cours de l'histoire
-      - **Sente** la responsabilité de ses choix
-      - **Ait** le sentiment d'agentivité réelle
-      - **Découvre** les conséquences de ses décisions
-    </markdown>
-  </section>
-
-  <section title="Avantages">
-    <markdown>
-      - Immersion émotionnelle profonde
-      - Agentivité réelle du public
-      - Rejoueabilité (différents choix = différentes histoires)
-      - Responsabilité morale engageante
-      - Sens de conséquence
-    </markdown>
-  </section>
-
-  <section title="Inconvénients">
-    <markdown>
-      - Explosion combinatoire (20 choix = 1M+ fins)
-      - Production complexe
-      - Tester toutes les branches est coûteux
-      - Risque de faux choix si mal géré
-      - Déception si conséquences peu visibles
-    </markdown>
-  </section>
-
-  <section title="Exemples détaillés">
-    <markdown>
-      ### Jeu d'Influences (2013)
-
-      - Vos décisions politiques changent le cours des événements
-      - Plusieurs fins possibles selon vos choix
-      - Conséquences visibles en temps réel (statistiques)
-      - Chaque chemin raconte une histoire différente
-
-      ### Lifeline (2015)
-
-      - Vous conseillez un astronaute en danger
-      - Vos choix le maintiennent en vie ou le tuent
-      - Chaque décision a un impact immédiat
-      - Conséquences viscérales et visibles
-
-      ### Life is Strange (2015)
-
-      - 4 choix majeurs par chapitre qui modifient vraiment l'histoire
-      - Relations, événements, fins différentes
-      - Le jeu se souvient de vos décisions
-      - Ramifications complexes convergeant vers fin
-
-      ### Bandersnatch (2018)
-
-      - Film Netflix avec 180+ points de décision
-      - Vos choix changent trajectoire de Stefan
-      - Multiples fins possibles
-      - Certains choix redirigent même l'avenir dans la boucle
-
-      ### The Boat (2015)
-
-      - Décisions morales en temps réel (pas de pause)
-      - Conséquences immédiates et viscérales
-      - Chaque choix affecte profondément l'histoire
-      - Tension morale très haute
-    </markdown>
-  </section>
-
-  <section title="Les trois piliers du choix rationnel">
-    <markdown>
-      ### 1. Objectif clair
-
-      Le public doit savoir ce qu'il veut accomplir.
-
-      **Bon exemple - Lifeline :**
-
-      - Objectif : Maintenir Taylor en vie
-      - Chaque choix est évalué selon cet objectif
-
-      **Mauvais exemple :**
-
-      - "Voulez-vous aller à gauche ou à droite ?"
-      - Sans objectif, impossible de décider rationnellement
-
-      ### 2. Information pertinente
-
-      Le public doit connaître les conséquences probables.
-
-      **Bon exemple - The Walking Dead :**
-
-      - Avant un choix moral, vous connaissez les personnages
-      - Vous pouvez anticiper qui va réagir comment
-      - Votre choix est éclairé
-
-      **Mauvais exemple :**
-
-      - "Choisissez le bouton rouge ou bleu"
-      - Aucune information sur les conséquences
-      - Autant lancer un dé
-
-      ### 3. Conséquence visible
-
-      Le public doit **voir** l'impact de son choix.
-
-      **Bon exemple :**
-
-      - Choisir de sauver Marie ou Jean
-      - Vous voyez immédiatement qui a été sauvé
-      - Récit diverge visiblement
-
-      **Mauvais exemple :**
-
-      - "Vous avez sauvé Jean !"
-      - [Plus tard] "Mais Marie est sauvée aussi par quelqu'un d'autre"
-      - Faux choix = rupture de confiance
-    </markdown>
-  </section>
-
-  <section title="Solutions à l'explosion combinatoire">
-    <markdown>
-      ### 1. Convergence narrative
-
-      Plusieurs chemins mènent au même point.
-
       ```
-             A ──┐
-                ├─→ C ──┐
-             B ──┘      ├─→ E
-                        │
-             D ─────────┘
+      information  ─►  délibération  ─►  décision  ─►  conséquence
+      « le train de     « j'ai l'argent    on prend     on arrive à Suez
+        14h coûte le      mais Fogg est     le train     sans un sou, et
+        double »          malade »                       Fogg tousse encore
+
+      Retirez une case et il ne reste rien :
+
+      sans information    → on tire à pile ou face
+      sans délibération   → les options sont équivalentes
+      sans conséquence    → faux choix
       ```
-
-      **Exemple :**
-
-      - Choix affectent le voyage, pas la destination finale
-      - Tous les chemins mènent au même climax
-      - Mais comment on y arrive varie
-
-      ### 2. Choix hiérarchisés
-
-      Tous les choix ne sont pas égaux.
-
-      **Structure recommandée :**
-
-      - 10% de choix majeurs (embranchements réels)
-      - 30% de choix mineurs (impacts subtils)
-      - 60% de choix exploratoires (contenu additionnel)
-
-      ### 3. Choix forcés
-
-      Créer un dilemme où TOUS les choix ont des conséquences.
-
-      **Exemple : Firewatch**
-
-      - Certains dialogues offrent plusieurs réponses
-      - Mais toutes les réponses mènent au même endroit
-      - La différence : le ton de la conversation, pas les événements
-      - Vous sentez l'agentivité sans explosion combinatoire
     </markdown>
   </section>
 
-  <section title="Piège à éviter : Les faux choix">
+  <section title="Le cas propre">
     <markdown>
-      **Définition :** Un choix qui semble rationnel mais n'a aucune vraie conséquence.
+      [[jeu-d-influences]] ne vous fait pas choisir entre deux branches. Un communicant
+      de crise vous conseille, vous acceptez ou vous refusez, et la partie vous renvoie
+      à la fin ce que ces acceptations disent de vous. L'information est là (vous savez
+      ce qu'on vous demande et ce que ça coûte), la délibération est réelle, et la
+      conséquence n'est pas un embranchement : c'est un portrait.
 
-      **Exemple typique :**
-      ```
-      Le jeu : "Voulez-vous sauver Marie ou Jean ?"
-      Vous : [Choisissez Jean]
-      Le jeu : "Vous avez sauvé Jean !"
-      [5 minutes plus tard]
-      Le jeu : "Marie est sauvée aussi par quelqu'un d'autre"
-      ```
-
-      **Pourquoi c'est problématique :**
-
-      - Rupture du contrat avec le public
-      - Sentiment de manipulation
-      - Perte de confiance dans les choix suivants
-      - Frustration ("Mon choix ne sert à rien")
+      C'est ce que [le poids du choix](/panorama/poids-du-choix) appelle le choix qui
+      engage. Ce qui le distingue n'est pas le nombre de branches, c'est que les
+      décisions se souviennent les unes des autres.
     </markdown>
   </section>
 
-  <section title="Bonnes pratiques">
+  <section title="Ce que ça coûte">
     <markdown>
-      1. **Objectif cristallin** : Public sait ce qu'il veut
-      2. **Information complète** : Suffit pour décider éclairé
-      3. **Conséquences visibles** : Immédiatement observables
-      4. **Pas de faux choix** : Si vous dites que ça change, ça change
-      5. **Hiérarchisation** : Varier l'importance des choix
-      6. **Convergence** : Gérer l'explosion combinatoire
+      Beaucoup. C'est la seule chose à retenir avant de promettre.
+
+      Un choix rationnel demande d'écrire l'information en amont, les deux suites, et
+      la trace que chacune laisse ensuite. En [[structure-embranchements|arbre]], la
+      note double à chaque nœud : cinq décisions successives, trente-deux fins.
+      Personne ne finit ça.
+
+      D'où le déplacement que fait [[80-days]] : la mémoire n'est pas dans la position
+      mais dans une liste de faits (votre itinéraire, votre argent, la santé de Fogg).
+      La production redevient linéaire, les conséquences restent réelles. C'est la
+      [[structure-a-etat|structure à état]], et c'est la réponse la plus utilisable à
+      l'échelle d'un projet d'atelier.
+
+      Le hors-ligne le montre encore mieux. [[cartaventura]] tient cinq fins dans une
+      boîte de poche et n'a jamais prétendu à davantage : la carte retournée est
+      retournée, devant cinq personnes qui vous regardent. L'irréversibilité y est
+      physique, elle ne coûte pas une ligne de code.
     </markdown>
   </section>
 
-  <section title="Risques courants">
+  <section title="Erreurs courantes">
     <markdown>
-      ❌ **Explosion combinatoire** : Impossibilité de produire
-      ❌ **Faux choix** : Rupture de confiance
-      ❌ **Pas assez d'info** : Choix basé sur le hasard
-      ❌ **Conséquences flues** : On ne voit pas l'impact
-      ❌ **Fatigue décisionnelle** : Trop de choix = paralysie
+      - Poser la question avant d'avoir donné l'information : le public tire au sort
+        et le sait
+      - Deux options aux effets quasi identiques. Ce n'est pas un choix, c'est une
+        tâche fastidieuse déguisée en décision
+      - Multiplier les décisions en croyant multiplier l'implication. Passé un seuil,
+        ça produit l'inverse : une charge qui épuise avant d'engager
+      - Rendre la conséquence invisible. Un récit qui retient sans jamais le montrer
+        équivaut à un récit qui ne retient rien
+      - Laisser le bouton retour du navigateur annuler tout ce qu'on vient d'écrire.
+        Il est là par défaut, personne ne l'a décidé
     </markdown>
   </section>
 
-  <section title="Solutions">
+  <section title="Pour votre projet">
     <markdown>
-      ✅ Hiérarchiser les choix
-      ✅ Converger les branches narrative
-      ✅ Contexte riche avant le choix
-      ✅ Feedback immédiat et visible
-      ✅ Tester réellement chaque branche
-      ✅ Soyez honnête sur les conséquences
-    </markdown>
-  </section>
+      **Trois choix rationnels suffisent.** Le reste peut être exploratoire, assumé
+      comme tel. Une œuvre courte avec trois décisions qui pèsent bat une œuvre longue
+      avec trente qui ne pèsent pas.
 
-  <section title="Relation avec les interfaces">
-    <markdown>
-      Le choix rationnel s'associe bien avec :
+      **Écrivez la conséquence en premier.** Puis remontez vers l'information qu'il
+      fallait donner pour que la décision soit possible. Dans ce sens-là, on ne
+      promet jamais ce qu'on n'a pas.
 
-      - **Point-and-Click** : Choix clairement présentés
-      - **Dialogue** : Choix de réponses
-      - **Environnement** : Actions qui changent la situation
-    </markdown>
-  </section>
-
-  <section title="La magie du choix rationnel">
-    <markdown>
-      Quand bien fait, le choix rationnel crée :
-
-      - Engagement émotionnel profond
-      - Sentiment d'agentivité authentique
-      - Envie de rejouer pour explorer d'autres chemins
-      - Connexion personnelle au récit
+      **Rendez la trace visible.** Une phrase qui rappelle ce que vous avez fait au
+      chapitre 1 vaut plus qu'une branche entière que personne ne verra.
     </markdown>
   </section>
 

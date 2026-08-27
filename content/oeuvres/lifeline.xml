@@ -4,6 +4,10 @@
   <par>3 Minute Games</par>
   <url>https://www.bigfishgames.com/games/14076/lifeline/</url>
   <categorie>Fiction</categorie>
+  <concept ref="structure-embranchements"/>
+  <concept ref="forme-machine"/>
+  <concept ref="role-soi-meme"/>
+  <concept ref="choix-rationnel"/>
 
   <resume>Jeu narratif textuel où vous communiquez avec un astronaute échoué via notifications mobiles. L'histoire se déroule en temps réel : si l'astronaute dort 8h, vous attendez vraiment 8h. Choix binaires qui influencent la survie du personnage.</resume>
 

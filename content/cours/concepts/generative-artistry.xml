@@ -1,0 +1,33 @@
+<concept id="generative-artistry">
+  <titre>Generative Artistry</titre>
+  <genre>ressource</genre>
+  <voir ref="tracery"/>
+
+  <resume>Des tutoriels qui refont, pas à pas et dans le navigateur, des œuvres génératives historiques. On y apprend qu'une image forte peut tenir en quinze lignes.</resume>
+
+  <section title="Ce que c'est">
+    <markdown>
+      [Generative Artistry](https://generativeartistry.com/), de Tim Holman et Ruth
+      John (2018). Chaque page prend une pièce connue — *Tiled Lines*, *Joy Division*,
+      *Cubic Disarray*, *Triangular Mesh* — et la reconstruit devant vous, en ajoutant
+      une instruction à la fois. Le canvas se met à jour à chaque étape.
+
+      Ce sont des tutoriels de code, mais ils se lisent comme des analyses d'œuvre.
+    </markdown>
+  </section>
+
+  <section title="Pourquoi c'est ici">
+    <markdown>
+      Parce qu'ils démontrent la même chose que [[wall-drawings|Sol LeWitt]], avec
+      quarante ans d'écart et une machine à la place des assistants : **l'œuvre est le
+      protocole.** *Cubic Disarray*, c'est « dessine une grille, et fais tourner chaque
+      carré un peu plus à mesure qu'on descend ». La phrase suffit, le reste est de
+      l'exécution.
+
+      C'est le trajet le plus court entre « je ne sais pas programmer » et « j'ai
+      compris ce qu'écrire une règle veut dire » — et c'est un préalable utile avant
+      de discuter de ce qu'une machine décide et de ce qu'elle ne décide pas, sur
+      [ranger n'est pas neutre](/panorama/ranger).
+    </markdown>
+  </section>
+</concept>

@@ -9,8 +9,10 @@
   <par>Ramattan Studios</par>
   <url>http://gaza-sderot.arte.tv/</url>
   <categorie>Documentaire</categorie>
+  <concept ref="role-fantome"/>
+  <concept ref="interface-split-screen"/>
 
-  <resume>Deux villes distantes de trois kilomètres, de part et d'autre de la frontière. Chaque jour, une équipe palestinienne à Gaza et une équipe israélienne à Sderot filment une chronique de deux minutes ; les deux vidéos du jour se regardent côte à côte. Six habitants d'un côté, six de l'autre, suivis du 26 octobre au 23 décembre 2008 — quarante épisodes, quatre-vingts vidéos. Prix Europa 2008.</resume>
+  <resume>Deux villes distantes de trois kilomètres, de part et d'autre de la frontière. Chaque jour, une équipe palestinienne à Gaza et une équipe israélienne à Sderot filment une chronique de deux minutes ; les deux vidéos du jour se regardent côte à côte. Six habitants d'un côté, six de l'autre, suivis du 26 octobre au 23 décembre 2008 : quarante épisodes, quatre-vingts vidéos. Prix Europa 2008.</resume>
 
   <visuel src="gaza-sderot.jpg"
           source="http://gaza-sderot.arte.tv/"/>
@@ -24,8 +26,8 @@
 
       **Quatre entrées dans le même corpus.** Le temps, les gens, les lieux, les
       thèmes : quatre façons de traverser les mêmes quatre-vingts vidéos. On
-      choisit ce qui nous intéresse — chronologie, personne, géographie ou sujet
-      — sans qu'aucune ne soit la bonne.
+      choisit ce qui nous intéresse (chronologie, personne, géographie ou sujet)
+      sans qu'aucune ne soit la bonne.
 
       **Publié au jour le jour.** Le projet a été diffusé pendant qu'il se
       tournait, cinq jours par semaine, sans savoir ce qui arriverait. Le web
@@ -41,7 +43,7 @@
     <markdown>
       Le lecteur était en Flash. Fin 2020, Flash est mort et l'interface avec :
       le site est toujours debout, mais il s'ouvre sur un message d'excuses et un
-      renvoi vers des solutions de repli. Le contenu existe, la forme non — et
+      renvoi vers des solutions de repli. Le contenu existe, la forme non, et
       c'était la forme qui portait le propos.
 
       Sur le fond, à discuter en cours : la symétrie du dispositif met les deux

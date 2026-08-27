@@ -1,234 +1,106 @@
 <concept id="role-divinite">
-  <titre>Le Public comme Divinité</titre>
+  <titre>Une divinité</titre>
   <genre>role</genre>
-  <exemple ref="swap-tales"/>
-  <exemple ref="immortality"/>
   <exemple ref="fort-mcmoney"/>
-  <voir ref="structure-concentrique"/>
+  <exemple ref="the-fallen-of-world-war-ii"/>
+  <exemple ref="seeing-theory"/>
+  <exemple ref="immortality"/>
+  <voir ref="role-fantome"/>
+  <voir ref="structure-constellation"/>
 
-  <resume>L'utilisateur a un contrôle omniscient et omnipotent sur l'univers narratif, au-delà du simple rôle de personnage.</resume>
+  <resume>Vous n'êtes nulle part dans la fiction et vous en tenez les leviers. La position par défaut de tout ce qui se manipule comme un modèle.</resume>
 
   <section title="Définition">
     <markdown>
-      Le rôle de divinité place le public au-dessus du récit. Il n'appartient pas au monde narratif mais le contrôle entièrement. Il manipule le temps, l'espace, les règles et les destinées. C'est le pouvoir créateur absolu.
+      Aucun corps, aucun nom, aucune place dans le récit — et un pouvoir que personne
+      dans la fiction ne possède : changer les règles, remonter le temps, voir
+      simultanément ce qui s'est passé sur trente ans.
 
-      **Caractéristiques :**
-
-      - Vous n'appartenez pas au récit mais vous le contrôlez
-      - Vos pouvoirs dépassent ceux de n'importe quel personnage
-      - Vous manipulez le temps, l'espace, les règles du monde
-      - Vous êtes **créateur/destructeur** plutôt qu'acteur
-      - Vision omnisciente du système
-
-      **Interactions typiques :**
-
-      - Contrôle du temps (pause, retour arrière, accélération)
-      - Manipulation de l'espace narratif
-      - Réorganisation des éléments du récit
-      - Prise de décisions godlike affectant tous les personnages
+      C'est le rôle du tableau de bord, de la simulation, de la carte, de la table de
+      montage. Le public n'y suit pas une histoire, il éprouve un système.
     </markdown>
   </section>
 
-  <section title="La métaphore cinématographique">
+  <section title="Schéma">
     <markdown>
-      Être le **monteur** qui réorganise les scènes, ralentit ou accélère le temps, juxtapose les images selon sa volonté narrative.
+      ```
+      Fantôme                          Divinité
 
-      Vous n'êtes pas dans le film, vous décidez comment assembler le film.
+       événements fixes                 règles
+            ▲                             ▲
+            │ regarde                     │ tourne les boutons
+          vous                          vous
+                                          │
+                                          ▼
+                                     les événements
+                                     se recalculent
+
+      Le fantôme choisit d'où il voit.
+      La divinité choisit ce qui arrive, sans être dedans.
+      ```
     </markdown>
   </section>
 
-  <section title="Pouvoir du public">
+  <section title="Trois usages">
     <markdown>
-      L'interactivité de la divinité repose sur :
+      **Gouverner.** [[fort-mcmoney]] vous confie une ville pétrolière de l'Alberta :
+      vous interrogez les habitants, puis vous votez des mesures, et la ville change
+      entre les chapitres. Personne ne vous a demandé de quel droit — c'est justement
+      la question que le dispositif laisse ouverte.
 
-      - **Manipulation temporelle** : Pause, retour arrière, accélération
-      - **Manipulation spatiale** : Déplacer des éléments, réorganiser l'univers
-      - **Vision omnisciente** : Voir tout sans limite
-      - **Décisions godlike** : Choisir le destin de personnages/mondes
+      **Comprendre un système.** [[the-fallen-of-world-war-ii]] est un film de
+      graphiques qui s'arrête pour vous laisser fouiller, et
+      [[seeing-theory]] laisse tourner les paramètres d'une loi statistique jusqu'à ce
+      qu'on la sente. Le récit n'est plus une suite d'événements : c'est un ensemble
+      de règles dont on éprouve les effets.
+
+      **Recomposer.** [[immortality]] vous donne les rushes de trois films qui
+      n'existent pas et une table de montage. L'ordre chronologique n'est plus donné ;
+      c'est vous qui le fabriquez, et le sens avec.
+
+      Dans les trois cas, le public a plus de pouvoir que n'importe quel personnage —
+      et aucun enjeu personnel. C'est l'échange.
     </markdown>
   </section>
 
-  <section title="Ce que la divinité PEUT faire">
+  <section title="Ce que ça coûte">
     <markdown>
-      - Modifier les règles du monde
-      - Réorganiser les événements
-      - Changer les relations entre personnages
-      - Influencer tous les destins
-      - Voir tous les chemins possibles
+      **L'absence d'incarnation.** On ne s'attache pas à un curseur. Les œuvres qui
+      tiennent longtemps dans ce rôle ramènent presque toujours des gens dedans :
+      Fort McMoney fait parler des habitants avant de faire voter, et
+      *The Fallen* revient sur des vies individuelles entre deux graphiques.
+
+      **Un système qui ne surprend pas ne raconte rien.** Si tourner les boutons donne
+      toujours le résultat attendu, ce n'est pas un modèle, c'est une illustration.
+      L'intérêt commence là où le résultat contredit l'intuition.
+
+      **Le pouvoir doit être réel.** Une « divinité » avec des boutons décoratifs est
+      le pire des [[faux-choix|faux choix]], parce qu'on l'a annoncée toute-puissante.
     </markdown>
   </section>
 
-  <section title="Ce que la divinité ne peut PAS faire">
+  <section title="Erreurs courantes">
     <markdown>
-      - Vivre émotionnellement dans l'univers (elle est extérieure)
-      - Créer du contenu entièrement nouveau (elle remixe)
-      - Ignorer complètement la logique du système
+      - Confondre tableau de bord et récit. Une visualisation qu'on filtre n'est pas
+        une œuvre narrative, et n'a pas à en porter le costume
+      - Donner trente paramètres. Deux ou trois suffisent pour qu'un système se
+        comprenne ; au-delà, on ne fait plus de lien entre le geste et l'effet
+      - Oublier de dire ce qu'on modélise, et à partir de quelles données. C'est le
+        même problème que sur [ranger n'est pas neutre](/panorama/ranger) : un modèle
+        qui masque ses choix les fait passer pour des faits
     </markdown>
   </section>
 
-  <section title="Intention créative">
+  <section title="Pour votre projet">
     <markdown>
-      **Je veux que le public :**
+      C'est le rôle le plus faisable sans comédien ni tournage — et le plus facile à
+      rater en produisant un graphique interactif de plus.
 
-      - **Contrôle** entièrement l'univers
-      - **Expérimente** différentes configurations
-      - **Découvre** les mécaniques système
+      **Un seul levier, bien choisi.** Faites une chose que le public peut tourner, et
+      montrez-en toutes les conséquences plutôt que d'en offrir dix superficielles.
 
-      C'est idéal si vous explorez comment les **systèmes** fonctionnent plutôt qu'une histoire personnelle.
-    </markdown>
-  </section>
-
-  <section title="Adapté pour">
-    <markdown>
-      - Jeux de puzzle narratif
-      - Expériences de montage vidéo
-      - Systèmes complexes à explorer
-      - Métafictions rompant le 4e mur
-      - Expériences algorithmiques
-    </markdown>
-  </section>
-
-  <section title="Avantages">
-    <markdown>
-      - Sensation de contrôle absolu
-      - Exploration systémique riche
-      - Rejoueabilité infinie
-      - Interaction non-linéaire
-      - Émerveillement face aux possibilités
-    </markdown>
-  </section>
-
-  <section title="Inconvénients">
-    <markdown>
-      - Perte d'immersion émotionnelle
-      - Distance avec le récit
-      - Risque de complexité accablante
-      - Responsabilité paralysante (trop de choix)
-      - Coût de développement gigantesque
-    </markdown>
-  </section>
-
-  <section title="Design d'interface">
-    <markdown>
-      L'interface d'une divinité est typiquement :
-
-      - **Contrôles temporels** : Timeline, play/pause, scrubbing
-      - **Contrôles spatiaux** : Drag &amp; drop, manipulation directe
-      - **Vue omnisciente** : Map ou overview du système
-      - **Indicateurs** : Stats, relations, conséquences visibles
-      - **Feedback** : Réactions du système aux changements
-    </markdown>
-  </section>
-
-  <section title="Exemples détaillés">
-    <markdown>
-      ### Swap Tales (2016)
-
-      - Vous déplacez physiquement les éléments de l'histoire
-      - Réorganisation tactile du récit
-      - Chaque mouvement crée nouvelles significations
-      - Pouvoir divin de réarranger la narration
-
-      ### IMMORTALITY (2022)
-
-      - Vous explorez des rushes de films en apparence chaotiques
-      - Montage omniscient pour découvrir une métahistoire
-      - Chaque connexion révèle des liens cachés
-      - Vous découvrez ce qui s'est "vraiment" passé
-
-      ### Fort McMoney (Votes collectifs)
-
-      - Vous votez collectivement sur des décisions politiques
-      - Vos votes changent le destin de toute une ville
-      - Vision omnisciente des conséquences
-      - Pouvoir divin de diriger une société
-
-      ### God Game Genre
-
-      - **Deux Points Hospital**, **Simcity**, **The Sims**
-      - Contrôle total d'un système complexe
-      - Pas d'identification à un personnage
-      - Godlike power = core gameplay
-    </markdown>
-  </section>
-
-  <section title="Quand choisir le rôle de divinité ?">
-    <markdown>
-      - ✅ Vous explorez un **système complexe**
-      - ✅ Le contrôle absolu est thématiquement pertinent
-      - ✅ La distance émotionnelle ne dérange pas
-      - ✅ Vous avez beaucoup de contenu/branches à gérer
-      - ❌ Vous racontez une histoire personnelle/intime
-    </markdown>
-  </section>
-
-  <section title="Combinaisons courantes">
-    <markdown>
-      Le rôle de divinité s'associe bien avec :
-
-      - **Structures narratives** : Concentrique (convergence des branches)
-      - **Formes d'interactivité** : Machine (monde prédessiné à explorer)
-      - **Types de choix** : Systémiques plutôt que narratifs
-    </markdown>
-  </section>
-
-  <section title="Variantes du rôle de divinité">
-    <markdown>
-      ### Divinité limitée
-      Contrôle sur un aspect seulement (ex : temps mais pas espace).
-
-      - **Exemple :** Pause seulement, pas remontée du temps
-
-      ### Divinité collective
-      Plusieurs divinités partagent le contrôle.
-
-      - **Exemple :** Fort McMoney - votes collectifs
-
-      ### Divinité graduelle
-      Votre pouvoir s'accroît au fil du temps.
-
-      - **Exemple :** Unlocking new godly powers
-    </markdown>
-  </section>
-
-  <section title="Gestion des attentes">
-    <markdown>
-      Le piège majeur : **paralysie du choix** où trop de liberté devient frustrante.
-
-      **Solutions :**
-
-      - Guider avec des objectifs (même légers)
-      - Montrer les conséquences clairement
-      - Limiter les choix de manière intelligente
-      - Offrir un sandbox où "tout va" est acceptable
-    </markdown>
-  </section>
-
-  <section title="Rupture du 4e mur">
-    <markdown>
-      Le rôle divinité introduit naturellement des jeux avec le 4e mur :
-
-      - "Vous contrôlez ce personnage"
-      - "Vous créez ce monde"
-      - "Vous êtes le vrai metteur en scène"
-
-      Cela peut devenir une source de réflexivité narrative.
-    </markdown>
-  </section>
-
-  <section title="Distinction importante">
-    <markdown>
-      **Rôle du public ≠ Forme d'interactivité**
-
-      Une divinité interagit toujours avec une **forme** :
-
-      - **Interactivité Machine** : Univers prédessiné à contrôler
-      - **Interactivité Sociale** : Votes collectifs de divinités (multiplayer godhood)
-
-      La différence :
-
-      - **Rôle** : Divinité - j'ai contrôle absolu
-      - **Forme** : Comment ce contrôle s'exerce techniquement
+      **Montrez le système, pas le résultat.** Ce qui se retient n'est pas le chiffre
+      final, c'est le moment où on comprend pourquoi il bouge dans ce sens-là.
     </markdown>
   </section>
 

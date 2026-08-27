@@ -17,7 +17,7 @@
       récit tient une petite liste de ce qui est vrai : *le loup est mort*, *vous
       avez la lanterne*, *vous n'êtes jamais allé au port*, *vous devez de l'argent
       à Fogg*. Les scènes ne sont plus des nœuds ordonnés, mais des morceaux
-      disponibles sous condition — chacun déclare quand il a le droit d'apparaître,
+      disponibles sous condition : chacun déclare quand il a le droit d'apparaître,
       et ce qu'il dit selon l'état.
 
       Caractéristiques :
@@ -63,11 +63,11 @@
 
       [[80-days]] (2014) : plus de 150 villes reliées librement, un demi-million de
       mots. Le jeu retient votre itinéraire, votre argent, votre malle, l'état de
-      santé de Fogg, les rumeurs qu'on vous a données — et les voyageurs croisés en
+      santé de Fogg, les rumeurs qu'on vous a données, et les voyageurs croisés en
       route parlent des lignes que vous n'avez pas prises.
 
       *Sorcery!* (2013-2016), adapté des livres-jeux de Steve Jackson, est passé en
-      quatre épisodes du livre dont vous êtes le héros — un arbre — au monde ouvert
+      quatre épisodes du livre dont vous êtes le héros (un arbre) au monde ouvert
       où l'on revient sur ses pas, où l'on remonte le temps, et où tout ce qu'on a
       fait reste vrai.
 
@@ -94,7 +94,7 @@
 
       Sa réponse tient dans ce qu'il appelle l'**écriture défensive** : chaque
       morceau vérifie ce qui est vrai avant de parler, et prévoit le cas où ce qu'il
-      devait raconter est déjà arrivé — ou n'arrivera jamais. Le récit doit se tenir
+      devait raconter est déjà arrivé, ou n'arrivera jamais. Le récit doit se tenir
       quelle que soit la route empruntée pour y arriver.
 
       C'est exactement le villageois du schéma : si le loup est mort, il ne prévient
@@ -117,7 +117,7 @@
     <markdown>
       - La combinatoire ne disparaît pas, elle se déplace dans le **test** : on ne
         peut plus jouer tous les états possibles
-      - Les bugs deviennent narratifs — un personnage qui parle d'un mort
+      - Les bugs deviennent narratifs : un personnage qui parle d'un mort
       - L'écriture devient conditionnelle, donc proche de la programmation
       - Le climax n'est plus donné : sans arbre, rien ne garantit une montée
       - Un état invisible ne sert à rien : si le récit retient sans jamais le
@@ -138,7 +138,7 @@
     <markdown>
       - **Inventaire** : l'état, ce sont des objets qu'on porte
       - **Mémoire des lieux** : première visite / retour
-      - **Jauges** : réputation, fatigue, argent — l'état est un curseur, pas un
+      - **Jauges** : réputation, fatigue, argent. L'état est un curseur, pas un
         oui/non
       - **Arbre court + état long** : quelques [[structure-embranchements|embranchements]]
         pour le squelette, l'état pour tout le reste

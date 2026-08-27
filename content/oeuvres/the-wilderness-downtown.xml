@@ -1,16 +1,44 @@
-<oeuvre id="the-wilderness-downtown" statut="en-ligne">
+<oeuvre id="the-wilderness-downtown" statut="hors-ligne">
   <titre>The Wilderness Downtown</titre>
   <annee>2010</annee>
   <par ref="chris-milk"/>
   <par ref="google-creative-lab"/>
-  <url>http://www.thewildernessdowntown.com/</url>
+  <par>Arcade Fire</par>
+  <url>https://experiments.withgoogle.com/the-wilderness-downtown</url>
   <categorie>Interface</categorie>
+  <concept ref="structure-lineaire"/>
+  <concept ref="role-soi-meme"/>
 
-  <resume>Clip pour "We Used to Wait" d'Arcade Fire qui utilise Google Maps de votre quartier d'enfance, ouvre plusieurs fenêtres de navigateur synchronisées, animations HTML5 Canvas. Expérience personnalisée et immersive.</resume>
+  <resume>Clip interactif pour « We Used to Wait » d'Arcade Fire. On donne l'adresse de la maison de son enfance, et le film va la chercher dans Google Earth et Street View : un adolescent court dans une rue, et cette rue est la vôtre. Plusieurs fenêtres de navigateur s'ouvrent et se placent toutes seules à l'écran, chorégraphiées avec la chanson. À la fin, on écrit une lettre à l'enfant qu'on était. Démonstration de HTML5 commandée par Google pour Chrome.</resume>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      Pionnier de l'usage créatif de l'API Google Maps et des fenêtres multiples synchronisées. Transforme le clip musical en expérience nostalgique personnelle.
+      **Une seule donnée, et tout le film en dépend.** Une adresse. C'est la
+      démonstration la plus économique de ce que peut faire le
+      [[role-soi-meme|rôle de soi-même]] : rien n'est personnalisé au sens du
+      marketing, c'est le sujet même du morceau — l'attente, l'enfance, le lieu qu'on a
+      quitté — qui va chercher votre vie.
+
+      **La fenêtre du navigateur est le cadre.** Au lieu d'une vidéo dans une page,
+      des pop-ups qui s'ouvrent, se déplacent et composent l'image. Le décor est le
+      logiciel lui-même. Personne n'avait fait ça, et peu l'ont refait depuis.
+
+      **Le récit reste [[structure-lineaire|entièrement linéaire]].** Aucune décision,
+      aucune branche : le morceau dure ce qu'il dure. Ce qui varie, ce sont les images,
+      pas le récit. Utile pour montrer qu'on peut impliquer sans faire choisir.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Ça ne tourne plus comme au premier jour. Les navigateurs ont fermé la porte aux
+      pop-ups automatiques, l'imagerie de Street View a changé, et beaucoup d'adresses
+      ne donnent plus rien. Une œuvre bâtie sur les données d'un tiers vieillit à la
+      vitesse de ce tiers.
+
+      Et il faut le dire aux étudiants : c'est une démonstration technique commandée
+      par un navigateur pour vendre un navigateur. Ça n'enlève rien à ce qu'elle
+      réussit, mais ça explique pourquoi elle a eu ces moyens-là.
     </markdown>
   </section>
 

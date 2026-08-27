@@ -5,6 +5,8 @@
   <par>Andy Dollerson</par>
   <url>https://www.fallen.io/ww2/</url>
   <categorie>Documentaire</categorie>
+  <concept ref="role-divinite"/>
+  <concept ref="interface-timeline"/>
 
   <resume>Un film de quinze minutes entièrement fait de graphiques animés, qui compte les morts de la Seconde Guerre mondiale puis regarde ce qui s'est passé depuis. La narration est continue, mais elle s'arrête à des moments précis : le graphique devient alors manipulable, et on peut aller chercher le détail avant de reprendre. Écrit, réalisé, codé et raconté par une seule personne.</resume>
 
@@ -21,7 +23,7 @@
 
       **Une barre peut faire un plan.** Halloran filme des graphiques comme on
       filme un décor : profondeur de champ, échelle, temps de pause. La
-      visualisation n'illustre pas le propos, elle est le propos — voir
+      visualisation n'illustre pas le propos, elle est le propos. Voir
       [[interface-timeline]].
 
       **La quantité devient physique.** Une figure = un mort. Quand l'écran se
@@ -30,14 +32,14 @@
 
       **Le doute est montré.** Les estimations divergentes apparaissent comme
       fourchettes, pas comme chiffres nets. Un documentaire qui affiche son
-      incertitude au lieu de la lisser — rare, et à copier.
+      incertitude au lieu de la lisser. C'est rare, et à copier.
     </markdown>
   </section>
 
   <section title="Ce qui coince">
     <markdown>
       L'interactivité est mince : trois ou quatre pauses où l'on peut cliquer.
-      Retirez-les et il reste un très bon film. Utile comme cas limite — jusqu'où
+      Retirez-les et il reste un très bon film. Utile comme cas limite : jusqu'où
       peut-on retirer l'interaction avant que l'œuvre change de nature ?
 
       Et le montage impose une lecture. Les morts sont comptés, comparés, mis en

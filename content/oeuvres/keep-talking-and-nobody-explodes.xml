@@ -4,12 +4,43 @@
   <par>Steel Crate Games</par>
   <url>https://keeptalkinggame.com/</url>
   <categorie>Jeu</categorie>
+  <concept ref="forme-sociale"/>
+  <concept ref="role-soi-meme"/>
 
-  <resume>Un joueur voit une bombe sur l'écran, les autres ont le manuel de désamorçage (papier ou PDF). Communication verbale urgente requise. Interface web synchronisée entre désamorceur et experts.</resume>
+  <resume>Une personne est devant une bombe à l'écran. Les autres ont un manuel de désamorçage sur papier, et ne voient pas la bombe. Celle qui voit ne sait rien, celles qui savent ne voient rien : il faut se décrire, se comprendre et se croire, en quelques minutes. Né d'une Global Game Jam en 2014, sur le thème « on ne voit pas les choses telles qu'elles sont, mais telles que nous sommes ». Le manuel est en accès libre, il suffit de l'imprimer.</resume>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      Crée une expérience de communication intense en séparant l'information visuellement. Le web devient l'interface du joueur actif.
+      **Le manuel n'est pas dans le jeu.** C'est toute l'idée. La moitié de
+      l'information est sur un écran, l'autre sur du papier, et rien ne les relie sauf
+      des gens qui parlent. Aucune interface ne fait le travail : l'interface, c'est la
+      conversation.
+
+      **L'asymétrie produit la dramaturgie, pas le contenu.** Il n'y a pas d'histoire
+      écrite. La tension vient entièrement de la répartition de l'information et du
+      chronomètre — [[forme-sociale|le récit se fabrique entre les gens]], l'auteur
+      n'a fourni que le lieu et les règles.
+
+      **À mettre à côté d'[[alice-is-missing]] et de [[tracks]].** Les trois posent la
+      même question : qu'est-ce qui doit rester à l'écran, et qu'est-ce qui doit passer
+      par des humains dans la même pièce ? Ici, la réponse est radicale — l'écran ne
+      raconte rien, il pose un problème.
+
+      **C'est reproductible en atelier.** Une page web qui affiche un dispositif, un
+      PDF imprimé qui explique comment le résoudre, deux personnes qui ne voient pas la
+      même chose. Aucune technologie difficile, et un prototype tient en une séance.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Ça ne se joue qu'en présence, ou au minimum en voix. Le dispositif s'effondre à
+      l'écrit ou en différé : il repose sur l'urgence de se faire comprendre à l'oral,
+      et sur le bruit que ça produit dans la pièce.
+
+      Et le manuel s'apprend. Après quelques parties, les experts n'ont plus besoin de
+      lire, l'asymétrie s'efface, et il ne reste qu'un jeu d'adresse. Le dispositif a
+      une durée de vie par groupe, ce qui est rarement le cas d'un récit.
     </markdown>
   </section>
 

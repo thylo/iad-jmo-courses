@@ -1,0 +1,42 @@
+<concept id="bitsy">
+  <titre>Bitsy</titre>
+  <genre>ressource</genre>
+  <voir ref="structure-a-etat"/>
+  <voir ref="interface-point-click"/>
+
+  <resume>Un éditeur de petits jeux narratifs qui tourne dans le navigateur. Trois couleurs, des sprites de huit pixels, pas une ligne de code, et un fichier HTML autonome à la sortie.</resume>
+
+  <section title="Ce que c'est">
+    <markdown>
+      [Bitsy](https://ledoux.itch.io/bitsy), d'Adam Le Doux (2017). On dessine des
+      pièces, on y pose des objets et des personnages, on écrit ce qu'ils disent, on
+      relie les pièces entre elles par des portes. C'est tout. Il n'y a pas de combat,
+      pas de score, pas de physique : uniquement marcher, regarder et parler.
+
+      L'export est un fichier HTML unique. On le met en ligne quelque part, on envoie
+      un lien, et ça se joue. Rien à installer pour vous, rien à installer pour le
+      public.
+    </markdown>
+  </section>
+
+  <section title="Pourquoi c'est dans un cours de narration">
+    <markdown>
+      Parce que la contrainte est le professeur. Trois couleurs et huit pixels, ça veut
+      dire qu'aucun projet ne peut être sauvé par son graphisme : ce qui reste, c'est
+      ce que l'espace raconte et ce que les gens disent. C'est exactement ce que
+      demande [raconter par l'espace](/panorama/raconter-par-l-espace), avec un budget
+      de zéro.
+
+      Et parce que le format oblige à finir. Un Bitsy se fait en deux heures. Un
+      projet fini, même minuscule, apprend plus que trois dossiers de conception.
+    </markdown>
+  </section>
+
+  <section title="Ce qu'il ne fait pas">
+    <markdown>
+      Pas de variables, ou à peine, sans extensions. On ne tient pas d'état, donc on ne
+      fait pas de [[structure-a-etat|récit qui se souvient]] : ce que Bitsy sait faire,
+      c'est un espace qu'on traverse. Le savoir évite de se battre contre l'outil.
+    </markdown>
+  </section>
+</concept>

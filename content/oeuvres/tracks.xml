@@ -6,6 +6,7 @@
   <par>Juan Rodriguez</par>
   <url>https://www.asmodee.be/product/tracks/</url>
   <categorie>Jeu</categorie>
+  <concept ref="interface-plateau"/>
 
   <resume>Jeu d'enquête sonore. Les joueurs forment la S.B.A.S., unité chargée d'écouter la ville de Siren Bay : on suit une cible au casque, au bruit, et on trace son trajet sur un plan. Quinze affaires d'environ vingt-cinq minutes, une application qui ne sert qu'à diffuser le son.</resume>
 
@@ -14,7 +15,7 @@
       La technologie y est réduite au minimum et fait pourtant tout le travail :
       l'application est un lecteur audio, rien de plus. Elle ne calcule pas,
       n'arbitre pas, ne garde aucun secret. Ce qui fait l'enquête, c'est le
-      montage son — un train qui passe, une porte, une voix de fond qu'on ne
+      montage son : un train qui passe, une porte, une voix de fond qu'on ne
       remarque qu'à la deuxième écoute.
 
       Le contraste avec les jeux où l'application tient le scénario entier

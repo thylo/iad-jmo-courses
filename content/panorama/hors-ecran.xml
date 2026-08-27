@@ -17,13 +17,13 @@
 
   <section title="L'écran comme compagnon">
     <markdown>
-      L'expérience est physique — une table, des cartes, une salle — et l'écran fait
+      L'expérience est physique (une table, des cartes, une salle) et l'écran fait
       le travail ingrat : lire un code, tenir le compte, jouer un son au bon moment.
       Il peut être posé au milieu de la table, il n'est jamais l'endroit où on
       regarde.
 
       - [Unlock!](/oeuvres/unlock), [Chronicles of Crime](/oeuvres/chronicles-of-crime),
-        [Alice is Missing](/oeuvres/alice-is-missing) — l'app valide, chronomètre,
+        [Alice is Missing](/oeuvres/alice-is-missing) : l'app valide, chronomètre,
         déclenche ; le récit est sur la table
       - Escape games : de plus en plus de technologie dans les salles, et de moins en
         moins visible
@@ -38,16 +38,16 @@
       Retirez la machine et regardez ce qui continue de fonctionner. Ces quatre-là
       tiennent un récit interactif avec du carton.
 
-      - [Cartaventura](/oeuvres/cartaventura) — les cartes posées sur la table *sont*
+      - [Cartaventura](/oeuvres/cartaventura). Les cartes posées sur la table *sont*
         l'état du récit : une décision en remplace une partie, et on voit la structure
         changer sous ses yeux
-      - [Backstories](/oeuvres/backstories) — un point &amp; click sans écran : une carte
+      - [Backstories](/oeuvres/backstories). Un point &amp; click sans écran : une carte
         Action perforée posée sur une carte Lieu, et la fenêtre découpée donne la
         conséquence. Choisir un verbe, désigner une cible, lire la réponse
-      - [Heredity](/oeuvres/heredity) — un sablier avance sur une frise du temps et
+      - [Heredity](/oeuvres/heredity) : un sablier avance sur une frise du temps et
         déclenche les cartes qu'on y a accrochées : une file d'événements différés,
         posée à plat, visible par tous
-      - [Flashback : Zombie Kidz](/oeuvres/flashback-zombie-kidz) — une scène figée,
+      - [Flashback : Zombie Kidz](/oeuvres/flashback-zombie-kidz). Une scène figée,
         vue par les yeux de chaque personnage qui s'y trouve. Presque aucun texte : le
         récit tient au montage que les joueurs font entre les points de vue
 
@@ -55,7 +55,7 @@
       tenir un état, chercher une réponse dans une table, déclencher un événement plus
       tard, faire d'une image sa propre table des matières. À la différence près
       qu'ici la solution doit rester visible pour être jouable. C'est pour ça qu'ils
-      s'analysent si bien — et qu'ils fonctionneront encore quand l'app de la boîte
+      s'analysent si bien, et qu'ils fonctionneront encore quand l'app de la boîte
       d'à côté aura cessé d'être maintenue.
     </markdown>
   </section>
@@ -64,7 +64,7 @@
     <markdown>
       Le jeu de rôle tient l'extrême de l'axe : un système qui improvise, répond à
       tout, et qu'aucun logiciel ne sait imiter. Voir ce que le maître de jeu fait
-      vraiment, c'est comprendre ce qu'une application ne fera pas — la question est
+      vraiment, c'est comprendre ce qu'une application ne fera pas. La question est
       posée dans [Plateau augmenté](/cours/concepts/interface-plateau).
     </markdown>
   </section>

@@ -1,15 +1,43 @@
 <oeuvre id="ionnyk-frame" statut="en-ligne">
-  <titre>Ionnyk Frame</titre>
+  <titre>IONNYK</titre>
   <annee>2020</annee>
-  <par>Ionnyk</par>
-  <url>https://www.ionnyk.com/fr/guide-utilisateur/</url>
-  <categorie>Muséale</categorie>
+  <par>Charlotte Dubois</par>
+  <par>Mathieu Demeuse</par>
+  <par>Antoine Baudoux</par>
+  <url>https://www.ionnyk.com/</url>
+  <categorie>Interface</categorie>
 
-  <resume>Cadres numériques à encre électronique pour afficher des œuvres d'art dans des musées ou espaces d'exposition. Technologie e-ink pour un rendu qui se rapproche de l'impression, faible consommation énergétique, contenu actualisable à distance.</resume>
+  <resume>Un cadre belge qui affiche des photographies en noir et blanc sur du papier électronique. Pas de câble, pas de rétroéclairage, plus d'un an d'autonomie : l'image reste affichée sans consommer, comme une estampe. On change de photo par abonnement, dans un catalogue de plus de mille cinq cents tirages, ou on achète une édition limitée.</resume>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Pourquoi c'est ici">
     <markdown>
-      Démontre comment la technologie numérique peut servir l'exposition muséale sans dénaturer l'expérience. L'e-ink offre un compromis élégant entre flexibilité numérique et qualité d'affichage proche du papier.
+      **Parce que ce n'est pas interactif, et que c'est une décision.** Tout, dans cet
+      objet, sert à faire oublier qu'il y a un écran : pas de lumière émise, pas de
+      notification, rien qui bouge, rien qui réagit à votre présence. C'est un écran
+      conçu pour se comporter comme du papier.
+
+      À montrer juste après une salle d'installations qui clignotent. La question
+      qu'il pose est celle que le cours pose partout, prise à l'envers : **qu'est-ce
+      qu'on gagne à ne rien rendre interactif ?** Ici, la durée d'attention et le
+      droit de ne pas être sollicité.
+
+      **C'est belge, et c'est un modèle économique.** Conçu à partir d'une idée de
+      Charlotte Dubois et Mathieu Demeuse, rendu possible techniquement par Antoine
+      Baudoux. L'objet est vendu, les images sont louées : c'est l'abonnement appliqué
+      à la photographie d'art, ce qui mérite discussion — vous ne possédez pas ce que
+      votre cadre affiche.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le cadre dépend d'un service. Le jour où l'entreprise s'arrête, il reste un objet
+      qui affiche sa dernière image et ne peut plus en changer. Même compte à rebours
+      que sous les jeux de [[interface-plateau|plateau augmenté]], appliqué à un meuble.
+
+      Et ce n'est pas une œuvre : c'est un support. Il figure dans ce cabinet parce que
+      les décisions qu'il prend sont des décisions d'auteur, pas parce qu'il raconte
+      quelque chose.
     </markdown>
   </section>
 

@@ -5,6 +5,8 @@
   <par ref="chris-milk"/>
   <url>https://www.youtube.com/watch?v=mUosdCQsMkM</url>
   <categorie>Documentaire</categorie>
+  <concept ref="structure-lineaire"/>
+  <concept ref="interface-3d"/>
 
   <resume>Documentaire en réalité virtuelle qui plonge le spectateur dans le camp de réfugiés de Za'atari en Jordanie à travers les yeux d'une jeune fille syrienne.</resume>
 

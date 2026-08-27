@@ -4,6 +4,7 @@
   <par ref="fantasy-flight-games"/>
   <url>https://www.youtube.com/watch?v=qk_BXDKLU28</url>
   <categorie>Jeu</categorie>
+  <concept ref="interface-plateau"/>
 
   <resume>App qui gère entièrement le scénario, les dialogues, les objectifs et la progression. Terrain physique en 3D pour les combats tactiques.</resume>
 
@@ -30,7 +31,7 @@
       table doit être répliquée dans l'application : on déplace la figurine, puis on
       déclare le déplacement ; on ouvre la porte, puis on dit qu'on l'a ouverte.
       Aucun geste ne compte tant qu'il n'a pas été ressaisi. Le jeu se joue dans
-      l'application — le carton en est l'affichage, et les joueurs le périphérique
+      l'application : le carton en est l'affichage, et les joueurs le périphérique
       de saisie. Ils font à la main, en double, le travail qu'un jeu vidéo ferait
       tout seul.
 

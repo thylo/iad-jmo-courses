@@ -4,6 +4,7 @@
   <par>Nicky Case</par>
   <url>https://ncase.me/</url>
   <categorie>Outil</categorie>
+  <concept ref="structure-constellation"/>
 
   <resume>Collection de "jeux" interactifs qui enseignent des concepts complexes : théorie des jeux, évolution, anxiété, biais cognitifs. Chaque concept devient une simulation interactive.</resume>
 
