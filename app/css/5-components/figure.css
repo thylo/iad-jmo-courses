@@ -4,9 +4,21 @@
    of the component rather than something a writer remembers to add, which is
    the only way it stays systematic. */
 
+/* Only the block margin is declared here, and the inline one is deliberately
+   left alone.
+
+   The reset already zeroes a figure's margins, so there is nothing to undo. A
+   `margin-inline: 0` on this class would not be redundant, it would be a bug:
+   .c-bleed carries the negative margin that pulls a figure to the paper's edge,
+   it sits in the objects layer, and it has exactly the same specificity as this
+   class. Objects are imported before components, so the later declaration wins
+   and every .c-figure.c-bleed on the site silently stops bleeding — while the
+   caption offset below keeps firing and lands on nothing.
+
+   The layers have no @layer between them, so order is the only thing keeping
+   them apart. A component may not restate a property an object owns. */
 .c-figure {
   margin-block: var(--space-l);
-  margin-inline: 0;
 }
 
 /* The lead image of a fiche. It sits between the summary and the fiche proper,
@@ -81,8 +93,9 @@
   margin-block: var(--space-m);
 }
 
-/* The one place the sheet needs a second breakpoint, and it is a property of
-   this component rather than of the page.
+/* The sheet has one breakpoint; the field figure needs two of its own, and both
+   are properties of this component rather than of the page. This is the one
+   below, where there is no field left to float into.
 
    The text column is minmax(0, measure): below about 72em it is served less
    than the measure, so the width above — the reading less the measure — goes
@@ -95,6 +108,56 @@
     float: none;
     inline-size: auto;
   }
+}
+
+/* And a margin of its own, once the window can pay for one.
+
+   The sheet has a margin on the left — the 196px column that holds the labels
+   and the margin notes — and nothing has ever answered it on the right. So a
+   figure in the field runs to field-end, which is where <image width="full"/>
+   starts from and where every block of the page already ends: the two widest
+   things a page can do look alike at the edge that is supposed to tell them
+   apart.
+
+   Giving the figure the same 196px on its right puts its edge exactly opposite
+   text-start. The page gets two margins instead of one, the field figure stops
+   short of the edge the bleed owns, and the difference between annotating the
+   reading and interrupting it is visible without reading a word.
+
+   Its left edge does not move: the margin is taken out of the width, so the
+   float still starts at field-start and no line wraps around it.
+
+   That is also why this waits for 85em. The margin is paid for out of the
+   image, and a field figure has never been allowed below the ~270px it gets at
+   the threshold above; 85em is the width at which it still has that much left
+   after paying. Under it the field keeps everything it has. */
+@media (min-width: 85em) {
+  .c-figure--field {
+    inline-size: calc(
+      100% - var(--measure-text) - var(--space-xl) - var(--sidebar-width)
+    );
+    margin-inline-end: var(--sidebar-width);
+  }
+}
+
+/* A figure that moves — an animated image, marked by App\Media\ImageTag.
+
+   A reader who has asked their system for no motion does not get it, and the
+   whole figure goes rather than the image alone: a caption crediting something
+   that is not on the page is worse than no figure at all.
+
+   Hidden rather than paused, which is the honest reading of what these are. A
+   moving image on this site is always a second example beside a still one, or
+   the punchline of a montage — never a step of the argument. Nothing that only
+   exists in the animation is said nowhere else, so removing it costs a reader
+   an illustration and no information. If that ever stops being true, the answer
+   is a poster frame, not a pause button.
+
+   The browser tends to skip the download too: these are lazy, and an element
+   with no box never enters the viewport. That is a side effect, not the
+   reason. */
+@media (prefers-reduced-motion: reduce) {
+  .c-figure--motion { display: none; }
 }
 
 /* A figure gets one caption. When the image carries both a legend and a credit,

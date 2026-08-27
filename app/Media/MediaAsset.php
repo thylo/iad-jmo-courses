@@ -17,17 +17,22 @@ final readonly class MediaAsset
         public array $widths,
         /** Of the original, so an untouched file is not encoded twice. */
         public string $hash,
-        /**
-         * "webp" for everything that goes through the encoder, "gif" for a
-         * file served as it is. An animated GIF has one file and no variants:
-         * see MediaBuilder for why it is copied rather than encoded.
-         */
+        /** The extension of the file actually served: "webp" for everything. */
         public string $format = 'webp',
+        /**
+         * A moving image: one file, no variants, copied rather than encoded.
+         *
+         * This is what decides how the asset is served, not the extension. An
+         * animated WebP and a still one are both "webp" and have nothing else
+         * in common — the still has four widths to choose between, the moving
+         * one is a finished object. See MediaBuilder for how it is detected.
+         */
+        public bool $animated = false,
     ) {}
 
     public function src(int $width): string
     {
-        if ($this->format !== 'webp') {
+        if ($this->animated) {
             return sprintf('/media/%s.%s', $this->name, $this->format);
         }
 
@@ -37,7 +42,7 @@ final readonly class MediaAsset
     /** Empty when there is nothing to choose between: one file, one width. */
     public function srcset(): string
     {
-        if ($this->format !== 'webp') {
+        if ($this->animated) {
             return '';
         }
 
@@ -63,6 +68,7 @@ final readonly class MediaAsset
             widths: array_map(intval(...), (array) $entry['widths']),
             hash: (string) $entry['hash'],
             format: (string) ($entry['format'] ?? 'webp'),
+            animated: (bool) ($entry['animated'] ?? false),
         );
     }
 
@@ -75,6 +81,7 @@ final readonly class MediaAsset
             'widths' => $this->widths,
             'hash' => $this->hash,
             'format' => $this->format,
+            'animated' => $this->animated,
         ];
     }
 

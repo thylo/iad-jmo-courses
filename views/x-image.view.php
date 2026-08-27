@@ -8,7 +8,7 @@
  * screen reader skipping it beats it reading out "unlock.jpg".
  *
  * srcset and sizes are dropped when there is nothing to choose between — a
- * file served as it is, an animated GIF, has one width and one file.
+ * moving image is copied rather than encoded, so it has one width and one file.
  *
  * @var string $src
  * @var string $srcset

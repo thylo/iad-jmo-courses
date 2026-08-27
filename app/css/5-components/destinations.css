@@ -122,16 +122,41 @@
 
    Either way the description moves under the name, a half step down. What
    makes an entry a door is the name, the arrow and the gap — none of that
-   lives in the columns, so none of it is lost. */
+   lives in the columns, so none of it is lost.
+
+   And it takes the measure with it. In the columns the description was held by
+   a track; under the name it has nothing holding it, and .c-destinations sets
+   max-width: none on the whole index, so a description left to itself ran the
+   full width of the reading — 126 signs to the line against 73 in the prose
+   underneath. A description is a sentence like any other and reads on the same
+   measure as the rest of the page.
+
+   Only the single door needs saying. Below the fold the one column is already
+   narrower than the measure everywhere a phone exists, so the cap would never
+   be the thing doing the work.
+
+   The description has to be blockified for either value to exist at all. It is
+   a <span>, and in the columns it was a grid item, which made it a block
+   without anyone asking; the moment the link goes back to display: block it
+   falls back to being an inline box, where max-width and margin-block-start
+   are both simply ignored. The half step below was never applied either — what
+   looked like one was the line box. */
 .c-destinations--single .c-destinations__link { display: block; }
 
 .c-destinations--single .c-destinations__description {
+  display: block;
   margin-block-start: var(--space-s);   /* 14 */
+  max-width: var(--measure-text);
 }
 
+/* Below the fold, the same two declarations for the same reason. */
 @media (max-width: 47.999em) {
   .c-destinations__link { display: block; }
-  .c-destinations__description { margin-block-start: var(--space-s); }       /* 14 */
+
+  .c-destinations__description {
+    display: block;
+    margin-block-start: var(--space-s);   /* 14 */
+  }
 }
 
 /* --- The way in ---------------------------------------------------------

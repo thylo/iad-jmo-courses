@@ -47,8 +47,13 @@ final readonly class ImageTag
      * figure set there is the window less the two gutters, the margin, the
      * measure and the step between — about 62rem across the range. Same
      * approximation as SIZES_FIGURE, and the same reason it is allowed.
+     *
+     * Past 85em the figure hands back a margin the width of the sidebar, so it
+     * is another 12.25rem narrower. figure.css owns that threshold and names it;
+     * this is the same threshold said where the browser can read it before the
+     * layout exists.
      */
-    private const string SIZES_FIELD = '(min-width: 48em) calc(100vw - 62rem), calc(100vw - 3.5rem)';
+    private const string SIZES_FIELD = '(min-width: 85em) calc(100vw - 74rem), (min-width: 48em) calc(100vw - 62rem), calc(100vw - 3.5rem)';
 
     /**
      * The opening plate is the only image that changes column with the window:
@@ -182,9 +187,19 @@ final readonly class ImageTag
      *
      * The caption goes through the prose pipeline: it is a sentence, and a
      * sentence that names a work should be able to link to it.
+     *
+     * A moving image says so on the figure, because the whole figure is what a
+     * reader who asked for no motion does without — hiding the image alone
+     * would leave a caption crediting something nobody can see. Said here
+     * rather than at each call site: a figure that moves is a figure that
+     * moves, whether it opens a fiche or annotates a paragraph.
      */
     private function figure(Visual $visual, string $image, string $class, ContentIndex $index): string
     {
+        if ($this->library->find($visual->asset)?->animated === true) {
+            $class .= ' c-figure--motion';
+        }
+
         return $this->components->render(
             'x-figure',
             class: $class,

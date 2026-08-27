@@ -19,16 +19,6 @@ final readonly class MediaBuilder
 {
     private const array EXTENSIONS = ['jpg', 'jpeg', 'png', 'webp', 'gif'];
 
-    /**
-     * Copied as it is, never encoded.
-     *
-     * GD reads one frame of an animated GIF and would hand back a still, so
-     * the encoder is the wrong tool: there is nothing to scale here, only a
-     * finished object to serve. A GIF that is too heavy for a page is a
-     * problem to fix in the file, not in the build.
-     */
-    private const array VERBATIM = ['gif'];
-
     public function __construct(
         private Images $images,
     ) {}
@@ -76,7 +66,7 @@ final readonly class MediaBuilder
         [$width, $height] = $this->images->dimensions($path);
         $format = strtolower(pathinfo($path, PATHINFO_EXTENSION));
 
-        if (in_array($format, self::VERBATIM, true)) {
+        if ($this->isAnimated($path, $format)) {
             $this->copy($path, $this->verbatimPath($name, $format));
 
             return new MediaAsset(
@@ -86,6 +76,7 @@ final readonly class MediaBuilder
                 widths: [$width],
                 hash: $hash,
                 format: $format,
+                animated: true,
             );
         }
 
@@ -115,6 +106,44 @@ final readonly class MediaBuilder
         if (! copy($source, $target)) {
             throw MediaException::unreadable($source);
         }
+    }
+
+    /**
+     * A moving image is copied as it is, never encoded.
+     *
+     * GD reads one frame and would hand back a still, so the encoder is the
+     * wrong tool: there is nothing to scale here, only a finished object to
+     * serve. A moving image that is too heavy for a page is a problem to fix in
+     * the file, not in the build — gif2webp turns a 1.5 MB GIF into a 330 KB
+     * animated WebP that looks better than the source, because the source was
+     * dithered down to 256 colours.
+     *
+     * The test is on the file rather than on its extension: an animated WebP
+     * and a still one share one, and a still GIF has every reason to go through
+     * the encoder like any other still.
+     */
+    private function isAnimated(string $path, string $format): bool
+    {
+        if ($format === 'webp') {
+            // RIFF....WEBPVP8X<size:4><flags:1> — the animation bit of the
+            // extended format header, at a fixed offset by the spec.
+            $head = (string) file_get_contents($path, length: 21);
+
+            return strlen($head) === 21
+                && str_starts_with($head, 'RIFF')
+                && substr($head, 8, 8) === 'WEBPVP8X'
+                && (ord($head[20]) & 0x02) !== 0;
+        }
+
+        if ($format === 'gif') {
+            // One Graphic Control Extension per frame, each preceded by the
+            // block terminator of what came before. Counting image descriptors
+            // instead would mean reading compressed data, where the same byte
+            // means something else.
+            return substr_count((string) file_get_contents($path), "\x00\x21\xF9\x04") > 1;
+        }
+
+        return false;
     }
 
     /** @return int[] */
@@ -179,7 +208,7 @@ final readonly class MediaBuilder
 
     private function variantsExist(MediaAsset $asset): bool
     {
-        if ($asset->format !== 'webp') {
+        if ($asset->animated) {
             return is_file($this->verbatimPath($asset->name, $asset->format));
         }
 

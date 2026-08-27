@@ -31,7 +31,13 @@ final class Document
         public readonly Layout $layout = Layout::Document,
     ) {}
 
+    /**
+     * French spacing runs here rather than in any of the pipelines that feed
+     * this: markdown, captions, descriptions and the opening all arrive as one
+     * string by now, and a rule stated once cannot be forgotten by the fifth
+     * route someone adds later.
+     */
     public string $html {
-        get => $this->rendered ??= ($this->render)();
+        get => $this->rendered ??= FrenchSpacing::apply(($this->render)());
     }
 }
