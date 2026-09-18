@@ -19,6 +19,9 @@ final readonly class MediaBuilder
 {
     private const array EXTENSIONS = ['jpg', 'jpeg', 'png', 'webp', 'gif'];
 
+    /** How much wider than its last step a source must be to earn a variant. */
+    private const float NATIVE_MARGIN = 1.2;
+
     public function __construct(
         private Images $images,
     ) {}
@@ -146,7 +149,21 @@ final readonly class MediaBuilder
         return false;
     }
 
-    /** @return int[] */
+    /**
+     * The ladder, cut to the original — plus the original itself when the cut
+     * throws away pixels the file already had.
+     *
+     * A 550px source has 320 as its only step, and a column that asks for twice
+     * that gets an upscale of an image which was never that small. Under the top
+     * of the ladder the original is the last useful width, so it becomes the
+     * last variant. Over it, the ladder is already wider than any column on the
+     * site, and a variant at the native width would only weigh more.
+     *
+     * The margin is what keeps a 660px source from being encoded a second time
+     * for three percent: below it, the extra file is not worth its bytes.
+     *
+     * @return int[]
+     */
     private function widthsFor(int $width): array
     {
         $widths = array_values(array_filter(
@@ -155,7 +172,17 @@ final readonly class MediaBuilder
         ));
 
         // A source narrower than the smallest variant is served as it is.
-        return $widths !== [] ? $widths : [$width];
+        if ($widths === []) {
+            return [$width];
+        }
+
+        $largest = $widths[array_key_last($widths)];
+
+        if ($width < max(MediaLibrary::WIDTHS) && $width >= $largest * self::NATIVE_MARGIN) {
+            $widths[] = $width;
+        }
+
+        return $widths;
     }
 
     /** @return array<string, string> asset name => absolute path of the original */
