@@ -1,7 +1,7 @@
 # Build stage: PHP and Node together, vite-plugin-tempest calls `php tempest vite:config`
 FROM dunglas/frankenphp:1-php8.5 AS build
 
-RUN install-php-extensions gd intl
+RUN install-php-extensions gd intl zip
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 COPY --from=node:22-slim /usr/local/bin/node /usr/local/bin/node
 COPY --from=node:22-slim /usr/local/lib/node_modules /usr/local/lib/node_modules
