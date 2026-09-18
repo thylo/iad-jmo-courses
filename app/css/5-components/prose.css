@@ -59,3 +59,57 @@
   background-color: var(--color-paper-sunk);
   overflow-x: auto;
 }
+
+/* A table is a comparison, read across as much as down, so it is set like the
+   facts and not like the prose: the meta step on the body line box, labels in
+   the faint ink, the data in the ink. The first column names the rows, the
+   way the margin names the page. No rules: the display face sets the head
+   apart, the half step sets the rows apart.
+
+   It leaves the measure for the field, the way a figure does (see canvas.css).
+   On one column there is no field, so it keeps a line of reading as its floor
+   and scrolls in its own box below that, rather than squeezing four columns
+   down to a word each. */
+/* The containment is what makes the floor safe: without it the table's width
+   would count in the page grid's own sizing and widen the whole column, text
+   and all, instead of scrolling in its box. */
+.c-prose__table {
+  overflow-x: auto;
+  contain: inline-size;
+}
+
+.c-prose__table:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+.c-prose table {
+  inline-size: 100%;
+  min-inline-size: var(--measure-text);
+  border-collapse: collapse;
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  font-variant-numeric: tabular-nums;
+}
+
+.c-prose :is(th, td) {
+  padding: 0 var(--space-m) var(--space-s) 0;
+  text-align: start;
+  vertical-align: top;
+}
+
+.c-prose :is(th, td):last-child { padding-inline-end: 0; }
+
+.c-prose th {
+  font-family: var(--font-display);
+  font-size: var(--text-title);
+  font-weight: 400;
+}
+
+.c-prose :is(th, td):first-child { color: var(--color-ink-faint); }
+
+/* The head of the label column is a label too, not a title. */
+.c-prose th:first-child {
+  font-family: var(--font-text);
+  font-size: var(--text-meta);
+}

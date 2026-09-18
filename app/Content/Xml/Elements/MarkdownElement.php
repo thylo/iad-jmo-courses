@@ -61,7 +61,23 @@ final readonly class MarkdownElement implements ElementRenderer
         return $this->components->render(
             'x-prose',
             class: $class,
-            html: $this->markdown->parse($this->autolinks->expand($prose))->html,
+            html: $this->boxTables($this->markdown->parse($this->autolinks->expand($prose))->html),
+        );
+    }
+
+    /**
+     * Gives every table a box of its own to scroll in.
+     *
+     * A table is read across, and on one column it is wider than the screen.
+     * It scrolls inside its box rather than pushing the whole page sideways,
+     * and the box is focusable so the keyboard can scroll it too.
+     */
+    private function boxTables(string $html): string
+    {
+        return str_replace(
+            ['<table>', '</table>'],
+            ['<div class="c-prose__table" role="region" aria-label="Tableau" tabindex="0"><table>', '</table></div>'],
+            $html,
         );
     }
 

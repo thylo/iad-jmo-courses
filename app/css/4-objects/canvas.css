@@ -75,9 +75,17 @@
 }
 
 /* What is allowed past the measure. The only exception in the system, and it is
-   named rather than implied. */
-.o-canvas__reading :where(figure, .c-grid__list--thumbnails, .c-bleed) {
+   named rather than implied.
+
+   A table sits inside the prose, which is the capped box, so it is the prose
+   that lets go and everything in it but the table that takes the measure back. */
+.o-canvas__reading :where(figure, .c-grid__list--thumbnails, .c-bleed),
+.o-canvas__reading :where(.c-prose:has(> .c-prose__table)) {
   max-width: none;
+}
+
+.o-canvas__reading :where(.c-prose:has(> .c-prose__table)) > :not(.c-prose__table) {
+  max-width: var(--measure-text);
 }
 
 /* Bleed: the one move that leaves the grid. Both distances are known lengths —
