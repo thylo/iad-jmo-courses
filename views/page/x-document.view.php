@@ -29,6 +29,10 @@
 
     <h1 :if="$this->intro->title" class="c-intro__title">{!! $this->intro->title !!}</h1>
 
+    {{-- The gloss of the title, when the page gave one: it belongs to the
+         heading, so nothing comes between them. --}}
+    {!! $this->intro->definition !!}
+
     <x-slot name="opening" />
 
     <p :if="$this->intro->lead" class="c-intro__lead">{!! $this->intro->lead !!}</p>

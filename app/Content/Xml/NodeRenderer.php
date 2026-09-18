@@ -16,7 +16,7 @@ use App\View\Component;
  * flat enough to be written as <x-masthead> and <x-toc>.
  *
  * It composes what the templates give back, and writes no HTML of its own: the
- * shape of a page is in views/x-entity.view.php, the facts in x-facts.
+ * shape of a page is in views/page/x-entity.view.php, the facts in x-facts.
  *
  * The page opens with the identity block — title, summary, data fields — and
  * then follows the document order for everything that renders in place. That

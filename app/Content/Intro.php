@@ -16,13 +16,15 @@ namespace App\Content;
  * rather than prose, and the layout sets it in the open field beside the
  * opening rather than in the reading, so it comes out here too.
  *
- * A page may ask for two more. <image width="opening"/> is the plate that opens
- * it — same move as the facts and for the same reason, the field beside the
- * summary is the one place on the sheet with room for an image and nothing for
- * it to interrupt. <preamble> is the paragraph that carries on from the summary
- * instead of starting the reading, and it stays in the opening block, under the
- * lead. Both are lifted off the class their renderer writes, and a page gets
- * one of each; a second stays where it was written, which is what it deserves.
+ * A page may ask for three more. <definition> is the gloss of a title the
+ * reader may not know, set under it before the summary. <image width="opening"/>
+ * is the plate that opens it — same move as the facts and for the same reason,
+ * the field beside the summary is the one place on the sheet with room for an
+ * image and nothing for it to interrupt. <preamble> is the paragraph that
+ * carries on from the summary instead of starting the reading, and it stays in
+ * the opening block, under the lead. All three are lifted off the class their
+ * renderer writes, and a page gets one of each; a second stays where it was
+ * written, which is what it deserves.
  *
  * Reading them back out of the rendered HTML keeps the copy in content/ where
  * it belongs. Writing it into a template instead would mean maintaining the
@@ -33,6 +35,8 @@ final readonly class Intro
     private function __construct(
         /** Inner HTML of the first <h1>, or null when the page opens without one. */
         public ?string $title,
+        /** The <p> a page set with <definition>, or null. */
+        public ?string $definition,
         /** Inner HTML of the paragraph right after it, when there is one. */
         public ?string $lead,
         /** The <dl class="c-facts"> of an entity, or null on a page that has none. */
@@ -47,19 +51,24 @@ final readonly class Intro
 
     public static function split(string $html): self
     {
+        // First, and out of the whole page: the gloss is a paragraph too, and on
+        // a page with no summary it would otherwise be taken for the lead.
+        [$definition, $html] = self::lift('#\s*<p class="c-intro__definition">.*?</p>\s*#is', $html);
+
         if (preg_match('#\A\s*<h1\b[^>]*>(?P<title>.*?)</h1>\s*#is', $html, $heading) !== 1) {
-            return self::rest(title: null, lead: null, html: $html);
+            return self::rest(title: null, definition: $definition, lead: null, html: $html);
         }
 
         $rest = substr($html, strlen($heading[0]));
 
         // A page that opens on a list or a note has no lead; the body keeps it all.
         if (preg_match('#\A<p\b[^>]*>(?P<lead>.*?)</p>\s*#is', $rest, $paragraph) !== 1) {
-            return self::rest(title: $heading['title'], lead: null, html: $rest);
+            return self::rest(title: $heading['title'], definition: $definition, lead: null, html: $rest);
         }
 
         return self::rest(
             title: $heading['title'],
+            definition: $definition,
             lead: $paragraph['lead'],
             html: substr($rest, strlen($paragraph[0])),
         );
@@ -76,7 +85,7 @@ final readonly class Intro
      * prose box. So the classes are a contract with this file and not a guess
      * about what an author typed.
      */
-    private static function rest(?string $title, ?string $lead, string $html): self
+    private static function rest(?string $title, ?string $definition, ?string $lead, string $html): self
     {
         [$plate, $html] = self::lift('#\s*<figure class="c-figure c-figure--opening">.*?</figure>\s*#is', $html);
         [$preamble, $html] = self::lift('#\s*<div class="c-prose c-intro__preamble">.*?</div>\s*#is', $html);
@@ -84,6 +93,7 @@ final readonly class Intro
 
         return new self(
             title: $title,
+            definition: $definition,
             lead: $lead,
             facts: $facts,
             plate: $plate,

@@ -51,8 +51,8 @@ final class DocumentView implements View, HasNavigation
         public readonly Document $document,
     ) {
         $this->path = root_path(match ($document->layout) {
-            Layout::Document => 'views/document.view.php',
-            Layout::Home => 'views/home.view.php',
+            Layout::Document => 'views/layouts/document.view.php',
+            Layout::Home => 'views/layouts/home.view.php',
         });
         $this->intro = Intro::split($document->html);
         $this->toc = TableOfContents::fromHtml($document->html);

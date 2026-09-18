@@ -27,7 +27,7 @@ use function Tempest\Support\Str\to_ascii;
  * the keyword `self`. No query language until a real need shows up.
  *
  * This answers the query and stops there: what an entry looks like is in
- * views/x-grid.view.php. The tree walk cannot be a view component — Tempest
+ * views/elements/x-grid.view.php. The tree walk cannot be a view component — Tempest
  * expands those at compile time, and NodeRenderer says why — but a flat list
  * of entries can, so it is one.
  *

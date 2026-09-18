@@ -23,7 +23,7 @@ use App\View\Component;
  * is not a fiche — and the difference is deliberate: the sanction has to stay
  * smaller than the fault.
  *
- * What an image looks like is in views/x-image and views/x-figure. This decides
+ * What an image looks like is in views/elements/x-image and x-figure. This decides
  * which file, how wide, and whether it waits.
  */
 final readonly class ImageTag

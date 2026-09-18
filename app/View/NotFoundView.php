@@ -31,7 +31,7 @@ final class NotFoundView implements View, HasNavigation
     public function __construct(
         private readonly string $requested,
     ) {
-        $this->path = root_path('views/not-found.view.php');
+        $this->path = root_path('views/layouts/not-found.view.php');
 
         $this->data(title: 'Page introuvable');
     }

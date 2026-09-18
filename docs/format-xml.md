@@ -52,6 +52,22 @@ une donnée. La frontière est la même que pour `layout` — ce qui appartient 
 code se dit en anglais, ce qui appartient au contenu se dit dans la langue du
 contenu.
 
+## Un titre à définir
+
+Une page dont le titre est un mot que le lecteur peut ne pas connaître le
+définit juste en dessous, en petit, comme un dictionnaire :
+
+```xml
+<titre>Colophon</titre>
+<definition>
+  n. m. Du grec kolophôn, « achèvement ». Note placée à la fin d'un livre…
+</definition>
+```
+
+Une ligne de prose, comme un `<term>` : l'indentation ne compte pas, les
+[[liens]] et l'emphase passent. Où qu'elle soit écrite dans le fichier, la
+définition se place entre le titre et le résumé.
+
 ## La prose
 
 `<markdown>` est opaque aux balises : ce qu'il contient est du texte, pas un
@@ -176,7 +192,7 @@ toujours composée comme un document.
 
 Les noms de mise en page sont en anglais, comme le reste du code : `layout`
 nomme un template, pas du contenu. Une mise en page de plus, c'est un cas dans
-`App\Content\Layout` et un fichier du même nom dans `views/`.
+`App\Content\Layout` et un fichier du même nom dans `views/layouts/`.
 
 `id` et `<titre>` sont obligatoires partout, `<resume>` optionnel : les trois
 sont fournis à tous les types, aucun schéma ne les redéclare. `par`, `categorie`,

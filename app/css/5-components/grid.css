@@ -132,7 +132,7 @@
    The works of a section, shown rather than listed. The plain list stays what
    it was: the columns only arrive once entries carry a thumbnail, so a
    half-illustrated corpus never renders as a grid of holes. The modifier is
-   decided in views/x-grid.view.php, not written by hand. */
+   decided in views/elements/x-grid.view.php, not written by hand. */
 
 .c-grid__list--thumbnails {
   display: grid;

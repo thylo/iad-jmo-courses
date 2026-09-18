@@ -12,6 +12,21 @@
   max-width: var(--measure-display);
 }
 
+/* The gloss under a title — what <definition> renders.
+
+   It is the trail's counterpart: a caption over the heading says where the
+   page sits, a caption under it says what the word means. So it takes the same
+   meta size and muted ink, and the title keeps all the weight. No space of its
+   own above: the display line box already carries the air, and a gloss set
+   apart from its headword stops reading as the headword's. The lead still
+   comes one full unit below. */
+.c-intro__definition {
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  max-width: var(--measure-text);
+  color: var(--color-ink-muted);
+}
+
 /* One baseline unit under the title. On the homepage the signature sits in
    between and carries the same value, so the two collapse into one step and the
    opening keeps its rhythm either way. */

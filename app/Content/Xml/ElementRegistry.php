@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Content\Xml;
 
 use App\Content\Xml\Elements\BacklinksElement;
+use App\Content\Xml\Elements\DefinitionElement;
 use App\Content\Xml\Elements\DestinationElement;
 use App\Content\Xml\Elements\DestinationsElement;
 use App\Content\Xml\Elements\DiagramElement;
@@ -36,16 +37,17 @@ final readonly class ElementRegistry
      * Blocks whose content IS text rather than a tree of blocks.
      *
      * Everywhere else, loose prose between tags is a mistake with a fix — the
-     * parser says so and points at <markdown>. These four are the exceptions,
+     * parser says so and points at <markdown>. These five are the exceptions,
      * and for two different reasons: <markdown> and <preamble> are opaque,
-     * their content is a document in another language; <destination> and <term>
-     * each hold one line — where it sends you, what the form is — which is a
-     * value, no more a tree than a <titre> is.
+     * their content is a document in another language; <destination>, <term>
+     * and <definition> each hold one line — where it sends you, what the form
+     * is, what the title means — which is a value, no more a tree than a
+     * <titre> is.
      *
      * Their element children are still checked. Text is allowed in, an unknown
      * tag is not.
      */
-    private const array HOLDS_TEXT = ['markdown', 'preamble', 'destination', 'term'];
+    private const array HOLDS_TEXT = ['markdown', 'preamble', 'destination', 'term', 'definition'];
 
     /** @var array<string, ElementRenderer> */
     private array $renderers;
@@ -53,6 +55,7 @@ final readonly class ElementRegistry
     public function __construct(
         MarkdownElement $markdown,
         PreambleElement $preamble,
+        DefinitionElement $definition,
         SectionElement $section,
         NoteElement $note,
         QuoteElement $quote,
@@ -73,6 +76,7 @@ final readonly class ElementRegistry
         $this->renderers = [
             'markdown' => $markdown,
             'preamble' => $preamble,
+            'definition' => $definition,
             'section' => $section,
             'note' => $note,
             'quote' => $quote,

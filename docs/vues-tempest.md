@@ -216,34 +216,46 @@ app/
 ├── View/NavigationViewProcessor.php les sections, pour toute vue sous contrat
 └── main.entrypoint.css              découvert par Vite
 views/
-├── x-base.view.php                  override du x-base du framework
-├── x-masthead.view.php              le cadre : entête, sommaire, pied
-├── x-toc.view.php
-├── x-colophon.view.php
-├── x-document.view.php              le corps commun, avec ses slots
-├── x-entity.view.php                une page : titre, résumé, fiche, corps
-├── x-facts.view.php
-├── x-prose.view.php                 les blocs du vocabulaire XML : un
-├── x-section.view.php               composant par balise, plus ceux que
-├── x-note.view.php                  les blocs composent entre eux
-├── x-sidenote.view.php
-├── x-list.view.php
-├── x-list-item.view.php
-├── x-grid.view.php
-├── x-backlinks.view.php
-├── x-destinations.view.php
-├── x-destination.view.php
-├── x-video.view.php
-├── x-figure.view.php                l'image et ce qu'on doit à qui l'a faite
-├── x-image.view.php
-├── x-credit.view.php
-├── x-link.view.php                  les feuilles : un lien, un texte
-├── x-external-link.view.php
-├── x-transclusion.view.php
-├── x-text.view.php
-├── document.view.php                mise en page « document »
-├── home.view.php                    mise en page « home »
-└── not-found.view.php               le 404
+├── layouts/                         une mise en page par valeur de layout=,
+│   ├── document.view.php            plus le 404
+│   ├── home.view.php
+│   └── not-found.view.php
+├── site/                            identique sur toutes les pages
+│   ├── x-base.view.php              override du x-base du framework
+│   ├── x-masthead.view.php          entête et sections
+│   └── x-colophon.view.php          pied
+├── page/                            tiré de la page affichée, sans être une
+│   ├── x-document.view.php          balise : le corps commun et ses slots,
+│   ├── x-entity.view.php            le titre, la fiche, le sommaire, le fil
+│   ├── x-facts.view.php
+│   ├── x-toc.view.php
+│   └── x-trail.view.php
+├── elements/                        un composant par balise XML, comme
+│   ├── x-prose.view.php             app/Content/Xml/Elements/, plus ceux
+│   ├── x-section.view.php           que les éléments composent entre eux
+│   ├── x-definition.view.php
+│   ├── x-note.view.php
+│   ├── x-sidenote.view.php
+│   ├── x-list.view.php
+│   ├── x-list-item.view.php
+│   ├── x-quote.view.php
+│   ├── x-glossary.view.php
+│   ├── x-term.view.php
+│   ├── x-grid.view.php
+│   ├── x-backlinks.view.php
+│   ├── x-destinations.view.php
+│   ├── x-destination.view.php
+│   ├── x-image.view.php
+│   ├── x-diagram.view.php
+│   ├── x-video.view.php
+│   ├── x-spotify.view.php
+│   ├── x-figure.view.php            l'image et ce qu'on doit à qui l'a faite
+│   └── x-credit.view.php
+└── inline/                          les feuilles : un lien, un texte
+    ├── x-link.view.php
+    ├── x-external-link.view.php
+    ├── x-transclusion.view.php
+    └── x-text.view.php
 ```
 
 ## Rendre un composant depuis du PHP
@@ -262,7 +274,7 @@ quoi ça a l'air. Trois conséquences :
 
 - **Pas d'échappement en PHP.** `{{ }}` s'en charge. `App\Content\Html` n'a plus
   de méthode `escape()` : plus personne n'en avait besoin.
-- **Un composant rendu par son chemin, pas appelé par sa balise.** L'appelant est
+- **Un composant rendu par son nom, pas appelé par sa balise.** L'appelant est
   du PHP qui attend une chaîne. `<x-credit/>` dans `x-figure` reste possible :
   entre templates, la balise marche normalement.
 - **Coût mesuré** : 0,05 ms par rendu avec `VIEW_CACHE=true`, 0,5 ms sans. La
@@ -296,7 +308,9 @@ et le renderer la remplace par la page d'erreur du framework — anglais, Tailwi
 depuis un CDN. Passer une vue au constructeur suffit à la garder :
 `new NotFound(new NotFoundView($path))`.
 
-Structure en couches, templates séparés du PHP. Les composants sont assez peu
-nombreux pour tenir à plat dans `views/` ; s'ils se multiplient, les regrouper
-par domaine (`views/nav/`, `views/oeuvre/`) ne change rien à leur nom — le
-dossier est pour nous, pas pour Tempest.
+Structure en couches, templates séparés du PHP. Dans `views/`, les dossiers
+rangent par ce que le template rend — le site, la page, un élément, une
+feuille — et ne changent rien au nom : le dossier est pour nous, pas pour Tempest.
+`App\View\Component` lit le chemin dans ce que le discovery a enregistré, si
+bien qu'un composant qui change de dossier ne touche aucun appelant. Les
+mises en page, elles, sont nommées par leur chemin dans `DocumentView`.
