@@ -1,0 +1,71 @@
+/* =========================================================================
+   Narration Interactive — stylesheet entrypoint
+
+   Architecture: ITCSS layers (Harry Roberts), BEM naming with namespaces
+   (o- objects, c- components, u- utilities), design tokens as custom
+   properties (Jérôme Coupé), components authored to be composed rather
+   than nested (Brad Frost). Specificity only ever rises down this list,
+   so import order is the cascade — never reorder it casually.
+
+   Vite inlines these imports at build time: one request, no waterfall.
+
+   01 SETTINGS   tokens, no CSS output
+   02 GENERIC    reset, box-sizing
+   03 ELEMENTS   bare HTML elements
+   04 OBJECTS    layout primitives, cosmetic-free
+   05 COMPONENTS designed UI pieces
+   06 UTILITIES  single-purpose overrides
+   ========================================================================= */
+
+/* 01 SETTINGS */
+@import "./css/1-settings/tokens.css";
+
+/* 02 GENERIC */
+@import "./css/2-generic/fonts.css";
+@import "./css/2-generic/reset.css";
+
+/* 03 ELEMENTS */
+@import "./css/3-elements/document.css";
+@import "./css/3-elements/typography.css";
+@import "./css/3-elements/media.css";
+
+/* 04 OBJECTS */
+@import "./css/4-objects/canvas.css";
+
+/* 05 COMPONENTS */
+@import "./css/5-components/masthead.css";
+@import "./css/5-components/nav.css";
+@import "./css/5-components/trail.css";
+@import "./css/5-components/intro.css";
+@import "./css/5-components/portrait.css";
+@import "./css/5-components/prose.css";
+@import "./css/5-components/section.css";
+@import "./css/5-components/list.css";
+@import "./css/5-components/note.css";
+@import "./css/5-components/quote.css";
+@import "./css/5-components/link.css";
+@import "./css/5-components/facts.css";
+@import "./css/5-components/figure.css";
+@import "./css/5-components/diagram.css";
+@import "./css/5-components/video.css";
+@import "./css/5-components/spotify.css";
+@import "./css/5-components/grid.css";
+@import "./css/5-components/backlinks.css";
+@import "./css/5-components/destinations.css";
+@import "./css/5-components/glossary.css";
+@import "./css/5-components/toc.css";
+@import "./css/5-components/sidenote.css";
+@import "./css/5-components/colophon.css";
+@import "./css/5-components/rule.css";
+@import "./css/5-components/wobble.css";
+@import "./css/5-components/signature.css";
+@import "./css/5-components/home.css";
+
+/* 06 UTILITIES */
+@import "./css/6-utilities/baseline.css";
+@import "./css/6-utilities/measure.css";
+@import "./css/6-utilities/ink.css";
+@import "./css/6-utilities/visually-hidden.css";
+@import "./css/6-utilities/clearfix.css";
+
+@import "./css/print.css";

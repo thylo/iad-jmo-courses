@@ -1,0 +1,67 @@
+<page id="structures">
+  <titre>Structures narratives</titre>
+  <resume>L'écran, la salle et la table retirés, il reste le dessin que fait le récit
+    quand on le trace sur une feuille : combien de chemins, où ils se séparent, où
+    ils se rejoignent, ce que l'œuvre retient de ce qui a déjà été fait.
+  </resume>
+
+  <preamble>
+    C'est le découpage le plus abstrait du panorama, et le plus transposable. Deux
+    œuvres qui n'ont rien en commun à l'écran peuvent partager la même structure :
+    [Bandersnatch](/oeuvres/bandersnatch) et un paquet de
+    [Cartaventura](/oeuvres/cartaventura) branchent de la même façon, l'un sur
+    Netflix et l'autre sur une table de cuisine. Inversement, deux webdocs de la
+    même [catégorie](/panorama/introduction) peuvent n'avoir aucune structure
+    commune.
+  </preamble>
+
+  <image src="reseau-urbicande.jpg"
+         width="opening"
+         alt="Un dessin à l'encre, en noir et blanc : une charpente de poutres orthogonales occupe toute la plaine et s'élève au fond en une pyramide à degrés. Elle traverse une ville dont il ne reste, sur les bords, que des immeubles renversés. Au premier plan, de dos, deux personnes accoudées la regardent."
+         caption="François Schuiten et Benoît Peeters, « La Fièvre d'Urbicande », 1985. Le Réseau pousse tout seul et traverse la ville sans s'occuper d'elle."
+         credit="François Schuiten et Benoît Peeters, Casterman"
+         source="https://i.pinimg.com/originals/04/07/fa/0407fa490434aa5c9cb4cbeaebbb085e.jpg"/>
+
+
+  <section title="Les sept formes">
+    <glossary>
+      <term name="Linéaire" to="structure-lineaire">
+        Un seul chemin. Le public avance, il ne dévie pas. Même en réalité virtuelle,
+        où c'est la tête qui tourne et pas l'histoire.
+      </term>
+
+      <term name="Élastique" to="structure-elastique">
+        Une ligne, plus des digressions optionnelles dont on revient. Le récit se lit
+        d'un bout à l'autre ; les cartes et les portraits sont là pour qui veut
+        s'arrêter.
+      </term>
+
+      <term name="Parallèle" to="structure-parallele">
+        Plusieurs récits complets qui avancent en même temps, et on choisit lequel
+        suivre. Une tour entière peut tenir comme ça.
+      </term>
+
+      <term name="Concentrique" to="structure-concentrique">
+        Un noyau, et des couches autour. Un même événement raconté par plusieurs
+        personnes, un même lieu à plusieurs époques, une seule maison sous tous les
+        angles.
+      </term>
+
+      <term name="Embranchements" to="structure-embranchements">
+        L'arbre. À chaque choix le récit se dédouble, et les chemins ne se rejoignent
+        pas forcément. C'est la forme qui coûte le plus cher à écrire.
+      </term>
+
+      <term name="Constellation" to="structure-constellation">
+        Un réseau sans hiérarchie ni ordre, où chaque élément mène à plusieurs autres.
+        Pas de début imposé, pas de fin.
+      </term>
+
+      <term name="À état" to="structure-a-etat">
+        Le récit ne se dédouble pas, il retient. Il tient une liste de ce qui est
+        vrai (le loup est mort, la lanterne est acquise) et chaque scène se réécrit
+        en conséquence.
+      </term>
+    </glossary>
+  </section>
+</page>

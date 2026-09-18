@@ -1,0 +1,111 @@
+<concept id="choix-rationnel">
+  <titre>Choix Rationnel</titre>
+  <genre>choix</genre>
+  <exemple ref="jeu-d-influences"/>
+  <exemple ref="lifeline"/>
+  <exemple ref="cartaventura"/>
+  <exemple ref="80-days"/>
+  <voir ref="structure-embranchements"/>
+  <voir ref="structure-a-etat"/>
+  <voir ref="choix-exploratoire"/>
+  <voir ref="faux-choix"/>
+
+  <resume>Il y a de quoi décider, on pèse, on tranche, et la conséquence correspond. C'est le choix le plus coûteux à écrire, et le seul qui tienne la promesse que font toutes les autres œuvres.</resume>
+
+  <section title="Définition">
+    <markdown>
+      Trois conditions, et il faut les trois. L'œuvre a donné l'information avant de
+      demander. Une option peut se peser contre l'autre. Ce qui suit correspond à ce
+      qui a été fait.
+
+      Sans la première, c'est un [[choix-exploratoire|choix exploratoire]] : on choisit
+      pour voir, ce qui est honnête tant que l'œuvre ne prétend pas le contraire. Sans
+      la troisième, c'est un [[faux-choix|faux choix]].
+    </markdown>
+  </section>
+
+  <section title="Schéma">
+    <markdown>
+      ```
+      information  ─►  délibération  ─►  décision  ─►  conséquence
+      « le train de     « j'ai l'argent    on prend     on arrive à Suez
+        14h coûte le      mais Fogg est     le train     sans un sou, et
+        double »          malade »                       Fogg tousse encore
+
+      Retirer une case et il ne reste rien :
+
+      sans information    → on tire à pile ou face
+      sans délibération   → les options sont équivalentes
+      sans conséquence    → faux choix
+      ```
+    </markdown>
+  </section>
+
+  <section title="Le cas propre">
+    <markdown>
+      [[jeu-d-influences]] ne fait pas choisir entre deux branches. Un communicant de
+      crise conseille, on accepte ou on refuse, et la partie renvoie à la fin ce que
+      ces acceptations disent de celui qui les a prises. L'information est là (ce qu'on
+      demande et ce que ça coûte sont dits), la délibération est réelle, et la
+      conséquence n'est pas un embranchement : c'est un portrait.
+
+      C'est ce que [le poids du choix](/panorama/poids-du-choix) appelle le choix qui
+      engage. Ce qui le distingue n'est pas le nombre de branches, c'est que les
+      décisions se souviennent les unes des autres.
+    </markdown>
+  </section>
+
+  <section title="Ce que ça coûte">
+    <markdown>
+      Beaucoup. C'est la seule chose à retenir avant de promettre.
+
+      Un choix rationnel demande d'écrire l'information en amont, les deux suites, et
+      la trace que chacune laisse ensuite. En [[structure-embranchements|arbre]], la
+      note double à chaque nœud : cinq décisions successives, trente-deux fins.
+      Personne ne finit ça.
+
+      D'où le déplacement que fait [[80-days]] : la mémoire n'est pas dans la position
+      mais dans une liste de faits (l'itinéraire, l'argent, la santé de Fogg). La
+      production redevient linéaire, les conséquences restent réelles. C'est la
+      [[structure-a-etat|structure à état]], et c'est la réponse la plus utilisable à
+      l'échelle d'un projet court.
+
+      Le hors-ligne le montre encore mieux. [[cartaventura]] tient cinq fins dans une
+      boîte de poche et n'a jamais prétendu à davantage : la carte retournée est
+      retournée, devant cinq personnes. L'irréversibilité y est physique, elle ne coûte
+      pas une ligne de code.
+    </markdown>
+  </section>
+
+  <section title="Erreurs courantes">
+    <markdown>
+      - Poser la question avant d'avoir donné l'information : le public tire au sort
+        et le sait
+      - Deux options aux effets quasi identiques. Ce n'est pas un choix, c'est une
+        tâche fastidieuse déguisée en décision
+      - Multiplier les décisions en croyant multiplier l'implication. Passé un seuil,
+        ça produit l'inverse : une charge qui épuise avant d'engager
+      - Rendre la conséquence invisible. Un récit qui retient sans jamais le montrer
+        équivaut à un récit qui ne retient rien
+      - Laisser le bouton retour du navigateur annuler tout ce qu'on vient d'écrire.
+        Il est là par défaut, personne ne l'a décidé
+    </markdown>
+  </section>
+
+  <section title="En pratique">
+    <markdown>
+      **Trois choix rationnels suffisent.** Le reste peut être exploratoire, assumé
+      comme tel. Une œuvre courte avec trois décisions qui pèsent bat une œuvre longue
+      avec trente qui ne pèsent pas.
+
+      **Écrire la conséquence en premier.** Puis remonter vers l'information qu'il
+      fallait donner pour que la décision soit possible. Dans ce sens-là, on ne promet
+      jamais ce qu'on n'a pas.
+
+      **Rendre la trace visible.** Une phrase qui rappelle ce qui a été fait au
+      chapitre 1 vaut plus qu'une branche entière que personne ne verra.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

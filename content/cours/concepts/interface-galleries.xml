@@ -1,0 +1,89 @@
+<concept id="interface-galleries">
+  <titre>La galerie</titre>
+  <genre>interface</genre>
+  <exemple ref="hors-jeu"/>
+  <exemple ref="the-johnny-cash-project"/>
+  <voir ref="structure-constellation"/>
+  <voir ref="choix-exploratoire"/>
+
+  <resume>Une grille de vignettes, et le public choisit par où entrer. La forme la plus honnête pour un récit qui n'a pas d'ordre — et la plus vite ennuyeuse quand il en a un.</resume>
+
+  <section title="Définition">
+    <markdown>
+      Le récit est découpé en modules, tous montrés en même temps, tous accessibles.
+      Aucun ordre imposé, aucune obligation de tout voir.
+
+      C'est la mise en page de la [[structure-constellation|constellation]], et le
+      lieu naturel du [[choix-exploratoire|choix exploratoire]]. Elle a une qualité que
+      les autres interfaces n'ont pas : elle est franche. Elle montre d'emblée
+      combien il y a à voir, et elle ne prétend pas que l'ordre compte.
+    </markdown>
+  </section>
+
+  <section title="Schéma">
+    <markdown>
+      ```
+      ┌───┐┌───┐┌───┐┌───┐        La grille dit trois choses
+      │   ││   ││   ││   │        d'un coup :
+      └───┘└───┘└───┘└───┘
+      ┌───┐┌───┐┌───┐┌───┐          - combien il y en a
+      │   ││   ││ ✓ ││   │          - ce qui est déjà vu
+      └───┘└───┘└───┘└───┘          - qu'aucun n'est premier
+      ┌───┐┌───┐┌───┐┌───┐
+      │ ✓ ││   ││   ││ ✓ │        C'est plus que ce que
+      └───┘└───┘└───┘└───┘        beaucoup d'interfaces
+                                  arrivent à dire.
+      ```
+    </markdown>
+  </section>
+
+  <section title="Ce que la grille sait faire">
+    <markdown>
+      [[hors-jeu|Hors-Jeu]] transforme dix-huit mois d'enquête sur la corruption du
+      football en un album Panini : neuf numéros de onze cartes, quatre-vingt-dix-neuf
+      en tout, chacune cachant un témoignage ou un document. La grille n'est pas une
+      mise en page choisie après coup, c'est le sujet — l'album de l'enfance rempli de
+      matchs truqués et d'ouvriers morts au Qatar.
+
+      Et le manque y travaille : il manque toujours des cartes, et on ne les obtient
+      qu'en les échangeant. La case vide fait ce qu'aucune barre de progression
+      ne fait.
+
+      [[the-johnny-cash-project]] retourne le dispositif : la grille n'y est pas ce
+      qu'on consomme mais ce qu'on fabrique. Des milliers de personnes redessinent
+      chacune une image du clip, et la galerie est l'œuvre — chaque vignette est la
+      main de quelqu'un.
+    </markdown>
+  </section>
+
+  <section title="Erreurs courantes">
+    <markdown>
+      - Utiliser une galerie pour un récit qui a un ordre. Le public le sent, cherche
+        le début, et se reproche de ne pas le trouver
+      - Des vignettes qui se ressemblent toutes : la grille ne dit plus rien, il faut
+        cliquer pour savoir, et on abandonne au quatrième
+      - Aucune trace de ce qui est déjà vu. C'est l'information la plus utile et la
+        moins chère à afficher
+      - Trop de modules. Cent cases se remplissent si l'échange fait partie du jeu ;
+        sinon, vingt suffisent
+      - Charger toutes les images d'un coup
+    </markdown>
+  </section>
+
+  <section title="En pratique">
+    <markdown>
+      C'est la forme la plus tenable pour un projet court : chaque module s'écrit une
+      fois, rien n'est produit deux fois, et l'ensemble reste cohérent même s'il en
+      manque trois.
+
+      **Chaque module doit tenir seul.** C'est la seule contrainte, et elle est
+      sérieuse : supposer que le public a vu la case d'à côté est l'erreur la plus
+      fréquente.
+
+      **Ce que la vignette montre se décide.** Elle est la seule promesse faite ; une
+      vignette qui ment coûte la confiance sur toutes les autres.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

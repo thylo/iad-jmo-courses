@@ -1,0 +1,40 @@
+/* The masthead: who this is, and what the site is made of.
+
+   It spans the sheet and closes on a drawn rule. It used to borrow the label
+   column for the name, which put the site's furniture in the column that
+   belongs to the reading's annotations. Now it is a band above everything, and
+   the margin is free for what it is for. */
+
+.c-masthead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0 var(--space-m);
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+}
+
+/* The rule is a flex item; it has to claim its own line. */
+.c-masthead::after { flex: 0 0 100%; }
+
+/* The site name is a link, but it is also the wordmark: it keeps the ink and
+   only admits to being clickable on hover. The accent stays reserved for links
+   inside the reading. */
+.c-masthead__home {
+  font-family: var(--font-display);
+  font-size: var(--text-title);
+  line-height: var(--space-unit);
+  color: var(--color-ink);
+  text-decoration: none;
+}
+
+.c-masthead__home:hover {
+  color: var(--color-accent);
+  text-decoration-line: underline;
+}
+
+/* The domain, in the accent: the one place the accent lands on something that
+   is neither a link nor a title. The signature at the foot is ink, not this —
+   a hand writing its own name does not change pen for the last two letters. */
+.c-masthead__tld { color: var(--color-accent); }

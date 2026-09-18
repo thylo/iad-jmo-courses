@@ -1,0 +1,44 @@
+<concept id="tracery">
+  <titre>Tracery</titre>
+  <genre>ressource</genre>
+  <voir ref="forme-machine"/>
+
+  <resume>Une grammaire écrite en quelques lignes, et une machine qui produit des phrases à l'infini. La façon la plus courte de comprendre ce qu'est un texte génératif.</resume>
+
+  <section title="Ce que c'est">
+    <markdown>
+      [Tracery](https://tracery.io/), de Kate Compton. On déclare des listes de mots et
+      des règles qui piochent dedans :
+
+      ```
+      {
+        "origine" : ["Le #animal# #action# dans #lieu#."],
+        "animal"  : ["renard", "corbeau", "chien"],
+        "action"  : ["dort", "attend", "revient"],
+        "lieu"    : ["la cour", "le grenier", "la neige"]
+      }
+      ```
+
+      Vingt mots, et déjà vingt-sept phrases. Une règle peut en appeler une autre, donc
+      la combinatoire grimpe vite. C'est ce qui a fait tourner des années de robots
+      Twitter, avant et après.
+    </markdown>
+  </section>
+
+  <section title="Pourquoi c'est dans un cours de narration">
+    <markdown>
+      Parce qu'on y touche du doigt, en dix minutes, la seule question intéressante de
+      la génération : **la machine dispose les éléments, elle ne décide pas de ce qu'ils
+      veulent dire ensemble.**
+
+      Écrire une grammaire et lire cent sorties : trois seront belles, quatre-vingts
+      seront plates, et une poignée sera involontairement drôle. Le travail d'auteur
+      n'est pas dans les mots, il est dans le choix des cases — et c'est précisément la
+      mise en garde de Jenkins sur le procédural, reprise dans
+      [raconter par l'espace](/panorama/raconter-par-l-espace).
+
+      C'est aussi le meilleur préalable qu'on ait pour discuter des modèles de langue
+      sans mysticisme : même geste, plus de cases.
+    </markdown>
+  </section>
+</concept>

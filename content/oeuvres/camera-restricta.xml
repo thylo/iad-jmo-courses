@@ -1,0 +1,32 @@
+<oeuvre id="camera-restricta" statut="archive">
+  <titre>Camera Restricta</titre>
+  <annee>2015</annee>
+  <par>Philipp Schmitt</par>
+  <url>https://philippschmitt.com/archive/2018/work/camera-restricta.html</url>
+  <categorie>Interface</categorie>
+
+  <resume>Un appareil photo imprimé en 3D, avec un smartphone à l'intérieur. Il se géolocalise, compte les photos géotaguées déjà publiées sur Flickr et Panoramio dans un carré de trente-cinq mètres de côté autour de lui, et les fait entendre : un clic par photo, comme un compteur Geiger. Au-delà d'un certain nombre, l'obturateur se rétracte et le viseur se bouche. On ne peut plus photographier.</resume>
+
+  <visuel src="camera-restricta.jpg"
+          source="https://philippschmitt.com/archive/2018/work/camera-restricta.html"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Le refus est la fonctionnalité.** Tout l'objet est construit pour empêcher
+      ce qu'un appareil photo sert à faire. C'est le contre-exemple à garder sous la
+      main quand un projet cherche « ce qu'on peut ajouter » : ici, la seule chose
+      ajoutée est une interdiction, et elle suffit à produire un discours entier.
+
+      **Le son fait le travail avant l'image.** Le crépitement pendant qu'on cadre
+      dit combien d'autres ont cadré là avant. On entend la saturation d'un lieu
+      sans qu'aucun chiffre ne s'affiche — une donnée rendue par une sensation
+      plutôt que par un graphique.
+
+      **La contrainte est mesurée sur du réel.** Le seuil n'est pas arbitraire : il
+      vient d'une base de photos publiques existante. L'objet ne simule pas un
+      monde saturé, il en interroge un.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

@@ -1,0 +1,91 @@
+<concept id="structure-constellation">
+  <titre>Structure Constellation (Rhizome)</titre>
+  <genre>structure</genre>
+  <exemple ref="nicky-case-explorable-explanations"/>
+  <exemple ref="hors-jeu"/>
+  <voir ref="structure-parallele"/>
+  <voir ref="structure-embranchements"/>
+
+  <resume>Pas de structure hiérarchique. Chaque élément narratif est connecté à plusieurs autres. Navigation libre, pas de début/fin imposés.</resume>
+
+  <image src="jardin-des-delices.jpg"
+         width="opening"
+         alt="Un triptyque peint : à gauche un jardin vert où Adam et Ève se tiennent devant une fontaine rose, entourés d'animaux ; au centre un panneau plus large, une foule de corps nus dans un paysage de bassins, de fruits géants et de constructions roses et bleues ; à droite un enfer nocturne où brûlent des villes, avec des instruments de musique changés en instruments de supplice."
+         caption="Jheronimus Bosch, « Le Jardin des délices », vers 1500. Museo Nacional del Prado, Madrid. Ni centre, ni ordre de lecture : on entre par le détail qui accroche, et chaque détail en désigne un autre."
+         credit="Domaine public, via Wikimedia Commons"
+         source="https://commons.wikimedia.org/wiki/File:The_Garden_of_earthly_delights.jpg"/>
+
+  <section title="Définition">
+    <markdown>
+      La structure constellation (ou rhizome) abandonne la logique hiérarchique traditionnelle.
+      Les éléments narratifs forment un réseau où chaque nœud est connecté à plusieurs autres.
+      Le spectateur explore librement sans début ni fin imposés, construisant son propre chemin
+      et son propre sens.
+
+      Caractéristiques :
+
+      - Pas de hiérarchie
+      - Multiples entrées et sorties possibles
+      - Connexions multidirectionnelles
+      - Navigation non-linéaire complète
+    </markdown>
+  </section>
+
+  <section title="Interaction">
+    <markdown>
+      Explorer librement. Chaque élément narratif mène à d'autres selon une logique de connexions, pas de chemin prédestiné.
+    </markdown>
+  </section>
+
+  <section title="Schéma">
+    <markdown>
+      ```
+         A ─── B
+         │  ╲  │ ╲
+         │   ╲ │  ╲
+         C ─── D ─── E
+          ╲   ╱ │   ╱
+           ╲ ╱  │  ╱
+            F ──┴─ G
+      ```
+    </markdown>
+  </section>
+
+  <section title="Avantages">
+    <markdown>
+      - Liberté totale d'exploration
+      - Chacun construit son propre récit
+      - Rejouabilité infinie
+      - Pertinent pour l'exploration poétique ou conceptuelle
+    </markdown>
+  </section>
+
+  <section title="Inconvénients">
+    <markdown>
+      - Peut être désorientant
+      - Difficile de garantir une expérience satisfaisante
+      - Pas adapté aux récits avec climax/résolution
+      - Production très complexe et risquée
+    </markdown>
+  </section>
+
+  <section title="Quand l'utiliser">
+    <markdown>
+      - Exploration poétique
+      - Bases de données (archives, mémoires)
+      - Quand le voyage importe plus que la destination
+      - Œuvres expérimentales
+      - Installations web narratives
+    </markdown>
+  </section>
+
+  <section title="Variantes">
+    <markdown>
+      - **Constellation guidée** : Des indices subtils sans imposer un chemin
+      - **Constellation avec attracteurs** : Certains nœuds sont plus "visibles" que d'autres
+      - **Constellation temporelle** : Les connexions changent selon le temps de visite
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

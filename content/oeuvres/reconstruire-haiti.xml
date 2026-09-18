@@ -1,0 +1,62 @@
+<oeuvre id="reconstruire-haiti" statut="hors-ligne">
+  <titre>ReConstruire Haïti</titre>
+  <annee>2014</annee>
+  <par>Jean Abbiateci</par>
+  <par>Florent Maurin</par>
+  <par>Pierre Morel</par>
+  <par>The Pixel Hunt</par>
+  <par>Rue89</par>
+  <url>https://www.thepixelhunt.com/projects/rebuilding-haiti</url>
+  <categorie>Documentaire</categorie>
+  <categorie>Jeu</categorie>
+  <concept ref="role-divinite"/>
+  <concept ref="choix-rationnel"/>
+
+  <resume>Quatre ans après le séisme de 2010, dix milliards de dollars promis, et la question que personne ne pose : où est passé l'argent, et qu'aurait-on pu en faire ? Six chapitres où l'on arbitre à la place de ceux qui décidaient, sur des dilemmes fictifs tirés de problèmes réels. Reportage-fiction écrit par Jean Abbiateci, réalisé par The Pixel Hunt, diffusé par Rue89 avec le soutien du Centre européen du journalisme.</resume>
+
+  <visuel src="reconstruire-haiti.jpg"
+          alt="Un enfant à vélo s'arrête au bord d'une rue neuve bordée de petits immeubles peints en vert, rose et ocre, sous un ciel bleu"
+          credit="Pierre Morel / Rue89"
+          source="https://apps.rue89.com/haiti/index.html"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **L'enquête se comprend en la jouant.** On ne lit pas que l'aide internationale
+      s'est mal répartie : on essaie de la répartir, on manque d'argent, on arbitre
+      entre le logement et l'eau, et on découvre pourquoi les gens sur place ont fait
+      ce qu'ils ont fait. C'est le [[choix-rationnel|choix rationnel]] au service d'un
+      sujet documentaire — le plus cher à écrire, et ici il tient.
+
+      **Le rôle est assumé.** Le joueur est [[role-divinite|une divinité]] : personne
+      dans le récit, tous les leviers. Le dispositif ne prétend pas faire de lui un
+      Haïtien, et c'est plus honnête que la plupart des documentaires immersifs, qui
+      promettent de mettre « à la place de ».
+
+      **Le mélange fiction/réel est la méthode.** Les dilemmes sont fabriqués, les
+      problèmes ne le sont pas. C'est le compromis qui rend le sujet jouable sans
+      inventer les faits, et il pose une question ouverte : jusqu'où peut-on romancer
+      un dispositif pour rendre une réalité intelligible ?
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      C'est un jeu sérieux commandé par un média, et ça se voit : la pédagogie prend
+      parfois le pas sur l'expérience, et certaines conséquences sont expliquées plutôt
+      que ressenties.
+
+      Le site de Rue89 qui l'hébergeait n'existe plus : le domaine ne répond même
+      plus. Prix AFD/Nikon du meilleur webdocumentaire 2014, Online Journalism Award,
+      vingt mille euros de financement européen — et il ne reste que la page du
+      studio. Même sort que [[fort-mcmoney]], à un an d'écart.
+
+      Reste une question qu'on ne peut pas éviter : on arbitre depuis l'Europe sur le
+      sort d'un pays qu'on ne connaît pas, et le dispositif nous met dans la position
+      des bailleurs plutôt que dans celle des habitants. C'est cohérent avec le sujet —
+      l'enquête porte justement sur l'aide internationale — mais ça mérite d'être
+      nommé.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

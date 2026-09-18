@@ -1,0 +1,45 @@
+<oeuvre id="clouds-over-sidra" statut="en-ligne">
+  <titre>Clouds Over Sidra</titre>
+  <annee>2015</annee>
+  <par>Gabo Arora</par>
+  <par ref="chris-milk"/>
+  <url>https://www.youtube.com/watch?v=mUosdCQsMkM</url>
+  <categorie>Documentaire</categorie>
+  <concept ref="structure-lineaire"/>
+  <concept ref="interface-3d"/>
+  <concept ref="role-fantome"/>
+
+  <resume>Huit minutes filmées à 360° dans le camp de Za'atari, en Jordanie, où vivent alors quatre-vingt mille Syriens. Sidra, douze ans, montre sa tente, son école, la salle d'informatique, la boulangerie. Produit pour les Nations unies et projeté à Davos en 2015 pour lever des fonds.</resume>
+
+  <visuel src="clouds-over-sidra.jpg"
+          source="https://m.youtube.com/watch?v=mUosdCQsMkM"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Le spectateur peut regarder ailleurs.** C'est la seule liberté offerte, et
+      elle est réelle : pendant que Sidra parle, on peut se tourner vers le fond de
+      la tente. Le film est [[structure-lineaire|strictement linéaire]] et le public
+      est un [[role-fantome|fantôme]] — présent, immobile, sans effet.
+
+      **L'échelle du camp se comprend par le corps.** Un plan large en 2D donne un
+      chiffre ; se retourner sur place et voir que les rangées de préfabriqués
+      continuent dans toutes les directions donne autre chose. C'est ce que la
+      captation 360° sait faire, et à peu près la seule chose.
+    </markdown>
+
+    <video src="youtube:mUosdCQsMkM"
+           caption="Le film complet, en 360°, publié par les Nations unies."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      C'est la pièce fondatrice du discours sur la VR « machine à empathie », et ce
+      discours mérite d'être discuté plutôt que répété. Le film a été fait pour
+      obtenir des dons de gens très riches ; il montre une enfant à des inconnus qui
+      peuvent la regarder sous tous les angles sans qu'elle puisse rien y faire.
+      L'asymétrie du dispositif fait partie de ce qu'il faut enseigner avec.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

@@ -1,0 +1,27 @@
+{
+    "name": "iad/jmo-courses",
+    "description": "Site de cours — narration interactive (IAD)",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "^8.5",
+        "tempest/framework": "^3.18",
+        "tempest/markdown": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Views\\": "views/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php ./tempest discovery:generate --no-interaction"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

@@ -1,0 +1,40 @@
+/* The signature: the name, written by hand, at the foot of the homepage.
+
+   It used to be a squiggle generated like the other marks. It is the real
+   thing now — so, like the wobble, a mask from a file rather than a data URI.
+
+   Ink, at full strength — the same as the portrait, because it is the same
+   hand. The rules are set in --color-rule and sit back; this one does not.
+   That is what makes it read as a signature rather than as one more rule: it
+   is the only mark on the page drawn in the colour the text is drawn in.
+
+   Same arrangement as the wobble, and the mirror of it: the box is the full
+   width of the reading and the mark sits at the far end of it. The wobble
+   opens the reading against the left edge, the signature closes it against
+   the right — the two extremes of the same band, which is what makes them
+   read as a pair rather than as two drawings that happen to be on one page.
+
+   The height is what is set and the width follows from it, so the drawing
+   keeps its proportions at every size. */
+
+.c-signature {
+  display: block;
+  inline-size: 100%;
+  /* The canvas caps a child of the reading at the measure. The signature is
+     one of the things that earns the field, so it says so. */
+  max-inline-size: none;
+  /* 70 → 140px, both ends on the scale: 2.5 and 5 units. It was 72 → 144,
+     which is neither. The drawing is not stretched to fit — mask-size below
+     keeps its proportions from the height, so the box and the mark agree. */
+  block-size: clamp(4.375rem, 2rem + 9vw, 8.75rem); /* the drawing at 88 → 175px wide */
+  margin-block-start: var(--space-xl);
+  background-color: var(--color-ink);
+  mask-image: url("../../../resources/svg/thylo.svg");
+  mask-size: auto 100%;
+  mask-position: right;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url("../../../resources/svg/thylo.svg");
+  -webkit-mask-size: auto 100%;
+  -webkit-mask-position: right;
+  -webkit-mask-repeat: no-repeat;
+}

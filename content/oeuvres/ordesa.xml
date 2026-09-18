@@ -1,0 +1,42 @@
+<oeuvre id="ordesa" statut="en-ligne">
+  <titre>Ordesa</titre>
+  <annee>2020</annee>
+  <par>Nicolas Pelloille-Oudart</par>
+  <par>Frédéric Jamain</par>
+  <par>Nicolas Peufaillit</par>
+  <par>Cinétévé Experience</par>
+  <par ref="arte"/>
+  <url>https://ordesa.arte.tv/</url>
+  <categorie>Fiction</categorie>
+
+  <resume>Un huis clos fantastique : Lise revient dans la maison familiale après deux ans d'absence, les retrouvailles avec son père tournent mal, une présence s'installe. Le spectateur n'a ni bouton ni menu : c'est là où il regarde qui fait avancer le film, et il devient peu à peu un personnage de l'histoire. Écrit par Nicolas Peufaillit (scénariste d'« Un Prophète ») et Nicolas Pelloille-Oudart, qui réalise avec Frédéric Jamain. Application iOS, Android et Apple TV, sortie le 15 octobre 2020 ; le site n'est qu'une vitrine.</resume>
+
+  <visuel src="ordesa.jpg"
+          source="https://ordesa.arte.tv/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le regard est la commande.** Pas de choix proposé, pas de temps mort pour
+      décider : on cherche dans l'image, et ce qu'on trouve change la suite. La
+      seule interface est l'attention.
+
+      **Le quatrième mur est un mécanisme, pas un effet.** Si le spectateur est
+      une présence dans la maison, alors être observé par les personnages est
+      cohérent avec le récit. L'interactivité justifie le fantastique et
+      inversement.
+
+      **Le tournage a été conçu pour ça.** Un procédé de prise de vues sur mesure,
+      pas du montage interactif bricolé après coup sur des rushes classiques.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      C'est une application de boutique, pas une page web. Rien à ouvrir en cours
+      d'un clic, rien à archiver. Le jour où Apple retire l'app, il n'en reste
+      rien. Voir [[babel]].
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

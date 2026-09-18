@@ -1,0 +1,111 @@
+<concept id="interface-scrollable">
+  <titre>Le défilement</titre>
+  <genre>interface</genre>
+  <exemple ref="phallaina"/>
+  <exemple ref="the-boat"/>
+  <exemple ref="le-dernier-gaulois"/>
+  <exemple ref="snow-fall"/>
+  <exemple ref="do-not-track"/>
+  <voir ref="structure-lineaire"/>
+  <voir ref="structure-elastique"/>
+  <voir ref="interface-gestural"/>
+
+  <resume>Le geste le plus banal du web devient un instrument de rythme : la main donne le tempo, l'auteur garde la séquence.</resume>
+
+  <section title="Définition">
+    <markdown>
+      Le récit avance parce qu'on pousse la page. Verticalement le plus souvent,
+      horizontalement quand la traversée est le sujet. Le public ne choisit ni l'ordre
+      ni la suite : il choisit la vitesse, et s'arrête où il veut.
+
+      C'est la seule interface du site qui n'a rien fallu inventer — elle était déjà
+      dans le navigateur. C'est aussi pour ça qu'elle est la plus facile à gâcher.
+    </markdown>
+  </section>
+
+  <section title="Schéma">
+    <markdown>
+      ```
+      Défilement comme transport        Défilement comme matière
+
+        ▼ on descend                      ▼ on pousse
+        ┌──────────┐                      ┌──────────┐
+        │ texte    │                      │ le bateau│  le geste EST
+        ├──────────┤                      │  tangue  │  le mouvement
+        │ image    │   le geste sert       ├──────────┤  raconté
+        ├──────────┤   à atteindre         │ la fumée │
+        │ vidéo    │   le bloc suivant     │  monte   │
+        └──────────┘                      └──────────┘
+
+        Sans le scroll : rien            Sans le scroll : l'œuvre
+        n'est perdu.                     n'existe plus.
+      ```
+    </markdown>
+  </section>
+
+  <section title="Quand le geste devient la métaphore">
+    <markdown>
+      [[the-boat]] est le cas parfait, et il tient en une phrase : défiler fait tanguer
+      le bateau. Mai est mise sur une embarcation qui quitte le Viêt Nam en 1979, et le
+      geste de lecture est le mouvement raconté. On ne regarde pas la traversée, on la
+      fait avancer. Certaines séquences demandent beaucoup de défilement pour peu
+      d'avancée : c'est pénible, et c'est le propos.
+
+      [[phallaina]] pousse l'image vers la gauche pendant une heure, sans page ni
+      chapitre. [[le-dernier-gaulois]] descend au lieu d'avancer, et le défilement
+      déclenche les animations. Dans les trois cas, la main travaille et la séquence
+      reste celle de l'auteur.
+
+      À l'autre bout, [[snow-fall]] (2012) invente le genre journalistique qui en
+      découle : un long article où le défilement révèle vidéos, cartes et animations.
+      Le geste y est un moyen de transport plus qu'une matière — et c'est cette version
+      que dix ans de sites d'agence ont copiée.
+
+      [[do-not-track]] s'en sert autrement encore : le défilement rythme un
+      documentaire qui, entre deux blocs, va chercher les données du spectateur. La
+      forme est commune, l'usage ne l'est pas.
+    </markdown>
+  </section>
+
+  <section title="Le test">
+    <markdown>
+      Une seule question, et elle est brutale : **si on remplaçait le défilement par un
+      bouton « suivant », qu'est-ce qui serait perdu ?**
+
+      Sur *The Boat* : le roulis, donc tout. Sur beaucoup de pages qui s'annoncent
+      comme du *scrollytelling* : rien, sinon une animation d'apparition.
+
+      Ce n'est pas disqualifiant. C'est disqualifiant de le défendre comme le cœur du
+      projet.
+    </markdown>
+  </section>
+
+  <section title="Erreurs courantes">
+    <markdown>
+      - Détourner le défilement pour faire autre chose que descendre (« scroll
+        hijacking ») : le public perd le seul repère qu'il avait
+      - Ignorer la longueur sur mobile. Une séquence lente devient du pouce répété, et
+        l'effet de durée bascule en corvée — *The Boat* lui-même s'y expose
+      - Charger la page entière avant d'afficher quoi que ce soit
+      - Ne prévoir aucun repère de progression. Sans lui, la personne ne sait pas si
+        elle en a pour trois minutes ou une heure, et elle part
+      - Oublier le clavier et les lecteurs d'écran : une œuvre qui ne se parcourt qu'à
+        la molette exclut une partie de son public
+    </markdown>
+  </section>
+
+  <section title="En pratique">
+    <markdown>
+      C'est l'interface la plus accessible : elle ne demande aucune bibliothèque, et
+      une page HTML suffit.
+
+      **Le sens du geste suit le sens du récit.** Une chute descend, une traversée
+      avance, une remontée dans le temps remonte.
+
+      **La lenteur se réserve à un endroit.** Un seul passage où il faut beaucoup
+      pousser pour peu d'avancée se remarque et se retient. Trois, on ferme l'onglet.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

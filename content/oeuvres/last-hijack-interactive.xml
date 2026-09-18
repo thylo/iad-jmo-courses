@@ -1,0 +1,40 @@
+<oeuvre id="last-hijack-interactive" statut="en-ligne">
+  <titre>Last Hijack Interactive</titre>
+  <annee>2014</annee>
+  <par>Submarine Channel</par>
+  <url>https://lasthijack.submarinechannel.com/</url>
+  <categorie>Documentaire</categorie>
+  <concept ref="interface-timeline"/>
+  <concept ref="structure-parallele"/>
+
+  <resume>Le détournement d'un cargo au large de la Somalie, entre novembre 2008 et janvier 2009, raconté par les deux capitaines — le pirate et le Néerlandais. Le récit se parcourt sur une frise qui va de 1980 à 2014, et à chaque scène on choisit de qui on prend le point de vue, ou de sortir vers une visualisation : les lieux des attaques, la circulation de l'argent, la pêche illégale.</resume>
+
+  <visuel src="last-hijack-interactive.jpg"
+          source="https://lasthijack.submarinechannel.com/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Deux récits du même événement, jamais fusionnés.** Le film ne cherche pas la
+      vérité au milieu : il laisse deux versions coexister et laisse au spectateur le
+      soin de passer de l'une à l'autre. C'est ce que la
+      [[structure-parallele|structure parallèle]] permet et que le montage linéaire
+      interdit, puisqu'un montage doit choisir un ordre.
+
+      **La frise remonte à 1980.** Le détournement n'est pas présenté comme un fait
+      divers mais comme le point d'arrivée de trente ans — effondrement de l'État,
+      pêche industrielle étrangère, déchets déversés. La
+      [[interface-timeline|frise]] fait le travail argumentatif : on ne peut pas
+      atteindre la scène sans avoir traversé ce qui la précède.
+
+      **Le pilotage automatique est proposé par défaut.** On peut laisser dérouler,
+      ou couper l'automatisme et s'arrêter à chaque scène. Offrir explicitement de
+      ne rien décider est une politesse rare dans un documentaire interactif, et ça
+      évite de punir celui qui veut juste regarder.
+    </markdown>
+
+    <video src="youtube:TaeC2NfUM7w"
+           caption="La bande-annonce du documentaire, publiée par Submarine Channel."/>
+  </section>
+
+  <backlinks/>
+</oeuvre>

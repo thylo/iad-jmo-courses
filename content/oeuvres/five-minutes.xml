@@ -1,0 +1,47 @@
+<oeuvre id="five-minutes" statut="en-ligne">
+  <titre>Five Minutes</titre>
+  <annee>2014</annee>
+  <par>Maximilian Niemann</par>
+  <par>Felix Faißt</par>
+  <par>Filmakademie Baden-Württemberg</par>
+  <url>https://fiveminutes.gs/</url>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-lineaire"/>
+  <concept ref="role-divinite"/>
+
+  <resume>Un homme est en train de se transformer en zombie et il lui reste cinq minutes. Le spectateur ne peut ni le soigner ni le sauver : il peut seulement le maintenir accroché à ses souvenirs, en retenant son attention pendant que le reste s'en va. Court métrage interactif en HTML5, écrit et réalisé par Maximilian Niemann avec une équipe d'étudiants de la Filmakademie Baden-Württemberg. Prix du public de la FWA en 2014.</resume>
+
+  <visuel src="five-minutes.jpg"
+          alt="Écran d'accueil du film : dans un bâtiment vitré et délabré, un homme armé d'un fusil regarde par-dessus son épaule vers une femme au bonnet orange ; au centre, le titre « Five Minutes » et un bouton « Start »"
+          credit="Filmakademie Baden-Württemberg"
+          source="https://fiveminutes.gs/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **L'interaction est un effort, pas un choix.** Il n'y a rien à décider : il y a
+      quelque chose à maintenir. Le geste ne bifurque pas, il résiste — et c'est ce qui
+      fait qu'on est impliqué dans une [[structure-lineaire|ligne]] dont l'issue ne fait
+      aucun doute.
+
+      **Le compte à rebours est le scénario.** Cinq minutes annoncées, cinq minutes
+      réelles. La durée n'est pas subie, elle est promise dès le titre — et une œuvre
+      qui tient exactement ce qu'elle annonce n'a aucun besoin de multiplier les fins.
+      À rapprocher de [[sortie-en-mer]], où l'on s'épuise aussi sans pouvoir gagner.
+
+      **C'est un travail d'étudiants.** Une école de cinéma, une équipe, du HTML, et un
+      objet toujours en ligne dix ans après. L'échelle est plus instructive que celle
+      d'une production à budget : elle est atteignable.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le sujet — un zombie, une transformation, des souvenirs qui s'effacent — a été
+      beaucoup vu. Ce qui tient ici n'est pas l'histoire, c'est le rapport entre le
+      geste et la perte, et il faut le dire aux étudiants avant qu'ils s'arrêtent à la
+      surface.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

@@ -1,0 +1,60 @@
+<oeuvre id="1000xresist" statut="en-ligne">
+  <titre>1000xRESIST</titre>
+  <annee>2024</annee>
+  <par>sunset visitor</par>
+  <url>https://store.steampowered.com/app/1675830/1000xRESIST/</url>
+  <categorie>Jeu</categorie>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-concentrique"/>
+  <concept ref="role-personnage"/>
+
+  <resume>Dans un futur souterrain, des sœurs clonées vénèrent l'ALLMOTHER et rejouent ses souvenirs comme un rite. On les revisite un à un, et on découvre qu'ils ont été retouchés : ce que la communauté tient pour son histoire fondatrice est un montage. Une œuvre sur la diaspora, la mémoire officielle et ce qu'un groupe accepte de croire pour tenir debout.</resume>
+
+  <visuel src="1000xresist.jpg"
+          alt="Un visage peint en coups de pinceau violets et rouges, lunettes rondes, une main levée devant l'objectif ; l'image se dédouble en deux versions décalées."
+          credit="sunset visitor"
+          source="https://store.steampowered.com/app/1675830/1000xRESIST/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **La revisite est la mécanique.** On ne progresse pas dans le temps, on
+      redescend dans la même scène, plus loin à chaque fois, jusqu'à voir ce
+      qu'elle cachait. Plusieurs couches autour d'un noyau unique — voir
+      [[structure-concentrique]] — et chaque couche rend la précédente fausse sans
+      la supprimer, exactement comme les quatre documents de [[trust|Trust]].
+
+      **Le souvenir falsifié est jouable.** Le joueur exécute le rite avant de
+      comprendre ce qu'il est, incarne la version officielle, la répète. Quand la
+      retouche apparaît, elle apparaît dans quelque chose qu'on a fait soi-même,
+      pas dans une révélation qu'on nous sert.
+
+      **Le jeu assume la longueur du dialogue.** Des scènes de vingt minutes,
+      presque sans action, portées par la mise en scène et le montage plutôt que
+      par une boucle de jeu. C'est un pari rare et c'est ce qui permet à un sujet
+      politique — Hong Kong, l'exil, la deuxième génération — d'être traité
+      autrement qu'en allégorie.
+
+      **La forme change à chaque chapitre.** Théâtre, couloir, tableau, simulation :
+      le jeu abandonne son propre vocabulaire dès qu'il l'a établi. C'est
+      déstabilisant et c'est cohérent avec une œuvre qui parle d'un récit officiel
+      qu'on ne peut pas se permettre de trouver confortable.
+    </markdown>
+
+    <video src="youtube:ISmiWUpiDs4"
+           caption="La bande-annonce de sortie, publiée par Fellow Traveller."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      La première heure est opaque : vocabulaire inventé, personnages sans
+      présentation, règles du monde livrées en désordre. Beaucoup s'arrêtent là,
+      et l'extrait de cours doit donc être choisi ailleurs.
+
+      L'interaction reste mince — marcher, regarder, valider. Le jeu s'assume
+      comme un récit qu'on traverse, ce qui est défendable, mais on ne peut pas le
+      donner en exemple d'agentivité.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

@@ -1,0 +1,45 @@
+<oeuvre id="the-johnny-cash-project" statut="hors-ligne">
+  <titre>The Johnny Cash Project</titre>
+  <annee>2010</annee>
+  <par ref="chris-milk"/>
+  <par>Aaron Koblin</par>
+  <url>https://www.aaronkoblin.com/project/johnny-cash-project/</url>
+  <categorie>Interface</categorie>
+  <concept ref="forme-collaborative"/>
+  <concept ref="interface-galleries"/>
+
+  <resume>Un clip pour « Ain't No Grave », enregistré par Johnny Cash peu avant sa mort et publié en 2010. Le site tire au sort trois photogrammes du film, le visiteur en choisit un et le redessine par-dessus, en niveaux de gris seulement. Le clip se rejoue ensuite en assemblant, pour chaque photogramme, un dessin parmi ceux qui existent : il n'est jamais deux fois le même.</resume>
+
+  <visuel src="the-johnny-cash-project.jpg"
+          source="https://www.radicalmedia.com/work/the-johnny-cash-project/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **La contribution a une place assignée.** On ne dessine pas ce qu'on veut : on
+      dessine l'image 1043, par-dessus l'image 1043. La contrainte de position est
+      ce qui permet à des milliers de gestes hétérogènes de former un mouvement
+      continu — sans elle, il n'y a qu'une galerie.
+
+      **Le gris est la seule règle esthétique.** Un choix, une justification (« the
+      man in black »), et il suffit à donner une unité à des dessins faits par des
+      inconnus de niveaux très différents. Poser une contrainte de palette avant
+      d'ouvrir la participation est la leçon la plus réutilisable du projet.
+
+      **Le film n'a pas de version définitive.** Chaque lecture recompose. La
+      question « quelle est l'œuvre ? » n'a pas de réponse simple, et c'est ce qui
+      distingue le dispositif d'un appel à contributions ordinaire. Voir
+      [[forme-collaborative]].
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le site officiel ne répond plus qu'en pointillé et le lecteur était en Flash.
+      Des dizaines de milliers de dessins ont été faits par des gens qui n'ont plus
+      rien à montrer — même fin que [[gaza-sderot]], avec en plus la disparition
+      d'une contribution qui appartenait au public.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

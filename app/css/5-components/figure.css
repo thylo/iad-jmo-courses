@@ -1,0 +1,194 @@
+/* Figures — an image with what is owed to whoever made it.
+
+   These are other people's images on a public course site. The credit is part
+   of the component rather than something a writer remembers to add, which is
+   the only way it stays systematic. */
+
+/* Only the block margin is declared here, and the inline one is deliberately
+   left alone.
+
+   The reset already zeroes a figure's margins, so there is nothing to undo. A
+   `margin-inline: 0` on this class would not be redundant, it would be a bug:
+   .c-bleed carries the negative margin that pulls a figure to the paper's edge,
+   it sits in the objects layer, and it has exactly the same specificity as this
+   class. Objects are imported before components, so the later declaration wins
+   and every .c-figure.c-bleed on the site silently stops bleeding — while the
+   caption offset below keeps firing and lands on nothing.
+
+   The layers have no @layer between them, so order is the only thing keeping
+   them apart. A component may not restate a property an object owns. */
+.c-figure {
+  margin-block: var(--space-l);
+}
+
+/* The lead image of a fiche. It sits between the summary and the fiche proper,
+   so it closes the opening rather than interrupting the reading. */
+.c-figure--lead {
+  margin-block-start: var(--space-m);
+}
+
+.c-figure img {
+  width: 100%;
+  height: auto;
+  background-color: var(--color-paper-sunk);
+}
+
+/* The plate that opens a page — <image width="opening"/>.
+
+   It is not in the reading at all: App\Content\Intro lifts it into the field
+   beside the title and the summary, where the fiche puts its facts. So it needs
+   no float, no width and no clearing — the grid gave it a column, and the
+   column is the whole of its geometry.
+
+   The margins go, and that is the point of the class. A figure in the flow owns
+   the space around it because it interrupts something; this one interrupts
+   nothing, and its top edge lining up with the top of the opening is what makes
+   the two read as one composition rather than as two blocks that happen to be
+   side by side. */
+
+.c-figure--opening {
+  margin-block: 0;
+}
+
+/* Same threshold as .c-figure--field below, same arithmetic, and here it moves
+   a whole composition rather than one float: under about 72em the field is a
+   couple of hundred pixels, and a plate set in that is a thumbnail with a
+   caption four lines deep beside a title in display type. So the pair breaks —
+   the opening takes the sheet back, and the plate drops under it at the width
+   of the reading, which is where an image goes when it has no column of its own.
+
+   Selected through the block that holds it rather than with a modifier of its
+   own: the same wrapper carries an entity's facts, and a <dl> of five rows is
+   perfectly readable in a narrow field. It is the image that cannot. */
+@media (max-width: 71.999em) {
+  .c-intro--paired:has(+ * .c-figure--opening) {
+    grid-column: margin-start / field-end;
+  }
+
+  .o-canvas__field:has(> .c-figure--opening) {
+    grid-column: text-start / field-end;
+  }
+}
+
+/* A figure in the open field — the mirror of the margin note, and the reason
+   the third column exists.
+
+   It floats right out of the reading, so it sits beside the text at the height
+   it was written and the measure never changes to accommodate it. Its width is
+   the field exactly: the reading less the measure and the step between them, so
+   the float's left edge lands on text-end and no line ever wraps around it.
+
+   Like a margin note, it annotates what follows it — a float aligns with the
+   top of the next block — so <image width="field"/> is written above the
+   paragraph it accompanies, and its step matches that block's.
+
+   Written between sections rather than inside one: the reading is a grid item
+   and contains its floats, a <section> is not and does not. A tall figure at
+   the end of a section would otherwise reach into the next. */
+
+.c-figure--field {
+  float: right;
+  clear: right;
+  inline-size: calc(100% - var(--measure-text) - var(--space-xl));
+  margin-block: var(--space-m);
+}
+
+/* The sheet has one breakpoint; the field figure needs two of its own, and both
+   are properties of this component rather than of the page. This is the one
+   below, where there is no field left to float into.
+
+   The text column is minmax(0, measure): below about 72em it is served less
+   than the measure, so the width above — the reading less the measure — goes
+   negative and there is no field to float into. Even just above the canvas
+   breakpoint the field is barely 120px, which is not an image. So the figure
+   stays in the flow until the field is worth having, and takes the reading
+   like any other. */
+@media (max-width: 71.999em) {
+  .c-figure--field {
+    float: none;
+    inline-size: auto;
+  }
+}
+
+/* And a margin of its own, once the window can pay for one.
+
+   The sheet has a margin on the left — the 196px column that holds the labels
+   and the margin notes — and nothing has ever answered it on the right. So a
+   figure in the field runs to field-end, which is where <image width="full"/>
+   starts from and where every block of the page already ends: the two widest
+   things a page can do look alike at the edge that is supposed to tell them
+   apart.
+
+   Giving the figure the same 196px on its right puts its edge exactly opposite
+   text-start. The page gets two margins instead of one, the field figure stops
+   short of the edge the bleed owns, and the difference between annotating the
+   reading and interrupting it is visible without reading a word.
+
+   Its left edge does not move: the margin is taken out of the width, so the
+   float still starts at field-start and no line wraps around it.
+
+   That is also why this waits for 85em. The margin is paid for out of the
+   image, and a field figure has never been allowed below the ~270px it gets at
+   the threshold above; 85em is the width at which it still has that much left
+   after paying. Under it the field keeps everything it has. */
+@media (min-width: 85em) {
+  .c-figure--field {
+    inline-size: calc(
+      100% - var(--measure-text) - var(--space-xl) - var(--sidebar-width)
+    );
+    margin-inline-end: var(--sidebar-width);
+  }
+}
+
+/* A figure that moves — an animated image, marked by App\Media\ImageTag.
+
+   A reader who has asked their system for no motion does not get it, and the
+   whole figure goes rather than the image alone: a caption crediting something
+   that is not on the page is worse than no figure at all.
+
+   Hidden rather than paused, which is the honest reading of what these are. A
+   moving image on this site is always a second example beside a still one, or
+   the punchline of a montage — never a step of the argument. Nothing that only
+   exists in the animation is said nowhere else, so removing it costs a reader
+   an illustration and no information. If that ever stops being true, the answer
+   is a poster frame, not a pause button.
+
+   The browser tends to skip the download too: these are lazy, and an element
+   with no box never enters the viewport. That is a side effect, not the
+   reason. */
+@media (prefers-reduced-motion: reduce) {
+  .c-figure--motion { display: none; }
+}
+
+/* A figure gets one caption. When the image carries both a legend and a credit,
+   the credit sits inside it as a quieter aside rather than as a second block. */
+.c-figure__caption,
+figcaption.c-figure__credit {
+  margin-block-start: var(--space-s);
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+}
+
+.c-figure__caption { color: var(--color-ink-muted); }
+
+/* The credit is not the caption: it says who owns the image, not what it shows. */
+.c-figure__credit { color: var(--color-ink-faint); }
+
+/* Set on its own line when it follows a legend, so the two do not read as one
+   sentence. */
+.c-figure__caption > .c-figure__credit {
+  display: block;
+}
+
+.c-figure__credit a { color: inherit; }
+
+/* A figure at bleed touches both edges, but its caption is text: it comes back
+   onto the text column rather than starting at the paper's edge. */
+.c-figure.c-bleed > figcaption {
+  max-width: var(--measure-text);
+  margin-inline-start: calc(var(--gutter) + var(--sidebar-width));
+}
+
+@media (max-width: 47.999em) {
+  .c-figure.c-bleed > figcaption { margin-inline-start: var(--gutter); }
+}

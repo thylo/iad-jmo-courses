@@ -1,0 +1,31 @@
+<oeuvre id="chrome-music-lab" statut="en-ligne">
+  <titre>Chrome Music Lab</titre>
+  <annee>2016</annee>
+  <par ref="google-creative-lab"/>
+  <url>https://musiclab.chromeexperiments.com/</url>
+  <categorie>Outil</categorie>
+
+  <resume>Une quinzaine de petites expériences web, une par notion musicale : un séquenceur qu'on dessine (Song Maker), un spectrogramme, des harmoniques, des cordes, des accords, un oscillateur. Chacune tient sur une page, sans compte, sans tutoriel et sans texte.</resume>
+
+  <visuel src="chrome-music-lab.jpg"
+          source="https://musiclab.chromeexperiments.com/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Une idée par page, et rien autour.** Chaque module refuse d'expliquer autre
+      chose que sa notion. C'est ce qui permet d'y entrer par n'importe quelle porte
+      et de partir au bout de deux minutes sans avoir rien raté — le contraire d'un
+      parcours pédagogique, et probablement la raison pour laquelle l'ensemble a
+      survécu dix ans dans les classes.
+
+      **Le paramètre est manipulable avant d'être nommé.** On tire sur une corde,
+      on entend, et le mot « fréquence » arrive après, s'il arrive. L'ordre est
+      inversé par rapport à un cours, et c'est là toute la méthode.
+    </markdown>
+
+    <video src="youtube:BqncqSxIwgc"
+           caption="La présentation de Song Maker par Experiments with Google."/>
+  </section>
+
+  <backlinks/>
+</oeuvre>

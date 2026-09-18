@@ -1,0 +1,81 @@
+<concept id="structure-concentrique">
+  <titre>Structure Concentrique</titre>
+  <genre>structure</genre>
+  <exemple ref="one-shared-house"/>
+  <exemple ref="1000xresist"/>
+  <voir ref="structure-elastique"/>
+  <voir ref="structure-parallele"/>
+
+  <resume>Plusieurs couches narratives autour d'un événement central. Le spectateur explore différentes perspectives ou moments autour d'un même noyau.</resume>
+
+  <section title="Définition">
+    <markdown>
+      La structure concentrique présente plusieurs récits ou perspectives qui tournent autour
+      d'un événement, un lieu ou un personnage central. Chaque couche offre une compréhension
+      différente du noyau sans nécessairement suivre un ordre chronologique ou logique.
+
+      Caractéristiques :
+
+      - Événement/lieu/personnage central
+      - Plusieurs perspectives ou moments
+      - Navigation non-linéaire entre les couches
+      - Complémentarité des perspectives
+    </markdown>
+  </section>
+
+  <section title="Interaction">
+    <markdown>
+      Choisir quelle perspective, époque ou couche explorer. Pas d'ordre imposé, navigation libre entre les couches.
+    </markdown>
+  </section>
+
+  <section title="Schéma">
+    <markdown>
+      ```
+            Perspective A
+                 ↓
+      Perspective D ← [ÉVÉNEMENT] → Perspective B
+                 ↑
+            Perspective C
+      ```
+    </markdown>
+  </section>
+
+  <section title="Avantages">
+    <markdown>
+      - Révèle la complexité d'une situation
+      - Encourage la réflexion critique
+      - Rejouabilité naturelle (explorer chaque perspective)
+      - Pertinent pour les événements controversés
+    </markdown>
+  </section>
+
+  <section title="Inconvénients">
+    <markdown>
+      - Peut être répétitif si mal exécuté
+      - Difficile de maintenir l'intérêt sur toutes les perspectives
+      - Risque de confusion chronologique
+      - Impression de fragmentation narrative
+    </markdown>
+  </section>
+
+  <section title="Quand l'utiliser">
+    <markdown>
+      - Histoires avec plusieurs protagonistes
+      - Événements controversés nécessitant plusieurs points de vue
+      - Exploration spatiale d'un lieu à travers le temps
+      - Documentaires sur des faits complexes
+      - Œuvres pédagogiques nécessitant la compréhension multidimensionnelle
+    </markdown>
+  </section>
+
+  <section title="Variantes">
+    <markdown>
+      - **Temporelles** : Un lieu exploré à différentes époque (passé, présent, futur)
+      - **Perspectivistes** : Un événement vu par différents personnages
+      - **Thématiques** : Un sujet exploré selon différents angles (émotionnel, factuel, artistique)
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

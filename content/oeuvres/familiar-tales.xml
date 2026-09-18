@@ -1,0 +1,44 @@
+<oeuvre id="familiar-tales" statut="en-ligne">
+  <titre>Familiar Tales</titre>
+  <annee>2022</annee>
+  <par>Jerry Hawthorne</par>
+  <par>Plaid Hat Games</par>
+  <url>https://www.familiartalesgame.com/</url>
+  <categorie>Jeu</categorie>
+  <concept ref="interface-plateau"/>
+
+  <resume>Une campagne coopérative où l'on incarne les familiers d'un magicien chargés d'élever une princesse en fuite, sur plusieurs décennies. Une application dit le récit à voix haute, entièrement doublée et mise en musique, et tient les états, les combats et les sauvegardes ; sur la table, il reste des figurines et des paquets de cartes qu'on fait grandir. Sortie en janvier 2022.</resume>
+
+  <visuel src="familiar-tales.jpg"
+          source="https://www.familiartalesgame.com/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      C'est un cas où l'application abaisse vraiment une barrière. Pas de livret de
+      règles à lire avant de commencer, personne à recruter pour tenir le rôle du
+      maître de jeu, et une campagne longue qui reste jouable avec des enfants. Elle
+      tient les états, la progression et les sauvegardes, c'est-à-dire tout ce qui
+      décourage une famille de rouvrir la boîte un deuxième soir.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Elle tient aussi la narration, et là le compte n'y est plus.
+
+      Lire à voix haute, faire les voix, sauter un passage quand les enfants
+      décrochent, en rajouter quand ça prend : c'était le travail de la personne qui
+      racontait, et c'est précisément ce qui fait la soirée. L'application déroule le
+      même texte au même rythme, table endormie ou pas. Elle a pris la comptabilité
+      *et* le conteur : le premier échange est bon, le second beaucoup moins.
+
+      À comparer avec [[tracks]], où la technologie en fait beaucoup moins et donne
+      davantage. Voir [[interface-plateau]].
+    </markdown>
+
+    <video src="youtube:dj3mwzj6oeU"
+           caption="La présentation du jeu par Plaid Hat Games."/>
+  </section>
+
+  <backlinks/>
+</oeuvre>

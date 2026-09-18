@@ -1,0 +1,30 @@
+<oeuvre id="silk-interactive-generative-art" statut="en-ligne">
+  <titre>Silk</titre>
+  <annee>2011</annee>
+  <par>Yuri Vishnevsky</par>
+  <par>Mat Jarvis</par>
+  <url>http://weavesilk.com/</url>
+  <categorie>Outil</categorie>
+
+  <resume>On tire un trait à la souris ; l'outil en fait une gerbe de filaments qui continuent de se déployer après le geste, dupliqués en miroir sur un axe de symétrie qu'on peut choisir. Rien ne se dessine tout à fait comme on l'a tracé, et rien ne peut être raté. Son et musique de Mat Jarvis.</resume>
+
+  <visuel src="silk-interactive-generative-art.jpg"
+          source="http://weavesilk.com/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **L'écart entre le geste et le résultat est l'intérêt.** Un outil de dessin
+      cherche la fidélité ; celui-ci ajoute délibérément ce qu'on n'a pas fait. La
+      personne qui dessine n'exécute pas une intention, elle négocie avec une
+      machine qui en rajoute — et c'est ce qui rend le résultat regardable par
+      quelqu'un qui ne sait pas dessiner.
+
+      **La symétrie fait tout le travail de composition.** Quatre, six, huit axes :
+      le moindre gribouillis devient une rosace. C'est un truc, il est visible, et
+      il suffit à produire cinq minutes de plaisir chez n'importe qui — bon exemple
+      de ce qu'une seule règle bien choisie peut porter.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

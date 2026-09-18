@@ -1,0 +1,57 @@
+<oeuvre id="protanopia" statut="en-ligne">
+  <titre>Protanopia</titre>
+  <annee>2017</annee>
+  <par>André Bergs</par>
+  <par>Plastiek</par>
+  <url>https://apps.apple.com/lu/app/protanopia/id1289546434</url>
+  <categorie>Fiction</categorie>
+  <concept ref="interface-gestural"/>
+  <concept ref="interface-3d"/>
+
+  <resume>Une courte bande dessinée muette sur iPhone et iPad, faite dans Unity. Chaque case est une petite scène en couches, animée en boucle et posée dans un espace en trois dimensions : incliner l'appareil déplace le point de vue et découvre ce que la case cachait. Gratuite, sans son, une quinzaine de minutes.</resume>
+
+  <visuel src="protanopia.jpg"
+          source="https://apps.apple.com/lu/app/protanopia/id1289546434"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **La case devient un volume.** Le dessin est découpé en plans superposés,
+      chacun animé séparément. On ne regarde plus une image fixe : on regarde
+      dedans, et le mouvement du poignet remplace le travelling. C'est de la
+      profondeur obtenue avec du dessin 2D, pas de la 3D.
+
+      **Le geste ne fait pas avancer l'histoire.** Le récit reste
+      [[structure-lineaire|strictement linéaire]] : on tape pour passer à la case
+      suivante, point. L'inclinaison ne sert qu'à voir. Bel exemple d'interaction
+      qui enrichit la lecture sans prétendre donner du pouvoir sur le récit, ce
+      que [[interface-gestural]] appelle un geste motivé.
+
+      **Pas de son, volontairement.** Bergs l'explique : une musique impose son
+      tempo, et une bande dessinée est justement la forme où le lecteur décide de
+      son rythme. Retirer une piste pour préserver une propriété du médium : c'est
+      une décision de forme, pas une économie.
+
+      **Fait par une personne, avec un moteur de jeu.** Un animateur qui se dit
+      mauvais programmeur, Unity, et l'App Store. L'échelle est atteignable.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      L'histoire est un prétexte. On retient les cases, pas le récit, et la
+      démonstration technique porte l'ensemble. C'est assumé (« an experimental
+      take »), mais ça reste la limite du genre : quand l'effet est le sujet, il
+      n'y a rien à relire.
+
+      L'inclinaison demande de tenir l'appareil dans une position précise, ne
+      fonctionne pas allongé, et n'a aucune alternative. Personne ne peut lire
+      Protanopia autrement qu'en bougeant.
+
+      Et c'est une application, sur un magasin, liée à une version d'iOS. Un album
+      imprimé se lit encore un siècle plus tard sans rien demander à personne ;
+      Protanopia tiendra le temps qu'Apple voudra bien la faire tourner.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

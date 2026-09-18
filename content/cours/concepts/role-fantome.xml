@@ -1,0 +1,104 @@
+<concept id="role-fantome">
+  <titre>Un fantôme</titre>
+  <genre>role</genre>
+  <exemple ref="weiordie"/>
+  <exemple ref="phallaina"/>
+  <exemple ref="gaza-sderot"/>
+  <exemple ref="one-shared-house"/>
+  <exemple ref="the-boat"/>
+  <voir ref="role-divinite"/>
+  <voir ref="choix-exploratoire"/>
+
+  <resume>Le public voit tout et ne peut rien. Ses gestes déplacent le regard, pas les événements.</resume>
+
+  <section title="Définition">
+    <markdown>
+      Le récit se déroule sans le public et ne l'attend pas. Ce qu'on lui confie, c'est
+      la place d'où on regarde : quelle caméra, quel témoin, quel moment, à quelle
+      vitesse.
+
+      C'est le rôle le plus fréquent du documentaire interactif, et le plus honnête
+      quand la matière est réelle : on ne va pas laisser le public modifier ce qui est
+      arrivé. La liberté d'angle est la seule qu'on puisse lui donner sans mentir.
+    </markdown>
+  </section>
+
+  <section title="Schéma">
+    <markdown>
+      ```
+      les événements  ──────────────────────────────►  (fixes)
+
+              ▲          ▲          ▲
+              │          │          │
+           regard     regard     regard
+          (angle 1)  (angle 2)  (angle 3)
+
+      Ce qui se déplace : la position du regard
+      Ce qui ne se déplace pas : une seule chose de ce qui arrive
+      ```
+    </markdown>
+  </section>
+
+  <section title="Ce que l'angle produit">
+    <markdown>
+      [[gaza-sderot]] filme quarante jours de part et d'autre de la même frontière et
+      laisse choisir par qui commencer. Aucun fait ne bouge. Ce qui change, c'est de
+      quel côté on était installé pour les recevoir, et le dispositif tient entièrement
+      là-dessus : deux vies ordinaires, à quelques kilomètres, à la même heure.
+
+      [[weiordie|Wei or Die]] pousse le principe au montage. Le récit est fixe, les
+      caméras sont multiples, et refaire le parcours en changeant de point de vue
+      donne une autre affaire à partir des mêmes images.
+
+      [[one-shared-house]] laisse entrer dans un immeuble communautaire d'Amsterdam par
+      n'importe quel habitant. Trente ans d'histoire, un lieu, plusieurs
+      témoins : la [[structure-concentrique|structure concentrique]] est faite pour ce
+      rôle.
+
+      [[phallaina]] et [[the-boat]] en donnent la version minimale : le geste ne
+      choisit même plus un angle, seulement un rythme. On pousse l'image, l'histoire
+      avance, et rien n'attend de décision. Ça fonctionne, ce qui vaut d'être noté
+      avant de croire qu'il faut brancher pour impliquer.
+    </markdown>
+  </section>
+
+  <section title="Ce que ça permet, et ce que ça interdit">
+    <markdown>
+      **Ça permet** de garder la maîtrise complète de ce qui se raconte tout en
+      donnant une liberté réelle. La production reste linéaire : on écrit chaque
+      module une fois.
+
+      **Ça interdit** la culpabilité. Un fantôme ne peut rien avoir sur la
+      conscience, donc il ne peut pas non plus être bouleversé par ce qu'il a fait.
+      Ce n'est donc pas le rôle d'un sujet qui porte sur la responsabilité : voir
+      [[role-personnage|un personnage]] ou [le poids du
+      choix](/panorama/poids-du-choix).
+    </markdown>
+  </section>
+
+  <section title="Erreurs courantes">
+    <markdown>
+      - Habiller le rôle en autre chose. Une interface qui dit « agissez » pour un
+        public qui ne peut qu'observer produit un [[faux-choix|faux choix]]
+      - Multiplier les angles sans qu'aucun ne dise quelque chose. Trois caméras
+        n'informent que si elles ne montrent pas la même chose
+      - Oublier de terminer. Un fantôme peut errer indéfiniment ; c'est à l'auteur de
+        décider où le regard se pose en dernier
+    </markdown>
+  </section>
+
+  <section title="En pratique">
+    <markdown>
+      C'est le rôle le plus tenable avec de la matière documentaire, et le moins cher
+      à produire.
+
+      **Deux angles bien opposés valent mieux que six.** La comparaison est
+      l'information ; au-delà de trois, plus personne ne compare.
+
+      **Ce que l'angle révèle est le seul critère.** Si passer de l'un à l'autre ne
+      change pas ce qu'on comprend, c'est un menu, pas un point de vue.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

@@ -1,0 +1,64 @@
+/* The face, on the homepage only.
+
+   It no longer floats into the margin as a note does. It sits in the opening,
+   overlapping the title by one column — see the hero block in intro.css. The
+   overlap is the composition: the face reads as something the title was
+   written over, not as an illustration set beside it.
+
+   Two layers, for the same reason every rule here is a mask: the drawing came
+   with its own grey disc baked in, and a baked colour is a colour that cannot
+   follow the palette. So the disc is painted by the box and the line is masked
+   over it, and both take a token.
+
+   The numbers are the drawing's own. Its circle is cx 317, cy 363, r 317 in a
+   634 x 726 frame: full width, starting 46/726 of the way down. */
+
+/* The height is what is set and the width follows from it — the reverse of
+   what this was. A width of 100% with an aspect ratio gave a height of 476.4px
+   at the size the hero is drawn, and that fraction of a pixel shifted every
+   row below it off the baseline for the rest of the page. Rows are auto here,
+   so nothing downstream can put it back.
+
+   So the box takes a value of the scale in each of the two zones, and the
+   drawing keeps its proportions from it. Both widths stay inside the two
+   tracks the hero gives this mark, at every viewport those zones cover. */
+.c-portrait {
+  position: relative;
+  block-size: calc(var(--space-unit) * 7);   /* 196, the drawing 171 wide */
+  inline-size: auto;
+  aspect-ratio: 634 / 726;
+}
+
+@media (min-width: 48em) {
+  .c-portrait {
+    block-size: calc(var(--space-unit) * 17);   /* 476, the drawing 416 wide */
+  }
+}
+
+.c-portrait::before,
+.c-portrait::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+}
+
+.c-portrait::before {
+  inset-block-start: 6.34%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: var(--color-paper-sunk);
+}
+
+/* The line runs the full frame rather than the disc, so the hair and the elbow
+   spill over the edge of the circle. That spill is what makes it a drawing
+   rather than an avatar, and clipping it to the disc would throw it away. */
+.c-portrait::after {
+  inset-block: 0;
+  background-color: var(--color-ink);
+  mask-image: url("../../../resources/svg/me.svg");
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url("../../../resources/svg/me.svg");
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+}

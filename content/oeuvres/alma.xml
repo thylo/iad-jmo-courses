@@ -1,0 +1,50 @@
+<oeuvre id="alma" statut="hors-ligne">
+  <titre>Alma, une enfant de la violence</titre>
+  <annee>2012</annee>
+  <par>Miquel Dewever-Plana</par>
+  <par>Isabelle Fougère</par>
+  <par ref="upian"/>
+  <par ref="arte"/>
+  <url>http://alma.arte.tv/fr/</url>
+  <categorie>Documentaire</categorie>
+  <concept ref="role-fantome"/>
+  <concept ref="interface-split-screen"/>
+
+  <resume>Alma a passé cinq ans dans une mara, un gang guatémaltèque, avant d'essayer d'en sortir et d'être laissée pour morte. Elle raconte, face caméra, sur fond noir. Un second flux vidéo est superposé au premier — photographies de Miquel Dewever-Plana, dessins de Hugues Micol — et le spectateur passe de l'un à l'autre quand il veut. Prix IDFA DocLab 2012, premier prix du concours de narration numérique World Press Photo 2013. Le site est aujourd'hui fermé.</resume>
+
+  <visuel src="alma.jpg"
+          alt="Alma, une jeune femme aux longs cheveux noirs, regarde l'objectif sur fond noir ; un tatouage dépasse de l'encolure de son tee-shirt rose"
+          credit="Miquel Dewever-Plana et Isabelle Fougère / Upian — Arte"
+          source="https://docubase.mit.edu/project/alma-a-tale-of-violence/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le partage de l'écran est un choix moral, pas graphique.** Il y a ce
+      qu'Alma dit, et ce qu'on ne peut pas montrer d'elle en le disant. Superposer
+      les deux flux plutôt que les monter l'un après l'autre laisse au spectateur
+      la décision de regarder le visage ou de se réfugier dans l'image. Voir
+      [[interface-split-screen]].
+
+      **Le témoignage n'est pas illustré, il est doublé.** L'image de contexte ne
+      redit pas le récit : elle occupe la place que le récit ne peut pas occuper.
+      C'est la différence entre une illustration et un contrechamp.
+
+      **On ne peut rien y faire.** Aucune décision du spectateur ne change ce qui
+      est arrivé, et rien dans l'œuvre ne le prétend. Cas net de
+      [[role-fantome|fantôme]] : la seule liberté offerte est celle de l'angle, et
+      c'est la seule qui soit honnête sur cette matière.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le site est fermé. Œuvre primée deux fois, coproduite par une chaîne publique
+      et un studio qui existe toujours, et il faut aujourd'hui écrire à Upian pour
+      la voir. À mettre à côté de [[the-boat|The Boat]], du même âge, servi par un
+      diffuseur public et toujours en ligne : la différence ne tient pas au budget,
+      elle tient à ce sur quoi c'était construit.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

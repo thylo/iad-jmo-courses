@@ -1,0 +1,30 @@
+<oeuvre id="surveillance-speaker" statut="en-ligne">
+  <titre>Surveillance Speaker</titre>
+  <annee>2018</annee>
+  <par ref="dries-depoorter"/>
+  <url>https://driesdepoorter.be/surveillancespeaker/</url>
+  <categorie>Installation</categorie>
+  <voir ref="the-follower"/>
+  <voir ref="the-flemish-scrollers"/>
+
+  <resume>Une caméra motorisée qui balaie la salle, un ordinateur, un haut-parleur. Elle dit à voix haute ce qu'elle croit voir, en phrases complètes : « je vois trois personnes dans une exposition en train de regarder des tableaux ». Rien n'est enregistré ni envoyé ; tout ce qu'elle fait, elle le dit.</resume>
+
+  <visuel src="surveillance-speaker.jpg"
+          source="https://driesdepoorter.be/surveillancespeaker/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Le silence est ce qui rend la surveillance supportable.** Une caméra dans un
+      coin ne dérange personne ; la même caméra qui commente à voix haute vide la
+      pièce. L'installation ne change rien à la technique — elle rend seulement
+      audible ce que la machine produisait déjà, et ça suffit.
+
+      **Les erreurs font partie du spectacle.** La description est parfois fausse,
+      approximative, ridicule. Entendre un système se tromper à voix haute est le
+      moyen le plus direct de comprendre qu'il ne « voit » pas : il classe, avec un
+      taux d'erreur, et personne ne l'écoute d'ordinaire.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

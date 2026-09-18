@@ -1,0 +1,43 @@
+<personne id="sol-lewitt" genre="personne">
+  <titre>Sol LeWitt</titre>
+  <lieu>New York</lieu>
+
+  <resume>Artiste conceptuel américain (1928-2007). Il écrivait des instructions, d'autres les exécutaient. L'œuvre est le protocole, pas le mur.</resume>
+
+  <markdown>
+    Il n'a jamais touché un ordinateur et c'est le meilleur cours de programmation
+    créative disponible. En 1967, dans *Paragraphs on Conceptual Art*, il pose la
+    phrase qui tient tout : « l'idée devient une machine qui fabrique l'art ».
+
+    À partir de 1968, il arrête de dessiner. Il écrit des consignes courtes,
+    signées, et ce sont d'autres personnes qui les exécutent sur un mur, souvent
+    des assistants qu'il n'a jamais rencontrés, souvent après sa mort. Voir
+    [[wall-drawings|les Wall Drawings]].
+  </markdown>
+
+  <section title="Pourquoi il est utile ici">
+    <markdown>
+      Parce qu'il sépare proprement deux choses qu'on confond tout le temps :
+      **écrire la règle** et **produire le résultat**.
+
+      Une consigne de LeWitt est déterministe sur la contrainte et ouverte sur le
+      rendu. Deux équipes qui l'appliquent honnêtement obtiennent deux murs
+      différents, et les deux sont l'œuvre. C'est ce que fait un programme : on
+      n'écrit pas l'image, on écrit ce qui la fabrique, en acceptant de ne pas savoir
+      exactement à quoi elle ressemblera.
+
+      Il pose aussi la question de la durée mieux que la plupart des œuvres
+      numériques. Le mur est repeint à la fin de l'exposition ; le certificat et
+      les instructions restent. Ce qui dure, c'est le texte. À comparer avec un
+      dispositif interactif dont le code tourne sur une machine de 2014 : là, ce
+      qui dure, c'est l'objet, et il meurt avec sa version d'OS. Voir
+      [[interface-plateau]] sur le même problème côté jeu de plateau.
+    </markdown>
+  </section>
+
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
+  </section>
+
+  <backlinks/>
+</personne>

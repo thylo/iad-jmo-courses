@@ -1,0 +1,37 @@
+/* Site sections, as one line under the wordmark.
+
+   Horizontal because the margin is spoken for: it holds the labels and the
+   margin notes, and a list of destinations sitting where an annotation belongs
+   was the whole problem. This is the arrangement a personal site tends to
+   settle on — one quiet line of parts, near the name. */
+
+.c-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: var(--space-m);
+  row-gap: 0;
+}
+
+.c-nav__link,
+.c-nav__label {
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-ink-muted);
+  text-decoration: none;
+}
+
+.c-nav__label { color: var(--color-ink-faint); }
+
+.c-nav__link:hover {
+  color: var(--color-accent);
+  text-decoration-line: underline;
+}
+
+/* Where you are is stated, not highlighted: full-strength ink is difference
+   enough next to the muted rest. The section you are reading inside gets the
+   same treatment — from the masthead, being in /cours and being on /cours are
+   the same fact. */
+.c-nav__link[aria-current="page"],
+.c-nav__link--within {
+  color: var(--color-ink);
+}

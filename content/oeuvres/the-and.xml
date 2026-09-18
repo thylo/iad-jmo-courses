@@ -1,0 +1,54 @@
+<oeuvre id="the-and" statut="en-ligne">
+  <titre>{THE AND}</titre>
+  <annee>2015</annee>
+  <par>Topaz Adizes</par>
+  <par>The Skin Deep</par>
+  <url>https://www.theskindeep.com/</url>
+  <categorie>Documentaire</categorie>
+  <concept ref="structure-constellation"/>
+  <concept ref="role-fantome"/>
+  <concept ref="interface-galleries"/>
+
+  <resume>Deux personnes assises face à face, très près, et une question tirée d'un paquet de cartes : « qu'est-ce que tu ne m'as jamais dit ? ». Des couples, des frères et sœurs, des amis, des ex. Le spectateur choisit une paire, puis choisit les questions qu'on leur pose. Emmy 2015 pour les nouvelles approches du documentaire. Le dispositif s'est prolongé en jeux de cartes vendus en boîte.</resume>
+
+  <visuel src="the-and.jpg"
+          source="https://www.theskindeep.com/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le dispositif est un protocole, pas une mise en scène.** Deux personnes, deux
+      caméras, une question tirée au sort, et personne pour intervenir. Tout le travail
+      d'écriture est en amont : ce sont les questions qui font le film. À rapprocher
+      de [[wall-drawings|Sol LeWitt]] — l'œuvre est la consigne, l'exécution appartient
+      à d'autres.
+
+      **Le montage est délégué au spectateur.** On ne regarde pas une conversation
+      montée : on choisit la question suivante, donc on décide où la conversation va.
+      Le pouvoir donné est réel et ne coûte rien à produire, parce que tout a été
+      tourné.
+
+      **Ça a survécu en changeant de support.** Le même protocole s'est vendu en
+      paquets de cartes, sans écran ni serveur. Rare exemple d'une œuvre en ligne qui
+      trouve une seconde vie en carton plutôt que l'inverse — voir
+      [hors écran](/panorama/hors-ecran).
+    </markdown>
+
+    <video src="youtube:nbYc_F1roc8"
+           caption="Une partie filmée, édition « Amis », publiée par The Skin Deep."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      La forme est si reproductible qu'elle est devenue un format à vidéos courtes,
+      puis un produit. Ce qui était un dispositif documentaire est aujourd'hui une
+      marque, et il faut chercher pour retrouver l'œuvre interactive d'origine
+      derrière le catalogue.
+
+      Et le spectateur reste [[role-fantome|un fantôme]] : il oriente la conversation
+      sans jamais y être. C'est confortable, un peu trop — l'intimité est celle des
+      autres, et rien n'est demandé en retour.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

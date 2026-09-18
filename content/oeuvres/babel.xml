@@ -1,0 +1,46 @@
+<oeuvre id="babel" statut="hors-ligne">
+  <titre>Babel, le chat qui voulait être roi</titre>
+  <annee>2012</annee>
+  <par>Karim Maaloul</par>
+  <par>Epic Agency</par>
+  <url>http://babeltheking.com/</url>
+  <categorie>Fiction</categorie>
+
+  <resume>Livre interactif pour tablette, destiné aux 2-8 ans. Babel, chat mégalomane perché dans un arbre, se proclame roi ; les nuages n'apprécient pas. L'enfant fait tomber la foudre, déplace les nuages, fait voler l'oiseau dans sa cage : l'histoire avance parce qu'on touche l'écran, pas parce qu'on tourne la page. Écrit et illustré par Karim Maaloul, cofondateur d'Epic, agence liégeoise. Sorti en juin 2012, sur l'App Store uniquement.</resume>
+
+  <visuel src="babel.jpg"
+          source="http://babeltheking.com/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le geste est l'action narrative.** Toucher un nuage déclenche l'orage qui
+      fait tomber le chat. Ce n'est pas une décoration posée sur un texte : le
+      lecteur provoque l'événement. C'est un exemple net de ce que décrit
+      [[interface-gestural]], et il tient sans aucune interface visible : pas de
+      bouton, pas de menu, juste le dessin.
+
+      **Public de 2 ans.** Contrainte utile : un enfant qui ne lit pas ne peut pas
+      recevoir de consigne écrite. Tout ce qui est interactif doit se signaler par
+      l'image et le mouvement seuls. Bonne école pour interroger ses propres
+      affordances.
+
+      **C'est fait à Liège.** Une petite agence, un auteur qui dessine et code son
+      projet. Rien d'inaccessible dans le montage.
+    </markdown>
+  
+    <video src="youtube:t8BHDdFUcQo"
+           caption="La présentation de l'application par Epic, le studio liégeois qui l'a produite."/>
+</section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      L'œuvre n'a existé que dans l'App Store. Aujourd'hui l'application a disparu
+      des boutiques et le site officiel renvoie une erreur serveur : il ne reste
+      que des articles de presse et quelques captures. Publier dans une boutique,
+      c'est confier la survie de son travail à quelqu'un d'autre. Le web ouvert
+      n'est pas éternel non plus, mais au moins il s'archive.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

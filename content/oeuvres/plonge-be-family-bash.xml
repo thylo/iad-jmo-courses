@@ -1,0 +1,50 @@
+<oeuvre id="plonge-be-family-bash" statut="en-ligne">
+  <titre>Plonge</titre>
+  <annee>2021</annee>
+  <par>Huis van het Nederlands Brussel</par>
+  <url>https://game.plonge.be/</url>
+  <categorie>Urbain</categorie>
+  <categorie>Jeu</categorie>
+  <concept ref="role-soi-meme"/>
+  <concept ref="interface-maps"/>
+
+  <resume>Un jeu urbain gratuit qui envoie des Bruxellois de seize ans et plus dans des lieux de la ville, avec une seule contrainte : y pratiquer le néerlandais. Une application web, pas d'installation, on joue avec son téléphone dans la rue. Édité par le Huis van het Nederlands Brussel.</resume>
+
+  <visuel src="plonge-be-family-bash.jpg"
+          alt="Écran de départ : sur une photographie de foule teintée de bleu vif, le titre « Plonge — game · Brussel · Nederlands », les logos des partenaires et un bouton start"
+          credit="Plonge"
+          source="https://game.plonge.be/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **C'est bruxellois, et ça résout un problème local avec le web.** Faire pratiquer
+      une langue à des gens qui l'évitent, en les envoyant parler à de vrais
+      commerçants dans de vrais quartiers. Le dispositif ne simule rien : il organise
+      des rencontres.
+
+      **Le [[role-soi-meme|joueur est lui-même]], et les figurants ne jouent pas.** On
+      est dans le territoire des jeux pervasifs — [[uncle-roy-all-around-you]],
+      [[rider-spoke]] — mais avec un objectif de politique publique plutôt
+      qu'artistique. La comparaison est instructive : mêmes mécaniques, commanditaires
+      opposés.
+
+      **Une application web, pas une app.** Une URL, ça marche, ça ne s'installe pas,
+      et ça ne disparaîtra pas d'un magasin. C'est le bon choix technique pour un
+      dispositif urbain, et il est rarement fait.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      La version précédente de cette fiche l'attribuait à « TBS Belgium » et parlait
+      d'un « Family Bash » : ni l'un ni l'autre ne correspondent à quoi que ce soit de
+      vérifiable. Seuls l'adresse et l'éditeur le sont, et l'année reste à confirmer.
+
+      Sur le fond, la limite est celle de tous les parcours prescrits : le jeu suppose
+      des lieux ouverts, des gens disponibles et un joueur qui ose. Rien de tout ça
+      n'est garanti, et le dispositif n'a pas de repli quand la boutique est fermée.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

@@ -1,0 +1,52 @@
+<oeuvre id="motto" statut="en-ligne">
+  <titre>Motto</titre>
+  <annee>2020</annee>
+  <par>Vincent Morisset</par>
+  <par>AATOAA</par>
+  <par>Sean Michaels</par>
+  <par ref="onf"/>
+  <url>https://motto.io/</url>
+  <categorie>Fiction</categorie>
+  <concept ref="interface-gestural"/>
+
+  <resume>Une expérience faite pour le téléphone, et pour lui seul. Un narrateur sans nom demande des choses : filmer un mur, souffler, chercher un objet dans la pièce. La caméra et le micro de l'appareil servent d'entrée, et les images maladroites du spectateur finissent dans le récit. Mi-histoire de fantômes, mi-chasse au trésor, produit par l'ONF.</resume>
+
+  <visuel src="motto.jpg"
+          source="https://motto.io/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le téléphone n'est pas un petit écran, c'est un capteur.** Caméra, micro,
+      accéléromètre, une lampe : Motto s'en sert comme matière première au lieu de
+      les traiter comme des contraintes. La pièce où l'on se trouve entre dans l'œuvre.
+
+      **Ce qu'on filme devient le film.** Ces images, non préparées et mal
+      cadrées, sont réinjectées dans la narration. Le spectateur n'est pas
+      seulement [[role-soi-meme|lui-même]] : il fournit une partie du matériau,
+      sans avoir rien à savoir faire.
+
+      **Refuser le desktop est une décision.** Le site ne s'ouvre pas sur
+      ordinateur. Décider qu'une œuvre a un seul support correct, et l'assumer,
+      c'est plus rare et plus solide que le responsive à tout prix.
+
+      **Morisset a un historique.** [BLA BLA](https://blabla.nfb.ca/) (2011),
+      *Way to Go* (2015), puis Motto : trois productions de l'[[onf|ONF]] où le geste du
+      spectateur est le sujet. Une trajectoire à regarder en entier.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Il faut être seul, au calme, et accepter de faire ce qu'on demande :
+      souffler dans le micro, filmer son plafond. En groupe, dans une salle de
+      classe, l'expérience s'effondre. C'est la difficulté de tout ce qui repose
+      sur l'intimité du geste.
+
+      L'histoire elle-même reste diffuse. On se souvient d'avoir fait des choses,
+      moins de ce qui était raconté, le risque permanent des œuvres où
+      l'interaction est le sujet.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

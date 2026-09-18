@@ -1,0 +1,48 @@
+<oeuvre id="hors-jeu" statut="en-ligne">
+  <titre>Hors-Jeu — Le football, cartes sur table</titre>
+  <annee>2016</annee>
+  <par>David Dufresne</par>
+  <par>Patrick Oberli</par>
+  <par ref="upian"/>
+  <par ref="arte"/>
+  <par>BR</par>
+  <url>https://horsjeu.football/</url>
+  <categorie>Documentaire</categorie>
+  <concept ref="structure-constellation"/>
+  <concept ref="choix-exploratoire"/>
+  <concept ref="interface-galleries"/>
+
+  <resume>Une enquête sur la face pourrie du football (corruption, argent, dopage, esclavage des chantiers) distribuée sous forme d'album à collectionner. Neuf numéros de onze cartes, quatre-vingt-dix-neuf en tout ; chaque carte cache un témoignage vidéo ou un document. On ne les obtient pas toutes seul : il faut les échanger. Dix-huit mois d'enquête, sorti en avril 2016.</resume>
+
+  <visuel src="hors-jeu.jpg"
+          alt="Écran d'accueil : une pile de cartes à collectionner vue en perspective, deux footballeurs en découpe se disputant le ballon au sommet, à côté du texte « un documentaire en ligne à collectionner » et d'un bouton commencer"
+          credit="David Dufresne et Patrick Oberli"
+          source="https://horsjeu.football/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **La forme est le sujet.** L'album Panini, c'est le football de l'enfance.
+      Le remplir avec des cartes sur les matchs truqués et les ouvriers morts au
+      Qatar, c'est laisser la nostalgie faire le travail critique.
+
+      **L'échange force le partage.** Il manque toujours des cartes, et on les
+      obtient en les échangeant avec d'autres. Le partage n'est pas un bouton
+      posé en fin de page : sans lui, la collection reste incomplète.
+
+      **Cent modules courts battent un long film.** Chaque carte tient seule.
+      Aucun ordre imposé, aucune obligation de tout voir : [[structure-constellation]]
+      appliquée à une enquête journalistique.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      La collection prime sur l'enquête : on finit par chasser les cartes
+      manquantes plutôt que par comprendre les mécanismes. Et un dispositif
+      d'échange ne vit que s'il y a du monde. Dix ans plus tard, les compteurs
+      tournent à vide.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

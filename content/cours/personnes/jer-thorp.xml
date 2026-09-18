@@ -1,0 +1,55 @@
+<personne id="jer-thorp" genre="personne">
+  <titre>Jer Thorp</titre>
+  <lieu>Vancouver</lieu>
+  <url>https://www.jerthorp.me/</url>
+
+  <resume>Artiste et auteur qui travaille les données comme matière, et qui passe son temps à rappeler qu'elles sont fabriquées par quelqu'un.</resume>
+
+  <markdown>
+    Premier artiste en résidence sur les données au *New York Times*, puis
+    innovateur en résidence à la Bibliothèque du Congrès, cofondateur de l'Office
+    for Creative Research à Brooklyn. Son livre *Living in Data* (2021) porte en
+    sous-titre « guide du citoyen pour un meilleur futur informationnel », ce qui
+    dit assez où il place le sujet : pas dans la technique, dans la politique.
+
+    Sa thèse tient en une phrase. Une donnée ne se trouve pas, elle se fabrique.
+    Quelqu'un décide de quoi compter, avec quelles cases, et surtout de quoi
+    laisser dehors. Une fois le tableau rempli, la décision a disparu. Il ne
+    reste que des chiffres, qui ont l'air d'avoir toujours été là. Le reste de son
+    travail consiste à les rendre à nouveau discutables.
+  </markdown>
+
+  <section title="Deux pièces à connaître">
+    <markdown>
+      *A Sort of Joy* (2015) : la base de collection du MoMA, 123 951 objets,
+      donnée à lire à voix haute par les acteurs d'Elevator Repair Service. Arrive
+      la liste des prénoms d'artistes les plus fréquents : John, Robert, David,
+      Paul, Richard, William, Peter, Charles… trente prénoms, pas un féminin, et
+      deux cents John. Personne au MoMA n'a écrit la règle. Elle était dans la
+      base ; il fallait la lire à voix haute pour l'entendre.
+
+      *Le mémorial du 11-Septembre* (2009) : près de trois mille noms à graver, et
+      un ordre à trouver. Alphabétique, l'affaire était réglée en une ligne de
+      code. Avec Jake Barton, il construit l'inverse : les familles et les
+      collègues disent quel nom doit en toucher un autre, et l'algorithme se
+      débrouille pour satisfaire ces demandes. Un classement au service des
+      classés, ce qui n'a rien d'obligatoire et se décide à l'écriture.
+    </markdown>
+  </section>
+
+  <section title="Pourquoi il est utile ici">
+    <markdown>
+      Parce qu'il donne le vocabulaire pour critiquer un jeu de données sans être
+      informaticien. C'est le minimum à savoir faire face aux modèles que tout le
+      monde utilise désormais.
+
+      Et parce que ses deux pièces tiennent les deux bouts. La première montre ce
+      qu'un classement fait dire à un corpus sans que personne l'ait voulu ; la
+      seconde montre qu'on peut décider autrement, et que c'est une décision
+      d'auteur, pas un problème technique. C'est le même geste que
+      [ranger n'est pas neutre](/panorama/ranger), vu du côté de celui qui range.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</personne>

@@ -1,0 +1,65 @@
+<oeuvre id="touch-for-luck" statut="en-ligne">
+  <titre>Touch for Luck</titre>
+  <annee>2022</annee>
+  <par ref="studio-moniker"/>
+  <par ref="luna-maurer"/>
+  <par ref="roel-wouters"/>
+  <url>https://studiomoniker.com/projects/touch-for-luck</url>
+
+  <resume>Des milliers de joueurs contrôlent chacun un avatar-poisson en touchant
+  continuellement leur écran mobile. La vue collective est projetée sur la façade
+  LED de 7000 m² du M+ Museum, à Hong Kong.</resume>
+
+  <visuel src="touch-for-luck.jpg"
+          alt="Une main tient un téléphone où nage un poisson dessiné ; derrière, de l'autre côté du port de Hong Kong, la façade LED du musée M+ affiche le même étang la nuit"
+          credit="Moniker / M+"
+          source="https://www.itsnicethat.com/news/moniker-mplus-touch-for-luck-digital-art-080222"/>
+
+  <concept ref="addiction-aux-ecrans"/>
+  <concept ref="structure-parallele"/>
+  <concept ref="experience-collective"/>
+
+  <voir ref="sculpture-cam"/>
+
+  <section title="Le geste">
+    <markdown>
+      Il n'y a qu'un geste possible : toucher l'écran sans relâcher. Pas de
+      navigation, pas de boutons, pas de menus. La pression continue du doigt
+      devient une présence persistante, agrandie mille fois sur une façade de
+      65 m par 110 m, visible à un kilomètre et demi.
+
+      L'écart entre les deux échelles est tout le propos.
+    </markdown>
+
+    <list>
+      <item><markdown>Chaque doigt relâché fait perdre du temps de présence.</markdown></item>
+      <item><markdown>Chaque moment de persistance rapporte des *lucky charms* qui décorent le poisson.</markdown></item>
+      <item><markdown>Plus on joue de façon compulsive, plus la créature devient belle.</markdown></item>
+    </list>
+
+    <video src="youtube:UfmCpN2YXcc"
+           caption="Studio Moniker présente la pièce au M+, à Hong Kong."/>
+  </section>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      Plutôt que de *parler* de l'addiction aux écrans, l'œuvre la fait vivre.
+      En jouant, on éprouve la compulsion, la fatigue du doigt, l'obligation de
+      persister parce que les autres regardent. C'est une critique qu'on ressent
+      avant de la comprendre.
+
+      Et elle est belle. [[studio-moniker]] fabrique une beauté addictive pour
+      critiquer la beauté addictive : la contradiction est assumée, et c'est ce
+      qui rend l'œuvre discutable.
+    </markdown>
+  </section>
+
+  <note type="attention" title="Pour la classe">
+    <markdown>
+      Faire jouer le groupe cinq minutes, puis couper. La discussion qui suit
+      vaut mieux que n'importe quelle analyse préparée.
+    </markdown>
+  </note>
+
+  <backlinks/>
+</oeuvre>

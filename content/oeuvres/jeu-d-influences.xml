@@ -1,0 +1,49 @@
+<oeuvre id="jeu-d-influences" statut="hors-ligne">
+  <titre>Jeu d'influences</titre>
+  <annee>2014</annee>
+  <par>Julien Goetz</par>
+  <par>Luc Hermann</par>
+  <par>The Pixel Hunt</par>
+  <par>Premières Lignes Télévision</par>
+  <par>France Télévisions — Nouvelles Écritures</par>
+  <url>https://www.pltv.fr/jeu-dinfluences-les-strateges-de-la-communication/</url>
+  <categorie>Jeu</categorie>
+  <concept ref="forme-machine"/>
+  <concept ref="role-personnage"/>
+  <concept ref="interface-point-click"/>
+  <concept ref="choix-rationnel"/>
+
+  <resume>À la tête d'une entreprise de BTP, un ingénieur vient de se suicider. Un spin doctor appelle : jusqu'où suivre ses conseils ? Un jeu documentaire sur la communication de crise, où le scénario fictif est régulièrement interrompu par des extraits de l'enquête télévisée de Luc Hermann sur de vraies stratégies d'étouffement. Game design : Florent Maurin (The Pixel Hunt).</resume>
+
+  <visuel src="jeu-d-influences.jpg"
+          alt="Capture du webdocumentaire : une villa dessinée au trait, la nuit ; au centre, la question « Monter directement se coucher ? » avec deux boutons OUI et NON et un compte à rebours circulaire ; en bas à gauche, trois jauges nommées UBM, confiance et stress"
+          credit="Premières Lignes Télévision / France Télévisions"
+          source="https://www.pltv.fr/jeu-dinfluences-les-strateges-de-la-communication/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le choix compromet.** On ne choisit pas entre deux branches
+      narratives : on accepte ou on refuse un conseil, et la partie renvoie
+      ensuite ce que ces acceptations disent du joueur. Le jeu ne juge pas
+      l'histoire, il juge celui qui joue.
+
+      **Le documentaire s'invite dans la fiction.** Les extraits d'enquête réelle
+      arrivent après les décisions et montrent que ce qui vient d'être fait,
+      des gens le font pour de vrai. La preuve arrive quand elle fait mal.
+
+      **Petite production, sujet lourd.** Du texte, de l'audio, des inserts vidéo.
+      Rien de spectaculaire techniquement : tout tient dans l'écriture des
+      dilemmes.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le site de France Télévisions qui l'hébergeait a fermé. Il ne reste que la
+      page du producteur, quelques articles et le documentaire linéaire dont il
+      est issu. Même histoire que [[le-dernier-gaulois]].
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

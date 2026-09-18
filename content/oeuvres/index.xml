@@ -1,0 +1,44 @@
+<page id="oeuvres">
+  <titre>Œuvres</titre>
+  <resume>Mon humble cabinet de curiosités : des œuvres interactives et quelques trouvailles. Rien d'exhaustif, juste ce qui m'a arrêté en chemin.</resume>
+
+  <image src="cabinet-de-curiosites.jpg"
+         width="full"
+         alt="Un intérieur encombré de tableaux, de coquillages, de statuettes et de monnaies ; au centre, Ulysse tend une épée à Achille déguisé en femme parmi les filles de Lycomède."
+         caption="Frans Francken le Jeune, « Ulysse reconnaissant Achille parmi les filles de Lycomède », après 1620. Musée du Louvre."
+         credit="© RMN-Grand Palais (musée du Louvre) / Hervé Lewandowski"
+         source="https://histoire-image.org/etudes/cabinets-curiosites"/>
+
+  <image src="cabinet-de-curiosites-remps.jpg"
+         width="field"
+         alt="Une armoire peinte en trompe-l'œil, portes ouvertes : six casiers vitrés remplis de coraux, de coquillages, de camées, d'un crâne, d'un homard, d'un scarabée, de petits tableaux ; sur les portes, des paysages encadrés, des médailles et une gravure retenue par un clou."
+         caption="Domenico Remps, « Cabinet de curiosités », années 1690. Le meuble n'a jamais existé : c'est une peinture en trompe-l'œil. Museo dell'Opificio delle pietre dure, Florence."
+         credit="Domaine public, via Wikimedia Commons"
+         source="https://commons.wikimedia.org/wiki/File:Domenico_Remps_-_Cabinet_of_Curiosities.jpg"/>
+
+  <section title="Pourquoi un cabinet de curiosités">
+    <markdown>
+      Avant les musées, il y avait les cabinets de curiosités. Une pièce, un
+      collectionneur, et tout ce qu'il avait ramassé : un coquillage à côté d'une
+      monnaie romaine, une machine à côté d'un animal empaillé. Aucune discipline
+      ne séparait les objets. Le rangement était celui d'une personne, pas d'un
+      savoir.
+
+      Ici, c'est pareil. Un jeu de plateau voisine avec un documentaire
+      interactif et un site qui ne sert à rien. Ils n'appartiennent pas à la même
+      famille, et c'est le but : ce qu'ils ont en commun ne se voit qu'une fois
+      posés l'un près de l'autre.
+    </markdown>
+  </section>
+
+  <section title="Qui les a faites">
+    <destinations>
+      <destination to="personnes">
+        Les créateurs et les studios cités plus d'une fois, et le reste de ce
+        qu'ils ont fait
+      </destination>
+    </destinations>
+  </section>
+
+  <grid of="oeuvre"/>
+</page>

@@ -1,0 +1,52 @@
+<oeuvre id="kidnap" statut="archive">
+  <titre>Kidnap</titre>
+  <annee>1998</annee>
+  <par ref="blast-theory"/>
+  <url>https://www.blasttheory.co.uk/projects/kidnap/</url>
+  <categorie>Performance</categorie>
+  <categorie>Documentaire</categorie>
+  <voir ref="can-you-see-me-now"/>
+  <voir ref="uncle-roy-all-around-you"/>
+
+  <resume>Une loterie ouverte au public : dix livres le billet, un formulaire détaillé, un mot de sécurité, et des suppléments payants pour être enlevé avec ses cigarettes ou sa musique. Dix inscrits ont été tirés au sort et surveillés pendant deux semaines ; deux d'entre eux ont été enlevés pour de bon, du 14 au 17 juillet 1998, et retenus quarante-huit heures dans un lieu tenu secret. Les internautes pilotaient la caméra et parlaient aux ravisseurs.</resume>
+
+  <visuel src="kidnap.jpg"
+          source="https://www.blasttheory.co.uk/projects/kidnap/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **On paie pour être pris.** Le billet de loterie transforme la victime en
+      cliente, et c'est là que tout le malaise se loge : le consentement est
+      contractuel, signé, tarifé, et il ne rend pas la séquestration confortable
+      pour autant. Aucune œuvre ne pose plus simplement la question de ce qu'on a le
+      droit de faire subir à quelqu'un qui a dit oui.
+
+      **Le spectateur pilote la caméra.** Pas un flux fixe : un pan-tilt-zoom qu'on
+      manœuvre. La position de voyeur n'est pas dénoncée, elle est fournie avec ses
+      commandes — et 1998, c'est cinq ans avant que la télé-réalité en fasse un
+      format de grande écoute.
+
+      **La sortie était prévue et personne ne l'a prise.** Cinq cents livres pour
+      qui atteignait un téléphone. Ni Debra Burgess ni Russell Ward n'y sont
+      parvenus. Une règle d'évasion qui n'est jamais utilisée en dit plus long sur
+      le dispositif que dix pages d'analyse.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Blast Theory revendique l'affaire Spanner de 1990 — des hommes poursuivis pour
+      des violences auxquelles ils avaient consenti — comme point de départ. La
+      pièce ne tranche pas, elle installe la question et regarde le public y
+      répondre. C'est le pari, et il n'est pas confortable : la frontière entre
+      l'expérience artistique et l'exploitation d'une personne y est délibérément
+      posée sans garde-fou visible, hors la présence d'un psychologue.
+
+      Rien n'en reste que la documentation de l'époque : formulaires d'inscription,
+      dossier de presse, une vidéo de trente minutes. C'est une œuvre dont on parle
+      plus qu'on ne la voit, et il faut le dire en la citant.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

@@ -1,0 +1,56 @@
+<oeuvre id="body-movies" statut="hors-ligne">
+  <titre>Body Movies</titre>
+  <annee>2001</annee>
+  <par ref="rafael-lozano-hemmer"/>
+  <url>https://www.lozano-hemmer.com/body_movies.php</url>
+  <categorie>Installation</categorie>
+  <categorie>Urbain</categorie>
+  <concept ref="forme-sociale"/>
+  <concept ref="role-soi-meme"/>
+
+  <resume>Une façade de plusieurs centaines de mètres carrés, sur une place publique. Des projecteurs robotisés y affichent des milliers de portraits photographiés dans les rues de la ville — mais ces portraits n'apparaissent que dans les ombres des passants. Des sources lumineuses posées au sol effacent tout le reste. Selon qu'on s'approche ou qu'on s'éloigne, son ombre mesure deux mètres ou vingt-cinq. Créé à Rotterdam en 2001.</resume>
+
+  <visuel src="body-movies.jpg"
+          alt="Sur une grande façade, la nuit, les ombres démesurées de passants découpent la lumière et révèlent des portraits photographiques ; en contrebas, des silhouettes minuscules traversent la place"
+          credit="Rafael Lozano-Hemmer / V2_"
+          source="https://v2.nl/works/body-movies"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **L'interface est une ombre.** Rien à tenir, rien à installer, rien à
+      comprendre : on marche sur une place et on est déjà dedans. C'est l'entrée la
+      plus basse qu'un dispositif puisse avoir, et c'est ce qui permet à des gens qui
+      ne sont pas venus pour ça d'y participer.
+
+      **Le dispositif fabrique une société en quelques minutes.** Il faut être
+      plusieurs, et proches, pour découvrir un grand portrait : les inconnus se mettent
+      à coordonner leurs corps sans se parler. L'auteur n'a écrit aucune règle
+      sociale — [[forme-sociale|elle émerge de la contrainte physique]], exactement
+      comme la table de [[alice-is-missing]] ou la foule du
+      [[the-telegarden|Telegarden]].
+
+      **La référence est du XVIIe siècle.** Lozano-Hemmer cite une gravure de Samuel
+      van Hoogstraten, *La Danse des ombres* (Rotterdam, 1675). Le geste n'a pas été
+      inventé par la technologie : il a été retrouvé, et rebranché. Bon antidote à
+      l'idée que ce champ commence avec l'ordinateur.
+    </markdown>
+  
+    <video src="youtube:bEO698cOTIA"
+           caption="La captation de l'installation par V2_, à Rotterdam."/>
+</section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      C'est une pièce d'événement : projecteurs robotisés, façade, régie, autorisations
+      de place publique. Elle n'existe que le temps d'une installation, et ce qu'on en
+      voit aujourd'hui est de la documentation.
+
+      Et les portraits projetés ont été pris dans les rues de la ville hôte : le
+      dispositif suppose qu'on ait photographié des gens pour les rendre à d'autres.
+      La question du consentement s'y pose, et elle mérite d'être posée en cours plutôt
+      qu'esquivée.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

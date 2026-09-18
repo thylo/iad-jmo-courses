@@ -1,0 +1,53 @@
+<oeuvre id="how-the-virus-got-out" statut="en-ligne">
+  <titre>How the Virus Got Out</titre>
+  <annee>2020</annee>
+  <par>Jin Wu</par>
+  <par>Weiyi Cai</par>
+  <par>Derek Watkins</par>
+  <par>James Glanz</par>
+  <par ref="new-york-times"/>
+  <url>https://www.nytimes.com/interactive/2020/03/22/world/coronavirus-spread.html</url>
+  <categorie>Documentaire</categorie>
+  <concept ref="structure-lineaire"/>
+  <concept ref="interface-maps"/>
+  <concept ref="interface-scrollable"/>
+
+  <resume>Publié le 22 mars 2020. À partir des déplacements de centaines de millions de personnes, la page reconstitue la sortie du virus de Wuhan : les points quittent la ville avant la fermeture, se répandent sur la Chine, puis sur le monde. Le défilement fait avancer le temps, et la carte se couvre.</resume>
+
+  <visuel src="how-the-virus-got-out.jpg"
+          alt="Carte de la Chine sur fond blanc : des milliers de points rouges s'agglutinent autour de Wuhan et se dispersent le long des lignes de trafic vers Pékin, Shanghai et Chongqing"
+          credit="The New York Times"
+          source="https://www.nytimes.com/interactive/2020/03/22/world/coronavirus-spread.html"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le [[interface-scrollable|défilement]] est une horloge.** Descendre, c'est
+      avancer dans le temps. Le geste et la donnée sont accordés, ce qui est rare : la
+      plupart des pages de ce genre se contentent de faire apparaître des blocs.
+
+      **La carte est irremplaçable ici.** [[interface-maps|Elle se justifie]] parce que
+      la distance est exactement le sujet : le virus est une histoire de déplacements,
+      et voir les points partir avant la fermeture de la ville dit en trois secondes ce
+      qu'un article mettrait deux pages à établir.
+
+      **Le récit est [[structure-lineaire|entièrement dirigé]].** Aucun choix, aucune
+      exploration, aucun bouton. C'est un film dont on tient la manivelle. Cas utile
+      pour montrer qu'une pièce de données peut être linéaire et parfaitement tenue,
+      au lieu du tableau de bord filtrable qui ne raconte rien.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Les données de déplacement viennent d'opérateurs de téléphonie et de courtiers en
+      localisation. La page raconte très bien la circulation d'un virus, et incidemment
+      elle démontre qu'on peut suivre les mouvements de centaines de millions de
+      personnes. C'est le second sujet, jamais traité, et il rejoint directement
+      [ranger n'est pas neutre](/panorama/ranger).
+
+      Et c'est derrière un mur payant, ce qui en complique la consultation.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

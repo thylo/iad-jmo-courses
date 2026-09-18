@@ -1,0 +1,56 @@
+<oeuvre id="swap-tales" statut="en-ligne">
+  <titre>SwapTales : Léon !</titre>
+  <annee>2016</annee>
+  <par>Witty Wings</par>
+  <par>Plug In Digital</par>
+  <url>http://www.wittywings.fr/en/swap-tales-leon/</url>
+  <categorie>Jeu</categorie>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-embranchements"/>
+  <concept ref="role-divinite"/>
+
+  <resume>Un album illustré sur tablette dont on échange les mots. Chaque page contient deux à sept mots permutables : intervertissez-les et la phrase change, donc l'image change, donc l'histoire change. Léon veut échapper à sa baby-sitter. Soixante-deux pages, plus de deux mille cinq cents combinaisons, une trentaine de fins. Sorti sur iOS à l'automne 2016, sur Android en décembre.</resume>
+
+  <visuel src="swap-tales.jpg"
+          alt="Page de l'album sur tablette : sous un paragraphe de texte où quatre groupes de mots sont surlignés en bleu et déplaçables, une illustration montre un garçon dans une cave encombrée de sacs, de tonneaux et d'un coffre-fort"
+          credit="Witty Wings"
+          source="http://www.wittywings.fr/en/swap-tales-leon/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **La phrase est l'interface.** Il n'y a pas de bouton, pas de menu de choix, pas
+      de « que faire ? ». On touche un mot du texte, on le met ailleurs, et le monde
+      obéit. C'est l'une des rares œuvres où le geste d'interaction et l'acte
+      d'écriture sont exactement le même geste.
+
+      **C'est de la [[role-divinite|divinité]] à l'état pur.** L'enfant n'est pas Léon,
+      il n'est nulle part dans l'histoire : il est la personne qui récrit la
+      phrase. La position est claire, elle est tenue de bout en bout, et un enfant de
+      huit ans la comprend sans qu'on l'explique.
+
+      **La combinatoire est produite par la grammaire.** Deux mille cinq cents
+      combinaisons pour soixante-deux pages illustrées : ce n'est pas un
+      [[structure-embranchements|arbre]] dessiné à la main, c'est une contrainte
+      linguistique qui fabrique les branches. À opposer à quiconque annonce trente
+      fins : voici ce qu'il faut pour les tenir, et l'astuce qui permet de ne pas les
+      dessiner une par une.
+    </markdown>
+
+    <video src="youtube:HyKXtgE47x0"
+           caption="La bande-annonce, publiée par Witty Wings."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      C'est une application, sur des magasins, avec un compte à rebours. La version qui
+      tournait sur les tablettes de 2016 ne tourne plus partout, et l'œuvre dépend de
+      quelqu'un qui la recompile.
+
+      Et l'astuce a un plafond : elle marche parce que les phrases sont courtes et les
+      images fixes. Transposer le principe à du texte long ou à de la vidéo demanderait
+      autre chose, et personne ne l'a encore fait.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

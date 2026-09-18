@@ -1,0 +1,79 @@
+<oeuvre id="the-rehearsal" statut="en-ligne">
+  <titre>The Rehearsal</titre>
+  <annee>2022</annee>
+  <par>Nathan Fielder</par>
+  <url>https://www.hbo.com/the-rehearsal</url>
+  <categorie>Documentaire</categorie>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-embranchements"/>
+
+  <resume>Nathan Fielder propose à de vraies personnes de répéter les moments difficiles de leur vie : il reconstruit les lieux à l'échelle un, engage des acteurs pour jouer leurs proches, et fait rejouer la scène jusqu'à ce qu'elle soit maîtrisée. Pour y arriver, il dessine l'arbre des réponses possibles de l'interlocuteur et répète chaque branche. C'est une arborescence de dialogue construite en dur, dans un entrepôt, avec le budget d'une chaîne câblée — et le programme montre à quel moment exact elle cède.</resume>
+
+  <visuel src="the-rehearsal.jpg"
+          alt="Le visage impassible de Nathan Fielder apparaît dans le hublot d'un avion, sur un fond gris uni, à côté du titre en gros caractères noirs."
+          credit="HBO"
+          source="https://www.hbomax.com/show/609d8b4c-f0a6-4a5d-b9d3-bb0f2e207efb"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **L'arbre de dialogue est bâti en taille réelle.** Un homme doit avouer à une
+      amie qu'il lui a menti sur ses diplômes. Fielder reconstruit à l'identique le
+      bar de Brooklyn où la conversation aura lieu, engage une actrice qu'il fait
+      travailler d'après une observation de la vraie personne, et affiche
+      l'arborescence des réponses qu'elle pourrait faire — chaque branche répétée,
+      chaque bifurcation jouée. Ce qu'un auteur de narration interactive dessine
+      dans un éditeur de nœuds, le programme le construit en décor, en acteurs et
+      en semaines de tournage. C'est la meilleure image possible de ce qu'est
+      réellement une [[structure-embranchements]] : pas un schéma, un coût.
+
+      **L'explosion combinatoire, filmée.** Chaque réponse anticipée en appelle
+      deux autres, la préparation ne se termine jamais, et l'arbre reste
+      nécessairement incomplet. Puis la vraie conversation a lieu : elle quitte le
+      chemin prévu en moins d'une minute. Rien ne démontre mieux ce qu'un arbre
+      peut et ne peut pas contenir — et pourquoi la mémoire d'un récit gagne
+      souvent à passer du chemin parcouru aux faits acquis, comme dans une
+      [[structure-a-etat|structure à état]].
+
+      **Répéter, c'est recharger une sauvegarde.** Le geste que le programme
+      applique à la vie réelle est un réflexe de joueur : rejouer la scène jusqu'à
+      ce qu'elle sorte bien. La rejouabilité, gratuite dans un jeu, se paie ici en
+      entrepôts et en cachets, et le contraste rend visible ce qu'on ne remarque
+      plus à l'écran — qu'une seconde tentative n'existe pas, et que le savoir
+      accumulé par les précédentes change celui qui rejoue.
+
+      **Le dispositif finit par se retourner sur son auteur.** À force de répéter la
+      vie des autres, Fielder répète la sienne, puis engage quelqu'un pour le jouer,
+      lui, sur une réplique de son propre plateau. La question « qui est en train
+      d'être manipulé » cesse d'avoir une réponse stable. La saison 2, en 2025,
+      garde la méthode et change de cible : répéter les échanges de cockpit qui
+      précèdent les catastrophes aériennes, pour montrer qu'un copilote n'ose pas
+      contredire son commandant — jusqu'à piloter un avion de ligne pour de bon.
+    </markdown>
+
+    <video src="youtube:2fjPFt8cpic"
+           caption="La bande-annonce de la première saison, publiée par HBO."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      La série n'est pas interactive et ne se présente pas comme telle. Elle est ici
+      pour sa méthode : une arborescence de dialogue préparée avec des moyens
+      démesurés, et le moment précis où elle ne tient plus. La leçon vaut pour
+      n'importe quel projet à embranchements, y compris ceux qu'on programme.
+
+      Le programme fabrique aussi le problème qu'il prétend examiner. La détresse
+      d'Angela, la confusion des enfants acteurs, la gêne des participants : ce
+      n'est pas observé, c'est produit par le dispositif, et diffusé. On peut
+      trouver ça brillant et refuser de le défendre.
+
+      Et le montage garde la main sur tout. On ne voit que ce que Fielder a décidé
+      de garder d'un tournage où il tenait à la fois le rôle, la caméra et le
+      contrat. Un documentaire sur la manipulation qui est lui-même entièrement
+      manipulé — c'est le sujet, et c'est aussi l'angle mort. À manier avec
+      précaution en cours : montrer un extrait, poser la question, ne pas se
+      contenter de rire.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

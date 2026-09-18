@@ -1,0 +1,47 @@
+<oeuvre id="i-d-hide-you" statut="archive">
+  <titre>I'd Hide You</titre>
+  <annee>2012</annee>
+  <par ref="blast-theory"/>
+  <url>https://www.blasttheory.co.uk/projects/id-hide-you/</url>
+  <categorie>Jeu</categorie>
+  <categorie>Urbain</categorie>
+  <categorie>Performance</categorie>
+  <voir ref="can-you-see-me-now"/>
+
+  <resume>Trois coureurs, une caméra chacun, en direct dans les rues de Manchester la nuit. Ils cherchent à se filmer les uns les autres sans être filmés. En ligne, on regarde par leurs yeux, on bascule d'un flux à l'autre, et on marque des points en faisant une capture d'écran au moment exact où un autre coureur apparaît dans le champ. Commande de The Space pour le festival Future Everything, mai 2012.</resume>
+
+  <visuel src="i-d-hide-you.jpg"
+          source="https://www.blasttheory.co.uk/projects/id-hide-you/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Le geste du spectateur est la capture d'écran.** Rien d'autre à faire :
+      regarder, attendre, appuyer au bon moment. Une action qu'on fait tous les
+      jours par commodité devient ici un acte de chasse, avec une victime qui perd
+      une vie. Redéfinir un geste banal plutôt qu'en inventer un — c'est la même
+      économie que le vote de [[fort-mcmoney]] ou le clic de
+      [[click-click-click]].
+
+      **Le direct interdit le montage.** Ce qu'on voit est ce que la personne voit,
+      avec le souffle, les hésitations, les gens dans la rue qui demandent ce qui se
+      passe. Aucun plan n'a été choisi : la caméra est portée par quelqu'un qui a
+      autre chose à faire que cadrer.
+
+      **On peut parler aux coureurs.** Les spectateurs écrivent, les coureurs
+      répondent et obéissent parfois — aller là, demander ça à ce passant. Le
+      public à distance dispose d'un corps dans la ville, et découvre en même temps
+      ce qu'il ose lui faire faire.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      L'œuvre ne survit pas à sa représentation : trois personnes, une ville, une
+      nuit, une infrastructure de diffusion. Elle a tourné jusqu'en 2014, puis s'est
+      arrêtée. Il ne reste que des captations — et une œuvre dont le sujet était le
+      direct ne se rejoue pas en différé.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

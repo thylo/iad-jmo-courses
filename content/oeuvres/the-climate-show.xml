@@ -1,0 +1,85 @@
+<oeuvre id="the-climate-show" statut="archive">
+  <titre>The Climate Show</titre>
+  <annee>2022</annee>
+  <par ref="tempora"/>
+  <par>Cap Sciences</par>
+  <par>Climate Voices</par>
+  <par>Demeter</par>
+  <url>https://www.bruxelles.be/climate-show</url>
+  <categorie>Muséale</categorie>
+  <categorie>Performance</categorie>
+  <concept ref="forme-collaborative"/>
+  <concept ref="faux-choix"/>
+
+  <resume>Quarante-cinq minutes dans une salle noire, cent vingt personnes, un boîtier de vote chacun. Camille, jouée en direct, hésite à agir contre le dérèglement climatique ; GaIA, une intelligence artificielle projetée sur trois écrans, démonte avec elle les objections qui reviennent toujours — c'est la faute des entreprises, la technologie nous sauvera, de toute façon c'est foutu. À chaque objection, la salle vote. Brussels Expo de mars à octobre 2022, puis Cap Sciences à Bordeaux jusqu'en mai 2023.</resume>
+
+  <visuel src="the-climate-show.jpg"
+          alt="Salle de spectacle sombre : trois grands écrans en arc de cercle, l'un montrant un jardin avec du linge qui sèche, l'autre l'interface bleue de GaIA — une grille de cercles et des relevés techniques —, le troisième une terrasse en bord de mer. Devant, une estrade en bois éclairée avec un fauteuil blanc ; au premier plan, des rangées de sièges en plastique moulé."
+          credit="Photographie prise en salle, 22 octobre 2022"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Le vote est comparé à celui de tous les autres.** L'écran n'affiche pas
+      seulement le résultat de la séance : il le met en regard du cumul de toutes
+      les séances depuis l'ouverture. On ne découvre pas ce que la salle pense, on
+      découvre en quoi la salle diffère de six mois de public. C'est ce détail
+      d'affichage qui fait passer le dispositif du sondage à l'observation
+      sociologique, et il ne coûte qu'une deuxième barre.
+
+      **L'objection est nommée avant d'être réfutée.** « C'est la faute de la
+      technologie », « il y aura toujours des solutions techniques », « quelques
+      degrés, qu'est-ce que ça change ». Le spectacle commence par donner leur forme
+      exacte aux excuses du public, ce qui permet de voter pour elles sans honte —
+      condition nécessaire pour que la suite serve à quelque chose.
+
+      **La salle est bilingue, la même séance.** Un écran en français, un écran en
+      néerlandais, un vote commun. À Bruxelles ce n'est pas un détail de confort :
+      c'est ce qui permet à un public réel d'exister dans la même pièce.
+    </markdown>
+
+    <image src="the-climate-show-comparaison.jpg"
+           width="field"
+           alt="Deux écrans de projection en biais dans le noir. Sur celui de droite, en néerlandais, deux réponses — « Nee, het is de schuld van de technologie » et « Natuurlijk, er zijn altijd technologische oplossingen » — chacune suivie de deux barres horizontales : « deze voorstelling » à 50 %, et « sinds 8 maart » à 40 % puis 60 %. Sur celui de gauche, la même question en français, coupée par le cadre."
+           caption="Deux barres par réponse : cette séance-ci, et tout le public depuis le 8 mars."
+           credit="Photographie prise en salle, 22 octobre 2022"/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      **Le vote ne change pas le spectacle.** Camille suit son chemin, les experts
+      passent dans l'ordre prévu, la conclusion est écrite. Ce qui est collecté sert
+      à afficher un miroir, pas à bifurquer : c'est un [[faux-choix]] à l'échelle du
+      dispositif entier. Défendable — on ne peut pas produire quatre versions d'un
+      spectacle joué en direct — mais il faut regarder ce que le public croit faire
+      en appuyant sur le bouton.
+
+      **Le matériel est un matériel de congrès.** Des boîtiers Reply Interact Mini,
+      cinq touches numérotées, Yes / No / Abstain sérigraphiés à côté. Le même objet
+      qu'une assemblée générale d'actionnaires. Rien n'a été fabriqué pour l'œuvre,
+      et c'est la bonne décision : l'argent est passé dans les écrans, la comédienne
+      et l'écriture, pas dans un objet sur mesure qui aurait fait la même chose.
+    </markdown>
+
+    <image src="the-climate-show-boitiers.jpg"
+           width="field"
+           alt="Une dizaine de télécommandes grises et noires empilées sur une planche de bois : petit écran à cristaux liquides, un bouton « send » et cinq touches colorées numérotées 1/A à 5/E, avec les mentions « Yes », « No » et « Abstain » sérigraphiées à côté. La marque « reply Interact Mini » figure en haut."
+           caption="Le boîtier de vote : un modèle de congrès, acheté sur étagère."
+           credit="Photographie prise en salle, 22 octobre 2022"/>
+
+    <markdown>
+      Et l'œuvre n'existe plus. Le site officiel ne répond plus, les deux lieux ont
+      démonté la salle : d'un spectacle qui a fait voter des dizaines de milliers de
+      personnes pendant un an, il ne reste ni les résultats, ni la captation, ni la
+      trace de ce que le public a répondu. C'est précisément la donnée qui faisait
+      l'intérêt du dispositif.
+    </markdown>
+
+    <image src="the-climate-show-vote.jpg"
+           width="field"
+           alt="Grand écran violet dans une salle sombre. En haut, le titre « C'est foutu ? ». En dessous, trois réponses précédées d'un pictogramme et d'un pourcentage identique de 33 % : « Oui, c'est foutu… », « Non, on peut encore agir ! », « Quelques degrés de plus ou de moins, qu'est-ce que ça change ? ». Un bandeau technique en bas affiche « protocole GaIA », des coordonnées et la date du 22/10/2022. Devant l'écran, une estrade en bois avec un ordinateur portable et des câbles."
+           caption="Trois réponses à 33 % : la salle est vide, c'est l'écran de réglage avant l'ouverture."
+           credit="Photographie prise en salle, 22 octobre 2022"/>
+  </section>
+
+  <backlinks/>
+</oeuvre>

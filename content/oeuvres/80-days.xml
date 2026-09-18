@@ -1,0 +1,62 @@
+<oeuvre id="80-days" statut="en-ligne">
+  <titre>80 Days</titre>
+  <annee>2014</annee>
+  <par ref="inkle"/>
+  <par>Meg Jayanth</par>
+  <url>https://www.inklestudios.com/80days/</url>
+  <categorie>Jeu</categorie>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-a-etat"/>
+  <concept ref="role-personnage"/>
+  <concept ref="choix-rationnel"/>
+  <concept ref="interface-maps"/>
+
+  <resume>Le tour du monde de Jules Verne rejoué en fiction textuelle : plus de 150 villes, des milliers d'itinéraires, et un récit qui retient tout ce qu'on a fait en route.</resume>
+
+  <visuel src="80-days.jpg"
+          source="https://www.inklestudios.com/80days/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      On est Passepartout, pas Fogg. Le joueur ne décide pas de l'exploit, il
+      gère l'intendance : la malle, l'argent, la santé de son patron, le
+      prochain train. Ce déplacement du point de vue fait tout le jeu.
+
+      La carte n'est pas un menu. Les lignes ne s'ouvrent qu'en écoutant les gens
+      croisés en chemin : une rumeur au bar de l'hôtel devient une route possible.
+      Explorer, ici, c'est parler.
+
+      Le monde est une uchronie où la colonisation occidentale a moins gagné. Ce
+      n'est pas un décor : c'est ce qui rend le voyage intéressant à faire dans un
+      sens plutôt qu'un autre.
+    </markdown>
+
+    <video src="youtube:Ai6ISI3uimA"
+           caption="La bande-annonce de sortie, publiée par inkle."/>
+  </section>
+
+  <section title="La structure">
+    <markdown>
+      Exemple de référence pour la [[structure-a-etat]]. Le jeu ne mémorise pas un
+      chemin dans un arbre (impossible à cette échelle) mais une liste de faits :
+      l'itinéraire suivi, ce que contient la malle, à qui l'on a menti, ce qu'on
+      s'est fait raconter.
+
+      Les scènes vérifient cet état avant de se raconter. C'est ce qui permet un
+      demi-million de mots sans production exponentielle, et ce qui fait que les
+      voyageurs rencontrés parlent des lignes qu'on n'a pas prises.
+
+      [[jon-ingold]] a détaillé la méthode à la GDC 2017.
+    </markdown>
+  </section>
+
+  <section title="À retenir">
+    <markdown>
+      Une partie dure quelques heures, une ville se lit en cinq minutes. C'est
+      l'objet à montrer quand on veut comprendre ce que « le récit se souvient »
+      veut dire concrètement, et à quel point ça tient à peu de choses.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

@@ -1,0 +1,44 @@
+<personne id="blast-theory" genre="collectif">
+  <titre>Blast Theory</titre>
+  <lieu>Brighton</lieu>
+  <depuis>1991</depuis>
+  <url>https://www.blasttheory.co.uk/</url>
+
+  <resume>Collectif britannique formé par Matt Adams, Ju Row Farr et Nick
+  Tandavanitj, qui fabrique des dispositifs mêlant performance, jeu et
+  technologies de localisation.</resume>
+
+  <markdown>
+    Leurs pièces se passent rarement devant un écran. Elles se passent dans la
+    rue, au téléphone, dans une maison filmée en direct, et le public n'y est
+    pas spectateur, il y est engagé pour de vrai. Un coureur le poursuit vraiment
+    dans Sheffield ([[can-you-see-me-now]]), on lui demande vraiment de s'engager
+    auprès d'un inconnu pendant un an ([[uncle-roy-all-around-you]]), quelqu'un
+    l'appelle vraiment pendant des semaines ([[karen]]).
+
+    La technique vient toujours après la question. GPS, PDA, SMS, téléphone :
+    ils prennent l'outil disponible à l'époque et s'en servent pour poser un
+    problème de confiance, de consentement ou de surveillance. Beaucoup de ces
+    projets ont été développés avec le [[mixed-reality-lab]] de l'université de
+    Nottingham.
+  </markdown>
+
+  <section title="Pourquoi c'est utile ici">
+    <markdown>
+      C'est la démonstration la plus nette qu'une narration interactive n'a pas
+      besoin d'un moteur de jeu ni d'un gros budget. Une carte, une position,
+      une voix : la règle est simple et tient en une phrase, l'expérience est
+      forte parce que l'enjeu est réel.
+
+      Utile aussi pour discuter des limites. [[kidnap]] ou [[karen]] posent
+      frontalement la question qu'on évite d'habitude : jusqu'où a-t-on le droit
+      d'embarquer quelqu'un dans sa fiction ?
+    </markdown>
+  </section>
+
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
+  </section>
+
+  <backlinks/>
+</personne>

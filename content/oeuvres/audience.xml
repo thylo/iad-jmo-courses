@@ -1,0 +1,39 @@
+<oeuvre id="audience" statut="en-ligne">
+  <titre>Audience</titre>
+  <annee>2008</annee>
+  <par ref="random-international"/>
+  <par>Chris O'Shea</par>
+  <url>https://www.random-international.com/audience</url>
+  <categorie>Installation</categorie>
+  <concept ref="role-soi-meme"/>
+
+  <resume>Soixante-quatre petits miroirs posés au sol, chacun monté sur deux servomoteurs qui lui donnent le pan et l'inclinaison d'une tête. Ils suivent les visiteurs, se tournent tous ensemble vers celui qui entre, puis se lassent et vont regarder quelqu'un d'autre. Commande de Wayne McGregor pour le festival Deloitte Ignite du Royal Opera House, septembre 2008.</resume>
+
+  <visuel src="audience.jpg"
+          alt="Vue de haut d'un parquet clair : une personne en manteau se tient debout au milieu, entourée d'une cinquantaine de petits miroirs posés au sol et reliés par des câbles, tous orientés vers elle."
+          credit="Random International et Chris O'Shea"
+          source="https://www.random-international.com/audience"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Le spectateur devient le sujet.** Un miroir renvoie une image ; celui-ci
+      décide de la renvoyer ou pas. Le visiteur entre pour regarder une œuvre et se
+      retrouve regardé par elle — un cas net de [[role-soi-meme]], où le public n'a
+      rien à incarner puisqu'il est déjà ce que la pièce raconte.
+
+      **L'ennui est programmé.** Les miroirs abandonnent, se distraient, bavardent
+      entre eux. Cette part de désintérêt est ce qui fait passer le dispositif du
+      capteur au personnage : un système qui répond toujours est une machine, un
+      système qui se détourne a l'air d'avoir un avis.
+
+      **Aucun écran.** Le suivi est fait par caméra et logiciel, mais rien n'est
+      affiché nulle part : la sortie du programme est un mouvement mécanique. Bon
+      contre-exemple quand on croit que « interactif » veut dire « à l'écran ».
+    </markdown>
+
+    <video src="youtube:DZXRfb5U_ug"
+           caption="Captation de l'installation au Royal Opera House."/>
+  </section>
+
+  <backlinks/>
+</oeuvre>

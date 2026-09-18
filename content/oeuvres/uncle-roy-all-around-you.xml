@@ -1,0 +1,46 @@
+<oeuvre id="uncle-roy-all-around-you" statut="archive">
+  <titre>Uncle Roy All Around You</titre>
+  <annee>2003</annee>
+  <par ref="blast-theory"/>
+  <par ref="mixed-reality-lab"/>
+  <url>https://www.blasttheory.co.uk/projects/uncle-roy-all-around-you/</url>
+  <categorie>Jeu</categorie>
+  <categorie>Urbain</categorie>
+  <categorie>Performance</categorie>
+  <voir ref="can-you-see-me-now"/>
+  <voir ref="karen"/>
+
+  <resume>Soixante minutes pour trouver le bureau d'Uncle Roy dans une vraie ville, un assistant numérique à la main, guidé par des joueurs en ligne qui parcourent la même ville en version virtuelle et voient des photos du terrain. Au bout, une question posée en face à face : accepteriez-vous de vous engager, pendant un an, à venir en aide à un inconnu qui vous appellerait ?</resume>
+
+  <visuel src="uncle-roy-all-around-you.jpg"
+          source="https://www.blasttheory.co.uk/projects/uncle-roy-all-around-you/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **La récompense n'est pas dans le jeu.** On ne gagne pas de points, on est mis
+      devant un engagement réel avec une personne réelle, à tenir pendant douze mois
+      après la fin de la partie. Tout le dispositif ludique n'a servi qu'à amener
+      quelqu'un dans un état où il accepterait de répondre sérieusement à cette
+      question-là.
+
+      **La position se déduit sans capteur.** Pas de GPS : le système regarde quelle
+      portion de plan le joueur consulte, et en infère où il est. Faire dire à une
+      interaction d'interface ce qu'on ne peut pas mesurer — c'est une leçon de
+      conception qui vaut encore, et elle date de 2003.
+
+      **Deux publics qui ont besoin l'un de l'autre.** Le joueur de rue voit la
+      ville et rien d'autre ; le joueur en ligne voit le plan et rien d'autre.
+      Aucun des deux ne s'en sort seul, et l'asymétrie ne s'équilibre jamais.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Œuvre de production : une ville, un bureau loué, des comédiens, du matériel
+      prêté. Elle s'est jouée à Londres, Manchester et West Bromwich, puis s'est
+      arrêtée. On l'étudie sur documentation, pas sur pièce.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

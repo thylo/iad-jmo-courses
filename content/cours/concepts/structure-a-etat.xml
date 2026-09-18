@@ -1,0 +1,173 @@
+<concept id="structure-a-etat">
+  <titre>Structure à État (Le récit se souvient)</titre>
+  <genre>structure</genre>
+  <exemple ref="80-days"/>
+  <voir ref="structure-embranchements"/>
+  <voir ref="structure-constellation"/>
+
+  <resume>Le récit ne retient pas un chemin, mais des faits : par où on est passé, ce qu'on porte, qui est mort. Chaque scène se réécrit selon ce qui est vrai au moment où on l'atteint.</resume>
+
+  <section title="Définition">
+    <markdown>
+      Dans un [[structure-embranchements|arbre]], la mémoire est dans la position :
+      « on est dans la branche 3-B », et tout ce qui a été fait avant est contenu dans
+      le fait d'être là. C'est ce qui fait exploser la production.
+
+      La structure à état sort la mémoire du chemin et la met dans des faits. Le
+      récit tient une petite liste de ce qui est vrai : *le loup est mort*, *la
+      lanterne est prise*, *le port n'a jamais été visité*, *Fogg a avancé
+      l'argent*. Les scènes ne sont plus des nœuds ordonnés, mais des morceaux
+      disponibles sous condition : chacun déclare quand il a le droit d'apparaître,
+      et ce qu'il dit selon l'état.
+
+      Caractéristiques :
+
+      - La mémoire est dans des variables, pas dans une position
+      - Les scènes sont conditionnelles, pas ordonnées
+      - Le même lieu ne raconte pas la même chose selon ce qu'on sait
+      - L'ordre de découverte appartient au public ; la cohérence reste à l'auteur
+    </markdown>
+  </section>
+
+  <section title="Interaction">
+    <markdown>
+      Explorer, prendre, casser, revenir. Le public décide de l'ordre. Le texte,
+      lui, doit rester juste quel que soit cet ordre : il vérifie l'état avant de
+      parler.
+    </markdown>
+  </section>
+
+  <section title="Schéma">
+    <markdown>
+      ```
+      État courant
+        loup_mort      = oui
+        lanterne       = non
+        village_visite = 2e fois
+
+      Scène « le villageois »
+        ├─ si loup_mort        → « Merci. On dort mieux, depuis. »
+        ├─ sinon si nuit       → « Ne sortez pas ce soir. »
+        └─ sinon               → « Il y a une bête dans la forêt. »
+      ```
+
+      Le villageois n'est pas trois personnages dans trois branches. C'est un seul
+      morceau de texte qui regarde l'état avant d'ouvrir la bouche.
+    </markdown>
+  </section>
+
+  <section title="L'exemple : inkle">
+    <markdown>
+      Le studio [[inkle]] a poussé ce principe plus loin que quiconque en fiction
+      commerciale.
+
+      [[80-days]] (2014) : plus de 150 villes reliées librement, un demi-million de
+      mots. Le jeu retient l'itinéraire, l'argent, la malle, l'état de santé de Fogg,
+      les rumeurs récoltées, et les voyageurs croisés en route parlent des lignes qui
+      n'ont pas été prises.
+
+      *Sorcery!* (2013-2016), adapté des livres-jeux de Steve Jackson, est passé en
+      quatre épisodes du livre dont vous êtes le héros (un arbre) au monde ouvert
+      où l'on revient sur ses pas, où l'on remonte le temps, et où tout ce qu'on a
+      fait reste vrai.
+
+      *Heaven's Vault* (2019) va au bout de l'idée : le jeu retient les traductions
+      proposées d'une langue ancienne, **y compris les fausses**, et continue de
+      parler avec.
+
+      Leur langage d'écriture, **ink**, est libre (licence MIT) et utilisable seul
+      ou dans Unity. C'est du texte avec des conditions dedans, pas un moteur de
+      jeu : lisible par quelqu'un qui écrit.
+    </markdown>
+  </section>
+
+  <section title="Ce qu'en dit Jon Ingold">
+    <markdown>
+      [[jon-ingold]], cofondateur d'[[inkle]], a exposé la méthode dans une conférence à la
+      GDC 2017, [*Narrative Sorcery: Coherent Storytelling in an Open
+      World*](https://www.youtube.com/watch?v=HZft_U4Fc-U).
+
+      Son point de départ : quand le public rencontre le contenu dans n'importe quel
+      ordre et que toutes les conséquences persistent, la continuité devient le vrai
+      problème d'écriture. Un récit entièrement en texte n'a rien pour masquer une
+      incohérence.
+
+      Sa réponse tient dans ce qu'il appelle l'**écriture défensive** : chaque
+      morceau vérifie ce qui est vrai avant de parler, et prévoit le cas où ce qu'il
+      devait raconter est déjà arrivé, ou n'arrivera jamais. Le récit doit se tenir
+      quelle que soit la route empruntée pour y arriver.
+
+      C'est exactement le villageois du schéma : si le loup est mort, il ne prévient
+      pas du loup. Il remercie.
+    </markdown>
+  </section>
+
+  <section title="Avantages">
+    <markdown>
+      - **Production linéaire, pas exponentielle** : on ajoute des faits, pas des
+        branches. Cinq variables, ce n'est pas trente-deux fins à écrire.
+      - Sentiment très fort d'être écouté : « ça s'en souvient »
+      - Liberté d'ordre totale pour le public
+      - Rejouabilité par recombinaison, pas par duplication de contenu
+      - Le contenu se réutilise dans plusieurs configurations
+    </markdown>
+  </section>
+
+  <section title="Inconvénients">
+    <markdown>
+      - La combinatoire ne disparaît pas, elle se déplace dans le **test** : on ne
+        peut plus jouer tous les états possibles
+      - Les bugs deviennent narratifs : un personnage qui parle d'un mort
+      - L'écriture devient conditionnelle, donc proche de la programmation
+      - Le climax n'est plus donné : sans arbre, rien ne garantit une montée
+      - Un état invisible ne sert à rien : si le récit retient sans jamais le
+        montrer, autant ne rien retenir
+    </markdown>
+  </section>
+
+  <section title="Quand l'utiliser">
+    <markdown>
+      - Mondes ouverts, récits de voyage, enquêtes
+      - Quand l'ordre de découverte doit vraiment appartenir au public
+      - Quand des conséquences durables sont voulues sans produire 32 fins
+      - Quand le sujet est la trace : ce qu'on emporte, ce qu'on abîme
+    </markdown>
+  </section>
+
+  <section title="Variantes">
+    <markdown>
+      - **Inventaire** : l'état, ce sont des objets qu'on porte
+      - **Mémoire des lieux** : première visite / retour
+      - **Jauges** : réputation, fatigue, argent. L'état est un curseur, pas un
+        oui/non
+      - **Arbre court + état long** : quelques [[structure-embranchements|embranchements]]
+        pour le squelette, l'état pour tout le reste
+    </markdown>
+  </section>
+
+  <section title="Erreurs courantes">
+    <markdown>
+      - Écrire un texte qui suppose un ordre : le villageois qui annonce un loup
+        déjà mort
+      - Trop de variables : plus personne ne peut tester, l'auteur compris
+      - Retenir sans jamais le rendre visible
+      - Confondre avec le [[faux-choix|faux choix]] inverse : ici, le risque n'est
+        pas l'absence de conséquence, c'est la conséquence incohérente
+    </markdown>
+  </section>
+
+  <section title="En pratique">
+    <markdown>
+      Trois variables suffisent. Vraiment.
+
+      « Est-ce que le public est déjà passé ici », « est-ce qu'il a pris l'objet »,
+      « est-ce qu'il a menti au chapitre 1 ». Trois `if` bien placés produisent plus
+      de sensation de mémoire que dix branches jamais terminées.
+
+      Commencer par une scène qui change trois fois selon l'état, plutôt que trois
+      scènes différentes.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

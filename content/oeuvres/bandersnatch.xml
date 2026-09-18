@@ -1,0 +1,60 @@
+<oeuvre id="bandersnatch" statut="en-ligne">
+  <titre>Black Mirror: Bandersnatch</titre>
+  <annee>2018</annee>
+  <par>Charlie Brooker</par>
+  <par>David Slade</par>
+  <par>Netflix</par>
+  <url>https://www.netflix.com/title/80988062</url>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-embranchements"/>
+  <concept ref="forme-machine"/>
+  <concept ref="role-personnage"/>
+  <concept ref="faux-choix"/>
+
+  <resume>1984 : un jeune programmeur adapte un roman dont on est le héros en jeu vidéo, et perd pied. Deux cent cinquante segments pour cent cinquante minutes de rushes uniques, cinq fins principales, dix secondes pour choisir avant que la machine décide à votre place. Netflix a écrit un outil maison, Branch Manager, pour tenir l'arbre.</resume>
+
+  <visuel src="bandersnatch.jpg"
+          alt="Un jeune homme aux cheveux bouclés, assis devant un écran hors champ, tient un joystick à boule rouge des deux mains, le regard fixe."
+          credit="Netflix"
+          source="https://www.netflix.com/be-fr/title/80988062"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Le chronomètre est l'idée.** Dix secondes, sinon la fiction tranche. Ce
+      n'est pas une commodité technique : c'est ce qui empêche de délibérer, et
+      donc ce qui fait qu'on répond avec ses réflexes plutôt qu'avec sa stratégie.
+      Enlever le compte à rebours détruirait le film.
+
+      **Le récit sait qu'on est là.** Le personnage finit par sentir qu'une
+      instance extérieure lui dicte ses actes, et le film propose de le lui dire.
+      C'est le seul moyen honnête qu'il trouve de traiter sa propre forme : plutôt
+      que de cacher la structure, il en fait le sujet de la crise du personnage.
+      Voir [[forme-machine]].
+
+      **La production a un coût mesurable.** Cinq heures douze de matériel tourné
+      pour quatre-vingt-dix minutes vues en moyenne. Le chiffre est le meilleur
+      argument qui soit contre l'idée qu'on « ajoutera de l'interactivité » à la
+      fin : dans un [[structure-embranchements|arbre]], chaque branche se tourne,
+      se monte, s'étalonne et se mixe.
+    </markdown>
+
+    <video src="youtube:VNw9DAwp2Kk"
+           caption="Le featurette « Consumer », publié par Netflix."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Beaucoup de branches se rabattent : on repasse par les mêmes scènes, on
+      revient en arrière, et l'arbre se referme régulièrement sur un tronc unique.
+      Une partie des décisions — la marque de céréales, la cassette — ne change
+      rien du tout : c'est du [[faux-choix]] assumé, servant à installer le geste
+      avant que les vraies bifurcations arrivent.
+
+      Et l'œuvre ne survit qu'à l'intérieur de Netflix. Sans abonnement, sans le
+      lecteur maison, il n'y a rien à voir — et l'interface interactive a déjà été
+      retirée de plusieurs appareils depuis 2018.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

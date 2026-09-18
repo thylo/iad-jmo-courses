@@ -1,0 +1,53 @@
+<oeuvre id="flashback-zombie-kidz" statut="en-ligne">
+  <titre>Flashback : Zombie Kidz</titre>
+  <annee>2022</annee>
+  <par>Baptiste Derrez</par>
+  <par>Marc-Antoine Doyon</par>
+  <par>Michel Verdu</par>
+  <par>Laure de Chateaubourg</par>
+  <par>Jennifer Mati</par>
+  <par>Le Scorpion Masqué</par>
+  <url>https://www.scorpionmasque.com/fr/FlashbackZK</url>
+  <categorie>Jeu</categorie>
+  <concept ref="interface-split-screen"/>
+
+  <resume>Jeu d'enquête par images, presque sans un mot. Une scène figée dans le temps ; les personnages qui s'y trouvent portent un numéro, et la carte de ce numéro montre la même scène par leurs yeux. On accumule les points de vue jusqu'à comprendre ce qui s'est passé. 80 grandes cartes, trois scénarios, moins de trente minutes. As d'Or Enfant 2023.</resume>
+
+  <visuel src="flashback-zombie-kidz.jpg"
+          source="https://www.scorpionmasque.com/fr/FlashbackZK"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le lien est dessiné.** Il n'y a ni bouton, ni liste d'options : on regarde
+      l'image, on y repère quelqu'un, on prend sa vue. La zone cliquable est un
+      personnage dessiné. C'est le [[interface-point-click|point &amp; click]] réduit
+      à son os (désigner et voir) sans une ligne de code et sans curseur pour
+      signaler ce qui répond.
+
+      **Le montage est le jeu.** Un seul instant, une dizaine de regards, dans
+      l'ordre qu'on veut. Le récit n'est sur aucune carte : il est dans le raccord
+      que la table fabrique en passant d'un point de vue à l'autre. C'est le découpage
+      joué à la main, et la démonstration que le sens naît du rapprochement, pas du
+      plan.
+
+      **Presque pas de texte, et jouable à sept ans.** Ce que le texte fait
+      d'habitude (nommer, expliquer, désigner ce qui compte) est ici entièrement
+      confié au dessin. Utile à garder en tête quand on est tenté d'écrire une
+      consigne à l'écran : souvent, elle avoue que l'image n'a pas suffi.
+    </markdown>
+
+    <video src="youtube:dmx1ckr9Crw"
+           caption="La présentation du jeu par Le Scorpion Masqué."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Les questions posées à la fin transforment la compréhension en contrôle : il y
+      a une bonne lecture de la scène, et on vérifie qu'elle a été trouvée. Ça
+      marche très bien avec des enfants, mais ça referme un récit qui, jusque-là,
+      laissait chacun regarder où il voulait.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

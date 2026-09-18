@@ -1,0 +1,108 @@
+<concept id="role-divinite">
+  <titre>Une divinité</titre>
+  <genre>role</genre>
+  <exemple ref="fort-mcmoney"/>
+  <exemple ref="the-fallen-of-world-war-ii"/>
+  <exemple ref="seeing-theory"/>
+  <exemple ref="immortality"/>
+  <voir ref="role-fantome"/>
+  <voir ref="structure-constellation"/>
+
+  <resume>Le public n'est nulle part dans la fiction et en tient les leviers. La position par défaut de tout ce qui se manipule comme un modèle.</resume>
+
+  <section title="Définition">
+    <markdown>
+      Aucun corps, aucun nom, aucune place dans le récit — et un pouvoir que personne
+      dans la fiction ne possède : changer les règles, remonter le temps, voir
+      simultanément ce qui s'est passé sur trente ans.
+
+      C'est le rôle du tableau de bord, de la simulation, de la carte, de la table de
+      montage. Le public n'y suit pas une histoire, il éprouve un système.
+    </markdown>
+  </section>
+
+  <section title="Schéma">
+    <markdown>
+      ```
+      Fantôme                          Divinité
+
+       événements fixes                 règles
+            ▲                             ▲
+            │ regarde                     │ tourne les boutons
+         public                       public
+                                          │
+                                          ▼
+                                     les événements
+                                     se recalculent
+
+      Le fantôme choisit d'où il voit.
+      La divinité choisit ce qui arrive, sans être dedans.
+      ```
+    </markdown>
+  </section>
+
+  <section title="Trois usages">
+    <markdown>
+      **Gouverner.** [[fort-mcmoney]] confie une ville pétrolière de l'Alberta : on
+      interroge les habitants, puis on vote des mesures, et la ville change entre les
+      chapitres. Personne n'a demandé de quel droit — c'est justement la question que
+      le dispositif laisse ouverte.
+
+      **Comprendre un système.** [[the-fallen-of-world-war-ii]] est un film de
+      graphiques qui s'arrête pour laisser fouiller, et
+      [[seeing-theory]] laisse tourner les paramètres d'une loi statistique jusqu'à ce
+      qu'on la sente. Le récit n'est plus une suite d'événements : c'est un ensemble
+      de règles dont on éprouve les effets.
+
+      **Recomposer.** [[immortality]] donne les rushes de trois films qui n'existent
+      pas et une table de montage. L'ordre chronologique n'est plus donné ; il se
+      fabrique, et le sens avec.
+
+      Dans les trois cas, le public a plus de pouvoir que n'importe quel personnage —
+      et aucun enjeu personnel. C'est l'échange.
+    </markdown>
+  </section>
+
+  <section title="Ce que ça coûte">
+    <markdown>
+      **L'absence d'incarnation.** On ne s'attache pas à un curseur. Les œuvres qui
+      tiennent longtemps dans ce rôle ramènent presque toujours des gens dedans :
+      Fort McMoney fait parler des habitants avant de faire voter, et
+      *The Fallen* revient sur des vies individuelles entre deux graphiques.
+
+      **Un système qui ne surprend pas ne raconte rien.** Si tourner les boutons donne
+      toujours le résultat attendu, ce n'est pas un modèle, c'est une illustration.
+      L'intérêt commence là où le résultat contredit l'intuition.
+
+      **Le pouvoir doit être réel.** Une « divinité » avec des boutons décoratifs est
+      le pire des [[faux-choix|faux choix]], parce qu'on l'a annoncée toute-puissante.
+    </markdown>
+  </section>
+
+  <section title="Erreurs courantes">
+    <markdown>
+      - Confondre tableau de bord et récit. Une visualisation qu'on filtre n'est pas
+        une œuvre narrative, et n'a pas à en porter le costume
+      - Donner trente paramètres. Deux ou trois suffisent pour qu'un système se
+        comprenne ; au-delà, on ne fait plus de lien entre le geste et l'effet
+      - Oublier de dire ce qu'on modélise, et à partir de quelles données. C'est le
+        même problème que sur [ranger n'est pas neutre](/panorama/ranger) : un modèle
+        qui masque ses choix les fait passer pour des faits
+    </markdown>
+  </section>
+
+  <section title="En pratique">
+    <markdown>
+      C'est le rôle le plus faisable sans comédien ni tournage — et le plus facile à
+      rater en produisant un graphique interactif de plus.
+
+      **Un seul levier, bien choisi.** Une chose que le public peut tourner, dont
+      toutes les conséquences sont montrées, plutôt que dix leviers superficiels.
+
+      **Le système, pas le résultat.** Ce qui se retient n'est pas le chiffre final,
+      c'est le moment où on comprend pourquoi il bouge dans ce sens-là.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

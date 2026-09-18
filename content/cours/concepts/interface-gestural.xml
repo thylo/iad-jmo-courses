@@ -1,0 +1,106 @@
+<concept id="interface-gestural">
+  <titre>Le geste</titre>
+  <genre>interface</genre>
+  <exemple ref="protanopia"/>
+  <exemple ref="the-botanist"/>
+  <exemple ref="motto"/>
+  <voir ref="interface-scrollable"/>
+  <voir ref="role-soi-meme"/>
+
+  <resume>Incliner, souffler, tourner une manivelle, filmer un mur. L'appareil devient un instrument plutôt qu'une télécommande — et le corps entre dans le récit.</resume>
+
+  <section title="Définition">
+    <markdown>
+      Au lieu de désigner, on fait un mouvement : le téléphone bascule, le micro
+      écoute, la caméra regarde, une manivelle tourne. Le récit répond à quelque chose
+      qui vient du corps plutôt que d'un curseur.
+
+      Le geste a une propriété qu'aucune autre interface n'a : **il se sent**. Un clic
+      est une décision, un mouvement est une sensation, et c'est ce qui le rend
+      redoutable — pour le meilleur quand il correspond à ce qui est raconté, pour le
+      pire quand il n'est qu'une démonstration technique.
+    </markdown>
+  </section>
+
+  <section title="Schéma">
+    <markdown>
+      ```
+      Geste arbitraire                Geste qui correspond
+
+        secouer  ──►  page suivante     incliner ──► on voit derrière
+                                                      l'objet
+        n'importe quel autre            un seul geste produit
+        geste ferait pareil             cet effet-là
+
+        → un bouton déguisé             → l'appareil est un instrument
+      ```
+    </markdown>
+  </section>
+
+  <section title="Quand le geste raconte">
+    <markdown>
+      [[protanopia]] est une bande dessinée muette où chaque case est une petite scène
+      en couches, posée dans un espace en trois dimensions. Incliner l'appareil déplace
+      le point de vue et découvre ce que la case cachait. Le geste n'avance pas le
+      récit : il fouille l'image. C'est le seul moyen d'accéder à quelque chose, donc
+      il n'est pas remplaçable par un bouton.
+
+      [[the-botanist]] est fait pour la Playdate et sa manivelle. On tourne pour faire
+      défiler les cases, certaines scènes n'avancent que si l'on continue de tourner.
+      La lecture devient un effort continu de la main — une machine à manivelle
+      raconte autrement qu'un écran tactile, et c'est tout l'intérêt de la contrainte.
+
+      [[motto]] va au bout : un narrateur sans nom demande de filmer un mur, de
+      souffler, de chercher un objet dans la pièce. La caméra et le micro deviennent
+      l'entrée, les images maladroites entrent dans le film, et la pièce où l'on se
+      trouve devient le décor. C'est là que le geste bascule dans
+      [[role-soi-meme|le rôle de soi-même]] : ce qui est filmé, c'est un chez-soi.
+    </markdown>
+  </section>
+
+  <section title="Ce que ça coûte">
+    <markdown>
+      **L'apprentissage.** Un clic n'a pas besoin d'être expliqué, un geste si. Et le
+      moment où on l'explique est le moment où on brise ce qu'on venait de construire.
+      Les œuvres qui s'en sortent font découvrir le geste par la situation plutôt que
+      par un tutoriel.
+
+      **Le corps du public.** Un geste suppose une main valide, un appareil tenu, un
+      espace autour de soi, parfois une voix. Chaque geste exclut quelqu'un, et il faut
+      soit prévoir une autre entrée, soit assumer explicitement à qui l'œuvre
+      s'adresse. Cette question ne se pose sur aucune autre interface du site avec
+      autant de force.
+
+      **Le matériel.** Manivelle, gyroscope, caméra : ce sont des dépendances. La
+      Playdate se vend encore, les capteurs changent de comportement à chaque version
+      d'un système, et l'autorisation caméra se refuse d'un doigt.
+    </markdown>
+  </section>
+
+  <section title="Erreurs courantes">
+    <markdown>
+      - Le geste-bouton : secouer pour passer à la suite. N'importe quoi d'autre ferait
+        l'affaire, donc ce n'est pas un geste, c'est un déguisement
+      - Demander un mouvement qu'on ne fait pas en public. Souffler dans un téléphone
+        dans un train ne se produira pas
+      - Ne rien prévoir quand le capteur ne répond pas ou que la permission est refusée
+      - Confondre effort et sensation. Fatiguer la main n'est intéressant que si la
+        fatigue est le sujet — c'est le cas dans [[the-boat]], rarement ailleurs
+    </markdown>
+  </section>
+
+  <section title="En pratique">
+    <markdown>
+      **Un seul geste, et qu'il corresponde.** Le mouvement est à chercher dans ce que
+      le récit contient déjà : on pousse une porte, on essuie une vitre, on se penche.
+
+      **Tester debout, dans le bus, à une main.** C'est là que ça se passe, pas au
+      bureau.
+
+      **Prévoir la version sans.** Elle n'est pas dégradée : elle est ce que verront
+      les gens dont l'appareil, le corps ou la situation ne suivent pas.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

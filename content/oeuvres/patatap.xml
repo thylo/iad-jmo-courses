@@ -1,0 +1,33 @@
+<oeuvre id="patatap" statut="en-ligne">
+  <titre>Patatap</titre>
+  <annee>2014</annee>
+  <par>Jono Brandel</par>
+  <par>Lullatone</par>
+  <url>https://patatap.com/</url>
+  <categorie>Outil</categorie>
+
+  <resume>Une page blanche. Chaque touche du clavier déclenche un son et une forme animée, tous deux composés pour aller ensemble ; la barre d'espace change de palette et de jeu de sons. Il n'y a pas de mode d'emploi, pas de menu, pas de sauvegarde. Sons de Lullatone, dessin et code de Jono Brandel.</resume>
+
+  <visuel src="patatap.jpg"
+          source="https://patatap.com/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **L'apprentissage est la découverte du clavier.** Vingt-six touches, vingt-six
+      couples son-image à retrouver. La mémorisation d'un instrument, réduite à ce
+      qu'on peut apprendre en quatre minutes, sur un objet que tout le monde a déjà
+      sous les doigts.
+
+      **Le son et la forme sont dessinés ensemble.** Ce n'est pas une visualisation
+      calculée à partir de l'audio : chaque animation a été composée pour son
+      échantillon. La différence s'entend — rien ne flotte, tout tombe juste — et
+      c'est précisément ce qu'un générateur automatique ne sait pas faire.
+
+      **Aucune sortie.** Rien à enregistrer, rien à partager, rien à exporter. La
+      page ne demande rien et ne garde rien : ce qui est produit n'existe que pour
+      la personne qui appuie.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

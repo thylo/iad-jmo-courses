@@ -1,0 +1,61 @@
+/* Rendered body copy — the HTML that comes out of markdown, and only that.
+
+   Markdown is the one source on the site that cannot name what it writes: it
+   produces bare <p>, <h2>, <ul>, <blockquote>. So this is the one component
+   that styles bare elements, and MarkdownElement wraps its output in .c-prose
+   to say where that licence stops. Everything else the content layer writes —
+   a section, a note, an index, a figure — carries a class and is styled by
+   name, because it can be.
+
+   It only ever sets rhythm, measure and colour: the type scale already comes
+   from the tokens. Every vertical value is a multiple of the 28px baseline. */
+
+/* The owl. An aside that holds prose sets --prose-step to tighten it, the same
+   way the canvas lets a page set --canvas-space. */
+.c-prose > * + * {
+  margin-block-start: var(--prose-step, var(--space-m));
+}
+
+/* Headings claim the space above them, not below: the gap belongs to the
+   break in the argument, not to the words. */
+.c-prose h2 {
+  font-size: var(--text-lead);
+  line-height: var(--space-unit);
+  margin-block-start: var(--space-xl);
+}
+
+.c-prose h3 {
+  font-size: var(--text-title);
+  line-height: var(--space-unit);
+  margin-block-start: var(--space-l);
+}
+
+.c-prose :is(h2, h3) + * { margin-block-start: var(--space-s); }
+
+/* Lists read as blocks of lines, so they keep the body leading and hang their
+   markers in the margin rather than indenting the text away from it. */
+.c-prose :is(ul, ol) {
+  padding-inline-start: var(--space-m);
+}
+
+.c-prose li + li { margin-block-start: var(--space-s); }
+
+.c-prose li::marker { color: var(--color-ink-faint); }
+
+/* A quotation is set off by a drawn stroke, not a border — see rule.css for
+   why the two are not the same thing. .c-rule-beside carries the geometry; this
+   only says what it means. */
+.c-prose blockquote {
+  color: var(--color-ink-muted);
+}
+
+.c-prose :is(code, pre) {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.875em;
+}
+
+.c-prose pre {
+  padding: var(--space-s) var(--space-m);
+  background-color: var(--color-paper-sunk);
+  overflow-x: auto;
+}

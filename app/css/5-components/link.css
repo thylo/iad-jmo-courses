@@ -1,0 +1,11 @@
+/* A link whose target does not exist yet. Said plainly rather than hidden.
+
+   It happens anywhere an entity can be named before it is written — in the
+   prose, in the facts of an entity, in an index — so it is not scoped to any of them.
+   content:check reports them; this is only how one reads. */
+
+.c-missing-link {
+  color: var(--color-ink-faint);
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}

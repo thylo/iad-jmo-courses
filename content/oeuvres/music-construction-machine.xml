@@ -1,0 +1,53 @@
+<oeuvre id="music-construction-machine" statut="en-ligne">
+  <titre>Music Construction Machine</titre>
+  <annee>2016</annee>
+  <par ref="niklas-roy"/>
+  <url>https://www.niklasroy.com/project/191/MCM</url>
+  <categorie>Installation</categorie>
+  <categorie>Performance</categorie>
+  <concept ref="interface-gestural"/>
+
+  <resume>Une boîte à musique géante, dans un pavillon vitré, avec une grosse manivelle à l'extérieur. Tourner la manivelle met en mouvement des cordes, des poulies, des ressorts, des poids et des cames, qui jouent une guitare électrique, un clavier et une batterie. La mécanique décide des notes ; le public décide de la vitesse et du moment où il s'arrête. La mélodie ne se répète jamais.</resume>
+
+  <visuel src="music-construction-machine.jpg"
+          alt="Un pavillon vitré posé sur une place ; à l'intérieur, un assemblage de bois, de cordes et de poulies relié à une batterie et à un clavier ; trois passants regardent à travers la vitre"
+          credit="Niklas Roy"
+          source="https://www.niklasroy.com/project/191/MCM"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **L'algorithme est en bois et on le voit.** Ce que produit la machine est une
+      musique générative, exactement au sens où on l'entend en code : des variables
+      cycliques de périodes différentes qui se croisent et passent de l'harmonie à la
+      dissonance. Sauf qu'ici il n'y a pas de programme — il y a des roues de tailles
+      différentes, et le pavillon est transparent pour qu'on comprenne en regardant.
+
+      **C'est le meilleur objet pédagogique du corpus pour expliquer la génération.**
+      Un étudiant qui ne veut pas entendre parler de code comprend le principe en
+      trente secondes devant cette machine. Puis on lui montre
+      [[tracery|une grammaire]], et c'est la même chose.
+
+      **La manivelle, encore.** Même geste que [[the-botanist]] sur sa petite console
+      jaune : un effort continu de la main, qui donne le tempo. Deux objets que tout
+      sépare, un seul verbe. C'est ce que la grille des
+      [[interface-gestural|gestes]] permet de voir.
+    </markdown>
+
+    <video src="youtube:OEy7A0p0v8g"
+           caption="La machine en fonctionnement, filmée par Niklas Roy."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      La machine ne raconte rien et n'a personne à servir. Les grilles narratives du
+      [panorama](/panorama) n'ont pas prise : elle appartient au champ où
+      [l'interaction est l'œuvre](/panorama/interactivite-oeuvre).
+
+      Et elle existe une seule fois, dans un lieu, avec une maintenance mécanique. Ce
+      qui circule, ce sont des vidéos — c'est-à-dire tout sauf le fait de tourner la
+      manivelle soi-même.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

@@ -1,0 +1,58 @@
+<oeuvre id="unlock" statut="en-ligne">
+  <titre>Unlock!</titre>
+  <annee>2017</annee>
+  <par>Space Cowboys</par>
+  <par>Cyril Demaegd</par>
+  <url>https://www.spacecowboys-games.com/game/unlock/</url>
+  <categorie>Jeu</categorie>
+
+  <resume>Escape game en boîte : un paquet de cartes numérotées et une application gratuite. Les énigmes donnent le numéro de la carte suivante ; l'application tient le chronomètre, reçoit les codes, distribue les indices et fait tourner les mécanismes qu'on ne peut pas imprimer. Première boîte en février 2017, As d'Or à Cannes la même semaine.</resume>
+
+  <visuel src="unlock.jpg"
+          alt="Quatre personnes penchées autour d'une table de salon couverte de cartes étalées ; l'une d'elles tient un téléphone que les autres regardent"
+          credit="Space Cowboys"
+          source="https://www.spacecowboys-games.com/game/unlock/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le récit est sur les cartes.** Lieux, objets, personnages : on les fouille,
+      on les combine, on les étale sur la table. L'application ne raconte rien :
+      pas de narration, pas de dialogues, pas de scénario déroulé à la place des joueurs.
+
+      **L'écran ne fait que ce que le papier ne sait pas faire.** Un mécanisme
+      qu'il faut manipuler, une machine à régler, un son à écouter, un chronomètre
+      qui tourne pour de vrai. Imprimer ça sur du carton demanderait un livret de
+      correspondances illisible ; à l'écran, c'est immédiat.
+
+      **Elle reçoit des décisions, pas des comptes rendus.** Taper un code, c'est
+      annoncer une solution, le coup qu'on joue. Rien à voir avec
+      [[descent-legends-of-the-dark|déclarer à une application qu'on vient de
+      bouger un pion]]. Aucun geste fait sur la table n'a besoin d'être ressaisi
+      pour exister.
+
+      Le détail qui montre le soin : l'application ne sait pas taper les lettres.
+      Les cartes portent donc un code à trois chiffres sous leur lettre, uniquement
+      pour demander un indice. Une contrainte d'interface résolue sur le papier
+      plutôt que dans le logiciel.
+
+      Voir [[interface-plateau]].
+    </markdown>
+
+    <video src="youtube:bDZPE_rkCm8"
+           caption="La règle du jeu en vidéo, publiée par Space Cowboys."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      L'application reste obligatoire, et sans elle la boîte ne se joue pas. Le même
+      compte à rebours que partout ailleurs : le jour où Space Cowboys cesse de
+      maintenir, quinze années de boîtes deviennent des paquets de cartes muets.
+
+      La différence, c'est qu'ici la part logicielle est mince : un minuteur, un
+      formulaire de codes, quelques mécanismes. Elle serait réécrite en un
+      après-midi. Ce qui est mince se sauve ; ce qui tient tout le scénario, non.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

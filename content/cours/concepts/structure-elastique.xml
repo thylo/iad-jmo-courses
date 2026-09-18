@@ -1,0 +1,79 @@
+<concept id="structure-elastique">
+  <titre>Structure Élastique</titre>
+  <genre>structure</genre>
+  <exemple ref="snow-fall"/>
+  <exemple ref="do-not-track"/>
+  <voir ref="structure-lineaire"/>
+  <voir ref="structure-concentrique"/>
+
+  <resume>Une trame narrative principale avec des digressions optionnelles. Le spectateur peut explorer des contenus supplémentaires mais revient toujours à la ligne principale.</resume>
+
+  <section title="Définition">
+    <markdown>
+      La structure élastique combine un récit principal linéaire avec des contenus optionnels
+      (digressions, approfondissements) que le spectateur peut explorer sans affecter la progression
+      principale. Le spectateur revient toujours à la trame centrale.
+
+      Caractéristiques :
+
+      - Récit principal linéaire
+      - Digressions optionnelles
+      - Retour automatique ou choisi à la trame principale
+      - Enrichissement sans obligation
+    </markdown>
+  </section>
+
+  <section title="Interaction">
+    <markdown>
+      Cliquer sur des éléments pour approfondir, puis revenir au récit principal. Le chemin par défaut reste accessible sans explorer les digressions.
+    </markdown>
+  </section>
+
+  <section title="Schéma">
+    <markdown>
+      ```
+      Début → Scène 1 ─┬─→ Digression A
+                        └─→ Scène 2 ─┬─→ Digression B
+                                      └─→ Fin
+      ```
+    </markdown>
+  </section>
+
+  <section title="Avantages">
+    <markdown>
+      - Satisfait différents niveaux d'intérêt
+      - Tous finissent l'histoire principale
+      - Permet l'approfondissement sans l'imposer
+      - Rejouabilité partielle (explorer les digressions manquées)
+    </markdown>
+  </section>
+
+  <section title="Inconvénients">
+    <markdown>
+      - Risque de surcharger de contenu optionnel
+      - Difficulté à doser les digressions
+      - Peut diluer le récit principal
+      - Production plus lourde que linéaire
+    </markdown>
+  </section>
+
+  <section title="Quand l'utiliser">
+    <markdown>
+      - Documentaires éducatifs
+      - Récits avec contexte riche
+      - Quand certains veulent approfondir, d'autres pas
+      - Articles journalistiques enrichis
+      - Guides pédagogiques
+    </markdown>
+  </section>
+
+  <section title="Variantes">
+    <markdown>
+      - **Digressions multiples** : Plusieurs niveaux d'approfondissement
+      - **Digressions imbriquées** : Des digressions contenant d'autres digressions
+      - **Retour flexible** : Choix de revenir ou continuer après une digression
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

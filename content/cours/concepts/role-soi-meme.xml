@@ -1,0 +1,107 @@
+<concept id="role-soi-meme">
+  <titre>Soi-même</titre>
+  <genre>role</genre>
+  <exemple ref="do-not-track"/>
+  <exemple ref="generation-what"/>
+  <exemple ref="the-johnny-cash-project"/>
+  <exemple ref="lifeline"/>
+  <voir ref="role-personnage"/>
+  <voir ref="forme-collaborative"/>
+
+  <resume>L'œuvre s'adresse à la personne qui est devant elle, sans costume, et travaille avec ses vraies données : ce qu'elle finit par montrer, c'est elle. Le prix : il faut écrire sans savoir qui lit.</resume>
+
+  <section title="Définition">
+    <markdown>
+      Pas d'avatar, pas de nom donné, pas de passé à endosser. L'œuvre s'adresse à la
+      personne qui est devant l'écran et se sert de ce qu'elle sait d'elle : une
+      réponse, une adresse, un historique de navigation, une webcam, l'heure qu'il est
+      là où elle se trouve.
+
+      C'est le seul rôle où le contenu n'est pas entièrement écrit d'avance, puisqu'une
+      partie vient du spectateur. Et c'est le seul où le spectateur ne peut pas se
+      cacher derrière quelqu'un d'autre.
+    </markdown>
+  </section>
+
+  <section title="Schéma">
+    <markdown>
+      ```
+      Un personnage                    Soi-même
+
+      auteur ─► personnage ─► public   auteur ──► gabarit ──┐
+                                                            ├──► public
+              le public hérite d'un    ses données ─────────┘
+              passé et de motivations
+              qui ne sont pas les      l'auteur écrit la forme,
+              siennes                  le public fournit le fond
+      ```
+    </markdown>
+  </section>
+
+  <section title="Ce que ça produit">
+    <markdown>
+      [[do-not-track]] est le cas de référence. Le documentaire demande l'autorisation,
+      regarde ce que le navigateur laisse filtrer, et renvoie au spectateur son propre
+      profil publicitaire au milieu d'un épisode sur la publicité ciblée. Le sujet est
+      démontré sur lui plutôt qu'expliqué.
+
+      [[generation-what]] pose des questions et situe ensuite le répondant dans le
+      million de réponses des autres. Le retour n'est pas « voici ce que vous êtes »,
+      c'est « voici où vous êtes ». Le collectif fait le travail.
+
+      [[lifeline]] ne donne aucun rôle : le spectateur est lui-même, avec son
+      téléphone, et quelqu'un lui écrit depuis une lune. Le temps réel achève l'effet —
+      quand Taylor dort huit heures, l'attente dure huit heures.
+
+      [[the-johnny-cash-project]] va au bout : le spectateur dessine une image du clip,
+      et ce qu'il a fait de sa main reste dans l'œuvre. Là, être soi-même bascule dans
+      la [[forme-collaborative|forme collaborative]].
+    </markdown>
+  </section>
+
+  <section title="Ce que ça coûte">
+    <markdown>
+      **Écrire sans savoir qui lit.** Le texte doit tenir pour quelqu'un de vingt ans
+      comme de soixante, seul ou en classe, à Bruxelles ou ailleurs. Toute supposition
+      ratée casse l'adresse d'un coup.
+
+      **Les données ne viennent pas toujours.** Permission refusée, navigateur
+      verrouillé, réponse vide : il faut une version qui fonctionne quand il n'y a
+      rien. C'est le cas par défaut, pas le cas dégradé.
+
+      **La question du consentement se pose vraiment.** Se servir des données de
+      quelqu'un pour lui parler de lui suppose de dire ce qu'on prend, et de tenir
+      quand il refuse. Une œuvre qui prend sans demander fait la chose qu'elle
+      dénonce, ce qui rejoint
+      [ce que classer fait aux gens qu'on classe](/panorama/ranger).
+    </markdown>
+  </section>
+
+  <section title="Erreurs courantes">
+    <markdown>
+      - Glisser vers [[role-personnage|un personnage]] parce qu'une scène avait besoin
+        d'un passé. Le public ne sait plus à qui on s'adresse, et ça coûte l'adhésion
+      - Confondre personnalisation et adresse. Afficher un prénom dans un gabarit n'est
+        pas parler à quelqu'un
+      - Prendre une donnée sans en faire quelque chose : si le résultat aurait été le
+        même sans elle, elle n'avait pas à être demandée
+      - Oublier que le public peut mentir, et il ment
+    </markdown>
+  </section>
+
+  <section title="En pratique">
+    <markdown>
+      C'est le rôle le plus accessible, parce qu'il ne demande ni production de
+      personnage ni comédien.
+
+      **Une seule donnée suffit.** L'heure locale, une réponse, une couleur choisie.
+      En prendre une et en faire beaucoup, plutôt que d'en collecter dix pour les
+      afficher en tableau.
+
+      **Tester avec quelqu'un d'autre que l'auteur.** C'est le rôle où l'auteur est le
+      plus mauvais public : il sait ce qu'il fallait répondre.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

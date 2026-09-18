@@ -1,0 +1,287 @@
+<?php
+
+declare(strict_types=1);
+
+namespace App\Media;
+
+use function Tempest\root_path;
+
+/**
+ * Builds the WebP variants and the manifest — the job behind media:build.
+ *
+ * Reads media/, writes public/media/. Takes a callback so a console command can
+ * print as it goes and a form can do something else with the same run.
+ *
+ * What has not changed is not encoded again: the manifest carries the hash of
+ * each original, so the first pass takes minutes and the next ones seconds.
+ */
+final readonly class MediaBuilder
+{
+    private const array EXTENSIONS = ['jpg', 'jpeg', 'png', 'webp', 'gif'];
+
+    /** How much wider than its last step a source must be to earn a variant. */
+    private const float NATIVE_MARGIN = 1.2;
+
+    public function __construct(
+        private Images $images,
+    ) {}
+
+    public function build(bool $force = false, ?\Closure $onProgress = null): MediaReport
+    {
+        $report = new MediaReport($onProgress);
+        $known = $this->manifest();
+        $built = [];
+
+        foreach ($this->originals() as $name => $path) {
+            $hash = (string) md5_file($path);
+            $existing = $known[$name] ?? null;
+
+            if (! $force && $existing !== null && $existing->hash === $hash && $this->variantsExist($existing)) {
+                $built[$name] = $existing;
+                $report->record(MediaOutcome::skipped($name));
+
+                continue;
+            }
+
+            try {
+                $built[$name] = $this->buildOne($name, $path, $hash);
+                $report->record(MediaOutcome::written($name, implode('/', $built[$name]->widths)));
+            } catch (MediaException $exception) {
+                // The previous variants are still on disk and still correct, so
+                // the entry stays: a failed encode must not take the image off
+                // every page that uses it. Its hash stays the old one, which is
+                // what makes the next run try again.
+                if ($existing !== null && $this->variantsExist($existing)) {
+                    $built[$name] = $existing;
+                }
+
+                $report->record(MediaOutcome::failed($name, $exception->getMessage()));
+            }
+        }
+
+        $this->write($built);
+
+        return $report;
+    }
+
+    private function buildOne(string $name, string $path, string $hash): MediaAsset
+    {
+        [$width, $height] = $this->images->dimensions($path);
+        $format = strtolower(pathinfo($path, PATHINFO_EXTENSION));
+
+        if ($this->isAnimated($path, $format)) {
+            $this->copy($path, $this->verbatimPath($name, $format));
+
+            return new MediaAsset(
+                name: $name,
+                width: $width,
+                height: $height,
+                widths: [$width],
+                hash: $hash,
+                format: $format,
+                animated: true,
+            );
+        }
+
+        $asset = new MediaAsset(
+            name: $name,
+            width: $width,
+            height: $height,
+            widths: $this->widthsFor($width),
+            hash: $hash,
+        );
+
+        foreach ($asset->widths as $variant) {
+            $this->images->variant($path, $this->variantPath($name, $variant), $variant);
+        }
+
+        return $asset;
+    }
+
+    private function copy(string $source, string $target): void
+    {
+        $directory = dirname($target);
+
+        if (! is_dir($directory)) {
+            mkdir($directory, recursive: true);
+        }
+
+        if (! copy($source, $target)) {
+            throw MediaException::unreadable($source);
+        }
+    }
+
+    /**
+     * A moving image is copied as it is, never encoded.
+     *
+     * GD reads one frame and would hand back a still, so the encoder is the
+     * wrong tool: there is nothing to scale here, only a finished object to
+     * serve. A moving image that is too heavy for a page is a problem to fix in
+     * the file, not in the build — gif2webp turns a 1.5 MB GIF into a 330 KB
+     * animated WebP that looks better than the source, because the source was
+     * dithered down to 256 colours.
+     *
+     * The test is on the file rather than on its extension: an animated WebP
+     * and a still one share one, and a still GIF has every reason to go through
+     * the encoder like any other still.
+     */
+    private function isAnimated(string $path, string $format): bool
+    {
+        if ($format === 'webp') {
+            // RIFF....WEBPVP8X<size:4><flags:1> — the animation bit of the
+            // extended format header, at a fixed offset by the spec.
+            $head = (string) file_get_contents($path, length: 21);
+
+            return strlen($head) === 21
+                && str_starts_with($head, 'RIFF')
+                && substr($head, 8, 8) === 'WEBPVP8X'
+                && (ord($head[20]) & 0x02) !== 0;
+        }
+
+        if ($format === 'gif') {
+            // One Graphic Control Extension per frame, each preceded by the
+            // block terminator of what came before. Counting image descriptors
+            // instead would mean reading compressed data, where the same byte
+            // means something else.
+            return substr_count((string) file_get_contents($path), "\x00\x21\xF9\x04") > 1;
+        }
+
+        return false;
+    }
+
+    /**
+     * The ladder, cut to the original — plus the original itself when the cut
+     * throws away pixels the file already had.
+     *
+     * A 550px source has 320 as its only step, and a column that asks for twice
+     * that gets an upscale of an image which was never that small. Under the top
+     * of the ladder the original is the last useful width, so it becomes the
+     * last variant. Over it, the ladder is already wider than any column on the
+     * site, and a variant at the native width would only weigh more.
+     *
+     * The margin is what keeps a 660px source from being encoded a second time
+     * for three percent: below it, the extra file is not worth its bytes.
+     *
+     * @return int[]
+     */
+    private function widthsFor(int $width): array
+    {
+        $widths = array_values(array_filter(
+            MediaLibrary::WIDTHS,
+            static fn (int $candidate): bool => $candidate <= $width,
+        ));
+
+        // A source narrower than the smallest variant is served as it is.
+        if ($widths === []) {
+            return [$width];
+        }
+
+        $largest = $widths[array_key_last($widths)];
+
+        if ($width < max(MediaLibrary::WIDTHS) && $width >= $largest * self::NATIVE_MARGIN) {
+            $widths[] = $width;
+        }
+
+        return $widths;
+    }
+
+    /** @return array<string, string> asset name => absolute path of the original */
+    private function originals(): array
+    {
+        $root = MediaLibrary::sourcePath();
+
+        if (! is_dir($root)) {
+            return [];
+        }
+
+        $originals = [];
+
+        $iterator = new \RecursiveIteratorIterator(
+            new \RecursiveDirectoryIterator($root, \FilesystemIterator::SKIP_DOTS),
+        );
+
+        foreach ($iterator as $file) {
+            if (! $file->isFile() || ! in_array(strtolower($file->getExtension()), self::EXTENSIONS, true)) {
+                continue;
+            }
+
+            $relative = substr($file->getPathname(), strlen($root) + 1);
+            $originals[$this->nameOf($relative)] = $file->getPathname();
+        }
+
+        ksort($originals);
+
+        return $originals;
+    }
+
+    /** "oeuvres/unlock.jpg" -> "oeuvres/unlock" */
+    private function nameOf(string $relative): string
+    {
+        $directory = pathinfo($relative, PATHINFO_DIRNAME);
+        $filename = pathinfo($relative, PATHINFO_FILENAME);
+
+        return $directory === '.' ? $filename : $directory . '/' . $filename;
+    }
+
+    private function variantPath(string $name, int $width): string
+    {
+        return root_path('public', 'media', sprintf('%s-%d.webp', $name, $width));
+    }
+
+    private function verbatimPath(string $name, string $format): string
+    {
+        return root_path('public', 'media', sprintf('%s.%s', $name, $format));
+    }
+
+    private function variantsExist(MediaAsset $asset): bool
+    {
+        if ($asset->animated) {
+            return is_file($this->verbatimPath($asset->name, $asset->format));
+        }
+
+        foreach ($asset->widths as $width) {
+            if (! is_file($this->variantPath($asset->name, $width))) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    /** @return array<string, MediaAsset> */
+    private function manifest(): array
+    {
+        $path = MediaLibrary::manifestPath();
+
+        if (! is_file($path)) {
+            return [];
+        }
+
+        $entries = json_decode((string) file_get_contents($path), associative: true);
+        $assets = [];
+
+        foreach (is_array($entries) ? $entries : [] as $name => $entry) {
+            $assets[$name] = MediaAsset::fromArray((string) $name, $entry);
+        }
+
+        return $assets;
+    }
+
+    /** @param array<string, MediaAsset> $assets */
+    private function write(array $assets): void
+    {
+        $entries = [];
+
+        foreach ($assets as $name => $asset) {
+            $entries[$name] = $asset->toArray();
+        }
+
+        $path = MediaLibrary::manifestPath();
+
+        if (! is_dir(dirname($path))) {
+            mkdir(dirname($path), recursive: true);
+        }
+
+        file_put_contents($path, json_encode($entries, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n");
+    }
+}

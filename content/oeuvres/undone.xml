@@ -1,0 +1,62 @@
+<oeuvre id="undone" statut="en-ligne">
+  <titre>Undone</titre>
+  <annee>2019</annee>
+  <par>Kate Purdy</par>
+  <par>Raphael Bob-Waksberg</par>
+  <url>https://www.primevideo.com/detail/0U47EJ6SN8CVR3C4MK2W17EDL2</url>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-parallele"/>
+
+  <resume>Alma survit à un accident de voiture et se met à voir son père mort, qui lui demande d'élucider sa propre mort. Elle apprend à se déplacer dans le temps — ou elle décompense, comme sa grand-mère avant elle. La série refuse de trancher, et la rotoscopie fait que rien, jamais, ne signale le passage d'un régime de réalité à l'autre.</resume>
+
+  <visuel src="undone.jpg"
+          alt="Dessin : deux yeux et une main écartent une étoffe bleu nuit constellée d'étoiles, comme on ouvrirait un rideau."
+          credit="Prime Video"
+          source="https://www.primevideo.com/detail/0U47EJ6SN8CVR3C4MK2W17EDL2"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **La technique interdit de trancher.** Des acteurs filmés puis redessinés
+      image par image : le monde ordinaire et la vision ont exactement la même
+      texture. Aucun filtre bleuté, aucun flou, aucune musique qui prévient. Le
+      spectateur n'a pas d'indice extérieur — il n'a que ce qu'Alma croit, et
+      c'est précisément le sujet.
+
+      **Le récit non fiable est porté par la forme.** La plupart des œuvres à
+      narrateur douteux finissent par livrer la clé. Celle-ci tient les deux
+      lectures ouvertes jusqu'au bout, en donnant à chacune les mêmes moyens
+      visuels. Même problème que [[before-your-eyes|Before Your Eyes]], résolu
+      autrement : là c'est le geste qui trahit le montage, ici c'est le dessin qui
+      refuse de le faire.
+
+      **Le temps devient un espace praticable.** Alma revient dans une scène déjà
+      vue et s'y déplace, la regarde d'un autre endroit, y parle à quelqu'un qui
+      ne l'entendait pas. Plusieurs versions du même moment cohabitent — voir
+      [[structure-parallele]] — sans qu'aucune ne soit désignée comme la vraie.
+
+      **Le handicap et la maladie mentale ne sont pas des métaphores.** La
+      question « don ou psychose » est aussi une question de famille, de
+      diagnostic et de honte, traitée sans que la réponse serve de chute. C'est
+      rare, et ça change la nature de l'ambiguïté : elle coûte quelque chose à
+      quelqu'un.
+    </markdown>
+
+    <video src="youtube:6uWCNHQgfnc"
+           caption="La bande-annonce de la première saison, publiée par Prime Video."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      La rotoscopie a un coût qui la met hors de portée : une saison de huit
+      épisodes de vingt-cinq minutes a demandé plus de cent mille images dessinées
+      à la main. Comme référence de forme, c'est utile ; comme modèle de
+      production, non.
+
+      La seconde saison résout une partie de l'ambiguïté, et perd du même coup ce
+      qui faisait tenir la première. La leçon est là aussi : une œuvre qui repose
+      sur un doute a intérêt à s'arrêter avant de le lever.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

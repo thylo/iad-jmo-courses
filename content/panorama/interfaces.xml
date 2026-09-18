@@ -1,0 +1,44 @@
+<page id="interfaces">
+  <titre>Interfaces narratives</titre>
+  <resume>Le découpage par la forme concrète que ça prend à l'écran : une carte, une frise, un écran partagé, un scroll, un plateau. Le plus utile quand on passe à la fabrication.</resume>
+
+  <markdown>
+    Les autres découpages parlent d'intentions. Celui-ci parle de ce qu'on voit et de
+    ce qu'on touche : une carte qu'on parcourt, une frise qu'on remonte, deux images
+    côte à côte, un scroll qui avance le récit, un plateau posé sur une table.
+
+    C'est le plus concret de tous, et c'est pour ça qu'il est le plus utile au
+    moment de fabriquer. Chaque interface est un patron déjà résolu par d'autres :
+    quelqu'un a déjà réglé comment on zoome sur une carte sans perdre le fil, comment
+    une frise reste lisible sur un téléphone. Il n'y a pas à réinventer ça pour
+    raconter une histoire.
+  </markdown>
+
+  <section title="Le piège">
+    <markdown>
+      Choisir l'interface d'abord et chercher ensuite une histoire qui rentre dedans.
+
+      Ça arrive constamment, et le résultat se reconnaît de loin : une carte
+      interactive dont les points auraient tenu dans une liste, une frise du temps
+      pour un récit qui n'a pas de chronologie. La forme est bien exécutée et elle ne
+      sert rien.
+
+      La question à se poser à chaque fois : *qu'est-ce que cette interface fait que
+      du texte ne ferait pas ?* Si la réponse est « c'est plus joli », ce n'est pas
+      une réponse. Une carte se justifie quand la distance compte. Une frise, quand
+      l'écart entre deux dates est l'information. Un écran partagé, quand la
+      simultanéité est le sujet. C'est tout [Gaza / Sderot](/oeuvres/gaza-sderot).
+    </markdown>
+  </section>
+
+  <section title="Ce qu'il cache">
+    <markdown>
+      Presque tout le reste. Deux œuvres peuvent partager une interface au pixel près
+      et ne rien avoir en commun : le point &amp; click sert aussi bien une enquête
+      qu'un poème. L'interface est la dernière décision, pas la première, même si
+      c'est la seule qu'on voit.
+    </markdown>
+  </section>
+
+  <grid of="concept" where="genre = interface"/>
+</page>

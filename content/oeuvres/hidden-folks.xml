@@ -1,0 +1,49 @@
+<oeuvre id="hidden-folks" statut="en-ligne">
+  <titre>Hidden Folks</titre>
+  <annee>2017</annee>
+  <par>Adriaan de Jongh</par>
+  <par>Sylvain Tegroeg</par>
+  <url>https://hiddenfolks.com/</url>
+  <categorie>Jeu</categorie>
+
+  <resume>Un livre d'objets cachés devenu machine. Trente-deux paysages dessinés à la main, au trait noir, plus de trois cents cibles à trouver, et un décor qui répond : on écarte les pans de tente, on coupe les buissons, on claque les portes. Tous les sons du jeu sont faits à la bouche par ses auteurs. Février 2017.</resume>
+
+  <visuel src="hidden-folks.jpg"
+          source="https://hiddenfolks.com/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **La transposition va dans l'autre sens.** L'objet de départ est un livre :
+      le *Wimmelbuch*, la double page saturée où l'on cherche un personnage. Le
+      passage à l'écran n'ajoute ni texte ni caméra : il rend l'image manipulable.
+      Ce qui était à regarder devient à fouiller. C'est le trajet inverse de
+      [[micromacro-crime-city|MicroMacro]], et la même leçon.
+
+      **L'ajout est une seule chose, faite partout.** Le décor réagit au toucher,
+      sans exception. Pas de menu, pas de tutoriel, pas de récompense : la règle
+      tient en un geste, et elle est vraie sur les trente-deux scènes. C'est ce que
+      veut dire tenir une idée jusqu'au bout.
+
+      **Le son fait à la bouche est un choix de production, et il fait le style.**
+      Plus de deux mille bruitages criés par les auteurs. Zéro budget son, une
+      identité immédiatement reconnaissable, et un retour clair à chaque
+      manipulation. À montrer à qui pense qu'un projet a besoin de moyens pour
+      avoir une voix.
+    </markdown>
+
+    <video src="youtube:kYw_tw__7ow"
+           caption="La bande-annonce officielle, publiée par Adriaan de Jongh."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Il n'y a pas de récit, et le jeu ne prétend pas le contraire. Aucun
+      personnage n'a d'intention, rien ne se passe : on cherche, on trouve, on
+      passe. C'est un dispositif, très bien tenu, pas une narration. Utile à
+      garder en tête avant de plaquer une histoire sur une mécanique qui n'en
+      demande pas.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

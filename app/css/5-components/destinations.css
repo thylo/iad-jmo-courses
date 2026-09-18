@@ -1,0 +1,185 @@
+/* The index of destinations — what <destinations> renders.
+
+   Its own component rather than a block of home.css, because the tag is now
+   content vocabulary: any page may state where it sends you. home.css used to
+   reach for `> section ul` and hope the only list in the reading was this one.
+   The tag ended that, so the selector can name what it styles.
+
+   Doors with no order between them: nothing here is counted, ranked or read in
+   a sequence. There is no number in the markup and none drawn in the margin —
+   a number is an assertion, and that one would be false. What ranks the entries
+   is that they start on the same line.
+
+   What is left all has a job: the name, what you find there, and the arrow.
+   The arrow shows at rest, not on hover — it is the thing that says "this
+   leads somewhere" before the pointer has been anywhere, which a title set in
+   mincho does not say on its own.
+
+   --- The rhythm ---------------------------------------------------------
+   The two columns share one line box, 1 unit, so the height of an entry is
+   the number of lines in its description — 2 or 3 units, never a value in
+   between. They align to the TOP rather than to the baseline: aligning
+   baselines would make the row height depend on the metrics of two different
+   families, and it would stop being a multiple of anything. It is the one
+   place where the rhythm outranks the finer typographic move.
+
+   Nothing separates the entries but space, and the step that OPENS the index
+   is a rank above the step that separates them — 42 against 28. A rank cannot
+   open a group if it does not beat the rank that divides that group: the same
+   gap for "this begins" and "this continues" says neither.
+
+   Which rank depends on what stands above the index. The default is an index
+   introduced by a heading still in the reading: the heading opens at 56, so
+   the index has to open below that, and its entries below that again — 56, 42,
+   28, one step down per level of nesting. The homepage is the exception and
+   states it in home.css: there the heading has left the column for the margin,
+   the index is the top of the flow, and it opens at 84 over entries at 42.
+
+   Same reason for the type. A door NAME is the h3 step, one below the h2 that
+   owns it, because that is what it is — the h2 names the group, the door names
+   one thing inside it. Both are set in the display face, so if they also share
+   a size there is nothing left to tell them apart. On the homepage the door
+   goes back up to the lead step, for the same reason it gets more space: the
+   heading is a label in the margin, not a line above it. */
+
+/* One class, and it beats the owl on the reading: canvas.css keeps that at one
+   class of specificity and comes first in the cascade. */
+.c-destinations {
+  max-width: none;
+  margin-block-start: var(--space-l);   /* 42 — under the 56 that opens the section */
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.c-destinations__entry + .c-destinations__entry {
+  margin-block-start: var(--space-m);   /* 28 — under the 42 that opens the index */
+}
+
+/* The whole entry is the target, description included. It takes the columns
+   the page already has — the name on the measure, what you find there in the
+   field — rather than inventing any of its own. The margin stays what it is
+   everywhere else on the site, the column of section headings and notes; the
+   index has nothing to put there, so it does not go there. */
+.c-destinations__link {
+  display: grid;
+  grid-template-columns:
+    minmax(0, var(--measure-text))
+    var(--space-xl)
+    minmax(0, 1fr);
+  align-items: start;
+  color: inherit;
+  text-decoration: none;
+}
+
+.c-destinations__name {
+  display: flex;
+  align-items: center;
+  gap: var(--space-s);
+  font-family: var(--font-display);
+  font-size: var(--text-title);
+  line-height: var(--space-unit);
+  color: var(--color-ink);
+}
+
+/* 20px inside a 28px line box: the arrow adds nothing to the height. */
+.c-destinations__arrow {
+  flex: none;
+  color: var(--color-ink-faint);
+  transition: transform 0.15s ease, color 0.15s ease;
+}
+
+.c-destinations__description {
+  grid-column: 3;
+  font-size: var(--text-body);
+  line-height: var(--space-unit);
+  color: var(--color-ink-muted);
+}
+
+.c-destinations__link:hover .c-destinations__name,
+.c-destinations__link:focus-visible .c-destinations__name { color: var(--color-accent); }
+
+.c-destinations__link:hover .c-destinations__label,
+.c-destinations__link:focus-visible .c-destinations__label { text-decoration-line: underline; }
+
+.c-destinations__link:hover .c-destinations__arrow,
+.c-destinations__link:focus-visible .c-destinations__arrow {
+  color: var(--color-accent);
+  transform: translateX(0.25rem);
+}
+
+/* A destination whose target does not exist yet. Said plainly, like every
+   other unresolved link on the site: it keeps its place in the index rather
+   than disappearing from it, and content:check reports it. */
+.c-destinations__link.c-missing-link .c-destinations__name { color: var(--color-ink-faint); }
+.c-destinations__link.c-missing-link .c-destinations__label { text-decoration-style: dotted; }
+
+/* --- One door, and below the fold ---------------------------------------
+   The same layout, reached two ways. The columns are a rhythm and a rhythm
+   needs a repeat: a single door laid on the grid is a table that lost its
+   other rows, with a name on the left and a paragraph stranded away to the
+   right lining up with nothing. Below the fold the field is gone and there is
+   no second column to line up with in the first place.
+
+   Either way the description moves under the name, a half step down. What
+   makes an entry a door is the name, the arrow and the gap — none of that
+   lives in the columns, so none of it is lost.
+
+   And it takes the measure with it. In the columns the description was held by
+   a track; under the name it has nothing holding it, and .c-destinations sets
+   max-width: none on the whole index, so a description left to itself ran the
+   full width of the reading — 126 signs to the line against 73 in the prose
+   underneath. A description is a sentence like any other and reads on the same
+   measure as the rest of the page.
+
+   Only the single door needs saying. Below the fold the one column is already
+   narrower than the measure everywhere a phone exists, so the cap would never
+   be the thing doing the work.
+
+   The description has to be blockified for either value to exist at all. It is
+   a <span>, and in the columns it was a grid item, which made it a block
+   without anyone asking; the moment the link goes back to display: block it
+   falls back to being an inline box, where max-width and margin-block-start
+   are both simply ignored. The half step below was never applied either — what
+   looked like one was the line box. */
+.c-destinations--single .c-destinations__link { display: block; }
+
+.c-destinations--single .c-destinations__description {
+  display: block;
+  margin-block-start: var(--space-s);   /* 14 */
+  max-width: var(--measure-text);
+}
+
+/* Below the fold, the same two declarations for the same reason. */
+@media (max-width: 47.999em) {
+  .c-destinations__link { display: block; }
+
+  .c-destinations__description {
+    display: block;
+    margin-block-start: var(--space-s);   /* 14 */
+  }
+}
+
+/* --- The way in ---------------------------------------------------------
+   An index that is not one group among the others but the door the page wants
+   you to take first — what rank="lead" asks for.
+
+   Only the type changes, and that is the whole move. The door name leaves the
+   h3 step for the lead step, so it outranks every other door on the page and
+   ties with the headings that name the groups below — which is honest, because
+   that is what it is: not an entry inside a group, but a group of one.
+
+   The two are still told apart by the family. A section heading is body copy;
+   a door name is set in the display face, and mincho at 24px next to gothic at
+   24px is not the same weight on the page.
+
+   Nothing else moves. The opening step stays at 42, because what stands above
+   this index is the prose that introduces it — the same relation as anywhere
+   else on the page — and 84 there would tear the door away from the sentence
+   that explains it. Prominence is what the door is set in, not how far it
+   floats from its own introduction. The homepage buys the extra space with the
+   heading it sent out to the margin; a page that keeps its heading in the
+   reading has not paid for it. */
+
+.c-destinations--lead .c-destinations__name {
+  font-size: var(--text-lead);
+}

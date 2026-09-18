@@ -1,0 +1,52 @@
+<oeuvre id="do-not-track" statut="en-ligne">
+  <titre>Do Not Track</titre>
+  <annee>2015</annee>
+  <par>Brett Gaylor</par>
+  <par ref="upian"/>
+  <par ref="arte"/>
+  <par ref="onf"/>
+  <par>BR</par>
+  <url>https://donottrack-doc.com/fr/</url>
+  <categorie>Documentaire</categorie>
+  <concept ref="structure-elastique"/>
+  <concept ref="role-soi-meme"/>
+  <concept ref="interface-scrollable"/>
+
+  <resume>Une série documentaire en sept épisodes sur le pistage en ligne, publiée de mars à juin 2015. Chaque épisode demande quelque chose : l'adresse du site où l'on va d'habitude, la permission de lire les cookies déjà posés, le compte Facebook, la localisation. Le film se remonte ensuite avec ces éléments-là, et raconte au spectateur ce qu'il vient de livrer.</resume>
+
+  <visuel src="do-not-track.jpg"
+          source="https://donottrack-doc.com/fr/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **La démonstration se fait sur le spectateur.** Le film ne dit pas ce que le
+      pistage permet de déduire : il le déduit, sur place, à partir de ce que la
+      personne devant l'écran vient d'accepter. Aucun exposé n'atteint ce niveau de
+      preuve, parce que la preuve est le spectateur lui-même. C'est le cas d'école
+      de [[role-soi-meme]] en documentaire.
+
+      **Le consentement est demandé épisode par épisode.** On peut refuser, et le
+      film continue en le disant. Ce refus possible est ce qui distingue la
+      démonstration du piège : l'œuvre ne fait à personne ce qu'elle reproche aux
+      plateformes de faire sans demander.
+
+      **La forme est celle de son sujet.** Une page qui défile, du texte, des
+      scripts — exactement le matériau dont elle parle. Voir
+      [[interface-scrollable]].
+    </markdown>
+
+    <video src="youtube:7n1nMh8q0CM"
+           caption="La bande-annonce de la série."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Onze ans plus tard, les services que le film interroge ont changé : certaines
+      connexions ne fonctionnent plus, et une partie de la démonstration tourne à
+      vide. Une œuvre qui se branche sur des plateformes vieillit à leur rythme, pas
+      au sien.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

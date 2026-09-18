@@ -1,0 +1,16 @@
+<page id="personnes">
+  <titre>Personnes et studios</titre>
+  <parent ref="oeuvres"/>
+  <resume>Celles et ceux dont on regarde le travail en cours.</resume>
+
+  <markdown>
+    Une page par créateur ou collectif cité plusieurs fois. Les œuvres déclarent
+    qui les a faites ; ces pages lisent la relation dans l'autre sens et n'ont
+    donc rien à tenir à jour.
+
+    Les créateurs cités une seule fois restent en texte dans leur fiche. Ils
+    deviendront des pages le jour où il y aura quelque chose à en dire.
+  </markdown>
+
+  <grid of="personne"/>
+</page>

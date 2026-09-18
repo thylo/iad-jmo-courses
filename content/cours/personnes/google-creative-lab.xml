@@ -1,0 +1,9 @@
+<personne id="google-creative-lab" genre="studio">
+  <titre>Google Creative Lab</titre>
+
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
+  </section>
+
+  <backlinks/>
+</personne>

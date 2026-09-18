@@ -1,0 +1,97 @@
+<oeuvre id="city-strip-tournai" statut="en-ligne">
+  <titre>CityStrip Tournai</titre>
+  <annee>2022</annee>
+  <par ref="tiny-big-story"/>
+  <url>https://www.visittournai.be/agenda/citystrip/</url>
+  <categorie>Urbain</categorie>
+  <categorie>Jeu</categorie>
+  <concept ref="interface-maps"/>
+  <concept ref="role-soi-meme"/>
+
+  <resume>Un parcours de ville sur téléphone, dans une ville de bande dessinée. On marche jusqu'à un lieu de Tournai, le téléphone déverrouille une planche dessinée où le patrimoine réel est découpé en cases, et il faut résoudre l'énigme sur place pour repartir. Trois formats — quarante-cinq minutes, une heure quinze, deux heures. Gratuit, produit par Tiny Big Story pour la Maison du Tourisme de la Wallonie picarde et Ideta, sur fonds FEDER.</resume>
+
+  <visuel src="city-strip-tournai.jpg"
+          source="https://www.visittournai.be/agenda/citystrip/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **La ville est la seule source de la réponse.** L'énigme ne peut pas se
+      résoudre depuis le canapé : il faut lever les yeux vers la statue, compter les
+      fenêtres, trouver la fausse porte. C'est ce qui distingue un parcours d'un
+      questionnaire à choix multiples posé sur une carte, et très peu d'applications
+      touristiques tiennent cette ligne.
+
+      **Le décor est en photographie, la mise en scène en dessin.** Les cases sont
+      montées à partir de vraies vues de Tournai, découpées, inclinées, remplies de
+      bulles. Le lieu qu'on a sous les yeux et l'image qu'on tient dans la main sont
+      la même chose, une fois passée à la moulinette du trait. Un guide illustré
+      aurait mis un dessin ; ici on garde la photo et on lui met une bulle.
+    </markdown>
+
+    <image src="city-strip-tournai-grand-place.jpg"
+           width="field"
+           alt="Case en écran large : sur un ciel de nuages dessinés, le portrait peint de Louis XIV flotte dans un halo doré au-dessus d'une photographie détourée de la Grand-Place de Tournai — un long bâtiment classique à gauche, l'église Saint-Quentin à droite. En bas à gauche, un personnage dessiné en imperméable et lunettes noires."
+           caption="Le portrait du roi flotte au-dessus de la place qu'on a sous les yeux. Photographie détourée, bulle dessinée, personnage ajouté."
+           credit="Tiny Big Story"/>
+
+    <markdown>
+      **La bande dessinée n'est pas un habillage.** Tournai est une ville de bande
+      dessinée, et l'application s'en sert comme d'un matériau plutôt que d'un
+      thème : une énigme demande de reconstituer une phrase à partir de bulles
+      découpées dans des albums réels — Blacksad, Rahan, Marmelade — chaque case
+      créditée à son auteur. La forme de l'objet et le patrimoine dont il parle sont
+      la même chose.
+    </markdown>
+
+    <image src="city-strip-tournai-planche.jpg"
+           width="field"
+           alt="Écran de téléphone : en haut, une bulle rassemble des cases empruntées à des albums de bande dessinée, chacune créditée — Louis Vanardois pour Marmelade, Juanjo Guarnido pour Blacksad, André Chéret pour Rahan — dont les phylactères ne portent que des fragments : « UR. », « OY ? », « NE ! ». En dessous, une photographie de la statue de Christine de Lalaing et deux autres planches de bulles. Une rangée de cinq boutons rouges marqués -5, -10, -20, -50 et -100 PTS."
+           caption="La phrase est éparpillée dans des cases d'albums existants. Les cinq boutons en bas sont les indices : chacun coûte des points."
+           credit="Tiny Big Story"/>
+
+    <markdown>
+      **Un indice a un prix affiché.** Cinq boutons, de moins cinq à moins cent
+      points. Rien n'est bloqué, tout est facturé : c'est la façon la plus simple de
+      laisser passer un joueur coincé sans faire semblant qu'il a trouvé. À retenir
+      pour n'importe quel dispositif qui doit rester jouable par un enfant et par un
+      adulte.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      **Le GPS décide, et il se trompe.** L'application refuse d'ouvrir l'étape tant
+      qu'elle ne vous croit pas arrivé. Sur place, à trois mètres de la fausse porte
+      de la cathédrale, elle répond « tu n'y es pas encore » — et la boussole du menu
+      annonce sereinement que la cathédrale est à quatre-vingt-douze kilomètres.
+      Entre les murs de pierre et les rues étroites d'un centre médiéval, la
+      localisation dérive exactement là où le parcours se joue.
+
+      Les auteurs le savent : il existe un bouton « si si j'y suis », caché derrière
+      un point d'interrogation. C'est la bonne décision — un dispositif qui dépend
+      d'un capteur doit prévoir que le capteur ait tort — mais il faut le trouver, et
+      un groupe qui ne le trouve pas s'arrête là.
+    </markdown>
+
+    <image src="city-strip-tournai-gps.jpg"
+           width="field"
+           alt="Écran de téléphone titré « La fausse porte de la cathédrale ». Sous le titre, une photographie inclinée d'un mur de pierre et d'un pavage, marquée d'un repère rouge à point d'interrogation et d'un gros jeton de bronze. En dessous, en capitales : « Tu n'y es pas encore ! ». En bas à droite, un bouton rouge « si si j'y suis » portant un petit triangle SOS."
+           caption="Le refus, et l'échappatoire. Le bouton « si si j'y suis » est la seule raison pour laquelle le parcours se termine."
+           credit="Tiny Big Story"/>
+
+    <image src="city-strip-tournai-boussole.jpg"
+           width="field"
+           alt="Écran de menu : « Score : 1078 pts », puis un encadré « Prochaine étape — La cathédrale et sa rosace » suivi de la mention « 92 km » répétée en gros. En dessous, une grande boussole dessinée dont la flèche rouge pointe vers l'ouest."
+           caption="Quatre-vingt-douze kilomètres, depuis la Grand-Place de Tournai."
+           credit="Tiny Big Story"/>
+
+    <markdown>
+      Et l'application est le seul support. Rien n'est imprimé, rien ne se rejoue :
+      le jour où elle quitte les boutiques ou cesse d'être compatible, le parcours
+      n'existe plus, alors que les lieux, eux, seront toujours là. Un plan papier
+      aurait survécu au téléphone.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

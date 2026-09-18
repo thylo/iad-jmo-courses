@@ -1,0 +1,48 @@
+<oeuvre id="lusion" statut="en-ligne">
+  <titre>Lusion</titre>
+  <annee>2017</annee>
+  <par>Edan Kwan</par>
+  <par>Lusion</par>
+  <url>https://lusion.co/</url>
+  <categorie>Interface</categorie>
+  <concept ref="interface-3d"/>
+
+  <resume>Le site d'un studio de Bristol, qui est aussi la démonstration de ce que le studio sait faire. Tout est rendu en temps réel dans le navigateur : des milliers de particules qui répondent au curseur, une navigation par le défilement, des transitions sans coupure entre les pages. Fondé par Edan Kwan en 2017, primé site de l'année par Awwwards, FWA et CSSDA.</resume>
+
+  <visuel src="lusion.jpg"
+          source="https://lusion.co/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le portfolio est le travail.** Pas de captures d'écran d'anciens projets
+      alignées sur une grille : le site fait la chose. C'est la forme la plus
+      honnête de démonstration, et elle est à la portée de n'importe qui montre
+      son travail, y compris un étudiant à la fin de son année.
+
+      **Le rendu temps réel n'est pas réservé aux moteurs de jeu.** WebGL, dans un
+      onglet, sans installation. Ce que ça coûte : des semaines de travail sur le
+      détail du mouvement, pas une licence.
+
+      **Le mouvement est réglé, pas décoré.** Chaque réaction au curseur a une
+      inertie, un délai, un amortissement choisis. C'est ce réglage, invisible
+      quand il est bon, qui sépare une animation qui donne envie de continuer
+      d'une animation qui donne le tournis.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Il n'y a pas de récit. C'est une vitrine, aussi belle soit-elle, et le
+      commanditaire final est une marque : Porsche, Coca-Cola, Google. À citer
+      comme démonstration technique, pas comme œuvre narrative : la question
+      « est-ce que cette interaction sert le propos ? » n'a pas vraiment de
+      réponse ici, parce qu'il n'y a pas de propos.
+
+      Et ça coûte cher à faire tourner. Une carte graphique modeste, une batterie
+      de portable, une connexion lente : l'expérience se dégrade vite. C'est le
+      versant impensé de ce genre de site.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

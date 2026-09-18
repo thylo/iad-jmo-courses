@@ -1,0 +1,32 @@
+<?php
+
+declare(strict_types=1);
+
+namespace App\View;
+
+use Tempest\View\ViewRenderer;
+
+use function Tempest\root_path;
+use function Tempest\View\view;
+
+/**
+ * The one door between the content layer and a template.
+ *
+ * The tree walk composes strings and cannot be a view component itself —
+ * Tempest expands components at compile time, so a component that renders
+ * itself never terminates, which is what NodeRenderer explains. But nothing in
+ * PHP writes a tag: a renderer answers what it wants shown, and a .view.php
+ * file decides what that looks like.
+ */
+final readonly class Component
+{
+    public function __construct(
+        private ViewRenderer $renderer,
+    ) {}
+
+    /** @param mixed ...$data the view data, by name, as the template declares it */
+    public function render(string $name, mixed ...$data): string
+    {
+        return $this->renderer->render(view(root_path('views', $name . '.view.php'), ...$data));
+    }
+}

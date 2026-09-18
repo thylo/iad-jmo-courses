@@ -1,0 +1,108 @@
+<concept id="interface-point-click">
+  <titre>Le point &amp; click</titre>
+  <genre>interface</genre>
+  <exemple ref="jeu-d-influences"/>
+  <exemple ref="backstories"/>
+  <exemple ref="late-shift"/>
+  <voir ref="structure-embranchements"/>
+  <voir ref="structure-a-etat"/>
+  <voir ref="choix-rationnel"/>
+
+  <resume>On désigne, il se passe quelque chose. La plus ancienne interface narrative de l'écran, et celle qui pardonne le moins : ce qu'on ne peut pas cliquer n'existe pas.</resume>
+
+  <section title="Définition">
+    <markdown>
+      L'écran présente des choses désignables — un objet, un personnage, une réplique,
+      une porte — et le récit répond. Rien de plus. Le vocabulaire tient en deux
+      gestes : montrer, et attendre.
+
+      Sa force est d'être immédiatement comprise : personne n'a besoin qu'on lui
+      explique qu'on clique sur ce qui est en évidence. Sa faiblesse est le revers
+      exact : **le public ne peut vouloir que ce qui a été rendu cliquable.**
+      L'interface définit le monde possible.
+    </markdown>
+  </section>
+
+  <section title="Schéma">
+    <markdown>
+      ```
+      Ce que le point &amp; click garde en mémoire, c'est une table :
+
+                    │ la porte │ le carnet │ le témoin
+          ──────────┼──────────┼───────────┼──────────
+          REGARDER  │ fermée   │ une date  │ il pleure
+          OUVRIR    │ verrouil.│ page 4    │  —
+          PARLER    │  —       │  —        │ « je n'ai
+                    │          │           │  rien vu »
+
+      Chaque case est une réponse à écrire. Trois verbes et trois cibles
+      font neuf cases ; quatre et quatre en font seize.
+      ```
+    </markdown>
+  </section>
+
+  <section title="Trois usages">
+    <markdown>
+      **Désigner une réponse.** [[late-shift]] filme un thriller et fait choisir des
+      répliques en temps limité, sans que l'image s'arrête. Le clic n'est pas une
+      exploration, c'est une prise de parole sous contrainte — la version la plus
+      cinématographique du genre, et celle qui montre le mieux ses coutures quand on
+      compte les fins.
+
+      **Désigner une position.** [[jeu-d-influences]] fait accepter ou refuser les
+      conseils d'un communicant de crise. Deux boutons, rien de plus. Ce qui se
+      construit clic après clic n'est pas un chemin dans une arborescence, c'est un
+      portrait de celui qui clique.
+
+      **Désigner sans écran.** [[backstories]] est la démonstration à connaître : une
+      carte Action perforée qu'on pose sur une carte Lieu, et la fenêtre découpée
+      donne la conséquence. Choisir un verbe, désigner une cible, lire la réponse. La
+      table du schéma ci-dessus y est littéralement imprimée. Le geste physique **est**
+      la requête, donc rien n'est à ressaisir.
+    </markdown>
+  </section>
+
+  <section title="Ce que ça coûte">
+    <markdown>
+      La combinatoire, et elle arrive vite. Ajouter un verbe multiplie le travail par
+      le nombre de cibles ; ajouter une cible le multiplie par le nombre de verbes.
+      C'est la même explosion que dans un [[structure-embranchements|arbre]], à ceci
+      près qu'ici elle est invisible : on croit ajouter un objet, on ajoute une
+      colonne.
+
+      La parade est la même : mettre la mémoire dans des faits plutôt que dans des
+      cases. Une [[structure-a-etat|structure à état]] laisse le même objet répondre
+      différemment selon ce qui s'est déjà passé, au lieu de multiplier les objets.
+    </markdown>
+  </section>
+
+  <section title="Erreurs courantes">
+    <markdown>
+      - Le *pixel hunting* : cacher ce qu'il faut cliquer. Ce n'est pas de la
+        difficulté, c'est de l'attente
+      - Répondre « il ne se passe rien » aux trois quarts des clics. Chaque désignation
+        sans réponse enseigne au public de ne plus rien désigner
+      - Rendre cliquable ce qui ne sert pas, et laisser inerte ce que le décor met en
+        évidence. Le regard suit la composition, pas le plan de l'auteur
+      - Oublier le tactile : sur téléphone il n'y a pas de survol, donc aucun moyen de
+        découvrir ce qui répond avant d'appuyer
+    </markdown>
+  </section>
+
+  <section title="En pratique">
+    <markdown>
+      **Trois cibles par écran.** Pas dix. Chacune doit répondre quelque chose, même
+      brièvement, et surtout quand ce n'est pas la bonne.
+
+      **La table avant l'écran.** Verbes en lignes, cibles en colonnes, réponses dans
+      les cases. Le compte de ce qu'il reste à écrire est immédiat, et la coupe se
+      fait avant d'avoir dessiné.
+
+      **La réponse inutile est une récompense.** Dans les bons point &amp; click,
+      cliquer sur ce qui ne sert à rien reste drôle. C'est ce qui donne envie de tout
+      essayer.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

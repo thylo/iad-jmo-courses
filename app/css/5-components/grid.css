@@ -1,0 +1,165 @@
+/* The derived index — what <grid of="…"/> renders.
+
+   The whole block, not just the list: a long index also carries a search field
+   and a count, and the three are one component because they are one tag.
+
+   Two shapes, and the source decides neither. GridElement counts the entries,
+   and past a couple of screenfuls the index takes the search field and the
+   full width of the page — see LONG_INDEX there for why the count decides
+   rather than an attribute written on the tag.
+
+   --- Why the block is a <nav> --------------------------------------------
+   Because it is one — a list whose whole purpose is to send you elsewhere —
+   and because canvas.css already knows what a <nav> is: it caps the children
+   of one at the measure, which is exactly what the search field and the count
+   want, while the list itself stays in the exception. */
+
+.c-grid {
+  /* The reading caps its blocks at the measure. This one holds the list, so
+     it says otherwise for itself — the :where() in canvas.css is there to be
+     overridden by a component that has something to say. */
+  max-width: none;
+}
+
+/* The long index leaves the reading and takes the page: one column further
+   left, where the title and the masthead start. Nothing else moves — the
+   margin is empty beside an index, and 141 works in five columns is a
+   different object from 141 works in three. */
+.c-grid--wide {
+  margin-inline-start: calc(-1 * var(--sidebar-width));
+}
+
+/* Below the fold of the second column there is no margin to take. */
+@media (max-width: 47.999em) {
+  .c-grid--wide { margin-inline-start: 0; }
+}
+
+/* --- The search field ----------------------------------------------------
+   A grid rather than a flex row, so the drawn rule can span both columns: the
+   line under the field is the same ink as every other rule on the site, and
+   the input carries no border at all. A 1px box around a text field is the
+   machine showing through. */
+
+.c-grid__search {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  column-gap: var(--space-m);
+  max-width: var(--measure-lead);
+}
+
+.c-grid__search::after { grid-column: 1 / -1; }
+
+/* The reset touches no form control, so the field inherits nothing: it is
+   given the page's face, size and line box by hand. The line box is the unit,
+   so a search field weighs exactly one line of prose. */
+.c-grid__field {
+  min-inline-size: 0;
+  border: 0;
+  padding: 0;
+  background: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: var(--text-body);
+  line-height: var(--space-unit);
+}
+
+.c-grid__field::placeholder { color: var(--color-ink-faint); }
+
+/* The outline is the only thing saying where the caret went — the field has no
+   border to light up — so it is set, never removed. */
+.c-grid__field:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+/* A link in everything but name: same ink, same underline, no button chrome. */
+.c-grid__submit {
+  border: 0;
+  padding: 0;
+  background: none;
+  color: var(--color-accent);
+  font-family: inherit;
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25em;
+  cursor: pointer;
+}
+
+.c-grid__submit:hover { color: var(--color-accent-strong); }
+
+.c-grid__submit:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+  text-decoration: none;
+}
+
+/* --- The count -----------------------------------------------------------
+   How many there are, and how many are left after a search. It reads as a
+   caption rather than as a heading: an index announcing "141 œuvres" in body
+   type would be talking about itself. */
+
+.c-grid__count {
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-ink-faint);
+}
+
+.c-grid__reset { margin-inline-start: var(--space-s); }
+
+/* --- The list ------------------------------------------------------------
+   Each line is already a full statement: a title, what it is, who made it. So
+   it takes no bullet, and the step between two entries is bigger than the step
+   between two lines, or the list reads as one block. */
+
+.c-grid__list {
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.c-grid__list > li + li { margin-block-start: var(--space-s); }
+
+.c-grid__empty,
+.c-grid__meta {
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-ink-faint);
+}
+
+/* --- Illustrated ---------------------------------------------------------
+   The works of a section, shown rather than listed. The plain list stays what
+   it was: the columns only arrive once entries carry a thumbnail, so a
+   half-illustrated corpus never renders as a grid of holes. The modifier is
+   decided in views/x-grid.view.php, not written by hand. */
+
+.c-grid__list--thumbnails {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: var(--space-m);
+  margin-block: var(--space-l);
+}
+
+/* The step between entries is the grid gap now, not a margin on the item. */
+.c-grid__list--thumbnails > li + li {
+  margin-block-start: 0;
+}
+
+.c-grid__list--thumbnails img {
+  width: 100%;
+  height: auto;
+  margin-block-end: var(--space-s);
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background-color: var(--color-paper-sunk);
+}
+
+/* An entry with no image keeps its place in the grid rather than closing the
+   gap: the column of titles stays readable while the corpus fills up. */
+.c-grid__list--thumbnails > li {
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+}
+
+.c-grid__list--thumbnails .c-grid__meta { display: block; }

@@ -1,0 +1,41 @@
+/* Print: paper is already paper. */
+
+@media print {
+  :root {
+    --color-paper: #fff;
+    --color-ink: #000;
+    --color-accent: #000;
+  }
+
+  .c-portrait,
+  .c-wobble { display: none; }
+
+  /* A search field on paper is dead ink: nothing can be typed into it, and the
+     count under it already says how long the index is. */
+  .c-grid__search { display: none; }
+
+  /* Browsers drop background paint when printing, and every rule here is a
+     masked background. On paper they go back to being borders. */
+  .c-rule,
+  .c-prose hr,
+  .c-rule-under::after,
+  .c-rule-over::before {
+    block-size: 0;
+    background: none;
+    mask-image: none;
+    -webkit-mask-image: none;
+    border-block-start: 1px solid #000;
+  }
+
+  .c-rule-beside::before {
+    inline-size: 0;
+    background: none;
+    mask-image: none;
+    -webkit-mask-image: none;
+    border-inline-start: 1px solid #000;
+  }
+
+  .c-signature { display: none; }
+
+  a::after { content: " (" attr(href) ")"; font-size: var(--text-meta); }
+}

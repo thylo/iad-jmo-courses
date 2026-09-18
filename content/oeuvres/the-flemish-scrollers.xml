@@ -1,0 +1,49 @@
+<oeuvre id="the-flemish-scrollers" statut="en-ligne">
+  <titre>The Flemish Scrollers</titre>
+  <annee>2021</annee>
+  <par ref="dries-depoorter"/>
+  <url>https://driesdepoorter.be/theflemishscrollers/</url>
+  <categorie>Documentaire</categorie>
+  <categorie>Performance</categorie>
+  <voir ref="the-follower"/>
+  <voir ref="surveillance-speaker"/>
+
+  <resume>Un programme regarde à la place du citoyen. Il ouvre chaque jour la retransmission du Parlement flamand sur YouTube, repère les téléphones à l'image, identifie qui les tient, découpe l'extrait et le publie sur Twitter et Instagram en mentionnant le compte de l'élu. Détection d'objets et reconnaissance faciale sous Keras, découpe vidéo par FFmpeg, le tout en Python. En route depuis le 5 juillet 2021.</resume>
+
+  <visuel src="the-flemish-scrollers.jpg"
+          source="https://driesdepoorter.be/theflemishscrollers/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **L'outil change de camp sans changer de nature.** La reconnaissance faciale
+      qu'on installe dans les gares est ici pointée vers ceux qui votent son
+      installation. Rien n'est modifié techniquement — c'est l'orientation de la
+      caméra qui fait tout le propos, et elle se retourne en quelques lignes de
+      Python.
+
+      **La mention est la sanction.** Le programme ne publie pas un rapport : il
+      étiquette la personne sur son propre compte, devant ses électeurs. Le
+      dispositif emprunte le mécanisme social des plateformes plutôt que d'en
+      fabriquer un, et c'est ce qui le rend efficace sans audience propre.
+
+      **Il tourne tout seul depuis quatre ans.** Aucune curation, aucun choix
+      éditorial quotidien. Une œuvre qui continue de produire pendant que son auteur
+      fait autre chose — un régime rare, et qui pose la question de qui répond de ce
+      qu'elle publie.
+    </markdown>
+
+    <video src="youtube:5YHfK6DBvGE"
+           caption="La démonstration du système par Dries Depoorter."/>
+  </section>
+
+  <section title="Ce qui se discute">
+    <markdown>
+      Un élu en séance n'est pas dans l'espace privé, et c'est ce qui rend le geste
+      défendable. Mais le programme ne fait pas la différence entre consulter un
+      dossier, répondre à un message urgent et jouer : il détecte un objet, pas une
+      conduite. La sanction est automatique et la nuance ne l'est pas.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

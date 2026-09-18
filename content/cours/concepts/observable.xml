@@ -1,0 +1,34 @@
+<concept id="observable">
+  <titre>Observable</titre>
+  <genre>ressource</genre>
+  <voir ref="role-divinite"/>
+  <voir ref="structure-constellation"/>
+
+  <resume>Des carnets où le code s'exécute pendant qu'on écrit, et où bouger un curseur recalcule tout le reste. L'outil de ceux qui racontent avec des données.</resume>
+
+  <section title="Ce que c'est">
+    <markdown>
+      [Observable](https://observablehq.com/), fondé par Mike Bostock, l'auteur de D3.
+      Un carnet est une page faite de cellules : du texte, un graphique, un curseur.
+      Modifiez une cellule et toutes celles qui en dépendent se recalculent seules.
+
+      C'est là qu'une bonne partie de la visualisation de données publique se
+      fabrique, et tout y est lisible : on ouvre le carnet de quelqu'un, on déplace ses
+      curseurs, on lit comment c'est fait.
+    </markdown>
+  </section>
+
+  <section title="Pourquoi c'est ici">
+    <markdown>
+      Parce que c'est l'atelier de la catégorie « manipuler un modèle » du
+      [panorama](/panorama/introduction) : là où le public devient
+      [[role-divinite|une divinité]] qui tourne les boutons au lieu de suivre une
+      histoire.
+
+      Et parce que la réactivité y est visible. Voir une valeur se propager d'une
+      cellule à l'autre est la façon la plus concrète de comprendre ce qu'est un état
+      qui se met à jour — la même idée que dans une
+      [[structure-a-etat|structure à état]], montrée au ralenti.
+    </markdown>
+  </section>
+</concept>

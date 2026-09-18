@@ -1,0 +1,57 @@
+<oeuvre id="twitch-plays-pokemon" statut="archive">
+  <titre>Twitch Plays Pokémon</titre>
+  <annee>2014</annee>
+  <par>Un programmeur australien anonyme</par>
+  <url>https://www.twitch.tv/twitchplayspokemon</url>
+  <categorie>Jeu</categorie>
+  <categorie>Performance</categorie>
+  <concept ref="forme-collaborative"/>
+  <concept ref="forme-sociale"/>
+
+  <resume>Le 12 février 2014, quelqu'un branche le salon de discussion d'un stream sur les commandes d'un jeu Pokémon : tout ce qu'on tape dans le chat appuie sur les boutons. Des dizaines de milliers de personnes pilotent le même personnage en même temps. Plus d'un million de spectateurs uniques, cent vingt-deux millions de messages, des pointes à cent mille commandes par minute. Le jeu est terminé le 1er mars, après seize jours, sept heures et quarante-cinq minutes de jeu ininterrompu.</resume>
+
+  <visuel src="twitch-plays-pokemon.jpg"
+          alt="Capture du flux : à gauche, l'écran de Pokémon Rouge affiche « Red defeated Blue! » ; en haut, le compteur « 16d 7h 45m 33s » et la jauge anarchie-démocratie ; à droite, la colonne du tchat où chaque pseudonyme est suivi d'une touche, a, b ou une flèche"
+          credit="Twitch Plays Pokémon"
+          source="https://www.tubefilter.com/2024/02/14/twitch-plays-pokemon-red-10-years-birthday-anniversary-stream/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le dispositif produit un récit que personne n'a écrit.** Le personnage titube,
+      revient sur ses pas, jette des objets essentiels par accident. Et la foule, pour
+      donner un sens à ce chaos, invente une mythologie : des objets consultés au
+      hasard des dizaines de fois deviennent des oracles, des Pokémon relâchés par
+      erreur deviennent des martyrs. Personne n'a scénarisé ça, et pourtant tout le
+      monde raconte la même histoire.
+
+      **La règle de gouvernance devient la dramaturgie.** Au départ, chaque commande
+      s'applique immédiatement : c'est l'anarchie. Après vingt-quatre heures de blocage
+      sur une énigme, l'auteur ajoute un second mode, où c'est la commande la plus
+      demandée sur trente secondes qui l'emporte. Le public se met alors à voter sur le
+      mode de vote lui-même. **Le seul geste d'auteur de toute l'œuvre est ce
+      changement de règle** — et c'est lui qui produit son moment le plus intense.
+
+      **C'est la [[forme-collaborative|forme collaborative]] à l'état pur.** L'auteur
+      fournit un tuyau et une contrainte, rien d'autre. Il n'a pas vu le contenu avant,
+      il ne peut pas le corriger, et l'œuvre lui échappe entièrement — voir
+      [avec qui le public interagit](/panorama/interlocuteurs).
+    </markdown>
+
+    <video src="youtube:9cHsVq6n5Vs"
+           caption="Le récit complet de l'expérience, par la chaîne Schwam Games."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Ce n'est reproductible qu'une fois. L'intérêt tenait à la nouveauté et à la
+      taille de la foule ; les dizaines d'imitations qui ont suivi n'ont produit que
+      des flux illisibles. Un dispositif d'émergence ne se rejoue pas, il se périme.
+
+      Et il faut le dire : ce qu'on regarde n'est intéressant que sept minutes. Ce qui
+      se raconte ensuite, ce sont les récits que la foule a faits de sa propre partie —
+      c'est-à-dire de la documentation, pas l'œuvre.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

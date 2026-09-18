@@ -1,0 +1,56 @@
+<oeuvre id="alchemists" statut="en-ligne">
+  <titre>Alchemists</titre>
+  <annee>2014</annee>
+  <par>Matúš Kotry</par>
+  <par>Czech Games Edition</par>
+  <url>https://store.czechgames.com/products/alchemists</url>
+  <categorie>Jeu</categorie>
+  <concept ref="structure-a-etat"/>
+  <concept ref="interface-plateau"/>
+
+  <resume>Un jeu de déduction où l'on cherche à établir la composition de huit ingrédients. Au début de la partie, l'application tire au sort quelle molécule correspond à quel ingrédient et n'en dit rien à personne : elle produit un code de quatre lettres, et c'est tout. Ensuite, on mélange deux ingrédients en scannant leurs cartes, et elle annonce la potion obtenue. Personne autour de la table ne connaît la solution.</resume>
+
+  <visuel src="alchemists.jpg"
+          alt="Le matériel du jeu étalé : quatre paravents de joueur ouverts sur leurs grilles de déduction, le plateau central couvert de cartes d'ingrédients, des dés, des jetons et des cubes de couleur"
+          credit="Czech Games Edition"
+          source="https://store.czechgames.com/products/alchemists"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **C'est la meilleure réponse qu'on ait à « qu'est-ce que l'application
+      remplace ? »** Elle ne remplace pas un narrateur, elle ne lit aucun texte, elle
+      ne met rien en scène. Elle tient **une information qu'aucun joueur ne peut
+      détenir sans fausser la partie** : la solution du problème que tout le monde
+      cherche. Avant elle, il fallait sacrifier quelqu'un au rôle d'arbitre, ou
+      accepter que le jeu soit résolu à l'avance.
+
+      **Elle reçoit une décision, pas un compte rendu.** Scanner deux cartes, ce n'est
+      pas ressaisir un geste déjà fait sur la table : c'est l'expérience elle-même,
+      c'est le coup qu'on joue. Le [[interface-plateau|plateau]] reste augmenté et non
+      déporté.
+
+      **Le code de quatre lettres est une jolie idée.** Il permet de reprendre la même
+      partie plus tard, ou de rejouer exactement la même énigme à une autre table, sans
+      que l'application ait à retenir quoi que ce soit. Un état complet tenu dans
+      quatre caractères qu'on note au crayon.
+    </markdown>
+  
+    <video src="youtube:W-t1y6krjrY"
+           caption="La présentation du jeu par Czech Games Edition : le tour de table, puis l'application au moment du mélange."/>
+</section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le compte à rebours est intégral : sans l'application, la boîte est
+      injouable — il n'y a pas de solution imprimée quelque part, par construction.
+      L'éditeur maintient, et le jour où il cesse, le jeu meurt avec ses règles.
+
+      C'est le prix exact du service rendu : plus une application détient
+      d'information indispensable, plus l'objet devient périssable. À comparer avec
+      [[cartaventura]], où l'état du récit
+      est étalé sur la table et se jouera encore dans trente ans.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

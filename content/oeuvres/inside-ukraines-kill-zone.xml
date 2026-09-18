@@ -1,0 +1,126 @@
+<oeuvre id="inside-ukraines-kill-zone" statut="en-ligne">
+  <titre>Inside Ukraine's Kill Zone</titre>
+  <annee>2026</annee>
+  <par>Mariano Zafra</par>
+  <par>Mike Collett-White</par>
+  <par>Tom Balmforth</par>
+  <par>Max Hunder</par>
+  <par>Reuters</par>
+  <url>https://www.reuters.com/graphics/UKRAINE-CRISIS/KILL-ZONE/znpnojmknvl/</url>
+  <categorie>Documentaire</categorie>
+  <concept ref="structure-lineaire"/>
+  <concept ref="interface-scrollable"/>
+  <concept ref="interface-maps"/>
+  <voir ref="how-the-virus-got-out"/>
+  <voir ref="what-the-1921-tulsa-race-massacre-destroyed"/>
+
+  <resume>Publié le 23 juillet 2026. La bande de trente kilomètres qui longe la ligne de
+    contact ukrainienne, là où les drones chassent tout ce qui bouge, dessinée vue du
+    ciel. Le défilement descend le long d'un survol continu : quinze kilomètres en
+    territoire tenu par la Russie, la ligne de contact, quinze kilomètres en territoire
+    ukrainien. Le paysage traversé n'est aucun endroit réel, et la page le dit.</resume>
+
+    <visuel src="inside-ukraines-kill-zone.jpg"
+            alt="Illustration en volume, aux couleurs délavées : un soldat replié dans un trou creusé sous un filet de camouflage, tandis que trois drones survolent un champ d'arbres déchiquetés et de fumées noires"
+            credit="Reuters"
+            source="https://www.reuters.com/graphics/UKRAINE-CRISIS/KILL-ZONE/znpnojmknvl/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **La distance est le récit.** Le survol est gradué : quinze kilomètres derrière
+      les lignes russes, zéro, quinze kilomètres derrière les lignes ukrainiennes. Tout
+      ce qu'on voit se lit par rapport à cette échelle — plus on approche, plus le ciel
+      se remplit et plus les corps disparaissent sous terre. C'est le cas d'école de
+      [[interface-maps|la carte qui raconte]] : la position d'une scène par rapport à
+      une autre est l'information, pas un rangement.
+
+      **La [[structure-lineaire|structure]] est celle du terrain.** Pas de chapitres,
+      pas de menu, pas de retour en arrière proposé : une traversée, et l'ordre des
+      scènes est l'ordre des distances. Personne n'a besoin qu'on lui dise où il en est.
+
+      **Le [[interface-scrollable|défilement]] est un travelling.** La main donne le
+      tempo, la séquence appartient aux auteurs — le survol s'arrête sur un tank sous
+      cage grillagée, un trou où trois hommes dorment, une route couverte de filets
+      anti-drones, puis repart. C'est le geste que les étudiants connaissent déjà par le
+      montage, transposé sans rien perdre.
+
+      **L'illustration s'annonce comme illustration.** Rendu volontairement pauvre,
+      couleurs lavées, silhouettes anguleuses. Une pièce qui travaille à partir de morts
+      filmées par milliers refuse le photoréalisme : c'est une décision, pas une limite
+      technique.
+    </markdown>
+  </section>
+
+  <section title="Comment c'est fait, techniquement">
+    <markdown>
+      À montrer en cours, parce que la fabrication est à la portée d'un atelier et que
+      la démonstration est spectaculaire.
+
+      Le survol n'est ni de la 3D temps réel, ni une séquence d'images. Ce sont **deux
+      grandes illustrations verticales**, une par camp, de 2400 pixels de large sur
+      12 000 de haut, servies en cinq largeurs selon l'écran. La page les fait défiler
+      et pose les étiquettes par-dessus au bon moment. Le rendu en volume a servi à
+      fabriquer les images ; il ne tourne pas chez le lecteur.
+
+      Autrement dit : un panorama roulant, la technique des dioramas du dix-neuvième
+      siècle, avec le défilement du navigateur pour manivelle. Aucun moteur, aucune
+      bibliothèque de rendu, aucune contrainte de machine — un fichier image, et du
+      texte qui apparaît en face des bons pixels. C'est la leçon utile pour un projet
+      d'étudiant : l'effet ne vient pas de la technologie employée, il vient d'avoir
+      dessiné le bon plan.
+    </markdown>
+  </section>
+
+  <section title="Ce que la page dit de sa fabrication">
+    <markdown>
+      La note de méthode est courte et vaut d'être lue avant le reste : le décor n'est
+      la reproduction d'aucun secteur du front. C'est une concentration de scènes
+      relevées sur plusieurs secteurs, rassemblées dans un paysage qui n'existe pas.
+
+      Les sources sont nommées. Des dizaines de témoignages de soldats, de pilotes de
+      drones et de commandants ukrainiens ; des entretiens avec des experts militaires ;
+      des centaines de vidéos publiées en ligne par les unités des deux camps. La carte
+      de situation vient de l'Institute for the Study of War. Les douze séquences vidéo
+      insérées en tête de page ont été vérifiées par l'équipe de vérification visuelle
+      de Reuters, dont les cinq membres sont crédités nommément et dont les unités
+      sources sont listées.
+
+      Deux personnes réelles traversent la fiction du décor : Serhii Krynitskyi, qui a
+      tenu plus de trois cents jours dans une même position, et Andriy Meskov, pilote de
+      drone de quarante-deux ans blessé au genou par un drone russe, dont l'évacuation
+      sur deux nuits — un robot terrestre sur deux kilomètres, puis une ambulance —
+      occupe la fin du survol. Le paysage est composite, les récits ne le sont pas.
+
+      Reuters écrit aussi ce qu'elle n'a pas pu faire : interroger des militaires
+      russes, en raison des restrictions imposées à la couverture du conflit en Russie,
+      et obtenir une réponse du ministère russe de la défense. La conséquence est
+      assumée dans la composition — le versant russe montre l'assaut, le versant
+      ukrainien le ravitaillement, la relève et l'évacuation.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le décor composite est déclaré une fois, en haut, puis plus jamais. Tout le reste
+      de la page travaille à donner l'impression d'un lieu : on suit une route, on
+      revient sur un cratère, on reconnaît une lisière. La forme travaille contre
+      l'avertissement, et rien dans l'image ne distingue ce qui est documenté de ce qui
+      est plausible. C'est l'inverse exact du choix fait à
+      [[what-the-1921-tulsa-race-massacre-destroyed|Tulsa]], où les bâtiments sans
+      photographie restent des volumes nus. Ici tout est fini au même degré.
+
+      Les vidéos qui ont servi de matière première sont des mises à mort réelles,
+      filmées par les unités qui tuent et publiées par elles comme preuve de rendement.
+      La page les vérifie soigneusement et ne s'interroge jamais sur ce que devient une
+      exécution filmée quand elle devient documentation. La chaîne est réelle, elle
+      n'est pas commentée.
+
+      Enfin la pièce est lourde : les deux panoramas pèsent à eux seuls 5,4 et 5,6 Mo
+      dans leur plus grande version, avant les vidéos. Le choix des cinq largeurs limite
+      la casse, mais un travail dont le sujet est un pays en guerre reste illisible
+      depuis une connexion faible.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

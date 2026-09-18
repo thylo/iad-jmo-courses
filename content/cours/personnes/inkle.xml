@@ -1,0 +1,29 @@
+<personne id="inkle" genre="studio">
+  <titre>inkle</titre>
+  <lieu>Cambridge</lieu>
+  <depuis>2011</depuis>
+  <url>https://www.inklestudios.com/</url>
+
+  <resume>Studio britannique de fiction interactive fondé par Jon Ingold et Joseph Humfrey.</resume>
+
+  <markdown>
+    Ils font des jeux qui sont presque entièrement du texte, et qui tiennent leur
+    force d'une seule idée poussée loin : le récit retient ce qui s'est passé et
+    s'écrit en conséquence. Voir [[structure-a-etat]].
+
+    Ils publient aussi **ink**, le langage dans lequel ils écrivent leurs jeux :
+    libre, en licence MIT, utilisable seul ou dans Unity. C'est du texte avec des
+    conditions dedans, lisible par quelqu'un qui écrit, pas seulement par
+    quelqu'un qui code. C'est l'outil à regarder avant d'aller chercher un moteur
+    de jeu.
+
+    De *Sorcery!* (2013-2016) à *Heaven's Vault* (2019), *Overboard!* (2021) et
+    *A Highland Song* (2023), la même méthode, chaque fois sur un sujet différent.
+  </markdown>
+
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
+  </section>
+
+  <backlinks/>
+</personne>

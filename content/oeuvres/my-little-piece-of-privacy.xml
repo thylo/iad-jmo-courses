@@ -1,0 +1,44 @@
+<oeuvre id="my-little-piece-of-privacy" statut="en-ligne">
+  <titre>My Little Piece of Privacy</titre>
+  <annee>2010</annee>
+  <par ref="niklas-roy"/>
+  <url>https://www.niklasroy.com/project/88/my-little-piece-of-privacy</url>
+  <categorie>Installation</categorie>
+  <categorie>Urbain</categorie>
+  <voir ref="camera-restricta"/>
+  <voir ref="the-follower"/>
+
+  <resume>L'atelier de Niklas Roy occupe une ancienne boutique dont la vitrine donne sur la rue. Il y installe une caméra, un vieux portable et un petit rideau motorisé qui coulisse sur un rail : dès qu'un passant apparaît, le rideau se déplace pour se mettre exactement devant lui. Une seconde version, en 2011, monte un moteur de perceuse Makita et atteint trois mètres par seconde sur dix mètres de rail.</resume>
+
+  <visuel src="my-little-piece-of-privacy.jpg"
+          alt="Un passant coiffé d'un chapeau de paille s'arrête devant une vitrine ; un petit rideau de dentelle s'est déplacé sur la tringle et lui masque le visage"
+          credit="Niklas Roy"
+          source="https://www.niklasroy.com/project/88/my-little-piece-of-privacy"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **L'échec est le résultat, et il est énoncé par l'auteur.** « Mon rideau se
+      contente d'être zélé. Et c'est pour ça qu'il rate. » Le dispositif fonctionne
+      parfaitement et manque entièrement son but : personne ne regardait cette
+      vitrine, tout le monde s'arrête maintenant pour voir le rideau les suivre.
+      Une pièce dont la conclusion est sa propre contradiction, écrite noir sur
+      blanc.
+
+      **Le rideau est un dispositif qui a un avis.** Il ne se ferme pas, il vise.
+      Ce déplacement — d'un objet passif à un objet qui désigne quelqu'un — est ce
+      qui fait rire le passant, puis ce qui le met mal à l'aise. La même mécanique
+      exactement que les miroirs d'[[audience]].
+
+      **Personne n'a demandé à participer.** Les passants sont dans l'œuvre avant
+      d'avoir su qu'elle existait. C'est la question à poser à tout dispositif
+      installé dans l'espace public, et elle n'a pas de bonne réponse : on peut
+      seulement décider ce qu'on fait de ce qui a été capté. Ici, rien — aucune
+      image n'est conservée, et c'est ce qui rend la pièce tenable.
+    </markdown>
+
+    <video src="youtube:rKhbUjVyKIc"
+           caption="Le rideau en action, filmé depuis l'atelier par Niklas Roy."/>
+  </section>
+
+  <backlinks/>
+</oeuvre>

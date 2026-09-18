@@ -1,0 +1,41 @@
+<personne id="etienne-mineur" genre="personne">
+  <titre>Étienne Mineur</titre>
+  <lieu>Paris</lieu>
+  <url>https://etienne.design/</url>
+
+  <resume>Designer graphique et inventeur, cofondateur des Éditions Volumiques. Il travaille depuis trente ans sur le même sujet : ce qui se passe entre le graphisme et l'interactivité.</resume>
+
+  <markdown>
+    Il sort des Arts Déco en 1992 et commence par le CD-ROM, à l'époque où c'était
+    le seul endroit où l'on pouvait faire du graphisme qui réagit. Puis le web,
+    puis les studios (Incandescence, à la fin des années 1990),
+    puis un virage net en 2009 : il quitte l'écran et fonde
+    [[editions-volumiques|les Éditions Volumiques]] pour travailler le papier.
+
+    Ce n'est pas un retour en arrière. C'est le même problème abordé par l'autre
+    bout : comment un objet imprimé, immobile et bête, peut se mettre à répondre.
+    C'est de là que sort la reconnaissance d'objets sur écran capacitif, qu'il a
+    brevetée : de l'encre conductrice sur du papier, et une dalle tactile qui
+    prend le motif pour des doigts.
+  </markdown>
+
+  <section title="Pourquoi il est utile ici">
+    <markdown>
+      Parce qu'il est l'exemple le plus net de quelqu'un qui **invente ses
+      contraintes** plutôt que d'utiliser les outils disponibles. Personne ne lui
+      avait demandé de faire reconnaître du papier par un écran. Il a regardé
+      longtemps une technologie que tout le monde utilise d'une seule façon (le
+      doigt sur la dalle) et il en a tiré un autre usage.
+
+      C'est la posture à retenir : ne pas prendre le medium tel qu'il est donné.
+      Voir [[interface-plateau]].
+
+      Il enseigne d'ailleurs beaucoup (Gobelins, Louis Lumière, ENSAD, HEAD
+      Genève, Camondo, l'ENSCI où il dirige un studio sur l'intelligence
+      artificielle) et publie depuis des années notes, sources et fontes sur son
+      site. Le fonds est ouvert, allez y fouiller.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</personne>

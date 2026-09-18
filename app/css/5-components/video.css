@@ -1,0 +1,41 @@
+/* An embed — what <video src="youtube:…"> renders.
+
+   A figure like any other, with one difference that has to be said out loud:
+   an iframe has no intrinsic size. An <img> arrives carrying its own
+   proportions and the box follows it; an iframe is 300×150 until a stylesheet
+   says otherwise, which is most of what this file does.
+
+   The ratio belongs to the player, not to the figure. On the <figure> it would
+   also be sizing the legend — the figure is the player AND its caption, and
+   only the first of the two has a shape.
+
+   Width is left alone on purpose. canvas.css exempts figures from the measure,
+   so the player takes the reading — the text column plus the open field — the
+   same span an <image> gets when its author asks for nothing. A talk is worth
+   the room; the caption under it is not, and says so below. */
+
+.c-video {
+  margin-block: var(--space-l);
+  margin-inline: 0;
+}
+
+.c-video__player {
+  display: block;
+  inline-size: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  /* The ground an image gets while it loads. Without it the box is a hole in
+     the paper until a third party decides to answer. */
+  background-color: var(--color-paper-sunk);
+}
+
+/* The legend of a figure, in the figure's register: what it shows, not who
+   owns it. Held to the measure even when the player is not — a line of text
+   the width of the reading is not a caption, it is a stray sentence. */
+.c-video__caption {
+  max-inline-size: var(--measure-text);
+  margin-block-start: var(--space-s);
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-ink-muted);
+}

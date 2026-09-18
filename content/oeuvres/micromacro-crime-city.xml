@@ -1,0 +1,49 @@
+<oeuvre id="micromacro-crime-city" statut="en-ligne">
+  <titre>MicroMacro : Crime City</titre>
+  <annee>2020</annee>
+  <par>Johannes Sich</par>
+  <par>Edition Spielwiese</par>
+  <url>https://micromacro-game.com/</url>
+  <categorie>Jeu</categorie>
+  <concept ref="interface-maps"/>
+
+  <resume>Un poster de 76 sur 114 centimètres, une ville dessinée au trait, seize enquêtes. Les cartes d'un cas posent des questions ; les réponses sont quelque part sur l'image. Un même personnage y figure plusieurs fois, à des moments différents de son histoire : suivre quelqu'un, c'est parcourir la carte d'avant en arrière dans le temps. Spiel des Jahres 2021.</resume>
+
+  <visuel src="micromacro-crime-city.jpg"
+          alt="Détail du plan de ville dessiné au trait noir sur blanc : un canal traversé de ponts, des péniches, des files de voitures, une plage, et des centaines de personnages minuscules occupés à leurs affaires"
+          credit="Edition Spielwiese — illustration Johannes Sich"
+          source="https://micromacro-game.com/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **L'espace tient lieu de temps.** Toute l'affaire est là, déjà imprimée, du
+      premier repérage jusqu'au meurtre. Le récit ne se déroule pas : il est
+      simultané, et c'est le regard qui fait la chronologie. Le montage est laissé
+      au joueur, comme dans [[flashback-zombie-kidz|Flashback]], mais ici sur une
+      seule surface, donc on peut voir la cause et la conséquence en même temps.
+
+      **Une [[interface-maps|carte]] sans zoom.** Se pencher remplace la molette :
+      la même lecture par niveaux (vue d'ensemble, puis détail) sans aucun
+      dispositif. La densité de l'image fait tout le travail qu'un logiciel ferait
+      en chargeant des tuiles.
+
+      **La mécanique vient de l'écran.** Chercher un détail dans une image saturée,
+      c'est le jeu d'objets cachés, né sur ordinateur. Le voir revenir sur du papier
+      dit quelque chose d'utile : une idée d'interaction n'appartient pas au support
+      où elle a été inventée. Le trajet inverse existe aussi, avec
+      [[hidden-folks|Hidden Folks]].
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      L'enquête est un jeu d'observation, pas de déduction : on ne raisonne presque
+      jamais, on cherche. Une fois la scène trouvée, elle se lit d'elle-même.
+
+      Et l'affiche ne se rejoue pas. Ce qui a été vu reste vu : le poster est
+      brûlé pour ceux qui étaient à table.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

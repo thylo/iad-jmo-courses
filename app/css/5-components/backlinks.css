@@ -1,0 +1,19 @@
+/* Who points here — what <backlinks/> renders.
+
+   Same shape as any generated index: a heading, then a list of statements.
+   Each line is a full one, so it needs no bullet in front of it. */
+
+.c-backlinks__title {
+  font-size: var(--text-lead);
+  line-height: var(--space-unit);
+  margin-block-start: var(--space-xl);
+}
+
+.c-backlinks__title + * { margin-block-start: var(--space-s); }
+
+.c-backlinks__list {
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.c-backlinks__list > li + li { margin-block-start: var(--space-s); }

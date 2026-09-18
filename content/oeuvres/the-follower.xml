@@ -1,0 +1,51 @@
+<oeuvre id="the-follower" statut="en-ligne">
+  <titre>The Follower</titre>
+  <annee>2022</annee>
+  <par ref="dries-depoorter"/>
+  <url>https://driesdepoorter.be/thefollower/</url>
+  <categorie>Documentaire</categorie>
+  <categorie>Interface</categorie>
+  <voir ref="the-flemish-scrollers"/>
+  <voir ref="browser-dating"/>
+  <voir ref="surveillance-speaker"/>
+
+  <resume>Enregistrer pendant des semaines des caméras publiques accessibles à tous. Récupérer les photos Instagram géolocalisées aux mêmes endroits. Faire chercher par un logiciel, dans les milliers d'heures de vidéo, le moment exact où chaque photo a été prise. On obtient, côte à côte, le portrait publié et les quatre minutes de poses ratées qui l'ont précédé. Publié le 12 septembre 2022.</resume>
+
+  <visuel src="the-follower.jpg"
+          source="https://driesdepoorter.be/thefollower/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Rien n'a été piraté.** Les caméras sont publiques, les géotags sont
+      volontaires, la reconnaissance d'image est en accès libre. Toute la violence du
+      résultat vient du rapprochement de trois choses parfaitement légales — c'est
+      la démonstration la plus économique qui soit du fait que la surveillance est
+      un problème d'agrégation, pas d'effraction.
+
+      **Le hors-champ est le sujet.** La photo montre une personne seule et sereine ;
+      la vidéo montre la foule, la météo, l'ami qui tient l'appareil et les onze
+      essais. L'écart entre les deux images est tout le propos, et il n'a pas eu
+      besoin d'être commenté.
+
+      **La rétroactivité est le point qui glace.** Le géotag posé il y a deux ans
+      devient exploitable aujourd'hui, avec des outils qui n'existaient pas alors.
+      C'est ce qu'il faut faire comprendre avant de parler de consentement : on
+      consent à un usage présent, jamais à un usage futur.
+    </markdown>
+
+    <video src="youtube:mkqT32CEIk8"
+           caption="Une présentation du projet et de son fonctionnement."/>
+  </section>
+
+  <section title="Ce qui se discute">
+    <markdown>
+      Le dispositif fait à des inconnus exactement ce qu'il reproche à la
+      surveillance de faire. Depoorter le sait et ne s'en excuse pas : c'est une
+      démonstration, et une démonstration a des sujets. La question à poser en cours
+      n'est pas « est-ce bien » mais « qu'est-ce qui distingue ce geste-ci du
+      harcèlement », et elle n'a pas de réponse propre.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

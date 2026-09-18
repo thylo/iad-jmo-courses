@@ -1,0 +1,69 @@
+<oeuvre id="immortality" statut="en-ligne">
+  <titre>IMMORTALITY</titre>
+  <annee>2022</annee>
+  <par ref="sam-barlow"/>
+  <par>Half Mermaid</par>
+  <url>https://store.steampowered.com/app/1350200/IMMORTALITY/</url>
+  <categorie>Jeu</categorie>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-constellation"/>
+  <concept ref="interface-galleries"/>
+  <concept ref="role-divinite"/>
+
+  <resume>Une actrice a tourné trois films entre 1968 et 1999. Aucun n'est sorti, et elle a disparu. Il ne reste que les rushes, les essais et les plateaux de tournage, consultables un plan à la fois. On avance en cliquant sur un objet dans l'image, qui renvoie au même objet dans un autre plan : le montage par raccord devient le seul moyen de circuler, et le spectateur monte le film lui-même.</resume>
+
+  <visuel src="immortality.jpg"
+          alt="Trois affiches de cinéma en train de brûler contre un mur sombre : on distingue le portrait encadré d'une jeune femme, un visage de profil, et des génériques à demi consumés."
+          credit="Half Mermaid"
+          source="https://store.steampowered.com/app/1350200/IMMORTALITY/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le raccord d'objet est la navigation.** Une main, un miroir, une pomme :
+      on clique dessus et l'on sort dans un autre plan qui contient la même
+      chose. C'est le vocabulaire du montage — la règle qui relie deux images sans
+      passer par le récit — transformé en interface. Personne n'avait fait de la
+      grammaire cinématographique un système de liens.
+
+      **Il n'y a pas d'ordre, et pourtant il y a une lecture.** Trois films, trois
+      décennies, des centaines de fragments : on entre par n'importe où, et le
+      sens vient du voisinage plutôt que de la chronologie. Voir
+      [[structure-constellation]]. La grille de vignettes qui garde la trace de ce
+      qu'on a vu — voir [[interface-galleries]] — est la seule carte qu'on ait, et
+      elle se remplit en désordre.
+
+      **Le second récit se trouve en frottant les images.** Le jeu ne dit jamais
+      qu'il faut ralentir, revenir en arrière, insister sur un plan. Ceux qui le
+      font découvrent une autre couche, et ceux qui ne le font pas finissent la
+      partie sans l'avoir vue. Une œuvre qui cache la moitié d'elle-même derrière
+      un geste facultatif, et qui l'assume.
+
+      **La position du spectateur est explicitement celle d'une divinité.** Il
+      n'est personne dans la fiction, et il a les leviers : rembobiner,
+      accélérer, arrêter. [[role-divinite]] est ici la position par défaut du
+      monteur — et le jeu finit par demander qui, exactement, regarde à travers
+      lui.
+    </markdown>
+
+    <video src="youtube:UCuSvXrEQdA"
+           caption="La bande-annonce de sortie, publiée par Half Mermaid."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le raccord est en partie aléatoire : cliquer sur le même objet ne mène pas
+      toujours au même endroit. C'est ce qui empêche de cartographier l'œuvre,
+      et c'est aussi ce qui donne, par moments, le sentiment de fouiller un sac
+      plutôt que de monter un film.
+
+      La fin bascule dans un registre fantastique explicite qui referme une œuvre
+      dont la force était l'ambiguïté — le reproche qu'on fait aussi à la seconde
+      saison d'[[undone|Undone]].
+
+      Et comme [[return-of-the-obra-dinn|Obra Dinn]], ça ne se joue qu'une fois :
+      tout le contenu est la découverte, et la découverte ne se refait pas.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

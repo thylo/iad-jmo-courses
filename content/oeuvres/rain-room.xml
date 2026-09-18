@@ -1,0 +1,39 @@
+<oeuvre id="rain-room" statut="en-ligne">
+  <titre>Rain Room</titre>
+  <annee>2012</annee>
+  <par ref="random-international"/>
+  <url>https://www.random-international.com/rain-room</url>
+  <categorie>Installation</categorie>
+  <concept ref="role-soi-meme"/>
+
+  <resume>Cent mètres carrés de pluie continue. Des caméras 3D repèrent les corps et coupent les électrovannes juste au-dessus d'eux : on marche dans l'averse sans être mouillé, à condition d'avancer lentement. Créée pour le Barbican à Londres en 2012, puis montrée au MoMA, au LACMA, au Yuz Museum de Shanghai et ailleurs.</resume>
+
+  <visuel src="rain-room.jpg"
+          alt="Photographie en noir et blanc : une silhouette vue de dos avance dans un couloir de pluie dense éclairé à contre-jour ; le sol sous ses pieds est sec."
+          credit="Random International"
+          source="https://www.random-international.com/rain-room"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **La règle s'apprend par le corps.** Personne n'explique rien à l'entrée. On
+      avance trop vite, on est trempé, on ralentit. La consigne est donnée par la
+      sanction, immédiatement, et tout le monde la comprend en trois pas — c'est le
+      modèle d'apprentissage le plus économique qui soit.
+
+      **Le trou est la trace.** Ce que le visiteur produit n'est pas une image mais
+      une absence : une colonne d'air sec qui le suit. Quand ils sont plusieurs, les
+      trous se rejoignent et se séparent, et la pièce donne à voir la présence des
+      autres sans jamais les représenter.
+
+      **La file d'attente fait partie de l'œuvre.** Quatre heures au MoMA pour dix
+      minutes dedans, et des photos partout. C'est le cas d'école pour parler de ce
+      qu'une installation devient quand elle est massivement photographiée : le
+      dispositif finit par produire des images de gens en train d'en produire.
+    </markdown>
+
+    <video src="youtube:FslABAyj2OA"
+           caption="La présentation de l'installation par le Barbican, où elle a été créée."/>
+  </section>
+
+  <backlinks/>
+</oeuvre>

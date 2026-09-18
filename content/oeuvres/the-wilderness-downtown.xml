@@ -1,0 +1,52 @@
+<oeuvre id="the-wilderness-downtown" statut="hors-ligne">
+  <titre>The Wilderness Downtown</titre>
+  <annee>2010</annee>
+  <par ref="chris-milk"/>
+  <par ref="google-creative-lab"/>
+  <par>Arcade Fire</par>
+  <url>https://experiments.withgoogle.com/the-wilderness-downtown</url>
+  <categorie>Interface</categorie>
+  <concept ref="structure-lineaire"/>
+  <concept ref="role-soi-meme"/>
+
+  <resume>Clip interactif pour « We Used to Wait » d'Arcade Fire. On donne l'adresse de la maison de son enfance, et le film va la chercher dans Google Earth et Street View : un adolescent court dans une rue, et cette rue est celle du spectateur. Plusieurs fenêtres de navigateur s'ouvrent et se placent toutes seules à l'écran, chorégraphiées avec la chanson. À la fin, on écrit une lettre à l'enfant qu'on était. Démonstration de HTML5 commandée par Google pour Chrome.</resume>
+
+  <visuel src="the-wilderness-downtown.jpg"
+          source="https://experiments.withgoogle.com/the-wilderness-downtown"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Une seule donnée, et tout le film en dépend.** Une adresse. C'est la
+      démonstration la plus économique de ce que peut faire le
+      [[role-soi-meme|rôle de soi-même]] : rien n'est personnalisé au sens du
+      marketing, c'est le sujet même du morceau — l'attente, l'enfance, le lieu qu'on a
+      quitté — qui va chercher la vie du spectateur.
+
+      **La fenêtre du navigateur est le cadre.** Au lieu d'une vidéo dans une page,
+      des pop-ups qui s'ouvrent, se déplacent et composent l'image. Le décor est le
+      logiciel lui-même. Personne n'avait fait ça, et peu l'ont refait depuis.
+
+      **Le récit reste [[structure-lineaire|entièrement linéaire]].** Aucune décision,
+      aucune branche : le morceau dure ce qu'il dure. Ce qui varie, ce sont les images,
+      pas le récit. Utile pour montrer qu'on peut impliquer sans faire choisir.
+    </markdown>
+
+    <video src="youtube:EKg2HJ_qvKA"
+           caption="Les coulisses du film, publiées par Google Chrome."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Ça ne tourne plus comme au premier jour. Les navigateurs ont fermé la porte aux
+      pop-ups automatiques, l'imagerie de Street View a changé, et beaucoup d'adresses
+      ne donnent plus rien. Une œuvre bâtie sur les données d'un tiers vieillit à la
+      vitesse de ce tiers.
+
+      Et il faut le dire aux étudiants : c'est une démonstration technique commandée
+      par un navigateur pour vendre un navigateur. Ça n'enlève rien à ce qu'elle
+      réussit, mais ça explique pourquoi elle a eu ces moyens-là.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

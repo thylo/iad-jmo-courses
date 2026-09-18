@@ -1,0 +1,47 @@
+<oeuvre id="snow-fall" statut="en-ligne">
+  <titre>Snow Fall: The Avalanche at Tunnel Creek</titre>
+  <annee>2012</annee>
+  <par>John Branch</par>
+  <par ref="new-york-times"/>
+  <url>https://www.nytimes.com/projects/2012/snow-fall/</url>
+  <categorie>Documentaire</categorie>
+  <concept ref="structure-lineaire"/>
+  <concept ref="interface-scrollable"/>
+
+  <resume>Seize skieurs, une avalanche, trois morts, dans le Cascade Range en février 2012. Un reportage en six chapitres où la page fait autre chose que porter du texte : la neige se met à couler derrière les paragraphes, une carte se déplie, un modèle du versant tourne, les visages des victimes apparaissent au moment où on lit leur nom. Publié en décembre 2012, prix Pulitzer 2013.</resume>
+
+  <visuel src="snow-fall.jpg"
+          source="https://www.nytimes.com/projects/2012/snow-fall/index.html"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **L'article reste un article.** Le texte de John Branch se lit d'un bout à
+      l'autre sans qu'aucune animation soit nécessaire à sa compréhension. Tout ce
+      qui bouge est en supplément, jamais en remplacement — c'est ce qui a permis à
+      la page de vieillir, alors que la plupart de ses imitateurs sont illisibles
+      dès que le script tombe.
+
+      **Le média arrive quand le texte le demande.** Le portrait vidéo d'un skieur
+      apparaît au paragraphe où il est présenté ; la coupe du versant, au moment où
+      il faut comprendre la pente. Le montage n'est pas décoratif, il suit
+      l'argument, et c'est exactement ce que la plupart des pages « immersives » ne
+      font pas.
+
+      **C'est la référence, et le mot est resté.** « Un Snow Fall » désigne encore
+      aujourd'hui ce format dans les rédactions. Utile pour parler de ce qui se
+      passe quand une expérimentation réussit : elle devient un gabarit, puis un
+      réflexe, puis un problème.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le coût est rarement cité : une équipe d'une dizaine de personnes pendant
+      plusieurs mois, pour un seul article. La forme a été copiée partout, la
+      dépense nulle part — d'où une décennie de pages qui ont le défilement sans
+      avoir le reportage.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

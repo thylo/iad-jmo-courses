@@ -1,0 +1,133 @@
+/* Every rule on this site is drawn, not bordered.
+
+   A 1px border says a machine set this page. An inked line says someone did.
+   The whole thing is one mechanism: a mask over a box painted with an ink
+   token, so it costs no request and takes the colour like anything else.
+
+   Two sizes of box, and the reason matters. A mask stretched with
+   preserveAspectRatio="none" keeps the pen's weight on the axis it is NOT
+   stretched along — so a horizontal rule's box must be exactly as tall as its
+   drawing (8px), and a vertical stroke's box exactly as wide as its drawing
+   (8px). Get that wrong and the line thins to nothing, which is how the first
+   attempt at this vanished. */
+
+/* --- Long rules ---------------------------------------------------------
+   The full-width separators. They barely wobble: a hand drawing 1400px drifts
+   three or four pixels, which nobody sees, and more than that reads as a wave.
+   What makes these read as ink is the pressure and the tapered ends. */
+
+.c-rule,
+/* The box is a value of the scale, the drawing keeps the weight it was drawn
+   at, and it sits in the middle of the box. A mark in the flow weighs on the
+   rhythm exactly like a margin does, so its box has to be on the scale — but
+   stretching the pen to 14px would thicken it by 75%, which is a different
+   drawing. So the box takes the half step and the mask keeps its 8px.
+
+   Same move as the portrait and the signature: size the box, never the mark. */
+.c-rule-under::after,
+.c-rule-over::before {
+  display: block;
+  border: 0;
+  inline-size: 100%;
+  block-size: var(--space-s);   /* 14, the half step */
+  background-color: var(--color-rule);
+  mask-image: var(--rule, var(--rule-1));
+  mask-size: 100% 0.5rem;       /* 8px, the weight it was drawn at */
+  mask-position: left center;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: var(--rule, var(--rule-1));
+  -webkit-mask-size: 100% 0.5rem;
+  -webkit-mask-position: left center;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.c-rule-under::after,
+.c-rule-over::before { content: ""; }
+
+.c-rule-under::after { margin-block-start: var(--space-s); }
+.c-rule-over::before { margin-block-end: var(--space-m); }
+
+.c-rule--2 { --rule: var(--rule-2); }
+.c-rule--3 { --rule: var(--rule-3); }
+
+/* --- Short marks --------------------------------------------------------
+   Where the hand is actually visible. Same pen, a tenth of the length. */
+
+/* A break in the prose. It used to be a hairline across the measure; a line
+   that wide can only be a border, so it is a mark instead — which is what a
+   break in an argument looks like in a book anyway. */
+.c-prose hr {
+  --rule: var(--rule-short);
+
+  display: block;
+  border: 0;
+  inline-size: 11rem;
+  block-size: 0.875rem;
+  margin-block: var(--space-xl);
+  margin-inline: 0;
+  background-color: var(--color-rule);
+  mask-image: var(--trait);
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: var(--trait);
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+}
+
+/* --- The vertical stroke ------------------------------------------------
+   What sits beside a note, a quotation, an aside that has lost its margin. It
+   replaces a border, so it takes the same room: 8px of box at the start of the
+   block, placed absolutely so it stretches to however tall the block turns out
+   to be. Short enough that the wobble reads, at any height it is pulled to. */
+
+/* The markdown blockquote cannot be given a class at the source, so it is named
+   here rather than carrying the modifier — same reason prose.css styles bare
+   elements. The note has a class and still takes the stroke by name: it is the
+   same mark, and saying so twice in two files would be worse. */
+.c-rule-beside,
+.c-prose blockquote,
+.c-note {
+  position: relative;
+  padding-inline-start: var(--space-m);
+}
+
+.c-rule-beside::before,
+.c-prose blockquote::before,
+.c-note::before {
+  content: "";
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: 0;
+  inline-size: 0.5rem;
+  background-color: var(--rule-ink, var(--color-rule));
+  mask-image: var(--rule-vertical);
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: var(--rule-vertical);
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+}
+
+/* Below the breakpoint the margin note loses its margin and rejoins the flow.
+   It takes the stroke too — that is what says it is still an aside. */
+@media (max-width: 47.999em) {
+  .c-sidenote {
+    position: relative;
+    padding-inline-start: var(--space-s);
+  }
+
+  .c-sidenote::before {
+    content: "";
+    position: absolute;
+    inset-block: 0;
+    inset-inline-start: 0;
+    inline-size: 0.5rem;
+    background-color: var(--color-rule);
+    mask-image: var(--rule-vertical);
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: var(--rule-vertical);
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+  }
+}

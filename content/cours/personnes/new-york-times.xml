@@ -1,0 +1,9 @@
+<personne id="new-york-times" genre="organisation">
+  <titre>New York Times</titre>
+
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
+  </section>
+
+  <backlinks/>
+</personne>

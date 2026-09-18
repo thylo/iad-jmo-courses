@@ -1,0 +1,74 @@
+<concept id="forme-machine">
+  <titre>Interactivité Machine (face au système)</titre>
+  <genre>forme</genre>
+  <exemple ref="bandersnatch"/>
+  <exemple ref="lifeline"/>
+  <exemple ref="late-shift"/>
+  <exemple ref="jeu-d-influences"/>
+  <voir ref="forme-sociale"/>
+  <voir ref="forme-collaborative"/>
+  <voir ref="structure-embranchements"/>
+  <voir ref="structure-a-etat"/>
+  <voir ref="faux-choix"/>
+
+  <resume>Tout est écrit d'avance. Le public explore un univers fini où chaque action produit un résultat prévu et testé. C'est la seule des trois formes qu'une personne seule peut mener jusqu'au bout.</resume>
+
+  <section title="Ce que l'auteur fournit">
+    <markdown>
+      Tout. Chaque branche, chaque variante, chaque fin. L'œuvre du premier jour
+      est celle du dernier : elle ne bouge plus une fois publiée, et rien de ce
+      qui s'y passe n'a échappé à celui qui l'a écrite.
+
+      [[bandersnatch]], [[late-shift]], [[lifeline]], [[jeu-d-influences]] : dans
+      chaque cas, une équipe a fabriqué la totalité du contenu, y compris les
+      branches que presque personne ne verra.
+    </markdown>
+  </section>
+
+  <section title="Ce que ça coûte">
+    <markdown>
+      Le coût est dans l'écriture, et il est connu d'avance. C'est un avantage
+      réel : on peut le chiffrer avant de commencer, et une seule personne peut le
+      payer. C'est pour ça que c'est presque toujours la forme d'un projet mené seul.
+
+      Le prix, c'est le volume. Il faut produire les chemins que personne ne
+      prendra, et ils ne se voient nulle part dans le résultat.
+    </markdown>
+  </section>
+
+  <section title="La limite">
+    <markdown>
+      L'[[structure-embranchements|explosion combinatoire]]. Deux choix par scène,
+      dix scènes, et il faut écrire un roman que personne ne lira en entier.
+
+      Ce qui suit est mécanique, et c'est pour ça qu'on le retrouve partout : on
+      coupe des branches, on les recolle, et on obtient des [[faux-choix|faux
+      choix]]. Le public s'en aperçoit au deuxième passage, et la confiance ne
+      revient pas.
+    </markdown>
+  </section>
+
+  <section title="Ce qui marche">
+    <markdown>
+      Peu de choix, mais qui comptent. Une œuvre qui assume dix bifurcations
+      réelles tient mieux qu'une qui en promet cent et en simule quatre-vingt-dix.
+
+      L'autre issue est de changer de forme de récit plutôt que d'en écrire
+      davantage. La [[structure-a-etat|structure à état]] obtient de la variation
+      sans dédoubler quoi que ce soit : elle retient ce qui a été fait au lieu de
+      brancher, et le contenu à produire cesse de doubler à chaque scène.
+    </markdown>
+  </section>
+
+  <section title="À ne pas confondre">
+    <markdown>
+      **La forme n'est pas le rôle du public.** [[lifeline]] est machine par sa
+      forme (un système fermé, tout écrit) et le public y est
+      [[role-soi-meme|lui-même]] : le personnage écrit à une personne réelle, sur
+      son téléphone, à son heure. Une œuvre machine peut tout aussi bien faire jouer
+      un héros, ou hanter une maison.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

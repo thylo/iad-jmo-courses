@@ -1,0 +1,79 @@
+<personne id="benjamin-hoguet" genre="personne">
+  <titre>Benjamin Hoguet</titre>
+  <lieu>Paris</lieu>
+  <url>https://www.benhoguet.com/</url>
+
+  <resume>Auteur des manuels de la création interactive que le milieu francophone n'avait pas. Il pose la seule question qui vaille avant d'ajouter une interaction.</resume>
+
+  <markdown>
+    Auteur et concepteur de récits numériques, il fait un travail que presque
+    personne ne faisait en français : ranger ce champ et le mettre par écrit. Trois
+    livres chez Dixit, dans la collection *La Narration Réinventée* : celui du même
+    nom d'abord (2015), sur la création interactive et transmédia, puis
+    *Le Pouvoir Narratif des Interfaces* (2016) et
+    *La Grammaire de la Réalité Virtuelle* (2018).
+
+    Ce n'est pas de la théorie universitaire, et il le dit lui-même : le premier
+    livre sort d'une newsletter hebdomadaire et de vingt-deux entretiens avec des
+    auteurs, des producteurs et des diffuseurs. Des retours de terrain mis en ordre,
+    pas une thèse.
+
+    Il vient d'ailleurs du terrain. Il a cofondé Racontr, un outil qui permet de
+    fabriquer un webdoc sans écrire une ligne de code, et Storycode Paris, où ce
+    milieu se rencontre.
+  </markdown>
+
+  <section title="Sa question">
+    <quote credit="Benjamin Hoguet, La Narration Réinventée, Dixit"
+           source="https://www.dixit.fr/extraits/9782844811721.pdf">
+      <markdown>
+        L'impact de mon histoire sera-t-il plus grand si je la pare
+        d'interactivité ?
+      </markdown>
+    </quote>
+
+    <markdown>
+      C'est la question à se poser avant d'ajouter une interaction, et elle est
+      brutale : si la réponse est non, ne le faites pas. Il donne le test dans
+      l'autre sens juste avant. Une seule histoire à raconter, personne d'autre
+      pour la raconter, une seule manière de la raconter : alors le linéaire suffit,
+      et c'est très bien.
+
+      À garder en tête au moment de décider quoi rendre cliquable. La plupart des
+      [faux choix](/panorama/choix) commencent par une interaction ajoutée sans avoir
+      répondu à cette question.
+    </markdown>
+  </section>
+
+  <section title="Ses trois formes d'interactivité">
+    <markdown>
+      Sa grille la plus utile ici. [[forme-machine|**Machine**]] : on touche, on
+      clique, on fait défiler. [[forme-sociale|**Sociale**]] : on échange avec
+      d'autres autour du contenu. [[forme-collaborative|**Collaborative**]] : le
+      public participe à la construction de l'œuvre.
+
+      Elle sert de définition large dans
+      [l'introduction du panorama](/panorama/introduction), et on la retrouve prise
+      par l'autre bout dans [avec qui le public interagit](/panorama/interlocuteurs),
+      qui range les œuvres du site selon ces trois cases.
+    </markdown>
+  </section>
+
+  <section title="Deux réserves avant de le lire">
+    <markdown>
+      Il écrit pour des professionnels, et ça s'entend : modèles économiques,
+      diffuseurs, « engagement d'audience ». Le vocabulaire est celui de l'industrie
+      culturelle. Les outils d'analyse valent d'être pris ; la posture, moins.
+
+      Et il refuse la bagarre que ce site mène. Aucun créateur interactif n'a
+      déclaré la guerre aux contenus linéaires, écrit-il : « il ne s'agit pas d'un
+      conflit mais bien d'une nouvelle proposition de valeur ». Sur les faits, il a
+      raison. Ce site défend quand même autre chose, et les deux positions se
+      comprennent : la sienne est celle d'un milieu qui doit travailler avec tout le
+      monde, l'autre celle d'un terrain où les plans qui s'enchaînent ont déjà été
+      longuement enseignés.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</personne>

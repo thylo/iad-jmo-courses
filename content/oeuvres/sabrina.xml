@@ -1,0 +1,57 @@
+<oeuvre id="sabrina" statut="en-ligne">
+  <titre>Sabrina</titre>
+  <annee>2018</annee>
+  <par>Nick Drnaso</par>
+  <url>https://www.presquelune.com/sabrina</url>
+  <categorie>Fiction</categorie>
+
+  <resume>Une femme disparaît. Une vidéo de son meurtre circule. À partir de là, le deuil de ses proches devient du carburant pour une machine complotiste qui les harcèle. Le dessin est plat, sans affect, presque administratif — et c'est ce refus d'émotion qui oblige le lecteur à fournir la sienne.</resume>
+
+  <visuel src="sabrina.jpg"
+          alt="Trois exemplaires du livre posés debout, l'un ouvert en éventail ; la couverture rose et rouge montre un visage de profil au-dessus d'un rang de silhouettes noires."
+          credit="Presque Lune"
+          source="https://www.presquelune.com/sabrina"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le dessin ne joue pas la scène.** Visages sans expression, corps
+      minuscules dans des pièces vides, couleurs de formulaire. Là où une bande
+      dessinée ordinaire indiquerait la douleur par un cadrage ou un trait, celle-ci
+      laisse la case telle quelle. Le lecteur projette ce que la page lui refuse, et
+      c'est le seul endroit où l'émotion se produit.
+
+      **Le vide est du temps.** Des planches entières de gestes sans importance :
+      remplir un verre, regarder un écran, conduire. Ce qui serait coupé ailleurs
+      occupe la place, et c'est ce qui rend la durée du deuil sensible. Même parti
+      pris que [[adolescence|Adolescence]], obtenu avec le contraire d'un
+      plan-séquence.
+
+      **La désinformation est montrée par le canal, pas par le discours.** On
+      entend une radio, on lit un forum, on reçoit des messages. Aucun personnage
+      n'explique le complotisme : on voit seulement des gens ordinaires se faire
+      atteindre, un fichier à la fois. C'est plus efficace que n'importe quel
+      documentaire sur le sujet.
+
+      **La grille est une horloge.** Le découpage régulier, presque toujours le
+      même, impose un tempo neutre à des événements qui ne le sont pas. La forme
+      refuse de hiérarchiser, et cette absence de hiérarchie est le propos.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      C'est éprouvant, et le livre n'offre aucune récompense : pas de résolution,
+      pas de justice, pas de soulagement final. Le proposer à un groupe sans
+      prévenir est une mauvaise idée.
+
+      Et la froideur du dessin peut se lire comme un maniérisme. La ligne entre
+      « le style produit l'effet » et « le style tient lieu d'effet » est mince,
+      et elle vaut la peine d'être discutée plutôt que tranchée.
+
+      Premier roman graphique retenu dans la longue liste du Booker Prize, en
+      2018. Traduit en français chez Presque Lune.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

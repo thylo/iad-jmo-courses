@@ -1,0 +1,35 @@
+/* A Spotify embed — what <spotify id="…"/> renders.
+
+   The problem here is not styling the player: it is an iframe on someone
+   else's origin and nothing in this file reaches inside it. What the component
+   owns is the width it is given, and it is given the measure — the player runs
+   the full width of the text it sits in, like every other block.
+
+   The sibling of video.css, with one difference: the player has no ratio, it
+   has a height. 154px rather than Spotify's 152 — five and a half units, so
+   the block still lands on the baseline, and two pixels over their compact
+   threshold changes nothing about what they draw. */
+
+.c-spotify {
+  max-width: var(--measure-text);
+  margin-block: var(--space-l);
+  margin-inline: 0;
+}
+
+/* The rounded corner is Spotify's own — their embed paints its background to
+   the very edge, so square corners would make it read as a screenshot pasted
+   in rather than as a player. */
+.c-spotify__player {
+  display: block;
+  width: 100%;
+  height: 9.625rem;   /* 154 */
+  border: 0;
+  border-radius: 12px;
+}
+
+.c-spotify__caption {
+  margin-block-start: var(--space-s);
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-ink-faint);
+}

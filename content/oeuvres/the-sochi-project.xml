@@ -1,0 +1,48 @@
+<oeuvre id="the-sochi-project" statut="en-ligne">
+  <titre>The Sochi Project</titre>
+  <annee>2013</annee>
+  <par>Rob Hornstra</par>
+  <par>Arnold van Bruggen</par>
+  <url>http://thesochiproject.org/</url>
+  <categorie>Documentaire</categorie>
+  <concept ref="structure-constellation"/>
+  <concept ref="interface-galleries"/>
+
+  <resume>Sept ans de reportage sur Sotchi et le Caucase, de 2007 jusqu'aux Jeux olympiques de 2014 : la station balnéaire, les villages abkhazes, les vallées d'où la guerre n'est jamais partie. Le site publie l'ensemble en huit chapitres, en trois langues, photographies de Rob Hornstra et textes d'Arnold van Bruggen. Financé par plus de six cent cinquante abonnés donnant de dix à quinze cents euros par an.</resume>
+
+  <visuel src="the-sochi-project.jpg"
+          alt="Vue de Sotchi au crépuscule : un viaduc à arches blanches traverse un vallon, des immeubles blancs et des toits de tôle escaladent la colline jusqu'aux montagnes, un parking éclairé au premier plan."
+          credit="Rob Hornstra / The Sochi Project"
+          source="http://thesochiproject.org/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Le financement est la forme.** Pas de commanditaire, pas de rédaction : des
+      abonnés qui paient chaque année pour que le travail continue, et reçoivent les
+      livraisons. Ça décide de tout le reste — la durée, le sujet, l'absence
+      d'actualité à suivre. Le modèle économique est ici l'objet le plus
+      intéressant à faire étudier.
+
+      **Sept ans sur un lieu qui n'intéressait personne.** Le projet commence deux
+      ans après l'attribution des Jeux et se termine avec eux. Ce n'est pas une
+      couverture d'événement : c'est un compte à rebours documenté depuis le
+      début, ce qu'aucun calendrier de rédaction n'autorise.
+
+      **La navigation par chapitres refuse le fil d'actualité.** Huit entrées
+      thématiques et géographiques, pas une chronologie de publication. Le site est
+      construit comme un ouvrage — voir [[interface-galleries]] — et il se lit
+      aussi bien dix ans après.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le site est en HTTP simple, sans certificat, et les navigateurs récents
+      commencent à s'en plaindre. Une œuvre web maintenue sept ans par deux
+      personnes finit par dépendre de conventions techniques qui bougent sous elle,
+      même quand plus personne n'y touche.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

@@ -1,0 +1,262 @@
+<page id="poids-du-choix">
+  <titre>Le poids d'un choix</titre>
+  <resume>Trois degrés de liberté, deux dispositifs qui annulent tout, et la question du
+    nombre. À quelles conditions une décision pèse sur celui qui la prend.
+  </resume>
+
+  <preamble>
+    La page d'à côté range les choix en trois tiroirs :
+    [rationnel, exploratoire, faux](/panorama/choix). Celle-ci pose l'autre question,
+    qui n'est pas la même : une fois le choix reconnu comme vrai, qu'est-ce qui fait
+    qu'il pèse ?
+  </preamble>
+
+  <note title="D'où viennent ces outils">
+    <markdown>
+      De la lecture du mémoire de Louise Guillaume, *L'expérience émotionnelle du
+      joueur dans les jeux vidéo* (IAD, 2026, promoteur Thomas Henrion), dont j'étais
+      lecteur interne, et surtout des sources qu'elle réunit, le philosophe Cédric
+      Astay en tête.
+
+      Le jeu vidéo est une forme parmi d'autres, et ce n'est pas celle qui nous occupe
+      ici. Mais c'est celle où l'on a le plus étudié ce que ça fait de décider, parce
+      qu'elle en avait les moyens et le public. Les outils qui suivent viennent de là ;
+      les exemples viennent d'ailleurs, et c'est là qu'on vérifie s'ils tiennent.
+    </markdown>
+  </note>
+
+  <section title="Trois degrés de liberté">
+    <markdown>
+      Astay distingue trois niveaux de liberté qu'une œuvre peut accorder. La
+      distinction manquait à ce site, et elle ne parle pas que de jeu.
+
+      **La liberté mécanique.** Quel bouton presser, quel chemin emprunter. La décision
+      est réelle, elle n'a aucune portée. C'est le webdoc où le seul geste possible est
+      de choisir l'ordre des chapitres, ou la frise qu'on fait défiler dans un sens
+      plutôt que dans l'autre. Astay pousse l'argument jusqu'au bout : ce qui distingue
+      un dispositif de ce niveau d'un autre relève de l'habillage, pas de la structure.
+
+      **La fin alternative.** Deux dénouements, un bon et un mauvais, annoncés à
+      l'avance. Astay y voit un argument de vente plutôt qu'un dispositif moral, et
+      c'est vérifiable sans quitter cette page : la fiche de
+      [Late Shift](/oeuvres/late-shift) annonce « 180 points de décision, 7 fins »,
+      [Bandersnatch](/oeuvres/bandersnatch) a fait sa communication sur le nombre des
+      siennes. Le compte des fins est une promesse commerciale. Il ne dit rien de ce
+      que ça fait d'en atteindre une.
+
+      **Le choix qui engage.** Il ne suffit pas qu'il soit présenté comme important. Il
+      faut qu'il s'inscrive dans un réseau cohérent qui pèse sur l'ensemble, au lieu
+      d'être une succession d'options sans lien entre elles.
+      [Jeu d'influences](/oeuvres/jeu-d-influences) en est le cas net : on n'y choisit
+      pas entre deux branches, on accepte ou on refuse le conseil d'un communicant de
+      crise, et la partie renvoie ensuite ce que ces acceptations disent de celui qui
+      les a prises. Ce n'est pas l'histoire qui est jugée, c'est lui.
+
+      Ce qui sépare le deuxième degré du troisième n'est donc pas le nombre de
+      branches. C'est de savoir si les décisions se souviennent les unes des autres,
+      ce que fait une [structure à état](/cours/concepts/structure-a-etat), et ce que
+      [80 Days](/oeuvres/80-days) fait tenir dans une liste de faits plutôt que dans un
+      arbre.
+    </markdown>
+  </section>
+
+  <section title="L'inverse marche aussi">
+    <markdown>
+      Astay note le cas symétrique, et il est plus dérangeant : on peut produire un
+      fort sentiment d'autonomie dans un parcours entièrement fixé. Ce n'est pas la
+      présence de choix qui compte, c'est la capacité du récit à faire adhérer
+      volontairement le public au chemin qu'on lui impose.
+
+      Le défilement est notre version à nous. [Phallaina](/oeuvres/phallaina) se lit en
+      poussant l'image vers la gauche pendant une heure : la main travaille, la
+      séquence ne bouge pas d'un pouce. Le lecteur conduit sans rien décider, et
+      l'histoire ne s'en porte pas plus mal.
+
+      C'est ce que fait tout [récit linéaire](/cours/concepts/structure-lineaire)
+      réussi, et de quoi ne pas croire qu'il faut brancher pour impliquer.
+    </markdown>
+  </section>
+
+  <section title="Deux dispositifs qui annulent tout">
+    <markdown>
+      Astay identifie deux mécaniques capables de vider une décision de son poids même
+      dans les œuvres les plus ambitieuses. Il les décrit sur son terrain ; elles se
+      retrouvent sur le nôtre presque sans traduction.
+
+      **Pouvoir revenir en arrière.** Recharger une partie retire au choix ses deux
+      qualités essentielles. Astay s'appuie ici sur Hannah Arendt : ce qui fait la
+      difficulté d'un dilemme réel, c'est qu'il est imprévisible et irréversible. Si on
+      sait qu'on pourra recommencer dès qu'une conséquence déplaît, l'investissement est
+      neutralisé d'avance.
+
+      Sur le web, ce dispositif s'appelle le bouton retour du navigateur. Il est là par
+      défaut, personne ne l'a décidé, et il annule silencieusement le poids de tout ce
+      qui est écrit au-dessus.
+
+      **Reprendre les commandes.** Les séquences où le public perd la main, en général
+      au moment le plus dramatique. Elles ont une fonction de soulagement : si ça tourne
+      mal pendant qu'on regarde, ce n'est pas parce qu'on a mal joué. D'où le
+      corollaire, qui est l'information utile : la culpabilité est plus forte dans les
+      œuvres qui laissent les commandes au moment du drame, plutôt que de les retirer.
+
+      Chez nous : la vidéo qu'on ne peut pas interrompre, la transition qui joue jusqu'au
+      bout, le chapitre qui s'enchaîne tout seul.
+      [Êtes-vous prêt à sauver une vie ?](/oeuvres/etes-vous-pret-a-sauver-une-vie) en
+      donne la version extrême. À chaque mauvaise réponse, l'œuvre reprend la main et
+      rejoue la scène jusqu'à ce que la bonne tombe. L'échec n'est jamais permis, donc
+      rien de ce qui est fait ne coûte quoi que ce soit.
+    </markdown>
+
+    <markdown>
+      Ce sont deux décisions de conception, pas deux fatalités. Et le hors-ligne le
+      montre mieux que l'écran, parce que l'irréversibilité y est physique et ne
+      demande pas une ligne de code.
+
+      [Alice is Missing](/oeuvres/alice-is-missing) se joue en quatre-vingt-dix minutes
+      de temps réel, en silence, par messages : ce qui est envoyé est envoyé, et la
+      seule façon de revenir en arrière serait d'arrêter la partie devant tout le monde.
+      Le chronomètre d'[Unlock!](/oeuvres/unlock) tourne pour de vrai. Sur la table de
+      [Cartaventura](/oeuvres/cartaventura), la carte retournée est retournée : l'état du
+      récit est étalé devant cinq personnes, et on ne rembobine pas sous les yeux d'un
+      groupe.
+
+      Aucune de ces œuvres n'a eu besoin d'interdire le retour en arrière. Elles ont
+      rendu son coût social visible, ce qui revient au même et coûte beaucoup moins cher.
+    </markdown>
+
+    <note title="Ce que les gens en font quand ils le peuvent">
+      <markdown>
+        Dans le questionnaire de Louise Guillaume (cinquante joueurs, aucune prétention
+        de représentativité), **86 % ont déjà rechargé une sauvegarde pour obtenir un
+        autre résultat** et **88 % ont déjà regretté une décision**. Les deux chiffres
+        vont ensemble : le regret est réel, et la première chose qu'on fait avec, c'est
+        de l'annuler.
+
+        Plus intéressant, **62 % cherchent parfois sur Internet les conséquences d'un
+        choix avant de le faire**. Deux publics, donc, et ils ne consomment pas la même
+        œuvre : ceux qui acceptent les conséquences, et ceux qui les anticipent pour
+        n'avoir rien à regretter. Le second groupe est devant n'importe quelle œuvre,
+        et il a déjà lu les commentaires.
+      </markdown>
+    </note>
+  </section>
+
+  <section title="Le nombre n'est pas le poids">
+    <markdown>
+      Multiplier les choix n'augmente pas l'implication. Passé un certain seuil, ça
+      produit l'inverse : une paralysie décisionnelle, une charge qui épuise avant
+      d'engager.
+
+      Le critère est simple. Un choix entre deux options aux effets quasi identiques
+      n'est pas un choix signifiant. Une réplique supplémentaire sans effet sur la suite
+      non plus. C'est une tâche fastidieuse déguisée en décision, et le public le sent
+      avant de savoir le nommer.
+
+      Astay conclut que c'est la cohérence et la portée narrative d'un choix, bien plus
+      que sa présence ou son nombre, qui déterminent son poids réel. Les deux annonces
+      se comparent : [Late Shift](/oeuvres/late-shift) affiche cent quatre-vingts points de
+      décision, [Cartaventura](/oeuvres/cartaventura) tient dans une boîte de poche avec
+      cinq fins et n'a jamais prétendu à davantage. La seconde promesse est tenable.
+
+      C'est le conseil qui revient partout sur ce site, et il vient d'être redémontré
+      par un autre chemin : **peu de choix, mais qui comptent.**
+    </markdown>
+  </section>
+
+  <section title="Ce que les gens choisissent quand on les laisse faire">
+    <markdown>
+      Reste une question que personne ne se pose avant d'avoir produit les branches :
+      qui va les voir ?
+
+      Bioware a mesuré, sur *Mass Effect: Legendary Edition*, que certains choix
+      bienveillants atteignaient des taux d'adoption avoisinant les 90 %. Le poids
+      affectif accordé à un personnage pèse plus lourd, dans la décision, que la
+      recherche d'un résultat optimal. Les gens sont gentils, massivement, quand on leur
+      laisse le choix de l'être.
+
+      Sauf que [Do Not Draw a Penis](/oeuvres/do-not-draw-a-penis) mesure exactement la
+      même chose (ce qu'une foule fait d'une liberté) et trouve le contraire. Un canvas
+      partagé, une seule interdiction, et tout le monde s'y met.
+
+      Les deux résultats sont vrais, et c'est ce qui rend la paire utile. Ce n'est pas
+      la nature humaine qui décide, c'est le dispositif : ce qu'il rend visible, ce
+      qu'il coûte, et qui regarde faire. La conséquence pratique tient en une phrase :
+      **la répartition d'un public ne se devine pas, donc un budget qui la suppose
+      égale est un budget faux.** Soit une branche est assumée comme vue par une
+      personne sur dix, et c'est le prix de la promesse ; soit l'effort se déplace là
+      où tout le monde passera.
+    </markdown>
+  </section>
+
+  <section title="Changer le regard sans changer la destination">
+    <markdown>
+      Le trio de la page voisine (rationnel, exploratoire, faux) laisse un cas dehors,
+      et il est plus fréquent que les trois autres réunis.
+
+      Un choix peut ne rien changer à ce qui arrive, et tout changer à la façon dont on
+      le lit. C'est ce que fait [Jeu d'influences](/oeuvres/jeu-d-influences) : l'affaire
+      suit son cours, le scandale est ce qu'il est, et ce qui se transforme est la
+      position qu'on y occupe. On découvre à la fin jusqu'où on était prêt à aller. Même
+      geste dans le documentaire : choisir par qui commencer dans
+      [Gaza / Sderot](/oeuvres/gaza-sderot) ne change pas un fait des quarante jours
+      filmés, ça change de quel côté on était installé pour les recevoir. Le mémoire
+      en donne l'équivalent côté jeu. Dans *Red Dead Redemption 2*, le personnage meurt
+      quoi qu'on fasse, et les décisions ne pilotent que la manière dont on le regarde
+      mourir.
+
+      Ce n'est pas un faux choix. Un faux choix ment sur ce qu'il promet ; celui-ci n'a
+      jamais promis que l'intrigue bougerait. Il promet autre chose, et il le tient.
+      C'est d'ailleurs ce que
+      [Êtes-vous prêt à sauver une vie ?](/oeuvres/etes-vous-pret-a-sauver-une-vie)
+      aurait pu revendiquer sans rien produire de plus : en secourisme, la seule fin
+      acceptable est celle où la victime survit. Il suffisait de le dire.
+
+      D'où une quatrième question à poser à une œuvre, en plus des trois autres : ce
+      choix change-t-il l'intrigue, l'état du monde, ou ma lecture de ce qui arrive ? La
+      troisième réponse est de très loin la moins chère à produire. C'est souvent la
+      seule tenable à l'échelle d'un projet d'atelier.
+    </markdown>
+  </section>
+
+  <section title="En atelier">
+    <markdown>
+      Le psychologue Octavio Ortega Esteban appelle « gaming intentionnel » le fait de
+      se demander consciemment, avant de décider, pourquoi on décide et ce qu'on attend
+      du résultat. L'idée servait au départ à réguler le temps de jeu. Elle se détourne
+      très bien en outil d'analyse, et elle marche sur n'importe quelle œuvre où le
+      public tranche : un webdoc, un escape game, un livre-jeu, une table.
+
+      L'exercice tient en trois colonnes et une règle : on ne revient pas en arrière.
+      Devant chaque choix proposé, avant de trancher, chacun note ce qu'il croit que ça
+      va changer, et pourquoi il prend celui-là. Après coup, on note ce qui a
+      effectivement changé.
+
+      L'écart entre la colonne du milieu et celle de droite est la mesure la plus
+      honnête qu'on ait de la distance entre ce qu'une œuvre promet et ce qu'elle
+      délivre. C'est le même test que
+      [refaire le parcours à l'envers](/panorama/choix), pris par l'autre bout : celui-ci
+      se fait au premier passage, et il enregistre l'attente avant qu'elle soit déçue.
+
+      À faire sur l'œuvre d'un autre, puis sur la sienne, avant de la défendre.
+    </markdown>
+  </section>
+
+  <section title="Les sources">
+    <markdown>
+      Tout ce qui précède vient du chapitre II du mémoire cité plus haut et de ses
+      références. Elles portent sur le jeu vidéo, elles valent d'être lues directement,
+      et rien n'y interdit de les emporter ailleurs.
+
+      - Cédric Astay,
+        [Morale, délibération et responsabilité dans les jeux vidéo](https://www.implications-philosophiques.org/morale-deliberation-et-responsabilite-dans-les-jeux-video-12/),
+        *Implications philosophiques* : les trois degrés, le retour en arrière, la perte
+        de contrôle, et Arendt
+      - Ezequiel Bruni,
+        [Le maître du jeu : psychologie du choix dans les jeux vidéo](https://www.cyberghostvpn.com/fr/privacyhub/psychology-player-choice-games/) :
+        les taux d'adoption mesurés par Bioware
+      - Octavio Ortega Esteban,
+        [Psychologie des jeux vidéo](https://cyberpsychologie.net/la-psychologie-des-jeux-video/) :
+        le gaming intentionnel
+    </markdown>
+  </section>
+</page>

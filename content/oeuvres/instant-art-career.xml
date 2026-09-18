@@ -1,0 +1,40 @@
+<oeuvre id="instant-art-career" statut="en-ligne">
+  <titre>Instant Art Career</titre>
+  <annee>2013</annee>
+  <par ref="niklas-roy"/>
+  <par>Kati Hyyppä</par>
+  <url>https://www.niklasroy.com/project/156/InstantArtCareer</url>
+  <categorie>Installation</categorie>
+  <categorie>Urbain</categorie>
+  <voir ref="my-little-piece-of-privacy"/>
+  <voir ref="graffomat"/>
+
+  <resume>Une galerie vide de Katowice, dont la devanture est ouverte sur la rue. À l'intérieur, une machine à peindre entièrement mécanique ; à l'extérieur, trois cordes qui pendent sur le trottoir, étiquetées X, Y et « malować » — peindre. Les passants tirent, la machine peint. À la fin de la semaine, les toiles ont été vendues aux enchères et le produit partagé. Festival de street art de Katowice, 2013.</resume>
+
+  <visuel src="instant-art-career.jpg"
+          alt="Une devanture peinte en rouge où on lit « Your Art Gallery » ; sur le trottoir, des passants tirent sur des cordes suspendues étiquetées X, Y et « malować »"
+          credit="Niklas Roy"
+          source="https://www.niklasroy.com/project/156/InstantArtCareer"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Trois cordes, et tout est compris.** Pas d'écran, pas de moteur, pas de
+      notice : on voit la corde entrer dans le bâtiment, on tire, quelque chose
+      bouge de l'autre côté. La transparence mécanique fait le travail qu'une
+      interface passe son temps à essayer de faire, et un enfant de six ans y entre
+      aussi vite qu'un ingénieur.
+
+      **Il faut être trois.** Un axe par corde : personne ne peut peindre seul. La
+      coopération n'est pas encouragée par une règle, elle est imposée par la
+      physique du dispositif — c'est la façon la plus solide d'obtenir un
+      comportement collectif.
+
+      **La vente est la chute.** Ce qui aurait pu rester un jouet de rue devient,
+      par la mise aux enchères et le partage des recettes, une question sur la façon
+      dont une signature transforme un geste en valeur. La blague du titre est aussi
+      l'argument.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

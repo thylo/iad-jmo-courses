@@ -1,0 +1,40 @@
+/* The baseline, made visible. A grid nobody can check drifts in three commits.
+
+   Off by default and switched on from the console or a bookmarklet:
+
+     document.documentElement.classList.toggle("u-baseline")
+
+   One line every 28px, a stronger one every four — 112px, the step between
+   two sections. It starts at the top edge of the page, and the canvas opens
+   on exactly one unit of white, so everything that follows lands on a line.
+
+   What to look for: lines of text sit IN the bands, they do not straddle
+   them. A block that starts half a band low is a vertical value that is not
+   on the scale, or a line box expressed as a ratio.
+
+   Painted on the body's ::after rather than on a wrapper: no element to add to
+   the markup, nothing to remember to remove, and it cannot ship by accident
+   since only the class turns it on. Absolute rather than fixed, so the grid
+   scrolls WITH the page — a fixed overlay would sit still and only ever check
+   the first screen. */
+
+.u-baseline body { position: relative; }
+
+.u-baseline body::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9;
+  background-image:
+    repeating-linear-gradient(
+      to bottom,
+      oklch(58% 0.19 38 / 0.16) 0 1px,
+      transparent 1px var(--space-unit)
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      oklch(58% 0.19 38 / 0.34) 0 1px,
+      transparent 1px calc(var(--space-unit) * 4)
+    );
+}

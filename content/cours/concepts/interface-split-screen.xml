@@ -1,0 +1,102 @@
+<concept id="interface-split-screen">
+  <titre>L'écran partagé</titre>
+  <genre>interface</genre>
+  <exemple ref="gaza-sderot"/>
+  <exemple ref="alma"/>
+  <exemple ref="flashback-zombie-kidz"/>
+  <voir ref="structure-parallele"/>
+  <voir ref="role-fantome"/>
+
+  <resume>Deux images à la fois. Ne se justifie que si la simultanéité est le sujet — sinon le montage fait mieux, depuis un siècle.</resume>
+
+  <section title="Définition">
+    <markdown>
+      L'écran montre en même temps ce qu'un film montrerait l'un après l'autre. Le
+      spectateur compare au lieu de se souvenir.
+
+      C'est l'interface la plus exigeante du lot, parce qu'elle entre en concurrence
+      directe avec le montage — un outil vieux d'un siècle, parfaitement maîtrisé, et
+      meilleur dans presque tous les cas. Elle ne gagne que sur
+      un terrain : quand la simultanéité elle-même est l'information.
+    </markdown>
+  </section>
+
+  <section title="Schéma">
+    <markdown>
+      ```
+      Montage                          Écran partagé
+
+      ┌────┐  puis  ┌────┐             ┌────┬────┐
+      │ A  │ ─────► │ B  │             │ A  │ B  │
+      └────┘        └────┘             └────┴────┘
+
+      « il s'est passé A,              « pendant que A,
+        puis B »                          B »
+
+      C'est l'auteur qui décide        C'est le spectateur qui
+      de la comparaison                décide où regarder — et
+                                       ce qu'il rate en le faisant
+      ```
+    </markdown>
+  </section>
+
+  <section title="Le cas qui le justifie">
+    <markdown>
+      [[gaza-sderot]] filme deux villes séparées par quelques kilomètres et une
+      frontière, pendant quarante jours, à la même heure chaque jour. Le dispositif
+      tient entièrement dans le partage de l'écran : le sujet n'est aucune des deux
+      vies, c'est le fait qu'elles se déroulent en même temps.
+
+      Aucun montage ne dit ça. Alterner produirait une comparaison, pas une
+      simultanéité — et surtout, alterner voudrait dire choisir l'ordre, donc prendre
+      parti. L'écran partagé refuse cette décision, et ce refus est le propos.
+
+      [[flashback-zombie-kidz]] en donne la version cartonnée : une scène figée, vue
+      par les yeux de chaque personnage qui s'y trouve. Presque aucun texte. Le récit
+      tient au montage que les joueurs font entre les points de vue — et c'est en
+      posant les cartes côte à côte, sur une table, que ça se joue.
+    </markdown>
+  </section>
+
+  <section title="Ce que ça coûte">
+    <markdown>
+      **Le spectateur rate la moitié.** C'est structurel : deux images valent une
+      demi-attention chacune. Il faut soit accepter que rien d'essentiel ne se joue
+      des deux côtés en même temps, soit faire de ce ratage le sujet.
+
+      **Le son ne se partage pas.** Deux images cohabitent, deux bandes-son se
+      détruisent. Il faut trancher, et ce choix est plus lourd que le choix visuel.
+
+      **Deux, pas quatre.** Au-delà de deux fenêtres, on ne compare plus, on
+      surveille — ce qui est un autre sujet, et un sujet intéressant, mais qu'il faut
+      assumer comme tel.
+    </markdown>
+  </section>
+
+  <section title="Erreurs courantes">
+    <markdown>
+      - Partager l'écran pour « montrer plus » : c'est en montrer moins, deux fois
+      - Deux images qui ne se répondent pas. Sans rapport entre elles, la division
+        est décorative
+      - Laisser les deux bandes-son tourner
+      - Sur mobile : deux fenêtres côte à côte sur un écran de six pouces ne sont plus
+        deux fenêtres, ce sont deux vignettes
+    </markdown>
+  </section>
+
+  <section title="En pratique">
+    <markdown>
+      **Écrire la question, pas le dispositif.** « Que se passe-t-il ailleurs pendant
+      cette scène ? » est un point de départ ; « je voudrais faire un split screen »
+      n'en est pas un.
+
+      **La main sur le son.** Laisser le spectateur choisir quelle fenêtre il entend
+      est la solution la plus simple, et elle rend le partage actif.
+
+      **Une seule séquence peut suffire.** L'écran partagé se réserve : utilisé
+      partout, il perd exactement ce qui le rendait signifiant.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

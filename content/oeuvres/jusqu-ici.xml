@@ -1,0 +1,61 @@
+<oeuvre id="jusqu-ici" statut="en-ligne">
+  <titre>Jusqu'ici</titre>
+  <annee>2015</annee>
+  <par>Vincent Morisset</par>
+  <par>Caroline Robert</par>
+  <par>Édouard Lanctôt-Benoit</par>
+  <par ref="onf"/>
+  <url>https://www.aatoaa.com/jusquici/</url>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-lineaire"/>
+  <concept ref="role-fantome"/>
+  <concept ref="interface-gestural"/>
+
+  <resume>Une promenade animée à la main, où l'on avance en touchant l'image : on écarte les branches, on fait tomber la neige, on réveille ce qui dort. Du dessin, de la vidéo à 360°, de la musique de Philippe Lambert, et du code. Imaginé par Vincent Morisset, Caroline Robert et Édouard Lanctôt-Benoit du studio AATOAA, produit par l'ONF avec France Télévisions, mis en ligne le 5 février 2015.</resume>
+
+  <visuel src="jusqu-ici.jpg"
+          alt="Illustration : une silhouette humaine blanche, sans visage, marche à travers un paysage aplati de bleu vif et de brun où serpentent des chemins blancs"
+          credit="Office national du film du Canada"
+          source="https://collection.onf.ca/interactif/jusquici/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le geste caresse au lieu de commander.** On ne clique pas sur des options : on
+      passe la main sur une image dessinée et elle réagit. Rien n'est jamais demandé,
+      rien n'est jamais raté. C'est un [[interface-gestural|geste]] employé pour
+      produire une sensation, pas pour trancher — usage rare, et le plus difficile à
+      défendre en réunion.
+
+      **Le récit ne bifurque pas.** La promenade est
+      [[structure-lineaire|entièrement écrite]] : ce qu'on décide, c'est le rythme et
+      l'endroit où l'on pose les doigts. À rapprocher de [[phallaina]] et de
+      [[the-boat]] — trois œuvres qui donnent une main très occupée et aucune décision,
+      et qui tiennent parfaitement debout.
+
+      **Même auteur que [[just-a-reflektor]].** Vincent Morisset travaille depuis 2007
+      sur la même question : comment le corps du spectateur entre dans une image sans
+      qu'on lui demande de choisir quoi que ce soit. Voir les deux à la suite vaut un
+      cours.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      **L'adresse de l'ONF ne répond plus.** Toute la collection interactive de
+      l'Office national du film renvoie une erreur serveur, et [[highrise]] est
+      tombé avec. Ce qui reste debout, c'est la copie hébergée par AATOAA, le
+      studio qui a fait la pièce : le diffuseur public a laissé son catalogue
+      s'éteindre, les trois auteurs ont gardé la leur en ligne. À citer chaque fois
+      qu'on suppose qu'une institution est le support le plus sûr.
+
+      Il n'y a pas d'histoire au sens où l'entendent des étudiants en cinéma : ni
+      personnage, ni conflit, ni fin. C'est une traversée sensible, et une partie de la
+      classe conclura qu'il ne s'y passe rien. C'est précisément la discussion à avoir.
+
+      À signaler aussi : ce n'est pas un film à embranchements, contrairement à ce que
+      son voisinage pourrait laisser croire. Rien n'y bifurque jamais.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

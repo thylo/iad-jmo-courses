@@ -1,0 +1,34 @@
+<oeuvre id="popup-trombone" statut="en-ligne">
+  <titre>Popup Trombone</titre>
+  <annee>2019</annee>
+  <par>Matthew Rayfield</par>
+  <url>https://matthew.rayfield.world/</url>
+  <categorie>Expérimentation</categorie>
+  <concept ref="interface-gestural"/>
+
+  <resume>Un trombone dont on joue en redimensionnant une fenêtre pop-up. La fenêtre s'allonge, la note descend ; on la raccourcit, elle remonte. L'auteur prévient lui-même que ça ne ressemble pas vraiment à un trombone. Code ouvert, ça tourne encore.</resume>
+
+  <visuel src="popup-trombone.jpg"
+          alt="Page jaune quadrillée : sous le titre « Popup Trombone », un trombone dessiné au trait tient dans le cadre d'une fenêtre de navigateur, avec la consigne « click above to open, then resize popup to play »"
+          credit="Matthew Rayfield"
+          source="https://matthew.rayfield.world/goodies/popup-trombone"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **La coulisse est la fenêtre.** Le geste de l'instrument et le geste de
+      l'interface sont le même : on tire, on pousse. C'est la définition la plus courte
+      qu'on ait d'un [[interface-gestural|geste qui correspond]] — et elle tient dans un
+      élément de navigateur que tout le monde déteste.
+
+      **Ça détourne au lieu d'ajouter.** Rien n'est construit ici : une pop-up, une
+      poignée de redimensionnement et un son. La contrainte du navigateur n'est pas
+      contournée, elle est jouée. À opposer à tout projet qui commence par une liste
+      de choses à développer.
+
+      **C'est petit, fini, en ligne.** Une idée, tenue jusqu'au bout, publiée, et
+      toujours jouable des années après. Voir [[neal-fun]] pour le même régime.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

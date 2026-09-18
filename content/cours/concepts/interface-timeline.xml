@@ -1,0 +1,87 @@
+<concept id="interface-timeline">
+  <titre>La frise du temps</titre>
+  <genre>interface</genre>
+  <exemple ref="the-fallen-of-world-war-ii"/>
+  <exemple ref="heredity"/>
+  <exemple ref="welcome-to-pine-point"/>
+  <voir ref="interface-maps"/>
+  <voir ref="structure-concentrique"/>
+
+  <resume>Le temps devient un espace qu'on parcourt. Ne se justifie que si l'écart entre deux dates est lui-même l'information.</resume>
+
+  <section title="Définition">
+    <markdown>
+      Les événements sont posés sur un axe, et on s'y déplace. C'est la cousine de
+      [[interface-maps|la carte]], avec une dimension au lieu de deux, et elle pose
+      exactement la même question : **est-ce que l'écart entre deux points veut dire
+      quelque chose ?**
+
+      Si oui, la frise est irremplaçable : elle montre d'un coup ce qu'un texte met
+      trois paragraphes à établir. Si non, c'est une liste posée à l'horizontale.
+    </markdown>
+  </section>
+
+  <section title="Schéma">
+    <markdown>
+      ```
+      Frise-sommaire                   Frise qui raconte
+
+      ├──●──●──●──●──●──┤              ├─●─●─●───────────────●┤
+        ch.1 2  3  4  5                 ▲▲▲                  ▲
+                                        │││                  │
+      points équidistants :             trois ans            puis rien
+      le temps n'informe pas            de tout              pendant vingt
+                                                             ans
+                                        l'écart EST le récit
+      ```
+    </markdown>
+  </section>
+
+  <section title="Quand l'écart est le sujet">
+    <markdown>
+      [[the-fallen-of-world-war-ii]] est le cas majeur. Le film empile les morts de la
+      guerre en barres qui montent, et le choc ne vient pas des chiffres : il vient de
+      voir combien de temps la barre soviétique continue de monter après que les
+      autres se sont arrêtées. Puis le film s'arrête et laisse fouiller. La durée est
+      l'argument.
+
+      [[welcome-to-pine-point]] fait l'inverse : une ville minière démontée et emportée
+      par camions, reconstituée à partir des albums photo de ceux qui y vivaient. La
+      frise n'y sert pas à mesurer, elle sert à ce qu'on sente qu'il y a eu un avant et
+      qu'il n'y a pas d'après.
+
+      Et [[heredity]] montre qu'une frise n'a besoin d'aucun écran. Un sablier avance
+      sur une bande de carton, les joueurs y accrochent des cartes, et ces cartes se
+      déclenchent quand il passe dessus. C'est une file d'événements différés, posée à
+      plat, visible par toute la table — la structure de données rendue jouable parce
+      qu'elle est rendue visible.
+    </markdown>
+  </section>
+
+  <section title="Erreurs courantes">
+    <markdown>
+      - Espacer les points régulièrement. C'est le geste qui tue la frise : si dix ans
+        et dix minutes occupent la même largeur, l'axe ne dit plus rien
+      - Faire une frise pour un récit qui n'a pas de chronologie
+      - Confondre la frise et le sommaire. Numéroter des chapitres sur une ligne
+        n'est pas raconter par le temps
+      - Oublier l'échelle sur mobile : une frise large devient un défilement
+        horizontal, c'est-à-dire le geste que personne ne fait spontanément
+    </markdown>
+  </section>
+
+  <section title="En pratique">
+    <markdown>
+      **Respecter les proportions, ou assumer de les casser.** Les deux sont
+      défendables ; ce qui ne l'est pas, c'est de ne pas y avoir pensé.
+
+      **Le vide est du contenu.** Une longue portion sans rien est souvent la chose la
+      plus éloquente de la frise.
+
+      **Une frise se combine bien avec une carte.** Où et quand sont deux axes ; les
+      croiser demande peu de production et raconte beaucoup.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

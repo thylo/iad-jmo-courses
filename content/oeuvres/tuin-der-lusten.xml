@@ -1,0 +1,74 @@
+<oeuvre id="tuin-der-lusten" statut="archive">
+  <titre>Jheronimus Bosch — The Garden of Earthly Delights</titre>
+  <annee>2016</annee>
+  <par>NTR</par>
+  <par>Q42</par>
+  <par>Fabrique</par>
+  <url>https://archief.ntr.nl/tuinderlusten/en.html</url>
+  <categorie>Documentaire</categorie>
+  <categorie>Muséale</categorie>
+
+  <concept ref="choix-exploratoire"/>
+  <concept ref="interface-maps"/>
+
+  <resume>Le triptyque de Bosch scanné en gigapixels, dans une page où l'on
+  zoome jusqu'au coup de pinceau. Une visite guidée en quinze étapes déplace la
+  vue et commente ; on peut la quitter à tout moment pour fouiller le tableau
+  soi-même.</resume>
+
+  <visuel src="tuin-der-lusten.jpg"
+          alt="Le triptyque ouvert : à gauche un jardin vert avec Adam, Ève et des animaux ; au centre une foule de corps nus parmi des fruits géants et des bassins ; à droite un enfer nocturne d'instruments de musique et de supplices."
+          caption="Jheronimus Bosch, « Le Jardin des délices », vers 1500. Museo Nacional del Prado, Madrid."
+          source="https://archief.ntr.nl/tuinderlusten/en.html"/>
+
+  <section title="Le dispositif">
+    <markdown>
+      Le tableau est au Prado, qui a refusé de le prêter pour l'année Bosch en
+      2016. La NTR a répondu par une reproduction numérique : une image de
+      plusieurs milliards de pixels, servie par tuiles, sur laquelle le zoom est
+      continu. Rien d'autre à l'écran. Pas de menu, pas de chapitrage visible,
+      pas de barre de progression.
+
+      La narration se pose sur cette image. Quinze étapes, commentées par Midas
+      Dekkers et Redmond O'Hanlon : à chaque étape, la vue se déplace et zoome
+      toute seule vers un détail, la voix parle, puis on attend. On peut
+      reprendre la main, partir ailleurs, revenir. La visite ne se casse pas :
+      elle attend.
+    </markdown>
+
+    <video src="youtube:ZIX1aKC0eSA"
+           caption="L'annonce du documentaire interactif par la NTR."/>
+  </section>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      C'est un cas net de narration spatiale : le récit n'est pas une suite de
+      pages, c'est une suite de positions dans une même image. Le déplacement de
+      caméra remplace la coupe. Le spectateur n'avance pas dans un fil, il se
+      déplace dans un espace qui existait déjà tout entier avant lui.
+
+      Le rapport guidé / libre est réglé sans dilemme : la visite est un
+      itinéraire proposé, pas un rail. La liberté d'exploration ne détruit pas
+      le propos, parce que le propos est de regarder, et regarder de travers
+      reste regarder.
+
+      Utile aussi comme démonstration de scope : une image, un zoom, une voix,
+      quinze arrêts. Aucun système, aucune base de données, aucun compte. C'est
+      le soin de l'exécution qui fait tenir l'ensemble.
+    </markdown>
+  </section>
+
+  <section title="Voir">
+    <markdown>
+      - L'œuvre, archivée par la NTR : &lt;https://archief.ntr.nl/tuinderlusten/en.html&gt;
+      - Le compte rendu de Q42, qui a construit le zoom : &lt;https://www.q42.nl/en/work/garden-of-earthly-delights&gt;
+
+      Production : NTR. Développement : Q42 (moteur de zoom Micrio). Design :
+      Fabrique. Voix : Midas Dekkers, Redmond O'Hanlon. L'adresse d'origine
+      (`tuinderlusten-jheronimusbosch.ntr.nl`) redirige aujourd'hui vers
+      l'archive.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

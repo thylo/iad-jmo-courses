@@ -1,0 +1,42 @@
+<oeuvre id="graffomat" statut="en-ligne">
+  <titre>Graffomat</titre>
+  <annee>2021</annee>
+  <par ref="niklas-roy"/>
+  <url>https://www.niklasroy.com/graffomat/</url>
+  <categorie>Outil</categorie>
+  <categorie>Urbain</categorie>
+
+  <resume>Un traceur à bombes de peinture, grand comme un mur. Niklas Roy n'a jamais appris à peindre à la bombe : il a construit une machine qui lit un fichier vectoriel et le pulvérise sur le Hall of Fame de la Parkaue, le mur légal de son quartier de Berlin, au printemps 2021. Plans et code publiés sur GitHub.</resume>
+
+  <visuel src="graffomat.jpg"
+          alt="Un portique de bois monté sur roulettes, dressé contre un mur couvert de graffitis ; une personne se tient à côté, des bombes de peinture sont posées sur le rail horizontal"
+          credit="Niklas Roy"
+          source="https://www.niklasroy.com/graffomat/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **La machine est un ticket d'entrée.** « L'énergie de ces murs m'a donné envie
+      de participer quand même », écrit Roy. Ne pas savoir faire n'est pas traité
+      comme un obstacle à contourner ni comme un sujet à commenter : c'est le point
+      de départ d'une construction. La contrainte personnelle produit l'objet.
+
+      **Elle a été utilisée par ceux qui savent.** Des graffeurs du mur — The Fly,
+      Howtokillagraffiti, Planet256 — s'en sont servis, d'autres ont écrit des
+      interfaces pour la piloter, l'un a désassemblé le format de fichier. L'objet
+      n'est resté une œuvre solitaire à aucun moment, et c'est ce qui le distingue
+      d'une démonstration technique.
+
+      **Le pilotage à distance était une porte ouverte.** Pendant un atelier, des
+      participants à distance actionnaient la bombe au clavier. Le geste le plus
+      physique du graffiti — la pression du doigt sur la buse — devient une touche
+      appuyée depuis un autre pays, et la peinture est quand même sur le mur.
+
+      **Tout est publié.** Code, documentation, plans. Une machine dont on peut
+      refaire un exemplaire est un objet différent d'une machine unique exposée :
+      c'est la même différence qu'entre une œuvre et un outil, et Roy choisit
+      l'outil.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

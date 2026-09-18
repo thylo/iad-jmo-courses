@@ -1,0 +1,46 @@
+<oeuvre id="browser-dating" statut="hors-ligne">
+  <titre>Browser.dating</titre>
+  <annee>2025</annee>
+  <par ref="dries-depoorter"/>
+  <url>https://driesdepoorter.be/browserdating/</url>
+  <categorie>Outil</categorie>
+  <categorie>Documentaire</categorie>
+  <voir ref="the-follower"/>
+
+  <resume>Un site de rencontres qui apparie les gens sur leur historique de navigation. On téléverse jusqu'à cinq mille recherches récentes, un modèle en tire un profil, et les correspondances se font là-dessus — sans photo, sans description, sans rien qu'on ait rédigé pour être vu. Ouvert le 2 juin 2025, fermé par son auteur au bout de deux ans.</resume>
+
+  <visuel src="browser-dating.jpg"
+          source="https://browser.dating/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Le profil n'est pas écrit, il est relevé.** Une application de rencontre
+      demande de se décrire ; celle-ci lit ce qu'on a fait quand personne ne
+      regardait. Tout le dispositif tient dans cet écart entre le portrait qu'on
+      compose et la trace qu'on laisse — et c'est un écart que n'importe qui peut
+      constater sur ses propres données en trois minutes.
+
+      **Ça marche vraiment.** Ce n'est ni une maquette ni une installation : des
+      gens s'y sont inscrits, se sont écrit, se sont rencontrés. Depoorter travaille
+      systématiquement ainsi — voir [[the-follower]] — et c'est ce qui rend ses
+      pièces inconfortables plutôt que démonstratives : la critique est un service
+      qui fonctionne.
+
+      **Le prix d'entrée est la donnée.** Pour obtenir quelque chose, il faut céder
+      exactement ce qu'on reproche aux plateformes de prendre. Poser la question à
+      des étudiants — « téléverseriez-vous vos cinq mille dernières recherches ? » —
+      donne un débat plus honnête que n'importe quel cours sur la vie privée.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le site est fermé depuis 2026 ; il ne reste que la page de l'auteur et la
+      presse. Une œuvre dont la matière est le compte des utilisateurs meurt avec
+      eux, et rien ne s'en archive : ni les profils, ni les correspondances, ni ce
+      qui s'y est dit.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

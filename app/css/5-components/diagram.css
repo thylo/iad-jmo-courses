@@ -1,0 +1,33 @@
+/* Diagrams — drawings made for the page, inlined into it.
+
+   A figure whose content is a drawing rather than a photograph. The difference
+   that matters here is the ink: an inlined SVG inherits color, so the drawing
+   is the same ink as the paragraph above it and turns with the paper when the
+   theme does. That only works because SVGO put currentColor in the file — see
+   svgo.config.js. */
+
+.c-diagram {
+  color: var(--color-ink);
+}
+
+/* The file declares a viewBox and no pixel size, so the drawing takes the width
+   it is given and computes its own height from the ratio. Nothing here has to
+   know how tall any particular drawing is. */
+.c-diagram > svg {
+  inline-size: 100%;
+  block-size: auto;
+}
+
+/* A photograph sits on sunk paper — a rectangle waiting to be filled. A drawing
+   has no edges: it is ink on the page, and a panel behind it would invent a
+   frame the drawing does not have. */
+.c-figure--diagram img,
+.c-figure--diagram .c-diagram {
+  background-color: transparent;
+}
+
+/* Hand-drawn strokes are thin, and a diagram is read as part of the sentence
+   that introduces it. It gets more air than a photograph, not less. */
+.c-figure--diagram {
+  margin-block: var(--space-xl);
+}

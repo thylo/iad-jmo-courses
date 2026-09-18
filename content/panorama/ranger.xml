@@ -1,0 +1,142 @@
+<page id="ranger">
+  <titre>Ranger n'est pas neutre</titre>
+  <resume>La fiche, le tiroir, le modèle statistique : ce que classer fait aux gens qu'on classe.</resume>
+
+  <markdown>
+    Le [panorama](/panorama) est fait de classements. Ranger des œuvres ne coûte
+    rien : au pire une case est mal choisie, et personne n'en meurt. Ranger des
+    gens avec la même technique est une autre affaire, et cette page est le détour
+    qui le montre. Elle ne parle pas d'interactivité, mais de l'outil qu'on
+    utilise partout ailleurs sur ce site.
+  </markdown>
+
+  <image src="mundaneum-repertoire.jpg"
+         width="field"
+         alt="Un mur entier de tiroirs à fiches en bois clair, sur une dizaine de rangées, chaque tiroir muni d'une poignée métallique et d'un porte-étiquette ; au premier plan un bureau ancien avec un gros volume relié ouvert sur un lutrin, deux registres debout et un carton manuscrit « Ne pas toucher ! Ne rien déposer ! »."
+         caption="Le fichier du Répertoire bibliographique universel, aujourd'hui conservé au Mundaneum, à Mons."
+         credit="Stefaan Van der Biest, CC BY-SA 4.0, via Wikimedia Commons"
+         source="https://commons.wikimedia.org/wiki/File:Mundaneum_Bergen_04.jpg"/>
+
+  <markdown>
+    À partir de 1895, à Bruxelles, Paul Otlet et Henri La Fontaine entreprennent de
+    ficher tout ce qui a été publié : une fiche par idée, un code par sujet,
+    dix-huit millions de cartons dans des tiroirs. C'est le
+    [Mundaneum](https://www.mundaneum.org/). En 1934, Otlet décrit le poste de travail
+    qui irait avec : un écran, un clavier, les documents qui arrivent à distance. Il
+    décrit le web avec cinquante ans d'avance, et il le décrit en meubles.
+
+    Ils ne sont pas seuls. La fin du XIXe et le début du XXe siècle classent tout :
+    les espèces, les langues, les métiers, les criminels, les crânes. La même technique
+    (la fiche, le code, le tiroir) sert la bibliographie universelle et le fichier des
+    criminels : Bertillon fiche les corps à la préfecture de Paris dès 1883, douze ans
+    avant qu'Otlet ne fiche les idées.
+  </markdown>
+
+  <note type="attention" title="Jusqu'où ça peut aller">
+    <markdown>
+      En 1935, la même méthode sert à tuer. L'Ahnenerbe, institut
+      pseudo-scientifique fondé par Himmler, mesure des crânes pour étayer une
+      prétendue hiérarchie des races ; au nom de cette imposture, des dizaines de
+      déportés sont assassinés dans les chambres à gaz pour compléter une
+      [collection de squelettes](https://www.struthof.fr/le-site/le-kl-natzweiler).
+      Ce n'est pas une science qui dérape, c'est un crime.
+    </markdown>
+  </note>
+
+  <section title="Le tiroir est devenu un modèle">
+    <markdown>
+      Ça n'appartient pas au passé. Trier des gens par catégories est aujourd'hui le
+      métier des modèles statistiques, et ils héritent des travers de leurs données.
+      En 2015, Google Photos étiquette des personnes noires « gorilles ». Le correctif
+      a été de retirer le mot du vocabulaire, et pas seulement lui : chimpanzé,
+      babouin, singe. Huit ans plus tard, le New York Times
+      [refait le test](https://www.nytimes.com/2023/05/22/technology/ai-photo-labels-google-apple.html) :
+      les étiquettes manquent toujours, chez Google comme chez Apple. Le mot a
+      disparu, pas le classement.
+    </markdown>
+
+    <quote credit="Leonardo Nicoletti et Dina Bass, Bloomberg 2023 (traduit de l'anglais)"
+           source="https://www.bloomberg.com/graphics/2023-generative-ai-bias/">
+      <markdown>
+        Le monde selon Stable Diffusion est dirigé par des PDG blancs et
+        masculins. Les femmes y sont rarement médecins, avocates ou juges. Les
+        hommes à la peau foncée commettent des crimes, les femmes à la peau
+        foncée retournent des steaks dans un fast-food.
+      </markdown>
+    </quote>
+
+    <markdown>
+      Les IA génératives ne rangent pas : elles fabriquent. Et elles fabriquent le
+      même monde. Bloomberg a généré des milliers d'images de métiers avec Stable
+      Diffusion, puis les a comptées : 3 % de femmes pour « juge », contre 34 % de
+      juges femmes aux États-Unis. Personne n'a écrit ces règles. Le modèle ne voit
+      pas le monde : il ne voit que ce qu'on lui a donné à regarder, un corpus
+      d'images ramassées sur le web, déjà penché avant lui. Il n'a pas inventé le
+      déséquilibre : il l'a trouvé, et il l'a durci.
+
+      C'est le même geste qu'en 1883, avec la même prétention à l'objectivité : la
+      machine ne juge pas, elle mesure. Sauf qu'entre le tiroir et le modèle, il y a
+      une différence de vitesse. La fiche demandait un employé ; le modèle range
+      quelques millions de personnes par jour, et sans registre où aller vérifier.
+    </markdown>
+  </section>
+
+  <section title="Les données ne se trouvent pas">
+    <markdown>
+      Reste la question que tout ça pose et qu'on n'a pas encore posée : d'où
+      viennent les données. [[jer-thorp|Jer Thorp]] travaille à démonter l'idée
+      qu'elles seraient une matière première, quelque chose qu'on extrait. Une
+      donnée n'existe pas avant que quelqu'un décide de la relever, avec ses cases
+      à lui, et laisse le reste dehors.
+
+      Celles de Stable Diffusion sont publiques. Le corpus s'appelle [LAION](https://laion.ai/) : près de six milliards de paires
+      image-texte ramassées sur le web, où le texte n'est rien d'autre que
+      l'attribut `alt`, la description que des inconnus ont tapée, ou pas, en
+      publiant leurs photos. Il a ensuite fallu élaguer. Par langue, par
+      résolution, par risque de filigrane, et par « score esthétique », attribué
+      de 1 à 10 par un autre modèle entraîné pour ça.
+
+      Les décisions se comptent. Que la légende d'une image, ce soit son `alt`. Que
+      l'anglais fasse le corpus : le modèle a appris sur la moitié anglophone.
+      Qu'une machine puisse noter la beauté sur dix. Aucune n'est un fait sur le
+      monde, chacune est un choix, pris par quelqu'un, un jour, et discutable. Une
+      fois le corpus constitué, elles ont toutes disparu : il ne reste que des
+      images, qui ont l'air d'avoir toujours été là.
+
+      Le rendre à nouveau audible, c'est exactement ce que fait sa lecture à voix
+      haute de la base du MoMA. Cent vingt-trois mille objets, et dans la liste des
+      prénoms d'artistes les plus fréquents : deux cents John, pas un prénom
+      féminin. Personne n'avait écrit cette règle-là non plus.
+    </markdown>
+
+    <video src="youtube:lyeN_bopSs8"
+           caption="Jer Thorp, « Living in Data », KIKK Festival, Namur, 2021."/>
+
+    <markdown>
+      Son autre pièce dit l'inverse, et c'est pour ça qu'elle compte ici. Pour
+      graver près de trois mille noms sur le mémorial du 11-Septembre, l'ordre
+      alphabétique tenait en une ligne de code. Avec Jake Barton et Local Projects,
+      il a fait le contraire : recueillir auprès des familles quelque
+      [mille cinq cents demandes d'adjacence](https://www.jerthorp.me/memorial)
+      (tel nom doit toucher tel autre), puis écrire l'algorithme qui les satisfait
+      toutes. L'outil tient dans un programme Processing, c'est-à-dire dans quelque
+      chose d'ordinaire.
+    </markdown>
+
+    <image src="memorial-11-septembre.jpg"
+           alt="Le parapet de bronze d'un des deux bassins du mémorial du 11-Septembre, vu de très près sous la pluie. Des noms y sont découpés en lettres capitales, remplis d'eau : Francisco Eligio Bourdier, Sebastian Gorki, Juan Ortega-Campos, Alejandro Castaño, Joni Cesta, Randall L. Drake, Hernando Rafael Salas. Derrière, l'eau tombe dans le vide carré du bassin, et plus loin les tours de Manhattan disparaissent dans le brouillard."
+           caption="Bourdier, Gorki, Ortega-Campos, Castaño, Cesta, Drake, Salas. L'ordre n'est pas alphabétique, et c'est tout le sujet."
+           credit="Photographie via jerthorp.me"
+           source="https://www.jerthorp.me/memorial"/>
+
+    <markdown>
+      Un classement peut servir les gens qu'il range. Ça ne tombe pas tout seul :
+      ça se décide, et ça se décide à l'écriture, avant le code.
+    </markdown>
+  </section>
+
+  <markdown>
+    De quoi lire le [panorama](/panorama) pour ce qu'il est : des tiroirs, pas des
+    faits. Y compris ceux que je propose ici.
+  </markdown>
+</page>

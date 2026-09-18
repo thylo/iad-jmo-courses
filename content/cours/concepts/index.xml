@@ -1,0 +1,33 @@
+<page id="concepts">
+  <titre>Concepts</titre>
+  <resume>Le vocabulaire d'analyse : structures narratives, formes d'interactivité, rôles du public, interfaces, types de choix.</resume>
+
+  <markdown>
+    De quoi nommer ce qu'on observe. Une œuvre qui cite un concept apparaît sur
+    sa page, sans que personne ait à tenir la liste.
+  </markdown>
+
+  <section title="Structures narratives">
+    <grid of="concept" where="genre = structure"/>
+  </section>
+
+  <section title="Formes d'interactivité">
+    <grid of="concept" where="genre = forme"/>
+  </section>
+
+  <section title="Rôles du public">
+    <grid of="concept" where="genre = role"/>
+  </section>
+
+  <section title="Interfaces narratives">
+    <grid of="concept" where="genre = interface"/>
+  </section>
+
+  <section title="Types de choix">
+    <grid of="concept" where="genre = choix"/>
+  </section>
+
+  <section title="Ressources techniques">
+    <grid of="concept" where="genre = ressource"/>
+  </section>
+</page>

@@ -1,0 +1,55 @@
+<oeuvre id="my-house-wad" statut="en-ligne">
+  <titre>MyHouse.wad</titre>
+  <annee>2023</annee>
+  <par>Veddge</par>
+  <url>https://www.doomworld.com/forum/topic/134292-myhousewad/</url>
+  <categorie>Jeu</categorie>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-a-etat"/>
+  <concept ref="interface-3d"/>
+
+  <resume>Un niveau pour Doom II, publié sur un forum le 3 mars 2023 avec une histoire autour : l'auteur dit avoir retrouvé le fichier sur une disquette d'un ami mort, qui l'aurait commencé en 1999, et l'avoir seulement fini. On visite une maison de banlieue banale. Puis on repasse dans le couloir, et il n'a plus la même longueur. Cacoward 2023.</resume>
+
+  <visuel src="my-house-wad.jpg"
+          source="https://www.skritz.com/myhouse-wad/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Le doute est produit par la répétition, pas par un événement.** Rien
+      n'explose, rien ne surgit. On refait un trajet déjà fait, et une porte est
+      ailleurs. L'effet tient entièrement à ce que le joueur avait mémorisé — un
+      récit qui n'est nulle part dans le fichier, seulement dans la tête de
+      quelqu'un qui a marché deux fois au même endroit.
+
+      **Les espaces impossibles sont faits avec des outils de 1994.** Des
+      téléporteurs silencieux et des portails de GZDoom suffisent à replier
+      l'espace sur lui-même : ce n'est pas une prouesse de moteur, c'est un
+      détournement de ce que le moteur sait déjà faire. À montrer chaque fois qu'un
+      projet réclame une technologie plus récente.
+
+      **La carte est noire.** Le seul outil d'orientation de Doom est désactivé.
+      Retirer une fonction est ici la décision de mise en scène principale : sans
+      plan, la seule mémoire disponible est celle du joueur, et c'est exactement
+      celle que le niveau contredit.
+
+      **La fiction déborde du fichier.** Notes de développement, croquis,
+      photographies, une version « originale » du fichier : tout un dossier est
+      publié à côté du niveau, et rien n'y indique où s'arrête le vrai. La
+      documentation n'accompagne pas l'œuvre, elle en fait partie.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Il faut posséder Doom II, installer GZDoom et savoir charger un pk3. Trois
+      obstacles avant la première image, et il n'existe aucune version qui s'ouvre
+      dans un navigateur — l'inverse exact des œuvres web du corpus.
+
+      L'objet est aussi presque impossible à raconter : tout ce qu'il produit
+      dépend de l'ignorance du joueur au moment où il entre. Un extrait montré en
+      cours détruit la seule chose qu'il fallait montrer.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

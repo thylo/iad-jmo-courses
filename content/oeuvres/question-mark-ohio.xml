@@ -1,0 +1,49 @@
+<oeuvre id="question-mark-ohio" statut="en-ligne">
+  <titre>Question Mark, Ohio</titre>
+  <annee>2023</annee>
+  <par>Joe Meno</par>
+  <par>Dan Sinker</par>
+  <url>https://questionmarkohio.com</url>
+  <categorie>Fiction</categorie>
+  <categorie>Interface</categorie>
+  <concept ref="structure-constellation"/>
+  <concept ref="role-fantome"/>
+
+  <resume>Un roman feuilleton en quarante-cinq épisodes, écrit à mesure qu'il paraissait. Le chat de la voisine disparaît, Violet Bookman enquête, et l'enquête déborde du site : chaque indice mène ailleurs sur le web, vers un site de bowling, un compte de réseau social, un numéro qu'on peut appeler. Autour, un policier au cœur brisé qui rêve de faire de la musique, une institutrice qui cherche le fantôme de son frère, une bibliothécaire, un balayeur de nuit.</resume>
+
+  <visuel src="question-mark-ohio.jpg"
+          source="https://questionmarkohio.com/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Les décors sont de vrais sites.** Le bowling de la ville a son site, avec ses
+      tarifs et ses horaires. Le mensonge d'un personnage tient dans un compte
+      public qu'on peut aller lire. Le récit n'est pas *publié sur* le web, il est
+      *fait de* web — et un indice consiste souvent à remarquer qu'une page dit
+      autre chose que son propriétaire.
+
+      **Le lecteur est un [[role-fantome|fantôme]] qui a le droit de fouiller.** Il
+      ne décide de rien dans l'histoire, mais il peut ouvrir les portes latérales.
+      C'est un dosage rare : aucune agentivité sur le récit, beaucoup de liberté sur
+      le parcours — une [[structure-constellation|constellation]] dont le centre est
+      un feuilleton parfaitement linéaire.
+
+      **Les auteurs ne connaissaient pas la fin.** Publier au fil de l'écriture, en
+      s'imposant des défis de plus en plus gros, transforme la contrainte de
+      calendrier en moteur. Le risque est visible dans le texte, et c'est aussi ce
+      qui donne à la communauté quelque chose à faire : deviner avant les auteurs.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      La partie qui vivait sur des plateformes tierces — les fils, les numéros à
+      appeler, les discussions — est la première à s'effacer. Le site principal
+      reste, les épisodes se lisent encore, mais les couloirs qui en partaient se
+      referment un par un, et ce qui rendait l'enquête vivante devient une liste de
+      liens morts.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

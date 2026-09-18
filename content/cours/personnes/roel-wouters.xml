@@ -1,0 +1,17 @@
+<personne id="roel-wouters" genre="personne">
+  <titre>Roel Wouters</titre>
+  <lieu>Amsterdam</lieu>
+
+  <resume>Designer, réalisateur et cofondateur de Studio Moniker.</resume>
+
+  <markdown>
+    Vient du clip et de la performance autant que du web, ce qui se voit dans la
+    façon dont [[studio-moniker]] met en scène des gestes collectifs.
+  </markdown>
+
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
+  </section>
+
+  <backlinks/>
+</personne>

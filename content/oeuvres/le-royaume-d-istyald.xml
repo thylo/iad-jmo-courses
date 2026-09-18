@@ -1,0 +1,41 @@
+<oeuvre id="le-royaume-d-istyald" statut="en-ligne">
+  <titre>Le Royaume d'Istyald</titre>
+  <annee>2020</annee>
+  <par>Bibliothèque nationale de France</par>
+  <url>https://fantasy.bnf.fr/fr/jouer/</url>
+  <categorie>Fiction</categorie>
+  <categorie>Jeu</categorie>
+  <categorie>Muséale</categorie>
+  <concept ref="structure-embranchements"/>
+  <concept ref="role-personnage"/>
+
+  <resume>Un jeu d'aventure narratif publié par la BnF le 15 janvier 2020, en accompagnement de l'exposition « Fantasy, retour aux sources ». L'Arbre de la Connaissance se meurt ; une magicienne sert de guide, on traverse des lieux, on parle à des personnages, on résout des énigmes. Les objets rencontrés en chemin sont des pièces réelles des collections de la Bibliothèque.</resume>
+
+  <visuel src="le-royaume-d-istyald.jpg"
+          source="https://fantasy.bnf.fr/fr/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **La collection est du décor, et c'est le bon usage.** Un manuscrit enluminé
+      posé dans un jeu de fantasy n'est pas commenté, daté ni expliqué : il est là,
+      dans le monde, et on le manipule. L'institution accepte de ne pas enseigner
+      pendant qu'on joue — c'est rare, et c'est la condition pour que ça marche.
+
+      **La fantasy sert de porte plutôt que de sujet.** L'exposition raconte d'où
+      vient le genre ; le jeu, lui, en fait un. Les deux ne disent pas la même chose
+      et ne s'adressent pas au même public, et le jeu ne prétend pas remplacer la
+      visite.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le jeu est resté attaché à une exposition de 2020. Les adresses profondes ont
+      bougé depuis, et un lien vers une salle précise ne vaut rien : c'est la page
+      d'entrée qu'il faut citer. Pour un site institutionnel qui a vocation à durer,
+      c'est un contre-exemple utile.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

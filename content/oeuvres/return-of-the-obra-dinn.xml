@@ -1,0 +1,66 @@
+<oeuvre id="return-of-the-obra-dinn" statut="en-ligne">
+  <titre>Return of the Obra Dinn</titre>
+  <annee>2018</annee>
+  <par>Lucas Pope</par>
+  <url>https://store.steampowered.com/app/653530/Return_of_the_Obra_Dinn/</url>
+  <categorie>Jeu</categorie>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-constellation"/>
+  <concept ref="role-fantome"/>
+
+  <resume>Un navire de la Compagnie des Indes rentre au port en 1807 avec soixante morts et disparus à bord. Le joueur est l'expert de l'assurance, muni d'une montre qui fige l'instant de chaque décès en un tableau qu'on peut traverser à pied. Le récit n'est jamais raconté : il se déduit, nom par nom, sort par sort, dans un registre qu'on remplit soi-même.</resume>
+
+  <visuel src="return-of-the-obra-dinn.jpg"
+          alt="Un voilier minuscule sur une mer tramée en noir et blanc, sous un soleil blanc et bas ; le titre, en lettres gothiques, occupe tout le ciel."
+          credit="Lucas Pope"
+          source="https://store.steampowered.com/app/653530/Return_of_the_Obra_Dinn/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le jeu ne raconte rien, il donne à voir.** Chaque scène de mort est un
+      arrêt sur image en trois dimensions, sans commentaire, précédée de quelques
+      secondes de son. Ce qui s'est passé n'est écrit nulle part : il est dans la
+      position des corps, un tatouage, un accent, une paire de bottes. Le récit
+      complet existe entièrement dans la tête du joueur, et nulle part ailleurs.
+
+      **La validation par groupes de trois est la trouvaille.** Le registre ne
+      confirme une réponse que lorsque trois sont justes en même temps. Impossible
+      de tester une identité à l'aveugle et de lire la réponse dans le retour du
+      jeu : il faut être sûr de trois choses avant de savoir qu'on avait raison
+      d'une seule. C'est une règle de trois lignes qui transforme un questionnaire
+      en enquête, et elle vaut d'être copiée partout où un système vérifie des
+      hypothèses.
+
+      **L'ordre n'existe pas.** Les scènes s'ouvrent en chaîne, mais les
+      soixante fiches se remplissent dans le désordre, par recoupements — celui
+      qu'on identifie au chapitre trois se reconnaît au chapitre neuf. Une
+      [[structure-constellation]] où le lien entre deux nœuds n'est pas un lien
+      cliquable : c'est une ressemblance que personne n'a signalée.
+
+      **Le noir et blanc tramé n'est pas de la nostalgie.** Deux couleurs, un
+      tramage d'imprimante des années 1980 : on distingue une silhouette et un
+      geste, on ne distingue pas un visage du premier coup. La contrainte
+      graphique fabrique exactement la difficulté que le jeu vend. Un rendu
+      photoréaliste rendrait l'énigme triviale.
+    </markdown>
+
+    <video src="youtube:ILolesm8kFY"
+           caption="La bande-annonce de sortie, publiée par Lucas Pope."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      La déduction repose beaucoup sur des indices d'appartenance : l'accent, le
+      teint, l'uniforme, le nom de famille. C'est fidèle à un équipage de 1807 et
+      c'est aussi un jeu qui demande de reconnaître des gens à leur origine
+      supposée. Ça se discute plutôt que ça ne s'évite.
+
+      Et ça ne se joue qu'une fois. La deuxième partie n'a plus d'objet, puisque
+      tout le contenu est la découverte. C'est le prix d'une œuvre dont la
+      mécanique et le sujet sont la même chose — [[immortality|Immortality]] paie
+      exactement la même.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

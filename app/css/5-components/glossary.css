@@ -1,0 +1,190 @@
+/* The named forms of a page — what <glossary> renders.
+
+   A panorama page is one sentence repeated N times: here is a form, here is
+   what it means, here is a work made of it. Set as a markdown list that is
+   seven bullets of identical weight stacked in one column — you have to read
+   all of it to find any of it — and the two columns the sheet owns stay empty
+   beside it the whole way down.
+
+   So the entry is laid on the columns the page already has, and each part goes
+   where that column is for:
+
+     marge   the name, because the margin is the label column
+     texte   the definition, because it is prose and prose has a measure
+     champ   the work that shows it, because a reference is not the reading
+
+   Read down the margin and you have the seven names in one glance, which is
+   what an index is for. Read across one entry and you have the whole of it.
+   Neither was possible when the three were one paragraph.
+
+   --- Nothing is numbered -------------------------------------------------
+   These forms are not ranked and not read in an order. A number would say they
+   are, and it would be false — same argument as destinations.css, same
+   conclusion. What makes them a series is that they start on the same line,
+   and the rule that separates them.
+
+   --- Why the rule opens the block too ------------------------------------
+   Every entry carries a rule above it, the first included. A rule between
+   entries only is a stack of blocks with lines in between; a rule above every
+   one of them, the first included, is a spread — the eye reads the first mark
+   as the edge of a table rather than as a divider that arrived late. It costs
+   one line and it is the whole difference. */
+
+.c-glossary {
+  /* The reading caps its blocks at the measure, and this one is the whole
+     sheet. canvas.css keeps that rule at zero specificity with :where()
+     precisely so a component with something to say can say it. */
+  max-width: none;
+
+  /* One column further left, where the title and the masthead start. Same move
+     as a long index and for the same reason: the margin is empty beside this
+     block, and this block has something to put there. */
+  margin-inline-start: calc(-1 * var(--sidebar-width));
+
+  /* A grid container does not overlap a float, it is pushed off it — so a
+     figure in the field would squeeze the whole index into what is left rather
+     than sit above it. The block clears instead: the drawing is the opening of
+     the page, the index is what follows it. */
+  clear: right;
+}
+
+/* A heading standing immediately over the block joins it. The index takes the
+   margin column, so a heading left at text-start would start a column to the
+   right of the thing it names and read as floating between two blocks rather
+   than as the top of one.
+
+   Selected on the pair rather than on the section, because it is the pair that
+   is true: put a paragraph between the heading and the index and the heading
+   belongs to the paragraph again, which starts where the reading starts. */
+.c-section__title:has(+ .c-glossary) {
+  margin-inline-start: calc(-1 * var(--sidebar-width));
+}
+
+/* The canvas columns, restated. A grid item cannot inherit its parent's tracks
+   without subgrid, and subgrid would need the entry to be a direct child of
+   .o-canvas, which it is not — it is inside the reading, inside a section. The
+   widths are the same three tokens either way, so the two grids cannot drift. */
+.c-glossary__entry {
+  display: grid;
+  grid-template-columns:
+    var(--sidebar-width)
+    minmax(0, var(--measure-text))
+    var(--space-xl)
+    minmax(0, 1fr);
+  align-items: start;
+}
+
+/* The step above the rule matches the step below it, which .c-rule-over sets.
+   28 of paper, the mark, 28 of paper: the rule sits in the middle of the break
+   rather than hanging off the entry under it. */
+.c-glossary__entry + .c-glossary__entry {
+  margin-block-start: var(--space-m);
+}
+
+/* The mark itself comes from rule.css. All this adds is where it goes: across
+   every column, on its own row, so the three parts of the entry land under it
+   instead of beside it. */
+.c-glossary__entry.c-rule-over::before {
+  grid-column: 1 / -1;
+}
+
+/* --- The name, in the margin --------------------------------------------
+   A headword. Set in the display face at the step below the section heading
+   that owns it — the h2 names the group, this names one thing inside it — and
+   in ink rather than in the accent: seven accented words down the left edge
+   would be a red rail, and the accent is for a link you are being sent to, not
+   for the substance of the page.
+
+   It is still a link, so it still says so: an underline in the rule ink, which
+   is the quietest mark the site owns, going to the accent under the pointer.
+   That is a dictionary headword, and it has been one for four centuries. */
+
+.c-glossary__name {
+  grid-column: 1;
+  padding-inline-end: var(--space-m);
+  font-family: var(--font-display);
+  font-size: var(--text-title);
+  line-height: var(--space-unit);
+  text-wrap: balance;
+}
+
+.c-glossary__name a {
+  color: var(--color-ink);
+  text-decoration-color: var(--color-rule);
+}
+
+.c-glossary__name a:hover {
+  color: var(--color-accent);
+  text-decoration-color: currentColor;
+}
+
+/* --- The definition, on the measure -------------------------------------- */
+
+.c-glossary__definition {
+  grid-column: 2;
+  font-size: var(--text-body);
+  line-height: var(--leading-text);
+}
+
+/* --- The work, in the field ----------------------------------------------
+   Not the reading: a reference, at the size the site sets every caption and
+   every credit in. Two lines, the title over the year, because a date beside a
+   title reads as part of it and a date under one reads as its shelf mark. */
+
+.c-glossary__example {
+  grid-column: 4;
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+}
+
+.c-glossary__work {
+  display: block;
+  color: var(--color-ink-muted);
+  text-decoration-color: var(--color-rule);
+}
+
+.c-glossary__work:hover {
+  color: var(--color-accent);
+  text-decoration-color: currentColor;
+}
+
+.c-glossary__year {
+  display: block;
+  color: var(--color-ink-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- No field to put a reference in --------------------------------------
+   Same threshold as .c-figure--field, same arithmetic: the text column is
+   minmax(0, measure), so below about 72em it is served less than the measure
+   and what is left over for the field is a few dozen pixels. A title set in
+   that is not a column, it is a stack of one word per line.
+
+   The work goes under the definition, at the half step, so it still belongs to
+   the definition rather than opening a block of its own. The margin stays: the
+   name column is 196px and it is legible long before the field is. */
+@media (max-width: 71.999em) {
+  .c-glossary__entry {
+    grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+  }
+
+  .c-glossary__example {
+    grid-column: 2;
+    margin-block-start: var(--space-s);
+  }
+}
+
+/* Below the fold of the second column there is no margin either — the canvas
+   itself has one column here — so the entry stops being a grid and becomes
+   what it always was underneath: a name, what it means, and where to see it. */
+@media (max-width: 47.999em) {
+  .c-glossary,
+  .c-section__title:has(+ .c-glossary) { margin-inline-start: 0; }
+
+  .c-glossary__entry { display: block; }
+
+  .c-glossary__name { padding-inline-end: 0; }
+
+  .c-glossary__definition,
+  .c-glossary__example { margin-block-start: var(--space-s); }
+}

@@ -1,0 +1,9 @@
+<personne id="arte" genre="organisation">
+  <titre>Arte</titre>
+
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
+  </section>
+
+  <backlinks/>
+</personne>

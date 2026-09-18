@@ -1,0 +1,97 @@
+<oeuvre id="what-the-1921-tulsa-race-massacre-destroyed" statut="en-ligne">
+  <titre>What the 1921 Tulsa Race Massacre Destroyed</titre>
+  <annee>2021</annee>
+  <par ref="new-york-times"/>
+  <par>Yuliya Parshina-Kottas</par>
+  <par>Anjali Singhvi</par>
+  <url>https://www.nytimes.com/interactive/2021/05/24/us/tulsa-race-massacre.html</url>
+  <categorie>Documentaire</categorie>
+  <concept ref="structure-lineaire"/>
+
+  <resume>Publié le 24 mai 2021, pour le centenaire. Dans la nuit du 31 mai au 1er juin
+    1921, une foule blanche détruit Greenwood, le quartier noir de Tulsa, en Oklahoma,
+    assez prospère pour qu'on l'appelle Black Wall Street. Le New York Times a
+    reconstruit en trois dimensions la rue principale (plus de soixante-dix commerces)
+    puis élargit à l'ensemble des trente-cinq pâtés de maisons. On descend la rue, on
+    entre chez les gens, et on voit ce qui a été effacé.</resume>
+
+    <visuel src="what-the-1921-tulsa-race-massacre-destroyed.jpg"
+            alt="Reconstruction en trois dimensions, tout en gris, d'une rue commerçante de Greenwood en 1921 : devantures et voitures d'époque, chaque commerce nommé par une étiquette — Williams Confectionery, East End Doughnut Shop, Little Rose Beauty Salon"
+            credit="The New York Times"
+            source="https://www.nytimes.com/interactive/2021/05/24/us/tulsa-race-massacre.html"/>
+
+  <section title="Comment on rebâtit une rue qui n'existe plus">
+    <markdown>
+      C'est la partie à montrer, parce qu'elle est faite d'archives et pas de magie.
+
+      Les sources : les plans d'assurance incendie Sanborn, qui notent la hauteur des
+      bâtiments ; l'annuaire de la ville de 1921 ; les recensements ; les annuaires
+      scolaires ; les archives de presse ; les photographies ; les témoignages de
+      survivants. La reconnaissance optique de caractères a servi à extraire les noms et
+      les commerces des annuaires, pour les replacer ensuite adresse par adresse.
+
+      Un algorithme d'apprentissage automatique a fait un premier passage : lire les
+      plans à plat et en sortir des volumes. Ce n'est que le dégrossissage. Ensuite,
+      des mois de travail manuel : vérifier une adresse, la position d'une fenêtre,
+      recomposer un pâté entier à partir de références rares.
+
+      La machine a fait la passe grossière. Des gens ont fait le reste. C'est à peu près
+      l'inverse de ce que raconte la communication habituelle sur ces outils, et c'est
+      pour ça que la fiche insiste.
+    </markdown>
+
+    <video src="youtube:7Xvj_BOLMAA"
+           caption="Les autrices racontent la fabrication de la page : sources, modélisation, choix de cadrage."/>
+  </section>
+
+  <section title="Le modèle dit ce qu'il ne sait pas">
+    <markdown>
+      Le détail qui fait la valeur de la pièce : les bâtiments pour lesquels il n'existe
+      aucune photographie sont affichés **sans détail**. Volumes nus, pas de fenêtres
+      inventées, pas de façade plausible.
+
+      L'incertitude est donc lisible dans l'image elle-même. On voit du premier coup
+      d'œil ce que les archives ont conservé et ce qu'elles ont perdu. Et perdre,
+      ici, n'est pas neutre : c'est le résultat de la destruction qu'on est en train de
+      regarder.
+
+      À comparer avec la reconstitution habituelle, qui remplit tout au même niveau de
+      finition et ne distingue jamais ce qui est documenté de ce qui est supposé. C'est
+      le geste que [[ranger|ranger n'est pas neutre]] décrit par l'autre bout : une
+      donnée ne se trouve pas, elle se décide, et ici quelqu'un a décidé de rendre
+      visibles les trous.
+    </markdown>
+  </section>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Le récit est une rue.** On avance d'un commerce à l'autre, dans l'ordre des
+      numéros. Le cabinet du médecin, la salle de billard, le barbier, l'hôtel, et les
+      gens qui les tenaient. Pas de menu, pas de branche : une
+      [[structure-lineaire|structure linéaire]] où le déplacement dans l'espace tient
+      lieu de progression.
+
+      **L'échelle est le sujet.** On finit en vue aérienne sur les trente-cinq pâtés de
+      maisons. Après une heure passée à hauteur de trottoir, le plan large fait le
+      travail qu'aucun chiffre ne ferait.
+
+      **Les données sont publiées.** Le Times a déposé les fichiers du projet sur
+      [GitHub](https://github.com/nytimes/tulsa-1921-data). On peut vérifier, réutiliser,
+      contredire. Pour une reconstitution historique, c'est la seule position tenable.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      C'est derrière un péage, et ça ne s'ouvre pas toujours. Une pièce sur un massacre
+      raciste dont l'accès dépend d'un abonnement pose une question que le journal ne
+      pose pas.
+
+      Et le procédé est coûteux : deux journalistes-graphistes à plein temps pendant des
+      mois, plus les archives. Ce qui vaut d'être retenu est la méthode et l'honnêteté
+      du rendu, pas un modèle reproductible à moindres moyens.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

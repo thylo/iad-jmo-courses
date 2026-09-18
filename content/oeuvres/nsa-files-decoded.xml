@@ -1,0 +1,35 @@
+<oeuvre id="nsa-files-decoded" statut="en-ligne">
+  <titre>NSA Files: Decoded</titre>
+  <annee>2013</annee>
+  <par>The Guardian</par>
+  <url>https://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded</url>
+  <categorie>Documentaire</categorie>
+  <concept ref="interface-scrollable"/>
+  <concept ref="role-soi-meme"/>
+
+  <resume>Cinq mois après les premières révélations d'Edward Snowden, le Guardian reprend l'affaire depuis le début en une seule page : les programmes, les documents, ce que « métadonnées » veut dire, et les entretiens filmés de ceux qui l'ont couverte. Publié le 1er novembre 2013.</resume>
+
+  <visuel src="nsa-files-decoded.jpg"
+          source="https://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **La démonstration passe par le lecteur.** La page demande combien de contacts
+      on a sur les réseaux, puis calcule combien de personnes seraient balayées par
+      trois sauts de connexion — le seuil que la NSA s'autorisait. Le chiffre obtenu
+      est le sien. C'est ce qui fait comprendre « métadonnées » en dix secondes.
+
+      **Les vidéos sont dans le fil, pas à côté.** Les journalistes qui ont traité
+      les documents expliquent à l'endroit du texte où on en a besoin, en une
+      minute, puis la lecture reprend. Le montage est celui d'un article, pas celui
+      d'un documentaire découpé.
+
+      **Le dossier n'est pas résumé, il est réordonné.** Cinq mois de publications
+      quotidiennes remises en une seule lecture cohérente. C'est un travail
+      éditorial que le fil d'actualité rend impossible, et c'est ce que le format
+      apporte réellement.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

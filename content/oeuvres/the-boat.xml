@@ -1,0 +1,55 @@
+<oeuvre id="the-boat" statut="en-ligne">
+  <titre>The Boat</titre>
+  <annee>2015</annee>
+  <par>Matt Huynh</par>
+  <par>Nam Le</par>
+  <par>SBS Australia</par>
+  <url>https://www.sbs.com.au/theboat/</url>
+  <categorie>Fiction</categorie>
+  <concept ref="role-fantome"/>
+  <concept ref="interface-scrollable"/>
+  <concept ref="structure-lineaire"/>
+
+  <resume>Une bande dessinée à l'encre noire qui se lit en faisant défiler la page. Mai, seize ans, est mise sur un bateau qui quitte le Viêt Nam en 1979. Le défilement fait tanguer les dessins, monter la fumée, submerger l'écran ; adapté d'une nouvelle de Nam Le. Une trentaine de minutes, dans le navigateur, toujours en ligne dix ans après.</resume>
+
+  <visuel src="the-boat.jpg"
+          source="https://www.sbs.com.au/theboat/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le scroll devient le roulis.** Défiler fait bouger le bateau. Le geste de
+      lecture et le mouvement raconté sont le même mouvement : on ne regarde pas
+      la traversée, on la fait avancer. C'est le cas rare où l'interaction n'est
+      pas un supplément mais la métaphore centrale. Voir [[interface-scrollable]].
+
+      **L'encre fait le son.** Pas de musique omniprésente, pas de voix off : des
+      lavis noirs qui envahissent l'écran, du texte qui apparaît par blocs, du
+      silence. La tempête est dessinée, pas jouée.
+
+      **La lenteur est un moyen.** Certaines séquences demandent beaucoup de
+      défilement pour peu d'avancée. C'est pénible, et c'est le propos : la
+      traversée dure. Un cas à opposer à toutes les optimisations d'« engagement ».
+
+      **Ça tient.** Du HTML, du CSS, du JavaScript, servis par un diffuseur public.
+      À comparer avec [[le-dernier-gaulois|Le Dernier Gaulois]], mieux financé et
+      disparu.
+    </markdown>
+
+    <video src="youtube:QVS9-R-m4LE"
+           caption="La présentation du roman graphique interactif par SBS."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le lecteur ne décide de rien : le récit est
+      [[structure-lineaire|entièrement linéaire]], seul le rythme lui appartient.
+      Utile pour poser la question franchement : est-ce encore de l'interactivité,
+      ou une très bonne mise en scène de la lecture ?
+
+      Sur mobile, la longueur se paie : les séquences les plus lentes deviennent du
+      pouce répété, et l'effet de durée bascule en corvée.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

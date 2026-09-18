@@ -1,0 +1,35 @@
+<concept id="phet-interactive-simulations">
+  <titre>PhET</titre>
+  <genre>ressource</genre>
+  <voir ref="role-divinite"/>
+
+  <resume>Vingt ans de simulations scientifiques jouables, testées sur de vrais élèves. La preuve qu'on peut faire comprendre un système sans jamais l'expliquer.</resume>
+
+  <section title="Ce que c'est">
+    <markdown>
+      [PhET](https://phet.colorado.edu/), de l'université du Colorado à Boulder, depuis
+      2002. Plus de cent cinquante simulations : construire un circuit, faire varier une
+      pression, empiler des charges, regarder une population évoluer. Gratuites, en
+      dizaines de langues, dans le navigateur.
+
+      Elles sont conçues avec des chercheurs en didactique et testées en classe, ce qui
+      est rare et se voit.
+    </markdown>
+  </section>
+
+  <section title="Pourquoi c'est ici">
+    <markdown>
+      Parce que PhET a résolu il y a vingt ans le problème que pose tout projet
+      d'atelier « explorable » : **comment faire comprendre un système sans écrire un
+      mode d'emploi.** La réponse tient en trois principes qu'on peut voler tels quels.
+
+      - Un seul paramètre à la fois, avec un effet immédiat et visible
+      - Aucun texte au démarrage : on manipule d'abord, on nomme ensuite
+      - Rien à casser, donc rien à craindre — c'est ce qui fait qu'on essaie
+
+      À regarder avant [[nicky-case-explorable-explanations|Nicky Case]] : PhET donne
+      la méthode, Nicky Case montre ce qu'on peut en faire quand le sujet n'est plus la
+      physique mais la ségrégation ou la confiance.
+    </markdown>
+  </section>
+</concept>

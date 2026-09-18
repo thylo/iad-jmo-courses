@@ -1,0 +1,82 @@
+<oeuvre id="her-story" statut="en-ligne">
+  <titre>Her Story</titre>
+  <annee>2015</annee>
+  <par ref="sam-barlow"/>
+  <url>https://store.steampowered.com/app/368370/Her_Story/</url>
+  <categorie>Jeu</categorie>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-constellation"/>
+  <concept ref="choix-exploratoire"/>
+  <concept ref="role-fantome"/>
+
+  <resume>En 1994, une femme est interrogée sept fois par la police au sujet de la disparition de son mari. Il ne reste de ces entretiens que deux cent soixante et onze fragments vidéo, versés dans la base de données d'un commissariat qu'on interroge par mots-clés. Le corpus n'est jamais montré : la base rend les cinq premiers clips dont la transcription contient le mot tapé, et l'enquête devient une affaire de vocabulaire.</resume>
+
+  <visuel src="her-story.jpg"
+          alt="Une bande de fragments d'images côte à côte : la même femme brune, interrogée face caméra, apparaît dans plusieurs plans séparés par des aplats rouges, bleus et beiges. Le titre traverse l'image en grandes capitales blanches, légèrement dédoublées de rouge et de cyan."
+          credit="Sam Barlow"
+          source="https://store.steampowered.com/app/368370/Her_Story/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Un champ de recherche, et rien d'autre.** Pas de menu, pas de carte, pas de
+      bouton suivant. On tape un mot, la base répond, on regarde. Toute l'œuvre —
+      l'enquête, le montage, le doute — tient dans ce geste-là, et il n'y en a pas
+      de deuxième. C'est aussi l'interface la moins chère à fabriquer qu'on puisse
+      imaginer : une table, un champ, des fichiers vidéo.
+
+      **La limite de cinq résultats fait tout le travail.** Sans elle, taper « je »
+      viderait la base d'un coup. Avec elle, les mots courants ne servent à rien et
+      les mots rares valent cher : on n'avance pas parce qu'on a débloqué quelque
+      chose, on avance parce qu'on a pensé à demander. Aucune base de police ne se
+      comporte ainsi, et c'est la seule entorse à la vraisemblance que le jeu se
+      permette — une règle de deux lignes qui fabrique une méthode d'enquête.
+
+      **Chaque clip contient ses propres liens.** Le mot d'après s'entend dans celui
+      qu'on est en train de regarder : un prénom lâché, un lieu, un objet. Écouter
+      *est* la navigation, et prendre des notes n'est pas un accessoire du jeu, c'est
+      la seule carte qui existe. Sept ans plus tard, [[immortality|IMMORTALITY]]
+      refera le même geste en remplaçant le mot par l'objet dans l'image.
+
+      **On connaît toujours le compte, jamais le contenu.** Un vérificateur affiche
+      le corpus entier sous forme de cases qui passent au vert à mesure qu'on voit
+      les clips. On sait donc en permanence combien il en reste, et jamais lesquels.
+      C'est l'exact inverse de [[interface-galleries|la galerie]], qui montre d'emblée
+      tout ce qu'il y a à voir : ici la grille ne promet rien, elle compte.
+
+      **Une actrice, une chaise, cinq jours de tournage.** Les sept entretiens ont été
+      filmés dans un bâtiment administratif de Cornouailles avec Viva Seifert, puis
+      repassés dans un magnétoscope pour retrouver le grain de 1994. Sam Barlow a fait
+      le reste seul, sur ses économies, en un an ; le jeu a gagné trois BAFTA. Pour un
+      atelier, c'est le rapport le plus favorable qu'on connaisse entre ce qu'il faut
+      produire et ce qu'on obtient.
+    </markdown>
+
+    <video src="youtube:gaHw97l7-Lc"
+           caption="La bande-annonce, publiée par Sam Barlow."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Tout se joue en anglais, sans sous-titres français, et il faut avoir entendu un
+      mot pour pouvoir le taper. Le jeu demande donc une oreille avant de demander une
+      idée : avec un groupe francophone, ça se joue à plusieurs, à voix haute, ou ça ne
+      se joue pas.
+
+      Les impasses ne sont signalées par rien. On peut passer un quart d'heure à taper
+      des mots qui ne rendent rien, sans savoir si on cherche mal ou si on a déjà tout
+      vu du côté où l'on creuse. C'est le prix d'une œuvre qui refuse de guider, et
+      c'est facile à défendre quand ce n'est pas soi qui cherche.
+
+      Le générique arrive quand on décide qu'on a compris, pas quand on a tout vu — on
+      peut le laisser filer à moitié du corpus. C'est cohérent jusqu'au bout, et ça
+      laisse une partie du public avec le sentiment d'avoir raté quelque chose sans
+      pouvoir dire quoi.
+
+      Et ça ne se joue qu'une fois. Le contenu est la découverte, comme dans
+      [[return-of-the-obra-dinn|Obra Dinn]] et [[immortality|IMMORTALITY]] : la
+      deuxième partie n'a plus d'objet.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

@@ -1,0 +1,133 @@
+/* A quotation with its attribution — what <quote credit="…"> renders.
+
+   --- The marks -----------------------------------------------------------
+   Drawn guillemets, not the vertical stroke. The stroke is the mark for an
+   aside — a note, a markdown blockquote, a margin note that lost its margin —
+   and it is the right mark for those because it says only "this is set apart".
+   A quotation can say more than that: whose words these are is the whole point
+   of the block, and a quotation mark is the one glyph in typography that means
+   exactly that. Two marks down the same left edge would be one too many, so
+   the quotation takes the guillemet and leaves the stroke to the asides.
+
+   They are drawn rather than typed for the same reason the rules are: a pen
+   mark says a person set this. And because they are masks, they take their
+   colour from a background like every other mark on the site — --color-rule,
+   which is where the drawn marks live, never the accent.
+
+   --- How editorial typography differentiates a set quotation ---------------
+   Not by one loud move. By three quiet ones at once, which is why it survives
+   being printed, resized, or read on a phone:
+
+   — It leaves the measure. The block starts one column left, at margin-start,
+     the same known length the margin note floats into and the wide index takes.
+     A left edge that does not line up with the paragraph above it is the
+     fastest signal in typography: the eye finds it before it reads a word.
+   — It changes voice. Display face against the body's sans, at the lead size,
+     on the leading the lead already carries — 42px, still the baseline.
+   — Its attribution is a caption, in the register of a figure credit, because
+     it does the figure credit's job.
+
+   What it deliberately does NOT do is grow to pull-quote size. A pull quote is
+   a fragment lifted back out of the flow for someone who is scanning, and it
+   can be 40px because nobody has to read it twice. This is evidence, read in
+   sequence, once. Setting it like an advertisement for itself would be lying
+   about what it is.
+
+   Both marks anchor to the block's corners, not to the text. A closing
+   guillemet chasing the end of the last line would land somewhere different at
+   every window width; hung at the bottom of the reserved right gutter, it is
+   the second half of a frame instead, and it holds wherever the text wraps. */
+
+.c-quote {
+  margin-block: var(--space-l);
+  /* Shares the margin column with .c-sidenote — they cannot sit at the same
+     height, and nothing needs them to. */
+  margin-inline-start: calc(-1 * var(--sidebar-width));
+  /* From the margin to the end of the text column. The block hangs out on the
+     left and lands on the reading's right edge, so it is wider than every
+     paragraph around it and still shares an edge with them — which is what
+     keeps a wider block from reading as a block that missed its mark. Both
+     lengths are known, so there is nothing to guess at. */
+  max-inline-size: calc(var(--sidebar-width) + var(--measure-text));
+}
+
+.c-quote__body {
+  /* One number for both marks. They are matched on height rather than on
+     width: hand-drawn, they do not share a ratio, and height is what the eye
+     compares when a mark sits against a line of text. */
+  --quote-mark-height: 1.65em;
+
+  position: relative;
+  /* Room for the marks, from the type's own scale: the gutters have to grow
+     with the guillemets, and the guillemets grow with the words they hold. */
+  padding-inline: 2.75em;
+  font-family: var(--font-display);
+  font-size: var(--text-lead);
+  line-height: var(--leading-lead);
+  text-wrap: pretty;
+}
+
+/* The two guillemets. Everything they share lives here; each one then says
+   only where it hangs, which drawing it is, and how wide that drawing is at
+   the shared height. */
+.c-quote__body::before,
+.c-quote__body::after {
+  content: "";
+  position: absolute;
+  block-size: var(--quote-mark-height);
+  background-color: var(--color-rule);
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+}
+
+/* Top left, against the first line. */
+.c-quote__body::before {
+  inset-block-start: 0.2em;
+  inset-inline-start: 0;
+  inline-size: calc(var(--quote-mark-height) * 1.22);
+  mask-image: var(--quote-mark);
+  -webkit-mask-image: var(--quote-mark);
+}
+
+/* Bottom right, against the last one. */
+.c-quote__body::after {
+  inset-block-end: 0.2em;
+  inset-inline-end: 0;
+  inline-size: calc(var(--quote-mark-height) * 1.12);
+  mask-image: var(--quote-mark-close);
+  -webkit-mask-image: var(--quote-mark-close);
+}
+
+/* The passage holds prose blocks, so the scale has to reach the paragraphs
+   markdown wrote: .c-prose sets rhythm, measure and colour, never the size. */
+.c-quote__body .c-prose {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Not muted, unlike the markdown blockquote. That one is an aside and may be
+   skipped; this one is the passage the argument rests on. */
+.c-quote__body .c-prose blockquote { color: inherit; }
+
+/* Who said it. Indented to the quotation's text rather than to its stroke, so
+   the two left edges are one line. */
+.c-quote__credit {
+  margin-block-start: var(--space-s);
+  /* The same 2.75em the quotation is indented by, in the quotation's size
+     rather than the credit's — the two left edges are one line. */
+  padding-inline-start: calc(2.75 * var(--text-lead));
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-ink-faint);
+}
+
+.c-quote__credit::before { content: "— "; }
+
+.c-quote__credit a { color: inherit; }
+
+/* Below the fold of the second column there is no margin to take. */
+@media (max-width: 47.999em) {
+  .c-quote { margin-inline-start: 0; }
+}

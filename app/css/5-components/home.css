@@ -1,0 +1,107 @@
+/* The homepage reading: an editorial layout across all three columns.
+
+   The canvas has always had three — margin, text, field — and the homepage
+   used one. Everything sat on the measure and the field stayed empty, so a
+   wide window bought nothing but blank paper on the right. That is the part
+   that did not respect the medium: an edgeless surface handed the reader more
+   room and the page had no answer for it.
+
+   The answer is not to stretch the prose. A measure is a property of reading
+   and 62ch is 62ch on any screen. It is to give the other two columns work:
+
+     margin   the section's heading
+     text     the prose, still on the measure
+     field    what the index of destinations puts there
+
+   What is left in this file is only the first of those two. The index moved
+   out to destinations.css the day the content grew a tag for it: this sheet
+   used to reach for `> section ul` and hope the only list in the homepage
+   reading was that one, which held exactly as long as no second list was
+   written. Guessing from the page a block happens to sit on is not the same
+   as knowing what the block is, and the tag is the difference.
+
+   Nothing separates any of it but space and alignment. No rule between the
+   sections: a heading that has left the column it belongs to is already a
+   break, and drawing a line to say so as well is saying it twice.
+
+   That leaves the page with exactly three marks on it — the portrait, the
+   wobble, the signature — which are drawings rather than furniture. Every
+   other distinction here is made by where a thing sits and how big it is.
+
+   Neither of the two is placed by hand: the headings float into the margin
+   the way a sidenote does, the same negative margin and the same mechanism.
+   Nothing here knows the width of the window, only what to do with more of it.
+
+   Scoped by :has(.c-wobble): the wobble opens the homepage reading and opens
+   no other, the same trick the hero uses with the portrait. */
+
+/* --- The section --------------------------------------------------------
+   With no rule to mark the break, the space has to be unmistakable: a step up
+   from the largest one used inside a section, so the gap between two sections
+   can never be read as a gap between two paragraphs. */
+
+.o-canvas__reading:has(.c-wobble) > .c-section {
+  margin-block-start: var(--space-3xl);
+}
+
+/* The heading leaves the reading for the margin. Same float and same negative
+   margin as .c-sidenote: the column is there, and a heading is exactly the
+   kind of thing it was cut for.
+
+   Leaving the column is what makes it a heading — it is the only thing on the
+   page set outside the measure, so it reads as a label on the prose rather
+   than as a line of it. The prose then starts at the top of the measure with
+   nothing above it, and a section begins on its first line. */
+.o-canvas__reading:has(.c-wobble) > .c-section > .c-section__title {
+  float: left;
+  clear: left;
+  inline-size: var(--sidenote-width);
+  margin-inline-start: calc(-1 * var(--sidebar-width));
+  margin-block-start: 0;
+  font-size: var(--text-title);
+  line-height: var(--space-unit);
+}
+
+/* --- The index of destinations -----------------------------------------
+   destinations.css sets the nested case: an index introduced by a heading that
+   is still in the reading, opening one rank below it. Here the heading has left
+   for the margin, so nothing stands above the index in the flow and it is the
+   top of its section rather than a block inside one. It gets the ranks back:
+   84 to open over 42 between entries, and the door name back at the lead step.
+
+   That last one is the whole reason the homepage reads the way it does. The
+   heading is a small label out in the margin; if the doors sat at the h3 step
+   as well, the page would open on nothing. */
+
+.o-canvas__reading:has(.c-wobble) .c-destinations {
+  margin-block-start: var(--space-2xl);   /* 84 */
+}
+
+.o-canvas__reading:has(.c-wobble) .c-destinations__entry + .c-destinations__entry {
+  margin-block-start: var(--space-l);   /* 42 */
+}
+
+.o-canvas__reading:has(.c-wobble) .c-destinations__name {
+  font-size: var(--text-lead);
+}
+
+/* --- Below the fold of the second column --------------------------------
+   The margin goes, so the heading comes back into the flow above its prose
+   and the index becomes one column. Same content, one track, no leftovers.
+
+   The index keeps its own component and its own breakpoint for the columns;
+   what is here is only the ranks this layout takes back from it. */
+
+@media (max-width: 47.999em) {
+  .o-canvas__reading:has(.c-wobble) > .c-section > .c-section__title {
+    float: none;
+    inline-size: auto;
+    margin-inline-start: 0;
+  }
+
+  /* The heading is back in the flow above the index, so the index stops being
+     the top of anything and gives a step back. */
+  .o-canvas__reading:has(.c-wobble) .c-destinations {
+    margin-block-start: var(--space-xl);   /* 56 */
+  }
+}

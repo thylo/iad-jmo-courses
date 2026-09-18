@@ -1,0 +1,56 @@
+<oeuvre id="the-fallen-of-world-war-ii" statut="en-ligne">
+  <titre>The Fallen of World War II</titre>
+  <annee>2015</annee>
+  <par>Neil Halloran</par>
+  <par>Andy Dollerson</par>
+  <url>https://www.fallen.io/ww2/</url>
+  <categorie>Documentaire</categorie>
+  <concept ref="role-divinite"/>
+  <concept ref="interface-timeline"/>
+
+  <resume>Un film de quinze minutes entièrement fait de graphiques animés, qui compte les morts de la Seconde Guerre mondiale puis regarde ce qui s'est passé depuis. La narration est continue, mais elle s'arrête à des moments précis : le graphique devient alors manipulable, et on peut aller chercher le détail avant de reprendre. Écrit, réalisé, codé et raconté par une seule personne.</resume>
+
+  <visuel src="the-fallen-of-world-war-ii.jpg"
+          source="https://www.neilfilms.com/ww2/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **L'interaction attend son tour.** Le film décide quand il est possible d'agir. Le
+      reste du temps, c'est du montage, avec un rythme et une voix. Cette
+      alternance règle un problème que beaucoup de data storytelling ne règle pas :
+      qui mène, de l'auteur ou du lecteur. Ici c'est l'auteur, sauf à trois ou
+      quatre endroits, et c'est pour ça que ça tient quinze minutes.
+
+      **Une barre peut faire un plan.** Halloran filme des graphiques comme on
+      filme un décor : profondeur de champ, échelle, temps de pause. La
+      visualisation n'illustre pas le propos, elle est le propos. Voir
+      [[interface-timeline]].
+
+      **La quantité devient physique.** Une figure = un mort. Quand l'écran se
+      remplit puis continue de se remplir, le nombre cesse d'être un nombre. C'est
+      la seule chose que le graphique fait mieux que la phrase.
+
+      **Le doute est montré.** Les estimations divergentes apparaissent comme
+      fourchettes, pas comme chiffres nets. Un documentaire qui affiche son
+      incertitude au lieu de la lisser. C'est rare, et à copier.
+    </markdown>
+
+    <video src="youtube:DwKPFT-RioU"
+           caption="La version vidéo du même travail, publiée par Neil Halloran."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      L'interactivité est mince : trois ou quatre pauses où l'on peut cliquer.
+      Les retirer, et il reste un très bon film. Utile comme cas limite : jusqu'où
+      peut-on retirer l'interaction avant que l'œuvre change de nature ?
+
+      Et le montage impose une lecture. Les morts sont comptés, comparés, mis en
+      rythme avec une musique qui dit quoi ressentir. C'est efficace, et c'est
+      exactement ce qu'il faut savoir regarder de travers : un graphique n'est pas
+      neutre parce qu'il est chiffré.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

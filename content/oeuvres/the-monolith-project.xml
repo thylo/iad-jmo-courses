@@ -1,0 +1,46 @@
+<oeuvre id="the-monolith-project" statut="en-ligne">
+  <titre>The Monolith Project</titre>
+  <annee>2025</annee>
+  <par>Ethan Chiu</par>
+  <url>https://themonolithproject.net/</url>
+  <categorie>Fiction</categorie>
+  <categorie>Interface</categorie>
+  <concept ref="interface-scrollable"/>
+  <concept ref="interface-3d"/>
+  <concept ref="structure-lineaire"/>
+
+  <resume>Un court métrage qui se joue à la molette. Treize scènes en 3D temps réel dans le navigateur — Three.js, React Three Fiber, GSAP — enchaînées par le défilement de la page, dans une esthétique empruntée à Mœbius et à 2001. Publié en octobre 2025, primé par la FWA, Awwwards et les CSS Design Awards.</resume>
+
+  <visuel src="the-monolith-project.jpg"
+          source="https://themonolithproject.net/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Le défilement est le montage.** Ce n'est pas une page longue avec des
+      animations : c'est une timeline dont la molette est la tête de lecture. On
+      peut ralentir un mouvement, revenir en arrière, s'arrêter dans un plan — un
+      contrôle du temps qu'une vidéo ne donne pas, pour une [[structure-lineaire]]
+      qui reste strictement linéaire. Voir [[interface-scrollable]].
+
+      **La 3D sert la mise en scène, pas la démonstration.** Le rendu est calculé en
+      direct, mais l'écran ne montre jamais un objet qui tourne pour prouver qu'il
+      tourne : il montre des plans, des raccords et une lumière. La technique est
+      entièrement dépensée en cadrage.
+
+      **C'est fait par une personne.** Un projet de cette tenue visuelle, seul, dans
+      un navigateur, sans installeur ni boutique. Utile à montrer quand on croit
+      qu'un rendu soigné suppose un studio.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Il faut une machine récente. Un rendu 3D temps réel de treize scènes ne
+      dégrade pas gracieusement : sur un portable d'école, ça saccade ou ça ne
+      s'affiche pas. Le web ouvert n'annule pas la barrière matérielle, il la
+      déplace.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

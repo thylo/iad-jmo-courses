@@ -1,0 +1,43 @@
+<oeuvre id="lifeline" statut="en-ligne">
+  <titre>Lifeline</titre>
+  <annee>2015</annee>
+  <par>Dave Justus</par>
+  <par>3 Minute Games</par>
+  <url>https://www.bigfishgames.com/games/14076/lifeline/</url>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-embranchements"/>
+  <concept ref="role-soi-meme"/>
+  <concept ref="choix-rationnel"/>
+
+  <resume>Taylor, seul survivant d'un vaisseau écrasé sur une lune, ne peut joindre qu'une personne : vous. Tout passe par des notifications. On répond en choisissant entre deux options, puis on attend — s'il marche deux heures, il écrit dans deux heures ; s'il dort, il dort. Il peut mourir de ce qu'on lui a conseillé.</resume>
+
+  <visuel src="lifeline.jpg"
+          alt="Écran du téléphone : une conversation en cours où Taylor écrit « Hello? », « Is this thing working? », « Can anyone read me? », et deux boutons de réponse en bas, « Who are you? » et « What happened? »"
+          credit="3 Minute Games"
+          source="https://www.3minute.games/press-kit"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **L'attente est écrite.** Le temps réel n'est pas une contrainte technique
+      subie : c'est ce qui installe le personnage dans la journée du joueur. Une
+      notification qui arrive pendant un cours n'est pas la même chose qu'une ligne
+      de dialogue, et l'inquiétude qu'on éprouve entre deux messages n'est produite
+      par aucun texte.
+
+      **On n'est personne d'autre que soi.** Aucun avatar, aucun rôle : Taylor parle
+      à qui tient le téléphone, et le vouvoiement de la fiction s'adresse
+      littéralement à cette personne. C'est du [[role-soi-meme]] obtenu sans aucun
+      dispositif, juste en n'inventant pas de personnage joueur.
+
+      **Deux options, et parfois c'est grave.** Les [[choix-rationnel|décisions]]
+      sont binaires et pratiques — prendre à gauche ou à droite, se reposer ou
+      continuer — et certaines tuent. La mort n'est pas annoncée par un changement
+      de ton : on lit un dernier message, puis plus rien pendant longtemps.
+    </markdown>
+
+    <video src="youtube:c1CoWdNcpR8"
+           caption="La bande-annonce, publiée par Big Fish Games."/>
+  </section>
+
+  <backlinks/>
+</oeuvre>

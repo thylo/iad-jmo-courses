@@ -1,0 +1,64 @@
+<oeuvre id="hypnospace-outlaw" statut="en-ligne">
+  <titre>Hypnospace Outlaw</titre>
+  <annee>2019</annee>
+  <par>Tendershoot</par>
+  <par>Michael Lasch</par>
+  <par>ThatWhichIs Media</par>
+  <url>https://store.steampowered.com/app/844590/Hypnospace_Outlaw/</url>
+  <categorie>Jeu</categorie>
+  <categorie>Fiction</categorie>
+  <categorie>Interface</categorie>
+  <concept ref="interface-point-click"/>
+  <concept ref="structure-constellation"/>
+
+  <resume>Modérateur bénévole d'un internet parallèle de 1999 qu'on consulte en dormant. Le travail consiste à surfer, à recevoir des signalements et à retirer des pages. Le récit n'est écrit nulle part : il est réparti dans des pages perso hideuses, des GIF animés, des disputes de forum et des fichiers qu'on n'aurait pas dû trouver.</resume>
+
+  <visuel src="hypnospace-outlaw.jpg"
+          alt="Le visage jaune et lisse d'un dormeur, un bandeau à motif géométrique sur le front, relié par un long câble à une prise ; derrière lui, des fenêtres de bureau superposées."
+          credit="Tendershoot"
+          source="https://store.steampowered.com/app/844590/Hypnospace_Outlaw/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Tout le récit tient dans le décor.** Aucun personnage ne vient exposer la
+      situation. On comprend qui est qui en lisant des pages d'accueil, en
+      recoupant des pseudonymes, en remarquant qu'un site n'a pas été mis à jour
+      depuis trois semaines. C'est de la narration environnementale appliquée à un
+      espace qui n'a pas de sol : voir [[structure-constellation]].
+
+      **Le faux web est juste jusqu'au détail qui blesse.** Fonds étoilés, curseurs
+      personnalisés, compteurs de visites, MIDI en boucle, orthographe d'adolescent :
+      la reconstitution est assez précise pour qu'on retrouve des réflexes de
+      navigation oubliés. Un objet d'archéologie du web à montrer avant de parler de
+      ce que le web a perdu en devenant propre.
+
+      **Le joueur est du côté du pouvoir.** On ne subit pas la modération, on la
+      pratique : on retire des pages, on sanctionne, on obéit à un règlement écrit
+      par une entreprise. Le jeu ne dit jamais que c'est mal, il laisse faire
+      pendant six heures et montre ensuite ce que ça a coûté. Voir
+      [[role-personnage]].
+
+      **Chercher est le verbe.** Pas de quête fléchée : un moteur de recherche, des
+      mots-clés, et l'intuition qu'un mot croisé quelque part mènera ailleurs. La
+      compétence exercée est celle du documentaliste, et c'est rare qu'un jeu la
+      prenne au sérieux.
+    </markdown>
+
+    <video src="youtube:Pb4Jul496QE"
+           caption="La bande-annonce publiée par No More Robots."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      La nostalgie fait une partie du travail à la place de l'œuvre. Pour qui n'a
+      pas connu ce web, une bonne moitié des blagues tombe à plat, et il reste un
+      jeu d'enquête volontairement pénible à naviguer.
+
+      La dernière partie abandonne le bac à sable pour un scénario qui se referme
+      vite, et le meilleur du jeu — l'errance sans consigne — se trouve alors
+      derrière soi.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

@@ -1,0 +1,112 @@
+<concept id="interface-3d">
+  <titre>L'espace en trois dimensions</titre>
+  <genre>interface</genre>
+  <exemple ref="clouds-over-sidra"/>
+  <exemple ref="lusion"/>
+  <exemple ref="protanopia"/>
+  <voir ref="interface-gestural"/>
+  <voir ref="structure-lineaire"/>
+
+  <resume>Un volume plutôt qu'un plan. La question n'est jamais « est-ce que ça tourne », c'est « qu'est-ce que la profondeur raconte que le cadre ne raconterait pas ».</resume>
+
+  <section title="Définition">
+    <markdown>
+      Le récit se tient dans un espace qu'on regarde de plusieurs côtés : une scène
+      qu'on contourne, un décor en couches, une vidéo à trois cent soixante degrés, un
+      monde rendu en temps réel dans le navigateur.
+
+      C'est l'interface la plus impressionnante en démonstration et la plus décevante
+      en projet, pour une raison simple : elle retire le cadre. Or le cadre est le
+      premier outil de l'audiovisuel, et celui qu'on sait manier. Une
+      œuvre en trois dimensions doit inventer autre chose pour diriger le regard, et la
+      plupart n'inventent rien.
+    </markdown>
+  </section>
+
+  <section title="Schéma">
+    <markdown>
+      ```
+      Le cadre                        Le volume
+
+      ┌──────────────┐                    ↖  ↑  ↗
+      │      ●       │  on voit          ←   ●   →  on voit
+      │              │  ce qu'on          ↙  ↓  ↘   ce qu'on
+      └──────────────┘  montre                      cherche
+
+      L'auteur décide.                Le public décide, et rate
+      Le hors-champ est un outil.     ce qui se passe derrière lui.
+
+                     La question : qu'est-ce qui vaut
+                     ce qui vient d'être perdu ?
+      ```
+    </markdown>
+  </section>
+
+  <section title="Ce que la profondeur ajoute">
+    <markdown>
+      **L'échelle et la présence.** [[clouds-over-sidra]] pose le spectateur dans le
+      camp de Za'atari, en Jordanie, aux côtés d'une adolescente syrienne. Il ne se
+      passe rien qu'un film ne pourrait montrer ; ce qui change, c'est qu'on est à
+      hauteur d'enfant, au milieu, et que le camp continue derrière soi. La
+      [[structure-lineaire|structure reste entièrement linéaire]] — c'est la tête qui
+      tourne, pas l'histoire.
+
+      **La couche cachée.** [[protanopia]] fait le contraire du monde ouvert : chaque
+      case de bande dessinée est un petit théâtre en couches, et incliner l'appareil
+      découvre ce que le plan cachait. La profondeur y est un secret plutôt qu'un
+      espace, et ça tient dans une case.
+
+      **Le temps réel.** [[lusion]] est le site d'un studio de Bristol qui est aussi
+      sa démonstration : des milliers de particules qui répondent au curseur, des
+      transitions sans coupure, tout calculé dans le navigateur. Aucun récit là-dedans,
+      et c'est assumé — c'est un catalogue de ce que la machine sait faire, utile à
+      connaître pour savoir ce qui est possible.
+    </markdown>
+  </section>
+
+  <section title="Ce que ça coûte">
+    <markdown>
+      **La direction du regard.** Sans cadre, il faut ramener l'attention par le son,
+      la lumière, le mouvement — c'est-à-dire refaire à la main ce que le cadrage
+      faisait gratuitement.
+
+      **La production.** Modéliser, texturer, éclairer, optimiser : c'est un métier
+      entier, et ce n'est pas celui d'un atelier de narration. Une captation à trois
+      cent soixante degrés est en revanche à la portée de tout le monde.
+
+      **Le confort.** Le mal des transports en casque est réel, il touche surtout les
+      gens qu'on n'a pas testés, et il n'y a pas de rattrapage : la personne enlève le
+      casque.
+
+      **Le matériel.** Un casque exclut le public seul, ne se prête pas, ne se
+      partage pas. Le navigateur, si.
+    </markdown>
+  </section>
+
+  <section title="Erreurs courantes">
+    <markdown>
+      - Poser une caméra à trois cent soixante degrés et appeler ça de l'immersion.
+        Sans raison d'être là, on est seulement mal assis
+      - Mettre l'action derrière le spectateur au début, avant qu'il ait appris à
+        tourner
+      - Couper une séquence trop tôt : en volume, il faut le temps de regarder autour,
+        et le montage rapide est physiquement illisible
+      - Croire que le public explorera. Il regarde surtout devant lui
+    </markdown>
+  </section>
+
+  <section title="En pratique">
+    <markdown>
+      **Sans casque.** Une scène en volume dans le navigateur, qu'on fait tourner à la
+      souris ou en inclinant le téléphone, se montre à n'importe qui avec un lien.
+
+      **Une scène, pas un monde.** Un seul lieu qu'on peut contourner produit plus
+      qu'un environnement vide qu'on parcourt.
+
+      **Le son au centre.** C'est le seul outil de mise en scène qui reste quand le
+      cadre a disparu, et c'est celui que l'audiovisuel maîtrise déjà.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

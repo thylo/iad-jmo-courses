@@ -1,0 +1,12 @@
+/* Web fonts, self-hosted through Vite rather than fetched from a font CDN:
+   no third-party request on a page a student opens, and the files are
+   fingerprinted and cached like every other asset.
+
+   Latin subsets only. Both families ship full Japanese sets weighing several
+   megabytes; the site is in French, so the latin and latin-ext ranges are all
+   that ever gets used. One weight each — the sheet never asks for another. */
+
+@import "@fontsource/shippori-mincho/latin-400.css";
+@import "@fontsource/shippori-mincho/latin-ext-400.css";
+@import "@fontsource/zen-kaku-gothic-new/latin-400.css";
+@import "@fontsource/zen-kaku-gothic-new/latin-ext-400.css";

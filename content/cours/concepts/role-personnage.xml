@@ -1,0 +1,92 @@
+<concept id="role-personnage">
+  <titre>Un personnage</titre>
+  <genre>role</genre>
+  <exemple ref="jeu-d-influences"/>
+  <exemple ref="bandersnatch"/>
+  <exemple ref="80-days"/>
+  <exemple ref="alice-is-missing"/>
+  <voir ref="role-soi-meme"/>
+  <voir ref="role-fantome"/>
+
+  <resume>Le public hérite d'un nom, d'un passé et de motivations qui ne sont pas les siennes. Confortable à écrire, difficile à faire habiter.</resume>
+
+  <section title="Définition">
+    <markdown>
+      L'œuvre attribue quelqu'un au public. Elle sait avant lui qui il est, ce qu'il
+      veut, et ce qu'il refuserait. C'est le rôle par défaut de la fiction, et le seul
+      où l'auteur maîtrise entièrement le point de départ.
+
+      Le confort est réel : on peut écrire des dialogues, poser des enjeux, donner des
+      raisons de refuser. Le problème arrive juste après, et il tient en une question :
+      pourquoi le spectateur voudrait-il ce que ce personnage veut ?
+    </markdown>
+  </section>
+
+  <section title="Schéma">
+    <markdown>
+      ```
+                    ce que le personnage veut
+                              │
+                     ┌────────┴────────┐
+                     │                 │
+         ce que le public veut     l'écart
+                                       │
+        écart nul  → le personnage est un costume vide
+        écart juste → le frottement est le sujet
+        écart trop grand → « je ne ferais jamais ça » et l'adhésion tombe
+      ```
+    </markdown>
+  </section>
+
+  <section title="Où se place l'écart">
+    <markdown>
+      [[80-days]] fait le choix le plus fin du corpus : le personnage joué n'est pas
+      Fogg, c'est Passepartout. L'exploit ne se décide pas, l'intendance se gère — la
+      malle, l'argent, la santé du patron, le prochain train. Le personnage donne une
+      position dans le monde plutôt qu'un destin, et c'est ça qui se tient sur cent
+      cinquante villes.
+
+      [[jeu-d-influences]] met le public dans la peau d'un communicant de crise et se
+      sert de l'écart comme sujet. On accepte ou on refuse des conseils qu'on ne
+      donnerait pas, et la fin dit jusqu'où on est allé. Le personnage n'est pas là
+      pour être aimé, il est là pour être une mesure.
+
+      [[bandersnatch]] montre la limite. Stefan a un passé, des raisons, un
+      psychiatre — et le spectateur, lui, appuie sur des boutons pour voir ce qui
+      arrive. Quand le personnage a des motivations complètes et le public aucune, le
+      costume est porté par personne.
+
+      [[alice-is-missing]] résout ça sans une ligne de code : chaque joueur tire une
+      carte de personnage avec trois relations et un secret, et rien d'autre. Assez
+      pour tenir un rôle, pas assez pour qu'on nous dise qui on est.
+    </markdown>
+  </section>
+
+  <section title="Erreurs courantes">
+    <markdown>
+      - Écrire un personnage complet et lui laisser prendre les décisions. Il ne reste
+        au public qu'à valider
+      - Le contraire : un personnage tellement vide qu'il n'y a plus de fiction, et on
+        aurait dû jouer [[role-soi-meme|soi-même]]
+      - Faire dire au personnage ce que le public n'a pas choisi de dire. Une réplique
+        qu'on n'a pas voulue coûte plus cher qu'une branche manquante
+      - Confondre la place et le pouvoir : un « personnage » peut n'avoir aucune prise.
+        C'est ce que [les types de choix](/panorama/choix) vont chercher
+    </markdown>
+  </section>
+
+  <section title="En pratique">
+    <markdown>
+      **Une position, pas une biographie.** Un métier, une relation, une contrainte.
+      Passepartout tient en trois mots et se joue pendant des heures.
+
+      **Écrire ce que le personnage refuserait.** C'est la seule chose qui le rend
+      jouable : sans refus possible, il n'y a pas de décision, seulement du texte.
+
+      **Un secret suffit.** Une information que le personnage a et que le public
+      découvre en même temps que lui produit plus d'adhésion qu'une page de passé.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</concept>

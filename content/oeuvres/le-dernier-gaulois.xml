@@ -1,0 +1,50 @@
+<oeuvre id="le-dernier-gaulois" statut="hors-ligne">
+  <titre>Le Dernier Gaulois — Mémoires d'un guerrier</titre>
+  <annee>2015</annee>
+  <par>Lucy Mazel</par>
+  <par>Kevin Keiss</par>
+  <par>Immersive Garden</par>
+  <par>France Télévisions — Nouvelles Écritures</par>
+  <url>https://immersive-g.com/projects/le-dernier-gaulois/</url>
+  <categorie>Fiction</categorie>
+  <concept ref="interface-scrollable"/>
+
+  <resume>Une bande dessinée qui se lit en faisant défiler la page : de longues illustrations dessinées à la main, traversées de haut en bas, où le défilement déclenche les animations et le passage d'une scène à l'autre. Apator, chef éduen, raconte la Gaule d'avant Alésia. C'était le volet web d'un docu-fiction de France 2 diffusé fin 2015.</resume>
+
+  <visuel src="le-dernier-gaulois.jpg"
+          source="https://immersive-g.com/projects/le-dernier-gaulois/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le défilement remplace la case.** Pas de vignettes séparées : une image
+      continue, et c'est la position dans la page qui découpe le récit. Le
+      lecteur ne tourne pas la page, il la traverse. Voir
+      [[interface-scrollable]].
+
+      **Une seule commande.** Scroller. Rien d'autre à apprendre, rien à
+      découvrir, aucun bouton caché. Sur une œuvre destinée à des classes de
+      primaire, c'est une décision de conception, pas une pauvreté.
+
+      **Le web n'est pas la promotion, c'est un morceau du récit.** La BD raconte
+      ce que le documentaire ne montre pas : le quotidien avant la bataille. Un
+      transmédia où chaque support a sa part, au lieu du site-vitrine habituel.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le défilement révèle, il ne décide de rien. On avance à son rythme, mais
+      l'histoire est [[structure-lineaire|la même pour tout le monde]] : c'est de
+      la lecture augmentée, pas de la narration interactive. Bon exemple pour
+      trancher la question en cours : est-ce que le public agit, ou est-ce qu'il
+      appuie sur play plus lentement ?
+
+      Et l'œuvre a disparu. Le site de France Télévisions qui l'hébergeait n'existe
+      plus ; il reste la page du studio et quelques captures. Deux millions et demi
+      d'euros de production, un projet primé, et rien à montrer aux étudiants dix
+      ans après. La démonstration la plus nette du problème d'archivage du web.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

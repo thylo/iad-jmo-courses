@@ -1,0 +1,54 @@
+<oeuvre id="le-silence-de-claire-lagrange" statut="en-ligne">
+  <titre>Le Silence de Claire Lagrange</titre>
+  <annee>2025</annee>
+  <par>Céline Delbecq</par>
+  <par>Compagnie de la Bête noire</par>
+  <url>https://compagniedelabetenoire.be/spectacles/le-silence-de-claire-lagrange</url>
+  <categorie>Performance</categorie>
+
+  <resume>Spectacle de théâtre d'objet : Claire Lagrange, internée après une crise psychotique, se tait. Toute l'histoire est jouée en Playmobil dans un décor miniature, filmé et projeté, avec Céline Delbecq et Isabelle Darras qui portent toutes les voix.</resume>
+
+  <visuel src="le-silence-de-claire-lagrange.jpg"
+          source="https://compagniedelabetenoire.be/spectacles/le-silence-de-claire-lagrange"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      Le dispositif est simple et assumé : des figurines Playmobil, une maquette, une
+      caméra, deux comédiennes. La distance du jouet rend racontable ce qui ne l'est
+      pas : l'effondrement psychique, l'enfermement, le silence. Pas d'effet
+      spectaculaire : c'est l'écart entre la matière (du plastique de gamin) et le
+      sujet (la psychiatrie) qui produit l'émotion.
+
+      Le silence de Claire n'est jamais expliqué. Ce sont les autres (Jean, Silvia,
+      la mère, la direction) qui parlent à sa place et échouent. Le spectateur
+      construit ce qui manque. La pièce vise moins la psyché individuelle que le
+      système : une société où la productivité passe avant le soin.
+    </markdown>
+  </section>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      Démonstration nette qu'un dispositif minimal et pauvre en moyens peut porter un
+      récit dense. Utile comme contre-exemple au réflexe « il me faut de gros moyens
+      techniques » : ici, une contrainte matérielle forte devient le langage de
+      l'œuvre.
+
+      À rapprocher de la question du scope : petit dispositif, entièrement maîtrisé,
+      poussé jusqu'au bout.
+    </markdown>
+  </section>
+
+  <section title="Voir">
+    <markdown>
+      - Fiche de la compagnie : &lt;https://compagniedelabetenoire.be/spectacles/le-silence-de-claire-lagrange&gt;
+      - Le Vilar, Louvain-la-Neuve (Théâtre Blocry, avril 2026) : &lt;https://levilar.be/la-saison/lagrange/&gt;
+      - Le Rideau, Bruxelles : &lt;https://lerideau.brussels/spectacles/le-silence-de-claire-lagrange&gt;
+
+      Texte et mise en scène : Céline Delbecq. Jeu : Isabelle Darras / Louison De Leu
+      (en alternance), Céline Delbecq. Scénographie : Ronald Beurms. Son : Pierre
+      Kissling. Lumière : Jérôme Dejean. Vidéo : Alice Piemme. Durée : 1h15.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

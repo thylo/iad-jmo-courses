@@ -1,0 +1,52 @@
+<oeuvre id="just-a-reflektor" statut="hors-ligne">
+  <titre>Just a Reflektor</titre>
+  <annee>2013</annee>
+  <par>Vincent Morisset</par>
+  <par ref="google-creative-lab"/>
+  <par>Arcade Fire</par>
+  <url>https://experiments.withgoogle.com/just-a-reflektor</url>
+  <categorie>Interface</categorie>
+  <concept ref="structure-lineaire"/>
+  <concept ref="interface-gestural"/>
+
+  <resume>Film interactif de Vincent Morisset pour Arcade Fire, tourné en Haïti d'où vient Régine Chassagne. On ouvre une page sur son téléphone, on tient l'appareil devant la webcam de l'ordinateur, et le téléphone devient une lampe qu'on promène dans l'espace réel : c'est en le bougeant dans la pièce qu'on déplace la projection à l'écran. Une jeune femme circule entre son monde et le nôtre.</resume>
+
+  <visuel src="just-a-reflektor.jpg"
+          source="https://experiments.withgoogle.com/just-a-reflektor"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Deux écrans, un seul geste.** Le téléphone ne sert pas de télécommande avec des
+      boutons : c'est sa position dans la pièce, vue par la webcam, qui pilote l'image.
+      Le [[interface-gestural|geste]] a lieu dans le monde physique, et il n'a aucun
+      équivalent à la souris.
+
+      **Le titre est le dispositif.** Un reflet, une projection, quelque chose qui passe
+      d'un monde à l'autre : le morceau parle de ça, et l'interaction fait exactement
+      ça. C'est le cas d'école d'une forme qui n'a pas été choisie avant le propos.
+
+      **À comparer avec [[the-wilderness-downtown]].** Mêmes commanditaires, trois ans
+      d'écart, réalisateurs différents. L'un va chercher les données du spectateur,
+      l'autre son corps. Les deux gardent une [[structure-lineaire|structure strictement linéaire]] :
+      c'est la durée d'une chanson.
+    </markdown>
+
+    <video src="youtube:_3D8hYIfpqg"
+           caption="Les coulisses du projet, publiées par Experiments with Google."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le dispositif demande deux appareils, une webcam autorisée, une pièce, et de
+      tenir son téléphone en l'air pendant cinq minutes. C'est beaucoup, et ça se paie :
+      la plupart des gens ont regardé la version passive.
+
+      Rien de ce qui repose sur une chaîne aussi longue — permission caméra, seconde
+      page synchronisée, navigateur d'époque — ne survit sans maintenance. Le contraste
+      avec [[the-boat|The Boat]], contemporain et fait de HTML nu, est le meilleur
+      argument qui soit sur la durabilité.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

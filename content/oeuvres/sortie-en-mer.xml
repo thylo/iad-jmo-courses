@@ -1,0 +1,54 @@
+<oeuvre id="sortie-en-mer" statut="hors-ligne">
+  <titre>Sortie en mer</titre>
+  <annee>2014</annee>
+  <par>CLM BBDO</par>
+  <par>Guy Cotten</par>
+  <url>https://archive.org/details/sortie-en-mer</url>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-lineaire"/>
+  <concept ref="role-personnage"/>
+  <concept ref="interface-scrollable"/>
+
+  <resume>Une sortie en voilier, une bôme qui part, un homme à l'eau et le bateau qui s'éloigne. Vidéo en vue subjective : il faut faire tourner la molette pour rester à flot, sans arrêt, pendant plusieurs minutes. Le bras fatigue, la tête passe sous l'eau, et on se noie. Campagne du fabricant de vêtements de mer Guy Cotten, signée CLM BBDO. Le site a vécu environ trois ans ; il se rejoue par l'archive.</resume>
+
+  <visuel src="sortie-en-mer.jpg"
+          alt="Écran-titre : vu de sous l'eau, un bras s'agite vers la surface éclairée ; par-dessus, « Guy Cotten présente — Sortie en mer »"
+          credit="Guy Cotten"
+          source="https://archive.org/details/sortie-en-mer"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **On ne peut pas gagner, et c'est le message.** Aucune combinaison de gestes ne
+      sauve le personnage. L'œuvre n'a qu'une fin, elle le sait, et tout son propos
+      est là : sans gilet, la fatigue gagne. Le dispositif n'est pas un jeu qu'on
+      perd, c'est une démonstration qu'on subit.
+
+      **À mettre en regard de [[etes-vous-pret-a-sauver-une-vie]].** Les deux œuvres
+      forment aux mêmes enjeux et prennent la décision inverse. L'une reprend la main
+      à chaque erreur et rejoue la scène jusqu'à la bonne réponse, si bien que rien ne
+      coûte rien. L'autre ne laisse aucune issue et le dit d'emblée. C'est la
+      seconde qui produit quelque chose. La paire est la meilleure démonstration qui
+      soit du [[faux-choix]] : ce qui compte n'est pas d'avoir des issues, c'est de ne
+      pas mentir sur celles qu'on a.
+
+      **Le geste est la fatigue.** Le [[interface-scrollable|défilement]] n'illustre
+      pas l'épuisement, il le produit dans le poignet de la personne qui regarde.
+      Cas rare où un geste d'interface a un coût physique réel, et où ce coût est le
+      sujet.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      C'est une publicité, et il faut le dire aux étudiants avant de l'admirer : le
+      dispositif sert un fabricant de gilets. La question intéressante n'est pas de
+      savoir si c'est légitime, mais de remarquer que la commande publicitaire a
+      financé une forme que le documentaire subventionné se permet rarement.
+
+      Et le compte à rebours a fait son œuvre. Trois ans en ligne, puis plus rien. Il
+      reste une archive, ce qui est plus que pour beaucoup de webdocs mieux dotés.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

@@ -1,0 +1,48 @@
+<oeuvre id="wall-drawings" statut="en-ligne">
+  <titre>Wall Drawings</titre>
+  <annee>1968</annee>
+  <par ref="sol-lewitt"/>
+  <url>https://massmoca.org/event/sol-lewitt-a-wall-drawing-retrospective/</url>
+  <categorie>Installation</categorie>
+
+  <resume>Plus de mille dessins muraux qui n'existent que sous forme d'instructions écrites. LeWitt signe le texte, d'autres tiennent le crayon. Le mur est effacé après l'exposition, la consigne reste.</resume>
+
+  <visuel src="wall-drawings.jpg"
+          source="https://massmoca.org/event/sol-lewitt-a-wall-drawing-retrospective/"/>
+
+  <section title="Le principe">
+    <markdown>
+      Wall Drawing #118 (1971) tient en trois phrases :
+
+      > Sur une surface murale, n'importe quelle portion continue de mur, au crayon
+      > dur, placer cinquante points au hasard. Les points doivent être répartis
+      > uniformément sur la surface du mur. Tous les points doivent être reliés par
+      > des lignes droites.
+
+      C'est tout. Pas de croquis, pas de gabarit. « Au hasard » et « uniformément »
+      sont contradictoires, et c'est là que se joue le travail de celui qui exécute.
+      Le résultat change de mur en mur, d'équipe en équipe, de décennie en décennie.
+
+      La rétrospective de MASS MoCA, ouverte en 2008, présente 105 de ces dessins,
+      installée pour vingt-cinq ans, puis prolongée jusqu'en 2043. Une exposition
+      qui dure plus longtemps que la plupart des logiciels.
+    </markdown>
+
+    <video src="youtube:c4cgB4vJ2XY"
+           caption="L'installation de la rétrospective au MASS MoCA : des dessinateurs exécutent les instructions."/>
+  </section>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      C'est un programme écrit en français, exécuté par des humains. On y voit à nu
+      ce qu'on ne voit plus dans du code : une contrainte assez serrée pour être
+      reconnaissable, assez lâche pour que l'exécution compte.
+
+      Utile aussi comme contre-exemple : ici, l'auteur accepte de perdre la main sur
+      le rendu final. Dans la plupart des projets d'étudiants, c'est l'inverse : on
+      veut contrôler chaque pixel, puis on s'étonne que le système ne serve à rien.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

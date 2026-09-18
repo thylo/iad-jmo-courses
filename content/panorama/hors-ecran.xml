@@ -1,0 +1,92 @@
+<page id="hors-ecran">
+  <titre>Hors écran</titre>
+  <resume>Un classement sur un seul critère : la place de l'écran. Compagnon, accessoire, ou absent.</resume>
+
+  <markdown>
+    Ce découpage ne regarde ni [la structure du récit](/panorama/structures) ni
+    [le rôle du public](/panorama/roles), mais une seule chose : ce qu'on demande à
+    la machine. Les mêmes œuvres changent de voisines. Un escape game se retrouve à
+    côté d'un jeu de société, et le jeu de rôle finit seul à l'extrémité.
+
+    Le reste du site passe le plus souvent par un écran. C'est un parti pris, et il
+    vaut mieux le dire : on est dans une école, dans une option multimédia, et
+    l'ordinateur est le terrain commun de tout le monde ici. Ce n'est pas une
+    hiérarchie, c'est un cadre de travail. Le jeu de société et le jeu de rôle vont
+    pourtant aussi loin, souvent plus loin, sans une ligne de code.
+  </markdown>
+
+  <section title="L'écran comme compagnon">
+    <markdown>
+      L'expérience est physique (une table, des cartes, une salle) et l'écran fait
+      le travail ingrat : lire un code, tenir le compte, jouer un son au bon moment.
+      Il peut être posé au milieu de la table, il n'est jamais l'endroit où on
+      regarde.
+
+      - [Unlock!](/oeuvres/unlock), [Chronicles of Crime](/oeuvres/chronicles-of-crime),
+        [Alice is Missing](/oeuvres/alice-is-missing) : l'app valide, chronomètre,
+        déclenche ; le récit est sur la table
+      - Escape games : de plus en plus de technologie dans les salles, et de moins en
+        moins visible
+
+      C'est l'inversion à voir : ici le numérique n'est pas le support, c'est un
+      accessoire au service d'autre chose.
+    </markdown>
+  </section>
+
+  <section title="Sans écran du tout">
+    <markdown>
+      La machine retirée, il reste ce qui continue de fonctionner. Ces quatre-là
+      tiennent un récit interactif avec du carton.
+
+      - [Cartaventura](/oeuvres/cartaventura). Les cartes posées sur la table *sont*
+        l'état du récit : une décision en remplace une partie, et on voit la structure
+        changer sous ses yeux
+      - [Backstories](/oeuvres/backstories). Un point &amp; click sans écran : une carte
+        Action perforée posée sur une carte Lieu, et la fenêtre découpée donne la
+        conséquence. Choisir un verbe, désigner une cible, lire la réponse
+      - [Heredity](/oeuvres/heredity) : un sablier avance sur une frise du temps et
+        déclenche les cartes qu'on y a accrochées : une file d'événements différés,
+        posée à plat, visible par tous
+      - [Flashback : Zombie Kidz](/oeuvres/flashback-zombie-kidz). Une scène figée,
+        vue par les yeux de chaque personnage qui s'y trouve. Presque aucun texte : le
+        récit tient au montage que les joueurs font entre les points de vue
+
+      Ces jeux résolvent en carton des problèmes qu'on retrouve en code : tenir un
+      état, chercher une réponse dans une table, déclencher un événement plus tard,
+      faire d'une image sa propre table des matières. À la différence près
+      qu'ici la solution doit rester visible pour être jouable. C'est pour ça qu'ils
+      s'analysent si bien, et qu'ils fonctionneront encore quand l'app de la boîte
+      d'à côté aura cessé d'être maintenue.
+    </markdown>
+  </section>
+
+  <section title="Le maître de jeu">
+    <markdown>
+      Le jeu de rôle tient l'extrême de l'axe : un système qui improvise, répond à
+      tout, et qu'aucun logiciel ne sait imiter. Voir ce que le maître de jeu fait
+      vraiment, c'est comprendre ce qu'une application ne fera pas. La question est
+      posée dans [Plateau augmenté](/cours/concepts/interface-plateau).
+    </markdown>
+  </section>
+
+  <section title="Les idées traversent">
+    <markdown>
+      La circulation se fait dans les deux sens. Une idée d'interaction n'appartient
+      pas au support où elle a été inventée : elle traverse, et elle change de nature
+      en traversant.
+
+      - [MicroMacro : Crime City](/oeuvres/micromacro-crime-city) prend l'objet caché,
+        né sur ordinateur, et l'imprime sur un poster d'un mètre. Un personnage y
+        figure plusieurs fois, à des moments différents : la carte contient toute la
+        chronologie, et se pencher remplace le zoom
+      - [Hidden Folks](/oeuvres/hidden-folks) fait le trajet inverse. Il part du livre
+        saturé qu'on fouille du regard et le porte à l'écran sans rien y ajouter
+        d'autre qu'une chose : le décor répond au doigt. Les sons sont faits à la
+        bouche par les auteurs
+
+      Ce sont deux façons de regarder le même déplacement. C'est pour ça que le monde
+      sans écran mérite le détour même dans un cours d'écran : on y voit les idées
+      avant qu'elles soient habillées de technologie.
+    </markdown>
+  </section>
+</page>

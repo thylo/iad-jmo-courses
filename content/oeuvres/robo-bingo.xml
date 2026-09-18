@@ -1,0 +1,34 @@
+<oeuvre id="robo-bingo" statut="en-ligne">
+  <titre>Robo Bingo</titre>
+  <annee>2022</annee>
+  <par ref="lloyd-et-peter"/>
+  <url>https://foxdogstudios.com/</url>
+  <categorie>Performance</categorie>
+  <concept ref="forme-collaborative"/>
+  <voir ref="robot-chef"/>
+
+  <resume>Une partie de bingo qui dérape. Le public se connecte au Wi-Fi des interprètes, la grille s'affiche sur les téléphones, et Mr Bing — un robot sphérique installé dans une tour en carton avec un crapaud de compagnie — tire les numéros. Puis les cartons cèdent la place à des mini-jeux de plus en plus improbables, toujours joués depuis la salle.</resume>
+
+  <visuel src="robo-bingo.jpg"
+          alt="Photo promotionnelle du duo : deux hommes en chemise jaune, dos à dos sur fond rose, encadrent une marionnette jaune aux gros yeux ronds ; des boules de couleur pendent au-dessus d'eux"
+          credit="Foxdog Studios"
+          source="https://machcomedyfest.co.uk/show/2024/foxdog-studios-robo-bingo/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Le bingo sert de mode d'emploi.** Tout le monde sait jouer au bingo, y
+      compris les gens qui n'ont aucune envie de participer à quoi que ce soit. La
+      première règle est gratuite, et c'est ce qui permet aux suivantes d'être
+      absurdes : le public est déjà connecté et déjà en train de jouer quand
+      l'étrangeté commence.
+
+      **Le téléphone reste dans la poche du spectateur.** Pas de matériel à
+      distribuer, pas de boîtier à récupérer à la sortie. La salle apporte son parc
+      d'écrans — à comparer avec les boîtiers de vote de
+      [[the-climate-show|The Climate Show]], qui coûtent, se rechargent et se
+      perdent.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

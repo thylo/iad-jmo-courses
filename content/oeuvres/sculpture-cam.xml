@@ -1,0 +1,39 @@
+<oeuvre id="sculpture-cam" statut="en-ligne">
+  <titre>Sculpture Cam</titre>
+  <annee>2015</annee>
+  <par ref="studio-moniker"/>
+  <url>https://studiomoniker.com/projects/a-social-game-in-the-park</url>
+  <categorie>Installation</categorie>
+  <categorie>Urbain</categorie>
+  <concept ref="forme-collaborative"/>
+  <voir ref="touch-for-luck"/>
+
+  <resume>Au Yorkshire Sculpture Park, on ouvre sculpture.cam sur son téléphone : le GPS indique quelle œuvre chercher, et une fois devant, l'écran affiche une silhouette vide qu'il faut faire coïncider avec la sculpture réelle avant de déclencher. Chaque œuvre demande cent vingt prises, sous cent vingt angles, pour boucler un tour complet. Les photos des visiteurs s'assemblent en une rotation animée. Commande de The Space, avec la BBC et l'Arts Council England.</resume>
+
+  <visuel src="sculpture-cam.jpg"
+          alt="Un visiteur de dos lève son téléphone vers une sculpture colorée posée dans l'herbe du parc ; l'écran affiche la silhouette à faire coïncider avec elle"
+          credit="Yorkshire Sculpture Park — photo David Lindsay"
+          source="https://www.thespace.org/resource/sculpture-cam-a-case-study-in-site-specific-art/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Le public est le scanner.** Aucun matériel n'est installé dans le parc :
+      la numérisation d'une sculpture est faite par cent vingt inconnus qui passent,
+      chacun apportant un angle. Le dispositif ne demande pas une contribution
+      créative — il demande de se placer au bon endroit, ce que tout le monde sait
+      faire. Voir [[forme-collaborative]].
+
+      **La silhouette oblige à tourner autour.** Pour faire coïncider l'écran et
+      l'objet, il faut avancer, reculer, se baisser, contourner. La tâche assignée
+      par le téléphone produit exactement le comportement qu'un parc de sculptures
+      espère de ses visiteurs, et qu'un cartel n'obtient jamais.
+
+      **Le résultat garde les défauts.** Lumières différentes, cadrages
+      approximatifs, gens qui passent : la rotation finale est bancale, et Moniker
+      la revendique. Un scanner professionnel aurait donné un modèle propre et sans
+      auteur ; celui-ci porte la trace de tous ceux qui l'ont fabriqué.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

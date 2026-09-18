@@ -1,0 +1,41 @@
+<oeuvre id="a-stone-only-rolls-downhill" statut="en-ligne">
+  <titre>A Stone Only Rolls Downhill</titre>
+  <annee>2025</annee>
+  <par>OK Go</par>
+  <par>Damian Kulash</par>
+  <par>Chris Buongiorno</par>
+  <url>https://okgo.net/2025/02/14/a-stone-only-rolls-downhill/</url>
+  <categorie>Performance</categorie>
+  <concept ref="interface-split-screen"/>
+  <voir ref="hors-jeu"/>
+
+  <resume>Un clip tourné en soixante-quatre plans-séquences, un par téléphone, les appareils ensuite posés côte à côte au sol pour composer une seule image. Aucune incrustation numérique : ce qui tient la mosaïque ensemble, c'est la chorégraphie du tournage. Mille prises sur huit jours pour quatre minutes.</resume>
+
+  <visuel src="a-stone-only-rolls-downhill.jpg"
+          source="https://okgo.net/2025/02/14/a-stone-only-rolls-downhill/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Le split-screen est fabriqué, pas monté.** Kulash le dit lui-même : au lieu
+      de coller des images en post-production, l'équipe a filmé une vidéo par
+      téléphone et les a alignées physiquement. La conséquence est visible à
+      l'écran — les cadres ne sont jamais tout à fait raccord, les téléphones ont
+      chacun leur exposition, et la mosaïque reste une pile d'objets plutôt qu'une
+      surface. Voir [[interface-split-screen]].
+
+      **La synchronisation devient le sujet.** Soixante-quatre fragments qui tantôt
+      s'accordent, tantôt se contredisent : c'est la figure que le clip revendique
+      pour parler de quelqu'un qui ne se met pas d'accord avec lui-même. La forme
+      n'illustre pas le propos, elle en est la seule formulation.
+
+      **Le ratio est l'information utile.** Deux heures vingt de rushes pour quatre
+      minutes. Une contrainte tenue sans effet numérique se paie en répétitions, et
+      c'est ce chiffre-là qu'il faut montrer à qui propose un dispositif « simple ».
+    </markdown>
+
+    <video src="youtube:MOEULOSVNK4"
+           caption="Le clip officiel, publié par OK Go."/>
+  </section>
+
+  <backlinks/>
+</oeuvre>
