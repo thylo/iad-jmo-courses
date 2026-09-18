@@ -12,6 +12,11 @@
 
   <resume>Alma a passé cinq ans dans une mara, un gang guatémaltèque, avant d'essayer d'en sortir et d'être laissée pour morte. Elle raconte, face caméra, sur fond noir. Un second flux vidéo est superposé au premier — photographies de Miquel Dewever-Plana, dessins de Hugues Micol — et le spectateur passe de l'un à l'autre quand il veut. Prix IDFA DocLab 2012, premier prix du concours de narration numérique World Press Photo 2013. Le site est aujourd'hui fermé.</resume>
 
+  <visuel src="alma.jpg"
+          alt="Alma, une jeune femme aux longs cheveux noirs, regarde l'objectif sur fond noir ; un tatouage dépasse de l'encolure de son tee-shirt rose"
+          credit="Miquel Dewever-Plana et Isabelle Fougère / Upian — Arte"
+          source="https://docubase.mit.edu/project/alma-a-tale-of-violence/"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **Le partage de l'écran est un choix moral, pas graphique.** Il y a ce

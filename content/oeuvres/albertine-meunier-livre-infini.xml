@@ -1,20 +1,15 @@
 <oeuvre id="albertine-meunier-livre-infini" statut="en-ligne">
-  <titre>Albertine Meunier - Livre Infini</titre>
-  <annee>2017</annee>
+  <titre>Le Livre Infini</titre>
+  <annee>2016</annee>
   <par>Albertine Meunier</par>
+  <par>Art2M</par>
   <url>https://www.albertinemeunier.net/livre-infini</url>
-  <categorie>Fiction</categorie>
+  <categorie>Installation</categorie>
 
-  <resume>Projet de livre infini généré à partir de flux web et données en ligne. L'œuvre explore la notion de livre à l'ère numérique en créant un objet hybride entre installation et livre qui se régénère constamment.</resume>
+  <resume>Un livre relié dont toutes les pages sont blanches. Des puces RFID dans le papier disent au dispositif quelle page est ouverte ; un vidéoprojecteur posé au-dessus y dépose alors du texte, des images, des vidéos, des messages publiés à l'instant sur un mot-dièse choisi. Le geste de tourner la page reste celui d'un livre, le contenu ne tient jamais en place. Prototype présenté à Futur en Seine en juin 2016, installation au Collège des Bernardins en novembre 2017.</resume>
 
   <visuel src="albertine-meunier-livre-infini.jpg"
           source="https://www.albertinemeunier.net/livre-infini"/>
-
-  <section title="Pourquoi c'est inspirant">
-    <markdown>
-      Questionne la notion même de livre et de lecture à l'ère numérique. Projet qui démontre comment allier concept fort et réalisation technique. Génération procédurale au service de la narration.
-    </markdown>
-  </section>
 
   <backlinks/>
 </oeuvre>

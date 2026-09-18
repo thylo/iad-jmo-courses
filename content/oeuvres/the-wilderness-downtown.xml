@@ -9,7 +9,10 @@
   <concept ref="structure-lineaire"/>
   <concept ref="role-soi-meme"/>
 
-  <resume>Clip interactif pour « We Used to Wait » d'Arcade Fire. On donne l'adresse de la maison de son enfance, et le film va la chercher dans Google Earth et Street View : un adolescent court dans une rue, et cette rue est la vôtre. Plusieurs fenêtres de navigateur s'ouvrent et se placent toutes seules à l'écran, chorégraphiées avec la chanson. À la fin, on écrit une lettre à l'enfant qu'on était. Démonstration de HTML5 commandée par Google pour Chrome.</resume>
+  <resume>Clip interactif pour « We Used to Wait » d'Arcade Fire. On donne l'adresse de la maison de son enfance, et le film va la chercher dans Google Earth et Street View : un adolescent court dans une rue, et cette rue est celle du spectateur. Plusieurs fenêtres de navigateur s'ouvrent et se placent toutes seules à l'écran, chorégraphiées avec la chanson. À la fin, on écrit une lettre à l'enfant qu'on était. Démonstration de HTML5 commandée par Google pour Chrome.</resume>
+
+  <visuel src="the-wilderness-downtown.jpg"
+          source="https://experiments.withgoogle.com/the-wilderness-downtown"/>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
@@ -17,7 +20,7 @@
       démonstration la plus économique de ce que peut faire le
       [[role-soi-meme|rôle de soi-même]] : rien n'est personnalisé au sens du
       marketing, c'est le sujet même du morceau — l'attente, l'enfance, le lieu qu'on a
-      quitté — qui va chercher votre vie.
+      quitté — qui va chercher la vie du spectateur.
 
       **La fenêtre du navigateur est le cadre.** Au lieu d'une vidéo dans une page,
       des pop-ups qui s'ouvrent, se déplacent et composent l'image. Le décor est le
@@ -27,6 +30,9 @@
       aucune branche : le morceau dure ce qu'il dure. Ce qui varie, ce sont les images,
       pas le récit. Utile pour montrer qu'on peut impliquer sans faire choisir.
     </markdown>
+
+    <video src="youtube:EKg2HJ_qvKA"
+           caption="Les coulisses du film, publiées par Google Chrome."/>
   </section>
 
   <section title="Ce qui coince">

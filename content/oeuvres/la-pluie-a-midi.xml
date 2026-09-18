@@ -1,18 +1,37 @@
 <oeuvre id="la-pluie-a-midi" statut="en-ligne">
   <titre>La Pluie à Midi</titre>
-  <annee>2020</annee>
-  <par>Liège Game Lab</par>
-  <url>https://www.youtube.com/watch?v=PjUfFM2bhc0</url>
+  <annee>2018</annee>
+  <par>Julie Stephen Chheng</par>
+  <par ref="editions-volumiques"/>
+  <par>Ex Nihilo</par>
+  <url>https://volumique.com/lapluie/</url>
+  <categorie>Fiction</categorie>
   <categorie>Jeu</categorie>
+  <concept ref="interface-gestural"/>
 
-  <resume>Expérience narrative où les joueurs écoutent une histoire audio tout en manipulant des objets physiques qui influencent le déroulement.</resume>
+  <resume>Un album de quarante-quatre pages et une application, à partir de quatre ans. Joe est un petit poisson qui a perdu sa nageoire. Le livre est découpé : on en détache des nageoires en papier qu'on pose sur l'écran de la tablette, qui joue alors le rôle de la surface de l'eau — la nageoire dépasse, comme celle d'un vrai poisson. Et l'application change selon le temps qu'il fait dehors et l'heure qu'il est.</resume>
 
   <visuel src="la-pluie-a-midi.jpg"
           source="https://m.youtube.com/watch?v=PjUfFM2bhc0"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Le son devient l'interface narrative principale, les objets physiques sont les contrôles.
+      **L'écran est une surface d'eau, pas un écran.** Poser une nageoire de papier
+      dessus, c'est décider une fois pour toutes de ce que la tablette représente
+      dans la fiction. Aucune explication n'est nécessaire, et l'objet en papier
+      cesse d'être un accessoire : il est ce qui donne son sens à la surface.
+
+      **La météo réelle entre dans le récit.** L'application interroge le temps qu'il
+      fait à l'endroit où se trouve l'enfant, et l'heure. Il pleut dehors, il pleut
+      dans l'histoire. C'est la donnée la plus banale qui soit, employée pour la
+      seule chose qu'elle sache vraiment faire : ancrer une fiction dans le jour
+      précis où on la lit.
+
+      **Les deux moitiés se tiennent debout séparément.** Le livre se lit sans
+      tablette, l'application se joue sans livre. C'est ce qui distingue un objet
+      hybride d'un objet dépendant — et ce qui fait que l'album survivra à
+      l'application. Même logique que le reste du catalogue des
+      [[editions-volumiques|Éditions Volumique]].
     </markdown>
   </section>
 

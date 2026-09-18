@@ -1,0 +1,70 @@
+<oeuvre id="oath-chronicles-of-empire-and-exile" statut="en-ligne">
+  <titre>Oath : Chronicles of Empire and Exile</titre>
+  <annee>2021</annee>
+  <par>Cole Wehrle</par>
+  <par>Kyle Ferrin</par>
+  <par>Leder Games</par>
+  <url>https://www.matagot.com/fr/expert-games/292-oath.html</url>
+  <categorie>Jeu</categorie>
+  <concept ref="structure-a-etat"/>
+  <concept ref="forme-sociale"/>
+
+  <resume>Un jeu de plateau dont chaque partie modifie le matériel de la suivante. Les cartes entrent dans le monde et en sortent selon ce qui a été joué, le titre de Chancelier se transmet à qui l'a pris, et les conditions de victoire changent selon la manière dont la partie précédente s'est terminée. Le jeu tient sa propre chronique, et aucune règle ne dit ce qu'elle racontera.</resume>
+
+  <visuel src="oath-chronicles-of-empire-and-exile.jpg"
+          alt="La boîte du jeu, debout : une ville fantastique dessinée en coupe, tours penchées et maisons colorées de part et d'autre d'une rivière, sous le sous-titre « Chroniques d'Empire &amp; d'Exil »."
+          credit="Matagot"
+          source="https://www.matagot.com/fr/expert-games/292-oath.html"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Ce n'est pas un jeu à histoire, c'est un jeu à mémoire.** Rien ne se
+      déchire, rien ne se colle : le matériel n'est pas détruit, il est réordonné.
+      Les cartes trop peu jouées quittent le paquet, celles qu'on a exploitées y
+      restent, et au bout de dix parties le monde sur la table ne ressemble plus
+      au monde de la boîte. Voir [[structure-a-etat]] : l'état n'est pas une
+      variable, c'est un paquet de cartes.
+
+      **La légitimité est une règle qui bouge.** Le vainqueur d'hier joue
+      aujourd'hui avec d'autres obligations que celles de son prédécesseur, et
+      l'asymétrie entre celui qui tient le pouvoir et ceux qui le contestent se
+      redéfinit à chaque succession. La question politique du jeu — qu'est-ce qui
+      rend un pouvoir légitime — n'est pas dans le thème, elle est dans la
+      structure.
+
+      **Le récit émergent, démontré plutôt qu'affirmé.** On répète souvent qu'un
+      système peut produire des histoires. Ici on peut le vérifier : la chronique
+      d'un groupe est lisible, différente de celle du groupe d'à côté, et personne
+      ne l'a écrite. Voir [[forme-sociale]] — l'auteur a fourni le lieu et la
+      raison de s'y disputer, pas le contenu.
+
+      **La table décide de ce qui compte.** Ce que le groupe se rappelle des
+      parties passées vaut autant que ce que le matériel enregistre. Le jeu tient
+      la comptabilité, la table tient la légende, et la seconde est plus tenace
+      que la première.
+    </markdown>
+
+    <video src="youtube:bkYNFiJ6xLo"
+           caption="La critique de Shut Up &amp; Sit Down, qui montre le monde persistant d'une partie à l'autre."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Les règles sont un mur. Il faut compter une première partie perdue à comprendre,
+      et
+      un groupe stable pour que la chronique existe — un jeu qui n'a de sens qu'en
+      campagne meurt avec la disponibilité de ses joueurs, comme
+      [[heredity|Heredity]].
+
+      L'équilibre est ouvertement bancal, et c'est assumé : une position peut être
+      injouable parce que la partie d'avant s'est mal finie. Défendable comme
+      propos, épuisant comme soirée.
+
+      Et l'objet est difficile à trouver. Leder Games ne le vend plus sur son
+      propre site, en attente d'une nouvelle édition ; il faut passer par un
+      distributeur.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

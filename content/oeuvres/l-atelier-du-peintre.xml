@@ -9,6 +9,11 @@
 
   <resume>Quatre tablettes posées sur un pupitre, face à « L'Atelier du peintre » de Gustave Courbet, au musée d'Orsay. Une trentaine de minutes pour entrer dans la toile : les personnages peints prennent la parole et racontent qui ils sont et pourquoi ils sont là. Une partie interactive montre la fabrication du tableau et les enjeux de sa restauration. Un relief tactile, conçu par Tactile Studio, double le dispositif pour les visiteurs aveugles. Ouvert le 7 mai 2015, prolongé quelques semaines plus tard par un site dédié.</resume>
 
+  <visuel src="l-atelier-du-peintre.jpg"
+          alt="Dans la pénombre de la salle, une main tient une tablette devant « L'Atelier du peintre » ; sur l'écran, la toile est reprise et augmentée d'une étiquette qui nomme un des personnages"
+          credit="Musée d'Orsay / Orange"
+          source="https://www.club-innovation-culture.fr/musee-dorsay-et-orange-font-vivre-atelier-du-peintre-courbet/"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **L'interface est devant l'œuvre, pas à sa place.** On lève les yeux, on
@@ -30,8 +35,8 @@
       Le dispositif de salle a été démonté et le site `entrezdanslatelier.fr` a
       été abandonné, puis récupéré par quelqu'un d'autre : le domaine sert
       aujourd'hui à un blog sans rapport. Pire qu'un lien mort : un lien qui
-      marche et qui ment. Vérifiez toujours ce qu'il y a au bout d'une URL avant
-      de la citer.
+      marche et qui ment. Ce qu'il y a au bout d'une URL est toujours à vérifier
+      avant de la citer.
     </markdown>
   </section>
 

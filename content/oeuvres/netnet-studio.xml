@@ -1,18 +1,30 @@
 <oeuvre id="netnet-studio" statut="en-ligne">
-  <titre>Netnet.studio</titre>
+  <titre>netnet.studio</titre>
   <annee>2020</annee>
   <par>Nick Briz</par>
   <url>https://netnet.studio/?tutorial=what-is-code</url>
   <categorie>Outil</categorie>
 
-  <resume>Environnement de développement web interactif et pédagogique. Tutoriels intégrés, visualisation du code en temps réel, explications contextuelles. Apprendre le HTML/CSS/JS en créant directement.</resume>
+  <resume>Un éditeur de code qui vit dans la page qu'il fabrique : on écrit du HTML, du CSS et du JavaScript, et le résultat est l'arrière-plan de l'éditeur lui-même. Un assistant dessiné accompagne des tutoriels qui commencent à « qu'est-ce que du code ». Rien à installer, rien à compiler, rien à déployer.</resume>
 
   <visuel src="netnet-studio.jpg"
           source="https://netnet.studio/?tutorial=what-is-code"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Réinvente l'apprentissage du code web en le rendant visuel et immédiat. Chaque concept est expliqué avec des exemples interactifs. L'IDE devient outil pédagogique.
+      **La page modifiée est la page qu'on regarde.** Pas de fenêtre de
+      prévisualisation à côté : le code s'applique à l'endroit où on est. L'écart
+      entre écrire et voir — celui qui décourage la plupart des débutants —
+      disparaît, parce qu'il n'y a plus deux objets.
+
+      **Rien n'est installé.** Ni éditeur, ni serveur local, ni compte, ni gestion de
+      paquets. Pour un premier cours, chacun de ces obstacles élimine des gens avant
+      la première ligne — et aucun d'eux n'enseigne quoi que ce soit sur le web.
+
+      **Le premier tutoriel s'appelle « qu'est-ce que du code ».** Il n'est pas
+      supposé qu'on sache ce qu'est un fichier, une balise ou un navigateur. Rare,
+      et c'est exactement la population qu'un cours de narration interactive doit
+      atteindre.
     </markdown>
   </section>
 

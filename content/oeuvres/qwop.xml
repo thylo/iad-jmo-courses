@@ -8,6 +8,11 @@
 
   <resume>Un sprinteur olympique, cent mètres à parcourir, et quatre touches : Q et W commandent les cuisses, O et P les mollets. Il n'y a pas de touche « courir ». Le corps est une poupée de chiffon soumise à une simulation physique, et la course se solde à peu près toujours par un effondrement. Fait en Flash en 2008, devenu un phénomène en 2010, toujours jouable.</resume>
 
+  <visuel src="qwop.jpg"
+          alt="Capture du jeu : le sprinteur s'effondre en arrière sur la piste, jambes repliées ; en haut, le compteur affiche « -1,1 metres », les touches Q et W sont étiquetées « thighs » et les touches O et P « calves »"
+          credit="Bennett Foddy — capture Wikimedia Commons"
+          source="https://www.foddy.net/Athletics.html"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **La correspondance entre le geste et l'action est le sujet.** Dans toutes les

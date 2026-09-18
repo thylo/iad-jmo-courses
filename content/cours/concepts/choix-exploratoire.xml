@@ -9,7 +9,7 @@
   <voir ref="choix-rationnel"/>
   <voir ref="faux-choix"/>
 
-  <resume>Vous n'avez pas de quoi décider, et c'est voulu. On choisit pour voir. La curiosité remplace le calcul, et ça marche très bien tant que l'œuvre ne prétend pas le contraire.</resume>
+  <resume>Il n'y a pas de quoi décider, et c'est voulu. On choisit pour voir. La curiosité remplace le calcul, et ça marche très bien tant que l'œuvre ne prétend pas le contraire.</resume>
 
   <section title="Définition">
     <markdown>
@@ -42,9 +42,9 @@
 
   <section title="Trois façons de s'en servir">
     <markdown>
-      **Choisir l'angle.** [[weiordie|Wei or Die]] fixe le récit et vous donne les
-      caméras. Vous ne décidez pas de ce qui arrive à Wei, vous décidez d'où vous le
-      regardez. L'œuvre ne promet rien d'autre, et elle le tient.
+      **Choisir l'angle.** [[weiordie|Wei or Die]] fixe le récit et donne les caméras.
+      Ce qui arrive à Wei ne se décide pas ; l'endroit d'où on le regarde, si. L'œuvre
+      ne promet rien d'autre, et elle le tient.
 
       **Choisir l'ordre.** [[hors-jeu|Hors-Jeu]] découpe dix-huit mois d'enquête sur
       la corruption du football en quatre-vingt-dix-neuf cartes à collectionner.
@@ -90,18 +90,18 @@
     </markdown>
   </section>
 
-  <section title="Pour votre projet">
+  <section title="En pratique">
     <markdown>
-      C'est le type de choix qui convient à un projet d'atelier, et il faut le dire
-      franchement plutôt que de faire semblant d'avoir écrit un arbre.
+      C'est le type de choix qui convient à un projet court, et il vaut mieux le dire
+      franchement que de faire semblant d'avoir écrit un arbre.
 
-      **Écrivez des modules qui tiennent seuls.** Chacun doit se comprendre sans ce
-      qui le précède : c'est la seule contrainte, et elle est sérieuse.
+      **Des modules qui tiennent seuls.** Chacun doit se comprendre sans ce qui le
+      précède : c'est la seule contrainte, et elle est sérieuse.
 
-      **Dites-le dans la première phrase.** « Explorez dans l'ordre que vous voulez »
+      **Le dire dans la première phrase.** « Explorez dans l'ordre que vous voulez »
       est une promesse tenable. « Vos choix comptent » ne l'est pas.
 
-      **Donnez une carte.** Une progression visible, un compteur, des cases qui se
+      **Une carte.** Une progression visible, un compteur, des cases qui se
       remplissent : la curiosité a besoin de savoir qu'il reste quelque chose.
     </markdown>
   </section>

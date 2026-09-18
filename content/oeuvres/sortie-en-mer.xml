@@ -11,6 +11,11 @@
 
   <resume>Une sortie en voilier, une bôme qui part, un homme à l'eau et le bateau qui s'éloigne. Vidéo en vue subjective : il faut faire tourner la molette pour rester à flot, sans arrêt, pendant plusieurs minutes. Le bras fatigue, la tête passe sous l'eau, et on se noie. Campagne du fabricant de vêtements de mer Guy Cotten, signée CLM BBDO. Le site a vécu environ trois ans ; il se rejoue par l'archive.</resume>
 
+  <visuel src="sortie-en-mer.jpg"
+          alt="Écran-titre : vu de sous l'eau, un bras s'agite vers la surface éclairée ; par-dessus, « Guy Cotten présente — Sortie en mer »"
+          credit="Guy Cotten"
+          source="https://archive.org/details/sortie-en-mer"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **On ne peut pas gagner, et c'est le message.** Aucune combinaison de gestes ne
@@ -21,9 +26,9 @@
       **À mettre en regard de [[etes-vous-pret-a-sauver-une-vie]].** Les deux œuvres
       forment aux mêmes enjeux et prennent la décision inverse. L'une reprend la main
       à chaque erreur et rejoue la scène jusqu'à la bonne réponse, si bien que rien ne
-      coûte rien. L'autre ne vous laisse aucune issue et le dit d'emblée. C'est la
-      seconde qui produit quelque chose. La paire est le meilleur exercice du cours
-      sur le [[faux-choix]] : ce qui compte n'est pas d'avoir des issues, c'est de ne
+      coûte rien. L'autre ne laisse aucune issue et le dit d'emblée. C'est la
+      seconde qui produit quelque chose. La paire est la meilleure démonstration qui
+      soit du [[faux-choix]] : ce qui compte n'est pas d'avoir des issues, c'est de ne
       pas mentir sur celles qu'on a.
 
       **Le geste est la fatigue.** Le [[interface-scrollable|défilement]] n'illustre

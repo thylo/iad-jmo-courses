@@ -10,6 +10,11 @@
 
   <resume>Le 12 février 2014, quelqu'un branche le salon de discussion d'un stream sur les commandes d'un jeu Pokémon : tout ce qu'on tape dans le chat appuie sur les boutons. Des dizaines de milliers de personnes pilotent le même personnage en même temps. Plus d'un million de spectateurs uniques, cent vingt-deux millions de messages, des pointes à cent mille commandes par minute. Le jeu est terminé le 1er mars, après seize jours, sept heures et quarante-cinq minutes de jeu ininterrompu.</resume>
 
+  <visuel src="twitch-plays-pokemon.jpg"
+          alt="Capture du flux : à gauche, l'écran de Pokémon Rouge affiche « Red defeated Blue! » ; en haut, le compteur « 16d 7h 45m 33s » et la jauge anarchie-démocratie ; à droite, la colonne du tchat où chaque pseudonyme est suivi d'une touche, a, b ou une flèche"
+          credit="Twitch Plays Pokémon"
+          source="https://www.tubefilter.com/2024/02/14/twitch-plays-pokemon-red-10-years-birthday-anniversary-stream/"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **Le dispositif produit un récit que personne n'a écrit.** Le personnage titube,
@@ -31,6 +36,9 @@
       il ne peut pas le corriger, et l'œuvre lui échappe entièrement — voir
       [avec qui le public interagit](/panorama/interlocuteurs).
     </markdown>
+
+    <video src="youtube:9cHsVq6n5Vs"
+           caption="Le récit complet de l'expérience, par la chaîne Schwam Games."/>
   </section>
 
   <section title="Ce qui coince">

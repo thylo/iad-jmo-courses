@@ -1,0 +1,61 @@
+<oeuvre id="in-other-waters" statut="en-ligne">
+  <titre>In Other Waters</titre>
+  <annee>2020</annee>
+  <par>Jump Over The Age</par>
+  <url>https://store.steampowered.com/app/890720/In_Other_Waters/</url>
+  <categorie>Jeu</categorie>
+  <categorie>Fiction</categorie>
+  <concept ref="interface-maps"/>
+  <concept ref="role-personnage"/>
+
+  <resume>Le joueur est l'intelligence artificielle de la combinaison de plongée d'une xénobiologiste, sur une planète océan. Cette planète ne se verra jamais : tout passe par un tableau de bord vectoriel, des relevés, des points sur une carte. C'est elle qui décrit, lui qui oriente, et l'absence d'image produit plus de monde que n'en produirait un rendu.</resume>
+
+  <visuel src="in-other-waters.jpg"
+          alt="Vu de dos, un plongeur en scaphandre jaune s'enfonce dans une eau turquoise au-dessus d'un fond d'algues, un câble tendu derrière lui."
+          credit="Jump Over The Age"
+          source="https://store.steampowered.com/app/890720/In_Other_Waters/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Ne rien montrer est une décision, pas une économie.** Aucune créature
+      n'est dessinée. Un contact apparaît comme une forme sur un sonar, Ellery le
+      décrit en trois phrases, et c'est le lecteur qui fabrique la bête. Le
+      procédé est celui de la radio et de la fiction textuelle, appliqué à un jeu
+      qu'on croirait devoir être visuel — même pari que [[a-dark-room]], avec un
+      cadran à la place du texte nu.
+
+      **L'interface n'illustre pas le récit, elle le contient.** Il n'y a pas
+      d'écran de jeu derrière le tableau de bord : le tableau de bord *est*
+      l'écran de jeu. Chaque cadran, chaque bouton, chaque relevé appartient à la
+      fiction et se justifie dans la fiction. Voir [[interface-maps]] : ici la
+      carte n'est pas une porte d'entrée, c'est le seul lieu.
+
+      **Le joueur tient un rôle qui a des limites écrites.** Il ne décide pas
+      de plonger, il propose un cap. Ellery accepte, refuse, hésite, s'agace.
+      Ce partage — l'un veut, l'autre peut — donne un compagnonnage que les jeux
+      obtiennent rarement, parce qu'ils confondent presque toujours le personnage
+      et le joueur. Voir [[role-personnage]].
+
+      **Classer, c'est raconter.** L'essentiel du temps de jeu passe à prélever,
+      nommer et ranger des organismes dans un catalogue. À la fin, ce catalogue
+      dit ce qui est arrivé à cet océan, et il le dit mieux qu'une scène.
+    </markdown>
+
+    <video src="youtube:gFTnRyvsXyI"
+           caption="La bande-annonce publiée par Fellow Traveller."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      C'est lent, et volontairement. Les déplacements se comptent en clics et en
+      attente, la moitié du jeu consiste à lire. Montré sans préparation à un
+      groupe, ça passe pour un menu.
+
+      L'interface est belle mais uniforme : au bout de trois heures, tous les
+      relevés se ressemblent, et la découverte devient une routine de gestes.
+      L'œuvre tient sur son écriture, pas sur sa boucle.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

@@ -1,0 +1,69 @@
+<oeuvre id="blaseball" statut="archive">
+  <titre>Blaseball</titre>
+  <annee>2020</annee>
+  <par>The Game Band</par>
+  <url>https://www.blaseball.com/</url>
+  <categorie>Jeu</categorie>
+  <categorie>Fiction</categorie>
+  <concept ref="forme-collaborative"/>
+  <concept ref="role-divinite"/>
+
+  <resume>Une ligue de baseball entièrement simulée, jouée en continu par des équipes de noms et de statistiques. Le public parie, puis vote chaque semaine sur les règles du sport lui-même. Des joueurs ont été incinérés par des arbitres, avalés par un dieu-pieuvre, ramenés d'entre les morts par référendum. Rien de tout cela n'était écrit : la fiction s'écrivait en direct, par sa communauté.</resume>
+
+  <visuel src="blaseball.jpg"
+          alt="Trois losanges blancs disposés comme les bases d'un terrain de baseball, au-dessus du mot BLASEBALL en capitales, sur un ciel étoilé noir."
+          credit="The Game Band"
+          source="https://www.blaseball.com/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **L'auteur ne fournit ni personnages ni intrigue.** Un joueur de Blaseball,
+      c'est un nom généré et une poignée de chiffres. Tout le reste — le visage,
+      l'histoire, les amitiés, le deuil quand il meurt — a été inventé par des
+      milliers de gens sur un wiki, dans des fanfictions et des dessins. Voir
+      [[forme-collaborative]] : ce que le public dépose reste, et l'œuvre grossit
+      par-dessus.
+
+      **Le public vote sur les règles, pas sur l'histoire.** Chaque fin de saison,
+      des décrets sont mis aux voix : ajouter une équipe, ouvrir les enfers,
+      rendre la pluie acide. On ne choisit pas ce qui va arriver, on choisit les
+      lois sous lesquelles ça arrivera. C'est la position de
+      [[role-divinite|divinité]] dans sa version honnête — les leviers, pas le
+      scénario.
+
+      **Le direct rend le deuil réel.** Les matchs tournaient jour et nuit,
+      personne ne pouvait rembobiner, et une équipe entière pouvait perdre
+      quelqu'un pendant que ses supporters dormaient. L'irréversible, dans une
+      fiction, ne s'obtient pas en l'écrivant : il s'obtient en refusant la
+      sauvegarde.
+
+      **L'absurde est la porte d'entrée.** Un dieu-pieuvre et un arbitre
+      incendiaire, c'est ce qui permet de parler sérieusement de gouvernance, de
+      vote, de récit collectif et de travail bénévole sans en avoir l'air.
+    </markdown>
+  
+    <video src="youtube:diAHuUV2Meg"
+           caption="Le récapitulatif de l'ère de la Discipline, publié par The Game Band."/>
+</section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      C'est fini. The Game Band a annoncé l'arrêt en juin 2023 : maintenir une
+      œuvre en direct demandait un travail que le studio ne pouvait plus payer.
+      L'œuvre n'existe donc plus que par ses archives — la communauté a rassemblé
+      le déroulé complet sur [before.sibr.dev](https://before.sibr.dev/) et le
+      [wiki](https://www.blaseball.wiki/). C'est le meilleur exemple à montrer de
+      ce que coûte réellement une fiction vivante, et de ce qu'il en reste.
+
+      L'entrée est presque impossible aujourd'hui. Sans le direct et sans le
+      Discord, il ne reste que des comptes rendus, et l'objet devient un
+      témoignage plutôt qu'une expérience.
+
+      Et la communauté a fait le plus gros du travail créatif, gratuitement, pour
+      une entreprise. La question n'est pas rhétorique : elle est au cœur de tout
+      dispositif participatif qu'on demandera d'imaginer.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

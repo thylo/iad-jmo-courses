@@ -1,0 +1,58 @@
+<oeuvre id="le-grand-vide" statut="en-ligne">
+  <titre>Le Grand Vide</titre>
+  <annee>2021</annee>
+  <par>Léa Murawiec</par>
+  <url>https://www.editions2042.com/catalogue/p/le-grand-vide</url>
+  <categorie>Fiction</categorie>
+
+  <resume>Dans une ville où l'on meurt si plus personne ne pense à son nom, une jeune femme découvre qu'une homonyme célèbre absorbe toute son attention. Sa Présence s'effondre. L'économie de l'attention n'est pas le thème du livre : c'est sa règle de mise en page, et les noms saturent les cases jusqu'à étouffer les personnages.</resume>
+
+  <visuel src="le-grand-vide.jpg"
+          alt="La couverture : une jeune femme aux longs cheveux, dessinée en violet et rouge, chute la tête en bas dans une rue verticale saturée d'enseignes."
+          credit="Éditions 2042"
+          source="https://www.editions2042.com/catalogue/p/le-grand-vide"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Une règle de fiction devient une règle graphique.** Les enseignes, les
+      slogans, les patronymes envahissent chaque planche, se superposent aux
+      corps, débordent des cases. On ne lit pas une description de la saturation :
+      on la subit page après page, et on cherche le personnage dans le bruit comme
+      elle cherche à exister dedans.
+
+      **La métaphore est prise au pied de la lettre, donc elle fonctionne.**
+      « Être connu pour vivre » n'est pas une image : c'est le système de santé du
+      monde. À partir de là, tout devient concret — les cliniques de Présence, les
+      gens qui se paient une publicité pour survivre, ceux qui meurent d'un
+      changement de mode. Une idée de règle, tenue jusqu'à ses conséquences
+      sociales.
+
+      **Le rouge et le noir font le travail du niveau de danger.** Deux couleurs,
+      et la quantité de rouge dans la page dit où en est Manel. L'information
+      d'état ne passe ni par un compteur ni par une réplique : elle passe par la
+      surface. C'est exactement ce qu'on demande à une interface de faire.
+
+      **C'est le pendant de [[click-click-click]] sur papier.** L'un montre ce que
+      nos gestes livrent de nous, l'autre ce qu'il en coûte de ne pas être
+      regardé. Les deux ensemble tiennent la question sans qu'on ait besoin de
+      citer une statistique.
+    </markdown>
+
+    <video src="youtube:Fhqh_pY34Co"
+           caption="Une présentation de l'album par France Télévisions."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le livre dit son idée très vite et la répète beaucoup ; la seconde moitié
+      ajoute une course-poursuite qui n'apporte rien au dispositif. Ce qu'on
+      retient est dans les trente premières pages.
+
+      Publié aux éditions 2024, qui s'appellent désormais 2042 — l'adresse a
+      changé, le nom aussi. Fauve du Public France Télévisions à Angoulême en
+      2022.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

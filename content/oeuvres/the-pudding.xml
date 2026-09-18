@@ -3,16 +3,32 @@
   <annee>2017</annee>
   <par>The Pudding</par>
   <url>https://pudding.cool/</url>
+  <categorie>Documentaire</categorie>
   <categorie>Outil</categorie>
+  <concept ref="interface-scrollable"/>
+  <voir ref="the-fallen-of-world-war-ii"/>
 
-  <resume>Publication de "visual essays" interactifs sur la culture pop et la société. Combine data journalism, visualisations interactives et narration.</resume>
+  <resume>Une publication d'essais visuels, un par sujet et un par forme : qui parle dans les films Disney, où s'arrête le vocabulaire des rappeurs, à quoi ressemble la carte des accents américains. Chaque article invente son interface, et le code de chacun est publié. Une petite équipe, sans rédaction ni périodicité.</resume>
 
   <visuel src="the-pudding.jpg"
           source="https://pudding.cool/"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Chaque article est un outil d'exploration interactif unique. Les données deviennent narratives.
+      **Un article, une forme.** Rien n'est réutilisé d'une publication à l'autre :
+      pas de gabarit maison, pas de bibliothèque de composants imposée. C'est
+      coûteux, et c'est ce qui fait que chaque sujet est traité avec ce qu'il
+      demande plutôt qu'avec ce qui existe déjà.
+
+      **Le lecteur est mis dans la démonstration.** Beaucoup d'articles commencent
+      par une question posée à celui qui lit — devine la réponse, dessine la courbe,
+      choisis ta ville — puis affichent l'écart avec la réalité. Faire tracer une
+      hypothèse fausse avant de montrer la donnée est le procédé le plus efficace du
+      genre.
+
+      **Tout est publié.** Données et code, article par article. Utile en cours : on
+      peut ouvrir n'importe quel essai et regarder comment il est réellement
+      fabriqué, ce qu'aucun journal ne permet.
     </markdown>
   </section>
 

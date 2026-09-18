@@ -99,16 +99,9 @@
 
       Et cette boîte à outils ne reste pas dans l'onglet. Les mêmes trois langages
       tiennent l'interface d'une télévision, d'une borne de musée et d'une capsule
-      spatiale, ce qui est à la fois une raison d'apprendre le matériau et une chose à
-      regarder de près.
+      spatiale — c'est à la fois une raison d'apprendre le matériau et
+      [une chose à regarder de près](/articles/le-web-hors-du-navigateur).
     </markdown>
-
-    <destinations>
-      <destination to="le-web-hors-du-navigateur">
-        Là où HTML, CSS et JavaScript tournent sans navigateur visible, et ce que
-        cette ubiquité coûte
-      </destination>
-    </destinations>
   </section>
 
   <section title="Les cours">
@@ -124,7 +117,7 @@
     </destinations>
   </section>
 
-  <section title="Les deux répertoires">
+  <section title="Deux répertoires à garder ouverts">
     <destinations>
       <destination to="concepts">
         Le vocabulaire d'analyse : structures, formes, rôles, interfaces, types de

@@ -1,0 +1,12 @@
+<personne id="kascen" genre="studio">
+  <titre>Kascen</titre>
+  <lieu>Belgique</lieu>
+
+  <resume>Scénographe et maître d'œuvre d'expositions, qui confie à des studios le développement des dispositifs qu'il met en scène.</resume>
+
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
+  </section>
+
+  <backlinks/>
+</personne>

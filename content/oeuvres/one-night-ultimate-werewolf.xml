@@ -3,11 +3,17 @@
   <annee>2014</annee>
   <par>Ted Alspach</par>
   <par>Bezier Games</par>
+  <url>https://beziergames.com/products/one-night-ultimate-werewolf</url>
   <categorie>Jeu</categorie>
   <concept ref="forme-sociale"/>
   <concept ref="interface-plateau"/>
 
   <resume>Un Loup-Garou sans élimination et sans meneur : une seule nuit, un seul vote, dix minutes. Une application gratuite tient le rôle du narrateur — elle appelle les rôles dans l'ordre, gère les temps de silence et referme la nuit. Personne n'est mis hors jeu, donc tout le monde joue jusqu'au bout.</resume>
+
+  <visuel src="one-night-ultimate-werewolf.jpg"
+          alt="Boîte du jeu : la silhouette noire d'un loup-garou hurlant se découpe sur une pleine lune jaune au-dessus d'une forêt de sapins, sous le titre One Night Ultimate Werewolf"
+          credit="Bezier Games"
+          source="https://beziergames.com/products/one-night-ultimate-werewolf"/>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
@@ -37,8 +43,8 @@
       règle ne peut compenser ça.
 
       Et la partie dure dix minutes pour une demi-heure de discussion : c'est un
-      excellent objet d'atelier, pas un objet d'analyse narrative très riche. Il n'y a
-      pas d'histoire écrite du tout.
+      excellent objet à faire jouer, pas un objet d'analyse narrative très riche. Il
+      n'y a pas d'histoire écrite du tout.
     </markdown>
   </section>
 

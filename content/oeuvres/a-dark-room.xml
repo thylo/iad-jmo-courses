@@ -3,16 +3,22 @@
   <annee>2013</annee>
   <par>Doublespeak Games</par>
   <url>https://adarkroom.doublespeakgames.com/</url>
+  <categorie>Jeu</categorie>
   <categorie>Fiction</categorie>
+  <concept ref="structure-a-etat"/>
 
-  <resume>Jeu entièrement textuel en JavaScript qui révèle progressivement son univers. Minimalisme extrême au service de l'imagination.</resume>
+  <resume>Une page noire, une phrase, un bouton : « ranimer le feu ». Rien d'autre. L'interface se déplie bouton par bouton au fil des heures — un inventaire, une carte, des ressources — et le jeu change trois fois de genre en cours de route sans jamais rien annoncer. Tout est en texte et en HTML.</resume>
 
   <visuel src="a-dark-room.jpg"
           source="https://adarkroom.doublespeakgames.com/"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Prouve qu'on peut créer une expérience narrative captivante avec presque rien visuellement.
+      **L'interface est le récit.** Ce qui se raconte, c'est l'apparition des
+      commandes : tant qu'il n'y a qu'un bouton, il n'y a qu'une pièce et un feu.
+      Le monde s'agrandit en même temps que le tableau de bord, et le joueur
+      découvre ce qu'il est devenu possible de faire au moment où ça le devient.
+      Même pari que [[in-other-waters]].
     </markdown>
   </section>
 

@@ -9,6 +9,11 @@
 
   <resume>Un poster de 76 sur 114 centimètres, une ville dessinée au trait, seize enquêtes. Les cartes d'un cas posent des questions ; les réponses sont quelque part sur l'image. Un même personnage y figure plusieurs fois, à des moments différents de son histoire : suivre quelqu'un, c'est parcourir la carte d'avant en arrière dans le temps. Spiel des Jahres 2021.</resume>
 
+  <visuel src="micromacro-crime-city.jpg"
+          alt="Détail du plan de ville dessiné au trait noir sur blanc : un canal traversé de ponts, des péniches, des files de voitures, une plage, et des centaines de personnages minuscules occupés à leurs affaires"
+          credit="Edition Spielwiese — illustration Johannes Sich"
+          source="https://micromacro-game.com/"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **L'espace tient lieu de temps.** Toute l'affaire est là, déjà imprimée, du

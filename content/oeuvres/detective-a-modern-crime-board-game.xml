@@ -1,20 +1,38 @@
 <oeuvre id="detective-a-modern-crime-board-game" statut="en-ligne">
   <titre>Detective: A Modern Crime Board Game</titre>
   <annee>2018</annee>
+  <par>Ignacy Trzewiczek</par>
+  <par>Przemysław Rymer</par>
+  <par>Jakub Łapot</par>
   <par>Portal Games</par>
   <url>https://antaresdatabase.com/</url>
   <categorie>Jeu</categorie>
   <concept ref="interface-plateau"/>
 
-  <resume>Les joueurs enquêtent physiquement (cartes, indices) mais accèdent à une vraie base de données web (Antares Database) pour vérifier des informations, consulter des dossiers, interroger des témoins virtuels.</resume>
+  <resume>Cinq affaires liées, jouées avec des cartes sur la table et un vrai site web ouvert à côté : la base Antares, où l'on tape des noms, des adresses, des numéros de dossier pour obtenir des fiches, des rapports d'analyse et des antécédents. Le jeu suppose aussi qu'on cherche sur le web ordinaire — les enquêtes citent des faits historiques réels qu'il faut aller vérifier.</resume>
 
   <visuel src="detective-a-modern-crime-board-game.jpg"
           source="https://antaresdatabase.com/"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Mélange réel et virtuel pour créer une enquête qui déborde du plateau. Le web devient un outil d'investigation comme dans la vraie vie.
+      **La base de données est une vraie base de données.** On n'y navigue pas dans
+      un menu de jeu : on interroge un champ de recherche, et une requête mal formée
+      ne rend rien. Le geste appris est celui d'une recherche documentaire, pas
+      celui d'un tour de jeu.
+
+      **Le hors-jeu est autorisé.** Chercher sur Wikipédia pendant une partie est
+      normalement de la triche ; ici c'est la règle. Déplacer la frontière du
+      matériel jusqu'au web entier est une décision de design forte, et elle ne
+      coûte rien à fabriquer.
+
+      **Le temps est une ressource.** Chaque consultation avance l'horloge de
+      l'enquête. Ce qui rend la base intéressante, ce n'est pas qu'elle réponde,
+      c'est qu'elle fasse payer chaque réponse.
     </markdown>
+
+    <video src="youtube:5wfaTQ7g0LA"
+           caption="La présentation du dispositif par Portal Games."/>
   </section>
 
   <backlinks/>

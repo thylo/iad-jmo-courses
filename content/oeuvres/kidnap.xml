@@ -4,83 +4,47 @@
   <par ref="blast-theory"/>
   <url>https://www.blasttheory.co.uk/projects/kidnap/</url>
   <categorie>Performance</categorie>
-  <categorie>Installation</categorie>
   <categorie>Documentaire</categorie>
   <voir ref="can-you-see-me-now"/>
   <voir ref="uncle-roy-all-around-you"/>
 
-  <resume>Loterie où deux gagnants consentants sont kidnappés de leur domicile et retenus 48 heures dans une maison sécurisée. L'expérience complète est diffusée en direct sur Internet avec contrôle interactif de caméra et communication en chat-room entre spectateurs et kidnappeurs.</resume>
+  <resume>Une loterie ouverte au public : dix livres le billet, un formulaire détaillé, un mot de sécurité, et des suppléments payants pour être enlevé avec ses cigarettes ou sa musique. Dix inscrits ont été tirés au sort et surveillés pendant deux semaines ; deux d'entre eux ont été enlevés pour de bon, du 14 au 17 juillet 1998, et retenus quarante-huit heures dans un lieu tenu secret. Les internautes pilotaient la caméra et parlaient aux ravisseurs.</resume>
 
   <visuel src="kidnap.jpg"
           source="https://www.blasttheory.co.uk/projects/kidnap/"/>
 
   <section title="Ce qui fonctionne">
     <markdown>
-      Déconstruit les frontières entre art, réalité, fiction et spectacularité. Force une confrontation éthique : qui regarde ? Pourquoi ? Que signifie donner du consentement à une expérience extrême ? Le livestream transforme les spectateurs en voyeurs participant à quelque chose d'interdit. Questions de confiance, de contrat et de vulnérabilité humaine.
+      **On paie pour être pris.** Le billet de loterie transforme la victime en
+      cliente, et c'est là que tout le malaise se loge : le consentement est
+      contractuel, signé, tarifé, et il ne rend pas la séquestration confortable
+      pour autant. Aucune œuvre ne pose plus simplement la question de ce qu'on a le
+      droit de faire subir à quelqu'un qui a dit oui.
+
+      **Le spectateur pilote la caméra.** Pas un flux fixe : un pan-tilt-zoom qu'on
+      manœuvre. La position de voyeur n'est pas dénoncée, elle est fournie avec ses
+      commandes — et 1998, c'est cinq ans avant que la télé-réalité en fasse un
+      format de grande écoute.
+
+      **La sortie était prévue et personne ne l'a prise.** Cinq cents livres pour
+      qui atteignait un téléphone. Ni Debra Burgess ni Russell Ward n'y sont
+      parvenus. Une règle d'évasion qui n'est jamais utilisée en dit plus long sur
+      le dispositif que dix pages d'analyse.
     </markdown>
   </section>
 
-  <section title="Déroulement de l'Événement (1998)">
+  <section title="Ce qui coince">
     <markdown>
-      **Recrutement** : Loterie publique ouverte aux habitants de l'Angleterre et du Pays de Galles. Les candidats remplissaient un formulaire de candidature et signaient un contrat légal.
+      Blast Theory revendique l'affaire Spanner de 1990 — des hommes poursuivis pour
+      des violences auxquelles ils avaient consenti — comme point de départ. La
+      pièce ne tranche pas, elle installe la question et regarde le public y
+      répondre. C'est le pari, et il n'est pas confortable : la frontière entre
+      l'expérience artistique et l'exploitation d'une personne y est délibérément
+      posée sans garde-fou visible, hors la présence d'un psychologue.
 
-      **Les Élus** : Russell Ward (Southend) et Debra Burgess (Londres) ont gagné. Kidnappés de leurs domiciles respectifs par Blast Theory dans une camionnette.
-
-      **La Captivité** : Emmenés à un "safe house", filmés 24h/24. En ligne, les spectateurs pouvaient :
-
-      - **Contrôler les caméras** : Pan, tilt, zoom sur l'intérieur
-      - **Communiquer** : Chat en temps réel avec les kidnappeurs
-      - **Observer** : Stream vidéo continu du livestream
-
-      **Documentation** : Matériel de presse, candidatures, vidéo de 30 minutes tournée à The Green Room (Manchester, septembre 1998).
-    </markdown>
-  </section>
-
-  <section title="Implications Éthiques et Narratives">
-    <markdown>
-      ### L'Expérience du Consentement
-
-      - Contrat légal écrit → Approbation explicite
-      - Mais : une fois kidnappé, qu'advient-il du consentement ?
-      - Performance inverse la relation spectateur-acteur habituellement
-
-      ### Voyeurisme et Surveillance
-
-      - Les spectateurs en ligne deviennent des voyeurs consentants
-      - Parallèle à la télé-réalité moderne (mais 5 ans avant Big Brother)
-      - Questions : Qu'est-ce qu'on consomme quand on regarde ?
-
-      ### Authenticité vs Performance
-
-      - Sont-ils vraiment stressés ou jouent-ils le rôle ?
-      - La caméra change-t-elle le comportement ?
-      - Où s'arrête la fiction et où commence la réalité ?
-    </markdown>
-  </section>
-
-  <section title="Contexte Historique">
-    <markdown>
-      Inspiré par la **Spanner Trial** (1990) : cas légal où des hommes consentants avaient été poursuivis pour coups consentis. *Kidnap* pousse la question plus loin : jusqu'où peut aller le consentement ?
-    </markdown>
-  </section>
-
-  <section title="Pédagogiquement">
-    <markdown>
-      Crucial pour :
-
-      - **Cours d'éthique** : Analyse critique des limites
-      - **Théorie de la performance** : Authenticité et contrat avec le public
-      - **Histoire du livestream** : Pionnier de la diffusion interactive
-      - **Design participatif** : Consentement et pouvoir dans les expériences
-      - **Critique des médias** : Voyeurisme et spectacularité
-
-      **À discuter** : Est-ce de l'art transgression ou de l'exploitation rationalisée ? Comment les artistes négocient-ils l'éthique quand on repousse les limites ?
-    </markdown>
-  </section>
-
-  <section title="Pourquoi c'est inspirant">
-    <markdown>
-      Référent historique crucial pour comprendre les arts numériques des années 1990 et le livestreaming. Interroge l'éthique de l'interactivité : le fait qu'on PEUT faire quelque chose ne veut pas dire qu'on DOIT le faire. Éclaire la performativité et l'authentique dans l'art interactif. Important pour cours d'éthique du design et de performance.
+      Rien n'en reste que la documentation de l'époque : formulaires d'inscription,
+      dossier de presse, une vidéo de trente minutes. C'est une œuvre dont on parle
+      plus qu'on ne la voit, et il faut le dire en la citant.
     </markdown>
   </section>
 

@@ -1,6 +1,6 @@
 <page id="structures">
   <titre>Structures narratives</titre>
-  <resume>Enlevez l'écran, la salle, la table. Ne gardez que le dessin que fait le récit
+  <resume>L'écran, la salle et la table retirés, il reste le dessin que fait le récit
     quand on le trace sur une feuille : combien de chemins, où ils se séparent, où
     ils se rejoignent, ce que l'œuvre retient de ce qui a déjà été fait.
   </resume>
@@ -27,7 +27,7 @@
     <glossary>
       <term name="Linéaire" to="structure-lineaire">
         Un seul chemin. Le public avance, il ne dévie pas. Même en réalité virtuelle,
-        où vous tournez la tête et pas l'histoire.
+        où c'est la tête qui tourne et pas l'histoire.
       </term>
 
       <term name="Élastique" to="structure-elastique">
@@ -59,7 +59,7 @@
 
       <term name="À état" to="structure-a-etat">
         Le récit ne se dédouble pas, il retient. Il tient une liste de ce qui est
-        vrai (le loup est mort, vous avez la lanterne) et chaque scène se réécrit
+        vrai (le loup est mort, la lanterne est acquise) et chaque scène se réécrit
         en conséquence.
       </term>
     </glossary>

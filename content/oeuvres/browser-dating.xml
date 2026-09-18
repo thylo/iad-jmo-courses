@@ -1,103 +1,44 @@
-<oeuvre id="browser-dating" statut="en-ligne">
+<oeuvre id="browser-dating" statut="hors-ligne">
   <titre>Browser.dating</titre>
   <annee>2025</annee>
   <par ref="dries-depoorter"/>
-  <url>https://browser.dating/</url>
+  <url>https://driesdepoorter.be/browserdating/</url>
   <categorie>Outil</categorie>
-  <categorie>Interface</categorie>
   <categorie>Documentaire</categorie>
-  <voir ref="jeu-d-influences"/>
   <voir ref="the-follower"/>
-  <voir ref="web-lab"/>
 
-  <resume>Plateforme de rencontre qui analyse l'historique de navigation pour matcher les utilisateurs sur leurs intérêts authentiques plutôt que leurs profils soignés. Inversion radicale du dating app classique.</resume>
+  <resume>Un site de rencontres qui apparie les gens sur leur historique de navigation. On téléverse jusqu'à cinq mille recherches récentes, un modèle en tire un profil, et les correspondances se font là-dessus — sans photo, sans description, sans rien qu'on ait rédigé pour être vu. Ouvert le 2 juin 2025, fermé par son auteur au bout de deux ans.</resume>
 
   <visuel src="browser-dating.jpg"
           source="https://browser.dating/"/>
 
   <section title="Ce qui fonctionne">
     <markdown>
-      Inversion radicale du dating app conventionnel : au lieu de présenter une version idéalisée de soi, les utilisateurs se basent sur leurs véritables comportements de navigation. Algorithme d'IA décentralisé garantissant la confidentialité des données. Export sécurisé via extension navigateur. Interface simple et efficace. Modèle freemium accessible.
+      **Le profil n'est pas écrit, il est relevé.** Une application de rencontre
+      demande de se décrire ; celle-ci lit ce qu'on a fait quand personne ne
+      regardait. Tout le dispositif tient dans cet écart entre le portrait qu'on
+      compose et la trace qu'on laisse — et c'est un écart que n'importe qui peut
+      constater sur ses propres données en trois minutes.
+
+      **Ça marche vraiment.** Ce n'est ni une maquette ni une installation : des
+      gens s'y sont inscrits, se sont écrit, se sont rencontrés. Depoorter travaille
+      systématiquement ainsi — voir [[the-follower]] — et c'est ce qui rend ses
+      pièces inconfortables plutôt que démonstratives : la critique est un service
+      qui fonctionne.
+
+      **Le prix d'entrée est la donnée.** Pour obtenir quelque chose, il faut céder
+      exactement ce qu'on reproche aux plateformes de prendre. Poser la question à
+      des étudiants — « téléverseriez-vous vos cinq mille dernières recherches ? » —
+      donne un débat plus honnête que n'importe quel cours sur la vie privée.
     </markdown>
   </section>
 
-  <section title="Concept et mécanique">
+  <section title="Ce qui coince">
     <markdown>
-      Browser.dating renverse la logique du matching traditionnel. Au lieu de profils :
-
-      - Vous choisissez des intérêts visuels
-      - Vous mentez sur vous-même
-      - Vous vous présentez comme vous aimeriez être
-
-      Avec Browser.dating :
-
-      - Vous exportez votre **historique réel** de navigation
-      - Chaque clic, chaque recherche, chaque site visité = portrait fidèle
-      - L'IA détecte les patterns cachés et croise les intérêts authentiques
-    </markdown>
-  </section>
-
-  <section title="Architecture technique">
-    <markdown>
-      1. **Export** : Extension navigateur exporte votre historique (Chrome/Firefox)
-      2. **Traitement** : Données analysées localement sur GPU dédié
-      3. **Confidentialité** : Aucun historique n'est partagé directement avec d'autres utilisateurs
-      4. **Match** : IA trouve les utilisateurs avec patterns similaires
-      5. **Contact** : Chat direct avec vos matches
-    </markdown>
-  </section>
-
-  <section title="Implications pédagogiques">
-    <markdown>
-      ### Identité numérique
-
-      Notre historique de navigation est un **palimpseste involontaire** de nos véritables intérêts :
-
-      - Ce que nous cherchons (intentions)
-      - Comment nous cherchons (préférences)
-      - Quand nous cherchons (rythmes de vie)
-      - Combien de temps nous consacrons (priorités)
-
-      ### Données comme matériau créatif
-
-      Dries Depoorter utilise les données brutes comme **médium artistique**. Les données ne sont pas visualisées abstraitement, mais transformées en fonction sociale : créer des connexions authentiques.
-
-      ### Critique des réseaux sociaux
-
-      Browser.dating expose le **fossé entre présentation et réalité** sur les applis de rencontre :
-
-      - Tinder = Portfolio idéalisé
-      - Browser.dating = Preuves comportementales
-
-      ### Enjeux éthiques
-
-      - **Privacy by design** : L'IA traite les données en local
-      - **Échange équitable** : Vous exposez vos données pour une meilleure connexion
-      - **Trace acceptée** : L'historique de navigation = consentement explicite
-    </markdown>
-  </section>
-
-  <section title="Pistes d'analyse">
-    <markdown>
-      1. **Expérience interactif où les données = interface** : Votre historique devient le contenu
-      2. **Mise en lumière des systèmes algorithmiques** : Transparence sur comment l'IA fonctionne
-      3. **Critique du design des apps sociales** : Démontre l'artifice du self-curation
-      4. **Combinaison art + technologie + critique sociale** : Même approche que Depoorter (Flemish Scrollers, The Follower)
-    </markdown>
-  </section>
-
-  <section title="Débats possibles en classe">
-    <markdown>
-      - **« C'est invasif »** vs. **« Ça crée une authentique connexion »**
-      - L'historique de navigation révèle-t-il nos "vrais" désirs ou seulement nos intérêts du moment?
-      - Peut-on vraiment protéger la privacy avec du "local processing"?
-      - Est-ce que montrer ses vraies données est plus honnête ou plus flippant?
-    </markdown>
-  </section>
-
-  <section title="Pourquoi c'est inspirant">
-    <markdown>
-      Démontre comment les données non intentionnelles (historique de navigation) révèlent l'identité profonde. Critique efficace des réseaux sociaux et de la construction de personnage en ligne. Pose des questions éthiques fondamentales : authentique vs. curé, vie privée vs. connexion, profilage algorithmique. Pertinent pédagogiquement pour explorer l'identité numérique et les données personnelles comme matériau.
+      Le site est fermé depuis 2026 ; il ne reste que la page de l'auteur et la
+      presse. Une œuvre dont la matière est le compte des utilisateurs meurt avec
+      eux, et rien ne s'en archive : ni les profils, ni les correspondances, ni ce
+      qui s'y est dit.
     </markdown>
   </section>
 

@@ -1,13 +1,15 @@
 <oeuvre id="etes-vous-pret-a-sauver-une-vie" statut="en-ligne">
   <titre>Êtes-vous prêt à sauver une vie ?</titre>
   <annee>2020</annee>
-  <par>Sauveunevie.be</par>
+  <par>CHU de Liège</par>
+  <par>Université de Liège</par>
+  <par>CARE</par>
   <url>https://sauveunevie.be/</url>
   <categorie>Fiction</categorie>
   <concept ref="structure-embranchements"/>
   <concept ref="faux-choix"/>
 
-  <resume>Formation aux premiers secours en fiction vidéo : trois épisodes où l'on décide, dans l'urgence, quel geste poser.</resume>
+  <resume>Formation aux premiers secours en fiction vidéo : trois épisodes — un malaise cardiaque, un accident de la route, une brûlure — où l'on décide, dans l'urgence, quel geste poser. Produit par le CHU et l'Université de Liège avec le centre CARE.</resume>
 
   <visuel src="etes-vous-pret-a-sauver-une-vie.jpg"
           source="https://sauveunevie.be/"/>
@@ -16,7 +18,7 @@
     <markdown>
       La fiction est tournée sérieusement : accident de la route, malaise cardiaque,
       brûlure. On est mis en situation, seul devant quelqu'un au sol, et la question
-      posée est la bonne : qu'est-ce que vous faites, là, maintenant ? Pour un
+      posée est la bonne : qu'est-ce qu'on fait, là, maintenant ? Pour un
       contenu de prévention, c'est déjà beaucoup mieux qu'une brochure.
     </markdown>
   </section>

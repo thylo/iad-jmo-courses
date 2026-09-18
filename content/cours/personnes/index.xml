@@ -1,5 +1,6 @@
 <page id="personnes">
   <titre>Personnes et studios</titre>
+  <parent ref="oeuvres"/>
   <resume>Celles et ceux dont on regarde le travail en cours.</resume>
 
   <markdown>

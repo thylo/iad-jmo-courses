@@ -10,10 +10,15 @@
 
   <resume>Un petit potager circulaire, un bras robotisé industriel au centre, une caméra montée dessus, et une page web. De n'importe où dans le monde, on prenait la main sur le bras pour regarder la terre, semer une graine, arroser. Développé à l'université de Californie du Sud, montré à Los Angeles en 1995, puis installé à l'Ars Electronica de Linz où il a tourné vingt-quatre heures sur vingt-quatre pendant huit ans. Éteint en août 2004.</resume>
 
+  <visuel src="the-telegarden.jpg"
+          alt="Un bras robotisé industriel monté au centre d'un parterre de terre circulaire posé sur une table d'acier, planté de fleurs et de pousses, sur fond noir"
+          credit="Ken Goldberg et Joseph Santarromana"
+          source="https://goldberg.berkeley.edu/garden/Ars/"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **L'action a un coût réel et un délai réel.** Une graine met des semaines à
-      pousser, et si personne n'arrose pendant vos vacances, elle meurt. C'est
+      pousser, et si personne n'arrose pendant les vacances, elle meurt. C'est
       l'inverse exact d'une interface qui répond instantanément : ici le geste engage
       quelque chose de vivant, à des milliers de kilomètres, et rien ne se recharge.
 
@@ -28,12 +33,15 @@
       nature humaine qui décide, c'est ce que le dispositif rend visible et ce qu'il
       fait coûter — argument développé dans
       [le poids d'un choix](/panorama/poids-du-choix). Ici, ce qu'on abîme met un mois
-      à repousser, et tout le monde vous voit le faire.
+      à repousser, et tout le monde le voit.
 
       **Ça date de 1995.** Avant les réseaux sociaux, avant le haut débit. À montrer
       quand quelqu'un croit que l'interaction en ligne à plusieurs est une invention
       récente.
     </markdown>
+
+    <video src="youtube:vQE-qJ_aYPw"
+           caption="La présentation du dispositif par Ken Goldberg."/>
   </section>
 
   <section title="Ce qui coince">

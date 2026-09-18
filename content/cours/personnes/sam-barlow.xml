@@ -1,0 +1,40 @@
+<personne id="sam-barlow" genre="personne">
+  <titre>Sam Barlow</titre>
+  <lieu>Brooklyn</lieu>
+  <url>https://halfmermaid.co/</url>
+
+  <resume>Auteur et réalisateur britannique de récits filmés qu'on interroge au lieu de les regarder.</resume>
+
+  <markdown>
+    Il fait trois fois la même œuvre, et c'est la raison de le regarder. À chaque
+    fois : des vidéos tournées comme du cinéma, découpées en fragments, et une
+    interface qui refuse de les rendre dans l'ordre. Ce qui change d'une fois sur
+    l'autre, c'est la clé d'accès. Le mot tapé dans [[her-story|Her Story]] (2015).
+    Le même mot dans *Telling Lies* (2019), sauf qu'on ne voit jamais qu'un côté de
+    la conversation, et qu'il faut deviner l'autre. L'objet dans l'image dans
+    [[immortality|IMMORTALITY]] (2022). Trois fois la même matière, trois portes
+    différentes, trois récits qui ne se racontent pas pareil : c'est une
+    démonstration en trois pièces que l'interface n'est pas l'emballage.
+
+    Il appelle ça le *desktop thriller* — le récit se joue sur un écran
+    d'ordinateur qu'on manipule, et le logiciel qu'on manipule appartient à la
+    fiction. C'est un genre qu'un cinéaste peut fabriquer : il demande un tournage,
+    un tableur et une base de données, pas un moteur de jeu.
+
+    Il ne vient pas de là. En 1999, *Aisle* tient en un seul coup — une commande,
+    une seule, et le texte bifurque vers des dizaines de fins qu'on ne verra jamais
+    dans la même partie. Puis dix ans chez Climax, dont *Silent Hill: Shattered
+    Memories* (2009), un jeu d'horreur qui vous fait remplir un questionnaire de
+    psychologue entre deux chapitres et se réécrit sur vos réponses. Voir
+    [[structure-a-etat]]. Vingt-cinq ans plus tard, c'est toujours le même sujet :
+    ce que la machine sait de vous, et ce qu'elle vous laisse voir.
+
+    Il a fondé Half Mermaid en 2017, à Brooklyn.
+  </markdown>
+
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
+  </section>
+
+  <backlinks/>
+</personne>

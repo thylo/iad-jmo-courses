@@ -1,0 +1,60 @@
+<oeuvre id="trust" statut="en-ligne">
+  <titre>Trust</titre>
+  <annee>2022</annee>
+  <par>Hernan Diaz</par>
+  <url>https://www.penguinrandomhouse.com/books/678664/trust-pulitzer-prize-winner-by-hernan-diaz/</url>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-concentrique"/>
+
+  <resume>Quatre documents contradictoires sur le même financier new-yorkais des années 1920 : un roman, une autobiographie inachevée, les mémoires de la femme qui l'a écrite pour lui, et un journal intime. Chaque partie démolit la précédente. Le sujet réel du livre n'est pas ce qui s'est passé, mais qui a les moyens de faire écrire l'histoire.</resume>
+
+  <visuel src="trust.jpg"
+          alt="La couverture du livre sur fond vert d'eau : un gratte-ciel émerge d'un banc de brume sous une arche dessinée, avec la pastille dorée du prix Pulitzer."
+          credit="Riverhead Books"
+          source="https://www.penguinrandomhouse.com/books/678664/trust-pulitzer-prize-winner-by-hernan-diaz/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **La structure est l'argument.** Le livre ne raconte pas qu'un homme
+      riche a réécrit le passé à son avantage : il fait subir la réécriture au
+      lecteur, dans l'ordre. On croit la première version, on la voit devenir
+      une commande, puis on découvre la main qui l'a rédigée, puis la voix
+      qu'elle recouvrait. Quatre couches autour d'un même noyau — voir
+      [[structure-concentrique]].
+
+      **La correction n'est pas plus fiable que l'erreur.** Chaque nouveau
+      document se présente comme le rétablissement de la vérité, et chacun a
+      lui aussi son intérêt à défendre. Le livre ne délivre jamais la version
+      juste : il montre que la place d'où l'on parle vient toujours avec un
+      motif. Même mécanique que [[pentiment|Pentiment]], qui laisse une
+      communauté choisir ce qu'elle inscrira sur son mur.
+
+      **Le travail invisible devient visible.** Ida Partenza est payée pour
+      écrire l'autobiographie d'un autre, et sa partie du livre est le récit de
+      cette fabrication : les documents qu'on lui refuse, les phrases qu'on lui
+      fait retirer, ce qu'elle invente parce qu'il faut bien remplir. C'est le
+      meilleur texte que je connaisse sur ce qu'est réellement une commande.
+
+      **Un modèle de forme transposable.** Quatre fichiers, quatre voix, aucune
+      instance qui arbitre : la structure marche telle quelle sur un site, dans
+      une installation ou dans un jeu. C'est même ce que
+      [[immortality|Immortality]] fait avec des rushes plutôt qu'avec des
+      pages.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Il faut lire quatre cents pages pour que le dispositif produise son effet,
+      et la première partie — un pastiche de roman des années 1930, volontairement
+      plat — décourage beaucoup de lecteurs avant que la machine ne se mette en
+      marche. Ce n'est pas un extrait à distribuer en cours.
+
+      Le livre est traduit en français chez L'Olivier (2023). C'est une œuvre
+      littéraire, sans dispositif ni interaction : elle est ici pour sa structure,
+      qui est celle d'une base de documents plus que celle d'un roman.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

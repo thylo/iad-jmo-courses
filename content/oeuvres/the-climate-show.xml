@@ -1,138 +1,84 @@
 <oeuvre id="the-climate-show" statut="archive">
   <titre>The Climate Show</titre>
   <annee>2022</annee>
-  <par>Tempora Production</par>
-  <par>Cap Sciences Bordeaux Nouvelle-Aquitaine</par>
+  <par ref="tempora"/>
+  <par>Cap Sciences</par>
   <par>Climate Voices</par>
-  <url>https://www.theclimateshow.eu/</url>
+  <par>Demeter</par>
+  <url>https://www.bruxelles.be/climate-show</url>
   <categorie>Muséale</categorie>
   <categorie>Performance</categorie>
-  <categorie>Interface</categorie>
-  <concept ref="forme-sociale"/>
+  <concept ref="forme-collaborative"/>
+  <concept ref="faux-choix"/>
 
-  <resume>Spectacle interactif où le public explore les obstacles psychologiques et collectifs à l'action climatique via une télécommande, guidé par GaIA une intelligence artificielle et le personnage de Camille incarné par des actrices.</resume>
+  <resume>Quarante-cinq minutes dans une salle noire, cent vingt personnes, un boîtier de vote chacun. Camille, jouée en direct, hésite à agir contre le dérèglement climatique ; GaIA, une intelligence artificielle projetée sur trois écrans, démonte avec elle les objections qui reviennent toujours — c'est la faute des entreprises, la technologie nous sauvera, de toute façon c'est foutu. À chaque objection, la salle vote. Brussels Expo de mars à octobre 2022, puis Cap Sciences à Bordeaux jusqu'en mai 2023.</resume>
+
+  <visuel src="the-climate-show.jpg"
+          alt="Salle de spectacle sombre : trois grands écrans en arc de cercle, l'un montrant un jardin avec du linge qui sèche, l'autre l'interface bleue de GaIA — une grille de cercles et des relevés techniques —, le troisième une terrasse en bord de mer. Devant, une estrade en bois éclairée avec un fauteuil blanc ; au premier plan, des rangées de sièges en plastique moulé."
+          credit="Photographie prise en salle, 22 octobre 2022"/>
 
   <section title="Ce qui fonctionne">
     <markdown>
-      Fusion réussie de la performance théâtrale et de la technologie interactive, où GaIA devient un véritable device narratif représentant la conscience planétaire. Les votes collectifs des spectateurs créent une responsabilité commune et une réflexivité immédiate. L'exposition préalable avec œuvres d'art (Gloria Friedmann, Chris Jordan, Yannick Monget) contextualize les enjeux climatiques. La scalabilité (120+ personnes par session) conserve l'intimité émotionnelle malgré le nombre. Format 45 minutes optimisé pour l'attention.
+      **Le vote est comparé à celui de tous les autres.** L'écran n'affiche pas
+      seulement le résultat de la séance : il le met en regard du cumul de toutes
+      les séances depuis l'ouverture. On ne découvre pas ce que la salle pense, on
+      découvre en quoi la salle diffère de six mois de public. C'est ce détail
+      d'affichage qui fait passer le dispositif du sondage à l'observation
+      sociologique, et il ne coûte qu'une deuxième barre.
+
+      **L'objection est nommée avant d'être réfutée.** « C'est la faute de la
+      technologie », « il y aura toujours des solutions techniques », « quelques
+      degrés, qu'est-ce que ça change ». Le spectacle commence par donner leur forme
+      exacte aux excuses du public, ce qui permet de voter pour elles sans honte —
+      condition nécessaire pour que la suite serve à quelque chose.
+
+      **La salle est bilingue, la même séance.** Un écran en français, un écran en
+      néerlandais, un vote commun. À Bruxelles ce n'est pas un détail de confort :
+      c'est ce qui permet à un public réel d'exister dans la même pièce.
     </markdown>
+
+    <image src="the-climate-show-comparaison.jpg"
+           width="field"
+           alt="Deux écrans de projection en biais dans le noir. Sur celui de droite, en néerlandais, deux réponses — « Nee, het is de schuld van de technologie » et « Natuurlijk, er zijn altijd technologische oplossingen » — chacune suivie de deux barres horizontales : « deze voorstelling » à 50 %, et « sinds 8 maart » à 40 % puis 60 %. Sur celui de gauche, la même question en français, coupée par le cadre."
+           caption="Deux barres par réponse : cette séance-ci, et tout le public depuis le 8 mars."
+           credit="Photographie prise en salle, 22 octobre 2022"/>
   </section>
 
-  <section title="Qu'est-ce que The Climate Show ?">
+  <section title="Ce qui coince">
     <markdown>
-      **The Climate Show** est une installation théâtrale et muséale immersive créée par **Tempora Production**, **Cap Sciences Bordeaux Nouvelle-Aquitaine** et **Climate Voices**. Présentée au Brussels Expo (Palais 2 du Heysel) de mars à juin 2022, puis en septembre-octobre 2022, cette expérience interactive redéfinit la façon d'aborder les enjeux climatiques.
-    </markdown>
-  </section>
+      **Le vote ne change pas le spectacle.** Camille suit son chemin, les experts
+      passent dans l'ordre prévu, la conclusion est écrite. Ce qui est collecté sert
+      à afficher un miroir, pas à bifurquer : c'est un [[faux-choix]] à l'échelle du
+      dispositif entier. Défendable — on ne peut pas produire quatre versions d'un
+      spectacle joué en direct — mais il faut regarder ce que le public croit faire
+      en appuyant sur le bouton.
 
-  <section title="Le Concept : Un Spectacle à la Limite entre Cinéma et Théâtre">
+      **Le matériel est un matériel de congrès.** Des boîtiers Reply Interact Mini,
+      cinq touches numérotées, Yes / No / Abstain sérigraphiés à côté. Le même objet
+      qu'une assemblée générale d'actionnaires. Rien n'a été fabriqué pour l'œuvre,
+      et c'est la bonne décision : l'argent est passé dans les écrans, la comédienne
+      et l'écriture, pas dans un objet sur mesure qui aurait fait la même chose.
+    </markdown>
+
+    <image src="the-climate-show-boitiers.jpg"
+           width="field"
+           alt="Une dizaine de télécommandes grises et noires empilées sur une planche de bois : petit écran à cristaux liquides, un bouton « send » et cinq touches colorées numérotées 1/A à 5/E, avec les mentions « Yes », « No » et « Abstain » sérigraphiées à côté. La marque « reply Interact Mini » figure en haut."
+           caption="Le boîtier de vote : un modèle de congrès, acheté sur étagère."
+           credit="Photographie prise en salle, 22 octobre 2022"/>
+
     <markdown>
-      The Climate Show occupe un espace unique « à la frontière entre cinéma et théâtre ». Plutôt qu'une exposition traditionnelle ou une conférence, c'est un **spectacle de 45 minutes** où :
-
-      - **120+ spectateurs** participent simultanément
-      - Chacun reçoit une **télécommande interactive**
-      - Le public **vote collectivement** sur les choix narratifs
-      - Les résultats déterminent le cours de l'histoire en temps réel
+      Et l'œuvre n'existe plus. Le site officiel ne répond plus, les deux lieux ont
+      démonté la salle : d'un spectacle qui a fait voter des dizaines de milliers de
+      personnes pendant un an, il ne reste ni les résultats, ni la captation, ni la
+      trace de ce que le public a répondu. C'est précisément la donnée qui faisait
+      l'intérêt du dispositif.
     </markdown>
-  </section>
 
-  <section title="Les Personnages et Dispositifs">
-    <markdown>
-      ### GaIA : L'Intelligence Artificielle Planétaire
-      Au cœur du spectacle se trouve **GaIA**, une entité artificielle représentant la conscience planétaire. Elle apparaît sur **trois écrans géants** et interagit directement avec les spectateurs. GaIA n'est pas juste une voix informatique : c'est un véritable **personnage dramatique** doté de présence, d'émotions numériques et d'une agency narrative puissante.
-
-      ### Camille : L'Héroïne Incarnée
-      **Camille**, incarnée par une comédienne, traverse le spectacle en explorant ses propres blocages face à l'action climatique. Elle est guidée par GaIA et confrontée aux arguments d'experts vidéos. C'est le point d'identification émotionnelle du public.
-
-      ### Les Experts
-      Des témoignages vidéos d'experts ponctuent chaque acte, apportant des données factuelles et des perspectives scientifiques.
-    </markdown>
-  </section>
-
-  <section title="La Dynamique Interactive">
-    <markdown>
-      Les spectateurs votent sur les stratégies présentées à Camille :
-
-      - **Choix rationnels** avec conséquences narratives réelles
-      - Des obstacles psychologiques examinés : *« Les entreprises sont responsables »*, *« Nos petites actions ne changeront rien »*, *« Seule la technologie peut nous sauver »*
-      - Les votes collectifs **reflètent et révèlent** les préjugés du groupe entier
-    </markdown>
-  </section>
-
-  <section title="L'Exposition Préalable">
-    <markdown>
-      Avant d'entrer dans la salle de spectacle, les visiteurs traversent une **exposition d'art contemporain** :
-
-      - Sculptures de **Gloria Friedmann**
-      - Montages photographiques de **Chris Jordan**
-      - Œuvres de **Yannick Monget** dépeignant la résilience urbaine et l'effondrement potentiel
-
-      Cette gradation entre art visuel et performance théâtrale crée un **parcours pédagogique progressif**.
-    </markdown>
-  </section>
-
-  <section title="Pourquoi C'est Innovant">
-    <markdown>
-      ### Pour la Narration Interactive
-      The Climate Show transcende le faux paradoxe entre « spectacle » et « éducation ». L'IA devient un **opérateur dramatique** en soi. Les votes collectifs ne sont pas des quiz au service d'une leçon prédigérée, mais des **moments de réflexion commune** qui généraient responsabilité partagée.
-
-      ### Pour l'Espace Muséal
-      C'est une réinvention du musée comme **espace de deliberation collective**. Plutôt que des individus face à des panneaux, c'est un **événement social** où la parole collective sculpte la narration.
-
-      ### Pour l'Éducation Climatique
-      Dépasse le registre culpabilisant. En examinant les **freins psychologiques** plutôt que les faits bruts, le spectacle offre une pathologie cognitive de l'inaction, puis une possible guérison.
-    </markdown>
-  </section>
-
-  <section title="Caractéristiques Techniques">
-    <markdown>
-      | Aspect | Détail |
-      |--------|--------|
-      | **Durée** | 45 minutes |
-      | **Capacité** | 120+ spectateurs par session |
-      | **Âge recommandé** | 10 ans et plus |
-      | **Localisation** | Brussels Expo (Palais 2), Heysel, Bruxelles |
-      | **Période** | Mars-juin 2022 ; Septembre-octobre 2022 |
-      | **Status** | Archivée (exposition temporaire) |
-      | **Agence responsable des interactifs** | [Tiny Big Story](https://www.tinybigstory.be/) |
-    </markdown>
-  </section>
-
-  <section title="Pour la Classe">
-    <markdown>
-      **The Climate Show** représente un **modèle exemplaire** pour les sorties scolaires et l'éducation relative à l'environnement. Elle :
-
-      - Force une **prise de position** sans moraliser
-      - Combine **émotions et données** factuelles
-      - Crée une **mémoire collective** de la classe autour des votes
-      - Ouvre des conversations post-spectacle très riches
-
-      Les écoles bruxelloises ont largement exploité ce format durant les deux périodes de programmation.
-    </markdown>
-  </section>
-
-  <section title="Influences et Postérité">
-    <markdown>
-      The Climate Show s'inscrit dans une lignée de **interactive performances** qui réinventent le rapport entre IA, performance humaine et audience participation. Elle préfigure une évolution où :
-
-      - L'IA n'est pas reléguée au rôle d'outil-au-service
-      - Les votes collectifs deviennent **structures narratives**
-      - Le musée/galerie devient **espace de délibération démocratique**
-
-      ---
-
-      **Ressources et références :**
-
-      - [The Climate Show (official site)](https://www.theclimateshow.eu/)
-      - [Brussels Expo presentation](https://www.bruxelles.be/climate-show)
-      - [Tiny Big Story - Interactive design agency](https://www.tinybigstory.be/)
-      - [Tempora Production](https://www.eif.org/what_we_do/guarantees/case-studies/efsi-ccs-tempora-belgium.htm)
-    </markdown>
-  </section>
-
-  <section title="Pourquoi c'est inspirant">
-    <markdown>
-      Modèle exemplaire pour l'éducation climatique : dépasse le paradigme de l'exposition passive en forçant à se positionner et argumenter. Recommandé pour sorties scolaires, ce spectacle déverrouille les freins psychologiques plutôt que de culpabiliser. Combine narration émotionnelle et témoignages vidéos d'experts. Démontre que l'IA peut être un personnage dramatique complexe, porteur de signification, pas juste informatif. Ouvre des perspectives pour l'interactive performance en contexte muséal.
-    </markdown>
+    <image src="the-climate-show-vote.jpg"
+           width="field"
+           alt="Grand écran violet dans une salle sombre. En haut, le titre « C'est foutu ? ». En dessous, trois réponses précédées d'un pictogramme et d'un pourcentage identique de 33 % : « Oui, c'est foutu… », « Non, on peut encore agir ! », « Quelques degrés de plus ou de moins, qu'est-ce que ça change ? ». Un bandeau technique en bas affiche « protocole GaIA », des coordonnées et la date du 22/10/2022. Devant l'écran, une estrade en bois avec un ordinateur portable et des câbles."
+           caption="Trois réponses à 33 % : la salle est vide, c'est l'écran de réglage avant l'ouverture."
+           credit="Photographie prise en salle, 22 octobre 2022"/>
   </section>
 
   <backlinks/>

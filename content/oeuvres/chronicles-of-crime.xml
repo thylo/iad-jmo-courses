@@ -1,18 +1,39 @@
 <oeuvre id="chronicles-of-crime" statut="en-ligne">
   <titre>Chronicles of Crime</titre>
   <annee>2018</annee>
+  <par>David Cicurel</par>
   <par>Lucky Duck Games</par>
+  <url>https://chroniclesofcrime.com/</url>
   <categorie>Jeu</categorie>
   <concept ref="interface-plateau"/>
 
-  <resume>Scannez des QR codes sur les cartes pour interroger des témoins via l'app, qui gère le dialogue et les indices selon vos découvertes. Certaines versions utilisent la réalité augmentée pour explorer les scènes de crime.</resume>
+  <resume>Une enquête policière où le matériel de la boîte ne sert qu'à désigner. Chaque personnage, chaque objet, chaque lieu porte un QR code ; on le scanne pour interroger le témoin ou examiner l'indice, et l'application tient le fil du dossier. Les scènes de crime se fouillent en tournant sur soi-même dans une vue à 360°, le téléphone glissé dans un support en carton. Financé sur Kickstarter début 2018 par neuf mille souscripteurs.</resume>
 
   <visuel src="chronicles-of-crime.jpg"
           source="https://www.jeuxdenim.be/images/articles/221889_1_large.jpg"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Combine objets physiques (cartes) et contenu numérique (dialogues, AR) de façon fluide. Les QR codes deviennent une interface narrative.
+      **Le carton est un index, pas un plateau.** Les cartes ne portent aucune
+      information de jeu : elles portent une adresse. C'est le cas le plus pur de ce
+      que décrit [[interface-plateau]] — l'objet physique sert à désigner, la machine
+      sert à répondre, et rien n'est ressaisi.
+
+      **La quantité de dialogues est ce qui coûte.** Interroger n'importe quel témoin
+      sur n'importe quel indice suppose d'avoir écrit chaque croisement. Le jeu paie
+      en écriture ce qu'il économise en règles, et c'est le même arbitrage que dans
+      [[backstories]], en version numérique et donc sans limite de place.
+    </markdown>
+
+    <video src="youtube:_Bckw4lpx1c"
+           caption="La règle du jeu en cinq minutes, publiée par Lucky Duck Games."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Tout est dans l'application. Le jour où elle n'est plus maintenue ou plus
+      compatible, la boîte ne contient que des cartes muettes — même dépendance que
+      [[alchemists]], sans même le code de partie à recopier.
     </markdown>
   </section>
 

@@ -1,19 +1,31 @@
 <oeuvre id="seeing-theory" statut="en-ligne">
   <titre>Seeing Theory</titre>
   <annee>2016</annee>
+  <par>Daniel Kunin</par>
   <par>Brown University</par>
   <url>https://seeing-theory.brown.edu/</url>
   <categorie>Outil</categorie>
-  <concept ref="role-divinite"/>
+  <voir ref="nicky-case-explorable-explanations"/>
 
-  <resume>Cours de statistiques et probabilités entièrement interactif. Chaque concept (distributions, régression, inférence) est accompagné de visualisations manipulables.</resume>
+  <resume>Un cours de probabilités et de statistiques en neuf chapitres, où chaque notion est d'abord un objet qu'on manipule : on lance les dés, on tire les échantillons, on déplace la droite de régression et on regarde l'erreur bouger. Le texte tient en quelques phrases par page ; le reste est une animation qu'on peut casser.</resume>
 
   <visuel src="seeing-theory.jpg"
           source="https://seeing-theory.brown.edu/"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Rend les mathématiques tangibles. Les formules deviennent des objets qu'on peut toucher et comprendre visuellement.
+      **On voit la loi des grands nombres se produire.** Un texte affirme qu'une
+      moyenne converge ; ici, on augmente le nombre de tirages et on regarde la
+      courbe se stabiliser. La différence entre lire une propriété et l'observer
+      arriver est toute la raison d'être de l'objet.
+
+      **Chaque page n'a qu'un paramètre.** Un curseur, rarement deux. Le lecteur
+      teste une variable à la fois, ce qui est la seule façon d'en tirer une
+      intuition. Une simulation avec huit réglages n'apprend rien à personne.
+
+      **C'est un travail d'étudiant.** Projet de fin de cursus, publié gratuitement,
+      traduit en une dizaine de langues par des bénévoles. À montrer quand on doute
+      qu'un exercice puisse valoir mieux qu'un exercice.
     </markdown>
   </section>
 

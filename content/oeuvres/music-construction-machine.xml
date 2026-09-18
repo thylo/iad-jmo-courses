@@ -9,6 +9,11 @@
 
   <resume>Une boîte à musique géante, dans un pavillon vitré, avec une grosse manivelle à l'extérieur. Tourner la manivelle met en mouvement des cordes, des poulies, des ressorts, des poids et des cames, qui jouent une guitare électrique, un clavier et une batterie. La mécanique décide des notes ; le public décide de la vitesse et du moment où il s'arrête. La mélodie ne se répète jamais.</resume>
 
+  <visuel src="music-construction-machine.jpg"
+          alt="Un pavillon vitré posé sur une place ; à l'intérieur, un assemblage de bois, de cordes et de poulies relié à une batterie et à un clavier ; trois passants regardent à travers la vitre"
+          credit="Niklas Roy"
+          source="https://www.niklasroy.com/project/191/MCM"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **L'algorithme est en bois et on le voit.** Ce que produit la machine est une
@@ -27,6 +32,9 @@
       sépare, un seul verbe. C'est ce que la grille des
       [[interface-gestural|gestes]] permet de voir.
     </markdown>
+
+    <video src="youtube:OEy7A0p0v8g"
+           caption="La machine en fonctionnement, filmée par Niklas Roy."/>
   </section>
 
   <section title="Ce qui coince">

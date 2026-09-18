@@ -8,51 +8,37 @@
   <categorie>Urbain</categorie>
   <categorie>Performance</categorie>
   <voir ref="can-you-see-me-now"/>
+  <voir ref="karen"/>
 
-  <resume>Jeu collaboratif où des joueurs en ligne et des joueurs de rue explorent une réalité mixte pour trouver le bureau d'Uncle Roy, puis sont invités à s'engager envers un inconnu pendant un an.</resume>
+  <resume>Soixante minutes pour trouver le bureau d'Uncle Roy dans une vraie ville, un assistant numérique à la main, guidé par des joueurs en ligne qui parcourent la même ville en version virtuelle et voient des photos du terrain. Au bout, une question posée en face à face : accepteriez-vous de vous engager, pendant un an, à venir en aide à un inconnu qui vous appellerait ?</resume>
 
   <visuel src="uncle-roy-all-around-you.jpg"
           source="https://www.blasttheory.co.uk/projects/uncle-roy-all-around-you/"/>
 
   <section title="Ce qui fonctionne">
     <markdown>
-      Fusion innovante du jeu, de la performance théâtrale et de la narration interactive. Mélange vécu physique urbain avec coordination virtuelle. Pose des questions philosophiques sur l'engagement social et la technologie mobile. Utilise une inférence de position créative (pas GPS) basée sur la navigation des joueurs dans une carte virtuelle.
+      **La récompense n'est pas dans le jeu.** On ne gagne pas de points, on est mis
+      devant un engagement réel avec une personne réelle, à tenir pendant douze mois
+      après la fin de la partie. Tout le dispositif ludique n'a servi qu'à amener
+      quelqu'un dans un état où il accepterait de répondre sérieusement à cette
+      question-là.
+
+      **La position se déduit sans capteur.** Pas de GPS : le système regarde quelle
+      portion de plan le joueur consulte, et en infère où il est. Faire dire à une
+      interaction d'interface ce qu'on ne peut pas mesurer — c'est une leçon de
+      conception qui vaut encore, et elle date de 2003.
+
+      **Deux publics qui ont besoin l'un de l'autre.** Le joueur de rue voit la
+      ville et rien d'autre ; le joueur en ligne voit le plan et rien d'autre.
+      Aucun des deux ne s'en sort seul, et l'asymétrie ne s'équilibre jamais.
     </markdown>
   </section>
 
-  <section title="Fonctionnement">
+  <section title="Ce qui coince">
     <markdown>
-      **Joueurs de rue** : Équipés de PDAs, ils ont 60 minutes pour localiser le bureau d'Uncle Roy en suivant des indices cartographiques et des instructions d'un personnage virtuel. Ils se débarrassent d'objets personnels et reçoivent un code unique.
-
-      **Joueurs en ligne** : Naviguent une ville virtuelle parallèle, voient des photos du terrain réel et assistent les joueurs de rue via des messages privés.
-
-      L'expérience culmina dans une rencontre au bureau où les participants répondaient à des questions personnelles et pouvaient s'engager à soutenir un inconnu pendant 12 mois, créant un vrai lien social.
-    </markdown>
-  </section>
-
-  <section title="Innovations Narratives">
-    <markdown>
-      - **Inférence de position créative** : Sans GPS, le système déduisait la position des joueurs en observant quelles sections de carte ils consultaient
-      - **Narration distribuée** : L'histoire se développait différemment pour chaque équipe selon leur progression
-      - **Engagement authentique** : Le "prix" n'était pas virtuel : un vrai engagement social envers un vrai inconnu
-    </markdown>
-  </section>
-
-  <section title="Contexte Pédagogique">
-    <markdown>
-      Parfait pour explorer :
-
-      - Comment les interfaces façonnent l'expérience spatiale
-      - La collaboration homme-machine-humain
-      - Les frontières entre jeu et réalité
-      - La narration à travers la localisation géographique
-      - L'éthique du design participatif (consentement, engagement)
-    </markdown>
-  </section>
-
-  <section title="Pourquoi c'est inspirant">
-    <markdown>
-      Pionnier de la réalité mixte et du jeu de localisation. Démontre comment la technologie mobile peut transformer l'espace urbain en zone de jeu collaborative. Excellente étude de cas pour explorer l'interaction homme-machine-environnement et les possibilités narratives du monde réel comme plateforma interactive.
+      Œuvre de production : une ville, un bureau loué, des comédiens, du matériel
+      prêté. Elle s'est jouée à Londres, Manchester et West Bromwich, puis s'est
+      arrêtée. On l'étudie sur documentation, pas sur pièce.
     </markdown>
   </section>
 

@@ -4,16 +4,33 @@
   <par>So Far So Good</par>
   <url>https://www.incredibox.com/</url>
   <categorie>Outil</categorie>
+  <categorie>Jeu</categorie>
 
-  <resume>Interface drag &amp; drop pour créer de la musique en assignant des sons (beatbox, mélodies, effets) à des personnages animés. Système de découverte de "combos" qui débloquent des animations spéciales. Accessible aux non-musiciens.</resume>
+  <resume>Sept personnages dessinés, alignés face à nous, et une réserve d'icônes qu'on leur fait glisser dessus : une percussion, une basse, une voix, un effet. Le personnage se met à la faire, en boucle, calé sur les autres. Vingt sons par univers, une poignée d'univers, aucune notion de solfège nulle part. Certaines combinaisons déclenchent une séquence animée.</resume>
 
   <visuel src="incredibox.jpg"
           source="https://www.incredibox.com/"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Démontre qu'un outil de création musicale peut être ludique et immédiatement gratifiant. La contrainte (palette de sons limitée) devient créative.
+      **Rien ne peut sonner faux.** Tous les échantillons sont dans le même tempo et
+      la même tonalité : n'importe quelle combinaison tient debout. Retirer la
+      possibilité d'échouer est ce qui autorise à essayer, et c'est une décision de
+      conception, pas une limite technique.
+
+      **Le musicien est visible.** Ce n'est pas une piste dans un séquenceur, c'est
+      un bonhomme qui chante. Savoir d'où vient chaque son sans lire aucune
+      étiquette — l'interface est un groupe sur scène, et on le comprend en une
+      seconde.
+
+      **La récompense est cachée.** Les séquences bonus ne se débloquent qu'en
+      trouvant certaines combinaisons, jamais annoncées. C'est ce qui transforme un
+      jouet qu'on lâche au bout de deux minutes en objet qu'on fouille — et c'est
+      exactement le mécanisme qui fait tenir un jeu.
     </markdown>
+
+    <video src="youtube:MVF_JWD_dP0"
+           caption="La démonstration officielle, publiée par So Far So Good."/>
   </section>
 
   <backlinks/>

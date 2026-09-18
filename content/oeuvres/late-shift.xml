@@ -1,21 +1,47 @@
 <oeuvre id="late-shift" statut="en-ligne">
   <titre>Late Shift</titre>
   <annee>2016</annee>
+  <par>Tobias Weber</par>
   <par>CtrlMovie</par>
   <url>https://lateshift-movie.com/</url>
   <categorie>Fiction</categorie>
   <concept ref="structure-embranchements"/>
   <concept ref="forme-machine"/>
-  <concept ref="interface-point-click"/>
 
-  <resume>Thriller interactif filmé avec acteurs réels. 180 points de décision mènent à 7 fins différentes. Diffusé en salles avec système de vote collectif, puis adapté pour streaming individuel.</resume>
+  <resume>Un étudiant qui garde un parking de nuit à Londres est embarqué dans le vol d'une pièce de vente aux enchères. Un long métrage tourné pour de bon, en continu, avec cent quatre-vingts points de décision et sept fins. Créé pour la salle, où le public votait avec son téléphone et où le film ne s'arrêtait jamais — la majorité tranchait, et la scène suivante enchaînait sans coupure.</resume>
 
   <visuel src="late-shift.jpg"
           source="https://ctrlmovie.com/late-shift"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Démontre qu'un film interactif peut avoir une qualité cinématographique professionnelle. Pionnier de l'expérience collective en salle (avant Bandersnatch). Gestion intelligente de l'embranchement narratif.
+      **Le film ne s'interrompt pas pour demander.** Le choix se présente pendant que
+      l'action continue, et l'absence de réponse est une réponse. Le rythme d'un
+      thriller est préservé — c'est le problème que résout CtrlMovie, deux ans avant
+      que [[bandersnatch|Bandersnatch]] pose le sien avec des cartons noirs et dix
+      secondes d'attente.
+
+      **La salle a voté ensemble.** Cent cinquante personnes, un vote par téléphone,
+      une seule projection : le désaccord se joue dans la salle et pas dans la tête
+      d'une personne. C'est une position de public qui n'existe plus dès qu'on passe
+      au visionnage individuel — la version domestique du film est un autre objet.
+
+      **Tout est vraiment tourné.** Sept fins, cent quatre-vingts bifurcations, une
+      équipe, des comédiens, un budget de long métrage. À mettre en regard des cinq
+      heures de rushes de Bandersnatch quand un projet promet « des dizaines de
+      variantes ».
+    </markdown>
+
+    <video src="youtube:RVmKt5WLkgI"
+           caption="La bande-annonce officielle, publiée par CtrlMovie."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Beaucoup de bifurcations ne modifient qu'une réplique ou un plan avant de
+      rejoindre le tronc commun. C'est la seule façon de tenir sept fins avec un
+      budget fini, mais le spectateur qui rejoue s'en aperçoit vite, et l'objet
+      supporte mal la deuxième vision.
     </markdown>
   </section>
 

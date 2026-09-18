@@ -17,7 +17,7 @@
 
       C'est l'interface la plus impressionnante en démonstration et la plus décevante
       en projet, pour une raison simple : elle retire le cadre. Or le cadre est le
-      premier outil de l'audiovisuel, celui que vos étudiants savent utiliser. Une
+      premier outil de l'audiovisuel, et celui qu'on sait manier. Une
       œuvre en trois dimensions doit inventer autre chose pour diriger le regard, et la
       plupart n'inventent rien.
     </markdown>
@@ -29,15 +29,15 @@
       Le cadre                        Le volume
 
       ┌──────────────┐                    ↖  ↑  ↗
-      │      ●       │   vous voyez      ←   ●   →   vous voyez
-      │              │   ce qu'on vous    ↙  ↓  ↘   ce que vous
-      └──────────────┘   montre                      cherchez
+      │      ●       │  on voit          ←   ●   →  on voit
+      │              │  ce qu'on          ↙  ↓  ↘   ce qu'on
+      └──────────────┘  montre                      cherche
 
       L'auteur décide.                Le public décide, et rate
       Le hors-champ est un outil.     ce qui se passe derrière lui.
 
                      La question : qu'est-ce qui vaut
-                     ce que vous venez de perdre ?
+                     ce qui vient d'être perdu ?
       ```
     </markdown>
   </section>
@@ -48,8 +48,8 @@
       camp de Za'atari, en Jordanie, aux côtés d'une adolescente syrienne. Il ne se
       passe rien qu'un film ne pourrait montrer ; ce qui change, c'est qu'on est à
       hauteur d'enfant, au milieu, et que le camp continue derrière soi. La
-      [[structure-lineaire|structure reste entièrement linéaire]] — vous tournez la
-      tête, pas l'histoire.
+      [[structure-lineaire|structure reste entièrement linéaire]] — c'est la tête qui
+      tourne, pas l'histoire.
 
       **La couche cachée.** [[protanopia]] fait le contraire du monde ouvert : chaque
       case de bande dessinée est un petit théâtre en couches, et incliner l'appareil
@@ -95,17 +95,16 @@
     </markdown>
   </section>
 
-  <section title="Pour votre projet">
+  <section title="En pratique">
     <markdown>
-      **Faites-le sans casque.** Une scène en volume dans le navigateur, qu'on fait
-      tourner à la souris ou en inclinant le téléphone, se montre à n'importe qui avec
-      un lien.
+      **Sans casque.** Une scène en volume dans le navigateur, qu'on fait tourner à la
+      souris ou en inclinant le téléphone, se montre à n'importe qui avec un lien.
 
       **Une scène, pas un monde.** Un seul lieu qu'on peut contourner produit plus
       qu'un environnement vide qu'on parcourt.
 
-      **Gardez le son au centre.** C'est le seul outil de mise en scène qui vous reste
-      quand vous n'avez plus de cadre, et c'est celui que vous savez déjà utiliser.
+      **Le son au centre.** C'est le seul outil de mise en scène qui reste quand le
+      cadre a disparu, et c'est celui que l'audiovisuel maîtrise déjà.
     </markdown>
   </section>
 

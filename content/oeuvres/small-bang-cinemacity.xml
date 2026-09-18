@@ -11,6 +11,11 @@
 
   <resume>Une application qui pose des extraits de films à l'endroit exact où ils ont été tournés, dans Paris. On marche, le téléphone signale qu'une scène a été tournée là, et on décide de la regarder ou non, debout dans le décor. Des parcours par quartier sont proposés, et chacun peut déposer sa propre reconstitution d'une scène. Coproduit par Arte et Small Bang avec la Ville de Paris et le Forum des images, en trois langues.</resume>
 
+  <visuel src="small-bang-cinemacity.jpg"
+          alt="Illustration de l'application : le plan de Paris découpé en arrondissements, sur lequel des épingles en forme d'œil marquent les lieux de tournage ; une épingle orange signale la position du promeneur"
+          credit="Small Bang / Arte — Forum des images"
+          source="http://cinemacity.arte.tv/"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **Le lieu fait tout le travail.** Il n'y a rien à écrire : le film existe déjà,
@@ -20,7 +25,7 @@
       c'est l'information même.
 
       **On est [[role-soi-meme|soi-même]], et debout.** Pas d'avatar, pas de fiction :
-      votre corps est à l'endroit où une caméra s'est trouvée. La superposition se fait
+      le corps du spectateur est à l'endroit où une caméra s'est trouvée. La superposition se fait
       dans la tête, pas à l'écran, ce qui vaut mieux que bien des réalités augmentées.
 
       **La structure est une [[structure-constellation|constellation]] assumée.** Aucun
@@ -37,8 +42,8 @@
       pu tenir dans une page web et vivre plus longtemps.
 
       Et le catalogue conditionne tout : sans droits sur les extraits, il n'y a pas
-      d'œuvre. C'est ce qui rend le modèle difficile à reproduire en atelier — sauf à
-      le faire avec ses propres images, ce qui est précisément l'exercice intéressant.
+      d'œuvre. C'est ce qui rend le modèle difficile à reprendre — sauf à le faire
+      avec ses propres images, ce qui est précisément l'exercice intéressant.
     </markdown>
   </section>
 

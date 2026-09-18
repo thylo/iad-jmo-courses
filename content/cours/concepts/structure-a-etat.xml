@@ -5,18 +5,18 @@
   <voir ref="structure-embranchements"/>
   <voir ref="structure-constellation"/>
 
-  <resume>Le récit ne retient pas un chemin, mais des faits : où vous êtes passé, ce que vous portez, qui est mort. Chaque scène se réécrit selon ce qui est vrai au moment où on l'atteint.</resume>
+  <resume>Le récit ne retient pas un chemin, mais des faits : par où on est passé, ce qu'on porte, qui est mort. Chaque scène se réécrit selon ce qui est vrai au moment où on l'atteint.</resume>
 
   <section title="Définition">
     <markdown>
       Dans un [[structure-embranchements|arbre]], la mémoire est dans la position :
-      « vous êtes dans la branche 3-B », et tout ce que vous avez fait avant est
-      contenu dans le fait d'être là. C'est ce qui fait exploser la production.
+      « on est dans la branche 3-B », et tout ce qui a été fait avant est contenu dans
+      le fait d'être là. C'est ce qui fait exploser la production.
 
       La structure à état sort la mémoire du chemin et la met dans des faits. Le
-      récit tient une petite liste de ce qui est vrai : *le loup est mort*, *vous
-      avez la lanterne*, *vous n'êtes jamais allé au port*, *vous devez de l'argent
-      à Fogg*. Les scènes ne sont plus des nœuds ordonnés, mais des morceaux
+      récit tient une petite liste de ce qui est vrai : *le loup est mort*, *la
+      lanterne est prise*, *le port n'a jamais été visité*, *Fogg a avancé
+      l'argent*. Les scènes ne sont plus des nœuds ordonnés, mais des morceaux
       disponibles sous condition : chacun déclare quand il a le droit d'apparaître,
       et ce qu'il dit selon l'état.
 
@@ -62,9 +62,9 @@
       commerciale.
 
       [[80-days]] (2014) : plus de 150 villes reliées librement, un demi-million de
-      mots. Le jeu retient votre itinéraire, votre argent, votre malle, l'état de
-      santé de Fogg, les rumeurs qu'on vous a données, et les voyageurs croisés en
-      route parlent des lignes que vous n'avez pas prises.
+      mots. Le jeu retient l'itinéraire, l'argent, la malle, l'état de santé de Fogg,
+      les rumeurs récoltées, et les voyageurs croisés en route parlent des lignes qui
+      n'ont pas été prises.
 
       *Sorcery!* (2013-2016), adapté des livres-jeux de Steve Jackson, est passé en
       quatre épisodes du livre dont vous êtes le héros (un arbre) au monde ouvert
@@ -72,8 +72,8 @@
       fait reste vrai.
 
       *Heaven's Vault* (2019) va au bout de l'idée : le jeu retient les traductions
-      que vous avez proposées d'une langue ancienne, **y compris les fausses**, et
-      continue de vous parler avec.
+      proposées d'une langue ancienne, **y compris les fausses**, et continue de
+      parler avec.
 
       Leur langage d'écriture, **ink**, est libre (licence MIT) et utilisable seul
       ou dans Unity. C'est du texte avec des conditions dedans, pas un moteur de
@@ -129,7 +129,7 @@
     <markdown>
       - Mondes ouverts, récits de voyage, enquêtes
       - Quand l'ordre de découverte doit vraiment appartenir au public
-      - Quand vous voulez des conséquences durables sans produire 32 fins
+      - Quand des conséquences durables sont voulues sans produire 32 fins
       - Quand le sujet est la trace : ce qu'on emporte, ce qu'on abîme
     </markdown>
   </section>
@@ -149,14 +149,14 @@
     <markdown>
       - Écrire un texte qui suppose un ordre : le villageois qui annonce un loup
         déjà mort
-      - Trop de variables : plus personne ne peut tester, y compris vous
+      - Trop de variables : plus personne ne peut tester, l'auteur compris
       - Retenir sans jamais le rendre visible
       - Confondre avec le [[faux-choix|faux choix]] inverse : ici, le risque n'est
         pas l'absence de conséquence, c'est la conséquence incohérente
     </markdown>
   </section>
 
-  <section title="Pour votre projet">
+  <section title="En pratique">
     <markdown>
       Trois variables suffisent. Vraiment.
 
@@ -164,8 +164,8 @@
       « est-ce qu'il a menti au chapitre 1 ». Trois `if` bien placés produisent plus
       de sensation de mémoire que dix branches jamais terminées.
 
-      Commencez par écrire une scène qui change trois fois selon l'état, plutôt que
-      trois scènes différentes.
+      Commencer par une scène qui change trois fois selon l'état, plutôt que trois
+      scènes différentes.
     </markdown>
   </section>
 

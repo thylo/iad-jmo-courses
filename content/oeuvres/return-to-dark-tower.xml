@@ -1,18 +1,42 @@
 <oeuvre id="return-to-dark-tower" statut="en-ligne">
   <titre>Return to Dark Tower</titre>
   <annee>2022</annee>
+  <par>Rob Daviau</par>
+  <par>Isaac Childres</par>
   <par>Restoration Games</par>
-  <url>https://www.youtube.com/watch?v=p-1oU9zZnN0</url>
+  <url>https://restorationgames.com/return-to-dark-tower/</url>
   <categorie>Jeu</categorie>
+  <concept ref="interface-plateau"/>
+  <voir ref="alchemists"/>
 
-  <resume>Tour physique avec écran et app intégrée qui génère les événements, gère le brouillard de guerre et crée l'ambiance. Objet physique imposant au centre de la table.</resume>
+  <resume>Une tour en plastique de trente centimètres au milieu de la table, reliée en Bluetooth à une application. Elle s'éclaire, elle gronde, et surtout elle avale des jetons par le haut pour les recracher plus tard par une de ses quatre portes — c'est elle qui décide quand, et personne ne peut prévoir de quel côté. Reprise du Dark Tower de 1981.</resume>
 
   <visuel src="return-to-dark-tower.jpg"
           source="https://m.youtube.com/watch?v=p-1oU9zZnN0"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Le numérique est intégré dans un objet physique spectaculaire plutôt que séparé sur un écran de smartphone.
+      **Le hasard est mécanique et bruyant.** Le tirage n'est pas une ligne de code
+      invisible : c'est un objet qui tourne et laisse tomber un jeton. Toute la
+      table regarde au même moment, et l'attente pendant que le mécanisme se met en
+      marche fait un travail qu'aucune animation d'écran ne fait.
+
+      **La machine est au centre, pas à côté.** Dans la plupart des jeux à
+      application, le numérique est dans la poche de quelqu'un ; ici, il est au
+      milieu, visible par tous, et personne ne consulte un téléphone à sa place.
+      Voir [[interface-plateau]].
+    </markdown>
+
+    <video src="youtube:p-1oU9zZnN0"
+           caption="Présentation de la tour et de son fonctionnement."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      La tour est électronique, appairée, et pilotée par une application. Deux
+      dépendances au lieu d'une : le jour où l'une des deux lâche, il reste un objet
+      décoratif de trente centimètres. Le compte à rebours de [[alchemists]], avec
+      du matériel en plus.
     </markdown>
   </section>
 

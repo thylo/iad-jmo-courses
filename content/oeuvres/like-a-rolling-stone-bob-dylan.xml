@@ -7,8 +7,14 @@
   <categorie>Interface</categorie>
   <concept ref="structure-lineaire"/>
   <concept ref="role-fantome"/>
+  <url>https://www.youtube.com/watch?v=rXhryW32bsA</url>
 
   <resume>Le premier clip officiel d'une chanson de 1965, publié en 2013. Seize chaînes de télévision qu'on zappe pendant que le morceau tourne : un bulletin boursier, une émission de cuisine, du sport, de la téléréalité, un jeu télévisé. Sur chacune, les gens à l'écran chantent les paroles de Dylan en playback, en rythme. On change de chaîne, la chanson ne s'arrête pas. Réalisé par Vania Heymann pour la plateforme Interlude.</resume>
+
+  <visuel src="like-a-rolling-stone-bob-dylan.jpg"
+          alt="Capture du lecteur Interlude : à gauche une colonne de commandes noire — logo interlude, flèches « channel » haut et bas, volume, lecture — et à droite une émission de cuisine, une femme en chemise bleue vidant un saladier sur un plan de travail couvert d'ingrédients, sous un cartouche rose marqué « cuisine »."
+          credit="Interlude / Sony Legacy"
+          source="https://www.youtube.com/watch?v=rXhryW32bsA"/>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
@@ -40,6 +46,9 @@
       télécommande de 1980. À manier avec les tests de
       [la page des types de choix](/panorama/choix).
     </markdown>
+
+    <video src="youtube:rXhryW32bsA"
+           caption="La présentation du dispositif par Interlude, seule trace jouable de l'interface."/>
   </section>
 
   <backlinks/>

@@ -59,9 +59,8 @@
 
   <section title="Les grilles de lecture">
     <markdown>
-      Cinq questions à poser à une œuvre. Chacune coupe dans un
-      sens différent, aucune ne dit tout, et la même œuvre change de voisines à
-      chaque fois. C'est le cœur de ce que le cours vous demande de savoir faire.
+      Cinq questions à poser à une œuvre. Chacune coupe dans un sens différent,
+      aucune ne dit tout, et la même œuvre change de voisines à chaque fois.
     </markdown>
 
     <destinations>
@@ -74,8 +73,8 @@
         seule des trois réponses laisse l'auteur maître de ce qui se raconte
       </destination>
       <destination to="roles">
-        Vous-même, un personnage, un fantôme qui observe, une divinité qui décide.
-        La place qu'on vous assigne, décidée à l'écriture bien avant le code
+        Soi-même, un personnage, un fantôme qui observe, une divinité qui décide.
+        La place assignée au public, décidée à l'écriture bien avant le code
       </destination>
       <destination to="choix">
         Rationnel, exploratoire, ou faux. Le seul découpage qui juge au lieu de
@@ -91,8 +90,8 @@
   <section>
     <markdown>
       Celui-ci ne sert pas à comprendre une œuvre, mais à en faire une. Ce sont des
-      patrons déjà résolus par d'autres : vous n'avez pas à réinventer comment on
-      zoome sur une carte pour raconter votre histoire.
+      patrons déjà résolus par d'autres : il n'y a pas à réinventer comment on zoome
+      sur une carte pour raconter une histoire.
     </markdown>
 
     <destinations>
@@ -106,8 +105,8 @@
   <section title="Les deux bords du terrain">
     <markdown>
       Où le panorama s'arrête. La première page retire l'écran, la seconde retire le
-      récit. Dans les deux cas, il reste quelque chose. Savoir quoi vous évitera
-      de croire que le numérique est obligatoire, ou qu'il faut une histoire.
+      récit. Dans les deux cas, il reste quelque chose — de quoi ne pas croire que le
+      numérique est obligatoire, ni qu'il faut une histoire.
     </markdown>
 
     <destinations>

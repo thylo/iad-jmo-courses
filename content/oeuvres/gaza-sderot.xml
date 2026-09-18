@@ -7,7 +7,7 @@
   <par>Alma Films</par>
   <par>Trabelsi Productions</par>
   <par>Ramattan Studios</par>
-  <url>http://gaza-sderot.arte.tv/</url>
+  <url>https://www.arte.tv/digitalproductions/gaza-sderot/</url>
   <categorie>Documentaire</categorie>
   <concept ref="role-fantome"/>
   <concept ref="interface-split-screen"/>
@@ -15,7 +15,7 @@
   <resume>Deux villes distantes de trois kilomètres, de part et d'autre de la frontière. Chaque jour, une équipe palestinienne à Gaza et une équipe israélienne à Sderot filment une chronique de deux minutes ; les deux vidéos du jour se regardent côte à côte. Six habitants d'un côté, six de l'autre, suivis du 26 octobre au 23 décembre 2008 : quarante épisodes, quatre-vingts vidéos. Prix Europa 2008.</resume>
 
   <visuel src="gaza-sderot.jpg"
-          source="http://gaza-sderot.arte.tv/"/>
+          source="https://www.arte.tv/digitalproductions/gaza-sderot/"/>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>

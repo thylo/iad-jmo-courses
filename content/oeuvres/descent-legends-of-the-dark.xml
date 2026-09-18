@@ -2,7 +2,7 @@
   <titre>Descent: Legends of the Dark</titre>
   <annee>2021</annee>
   <par ref="fantasy-flight-games"/>
-  <url>https://www.youtube.com/watch?v=qk_BXDKLU28</url>
+  <url>https://www.fantasyflightgames.com/en/products/descent-legends-of-the-dark/</url>
   <categorie>Jeu</categorie>
   <concept ref="interface-plateau"/>
 
@@ -23,6 +23,9 @@
       *Legends of the Dark* construit toute la boîte autour de cette idée. Plus
       personne n'est sacrifié à l'arbitrage, tout le monde joue du même côté.
     </markdown>
+
+    <video src="youtube:rrdyKB08IIo"
+           caption="La bande-annonce, publiée par Fantasy Flight Games."/>
   </section>
 
   <section title="Ce qui coince">

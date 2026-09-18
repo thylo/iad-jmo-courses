@@ -15,8 +15,15 @@ tournent, `content:check` compte ce qui reste, et **le rendu est branché** :
 image de tête sur la fiche, vignettes en grille sur `/oeuvres`, figure au fil de
 la prose.
 
-83 œuvres sur 140 sont illustrées. Il reste 57 images à trouver et 82 alt à
+99 œuvres sur 149 sont illustrées. Il reste 50 images à trouver et 78 alt à
 écrire — du contenu, plus du code.
+
+Le corpus a gagné dix-sept œuvres postérieures à 2016 — jeux, séries, romans,
+bandes dessinées — toutes illustrées et décrites d'un coup. Deux enseignements du
+lot : une page Steam sous contrôle d'âge renvoie une vignette deux fois plus
+petite que la normale, et deux œuvres homonymes sur un catalogue de streaming
+donnent la mauvaise image sans que rien ne signale l'erreur. Les deux se voient à
+l'œil, aucune ne se voit dans un journal d'exécution.
 
 Premier passage réel de `media:fetch` sur les 140 œuvres : **62 illustrées**,
 78 sans image. Les échecs se répartissent en 29 pages sans balise, 20 fiches
@@ -429,14 +436,14 @@ fichier de test.
 4. **La façade vidéo.** `VideoElement`, le JS, le repli sans JS. Les douze URL
    YouTube citées dans la prose deviennent des `<video>`, et leurs vignettes
    comblent une partie des 40 manquantes.
-5. **Le reste des images.** `media:review --missing` déroule les 78 restantes :
+5. **Le reste des images.** `media:review --missing` déroule les 50 restantes :
    capture à la main pour les sites d'artistes, Wayback pour les morts, et
    « aucune image » quand c'est la bonne réponse. C'est le travail long, et il
-   porte sur ~78 œuvres, pas 141.
+   porte sur une cinquantaine d'œuvres, pas sur le corpus entier.
 6. **Les statuts.** Une dizaine de fiches disent `en-ligne` pour une œuvre
    morte. À corriger avec la même passe, en distinguant le 404 réel du 403
    anti-robot.
-7. **Les alt.** 141 phrases à écrire. Par paquets, entre deux autres choses.
+7. **Les alt.** 128 phrases à écrire. Par paquets, entre deux autres choses.
    `content:check` tient le compte.
 
 Les étapes 1 à 4 sont du code et tiennent dans une session. Les étapes 5 à 7

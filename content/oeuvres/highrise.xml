@@ -1,4 +1,4 @@
-<oeuvre id="highrise" statut="en-ligne">
+<oeuvre id="highrise" statut="hors-ligne">
   <titre>HIGHRISE — Out My Window</titre>
   <annee>2010</annee>
   <par>Katerina Cizek</par>
@@ -10,6 +10,11 @@
   <concept ref="interface-3d"/>
 
   <resume>Quarante-neuf récits, treize villes, treize langues, et à chaque fois le même point de vue : celui d'un appartement en tour, filmé à trois cent soixante degrés. On pivote dans le salon, on clique sur les objets, on regarde par la fenêtre, et l'habitant raconte. Premier documentaire web en 360° (2010), premier prix IDFA DocLab, Emmy numérique international. Volet d'un projet de l'ONF mené sur plusieurs années par Katerina Cizek sur l'habitat vertical.</resume>
+
+  <visuel src="highrise.jpg"
+          alt="Image d'ouverture : une fenêtre à petits carreaux ouverte sur un ciel de crépuscule rose, avec la silhouette sombre d'une tour d'habitation aux fenêtres allumées"
+          credit="Office national du film du Canada"
+          source="https://collection.nfb.ca/interactive/highrise_out_my_window_en"/>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
@@ -28,10 +33,19 @@
       toujours consultable dans la collection de l'ONF. À comparer avec les webdocs
       contemporains disparus : ce qui dure, c'est ce qui n'a pas parié sur un greffon.
     </markdown>
+
+    <video src="youtube:sDAIPulQukA"
+           caption="La bande-annonce du projet, publiée par l'ONF."/>
   </section>
 
   <section title="Ce qui coince">
     <markdown>
+      **Ce n'est plus consultable.** Toute la collection interactive de l'ONF
+      renvoie aujourd'hui une erreur serveur, sur toutes ses adresses, en français
+      comme en anglais. Un Emmy, un prix IDFA, une production publique — et rien à
+      ouvrir. [[jusqu-ici|Jusqu'ici]], du même catalogue, ne survit que parce que
+      son studio en héberge sa propre copie.
+
       Quarante-neuf récits, c'est plus que ce que quiconque parcourra. Le dispositif
       assume la profusion, mais rien n'indique par où entrer ni ce qu'on a déjà vu, et
       la visite s'arrête en général au troisième appartement.

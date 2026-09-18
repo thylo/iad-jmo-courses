@@ -11,6 +11,11 @@
 
   <resume>Un homme est en train de se transformer en zombie et il lui reste cinq minutes. Le spectateur ne peut ni le soigner ni le sauver : il peut seulement le maintenir accroché à ses souvenirs, en retenant son attention pendant que le reste s'en va. Court métrage interactif en HTML5, écrit et réalisé par Maximilian Niemann avec une équipe d'étudiants de la Filmakademie Baden-Württemberg. Prix du public de la FWA en 2014.</resume>
 
+  <visuel src="five-minutes.jpg"
+          alt="Écran d'accueil du film : dans un bâtiment vitré et délabré, un homme armé d'un fusil regarde par-dessus son épaule vers une femme au bonnet orange ; au centre, le titre « Five Minutes » et un bouton « Start »"
+          credit="Filmakademie Baden-Württemberg"
+          source="https://fiveminutes.gs/"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **L'interaction est un effort, pas un choix.** Il n'y a rien à décider : il y a
@@ -24,8 +29,8 @@
       À rapprocher de [[sortie-en-mer]], où l'on s'épuise aussi sans pouvoir gagner.
 
       **C'est un travail d'étudiants.** Une école de cinéma, une équipe, du HTML, et un
-      objet toujours en ligne dix ans après. À montrer en début d'atelier plutôt qu'une
-      production à budget, pour que l'échelle paraisse atteignable.
+      objet toujours en ligne dix ans après. L'échelle est plus instructive que celle
+      d'une production à budget : elle est atteignable.
     </markdown>
   </section>
 

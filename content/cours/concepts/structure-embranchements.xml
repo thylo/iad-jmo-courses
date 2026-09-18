@@ -72,8 +72,8 @@
       « en 3-B » contient tout ce qui a été fait avant. Sortir cette mémoire du
       chemin pour la mettre dans des faits (le loup est mort, j'ai la lanterne)
       supprime l'explosion. Trois variables mémorisées produisent plus de situations
-      distinctes qu'un arbre de vingt scènes, pour un centième du travail. Si votre
-      projet a besoin que les décisions comptent, commencez par la
+      distinctes qu'un arbre de vingt scènes, pour un centième du travail. Un projet
+      qui a besoin que les décisions comptent commence par la
       [[structure-a-etat|structure à état]].
     </markdown>
   </section>
@@ -82,7 +82,7 @@
     <markdown>
       - Dilemmes moraux importants
       - Exploration de conséquences d'actions
-      - Quand vous voulez que le spectateur "vive" réellement ses décisions
+      - Quand le spectateur doit "vivre" réellement ses décisions
       - Jeux narratifs
       - Fictions choix-orientées
     </markdown>

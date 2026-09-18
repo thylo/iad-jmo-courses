@@ -4,18 +4,33 @@
   <par ref="lloyd-et-peter"/>
   <url>https://foxdogstudios.com/</url>
   <categorie>Performance</categorie>
+  <concept ref="forme-collaborative"/>
+  <voir ref="robo-bingo"/>
 
-  <resume>Cuisine réelle équipée de moteurs, aimants et mécanismes robotiques. Le public se connecte au WiFi local, dessine un personnage en réalité augmentée et contrôle l'équipement via joystick sur smartphone. Résultat : cuisiner collectivement via avatars AR. Canon à saucisses, tracteur en bois déplaça...</resume>
+  <resume>Un spectacle d'une heure où le public se connecte au réseau Wi-Fi que les deux interprètes ont apporté avec eux, dessine un personnage sur son téléphone, et s'en sert pour piloter la cuisine installée sur scène : moteurs, aimants, tracteur en bois, canon à saucisses. Ils cuisinent réellement. Meilleur spectacle au Leicester Comedy Festival 2019.</resume>
+
+  <visuel src="robot-chef.jpg"
+          alt="Affiche du spectacle : au-dessus des deux interprètes, une poutre de bois porte un assemblage de moteurs, de câbles, d'un Raspberry Pi et d'ustensiles suspendus, sous le titre Foxdog Studios — Robot Chef"
+          credit="Foxdog Studios"
+          source="https://foxdogstudios.com/"/>
 
   <section title="Ce qui fonctionne">
     <markdown>
-      Cuisine réelle équipée de moteurs, aimants et mécanismes robotiques. Le public se connecte au WiFi local, dessine un personnage en réalité augmentée et contrôle l'équipement via joystick sur smartphone. Résultat : cuisiner collectivement via avatars AR. Canon à saucisses, tracteur en bois déplaçant des poêles, allumage par taser.
-    </markdown>
-  </section>
+      **Le réseau est apporté, pas emprunté.** Foxdog installe son propre point
+      d'accès dans la salle : rien ne dépend du Wi-Fi du lieu, de la 4G, d'un compte
+      ou d'une boutique d'applications. C'est la décision technique qui rend le
+      spectacle tournable, et elle vaut pour n'importe quel dispositif qui veut
+      faire participer une salle.
 
-  <section title="Pourquoi c'est inspirant">
-    <markdown>
-      Transforme un spectacle passif en chaos contrôlé collaboratif. Chaque spectateur a un impact direct sur ce qui se passe sur scène. L'absurdité technique (canon à saucisses) sert l'humour. Anciens consultants IT qui détournent leurs compétences pour la comédie.
+      **La mécanique est en contreplaqué.** Bouts de bois, casques de vélo, servos :
+      on voit comment ça marche, et on voit que ça peut rater. La fragilité visible
+      est ce qui rend l'échec drôle plutôt que gênant — un tour de magie raté est
+      pénible, une machine bricolée qui coince est le spectacle.
+
+      **Ce sont deux informaticiens.** Ils écrivent le logiciel et jouent devant la
+      salle. La compétence technique n'est pas sous-traitée à quelqu'un en régie :
+      c'est ce qui permet de modifier le dispositif entre deux dates, et
+      d'improviser quand la salle fait autre chose que prévu.
     </markdown>
   </section>
 

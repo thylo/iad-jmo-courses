@@ -8,12 +8,17 @@
   <concept ref="forme-machine"/>
   <concept ref="interface-plateau"/>
 
-  <resume>Un jeu de plateau coopératif de un à cinq joueurs, entièrement piloté par une application gratuite. Elle compose la carte à chaque partie à partir de vingt-deux tuiles double face, place les jetons, décide du comportement des ennemis, tient l'inventaire et les compétences, résout les combats, sauvegarde la campagne d'une séance à l'autre et infléchit l'histoire selon vos décisions et vos résultats.</resume>
+  <resume>Un jeu de plateau coopératif de un à cinq joueurs, entièrement piloté par une application gratuite. Elle compose la carte à chaque partie à partir de vingt-deux tuiles double face, place les jetons, décide du comportement des ennemis, tient l'inventaire et les compétences, résout les combats, sauvegarde la campagne d'une séance à l'autre et infléchit l'histoire selon les décisions et les résultats.</resume>
+
+  <visuel src="lord-of-the-rings-journeys-in-middle-earth.jpg"
+          alt="Une carte assemblée à partir de tuiles hexagonales de forêt et de rivière, peuplée de figurines de plastique gris ; autour, des cartes de compétences et des jetons posés sur la table"
+          credit="Fantasy Flight Games"
+          source="https://www.fantasyflightgames.com/en/products/the-lord-of-the-rings-journeys-in-middle-earth/"/>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **C'est une [[structure-a-etat|structure à état]] complète, en boîte.** La
-      campagne retient ce que vous avez fait, ce que vous portez, qui a été blessé, et
+      campagne retient ce qu'on a fait, ce qu'on porte, qui a été blessé, et
       les scénarios suivants se réécrivent en conséquence. Ce que
       [[80-days]] fait avec du texte, ce jeu le fait avec des figurines.
 
@@ -24,6 +29,9 @@
       pour chaque élément. Voir
       [raconter par l'espace](/panorama/raconter-par-l-espace).
     </markdown>
+
+    <video src="youtube:ISBmaayR3oo"
+           caption="La bande-annonce, publiée par Fantasy Flight Games."/>
   </section>
 
   <section title="Ce qui coince">

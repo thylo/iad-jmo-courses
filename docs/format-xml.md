@@ -198,12 +198,15 @@ créateur qui n'en a pas s'écrit en toutes lettres :
 <par>Doublespeak Games</par>
 ```
 
-Le rendu suit le graphe, pas la syntaxe : une valeur qui se résout devient un
-lien, une valeur qui ne se résout pas reste du texte. Écrire la page plus tard
-transforme le texte en lien sans toucher aux fiches.
+Le rendu suit le graphe : la valeur est cherchée parmi les `id`. Une valeur qui
+se résout devient un lien, une valeur qui ne se résout pas reste du texte — et un
+nom écrit en toutes lettres n'est pas un `id`, donc il reste du texte pour
+toujours. Écrire la page plus tard demande de revenir sur les fiches pour poser
+le `ref`. C'est aussi ce qui fait entrer l'œuvre dans la grille de la page
+nouvellement écrite, puisqu'elle interroge le graphe et non les noms.
 
 `id` et `<titre>` sont obligatoires partout. `par`, `concept` et `voir` sont
-répétables et portent leur valeur dans `ref=`.
+répétables ; `concept` et `voir` portent leur valeur dans `ref=`.
 
 ## Ce qui est refusé au chargement
 

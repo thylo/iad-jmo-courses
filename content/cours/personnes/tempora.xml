@@ -1,0 +1,13 @@
+<personne id="tempora" genre="studio">
+  <titre>Tempora</titre>
+  <lieu>Bruxelles</lieu>
+  <url>https://www.tempora.be/</url>
+
+  <resume>Producteur belge d'expositions et de centres de visite, qui conçoit le parcours et confie à des studios les dispositifs interactifs qui le portent.</resume>
+
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
+  </section>
+
+  <backlinks/>
+</personne>

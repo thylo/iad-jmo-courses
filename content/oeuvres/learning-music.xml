@@ -4,15 +4,30 @@
   <par>Ableton</par>
   <url>https://learningmusic.ableton.com/</url>
   <categorie>Outil</categorie>
+  <voir ref="chrome-music-lab"/>
 
-  <resume>Cours interactif de composition musicale avec séquenceur intégré. Enseigne les bases (rythme, notes, harmonies, structure) en permettant d'expérimenter immédiatement.</resume>
+  <resume>Un cours de composition qui tient dans une page web, écrit par l'éditeur de Live. Rythme, notes, accords, basse, structure, mixage : chaque notion est expliquée en trois phrases puis immédiatement remise entre les mains du lecteur, dans un séquenceur intégré à la page qu'il peut modifier sans rien installer. À la fin, on repart avec ce qu'on a fait.</resume>
 
   <visuel src="learning-music.jpg"
           source="https://learningmusic.ableton.com/"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      L'outil pédagogique est aussi un instrument de création. Apprendre en créant directement.
+      **L'exemple est modifiable, toujours.** Aucune illustration n'est une image :
+      chaque motif présenté dans le texte est un objet vivant qu'on peut déplacer
+      pour entendre ce qui casse. La démonstration et l'exercice sont le même objet,
+      ce qui supprime l'étape où l'élève doit reproduire de son côté ce qu'il vient
+      de lire.
+
+      **L'ordre est celui d'une chanson, pas celui d'un logiciel.** On commence par
+      un rythme et on finit par une structure de morceau. Aucun chapitre n'est
+      consacré à un menu ou à un bouton — le vocabulaire du produit maison
+      n'apparaît jamais, alors que c'est le produit maison qui paie.
+
+      **C'est un argument commercial qui ne le dit pas.** Ableton offre un cours de
+      musique complet et gratuit, sans compte, sans installation ; le lien vers
+      Live est en bas. Modèle à regarder de près quand on se demande à quoi peut
+      ressembler un contenu utile financé par quelqu'un qui vend autre chose.
     </markdown>
   </section>
 

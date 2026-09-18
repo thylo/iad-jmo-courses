@@ -15,6 +15,11 @@
     puis élargit à l'ensemble des trente-cinq pâtés de maisons. On descend la rue, on
     entre chez les gens, et on voit ce qui a été effacé.</resume>
 
+    <visuel src="what-the-1921-tulsa-race-massacre-destroyed.jpg"
+            alt="Reconstruction en trois dimensions, tout en gris, d'une rue commerçante de Greenwood en 1921 : devantures et voitures d'époque, chaque commerce nommé par une étiquette — Williams Confectionery, East End Doughnut Shop, Little Rose Beauty Salon"
+            credit="The New York Times"
+            source="https://www.nytimes.com/interactive/2021/05/24/us/tulsa-race-massacre.html"/>
+
   <section title="Comment on rebâtit une rue qui n'existe plus">
     <markdown>
       C'est la partie à montrer, parce qu'elle est faite d'archives et pas de magie.
@@ -34,6 +39,9 @@
       l'inverse de ce que raconte la communication habituelle sur ces outils, et c'est
       pour ça que la fiche insiste.
     </markdown>
+
+    <video src="youtube:7Xvj_BOLMAA"
+           caption="Les autrices racontent la fabrication de la page : sources, modélisation, choix de cadrage."/>
   </section>
 
   <section title="Le modèle dit ce qu'il ne sait pas">
@@ -47,7 +55,7 @@
       ici, n'est pas neutre : c'est le résultat de la destruction qu'on est en train de
       regarder.
 
-      Comparez avec la reconstitution habituelle, qui remplit tout au même niveau de
+      À comparer avec la reconstitution habituelle, qui remplit tout au même niveau de
       finition et ne distingue jamais ce qui est documenté de ce qui est supposé. C'est
       le geste que [[ranger|ranger n'est pas neutre]] décrit par l'autre bout : une
       donnée ne se trouve pas, elle se décide, et ici quelqu'un a décidé de rendre
@@ -80,8 +88,8 @@
       pose pas.
 
       Et le procédé est coûteux : deux journalistes-graphistes à plein temps pendant des
-      mois, plus les archives. On le montre en cours pour la méthode et pour l'honnêteté
-      du rendu, pas comme un modèle reproductible en atelier.
+      mois, plus les archives. Ce qui vaut d'être retenu est la méthode et l'honnêteté
+      du rendu, pas un modèle reproductible à moindres moyens.
     </markdown>
   </section>
 

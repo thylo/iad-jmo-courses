@@ -35,7 +35,7 @@
 
   <section title="Sans écran du tout">
     <markdown>
-      Retirez la machine et regardez ce qui continue de fonctionner. Ces quatre-là
+      La machine retirée, il reste ce qui continue de fonctionner. Ces quatre-là
       tiennent un récit interactif avec du carton.
 
       - [Cartaventura](/oeuvres/cartaventura). Les cartes posées sur la table *sont*
@@ -51,9 +51,9 @@
         vue par les yeux de chaque personnage qui s'y trouve. Presque aucun texte : le
         récit tient au montage que les joueurs font entre les points de vue
 
-      Ces jeux résolvent en carton des problèmes que vous rencontrerez en code :
-      tenir un état, chercher une réponse dans une table, déclencher un événement plus
-      tard, faire d'une image sa propre table des matières. À la différence près
+      Ces jeux résolvent en carton des problèmes qu'on retrouve en code : tenir un
+      état, chercher une réponse dans une table, déclencher un événement plus tard,
+      faire d'une image sa propre table des matières. À la différence près
       qu'ici la solution doit rester visible pour être jouable. C'est pour ça qu'ils
       s'analysent si bien, et qu'ils fonctionneront encore quand l'app de la boîte
       d'à côté aura cessé d'être maintenue.

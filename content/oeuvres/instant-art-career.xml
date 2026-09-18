@@ -1,217 +1,38 @@
 <oeuvre id="instant-art-career" statut="en-ligne">
-  <titre>Instant Art Career (Public Painting Machine)</titre>
+  <titre>Instant Art Career</titre>
   <annee>2013</annee>
   <par ref="niklas-roy"/>
   <par>Kati Hyyppä</par>
   <url>https://www.niklasroy.com/project/156/InstantArtCareer</url>
-  <categorie>Interface</categorie>
-  <categorie>Muséale</categorie>
-  <categorie>Performance</categorie>
+  <categorie>Installation</categorie>
+  <categorie>Urbain</categorie>
   <voir ref="my-little-piece-of-privacy"/>
+  <voir ref="graffomat"/>
 
-  <resume>Installation interactive où les passants tirent sur des cordes pour contrôler une machine CNC qui peint sur une toile collective, transformant instantanément tout le monde en artiste collaboratif, suivi d'une mise aux enchères des œuvres co-créées.</resume>
+  <resume>Une galerie vide de Katowice, dont la devanture est ouverte sur la rue. À l'intérieur, une machine à peindre entièrement mécanique ; à l'extérieur, trois cordes qui pendent sur le trottoir, étiquetées X, Y et « malować » — peindre. Les passants tirent, la machine peint. À la fin de la semaine, les toiles ont été vendues aux enchères et le produit partagé. Festival de street art de Katowice, 2013.</resume>
+
+  <visuel src="instant-art-career.jpg"
+          alt="Une devanture peinte en rouge où on lit « Your Art Gallery » ; sur le trottoir, des passants tirent sur des cordes suspendues étiquetées X, Y et « malować »"
+          credit="Niklas Roy"
+          source="https://www.niklasroy.com/project/156/InstantArtCareer"/>
 
   <section title="Ce qui fonctionne">
     <markdown>
-      Interface mécanique brillante utilisant les corde en Dyneema (feedback tactile) pour contrôler 3 axes (X, Y, paint trigger). Les passants de tous âges créent ensemble sans formation, sans électricité, sans interface écran. L'œuvre finie est immédiatement monétisée et vendue, donnant une récompense tangible aux participants.
-    </markdown>
-  </section>
+      **Trois cordes, et tout est compris.** Pas d'écran, pas de moteur, pas de
+      notice : on voit la corde entrer dans le bâtiment, on tire, quelque chose
+      bouge de l'autre côté. La transparence mécanique fait le travail qu'une
+      interface passe son temps à essayer de faire, et un enfant de six ans y entre
+      aussi vite qu'un ingénieur.
 
-  <section title="Vue d'ensemble">
-    <markdown>
-      **Instant Art Career** est une **installation collaborative et performative** créée par Niklas Roy et Kati Hyyppä qui transforme les passants en artistes painters. Lors du **Katowice Street Art Festival en Pologne** (2013), une **machine CNC mécanique** a été installée dans une galerie abandonnée avec son interface exposée à la rue. Les gens tirent sur des cordes (sans électricité, sans écran) pour créer ensemble des peintures.
+      **Il faut être trois.** Un axe par corde : personne ne peut peindre seul. La
+      coopération n'est pas encouragée par une règle, elle est imposée par la
+      physique du dispositif — c'est la façon la plus solide d'obtenir un
+      comportement collectif.
 
-      À la fin de la semaine, les œuvres ont été mises aux enchères, et **les profits ont été partagés entre les participants**. Soudainement, tout le monde avait un "Instant Art Career".
-    </markdown>
-  </section>
-
-  <section title="Fonctionnement technique">
-    <markdown>
-      ### Architecture mécanique
-
-      - **Trois cordes en Dyneema** (fibre haute résistance à faible étirement) contrôlent:
-        - **Corde gauche (X)** : Mouvement horizontal du châssis de peinture
-        - **Corde du milieu (Y)** : Mouvement vertical du pinceau
-        - **Corde droite (Malovať)** : Trigger d'application de peinture
-
-      - **Système de transmission** : Poulies, cordes, mécanismes d'arrêt
-      - **Amortisseurs** : Éponges de cuisine absorbant les chocs des tirages
-      - **Châssis peint** : Support une toile de dimensions variables
-
-      ### Interface tactile
-      Le choix de la **corde en Dyneema** est critique :
-
-      - Feedback tactile direct : vous **sentez la résistance**
-      - Basse latence : action immédiate
-      - Pas de confusion numérique : tout est mécanique et transparent
-      - Engagement physique : on doit vraiment **tirer fort**
-
-      ### Système de couleurs
-
-      - **Seaux de peinture préparés** à proximité (acrylique ou peinture standard)
-      - Les participants changent manuellement les pinceaux entre les couleurs
-      - **Eau de rinçage** fournie pour nettoyer les pinceaux
-      - Chacun peut choisir sa palette de couleurs
-    </markdown>
-  </section>
-
-  <section title="Contexte d'exposition">
-    <markdown>
-      ### Katowice Street Art Festival (2013), l'original
-
-      - **Galerie abandonnée** : Façade ouverte exposée à la rue
-      - **Une semaine complète** : Ouvert à la participation publique continue
-      - **Cadre urbain** : Les gens s'arrêtent, découvrent, jouent
-      - **Démographie variée** : Enfants, seniors, artistes professionnels, curieux
-
-      ### Version itinérante (2017+)
-
-      - **Cadre portable en bois** avec rideaux de douche
-      - Permet les présentations en **espaces couverts ou extérieurs**
-      - **Exposition plus contrôlée** mais toujours participative
-      - **Le Havre, France** : présentation ultérieure notable
-    </markdown>
-  </section>
-
-  <section title="Dimensions collaboratives">
-    <markdown>
-      ### Co-création involontaire → consciente
-      La semaine progresse:
-
-      - **Jour 1** : Les gens jouent, découvrent, testent les limites
-      - **Jour 2-3** : Ils deviennent plus intentionnels, composent avec les coups des autres
-      - **Jour 4-5** : Des collaborations émergentes, on reconnaît les "habitués"
-      - **Jour 6-7** : Moments de performance collective, de danse avec la machine
-
-      ### Théâtre social
-      L'installation est un **spectacle en direct**:
-
-      - Les gens s'arrêtent pour regarder les autres peindre
-      - Ils critiquent, applaudissent, crient des instructions
-      - La création devient **performance publique**
-      - L'audience devient audience ET participant successivement
-
-      ### Économie de l'art remise en question
-      L'idée radical: **"Chacun peut vendre sa peinture"**
-
-      À la fin de la semaine:
-
-      - Les œuvres sont **mises aux enchères** (généralement pour 50-200€)
-      - **Les profits sont partagés** entre les créateurs contribuants
-      - Un participant qui a tiré une fois reçoit une part
-      - Soudainement, l'art devient **économiquement valorisé pour chacun**
-
-      C'est une critique du monde de l'art : comment se créent les hiérarchies d'artistes valant de l'argent vs. autres.
-    </markdown>
-  </section>
-
-  <section title="Enjeux pédagogiques clés">
-    <markdown>
-      ### 1. Interface gestuelle vs. interface écran
-      Pourquoi les cordes au lieu d'une tablette tactile ou un joystick ?
-
-      **Les cordes offrent**:
-
-      - Feedback mécanique direct (resistance = réalité physique)
-      - Transparence : même les enfants comprennent le système
-      - Engagement du corps entier : pas juste des doigts
-      - Absence de médiation numérique : pas d'écran entre vous et l'action
-
-      C'est une **critique silencieuse des interfaces numériques**.
-
-      ### 2. Démocratisation et accessibilité
-      N'importe qui peut peindre :
-
-      - Pas de formations d'art requises
-      - Pas de dextérité spéciale demandée
-      - **Zéro coût** pour participer
-      - **Zéro risque** : c'est du jeu, pas de "mauvaise" création
-
-      Mais en devenant accessible, qu'avez-vous perdu ? La distinction entre "artiste" et "non-artiste" devient floue.
-
-      ### 3. Performance et partage d'espace
-      L'installation force une **intimité involontaire**:
-
-      - Vous tirez les cordes pendant que d'autres regardent
-      - Les gens applaudissent vos gestes
-      - Vous tous créez la même toile
-      - L'espace devient un **théâtre social où chacun se montre**
-
-      C'est pertinent pour interroger la performance, la vulnérabilité, l'exposition publique.
-
-      ### 4. Temporalité et collection
-      L'installation **accumule au fil du temps**:
-
-      - Les œuvres se construisent, s'empilent, se superposent
-      - Rien n'est effacé : chaque coup reste
-      - Une **archéologie d'interactions**
-
-      Comment cela diffère d'une installation interactif éphémère ?
-
-      ### 5. Valeur et reconnaissance
-      L'idée d'une "mise aux enchères" transforme:
-
-      - **Reconnaissance** : "J'ai créé quelque chose qui vaut de l'argent"
-      - **Valeur collective** : "Ma contribution à la toile avait une valeur"
-      - **Critique économique** : Comment décidez-on qu'une création "vaut" quelque chose ?
-    </markdown>
-  </section>
-
-  <section title="Enjeux critiques">
-    <markdown>
-      ### Le paradoxe du contrôle
-
-      - Vous tirez sur les cordes et vous contrôlez la machine
-      - **Mais** : votre contrôle est aussi performé publiquement
-      - **Et** : votre création est mélangée à celle d'autres
-      - **Finalement** : pouvez-vous vraiment dire que c'est VOTRE création ?
-
-      C'est une version **positive et joyeuse** du paradoxe de surveillance dans My Little Piece of Privacy.
-
-      ### Authenticité du geste
-
-      - Les cordes donnent l'impression d'une **création "vraie"**, mécanique et directe
-      - **Mais** : c'est aussi une interface, une médiation
-      - Le geste est **amplifié par la machine** : vous tirez, la machine bouge plus grande
-
-      Qu'en est-il de l'authenticité de l'art quand il est médiatisé ?
-    </markdown>
-  </section>
-
-  <section title="Évolution et variantes">
-    <markdown>
-      Le succès à Katowice a inspiré :
-
-      - **Vektorkollektor** (avec Kati Hyyppä) : machine de dessin mobile
-      - **Variantes internationales** : Le Havre (2017), autres lieux
-      - **Cadre itinérant** : rend possible les présentations multiples
-      - **Collaborations** : d'autres artistes ont créé des variations
-    </markdown>
-  </section>
-
-  <section title="Impact et reconnaissance">
-    <markdown>
-      - Couverture dans **Make Magazine**, **VICE**, **DesignBoom**, **Arduino Blog**
-      - Présentations dans festivals d'art de rue majeurs
-      - Évolution de simple "outil interactif" à **œuvre d'art critique** reconnue
-      - Pertinent tant pour les communautés de street art que pour l'art numérique académique
-
-      ---
-    </markdown>
-  </section>
-
-  <section title="Ressources pédagogiques">
-    <markdown>
-      - **Site officiel** : niklasroy.com/project/156/InstantArtCareer
-      - **Vidéos de processus** : montrant les gens tirant les cordes
-      - **Photographies** : avant/après des toiles, close-ups de détails
-      - **Documentation d'exposition** : contextes d'exposition variés
-    </markdown>
-  </section>
-
-  <section title="Pourquoi c'est inspirant">
-    <markdown>
-      Exemplaire pour enseigner: (1) comment l'interface gestuelle démocratise la création, (2) l'art participatif comme spectacle vivant et théâtre social, (3) la performativité involontaire transformée en co-création consciente, (4) l'économie de l'art remise en question par la contribution collective, (5) la mécanique sans électricité comme engagement physique.
+      **La vente est la chute.** Ce qui aurait pu rester un jouet de rue devient,
+      par la mise aux enchères et le partage des recettes, une question sur la façon
+      dont une signature transforme un geste en valeur. La blague du titre est aussi
+      l'argument.
     </markdown>
   </section>
 

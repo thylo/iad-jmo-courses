@@ -11,6 +11,9 @@
 
   <resume>Deux personnes assises face à face, très près, et une question tirée d'un paquet de cartes : « qu'est-ce que tu ne m'as jamais dit ? ». Des couples, des frères et sœurs, des amis, des ex. Le spectateur choisit une paire, puis choisit les questions qu'on leur pose. Emmy 2015 pour les nouvelles approches du documentaire. Le dispositif s'est prolongé en jeux de cartes vendus en boîte.</resume>
 
+  <visuel src="the-and.jpg"
+          source="https://www.theskindeep.com/"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **Le dispositif est un protocole, pas une mise en scène.** Deux personnes, deux
@@ -29,6 +32,9 @@
       trouve une seconde vie en carton plutôt que l'inverse — voir
       [hors écran](/panorama/hors-ecran).
     </markdown>
+
+    <video src="youtube:nbYc_F1roc8"
+           caption="Une partie filmée, édition « Amis », publiée par The Skin Deep."/>
   </section>
 
   <section title="Ce qui coince">
@@ -40,7 +46,7 @@
 
       Et le spectateur reste [[role-fantome|un fantôme]] : il oriente la conversation
       sans jamais y être. C'est confortable, un peu trop — l'intimité est celle des
-      autres, et rien ne vous demande rien.
+      autres, et rien n'est demandé en retour.
     </markdown>
   </section>
 

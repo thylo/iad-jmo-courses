@@ -37,7 +37,7 @@
         │ vidéo    │   le bloc suivant     │  monte   │
         └──────────┘                      └──────────┘
 
-        Enlevez le scroll : rien         Enlevez le scroll : l'œuvre
+        Sans le scroll : rien            Sans le scroll : l'œuvre
         n'est perdu.                     n'existe plus.
       ```
     </markdown>
@@ -62,8 +62,8 @@
       que dix ans de sites d'agence ont copiée.
 
       [[do-not-track]] s'en sert autrement encore : le défilement rythme un
-      documentaire qui, entre deux blocs, va chercher vos propres données. La forme est
-      commune, l'usage ne l'est pas.
+      documentaire qui, entre deux blocs, va chercher les données du spectateur. La
+      forme est commune, l'usage ne l'est pas.
     </markdown>
   </section>
 
@@ -94,16 +94,16 @@
     </markdown>
   </section>
 
-  <section title="Pour votre projet">
+  <section title="En pratique">
     <markdown>
-      C'est l'interface la plus accessible du cours : elle ne demande aucune
-      bibliothèque, et une page HTML suffit.
+      C'est l'interface la plus accessible : elle ne demande aucune bibliothèque, et
+      une page HTML suffit.
 
-      **Faites correspondre le sens du geste au sens du récit.** Une chute descend,
-      une traversée avance, une remontée dans le temps remonte.
+      **Le sens du geste suit le sens du récit.** Une chute descend, une traversée
+      avance, une remontée dans le temps remonte.
 
-      **Réservez la lenteur à un endroit.** Un seul passage où il faut beaucoup pousser
-      pour peu d'avancée se remarque et se retient. Trois, on ferme l'onglet.
+      **La lenteur se réserve à un endroit.** Un seul passage où il faut beaucoup
+      pousser pour peu d'avancée se remarque et se retient. Trois, on ferme l'onglet.
     </markdown>
   </section>
 

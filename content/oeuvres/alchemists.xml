@@ -10,6 +10,11 @@
 
   <resume>Un jeu de déduction où l'on cherche à établir la composition de huit ingrédients. Au début de la partie, l'application tire au sort quelle molécule correspond à quel ingrédient et n'en dit rien à personne : elle produit un code de quatre lettres, et c'est tout. Ensuite, on mélange deux ingrédients en scannant leurs cartes, et elle annonce la potion obtenue. Personne autour de la table ne connaît la solution.</resume>
 
+  <visuel src="alchemists.jpg"
+          alt="Le matériel du jeu étalé : quatre paravents de joueur ouverts sur leurs grilles de déduction, le plateau central couvert de cartes d'ingrédients, des dés, des jetons et des cubes de couleur"
+          credit="Czech Games Edition"
+          source="https://store.czechgames.com/products/alchemists"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **C'est la meilleure réponse qu'on ait à « qu'est-ce que l'application
@@ -29,7 +34,10 @@
       que l'application ait à retenir quoi que ce soit. Un état complet tenu dans
       quatre caractères qu'on note au crayon.
     </markdown>
-  </section>
+  
+    <video src="youtube:W-t1y6krjrY"
+           caption="La présentation du jeu par Czech Games Edition : le tour de table, puis l'application au moment du mélange."/>
+</section>
 
   <section title="Ce qui coince">
     <markdown>
@@ -37,9 +45,9 @@
       injouable — il n'y a pas de solution imprimée quelque part, par construction.
       L'éditeur maintient, et le jour où il cesse, le jeu meurt avec ses règles.
 
-      C'est le prix exact du service rendu, et il vaut d'être posé devant les
-      étudiants : plus une application détient d'information indispensable, plus
-      l'objet devient périssable. Comparez avec [[cartaventura]], où l'état du récit
+      C'est le prix exact du service rendu : plus une application détient
+      d'information indispensable, plus l'objet devient périssable. À comparer avec
+      [[cartaventura]], où l'état du récit
       est étalé sur la table et se jouera encore dans trente ans.
     </markdown>
   </section>

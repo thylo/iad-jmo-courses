@@ -2,7 +2,7 @@
   <titre>La carte</titre>
   <genre>interface</genre>
   <exemple ref="micromacro-crime-city"/>
-  <exemple ref="riding-the-new-silk-road"/>
+  <exemple ref="rider-spoke"/>
   <exemple ref="80-days"/>
   <voir ref="structure-constellation"/>
   <voir ref="interface-timeline"/>
@@ -43,9 +43,10 @@
       c'est un budget. Elle ne s'ouvre d'ailleurs pas toute seule — les lignes
       n'apparaissent qu'en écoutant les gens croisés en chemin.
 
-      **Le lieu est le témoignage.** [[riding-the-new-silk-road]] accroche des
-      photographies et des paroles à des points d'une route réelle. Le sens vient de
-      savoir *où* on est quand on entend ça.
+      **Le lieu est le témoignage.** [[rider-spoke]] accroche des confidences à des
+      recoins précis d'une ville, et elles ne se réécoutent qu'à l'endroit exact où
+      elles ont été enregistrées. Le sens vient de savoir *où* on est quand on
+      entend ça.
 
       **Le voisinage est l'indice.** [[micromacro-crime-city]] est la démonstration la
       plus économique du principe : un poster d'un mètre, imprimé, sans écran. Toute
@@ -69,15 +70,15 @@
     </markdown>
   </section>
 
-  <section title="Pour votre projet">
+  <section title="En pratique">
     <markdown>
-      **Dessinez plutôt que d'emprunter.** Une carte illustrée est à vous, un fond
-      cartographique appartient à quelqu'un d'autre et impose son esthétique.
+      **Dessiner plutôt qu'emprunter.** Une carte illustrée appartient à l'œuvre ; un
+      fond cartographique appartient à quelqu'un d'autre et impose son esthétique.
 
       **Le plan peut être un intérieur.** Une maison, un bureau, une table : les
       mêmes règles s'appliquent, avec dix points au lieu de cent.
 
-      **Testez sans les libellés.** Si on ne comprend rien à la carte quand on cache
+      **Tester sans les libellés.** Si on ne comprend rien à la carte quand on cache
       les noms, c'est que la géographie ne raconte pas encore.
     </markdown>
   </section>

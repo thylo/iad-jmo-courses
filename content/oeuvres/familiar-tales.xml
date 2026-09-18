@@ -1,12 +1,13 @@
 <oeuvre id="familiar-tales" statut="en-ligne">
   <titre>Familiar Tales</titre>
   <annee>2022</annee>
+  <par>Jerry Hawthorne</par>
   <par>Plaid Hat Games</par>
   <url>https://www.familiartalesgame.com/</url>
   <categorie>Jeu</categorie>
   <concept ref="interface-plateau"/>
 
-  <resume>Application web qui orchestre une aventure de jeu de rôle autour d'une table. Gère la narration, les combats, la progression et les sauvegardes pendant que les joueurs manipulent figurines et cartes.</resume>
+  <resume>Une campagne coopérative où l'on incarne les familiers d'un magicien chargés d'élever une princesse en fuite, sur plusieurs décennies. Une application dit le récit à voix haute, entièrement doublée et mise en musique, et tient les états, les combats et les sauvegardes ; sur la table, il reste des figurines et des paquets de cartes qu'on fait grandir. Sortie en janvier 2022.</resume>
 
   <visuel src="familiar-tales.jpg"
           source="https://www.familiartalesgame.com/"/>
@@ -34,6 +35,9 @@
       À comparer avec [[tracks]], où la technologie en fait beaucoup moins et donne
       davantage. Voir [[interface-plateau]].
     </markdown>
+
+    <video src="youtube:dj3mwzj6oeU"
+           caption="La présentation du jeu par Plaid Hat Games."/>
   </section>
 
   <backlinks/>

@@ -4,7 +4,7 @@
   <par>Vincent Morisset</par>
   <par>AATOAA</par>
   <par>Sean Michaels</par>
-  <par>ONF</par>
+  <par ref="onf"/>
   <url>https://motto.io/</url>
   <categorie>Fiction</categorie>
   <concept ref="interface-gestural"/>
@@ -18,9 +18,9 @@
     <markdown>
       **Le téléphone n'est pas un petit écran, c'est un capteur.** Caméra, micro,
       accéléromètre, une lampe : Motto s'en sert comme matière première au lieu de
-      les traiter comme des contraintes. La pièce où vous êtes entre dans l'œuvre.
+      les traiter comme des contraintes. La pièce où l'on se trouve entre dans l'œuvre.
 
-      **Ce que vous filmez devient le film.** Vos images, non préparées et mal
+      **Ce qu'on filme devient le film.** Ces images, non préparées et mal
       cadrées, sont réinjectées dans la narration. Le spectateur n'est pas
       seulement [[role-soi-meme|lui-même]] : il fournit une partie du matériau,
       sans avoir rien à savoir faire.
@@ -37,7 +37,7 @@
 
   <section title="Ce qui coince">
     <markdown>
-      Il faut être seul, au calme, et accepter de faire ce qu'on vous dit :
+      Il faut être seul, au calme, et accepter de faire ce qu'on demande :
       souffler dans le micro, filmer son plafond. En groupe, dans une salle de
       classe, l'expérience s'effondre. C'est la difficulté de tout ce qui repose
       sur l'intimité du geste.

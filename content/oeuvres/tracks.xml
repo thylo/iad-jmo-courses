@@ -10,6 +10,11 @@
 
   <resume>Jeu d'enquête sonore. Les joueurs forment la S.B.A.S., unité chargée d'écouter la ville de Siren Bay : on suit une cible au casque, au bruit, et on trace son trajet sur un plan. Quinze affaires d'environ vingt-cinq minutes, une application qui ne sert qu'à diffuser le son.</resume>
 
+  <visuel src="tracks.jpg"
+          alt="Boîte du jeu vue en perspective : deux personnages dessinés au-dessus d'une silhouette de ville, le titre Tracks et la mention « le jeu d'enquêtes coopératif en immersion sonore »"
+          credit="KYF Édition"
+          source="https://www.asmodee.be/product/tracks/"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       La technologie y est réduite au minimum et fait pourtant tout le travail :

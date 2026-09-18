@@ -9,11 +9,11 @@
   <voir ref="role-divinite"/>
   <voir ref="choix-exploratoire"/>
 
-  <resume>Vous voyez tout et ne pouvez rien. Vos gestes déplacent le regard, pas les événements.</resume>
+  <resume>Le public voit tout et ne peut rien. Ses gestes déplacent le regard, pas les événements.</resume>
 
   <section title="Définition">
     <markdown>
-      Le récit se déroule sans vous et ne vous attend pas. Ce qu'on vous confie, c'est
+      Le récit se déroule sans le public et ne l'attend pas. Ce qu'on lui confie, c'est
       la place d'où on regarde : quelle caméra, quel témoin, quel moment, à quelle
       vitesse.
 
@@ -30,11 +30,11 @@
 
               ▲          ▲          ▲
               │          │          │
-            vous       vous       vous
+           regard     regard     regard
           (angle 1)  (angle 2)  (angle 3)
 
-      Ce que vous déplacez : la position du regard
-      Ce que vous ne déplacez pas : une seule chose de ce qui arrive
+      Ce qui se déplace : la position du regard
+      Ce qui ne se déplace pas : une seule chose de ce qui arrive
       ```
     </markdown>
   </section>
@@ -42,17 +42,16 @@
   <section title="Ce que l'angle produit">
     <markdown>
       [[gaza-sderot]] filme quarante jours de part et d'autre de la même frontière et
-      vous laisse choisir par qui commencer. Aucun fait ne bouge. Ce qui change, c'est
-      de quel côté vous étiez installé pour les recevoir, et le dispositif tient
-      entièrement là-dessus : deux vies ordinaires, à quelques kilomètres, à la même
-      heure.
+      laisse choisir par qui commencer. Aucun fait ne bouge. Ce qui change, c'est de
+      quel côté on était installé pour les recevoir, et le dispositif tient entièrement
+      là-dessus : deux vies ordinaires, à quelques kilomètres, à la même heure.
 
       [[weiordie|Wei or Die]] pousse le principe au montage. Le récit est fixe, les
       caméras sont multiples, et refaire le parcours en changeant de point de vue
       donne une autre affaire à partir des mêmes images.
 
-      [[one-shared-house]] vous laisse entrer dans un immeuble communautaire
-      d'Amsterdam par n'importe quel habitant. Trente ans d'histoire, un lieu, plusieurs
+      [[one-shared-house]] laisse entrer dans un immeuble communautaire d'Amsterdam par
+      n'importe quel habitant. Trente ans d'histoire, un lieu, plusieurs
       témoins : la [[structure-concentrique|structure concentrique]] est faite pour ce
       rôle.
 
@@ -71,8 +70,8 @@
 
       **Ça interdit** la culpabilité. Un fantôme ne peut rien avoir sur la
       conscience, donc il ne peut pas non plus être bouleversé par ce qu'il a fait.
-      Si votre sujet est la responsabilité, ce n'est pas le rôle qu'il vous faut :
-      voir [[role-personnage|un personnage]] ou [le poids du
+      Ce n'est donc pas le rôle d'un sujet qui porte sur la responsabilité : voir
+      [[role-personnage|un personnage]] ou [le poids du
       choix](/panorama/poids-du-choix).
     </markdown>
   </section>
@@ -88,16 +87,16 @@
     </markdown>
   </section>
 
-  <section title="Pour votre projet">
+  <section title="En pratique">
     <markdown>
-      C'est le rôle le plus tenable en atelier avec de la matière documentaire, et le
-      moins cher à produire.
+      C'est le rôle le plus tenable avec de la matière documentaire, et le moins cher
+      à produire.
 
       **Deux angles bien opposés valent mieux que six.** La comparaison est
       l'information ; au-delà de trois, plus personne ne compare.
 
-      **Demandez-vous ce que l'angle révèle.** Si passer de l'un à l'autre ne change
-      pas ce qu'on comprend, vous avez fait un menu, pas un point de vue.
+      **Ce que l'angle révèle est le seul critère.** Si passer de l'un à l'autre ne
+      change pas ce qu'on comprend, c'est un menu, pas un point de vue.
     </markdown>
   </section>
 

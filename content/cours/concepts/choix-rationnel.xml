@@ -10,17 +10,17 @@
   <voir ref="choix-exploratoire"/>
   <voir ref="faux-choix"/>
 
-  <resume>Vous avez de quoi décider, vous pesez, vous tranchez, et la conséquence correspond. C'est le choix le plus coûteux à écrire, et le seul qui tienne la promesse que font toutes les autres œuvres.</resume>
+  <resume>Il y a de quoi décider, on pèse, on tranche, et la conséquence correspond. C'est le choix le plus coûteux à écrire, et le seul qui tienne la promesse que font toutes les autres œuvres.</resume>
 
   <section title="Définition">
     <markdown>
-      Trois conditions, et il faut les trois. L'œuvre vous a donné l'information avant
-      de demander. Vous pouvez peser une option contre l'autre. Ce qui suit correspond
-      à ce que vous avez fait.
+      Trois conditions, et il faut les trois. L'œuvre a donné l'information avant de
+      demander. Une option peut se peser contre l'autre. Ce qui suit correspond à ce
+      qui a été fait.
 
-      Enlevez la première, vous obtenez un [[choix-exploratoire|choix exploratoire]] :
-      on choisit pour voir, ce qui est honnête tant que l'œuvre ne prétend pas le
-      contraire. Enlevez la troisième, vous obtenez un [[faux-choix|faux choix]].
+      Sans la première, c'est un [[choix-exploratoire|choix exploratoire]] : on choisit
+      pour voir, ce qui est honnête tant que l'œuvre ne prétend pas le contraire. Sans
+      la troisième, c'est un [[faux-choix|faux choix]].
     </markdown>
   </section>
 
@@ -32,7 +32,7 @@
         14h coûte le      mais Fogg est     le train     sans un sou, et
         double »          malade »                       Fogg tousse encore
 
-      Retirez une case et il ne reste rien :
+      Retirer une case et il ne reste rien :
 
       sans information    → on tire à pile ou face
       sans délibération   → les options sont équivalentes
@@ -43,10 +43,10 @@
 
   <section title="Le cas propre">
     <markdown>
-      [[jeu-d-influences]] ne vous fait pas choisir entre deux branches. Un communicant
-      de crise vous conseille, vous acceptez ou vous refusez, et la partie vous renvoie
-      à la fin ce que ces acceptations disent de vous. L'information est là (vous savez
-      ce qu'on vous demande et ce que ça coûte), la délibération est réelle, et la
+      [[jeu-d-influences]] ne fait pas choisir entre deux branches. Un communicant de
+      crise conseille, on accepte ou on refuse, et la partie renvoie à la fin ce que
+      ces acceptations disent de celui qui les a prises. L'information est là (ce qu'on
+      demande et ce que ça coûte sont dits), la délibération est réelle, et la
       conséquence n'est pas un embranchement : c'est un portrait.
 
       C'est ce que [le poids du choix](/panorama/poids-du-choix) appelle le choix qui
@@ -65,15 +65,15 @@
       Personne ne finit ça.
 
       D'où le déplacement que fait [[80-days]] : la mémoire n'est pas dans la position
-      mais dans une liste de faits (votre itinéraire, votre argent, la santé de Fogg).
-      La production redevient linéaire, les conséquences restent réelles. C'est la
+      mais dans une liste de faits (l'itinéraire, l'argent, la santé de Fogg). La
+      production redevient linéaire, les conséquences restent réelles. C'est la
       [[structure-a-etat|structure à état]], et c'est la réponse la plus utilisable à
-      l'échelle d'un projet d'atelier.
+      l'échelle d'un projet court.
 
       Le hors-ligne le montre encore mieux. [[cartaventura]] tient cinq fins dans une
       boîte de poche et n'a jamais prétendu à davantage : la carte retournée est
-      retournée, devant cinq personnes qui vous regardent. L'irréversibilité y est
-      physique, elle ne coûte pas une ligne de code.
+      retournée, devant cinq personnes. L'irréversibilité y est physique, elle ne coûte
+      pas une ligne de code.
     </markdown>
   </section>
 
@@ -92,17 +92,17 @@
     </markdown>
   </section>
 
-  <section title="Pour votre projet">
+  <section title="En pratique">
     <markdown>
       **Trois choix rationnels suffisent.** Le reste peut être exploratoire, assumé
       comme tel. Une œuvre courte avec trois décisions qui pèsent bat une œuvre longue
       avec trente qui ne pèsent pas.
 
-      **Écrivez la conséquence en premier.** Puis remontez vers l'information qu'il
-      fallait donner pour que la décision soit possible. Dans ce sens-là, on ne
-      promet jamais ce qu'on n'a pas.
+      **Écrire la conséquence en premier.** Puis remonter vers l'information qu'il
+      fallait donner pour que la décision soit possible. Dans ce sens-là, on ne promet
+      jamais ce qu'on n'a pas.
 
-      **Rendez la trace visible.** Une phrase qui rappelle ce que vous avez fait au
+      **Rendre la trace visible.** Une phrase qui rappelle ce qui a été fait au
       chapitre 1 vaut plus qu'une branche entière que personne ne verra.
     </markdown>
   </section>

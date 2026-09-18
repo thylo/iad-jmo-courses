@@ -1,0 +1,351 @@
+<page id="le-web-hors-du-navigateur">
+  <titre>Le web hors du navigateur</titre>
+  <resume>Où tournent HTML, CSS et JavaScript quand il n'y a pas d'onglet : l'habillage d'un stream et celui du JT, la borne du musée, le launcher de jeux, une porte de frigo, une capsule spatiale. Et ce que cette ubiquité coûte.</resume>
+
+  <image src="dragon-console.jpg"
+         width="opening"
+         alt="Vue en contre-plongée de l'intérieur sombre d'une capsule spatiale. Un bandeau de trois écrans est suspendu au-dessus des sièges. Le premier affiche une interface bleu foncé : une croix directionnelle à gauche, une vue centrale avec un réticule et un schéma d'amarrage, des cadrans ronds à droite. Le deuxième montre la Terre, un petit globe bleu sur fond noir. Sous les écrans, une rangée de commandes physiques : un bouton rotatif, des touches carrées, les mentions « POWER 1 », « RESET » et « EXECUTE COMMAND ». À droite, l'épaule blanche d'une combinaison."
+         caption="Cabine du Crew Dragon, photographie de presse SpaceX, août 2015. Les trois dalles suspendues au-dessus des sièges portent l'interface de vol ; ce qui reste de boutons tient sur la rangée en dessous."
+         credit="SpaceX — CC0, via Wikimedia Commons"
+         source="https://commons.wikimedia.org/wiki/File:Crew_Dragon_Interior_(21119754479).jpg"/>
+
+  <markdown>
+    HTML, CSS et JavaScript servent à faire des sites. Ils servent surtout à piloter
+    un moteur de rendu : le programme qui transforme du texte en pixels, met en page
+    ce qui arrive et réagit au doigt.
+
+    Ce moteur a quitté le navigateur il y a longtemps. Il est dans la télévision du
+    salon, dans le launcher de jeux, dans la borne du musée, dans la porte de certains
+    frigos, dans l'écran du dossier de siège en avion, et dans les trois dalles
+    tactiles d'une capsule qui va à la Station spatiale.
+
+    Cette page recense où il se trouve, par quel montage il y est arrivé, et ce que
+    cette ubiquité coûte.
+  </markdown>
+
+  <section title="Les applications de bureau">
+    <markdown>
+      Beaucoup d'applications installées sur un ordinateur ordinaire sont des sites web.
+
+      - **Discord, Slack, Signal, Notion, Obsidian, Postman** : des applications de
+        bureau qui sont un navigateur affichant un site
+      - **Spotify** : même chose, avec CEF plutôt qu'Electron
+      - **Visual Studio Code** : l'éditeur lui-même est une application Electron, et
+        ses extensions affichent leurs vues en HTML
+      - **Steam** : depuis juin 2023, toute l'interface du client est rendue par CEF et
+        écrite en React — le magasin, la bibliothèque, l'*overlay* par-dessus le jeu,
+        et l'interface du Steam Deck. C'est
+        [documenté par Valve](https://developer.valvesoftware.com/wiki/Chromium_Embedded_Framework),
+        qui explique aussi comment y brancher un inspecteur
+
+      Les logiciels de production audiovisuelle emploient le même montage.
+
+      - **After Effects, Premiere, Photoshop** : les panneaux d'extension (CEP) sont des
+        pages HTML/CSS/JS. Adobe migre vers UXP, qui s'en éloigne, mais des milliers
+        d'extensions installées aujourd'hui sont du web
+      - **Figma** : l'interface d'un plugin est une page web, point
+      - **Unity** : l'UI Toolkit se décrit en UXML et se met en forme en USS, deux
+        formats copiés sur HTML et CSS. Le sélecteur, la cascade, le flexbox : tout y est
+      - **Unreal** : un widget navigateur permet d'afficher une page dans l'éditeur ou
+        dans le jeu
+
+      Ça se vérifie en dix secondes : dans VS Code, menu **Aide → Basculer les outils
+      de développement**. L'inspecteur de Chrome s'ouvre sur l'éditeur lui-même, et le
+      HTML de la barre latérale s'y lit comme celui de n'importe quelle page.
+    </markdown>
+
+  </section>
+
+  <section title="Les appareils qui sont le navigateur">
+    <markdown>
+      Téléviseurs, bornes, écrans d'avion : le système n'exécute rien d'autre que des
+      applications web, et personne n'installe rien.
+
+      **La télévision.** Une application pour un téléviseur LG s'écrit en HTML, CSS et
+      JavaScript ; [la documentation de webOS](https://webostv.developer.lge.com/develop/getting-started/build-your-first-web-app)
+      commence par un `index.html`. Chez Samsung, c'est Tizen, et c'est pareil.
+
+      **Le bouton rouge.** Sur la TNT, la norme HbbTV permet à une chaîne d'envoyer une
+      application avec son signal. Le bouton rouge de la télécommande, pendant le
+      journal de la RTBF, affiche une page web : l'annonce arrive par l'antenne, le
+      reste par internet. Plus de neuf téléviseurs connectés sur dix vendus en Europe
+      savent la lire.
+
+      **Les bornes.** Musées, gares, cinémas, fast-foods, bornes de commande et caisses
+      automatiques : dans la plupart des cas, un navigateur en mode kiosque, en plein
+      écran, sur une machine posée derrière la cloison. Une borne en panne affiche le
+      message d'erreur de son système d'exploitation, ce qui est la façon la plus
+      courante de s'en apercevoir.
+
+      **L'avion.** Le système de divertissement FlytEDGE de Thales est
+      [annoncé comme entièrement web](https://www.thalesgroup.com/en/news-centre/press-releases/thales-flytedge-digitally-remasters-inflight-entertainment-experience) :
+      le passager interagit avec un navigateur, sur l'écran du dossier devant lui ou
+      sur son propre téléphone.
+
+      Un cas mérite d'être connu parce qu'il complique la règle. L'application Netflix
+      sur les téléviseurs est bien du JavaScript, mais son moteur maison, Gibbon,
+      [abandonne le DOM sur les appareils faibles](https://netflixtechblog.com/crafting-a-high-performance-tv-user-interface-using-react-3350e5a6ad3b)
+      et dessine tout dans un canvas. Il reste le langage et l'outillage, il ne reste
+      pas les pages. « C'est du web » ne décrit donc pas un appareil à soi seul : reste
+      à savoir quelle partie du web, et ce qui est abandonné en route.
+    </markdown>
+  </section>
+
+  <section title="L'habillage, du salon au JT">
+    <markdown>
+      Le graphisme animé posé sur une image en direct — compteur, bandeau, résultat —
+      se fabrique de la même façon aux deux bouts de l'échelle : chez un streamer et
+      dans un studio de télévision.
+
+      **Sur Twitch.** Le compteur d'abonnés, l'alerte de don, le cadre autour de la
+      webcam, le « BRB » entre deux parties : ces éléments sont des pages web. OBS a
+      une source [« navigateur »](https://obsproject.com/kb/browser-source), qui est
+      un CEF de plus, et l'*overlay* est une adresse qu'on lui donne. StreamElements
+      et Streamlabs ne vendent rien d'autre que des pages hébergées, qui écoutent les
+      événements de la chaîne et se mettent à jour toutes seules.
+    </markdown>
+
+    <image src="obs-scene.jpg"
+           alt="Fenêtre d'OBS Studio en français. En haut, l'aperçu de la scène montre une page de Wikipédia. En bas, quatre panneaux : « Scènes », « Sources » avec une seule entrée, « Mélangeur audio » avec ses vumètres, et « Commandes » où figurent « Commencer le streaming » et « Démarrer l'enregistrement »."
+           caption="OBS Studio 32. Une scène se compose à partir d'une liste de sources, en bas à gauche ; celle-ci affiche une page web."
+           credit="Didi — CC0, via Wikimedia Commons"
+           source="https://commons.wikimedia.org/wiki/File:OBS_Studio_32.1.2_Screenshot.png"/>
+
+    <markdown>
+      **À l'antenne.** Même principe, avec une exigence de fiabilité qui n'a rien à
+      voir. Le synthé qui donne le nom de l'invité, le tiers inférieur, les résultats
+      sportifs, la soirée électorale : les moteurs de graphisme composent sur l'image
+      en direct des gabarits [écrits en HTML5](https://www.vizrt.com/news-articles/broadcasting/cutting-edge-html5-graphics-for-broadcasting/),
+      qui reçoivent leurs données au moment de passer. L'habillage de la RTBF marche
+      comme ça.
+
+      **Le chemin depuis After Effects.** La compo s'exporte en Lottie avec Bodymovin,
+      un convertisseur en fait un gabarit HTML avec ses champs de texte et ses
+      marqueurs d'entrée et de sortie, et le serveur de diffusion le joue avec les
+      données du jour. C'est ce que fait
+      [Ferryman](https://streamshapers.com/docs/documentation/streamshapers-ferryman/),
+      gratuit et à code ouvert.
+    </markdown>
+
+    <video src="youtube:eTjQB0-7wfA"
+           caption="StreamShapers, « Dynamic LowerThird in CasparCG ». Le bandeau est une page HTML ; les deux lignes de texte lui sont envoyées au moment de passer à l'antenne."/>
+
+    <markdown>
+      **Le serveur aussi peut être gratuit.** CasparCG a été écrit par
+      [la télévision publique suédoise](https://github.com/svt/casparcg-server), il est
+      en production 24 heures sur 24 depuis 2006, et son *HTML producer* est un CEF de
+      plus : il charge une adresse et la compose sur le signal. La télévision publique
+      finlandaise publie de son côté [son pupitre de pilotage](https://github.com/Yleisradio/caspartool),
+      un client dans le navigateur pour envoyer les gabarits à l'antenne. Deux
+      diffuseurs nationaux, du code lisible, rien à acheter.
+
+      Un streamer avec vingt spectateurs et le journal de vingt heures habillent donc
+      leur image dans le même langage. Ce qui les sépare n'est pas la technique : c'est
+      la latence tolérée, le nombre de gens qui regardent quand la page plante, et le
+      fait qu'à l'antenne, personne ne peut recharger.
+    </markdown>
+  </section>
+
+  <section title="Des objets, et un vaisseau">
+    <markdown>
+      **Le frigo.** Les réfrigérateurs Family Hub de Samsung tournent sous Tizen, et
+      Samsung documente comment y déployer
+      [une application web ordinaire](https://developer.tizen.org/family-hub/) : un
+      `index.html`, du CSS, du JavaScript, un fichier de configuration.
+
+      **La montre.** De 2014 à 2021, les montres Samsung sous Tizen acceptaient le même
+      genre d'application. Puis la marque est passée à Wear OS et a fermé la
+      distribution des applis web pour montre. Le web arrive partout, et il en repart
+      aussi.
+
+      **Les objets connectés ordinaires.** Le routeur, l'imprimante, le NAS, l'onduleur,
+      la station météo, l'imprimante 3D avec OctoPrint, la domotique avec Home
+      Assistant. Aucun de ces objets n'a d'écran ; tous servent une page. Un
+      microcontrôleur ESP32 à quelques euros fait la même chose en une vingtaine de
+      lignes : il ouvre un réseau Wi-Fi et répond en HTML.
+
+      **La capsule.** Le Crew Dragon de SpaceX n'a presque pas de boutons : trois
+      écrans tactiles. L'interface affichée dessus est faite de HTML, de CSS et de
+      JavaScript, rendus par Chromium.
+    </markdown>
+
+    <image src="dragon-ecran.jpg"
+           width="field"
+           alt="Un homme allongé dans un siège incliné, en pull, sans combinaison, lève le bras et pose l'index sur une des trois dalles tactiles suspendues au-dessus de lui. Les écrans sont sombres et affichent des tracés et des chiffres."
+           caption="Doug Hurley dans une maquette du Crew Dragon, Hawthorne, avril 2018. L'astronaute pose l'index sur une des trois dalles suspendues au-dessus de son siège."
+           credit="NASA"
+           source="https://images.nasa.gov/details/KSC-20180517-PH_SPX01_0001"/>
+
+    <image src="frigo-lg.jpg"
+           width="field"
+           alt="Gros plan sur un écran tactile encastré dans la porte inox d'un réfrigérateur. L'interface, bleue, s'intitule « Food Management » ; à droite, un panneau indique « Fish », « Expiration : 15 Days Left », « Purchase Date 01.07.2011 ». En haut à droite de l'écran, « FRI JAN 7 02:25 PM »."
+           caption="Réfrigérateur LG Smart, salon CES, Las Vegas, janvier 2011. L'écran de la porte tient l'inventaire : nature de l'aliment, date d'achat, jours restants."
+           credit="David Berkowitz — CC BY 2.0, via Wikimedia Commons"
+           source="https://commons.wikimedia.org/wiki/File:LG_Smart_Refrigerator_at_CES_2011.jpg"/>
+
+    <markdown>
+      Un mot sur ce que ça ne veut pas dire. La capsule ne vole pas en JavaScript : le
+      logiciel de vol est en C++, et l'un des ingénieurs de l'équipe a pris la peine de
+      le préciser publiquement.
+    </markdown>
+
+    <quote lang="en"
+           credit="Sofian Hnaide, équipe logicielle de SpaceX, 2020"
+           source="https://www.reddit.com/r/spacex/comments/gxb7j1/we_are_the_spacex_software_team_ask_us_anything/">
+      <markdown>
+        Chromium in this context is used as a UI rendering engine only. The Flight
+        Software interaction layer with the displays and the fault tolerant is well
+        defined and resides outside the displays boundary.
+      </markdown>
+    </quote>
+
+    <markdown>
+      Le web est l'interface, pas le pilote. C'est sa place partout ailleurs sur cette
+      page : le frigo refroidit sans JavaScript, et la télé décode l'image sans
+      JavaScript.
+    </markdown>
+  </section>
+
+  <section title="Trois façons d'arriver là">
+    <markdown>
+      Les exemples qui précèdent sont nombreux ; les montages qui les produisent sont
+      trois.
+
+      **L'application embarque un navigateur.** Elle est livrée avec son moteur : c'est
+      Electron, c'est CEF (*Chromium Embedded Framework*), c'est la WebView du système
+      sur mobile. L'application est un site, plus le navigateur qui l'affiche, dans le
+      même dossier. Discord, Spotify, VS Code, Steam, les panneaux d'extension d'Adobe
+      et la source « navigateur » d'OBS sont tous ce montage-là.
+
+      **L'appareil est le navigateur.** Le téléviseur, la montre, le frigo : le système
+      n'exécute rien d'autre que des applications web. Une application y est un dossier
+      avec un `index.html` dedans, empaqueté et signé.
+
+      **L'objet sert la page.** Le routeur, l'imprimante, le NAS, le microcontrôleur à
+      quatre euros : la machine héberge un serveur minuscule et répond en HTML à qui
+      tape son adresse. L'écran est celui du visiteur, et rien n'est installé.
+    </markdown>
+  </section>
+
+  <section title="Sans commanditaire">
+    <markdown>
+      Jusqu'ici, chaque exemple répond à une commande. Les mêmes langages servent aussi
+      à des travaux que personne n'a demandés.
+
+      **Peindre.** Diana Smith code des tableaux à la main, en HTML et en CSS. Aucune
+      image, aucun SVG, pas une ligne de JavaScript : des milliers de rectangles, de
+      dégradés et de masques, écrits un par un. *[Pure CSS Francine](https://diana-adrianne.com/purecss-francine/)*
+      imite une huile du XVIII<sup>e</sup>,
+      *[Pure CSS Lace](https://diana-adrianne.com/purecss-lace/)* un portrait baroque
+      flamand. [Le code est publié sur GitHub](https://github.com/cyanharlow).
+    </markdown>
+
+    <image src="purecss-francine.jpg"
+           width="field"
+           alt="Portrait d'une femme en robe bleue à épaules dénuées, coiffée d'une haute perruque blonde ornée d'un ruban et d'une plume rose, sur fond sombre dégradé, dans un cadre doré. Le rendu imite la peinture à l'huile : ombres douces sur la peau, plis du satin, mèches individuelles."
+           caption="Diana Smith, « Pure CSS Francine », 2019. Le tableau n'est pas une image : c'est une page HTML mise en forme par une feuille de style, affichée ici dans un navigateur."
+           credit="Diana Smith (cyanHarlow)"
+           source="https://diana-adrianne.com/purecss-francine/"/>
+
+    <markdown>
+      **La contrainte volontaire.** Lynn Fisher dessine
+      [avec un seul `div`](https://a.singlediv.com/) : un élément HTML, et tout le
+      reste en CSS. [CSSBattle](https://cssbattle.dev/) demande de reproduire une image
+      cible avec le moins de caractères possible.
+
+      **Séparer la forme du fond, pour de vrai.**
+      [CSS Zen Garden](https://csszengarden.com/), ouvert en 2003, est un unique fichier
+      HTML que personne n'a jamais modifié, habillé par des centaines de feuilles de
+      style envoyées par des inconnus. Deux versions n'ont visuellement rien en commun.
+      C'est la démonstration la plus courte de ce que « structurer un contenu » veut
+      dire, et elle a vingt-trois ans.
+
+      **Sortir un fichier.** [Remotion](https://www.remotion.dev/) rend une vidéo image
+      par image à partir de composants web : la mise en forme et l'animation s'écrivent
+      en CSS, une commande produit un MP4. Le projet est du texte, donc versionnable,
+      générable en série et pilotable par des données — cent capsules avec cent noms
+      différents ne demandent pas cent rendus à la main.
+
+      **Imprimer.** [Paged.js](https://pagedjs.org/) pagine une page web pour en faire
+      un PDF : notes en bas de page, folios, sauts, gabarits gauche et droite. Des
+      livres vendus en librairie sont composés comme ça, et
+      [la thèse de Julie Blanc](https://phd.julie-blanc.fr/) raconte pourquoi des
+      graphistes s'y sont mis. Le même langage tient la brochure d'une banque, une huile
+      du XVIII<sup>e</sup> siècle, un tiers inférieur du JT et un livre relié.
+    </markdown>
+  </section>
+
+  <section title="Ce que ça coûte">
+    <markdown>
+      Cette ubiquité a trois contreparties.
+
+      **Le poids.** Chaque application embarque son moteur, donc une machine ordinaire
+      héberge dix copies du même programme, et chacune consomme sa mémoire de son côté.
+      Ce que ça achète, c'est du temps de fabrication : une équipe, une base de code,
+      cinq plateformes. Ce que ça coûte, ce sont des applications lourdes pour des
+      tâches légères.
+    </markdown>
+
+    <note title="Onze navigateurs sur la machine qui écrit cette page">
+      <markdown>
+        Arduino IDE, Discord, MQTT Explorer, Postman, Qobuz, Signal, Spotify,
+        Tinkerwell, Unity Hub, VS Code, balenaEtcher. Onze applications, 4,5 Go, dont
+        2,7 Go de moteurs de rendu — onze copies à peu près identiques du même
+        Chromium, auxquelles s'ajoutent les vrais navigateurs installés à côté.
+
+        Compté en août 2026, avec deux lignes de shell.
+      </markdown>
+    </note>
+
+    <markdown>
+
+      **La monoculture.** Ces moteurs sont presque tous le même : Chromium. Quand une
+      seule famille décide de ce que « le web » veut dire, la norme cesse d'être un
+      contrat entre plusieurs constructeurs et devient la documentation d'un produit.
+      C'est arrivé une fois, avec Internet Explorer, et ça a coûté dix ans.
+
+      **L'obsolescence.** Un frigo dure vingt ans, un téléviseur dix, un moteur de rendu
+      non mis à jour six mois. Le frigo photographié plus haut a été présenté en 2011 ;
+      son écran a vieilli plus vite que son compresseur, et le passage de Samsung à
+      Wear OS a fermé une boutique d'applications que des gens avaient remplie. Un
+      appareil connecté qu'on ne met plus à jour n'est pas un appareil neutre : c'est un
+      navigateur périmé, branché en permanence, dans un logement.
+
+      À côté de ça, la même technologie tient la promesse inverse. Une page de 1998
+      s'ouvre encore aujourd'hui, sans rien installer. Un jeu exporté depuis
+      [[bitsy]] est un unique fichier HTML : il se joue en 2026 et se jouera en 2036,
+      là où un projet Flash de 2009 est illisible et où une application mobile de 2015
+      ne s'installe plus. Le socle est durable ; ce sont les couches qu'on empile
+      dessus qui périment.
+    </markdown>
+  </section>
+
+  <section title="Ce que ça change">
+    <markdown>
+      Trois vérifications tiennent en une minute :
+
+      - dans VS Code, **Aide → Basculer les outils de développement** ;
+      - le **bouton rouge** de la télécommande, sur la RTBF ou la VRT ;
+      - l'adresse d'une box tapée dans un onglet : la page vient de la boîte, pas
+        d'internet.
+
+      Un tiers inférieur se fabrique en une soirée : un rectangle, deux lignes de
+      texte, une transition d'entrée, écrits en HTML et en CSS, enregistrés dans un
+      fichier, et ce fichier ajouté à OBS comme source « navigateur ». C'est le même
+      objet que celui qui passe à l'antenne, et le même fichier : il n'a pas besoin
+      d'être changé pour aller sur un serveur de diffusion.
+
+      Pour un projet, la conséquence est qu'un écran d'exposition, un téléviseur, la
+      borne d'un festival et le téléphone d'un visiteur acceptent le même matériau.
+      Une installation interactive n'exige pas de langage réservé — voir
+      [l'interactivité comme œuvre](/panorama/interactivite-oeuvre) pour ce que des
+      artistes en font, et [Lusion](/oeuvres/lusion) pour ce qu'un navigateur affiche
+      quand on le pousse.
+
+      D'un support à l'autre, ce qui change n'est pas la technique. C'est la distance
+      de lecture, le doigt à la place de la souris, l'absence de clavier, douze heures
+      d'affichage sans redémarrage, et personne pour recharger la page quand elle se
+      bloque. Ce sont des contraintes de mise en scène, pas de code.
+    </markdown>
+  </section>
+</page>

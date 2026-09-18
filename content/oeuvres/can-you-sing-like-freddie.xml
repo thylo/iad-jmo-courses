@@ -1,19 +1,29 @@
 <oeuvre id="can-you-sing-like-freddie" statut="en-ligne">
-  <titre>Can You Sing Like Freddie?</titre>
+  <titre>FreddieMeter</titre>
   <annee>2019</annee>
   <par ref="google-creative-lab"/>
-  <par>YouTube</par>
+  <par>Google Research</par>
+  <par>YouTube Music</par>
   <url>https://freddiemeter.withyoutube.com/</url>
   <categorie>Outil</categorie>
 
-  <resume>Chantez du Queen et l'application analyse votre voix en temps réel pour la comparer à Freddie Mercury (justesse, timing, timbre). Web Audio API pour l'analyse vocale.</resume>
+  <resume>On chante l'un des quatre titres de Queen proposés, et un modèle d'apprentissage automatique note de 0 à 100 la proximité du timbre, de la hauteur et de la mélodie avec la voix de Freddie Mercury. Le modèle tourne dans le navigateur : la voix ne quitte pas l'appareil. Publié en novembre 2019 avec le Mercury Phoenix Trust.</resume>
 
   <visuel src="can-you-sing-like-freddie.jpg"
           source="https://freddiemeter.withyoutube.com/"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Transforme un outil d'analyse audio (Web Audio API) en jeu ludique et engageant.
+      **Le score n'est pas le sujet, c'est le prétexte.** Ce qui fait tenir la
+      chose, c'est qu'on chante seul devant sa machine, mal, et qu'on recommence.
+      Un chiffre suffit à autoriser un geste qu'on ne ferait pas autrement — modèle
+      utile pour tout dispositif qui veut faire faire quelque chose d'embarrassant.
+
+      **Le traitement local est une décision affichée.** Le site dit explicitement
+      que l'audio ne part pas sur un serveur. Poser cette phrase à côté d'un
+      dispositif équivalent qui, lui, téléverse tout, c'est la façon la plus rapide
+      de montrer que « analyser la voix » et « envoyer la voix » sont deux choses
+      différentes qu'on confond en permanence.
     </markdown>
   </section>
 

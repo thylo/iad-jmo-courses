@@ -10,6 +10,11 @@
 
   <resume>Une enquête lovecraftienne sur un plateau de tuiles. Dans la première édition (2011), un joueur tenait le rôle du Gardien : il connaissait le scénario, plaçait les monstres, mentait avec le sourire. La seconde édition supprime ce joueur et confie son rôle à une application, qui compose la carte, la garde dans l'ombre tant qu'on n'a pas exploré, fait apparaître les créatures et déclenche les événements. Le jeu devient entièrement coopératif, et jouable seul.</resume>
 
+  <visuel src="mansions-of-madness.jpg"
+          alt="La boîte du jeu debout au milieu de son matériel : tuiles de pièces assemblées en manoir, figurines de plastique gris, cartes d'enquêteurs et jetons colorés"
+          credit="Fantasy Flight Games"
+          source="https://www.fantasyflightgames.com/en/products/mansions-of-madness-second-edition/"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **On peut comparer les deux versions.** C'est ce qui rend ce jeu utile bien
@@ -26,6 +31,9 @@
       qu'il ne joue pas. L'application tient un [[structure-a-etat|état]] que la table
       ne peut pas tenir : c'est le bon usage.
     </markdown>
+
+    <video src="youtube:aiekM0uv93w"
+           caption="Le retour d'expérience des concepteurs à la GDC : ce que l'application a coûté et rapporté."/>
   </section>
 
   <section title="Ce qui coince">

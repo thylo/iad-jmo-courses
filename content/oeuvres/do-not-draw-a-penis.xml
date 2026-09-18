@@ -1,29 +1,31 @@
 <oeuvre id="do-not-draw-a-penis" statut="en-ligne">
   <titre>Do Not Draw a Penis</titre>
-  <annee>2016</annee>
+  <annee>2019</annee>
   <par ref="studio-moniker"/>
   <url>https://studiomoniker.com/projects/do-not-draw-a-penis</url>
+  <categorie>Outil</categorie>
+  <categorie>Performance</categorie>
+  <concept ref="forme-collaborative"/>
+  <concept ref="moderation-algorithmique"/>
+  <voir ref="click-click-click"/>
 
-  <resume>Les visiteurs dessinent librement sur un canvas partagé, mais un
-  algorithme analyse les dessins en temps réel et efface tout ce qui ressemble à
-  un pénis. Naturellement, tout le monde essaie d'en dessiner un.</resume>
+  <resume>Une page blanche, un crayon, et une voix qui commente ce qu'on dessine. Dès que le trait ressemble à un pénis, elle reprend la main, efface et sermonne. Le projet part du jeu Quick, Draw! de Google, dont le jeu de données publié avait été expurgé : Moniker fabrique la collection manquante en faisant dessiner ce que Google avait retiré. Soutenu par une Mozilla Creative Media Award.</resume>
 
   <visuel src="do-not-draw-a-penis.jpg"
           source="https://studiomoniker.com/projects/do-not-draw-a-penis"/>
 
-  <concept ref="contrainte-productive"/>
-  <concept ref="moderation-algorithmique"/>
-
-  <voir ref="click-click-click"/>
-  <concept ref="forme-collaborative"/>
-
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Démontre qu'une contrainte crée l'engagement. Sans l'interdit, le canvas
-      partagé serait vide ; avec lui, la censure algorithmique devient le jeu.
+      **L'interdit fabrique la participation.** Sans la règle, la page reste vide.
+      Avec elle, tout le monde essaie — et chaque essai alimente précisément la
+      collection que la censure avait supprimée. Le dispositif ne dénonce pas la
+      modération, il la met au travail contre elle-même.
 
-      Interroge la modération automatique avec humour, ce qui est plus efficace
-      qu'un exposé sur la modération automatique.
+      **La morale a une adresse.** Ce qui est effacé l'a été par une décision prise
+      par quelques personnes dans un bureau, et exportée à des millions d'autres.
+      Le jeu rend cette phrase concrète en trente secondes, là où un exposé sur la
+      modération automatique demande une heure. Même retournement que
+      [[click-click-click]], du même studio.
     </markdown>
   </section>
 

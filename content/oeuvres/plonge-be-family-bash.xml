@@ -10,6 +10,11 @@
 
   <resume>Un jeu urbain gratuit qui envoie des Bruxellois de seize ans et plus dans des lieux de la ville, avec une seule contrainte : y pratiquer le néerlandais. Une application web, pas d'installation, on joue avec son téléphone dans la rue. Édité par le Huis van het Nederlands Brussel.</resume>
 
+  <visuel src="plonge-be-family-bash.jpg"
+          alt="Écran de départ : sur une photographie de foule teintée de bleu vif, le titre « Plonge — game · Brussel · Nederlands », les logos des partenaires et un bouton start"
+          credit="Plonge"
+          source="https://game.plonge.be/"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **C'est bruxellois, et ça résout un problème local avec le web.** Faire pratiquer

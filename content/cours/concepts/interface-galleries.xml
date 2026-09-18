@@ -45,8 +45,8 @@
       mise en page choisie après coup, c'est le sujet — l'album de l'enfance rempli de
       matchs truqués et d'ouvriers morts au Qatar.
 
-      Et le manque y travaille : il vous manque toujours des cartes, et on ne les
-      obtient qu'en les échangeant. La case vide fait ce qu'aucune barre de progression
+      Et le manque y travaille : il manque toujours des cartes, et on ne les obtient
+      qu'en les échangeant. La case vide fait ce qu'aucune barre de progression
       ne fait.
 
       [[the-johnny-cash-project]] retourne le dispositif : la grille n'y est pas ce
@@ -70,17 +70,17 @@
     </markdown>
   </section>
 
-  <section title="Pour votre projet">
+  <section title="En pratique">
     <markdown>
       C'est la forme la plus tenable pour un projet court : chaque module s'écrit une
-      fois, rien n'est produit deux fois, et l'ensemble reste cohérent même si vous en
-      coupez trois.
+      fois, rien n'est produit deux fois, et l'ensemble reste cohérent même s'il en
+      manque trois.
 
       **Chaque module doit tenir seul.** C'est la seule contrainte, et elle est
       sérieuse : supposer que le public a vu la case d'à côté est l'erreur la plus
       fréquente.
 
-      **Décidez ce que la vignette montre.** Elle est votre seule promesse ; une
+      **Ce que la vignette montre se décide.** Elle est la seule promesse faite ; une
       vignette qui ment coûte la confiance sur toutes les autres.
     </markdown>
   </section>

@@ -87,7 +87,7 @@
       "Faites des tests prolongés avant installation" pour éviter les défaillances sur site. Chaque environnement a ses spécificités.
 
       ### Support Logiciel
-      Vérifier la compatibilité avec votre environnement de développement:
+      Vérifier la compatibilité avec l'environnement de développement :
 
       - Processing
       - OpenFrameworks

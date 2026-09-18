@@ -14,6 +14,11 @@
 
   <resume>Publié le 22 mars 2020. À partir des déplacements de centaines de millions de personnes, la page reconstitue la sortie du virus de Wuhan : les points quittent la ville avant la fermeture, se répandent sur la Chine, puis sur le monde. Le défilement fait avancer le temps, et la carte se couvre.</resume>
 
+  <visuel src="how-the-virus-got-out.jpg"
+          alt="Carte de la Chine sur fond blanc : des milliers de points rouges s'agglutinent autour de Wuhan et se dispersent le long des lignes de trafic vers Pékin, Shanghai et Chongqing"
+          credit="The New York Times"
+          source="https://www.nytimes.com/interactive/2020/03/22/world/coronavirus-spread.html"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **Le [[interface-scrollable|défilement]] est une horloge.** Descendre, c'est
@@ -40,7 +45,7 @@
       personnes. C'est le second sujet, jamais traité, et il rejoint directement
       [ranger n'est pas neutre](/panorama/ranger).
 
-      Et c'est derrière un mur payant, ce qui rend l'exercice en classe irrégulier.
+      Et c'est derrière un mur payant, ce qui en complique la consultation.
     </markdown>
   </section>
 

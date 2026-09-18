@@ -1,0 +1,13 @@
+<personne id="tiny-big-story" genre="studio">
+  <titre>Tiny Big Story</titre>
+  <lieu>Bruxelles</lieu>
+  <url>https://www.tinybigstory.be/</url>
+
+  <resume>Studio belge qui fabrique les dispositifs interactifs des musées et des centres de visite : bornes, tables tactiles, projections, applications de parcours.</resume>
+
+  <section title="Ici">
+    <grid of="oeuvre" where="par = self" sort="-annee"/>
+  </section>
+
+  <backlinks/>
+</personne>

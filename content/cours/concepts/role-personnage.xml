@@ -8,13 +8,13 @@
   <voir ref="role-soi-meme"/>
   <voir ref="role-fantome"/>
 
-  <resume>Vous héritez d'un nom, d'un passé et de motivations qui ne sont pas les vôtres. Confortable à écrire, difficile à faire habiter.</resume>
+  <resume>Le public hérite d'un nom, d'un passé et de motivations qui ne sont pas les siennes. Confortable à écrire, difficile à faire habiter.</resume>
 
   <section title="Définition">
     <markdown>
-      L'œuvre vous attribue quelqu'un. Elle sait avant vous qui vous êtes, ce que vous
-      voulez, et ce que vous refuseriez. C'est le rôle par défaut de la fiction, et le
-      seul où l'auteur maîtrise entièrement le point de départ.
+      L'œuvre attribue quelqu'un au public. Elle sait avant lui qui il est, ce qu'il
+      veut, et ce qu'il refuserait. C'est le rôle par défaut de la fiction, et le seul
+      où l'auteur maîtrise entièrement le point de départ.
 
       Le confort est réel : on peut écrire des dialogues, poser des enjeux, donner des
       raisons de refuser. Le problème arrive juste après, et il tient en une question :
@@ -40,16 +40,16 @@
 
   <section title="Où se place l'écart">
     <markdown>
-      [[80-days]] fait le choix le plus fin du corpus : vous n'êtes pas Fogg, vous êtes
-      Passepartout. Vous ne décidez pas de l'exploit, vous gérez l'intendance — la
-      malle, l'argent, la santé du patron, le prochain train. Le personnage vous donne
-      une position dans le monde plutôt qu'un destin, et c'est ça qui se tient sur
-      cent cinquante villes.
+      [[80-days]] fait le choix le plus fin du corpus : le personnage joué n'est pas
+      Fogg, c'est Passepartout. L'exploit ne se décide pas, l'intendance se gère — la
+      malle, l'argent, la santé du patron, le prochain train. Le personnage donne une
+      position dans le monde plutôt qu'un destin, et c'est ça qui se tient sur cent
+      cinquante villes.
 
-      [[jeu-d-influences]] vous met dans la peau d'un communicant de crise et se sert
-      de l'écart comme sujet. Vous acceptez ou refusez des conseils que vous ne
-      donneriez pas, et la fin vous dit jusqu'où vous êtes allé. Le personnage n'est
-      pas là pour être aimé, il est là pour être une mesure.
+      [[jeu-d-influences]] met le public dans la peau d'un communicant de crise et se
+      sert de l'écart comme sujet. On accepte ou on refuse des conseils qu'on ne
+      donnerait pas, et la fin dit jusqu'où on est allé. Le personnage n'est pas là
+      pour être aimé, il est là pour être une mesure.
 
       [[bandersnatch]] montre la limite. Stefan a un passé, des raisons, un
       psychiatre — et le spectateur, lui, appuie sur des boutons pour voir ce qui
@@ -75,15 +75,15 @@
     </markdown>
   </section>
 
-  <section title="Pour votre projet">
+  <section title="En pratique">
     <markdown>
-      **Donnez une position, pas une biographie.** Un métier, une relation, une
-      contrainte. Passepartout tient en trois mots et se joue pendant des heures.
+      **Une position, pas une biographie.** Un métier, une relation, une contrainte.
+      Passepartout tient en trois mots et se joue pendant des heures.
 
-      **Écrivez ce que le personnage refuserait.** C'est la seule chose qui le rend
+      **Écrire ce que le personnage refuserait.** C'est la seule chose qui le rend
       jouable : sans refus possible, il n'y a pas de décision, seulement du texte.
 
-      **Un secret suffit.** Une information que votre personnage a et que le public
+      **Un secret suffit.** Une information que le personnage a et que le public
       découvre en même temps que lui produit plus d'adhésion qu'une page de passé.
     </markdown>
   </section>

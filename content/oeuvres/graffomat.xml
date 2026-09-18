@@ -5,134 +5,36 @@
   <url>https://www.niklasroy.com/graffomat/</url>
   <categorie>Outil</categorie>
   <categorie>Urbain</categorie>
-  <categorie>Interface</categorie>
-  <voir ref="browser-dating"/>
 
-  <resume>Robot CNC automatisé qui peint au spray sur les murs en convertissant des fichiers vectoriels en graffiti mécanique, démontrant comment l'automatisation et la collaboration locale transforment l'authenticité du street art.</resume>
+  <resume>Un traceur à bombes de peinture, grand comme un mur. Niklas Roy n'a jamais appris à peindre à la bombe : il a construit une machine qui lit un fichier vectoriel et le pulvérise sur le Hall of Fame de la Parkaue, le mur légal de son quartier de Berlin, au printemps 2021. Plans et code publiés sur GitHub.</resume>
+
+  <visuel src="graffomat.jpg"
+          alt="Un portique de bois monté sur roulettes, dressé contre un mur couvert de graffitis ; une personne se tient à côté, des bombes de peinture sont posées sur le rail horizontal"
+          credit="Niklas Roy"
+          source="https://www.niklasroy.com/graffomat/"/>
 
   <section title="Ce qui fonctionne">
     <markdown>
-      Fusion hybride de technologie CNC (deux axes motorisés, perceuses sans fil, contrôle Arduino) avec l'esthétique du graffiti urbain. Le Graffomat accumule des couches: images vectorielles, images raster en matrices CYMK, précision mécanique + coups de pinceau imparfaits. L'outil devient accessible à ceux sans des années de pratique.
-    </markdown>
-  </section>
+      **La machine est un ticket d'entrée.** « L'énergie de ces murs m'a donné envie
+      de participer quand même », écrit Roy. Ne pas savoir faire n'est pas traité
+      comme un obstacle à contourner ni comme un sujet à commenter : c'est le point
+      de départ d'une construction. La contrainte personnelle produit l'objet.
 
-  <section title="Vue d'ensemble">
-    <markdown>
-      Le **Graffomat** est un **robot CNC open-source** créé par Niklas Roy qui peint automatiquement au spray sur les murs urbains. Plutôt qu'un projet solitaire, c'est un **écosystème collaboratif** où les artistes locaux de graffiti, les hackers et les artistes numériques ont ensemble expérimenté les possibilités de l'automatisation créative.
-    </markdown>
-  </section>
+      **Elle a été utilisée par ceux qui savent.** Des graffeurs du mur — The Fly,
+      Howtokillagraffiti, Planet256 — s'en sont servis, d'autres ont écrit des
+      interfaces pour la piloter, l'un a désassemblé le format de fichier. L'objet
+      n'est resté une œuvre solitaire à aucun moment, et c'est ce qui le distingue
+      d'une démonstration technique.
 
-  <section title="Fonctionnement technique">
-    <markdown>
-      ### Architecture matérielle
+      **Le pilotage à distance était une porte ouverte.** Pendant un atelier, des
+      participants à distance actionnaient la bombe au clavier. Le geste le plus
+      physique du graffiti — la pression du doigt sur la buse — devient une touche
+      appuyée depuis un autre pays, et la peinture est quand même sur le mur.
 
-      - **Axes X-Y** : Deux perceuses sans fil Makita controllant le positionnement
-      - **Système de spray** : Buse de peinture modifiée, canettes de spray standard
-      - **Moteur de contrôle** : Arduino + firmware personnalisé pour synchroniser les mouvements
-      - **Puissance** : Entièrement autonome, pas de connexion électrique permanente
-
-      ### Flux de création
-
-      1. **Fichiers vecteur** : SVG ou formats similaires
-      2. **Rastérisation** : Conversion en matrices de points (technique CYMK pour les couleurs)
-      3. **Trajectoires** : Calcul des chemins pour la buse
-      4. **Exécution** : Spray automatisé sur la surface
-
-      ### Spécificités techniques
-
-      - **Hello World** : Premier test = illustration vectorielle simple
-      - **Images complexes** : Utilisation de la technique inkjet = 4 matrices de couleurs (Cyan, Magenta, Yellow, Black)
-      - **Imprécision intentionnelle** : Les variations et imperfections restent visibles, conservant une esthétique DIY
-    </markdown>
-  </section>
-
-  <section title="Contexte de création">
-    <markdown>
-      Le Graffomat a été développé dans la **scène locale de street art berlinoise**, spécifiquement pour le "Hall of Fame" de Parkaue, un mur légal où les graffeurs expérimentent.
-
-      ### Collaborateurs et contributions
-
-      - **Pixtxa** (hacker/digital artist) : Reverse-engineering du format de fichier
-      - **Arturo Castro &amp; Carolina Romano** : Expérimentations 3D avec Blender et animations
-      - **Kati Hyyppä** : Collaboration sur le "Vektorkollektor" (machine de dessin mobile associée)
-      - **Workshop en ligne** : Participants distants pouvaient contrôler le spray via clavier
-    </markdown>
-  </section>
-
-  <section title="Dimensions collaboratives">
-    <markdown>
-      ### Local (Berlin)
-      La scène graffiti locale a **adopté et remixé** le Graffomat:
-
-      - Expérimentations directes sur le mur
-      - Développement de nouveaux designs
-      - Échanges techniques entre Roy et les graffeurs
-
-      ### Global (Open-Source)
-
-      - **Code et documentation** disponibles sur GitHub (github.com/royrobotiks)
-      - **Reproducibilité** : d'autres peuvent construire leur propre Graffomat
-      - **Fork et adaptations** : la communauté peut modifier, améliorer, repenser
-
-      ### Virtuel (Workshop en ligne)
-
-      - Participants distants pouvaient **contrôler le spray** via clavier
-      - Démocratisation du temps de création
-      - Communauté internationale collaborant sur un projet unique
-    </markdown>
-  </section>
-
-  <section title="Enjeux pédagogiques clés">
-    <markdown>
-      ### 1. Automatisation vs. Authenticité
-      Le Graffomat pose une question centrale: **"Un robot peut-il faire du street art ?"**
-
-      - Le street art valorise l'authenticité, l'habileté, le risque
-      - L'automatisation supprime la main de l'artiste
-      - Et pourtant... l'outil crée quelque chose de nouveau, d'hybride
-
-      ### 2. Démocratisation des outils
-      Sans Graffomat, créer du graffiti précis demande **années de pratique** :
-
-      - La maîtrise des bombes de peinture
-      - L'anatomie du mouvement
-      - La gestion du spray
-      - Graffomat **rend cela accessible immédiatement**
-
-      Mais à quel prix ? Qu'avez-vous perdu ?
-
-      ### 3. Collaboration homme-machine
-      Roy ne crée pas seul, il travaille avec:
-
-      - Les artistes graffitis (l'expertise urbaine)
-      - Les hackers (l'ingénierie reverse)
-      - Les artistes numériques (l'imagerie créative)
-      - **Aucun d'entre eux ne pourrait faire cela seul**
-
-      ### 4. Open-Source comme philosophie
-      Par publier le code et les plans, Roy dit:
-      &gt; "Je crois que partager les connaissances bénéficie à tous. La créativité prospère sur l'ouverture : remixing, réinterprétation, construction sur les idées existantes."
-
-      C'est une philosophie radicale pour un artiste.
-
-      ### 5. La critique subtile de l'automatisation
-      Le Graffomat n'est pas une célébration aveugle de l'automatisation, c'est une **critique en action**:
-
-      - Montre à la fois la puissance ET les limites
-      - Révèle ce qui se perd dans l'automatisation
-      - Interroge: à quoi sert vraiment cette machine ?
-    </markdown>
-  </section>
-
-  <section title="Reconnaissance institutionnelle">
-    <markdown>
-      Roy a reçu une **bourse du Sénat de Berlin** reconnaissant l'importance culturelle du projet, une validation que les institutions voient au-delà du "simple robot".
-    </markdown>
-  </section>
-
-  <section title="Pourquoi c'est inspirant">
-    <markdown>
-      Exemplaire pour enseigner: (1) l'automatisation créative vs. l'authenticité, (2) la collaboration locale (graffeurs + hackers + artistes), (3) l'open-source comme mode de création collectif, (4) la démocratisation des outils de création, (5) la critique subtile de l'automatisation dans l'art.
+      **Tout est publié.** Code, documentation, plans. Une machine dont on peut
+      refaire un exemplaire est un objet différent d'une machine unique exposée :
+      c'est la même différence qu'entre une œuvre et un outil, et Roy choisit
+      l'outil.
     </markdown>
   </section>
 

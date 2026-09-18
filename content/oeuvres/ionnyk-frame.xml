@@ -9,24 +9,32 @@
 
   <resume>Un cadre belge qui affiche des photographies en noir et blanc sur du papier électronique. Pas de câble, pas de rétroéclairage, plus d'un an d'autonomie : l'image reste affichée sans consommer, comme une estampe. On change de photo par abonnement, dans un catalogue de plus de mille cinq cents tirages, ou on achète une édition limitée.</resume>
 
+  <visuel src="ionnyk-frame.jpg"
+          alt="Dans un salon aux murs sombres, un cadre encadre une photographie en noir et blanc d'une ruelle ; rien ne distingue l'écran à encre électronique d'un tirage sous verre"
+          credit="IONNYK"
+          source="https://www.visionect.com/blog/ionnyk-rethinking-art-photography-electronic-paper/"/>
+
   <section title="Pourquoi c'est ici">
     <markdown>
       **Parce que ce n'est pas interactif, et que c'est une décision.** Tout, dans cet
       objet, sert à faire oublier qu'il y a un écran : pas de lumière émise, pas de
-      notification, rien qui bouge, rien qui réagit à votre présence. C'est un écran
+      notification, rien qui bouge, rien qui réagit à une présence. C'est un écran
       conçu pour se comporter comme du papier.
 
-      À montrer juste après une salle d'installations qui clignotent. La question
-      qu'il pose est celle que le cours pose partout, prise à l'envers : **qu'est-ce
+      À voir juste après une salle d'installations qui clignotent. La question qu'il
+      pose est celle de tout ce site, prise à l'envers : **qu'est-ce
       qu'on gagne à ne rien rendre interactif ?** Ici, la durée d'attention et le
       droit de ne pas être sollicité.
 
       **C'est belge, et c'est un modèle économique.** Conçu à partir d'une idée de
       Charlotte Dubois et Mathieu Demeuse, rendu possible techniquement par Antoine
       Baudoux. L'objet est vendu, les images sont louées : c'est l'abonnement appliqué
-      à la photographie d'art, ce qui mérite discussion — vous ne possédez pas ce que
-      votre cadre affiche.
+      à la photographie d'art, ce qui mérite discussion — on ne possède pas ce que
+      le cadre affiche.
     </markdown>
+
+    <video src="youtube:GEHHcWQnUok"
+           caption="Un reportage sur le cadre et son fonctionnement."/>
   </section>
 
   <section title="Ce qui coince">

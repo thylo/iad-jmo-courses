@@ -1,33 +1,33 @@
 <page id="roles">
   <titre>Rôles du public</titre>
-  <resume>Le découpage par la place qu'on vous donne : vous-même, un personnage, un fantôme qui observe, une divinité qui décide.</resume>
+  <resume>Le découpage par la place assignée au public : soi-même, un personnage, un fantôme qui observe, une divinité qui décide.</resume>
 
   <markdown>
-    Qui êtes-vous dans le récit ? La question paraît accessoire. Elle décide de
-    l'écriture entière, et elle la décide avant qu'une ligne de code soit écrite.
+    Qui est le public dans le récit ? La question paraît accessoire. Elle décide de
+    l'écriture entière, et avant qu'une ligne de code soit écrite.
 
     Quatre réponses courantes, et chacune impose ses contraintes.
   </markdown>
 
   <glossary>
-    <term name="Vous-même" to="role-soi-meme">
-      L'œuvre vous parle à vous, sans costume, et travaille avec vos vraies données :
-      ce qu'elle finit par vous montrer, c'est vous. Le prix : il faut écrire sans
-      savoir qui lit.
+    <term name="Soi-même" to="role-soi-meme">
+      L'œuvre s'adresse à la personne qui est devant elle, sans costume, et travaille
+      avec ses vraies données : ce qu'elle finit par montrer, c'est elle. Le prix : il
+      faut écrire sans savoir qui lit.
     </term>
 
     <term name="Un personnage" to="role-personnage">
-      Vous héritez d'une histoire, d'un nom, de motivations qui ne sont pas les
-      vôtres. Confortable à écrire, plus difficile à faire habiter.
+      Le public hérite d'une histoire, d'un nom, de motivations qui ne sont pas les
+      siennes. Confortable à écrire, plus difficile à faire habiter.
     </term>
 
     <term name="Un fantôme" to="role-fantome">
-      Vous voyez tout et ne pouvez rien. Vos gestes déplacent le regard, pas les
+      Le public voit tout et ne peut rien. Ses gestes déplacent le regard, pas les
       événements.
     </term>
 
     <term name="Une divinité" to="role-divinite">
-      Vous n'êtes nulle part dans la fiction et vous en tenez les leviers. C'est la
+      Le public n'est nulle part dans la fiction et en tient les leviers. C'est la
       position par défaut de tout ce qui se
       [manipule comme un modèle](/panorama/introduction).
     </term>
@@ -36,7 +36,7 @@
   <section title="L'erreur fréquente">
     <markdown>
       Changer de rôle en cours de route sans l'avoir décidé. On commence en
-      « vous-même », on glisse vers un personnage parce qu'une scène avait besoin
+      « soi-même », on glisse vers un personnage parce qu'une scène avait besoin
       d'un passé, et le public ne sait plus à qui on s'adresse.
 
       Ce n'est pas interdit : certaines œuvres en font leur sujet. Mais un glissement
@@ -47,8 +47,8 @@
   <section title="Ce qu'il cache">
     <markdown>
       La quantité de pouvoir réel. Un « personnage » peut n'avoir aucune prise et une
-      « divinité » n'avoir que des boutons décoratifs. Le rôle dit à quelle place on
-      vous met, pas ce qu'on vous laisse faire une fois assis. Pour ça, il faut
+      « divinité » n'avoir que des boutons décoratifs. Le rôle dit à quelle place le
+      public est mis, pas ce qu'on lui laisse faire une fois assis. Pour ça, il faut
       [les types de choix](/panorama/choix).
     </markdown>
   </section>

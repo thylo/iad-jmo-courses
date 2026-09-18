@@ -89,15 +89,14 @@
       donnée n'existe pas avant que quelqu'un décide de la relever, avec ses cases
       à lui, et laisse le reste dehors.
 
-      Regardez celles de Stable Diffusion, elles sont publiques. Le corpus
-      s'appelle [LAION](https://laion.ai/) : près de six milliards de paires
+      Celles de Stable Diffusion sont publiques. Le corpus s'appelle [LAION](https://laion.ai/) : près de six milliards de paires
       image-texte ramassées sur le web, où le texte n'est rien d'autre que
       l'attribut `alt`, la description que des inconnus ont tapée, ou pas, en
       publiant leurs photos. Il a ensuite fallu élaguer. Par langue, par
       résolution, par risque de filigrane, et par « score esthétique », attribué
       de 1 à 10 par un autre modèle entraîné pour ça.
 
-      Comptez les décisions. Que la légende d'une image, ce soit son `alt`. Que
+      Les décisions se comptent. Que la légende d'une image, ce soit son `alt`. Que
       l'anglais fasse le corpus : le modèle a appris sur la moitié anglophone.
       Qu'une machine puisse noter la beauté sur dix. Aucune n'est un fait sur le
       monde, chacune est un choix, pris par quelqu'un, un jour, et discutable. Une
@@ -120,8 +119,8 @@
       il a fait le contraire : recueillir auprès des familles quelque
       [mille cinq cents demandes d'adjacence](https://www.jerthorp.me/memorial)
       (tel nom doit toucher tel autre), puis écrire l'algorithme qui les satisfait
-      toutes. L'outil tient dans un programme Processing, c'est-à-dire dans
-      quelque chose que vous pourriez écrire.
+      toutes. L'outil tient dans un programme Processing, c'est-à-dire dans quelque
+      chose d'ordinaire.
     </markdown>
 
     <image src="memorial-11-septembre.jpg"
@@ -138,6 +137,6 @@
 
   <markdown>
     De quoi lire le [panorama](/panorama) pour ce qu'il est : des tiroirs, pas des
-    faits. Y compris ceux que je vous propose ici.
+    faits. Y compris ceux que je propose ici.
   </markdown>
 </page>

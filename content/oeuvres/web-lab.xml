@@ -1,18 +1,42 @@
-<oeuvre id="web-lab" statut="en-ligne">
+<oeuvre id="web-lab" statut="hors-ligne">
   <titre>Web Lab</titre>
   <annee>2012</annee>
   <par ref="google-creative-lab"/>
-  <url>https://www.youtube.com/watch?v=RrgjufJhmwk</url>
+  <par>Tellart</par>
+  <url>https://www.tellart.com/projects/chrome-web-lab-making-the-internet-physical/</url>
+  <categorie>Installation</categorie>
   <categorie>Muséale</categorie>
+  <concept ref="forme-collaborative"/>
 
-  <resume>Série d'expériences au Science Museum de Londres où des visiteurs en ligne pouvaient contrôler des machines physiques réelles dans le musée : bras robotiques, instruments de musique, etc.</resume>
+  <resume>Cinq machines installées au Science Museum de Londres, du 19 juillet 2012 à l'été 2013, et pilotables depuis n'importe quel navigateur. Un orchestre de huit robots dont on écrit la partition à plusieurs, des bras qui dessinent votre portrait dans du sable, des périscopes motorisés qui donnent une vue en direct d'ailleurs dans le monde, une carte qui trace le chemin physique d'une requête. La même machine, pour le visiteur sur place et pour celui qui est chez lui.</resume>
 
   <visuel src="web-lab.jpg"
           source="https://m.youtube.com/watch?v=RrgjufJhmwk"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Démontre le potentiel du web comme interface de contrôle à distance de systèmes physiques complexes. Pionnier de la connexion visiteurs physiques/visiteurs en ligne.
+      **Les deux publics jouent sur le même objet.** Ce n'est pas une exposition
+      doublée d'un site : c'est une salle de machines dont la file d'attente est
+      mondiale. Le visiteur de Londres voit le bras dessiner ce qu'un inconnu a
+      demandé depuis chez lui, et réciproquement — le partage d'un objet rare est
+      ce qui fait exister les deux publics l'un pour l'autre.
+
+      **Rendre le web physique était le programme.** Chaque expérience matérialise
+      une abstraction : une requête devient un tracé sur une carte, une connexion
+      devient un moteur qui bouge, une file d'attente devient une vraie attente. La
+      pédagogie ne passe pas par un texte, elle passe par un objet lent qu'on
+      regarde faire.
+    </markdown>
+
+    <video src="youtube:RrgjufJhmwk"
+           caption="La présentation de l'exposition, publiée par Google."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Un an d'exposition, puis démontage. Les robots étaient uniques, la salle
+      était louée, le site a fermé avec elle. Une œuvre dont l'argument était
+      « n'importe qui peut s'en servir de n'importe où » n'a existé que douze mois.
     </markdown>
   </section>
 

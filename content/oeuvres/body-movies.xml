@@ -10,6 +10,11 @@
 
   <resume>Une façade de plusieurs centaines de mètres carrés, sur une place publique. Des projecteurs robotisés y affichent des milliers de portraits photographiés dans les rues de la ville — mais ces portraits n'apparaissent que dans les ombres des passants. Des sources lumineuses posées au sol effacent tout le reste. Selon qu'on s'approche ou qu'on s'éloigne, son ombre mesure deux mètres ou vingt-cinq. Créé à Rotterdam en 2001.</resume>
 
+  <visuel src="body-movies.jpg"
+          alt="Sur une grande façade, la nuit, les ombres démesurées de passants découpent la lumière et révèlent des portraits photographiques ; en contrebas, des silhouettes minuscules traversent la place"
+          credit="Rafael Lozano-Hemmer / V2_"
+          source="https://v2.nl/works/body-movies"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **L'interface est une ombre.** Rien à tenir, rien à installer, rien à
@@ -29,7 +34,10 @@
       inventé par la technologie : il a été retrouvé, et rebranché. Bon antidote à
       l'idée que ce champ commence avec l'ordinateur.
     </markdown>
-  </section>
+  
+    <video src="youtube:bEO698cOTIA"
+           caption="La captation de l'installation par V2_, à Rotterdam."/>
+</section>
 
   <section title="Ce qui coince">
     <markdown>

@@ -15,7 +15,7 @@
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      **L'interaction attend son tour.** Le film décide quand vous pouvez agir. Le
+      **L'interaction attend son tour.** Le film décide quand il est possible d'agir. Le
       reste du temps, c'est du montage, avec un rythme et une voix. Cette
       alternance règle un problème que beaucoup de data storytelling ne règle pas :
       qui mène, de l'auteur ou du lecteur. Ici c'est l'auteur, sauf à trois ou
@@ -34,12 +34,15 @@
       fourchettes, pas comme chiffres nets. Un documentaire qui affiche son
       incertitude au lieu de la lisser. C'est rare, et à copier.
     </markdown>
+
+    <video src="youtube:DwKPFT-RioU"
+           caption="La version vidéo du même travail, publiée par Neil Halloran."/>
   </section>
 
   <section title="Ce qui coince">
     <markdown>
       L'interactivité est mince : trois ou quatre pauses où l'on peut cliquer.
-      Retirez-les et il reste un très bon film. Utile comme cas limite : jusqu'où
+      Les retirer, et il reste un très bon film. Utile comme cas limite : jusqu'où
       peut-on retirer l'interaction avant que l'œuvre change de nature ?
 
       Et le montage impose une lecture. Les morts sont comptés, comparés, mis en

@@ -2,22 +2,43 @@
   <titre>Alice is Missing</titre>
   <annee>2020</annee>
   <par>Spenser Starke</par>
-  <url>https://www.huntersbooks.com/alice-is-missing</url>
+  <par>Hunters Entertainment</par>
+  <url>https://www.huntersentertainment.com/alice-is-missing</url>
   <categorie>Jeu</categorie>
   <concept ref="forme-sociale"/>
   <concept ref="interface-plateau"/>
   <concept ref="role-personnage"/>
 
-  <resume>Jeu de rôle joué entièrement par messages texte (via une app ou vraiment par SMS). Les joueurs sont physiquement ensemble mais communiquent uniquement par écrit pour enquêter sur la disparition d'Alice. Utilise des cartes physiques pour déclencher les événements.</resume>
+  <resume>Un jeu de rôle qui se joue en silence. Trois à cinq joueurs, assis dans la même pièce, ne s'adressent la parole à aucun moment : ils enquêtent sur la disparition d'Alice Briarwood par SMS, pendant quatre-vingt-dix minutes chronométrées. Des cartes tirées à heure fixe apportent les indices. Trois ENNIE d'or et un IndieCade en 2021.</resume>
 
   <visuel src="alice-is-missing.jpg"
-          alt="Une fille de dos qui regarde un village en contrebas"
-          source="https://www.huntersbooks.com/alice-is-missing"/>
+          alt="Illustration au trait dans des roses et des bleus : une jeune fille aux longs cheveux, vue de dos dans les hautes herbes, regarde un village de maisons de bois et un clocher en contrebas, au coucher du soleil."
+          credit="Hunters Entertainment"
+          source="https://www.huntersentertainment.com/alice-is-missing"/>
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      Crée une tension narrative unique en forçant la communication écrite asynchrone même quand physiquement présents. Le silence amplifie l'angoisse.
+      **Le silence est la règle et la matière.** Être ensemble sans avoir le droit
+      de se parler transforme chaque message reçu en événement, et transforme
+      l'attente en angoisse. Aucun décor n'est nécessaire : la contrainte suffit.
+
+      L'immersion ne vient pas d'un décor mais d'une contrainte tenue jusqu'au bout. Les
+      personnages sont des proches d'Alice, et la partie s'ouvre sur quarante-cinq minutes
+      de mise en place où se décident les liens, les rancunes et les non-dits ; ensuite le
+      décompte court sans pause, et l'issue tombe que l'enquête ait avancé ou non. Le jeu
+      embarque ses propres garde-fous — lignes et voiles, carte X — ce qui dit assez ce
+      qu'il déclenche.
+
+      Le jeu ne tient pas entièrement dans sa boîte. Les auteurs ont publié sur YouTube
+      un minuteur animé de quatre-vingt-dix minutes, doublé d'une bande son qui se
+      transforme à mesure que le temps tombe : c'est lui qui donne le tempo, puisque les
+      cartes Indice se tirent aux minutes qu'il affiche, et c'est lui qui tient l'ambiance
+      pendant que la table reste muette. Le carton et la vidéo ne sont pas deux supports
+      côte à côte, ils forment une seule œuvre — l'un ne se joue pas sans l'autre.
     </markdown>
+
+    <video src="youtube:ysOOFIOAy7A"
+           caption="Le minuteur animé de quatre-vingt-dix minutes, publié par Hunters Entertainment."/>
   </section>
 
   <backlinks/>

@@ -17,7 +17,7 @@
     <term name="Machine" to="forme-machine">
       Le public agit sur un contenu écrit d'avance. Tout est prévu, testé, fini. La
       seule des trois qu'une personne seule peut mener jusqu'au bout, et donc
-      presque toujours celle de vos projets.
+      presque toujours celle d'un projet mené seul.
     </term>
 
     <term name="Sociale" to="forme-sociale">
@@ -47,10 +47,9 @@
 
   <section title="Pourquoi la question compte tôt">
     <markdown>
-      Parce qu'elle décide de ce que vous allez passer trois semaines à faire :
-      écrire du contenu, régler des règles, ou construire un dispositif. Ce ne sont
-      pas les mêmes semaines, et on ne change pas de réponse à mi-parcours sans
-      tout reprendre.
+      Parce qu'elle décide du travail des semaines suivantes : écrire du contenu,
+      régler des règles, ou construire un dispositif. Ce ne sont pas les mêmes
+      semaines, et on ne change pas de réponse à mi-parcours sans tout reprendre.
 
       Le coût ne se place pas au même endroit non plus.
 
@@ -68,10 +67,10 @@
       La forme n'est ni le rôle du public, ni le support. Trois axes indépendants,
       qu'on confond d'autant plus facilement qu'ils se recouvrent souvent.
 
-      Une œuvre machine peut vous faire jouer [[role-personnage|un personnage]] ou
-      vous laisser [[role-soi-meme|vous-même]]. Une œuvre sociale peut tenir dans
-      un [[interface-plateau|jeu de plateau]], sans une ligne de code. Ce découpage
-      dit face à qui vous êtes, pas qui vous êtes ni sur quoi ça tourne.
+      Une œuvre machine peut faire jouer [[role-personnage|un personnage]] ou laisser
+      le public [[role-soi-meme|lui-même]]. Une œuvre sociale peut tenir dans un
+      [[interface-plateau|jeu de plateau]], sans une ligne de code. Ce découpage dit
+      face à qui le public se trouve, pas qui il est ni sur quoi ça tourne.
     </markdown>
   </section>
 </page>

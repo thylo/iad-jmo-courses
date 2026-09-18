@@ -28,23 +28,26 @@
       travaille l'image et pose le son par-dessus. Ici c'est l'inverse : le rendu WebGL
       est le cadre, l'enregistrement ambisonique est l'œuvre.
 
-      La différence est concrète. Une piste audio classique joue *pour* vous, à la même
-      distance quoi que vous fassiez. Un champ ambisonique existe *autour* de vous : les
-      voix ont une position, vous en avez une, et bouger l'une par rapport aux autres
-      change ce que vous entendez. Le navigateur sait faire ça depuis des années et
+      La différence est concrète. Une piste audio classique joue *pour* l'auditeur, à
+      la même distance quoi qu'il fasse. Un champ ambisonique existe *autour* de lui :
+      les voix ont une position, il en a une, et bouger l'une par rapport aux autres
+      change ce qui s'entend. Le navigateur sait faire ça depuis des années et
       presque personne ne s'en sert.
 
-      Comparez avec le tableau des [cours](/cours) : une brochure utilise Web Audio
+      À comparer avec le tableau des [cours](/cours) : une brochure utilise Web Audio
       pour rien.
     </markdown>
+
+    <video src="youtube:OHjztz1fCqs"
+           caption="La version « Dusk » de la bande-annonce immersive, publiée par Opera North."/>
   </section>
 
   <section title="Une bande-annonce qui fait ce qu'elle annonce">
     <markdown>
       Un objet promotionnel est en général un résumé : des extraits, une voix off, une
-      date. Celui-ci est un échantillon du dispositif lui-même : on ne vous raconte pas
-      que l'opéra est une histoire de fantômes, on vous met dans une pièce où vous
-      n'êtes jamais sûr de qui se tient derrière vous.
+      date. Celui-ci est un échantillon du dispositif lui-même : il ne raconte pas
+      que l'opéra est une histoire de fantômes, il met dans une pièce où l'on n'est
+      jamais sûr de qui se tient derrière soi.
 
       C'est exactement l'argument de James : dans *Le Tour d'écrou*, on ne sait pas si
       les fantômes existent ou si la gouvernante les invente. Un dispositif où le son

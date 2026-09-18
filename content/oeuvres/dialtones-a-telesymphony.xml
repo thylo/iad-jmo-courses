@@ -1,18 +1,45 @@
-<oeuvre id="dialtones-a-telesymphony" statut="en-ligne">
+<oeuvre id="dialtones-a-telesymphony" statut="archive">
   <titre>Dialtones (A Telesymphony)</titre>
   <annee>2001</annee>
   <par>Golan Levin</par>
   <url>http://www.flong.com/archive/projects/telesymphony/</url>
   <categorie>Performance</categorie>
+  <concept ref="forme-collaborative"/>
 
-  <resume>Concert où les téléphones du public deviennent les instruments. Système appelle les téléphones dans un ordre chorégraphié pour créer une symphonie de sonneries. Le public est assis par zone selon leur numéro pour créer une spatialisation sonore.</resume>
+  <resume>Un concert dont les instruments sont les téléphones du public. À l'entrée, chacun donne son numéro et reçoit une place assignée ; une sonnerie est téléchargée sur son appareil. Pendant la représentation, un dispositif appelle les téléphones dans un ordre composé, et le son se déplace physiquement dans la salle selon le plan de placement. Créé au Brucknerhaus de Linz pour Ars Electronica, septembre 2001.</resume>
 
   <visuel src="dialtones-a-telesymphony.jpg"
           source="http://www.flong.com/archive/projects/telesymphony/"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Pionnier de l'utilisation créative des téléphones mobiles. Transforme une nuisance (sonneries en concert) en l'œuvre elle-même. Le public devient orchestre malgré lui.
+      **Le placement est la partition.** Assigner les sièges en fonction des numéros
+      transforme la salle en instrument spatialisé : la mélodie traverse le public de
+      gauche à droite parce que les gens ont été assis dans cet ordre. La donnée
+      d'organisation devient la matière artistique.
+
+      **Le public joue sans rien faire.** Aucune action n'est demandée — seulement
+      d'être venu, d'avoir donné un numéro et de s'être assis là. C'est une
+      participation sans geste, et ça mérite d'être opposé aux dispositifs qui
+      réclament un clic pour se dire interactifs.
+
+      **La nuisance devient le matériau.** En 2001, une sonnerie pendant un concert
+      est la faute par excellence. Retourner l'interdit en programme est l'idée, et
+      elle date d'avant les smartphones : la pièce se joue avec des sonneries
+      polyphoniques et des appels téléphoniques, rien d'autre.
+    </markdown>
+
+    <video src="youtube:g1G-YesiBB8"
+           caption="La captation du concert à Ars Electronica, publiée par Golan Levin."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Injouable en l'état. Le dispositif reposait sur des sonneries téléchargeables
+      et un système d'appel dont plus rien ne subsiste : ni les téléphones, ni les
+      réseaux, ni les formats. Il ne reste que la documentation de l'auteur — et
+      c'est un bon cas pour parler de ce qu'on peut réellement archiver d'une œuvre
+      dont la moitié appartenait à un opérateur télécom.
     </markdown>
   </section>
 

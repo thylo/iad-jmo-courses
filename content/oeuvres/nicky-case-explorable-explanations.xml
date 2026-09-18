@@ -1,19 +1,33 @@
 <oeuvre id="nicky-case-explorable-explanations" statut="en-ligne">
-  <titre>Nicky Case - Explorable Explanations</titre>
+  <titre>ncase.me</titre>
   <annee>2014</annee>
   <par>Nicky Case</par>
   <url>https://ncase.me/</url>
   <categorie>Outil</categorie>
   <concept ref="structure-constellation"/>
+  <voir ref="seeing-theory"/>
 
-  <resume>Collection de "jeux" interactifs qui enseignent des concepts complexes : théorie des jeux, évolution, anxiété, biais cognitifs. Chaque concept devient une simulation interactive.</resume>
+  <resume>Une dizaine de petites pièces jouables, chacune sur une idée : pourquoi des quartiers se ségrèguent tout seuls à partir de préférences minuscules, comment la confiance se construit ou s'effondre dans un dilemme du prisonnier répété, ce que fait l'anxiété, comment circule une épidémie. Tout est gratuit, sans compte, en domaine public, et le code est publié.</resume>
 
   <visuel src="nicky-case-explorable-explanations.jpg"
           source="https://ncase.me/"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Transforme des sujets abstraits en expériences concrètes manipulables. L'outil pédagogique devient œuvre narrative.
+      **La conclusion est produite par le lecteur.** *Parable of the Polygons* ne dit
+      pas que de faibles préférences individuelles produisent une forte ségrégation :
+      il fait déplacer les formes jusqu'à ce que ça arrive sous les doigts de celui
+      qui lit. L'argument est vérifié, pas cru.
+
+      **Le modèle est manipulable, donc contestable.** Chaque simulation laisse
+      régler ses paramètres, y compris jusqu'à la casser. C'est une honnêteté rare :
+      la pièce montre ses hypothèses et permet de les mettre en défaut, là où une
+      infographie présente un résultat.
+
+      **La voix est celle de quelqu'un.** On tutoie, on plaisante, on s'excuse, on
+      met des petits dessins. Ce n'est pas un habillage : c'est ce qui permet
+      d'aborder l'anxiété ou la ségrégation sans le ton d'un manuel, et ça explique
+      largement la diffusion de ces pages.
     </markdown>
   </section>
 

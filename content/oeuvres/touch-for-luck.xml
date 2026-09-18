@@ -10,6 +10,11 @@
   continuellement leur écran mobile. La vue collective est projetée sur la façade
   LED de 7000 m² du M+ Museum, à Hong Kong.</resume>
 
+  <visuel src="touch-for-luck.jpg"
+          alt="Une main tient un téléphone où nage un poisson dessiné ; derrière, de l'autre côté du port de Hong Kong, la façade LED du musée M+ affiche le même étang la nuit"
+          credit="Moniker / M+"
+          source="https://www.itsnicethat.com/news/moniker-mplus-touch-for-luck-digital-art-080222"/>
+
   <concept ref="addiction-aux-ecrans"/>
   <concept ref="structure-parallele"/>
   <concept ref="experience-collective"/>
@@ -31,6 +36,9 @@
       <item><markdown>Chaque moment de persistance rapporte des *lucky charms* qui décorent le poisson.</markdown></item>
       <item><markdown>Plus on joue de façon compulsive, plus la créature devient belle.</markdown></item>
     </list>
+
+    <video src="youtube:UfmCpN2YXcc"
+           caption="Studio Moniker présente la pièce au M+, à Hong Kong."/>
   </section>
 
   <section title="Pourquoi c'est inspirant">
@@ -42,7 +50,7 @@
 
       Et elle est belle. [[studio-moniker]] fabrique une beauté addictive pour
       critiquer la beauté addictive : la contradiction est assumée, et c'est ce
-      qui rend l'œuvre discutable en classe.
+      qui rend l'œuvre discutable.
     </markdown>
   </section>
 

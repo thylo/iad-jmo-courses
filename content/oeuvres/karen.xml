@@ -3,16 +3,42 @@
   <annee>2015</annee>
   <par ref="blast-theory"/>
   <url>https://www.blasttheory.co.uk/projects/karen/</url>
+  <categorie>Fiction</categorie>
   <categorie>Performance</categorie>
+  <concept ref="role-soi-meme"/>
+  <voir ref="i-d-hide-you"/>
 
-  <resume>Vous recevez des appels téléphoniques planifiés d'une actrice (Karen) sur plusieurs semaines. Conversations scriptées mais réactives. Progressivement, la relation évolue et Karen vous demande des faveurs de plus en plus étranges. Exploration de la confiance et de la manipulation.</resume>
+  <resume>Une application où une coach de vie, jouée en vidéo par Claire Cage, appelle tous les jours pendant une semaine. Elle se confie beaucoup et pose beaucoup de questions. Ces questions viennent de vrais questionnaires de psychologie, et l'application s'en sert pour dresser un profil de personnalité — qu'on peut acheter à la fin, sous forme de rapport détaillé disant ce que les réponses ont révélé.</resume>
 
   <visuel src="karen.jpg"
           source="https://www.blasttheory.co.uk/projects/karen/"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Transforme le téléphone en medium narratif intime. L'étalement temporel crée une vraie relation. Questionne jusqu'où on va s'engager dans une fiction qui envahit notre quotidien.
+      **Le profilage est réel.** Ce n'est pas une fiction sur la collecte de
+      données : les questions sont des instruments d'évaluation psychologique
+      existants, et le rapport final dit vraiment quelque chose de la personne qui a
+      répondu. Le retournement n'a lieu qu'à la fin, et il porte parce que rien
+      n'était simulé. Voir [[role-soi-meme]].
+
+      **La confidence appelle la confidence.** Karen en dit trop sur elle-même,
+      tard le soir, depuis sa chambre. C'est ce déséquilibre volontaire qui fait
+      répondre — le même mécanisme exactement que celui des services qui offrent un
+      quiz amusant pour obtenir un profil.
+
+      **Une semaine, à heures imposées.** L'œuvre s'installe dans le quotidien avec
+      des rendez-vous qu'on n'a pas choisis. La durée n'est pas un habillage : elle
+      est ce qui rend la relation vraisemblable, et donc ce qui rend le rapport
+      final désagréable à lire.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      L'application a quitté les boutiques. Une œuvre distribuée par l'App Store et
+      Google Play dépend de deux entreprises pour rester compatible, et aucune des
+      deux ne s'y engage : dix ans plus tard, il n'y a plus rien à installer. Même
+      fin que [[babel]].
     </markdown>
   </section>
 

@@ -22,7 +22,7 @@
 
       C'est une [[structure-a-etat|structure à état]] posée au milieu du salon. Le
       plateau montre l'espace, l'app tient les variables : qui a vu quoi, combien
-      il reste de temps, ce que le monde sait de vous.
+      il reste de temps, ce que le monde sait des joueurs.
 
       Caractéristiques :
 
@@ -66,9 +66,9 @@
       tous les regards a remplacé la table, pas le narrateur.
 
       **Qui fait la saisie ?** Le second test est plus mécanique, et il tranche
-      vite. Regardez un geste fait sur la table (déplacer une figurine, ouvrir une
-      porte) et demandez-vous s'il **compte** en lui-même, ou s'il faut ensuite le
-      redire à l'application pour qu'il existe.
+      vite. Prendre un geste fait sur la table (déplacer une figurine, ouvrir une
+      porte) et regarder s'il **compte** en lui-même, ou s'il faut ensuite le redire à
+      l'application pour qu'il existe.
 
       Si le geste doit être répliqué à l'écran, le plateau n'est pas augmenté : il
       est **déporté**. C'est l'affichage d'un jeu vidéo qui se trouve être en
@@ -97,9 +97,9 @@
       milliers de combinaisons. Le scan d'un QR code remplace un index de trois
       cents pages. Personne ne regrette l'index.
 
-      [[tracks]] (2022) est la version minimale, et sans doute la plus juste. Vous
-      êtes une unité de surveillance sonore, la S.B.A.S., chargée d'écouter la
-      ville de Siren Bay. L'enquête est dans la bande son : on écoute au casque, on
+      [[tracks]] (2022) est la version minimale, et sans doute la plus juste. Les
+      joueurs y forment une unité de surveillance sonore, la S.B.A.S., chargée
+      d'écouter la ville de Siren Bay. L'enquête est dans la bande son : on écoute au casque, on
       suit une cible au bruit (un train qui passe, une porte, une voix) et on
       trace son trajet sur un plan de papier.
 
@@ -139,7 +139,7 @@
 
       Le gain est réel : plus personne n'est sacrifié à la logistique, tout le
       monde joue du même côté. Mais la personne qui jouait le méchant faisait
-      autre chose que placer des pions : elle regardait vos visages.
+      autre chose que placer des pions : elle regardait les visages en face.
 
       [[descent-legends-of-the-dark]] (2021) et [[familiar-tales]] (2022) vont plus
       loin : l'app tient le scénario entier, les dialogues, la progression. Le
@@ -182,8 +182,8 @@
       Le compte à rebours, lui, tourne sous chaque jeu de cette page. Le jour où
       l'éditeur cesse de maintenir l'application, la boîte reste pleine et le jeu
       est mort. Un jeu de plateau ordinaire acheté en 1985 se joue encore ce soir.
-      Demandez-vous, devant votre propre projet, ce qui restera jouable quand la
-      machine aura changé.
+      La question à poser à un projet est donc : qu'est-ce qui restera jouable quand
+      la machine aura changé ?
     </markdown>
   </section>
 
@@ -207,14 +207,14 @@
       frise, les actions y accrochent des cartes, et ces cartes se déclenchent quand
       il passe dessus. Une file d'événements différés, visible par toute la table.
 
-      Ce que ces jeux montrent est utile même si vous ne ferez jamais de carton.
-      Chaque mécanisme est une structure de données (un état, une table, une file)
+      Ce que ces jeux montrent reste utile à qui ne fera jamais de carton. Chaque
+      mécanisme est une structure de données (un état, une table, une file)
       et le carton oblige à la rendre visible pour qu'elle soit jouable. Une app
       n'a pas cette contrainte : elle peut cacher n'importe quoi, et souvent elle
       cache le jeu.
 
-      Avant de mettre un écran sur votre table, demandez-vous ce que ces trois-là
-      auraient fait à votre place.
+      Avant de poser un écran sur une table, reste à savoir ce que ces trois-là
+      auraient fait à la même place.
     </markdown>
   </section>
 
@@ -241,8 +241,8 @@
 
   <section title="Quand l'utiliser">
     <markdown>
-      - Quand la contrainte que vous voulez imposer n'existe pas sur du carton
-        (temps réel, silence, information asymétrique)
+      - Quand la contrainte à imposer n'existe pas sur du carton (temps réel,
+        silence, information asymétrique)
       - Quand la quantité d'information dépasse ce qu'on peut imprimer
       - Quand la table doit garder les yeux l'un sur l'autre : alors l'app parle
         peu, et par l'oreille plutôt que par l'écran
@@ -250,10 +250,10 @@
     </markdown>
   </section>
 
-  <section title="Pour votre projet">
+  <section title="En pratique">
     <markdown>
-      C'est le terrain le plus accessible du cours : une page web sur un téléphone,
-      posée à côté d'objets réels. Pas d'app store, pas d'installation, une URL.
+      C'est le terrain le plus accessible : une page web sur un téléphone, posée à
+      côté d'objets réels. Pas d'app store, pas d'installation, une URL.
 
       Trois règles simples.
 
@@ -261,13 +261,13 @@
       texte affiché prend toute l'attention de la table ; une voix ou une sonnerie
       la laisse tourner. Dans [[tracks]], toute la charge est sur le son et le reste
       tient sur du papier : le savoir-faire demandé n'est pas de la programmation,
-      c'est du montage. Autant dire votre terrain.
+      c'est du montage.
 
       **L'app tient trois variables, pas trente.** Elle sait ce que les joueurs ne
       peuvent pas retenir, et rien d'autre.
 
-      **Testez sans écran d'abord.** Si votre jeu ne fonctionne pas du tout avec un
-      humain qui lit les cartes à voix haute, l'app ne le sauvera pas, elle
+      **Tester sans écran d'abord.** Un jeu qui ne fonctionne pas du tout avec un
+      humain qui lit les cartes à voix haute ne sera pas sauvé par l'app : elle
       cachera juste le problème derrière une interface.
     </markdown>
   </section>

@@ -3,16 +3,31 @@
   <annee>2019</annee>
   <par ref="neil-mendoza"/>
   <url>https://www.neilmendoza.com/portfolio/mechanical-masterpieces/</url>
+  <categorie>Installation</categorie>
   <categorie>Muséale</categorie>
+  <voir ref="the-electric-knife-orchestra"/>
 
-  <resume>Installation au Children's Museum of Pittsburgh qui réinvente des peintures classiques pour le 21e siècle. Les visiteurs peuvent interagir avec les tableaux : les pousser, les illuminer en mode disco, les gonfler, les arroser. Optimisé pour les temps d'attention courts.</resume>
+  <resume>Une salle du Children's Museum of Pittsburgh où des tableaux classiques ont été remontés en machines. Chacun a un bouton, et chacun fait une bêtise : celui-là se met à souffler, celui-ci s'éclaire en boule à facettes, cet autre s'arrose. La reproduction n'est pas commentée, elle est actionnée.</resume>
 
   <visuel src="mechanical-masterpieces.jpg"
           source="https://www.neilmendoza.com/portfolio/mechanical-masterpieces/"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Rend l'art classique ludique et accessible pour un jeune public. Démontre comment l'interaction mécanique peut transformer l'expérience de contemplation passive en exploration active. Approche décalée et joyeuse de la médiation culturelle.
+      **Le bouton remplace le cartel.** Dans un musée, ce qu'on peut faire devant une
+      œuvre, c'est lire. Ici, on appuie et il se passe quelque chose de bête. Le
+      geste que l'institution interdit d'ordinaire — toucher — devient la seule
+      façon d'entrer, et l'enfant de cinq ans est à égalité avec l'adulte.
+
+      **La mécanique est visible.** Moteurs, câbles, soufflets : rien n'est caché
+      dans un boîtier. Ce qui produit l'effet est démontable du regard, et c'est ce
+      qui distingue une installation d'un tour de magie — voir aussi
+      [[the-electric-knife-orchestra]].
+
+      **La durée d'attention est le cahier des charges.** Tout est calibré pour
+      quinze secondes : arriver, appuyer, rire, partir. C'est une contrainte
+      humiliante pour un artiste et elle a manifestement produit de meilleures
+      décisions que sa négation.
     </markdown>
   </section>
 

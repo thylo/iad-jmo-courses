@@ -2,18 +2,48 @@
   <titre>Phallaina</titre>
   <annee>2016</annee>
   <par>Marietta Ren</par>
-  <par>Small Bang (France Télévisions)</par>
-  <url>https://www.youtube.com/watch?v=jI0s8FqsC0Y</url>
+  <par>Small Bang</par>
+  <par>France Télévisions</par>
+  <url>https://www.francetelevisions.fr/groupe/le-lab/programmes/phallaina-le-roman-graphique-dun-nouveau-genre-37467</url>
   <categorie>Fiction</categorie>
   <concept ref="role-fantome"/>
   <concept ref="interface-scrollable"/>
-  <concept ref="choix-exploratoire"/>
+  <concept ref="structure-lineaire"/>
 
-  <resume>Première BD numérique conçue pour scroll horizontal infini. L'histoire se déroule latéralement, créant une expérience de lecture unique. Optimisée pour mobile et tablette avec animations au défilement.</resume>
+  <resume>Une bande dessinée sans case et sans page : un seul dessin de plusieurs centaines de mètres, qu'on fait défiler horizontalement du doigt. Audrey a des crises pendant lesquelles elle voit des choses ; l'histoire part de là vers les cétacés et une lignée de nageuses. Une heure de lecture, dessinée par Marietta Ren.</resume>
 
-  <section title="Pourquoi c'est inspirant">
+  <visuel src="phallaina.jpg"
+          alt="Dessin au trait noir et blanc, sans case ni bordure : des passantes marchent vers la gauche pendant qu'un immense visage endormi occupe le fond ; en haut, le titre « Phallaina — une bande défilée de Marietta Ren »"
+          credit="Marietta Ren / Small Bang — France Télévisions"
+          source="https://www.francetelevisions.fr/et-vous/le-lab/programmes/phallaina-le-roman-graphique-dun-nouveau-genre-37467"/>
+
+  <section title="Ce qui fonctionne">
     <markdown>
-      Réinvente totalement la lecture de BD en exploitant le scroll horizontal. Démontre qu'on peut créer une narration fluide sur un axe inhabituel. Structure linéaire avec interaction minimaliste mais efficace.
+      **Supprimer la case supprime l'ellipse.** Une bande dessinée raconte dans
+      l'intervalle entre deux images ; ici il n'y a pas d'intervalle. Le passage
+      d'un moment au suivant doit être dessiné, en continu, et le récit se
+      transforme en travelling — ce qui oblige à inventer d'autres façons de faire
+      passer le temps.
+
+      **Le doigt fait la vitesse.** Le lecteur décide du rythme au geste près, et
+      peut s'arrêter au milieu d'une transition. C'est le contrôle du temps que
+      donne une page, appliqué à une image qui n'en a pas. Voir
+      [[interface-scrollable]].
+
+      **Le format est un argument éditorial.** « Bande défilée » : le mot a été
+      inventé pour l'occasion et il désigne quelque chose de réel, pas un habillage
+      marketing. C'est ce que devrait produire une expérimentation de forme — un
+      nom dont les suivants auront besoin.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      L'œuvre était une application, et son site a disparu avec la refonte du
+      service de France Télévisions qui la portait. Il ne reste qu'une page de
+      présentation. Une heure de dessin original, une forme inventée, un prix — et
+      plus rien à ouvrir : c'est le cas le plus net du corpus pour parler de ce que
+      coûte un support propriétaire.
     </markdown>
   </section>
 

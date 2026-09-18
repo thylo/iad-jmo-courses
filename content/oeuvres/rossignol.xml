@@ -1,0 +1,165 @@
+<oeuvre id="rossignol" statut="en-ligne">
+  <titre>Le mémorial de Rossignol</titre>
+  <annee>2021</annee>
+  <par ref="kascen"/>
+  <categorie>Muséale</categorie>
+  <categorie>Documentaire</categorie>
+  <categorie>Interface</categorie>
+  <concept ref="interface-timeline"/>
+
+  <resume>En août 1914, l'armée allemande fusille des centaines de civils dans les villages de Gaume — Rossignol, Tintigny, Ansart, Saint-Vincent, Bellefontaine. Le mémorial construit sur ces lieux ne les compte pas : il les nomme. Son interface est une base de données qu'on interroge nom par nom, et chaque fiche donne l'âge, le village, la cause du décès et le récit des dernières heures.</resume>
+
+  <visuel src="rossignol.jpg"
+          alt="Intérieur d'un bâtiment de bois clair. Une allée traverse une forêt de hauts poteaux de bois noirci, fendus et irréguliers, dressés serrés comme une palissade et éclairés en rasant. Au premier plan à gauche, un pupitre bas en métal rouillé porte un petit écran incliné qui affiche une rangée de portraits anciens ; à côté, un combiné d'écoute gris en forme de galet."
+          credit="Mémorial de Rossignol"/>
+
+  <section title="Chercher quelqu'un">
+    <markdown>
+      Le cœur du dispositif est une liste de personnes. Un champ de recherche, quatre
+      colonnes — le nom, le lieu d'habitation, le lieu du décès, l'âge au moment de la
+      mort — et la possibilité de faire défiler jusqu'à tomber sur le sien, ou sur celui
+      d'un voisin. L'exemple proposé dans le champ vide est « François Dupont » : un nom
+      quelconque, qui dit bien ce que la liste contient.
+
+      Ce que cette table produit, aucun panneau ne le produit. Une colonne d'âges qu'on
+      parcourt du doigt — 19, 20, 22, 27, 29, 32, 33, 48, 63, 69 — dit la chose plus vite
+      qu'une phrase sur la mort des civils. Le tri est l'argument.
+    </markdown>
+
+    <image src="rossignol-recherche.jpg"
+           alt="Écran clair. En haut, le mot « Rechercher » à côté d'un champ de saisie vide portant l'exemple « ex: François Dupont ». En dessous, un tableau à quatre colonnes — nom, lieu d'habitation, lieu de décès, âge lors du décès — dont les lignes égrènent des noms en petites capitales : Edouard Andreux, Jules André-Goffinet, Théophile Anizet, Hubert Antoine, Julien Bastien, Félix Baudru, Joseph Baudru, Louis Baudru, Edmond Bayet, Edouard Bayet. Les lieux se répètent : Rossignol, Arlon, Ansart, Saint-Vincent. À gauche, un curseur en forme de main."
+           caption="Quatre colonnes et un champ de recherche. Les patronymes se suivent — trois Baudru, deux Bayet : ce sont des familles."
+           credit="Mémorial de Rossignol"/>
+
+    <markdown>
+      **La fiche individuelle refuse de s'arrêter aux champs.** Prénom, nom, sexe, cause
+      du décès, âge, lieu du décès, lieu de commémoration : sept lignes de formulaire,
+      et puis un bloc de texte qui déborde et raconte l'après-midi du massacre — le
+      cortège rassemblé, les hommes séparés des femmes et des enfants, le demi-tour
+      devant la chapelle, la prairie au lieu-dit « Les Loynes ».
+
+      C'est le geste qui sauve l'ensemble. Une base de données réduit une personne à ses
+      colonnes ; ici la dernière colonne rend le récit, dans les mots de ceux qui l'ont
+      consigné, et la fiche cesse d'être un enregistrement.
+    </markdown>
+
+    <image src="rossignol-fiche.jpg"
+           alt="Fiche individuelle sur fond gris clair, titrée « Edouard ANDREUX » en gras italique. Une liste d'intitulés et de valeurs : Prénom, Edouard ; Nom, Andreux ; Sexe, Homme ; Cause du décès, Fusillé ; Age lors du décès, 22 ; Lieu de décès, Ansart ; Lieu de commémoration, Ansart, Tintigny. Puis un long paragraphe de témoignage décrivant le rassemblement des prisonniers et leur exécution dans une prairie. En haut à gauche, une icône de maison ; en bas à droite, une flèche noire au-dessus du mot « Retour »."
+           caption="Sept champs, puis un témoignage qui ne tient pas dans un champ. Vingt-deux ans, fusillé, à Ansart."
+           credit="Mémorial de Rossignol"/>
+
+    <markdown>
+      **Nommer les morts est un classement, et c'est ici le bon usage du geste.**
+      [Ranger n'est pas neutre](/panorama/ranger) montre surtout des fichiers qui se
+      retournent contre ceux qu'ils rangent. Rossignol est le contre-exemple que cette
+      page cherche : le classement sert les gens qu'il classe. Trier des morts par leur
+      nom, leur âge et leur village, c'est refuser le décompte — et un décompte est
+      précisément ce que voulait laisser l'armée qui les a fusillés. [[jer-thorp]] tient
+      le même pari sur le mémorial du 11-Septembre, où trois mille noms sont placés
+      selon ce que les familles ont demandé plutôt que par ordre alphabétique.
+    </markdown>
+
+    <image src="rossignol-victimes.jpg"
+           alt="Écran en noir et blanc. En fond, une photographie ancienne d'une cérémonie en forêt : une foule endimanchée, des militaires, une gerbe posée devant des tombes. Au premier plan, quatre cartes blanches alignées : trois portraits dessinés au crayon légendés « Marie Cornerotte », « Comtesse Mathilde van der Straeten-Ponthoz » et « Ambulancier », puis une flèche noire au-dessus du mot « Rechercher », sous le titre « Les victimes civiles ». En haut à droite, quatre onglets : FR, EN, NL, DE."
+           caption="On entre dans la liste par trois visages, pas par un formulaire."
+           credit="Mémorial de Rossignol"/>
+  </section>
+
+  <section title="L'écran ne parle pas plus fort que le lieu">
+    <markdown>
+      Avant d'atteindre les pupitres, le visiteur traverse une forêt de poteaux calcinés
+      et contourne un bassin de corten empli d'une lumière bleue où plonge une poutre
+      noircie. Rien de tout cela n'est un écran. Les écrans arrivent après : petits,
+      bas, posés sur des pupitres qu'il faut approcher, et jamais le point le plus
+      lumineux de la pièce.
+
+      **Le son passe par un combiné**, en forme de galet, qu'on porte à l'oreille. Ce
+      seul choix règle ce que la plupart des expositions ne règlent pas : plusieurs
+      récits sonores dans un même volume, qui se marchent dessus et transforment une
+      salle de mémoire en hall de gare. Ici le silence est le fond, et il fait partie du
+      sujet.
+    </markdown>
+
+    <image src="rossignol-puits.jpg"
+           width="field"
+           alt="Un bassin circulaire aux parois de métal rouillé, rempli d'une lumière bleue mouvante, autour d'une large poutre de bois carbonisé qui monte du centre vers le plafond. Deux pupitres inclinés portant chacun un écran et un combiné d'écoute sont posés sur le rebord. Au fond, la forêt de poteaux noircis et une paroi imprimée d'une photographie de ruines ; un visiteur s'avance dans l'allée."
+           caption="L'écran est l'objet le plus petit de la salle, et c'est délibéré."
+           credit="Mémorial de Rossignol"/>
+
+    <image src="rossignol-pupitres.jpg"
+           alt="Deux pupitres de métal rouillé se faisant face de part et d'autre d'un poteau de bois clair, chacun avec un combiné d'écoute gris suspendu et une lumière bleue à sa base. Entre eux, un troisième écran sur socle de bois affiche une photographie ancienne de tranchée et une rangée de portraits. Derrière, une paroi imprimée montre des ruines de village et un panneau intitulé « LE BILAN DES COMBATS »."
+           caption="Deux postes face à face, deux combinés. Chacun écoute le sien sans couvrir la voix du voisin."
+           credit="Mémorial de Rossignol"/>
+  </section>
+
+  <section title="Quatre langues à la fois, plutôt qu'un sélecteur">
+    <markdown>
+      Dans la salle de projection, le film est sous-titré simultanément en français, en
+      néerlandais, en anglais et en allemand, les quatre blocs disposés autour de
+      l'image sur la paroi courbe. Personne ne choisit sa langue, personne n'attend son
+      tour, la séance ne se rejoue pas quatre fois.
+
+      La décision se paie : quatre pavés de texte occupent une place que l'image n'a
+      plus, et chacun lit un quart de ce qui est affiché. Ce qu'elle achète, c'est qu'un
+      car néerlandophone et une classe wallonne assistent à la même séance. Le
+      contraste avec [[parlement-de-wallonie]], qui range ses quatre langues dans des
+      onglets, montre qu'il n'y a pas de bonne réponse générale : il y a un lieu, un
+      public et un temps de visite.
+    </markdown>
+
+    <image src="rossignol-salle.jpg"
+           alt="Une salle de projection aux parois de bois clair. Sur un mur courbe, une animation en tons ocre et bleus montre deux officiers penchés sur une carte ; autour de l'image, quatre blocs de sous-titres en français, néerlandais, anglais et allemand. Devant l'écran, une table ovale affiche une carte lumineuse bleue semée de petits marqueurs de troupes. Deux rangées de bancs de bois incurvés font face à l'ensemble."
+           caption="La table ovale porte les mouvements de troupes ; le mur porte le récit et ses quatre langues."
+           credit="Mémorial de Rossignol"/>
+  </section>
+
+  <section title="Du web, en mode kiosque">
+    <markdown>
+      Les écrans affichent des pages web en plein écran, sans barre d'adresse : un
+      navigateur lancé au démarrage sur une machine cachée dans le meuble, le montage
+      décrit dans [le web hors du navigateur](/articles/le-web-hors-du-navigateur).
+
+      La comparaison avec [[parlement-de-wallonie]] vaut le détour, parce que les deux
+      dispositifs sont contemporains, tiennent le même rôle et ne sont pas faits de la
+      même matière — l'un est un moteur de jeu, l'autre un navigateur. Vus depuis la
+      salle, ils font le même métier. Le choix de la technique ne se lit pas sur
+      l'écran : il se lit dans ce que l'équipe savait faire, et dans ce qu'il faudra
+      savoir refaire le jour où la machine tombera en panne.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      **Un mémorial doit durer un siècle ; un écran dure six ans.** Le bâtiment est
+      construit pour le paysage : bois, terre, métal qui rouille exprès. Les stèles de
+      1914 qu'il commémore sont debout depuis cent dix ans. Les pupitres dépendent d'une
+      machine, d'un système d'exploitation, d'un navigateur et de quelqu'un pour les
+      remplacer. La partie du mémorial qui parle le mieux est celle qui s'arrêtera la
+      première, et l'écart entre les deux durées de vie ne se règle pas en choisissant
+      mieux ses composants : il se règle en décidant, à la conception, ce qui doit
+      rester quand les écrans seront noirs. La liste des noms mérite d'exister ailleurs
+      que dans une machine posée en Gaume.
+
+      **Le lieu est isolé.** Une prairie loin de tout, ce qui est la condition du
+      recueillement et rend la maintenance improbable : personne ne passe par hasard, et
+      une panne peut durer des semaines avant que quelqu'un la signale.
+    </markdown>
+
+    <image src="rossignol-pavillon.jpg"
+           width="field"
+           alt="Vu de l'extérieur, un long bâtiment bas au bardage de bois grisé et au toit de zinc légèrement incurvé, à demi enterré dans un talus d'herbe. Une baie vitrée sombre marque l'entrée, où se tiennent deux personnes. Autour, une prairie fauchée en pente et un rideau d'arbres sous un ciel gris."
+           caption="Rossignol-Tintigny, août 2021. Le bâtiment est fait pour le paysage ; ce qu'il abrite est fait pour six ans."
+           credit="Mémorial de Rossignol"/>
+
+    <markdown>
+      **Et la question que tout mémorial interactif finit par poser.** Un dispositif qui
+      fonctionne bien rend la visite agréable, or le sujet ne l'est pas. Rossignol s'en
+      tire parce que la scénographie est sombre, lente et silencieuse, et parce que les
+      écrans y sont tenus à leur place. Le même contenu dans une salle claire, avec de
+      grandes dalles tactiles et un score, deviendrait obscène sans qu'une ligne de
+      texte ait changé.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

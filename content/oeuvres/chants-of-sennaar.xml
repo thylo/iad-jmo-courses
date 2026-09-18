@@ -1,0 +1,62 @@
+<oeuvre id="chants-of-sennaar" statut="en-ligne">
+  <titre>Chants of Sennaar</titre>
+  <annee>2023</annee>
+  <par>Rundisc</par>
+  <url>https://store.steampowered.com/app/1931770/Chants_of_Sennaar/</url>
+  <categorie>Jeu</categorie>
+  <categorie>Fiction</categorie>
+  <concept ref="choix-exploratoire"/>
+  <concept ref="structure-lineaire"/>
+
+  <resume>Gravir une tour de Babel dont chaque étage parle une langue inconnue. On relève des glyphes, on note une hypothèse en face de chacun, et le carnet ne se valide qu'une page entière à la fois. Comprendre le lexique n'accompagne pas la progression : c'est la progression.</resume>
+
+  <visuel src="chants-of-sennaar.jpg"
+          alt="Sur un fond jaune vif, une silhouette encapuchonnée de rouge se détourne devant deux gardes casqués ; à gauche, un mur de pierre monte hors du cadre."
+          credit="Rundisc"
+          source="https://store.steampowered.com/app/1931770/Chants_of_Sennaar/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le carnet est la seule mécanique.** Un glyphe, un dessin, un mot qu'on
+      écrit soi-même. Le jeu ne dit jamais si une hypothèse isolée est bonne : il
+      valide une page quand toutes ses lignes concordent. Comme le registre de
+      [[return-of-the-obra-dinn|Obra Dinn]], la validation groupée interdit de
+      deviner et oblige à se construire une conviction avant de la soumettre.
+
+      **Le contresens fait partie du récit.** On traduit « ami » là où il fallait
+      lire « serviteur », et on se comporte en conséquence pendant une heure. Le
+      malentendu n'est pas une erreur que le jeu punit : c'est ce que la tour
+      raconte, cinq peuples qui se croisent et se lisent de travers depuis des
+      siècles.
+
+      **Personne ne parle.** Ni voix, ni sous-titres, ni texte en français : le
+      seul français du jeu est celui que le joueur écrit dans son propre carnet.
+      Une œuvre entièrement traduisible sans traducteur, et une démonstration
+      nette de ce qu'on peut confier au dessin plutôt qu'à la phrase.
+
+      **La compréhension ouvre les portes.** Les gardes, les prêtres, les
+      alchimistes ne laissent passer que qui répond juste. La barrière de
+      progression n'est pas une clé ni un niveau : c'est un savoir, et il est
+      réellement dans la tête de la personne qui joue, pas dans l'inventaire du
+      personnage.
+    </markdown>
+
+    <video src="youtube:__hzPH3tcvA"
+           caption="La bande-annonce de lancement, publiée par Focus Entertainment."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Les langues ne sont pas des langues : pas de conjugaison, pas de syntaxe qui
+      résiste, un glyphe pour un concept. C'est un système de substitution
+      élégant, pas une linguistique, et un étudiant qui espère y apprendre comment
+      on déchiffre vraiment une écriture inconnue sera déçu.
+
+      La dernière ascension bascule dans les énigmes d'infiltration et de logique
+      pure, loin du plaisir de départ. Le jeu semble se méfier de sa propre idée
+      au moment où elle est le plus forte.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

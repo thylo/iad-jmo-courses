@@ -1,0 +1,61 @@
+<oeuvre id="thousand-year-old-vampire" statut="en-ligne">
+  <titre>Thousand Year Old Vampire</titre>
+  <annee>2019</annee>
+  <par>Tim Hutchings</par>
+  <url>https://timhutchings.itch.io/tyov</url>
+  <categorie>Jeu</categorie>
+  <categorie>Fiction</categorie>
+  <concept ref="role-personnage"/>
+  <concept ref="structure-a-etat"/>
+
+  <resume>Un jeu de rôle solitaire qui tient dans un carnet : on y écrit le journal d'un vampire sur mille ans, une entrée par invite tirée aux dés. Le carnet ne retient que cinq souvenirs. Quand il faut en inscrire un sixième, les règles obligent à en barrer un ancien — de sa propre main, à l'encre, définitivement.</resume>
+
+  <visuel src="thousand-year-old-vampire.jpg"
+          alt="La couverture du livre : une étiquette de papier collée sur un papier marbré bleu et or, où le titre est calligraphié en rouge."
+          credit="Tim Hutchings"
+          source="https://timhutchings.itch.io/tyov"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **L'oubli est inscrit dans l'objet.** Cinq souvenirs, trois expériences
+      chacun. Une fois pleins, la seule façon d'avancer est de rayer ce qu'on a
+      écrit soi-même trois heures plus tôt. Le geste est physique, le trait reste
+      visible, et le personnage devient réellement quelqu'un qui a perdu des
+      choses — pas quelqu'un dont on raconte qu'il a perdu des choses.
+
+      **La fiche de personnage est le récit.** Souvenirs, compétences, ressources,
+      marques, personnages rencontrés : ce sont des listes, et les invites les
+      interrogent. « Une compétence devient inutile, barrez-la. » C'est une
+      [[structure-a-etat]] tenue à la main, sans machine, et elle prouve que le
+      principe n'a rien à voir avec le logiciel.
+
+      **Le hasard sert à empêcher de composer.** On avance par bonds — un dé à dix
+      faces moins un dé à six — donc on saute des invites, on en revisite, et on
+      ne peut pas bâtir une intrigue à l'avance. Ce qui reste à l'auteur, c'est de
+      relier ce que le sort a mis côte à côte.
+
+      **Ça produit un objet à montrer.** À la fin, il y a un carnet raturé,
+      couvert d'une écriture qui change au fil des heures. C'est une œuvre dont la
+      trace matérielle est plus émouvante que le texte qu'elle contient, et c'est
+      exactement la question que pose un cours sur le support.
+    </markdown>
+
+    <video src="youtube:6X306LtKEqc"
+           caption="Une partie en solo, filmée du début à la fin."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Il n'y a personne en face. Pas de meneur, pas de table, pas de public :
+      l'œuvre suppose qu'on écrive seul, longtemps, en anglais. Beaucoup
+      abandonnent au bout de dix invites parce qu'écrire est un travail et que
+      rien ne pousse à le finir.
+
+      Et la promesse « mille ans » est plus séduisante que ce qu'on obtient
+      réellement : les invites sautent les siècles sans les remplir, et le journal
+      final ressemble souvent à une suite de vignettes plutôt qu'à une vie.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

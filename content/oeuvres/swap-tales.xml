@@ -11,6 +11,11 @@
 
   <resume>Un album illustré sur tablette dont on échange les mots. Chaque page contient deux à sept mots permutables : intervertissez-les et la phrase change, donc l'image change, donc l'histoire change. Léon veut échapper à sa baby-sitter. Soixante-deux pages, plus de deux mille cinq cents combinaisons, une trentaine de fins. Sorti sur iOS à l'automne 2016, sur Android en décembre.</resume>
 
+  <visuel src="swap-tales.jpg"
+          alt="Page de l'album sur tablette : sous un paragraphe de texte où quatre groupes de mots sont surlignés en bleu et déplaçables, une illustration montre un garçon dans une cave encombrée de sacs, de tonneaux et d'un coffre-fort"
+          credit="Witty Wings"
+          source="http://www.wittywings.fr/en/swap-tales-leon/"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **La phrase est l'interface.** Il n'y a pas de bouton, pas de menu de choix, pas
@@ -18,18 +23,21 @@
       obéit. C'est l'une des rares œuvres où le geste d'interaction et l'acte
       d'écriture sont exactement le même geste.
 
-      **C'est de la [[role-divinite|divinité]] à l'état pur.** Vous n'êtes pas Léon,
-      vous n'êtes nulle part dans l'histoire : vous êtes la personne qui récrit la
+      **C'est de la [[role-divinite|divinité]] à l'état pur.** L'enfant n'est pas Léon,
+      il n'est nulle part dans l'histoire : il est la personne qui récrit la
       phrase. La position est claire, elle est tenue de bout en bout, et un enfant de
       huit ans la comprend sans qu'on l'explique.
 
       **La combinatoire est produite par la grammaire.** Deux mille cinq cents
       combinaisons pour soixante-deux pages illustrées : ce n'est pas un
       [[structure-embranchements|arbre]] dessiné à la main, c'est une contrainte
-      linguistique qui fabrique les branches. À montrer à quiconque annonce trente fins
-      dans un projet d'atelier — voici ce qu'il faut pour les tenir, et voici l'astuce
-      qui permet de ne pas les dessiner une par une.
+      linguistique qui fabrique les branches. À opposer à quiconque annonce trente
+      fins : voici ce qu'il faut pour les tenir, et l'astuce qui permet de ne pas les
+      dessiner une par une.
     </markdown>
+
+    <video src="youtube:HyKXtgE47x0"
+           caption="La bande-annonce, publiée par Witty Wings."/>
   </section>
 
   <section title="Ce qui coince">

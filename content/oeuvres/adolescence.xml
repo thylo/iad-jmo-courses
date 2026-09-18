@@ -1,0 +1,66 @@
+<oeuvre id="adolescence" statut="en-ligne">
+  <titre>Adolescence</titre>
+  <annee>2025</annee>
+  <par>Jack Thorne</par>
+  <par>Stephen Graham</par>
+  <par>Philip Barantini</par>
+  <url>https://www.netflix.com/title/81756069</url>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-lineaire"/>
+
+  <resume>Un garçon de treize ans est arrêté pour le meurtre d'une camarade de classe. Quatre épisodes, quatre journées, et chacun filmé en un seul plan sans coupe. La contrainte interdit l'ellipse : la série est obligée de montrer les transports, les couloirs, les silences et les formalités que la fiction policière coupe toujours.</resume>
+
+  <visuel src="adolescence.jpg"
+          alt="Image tirée de la bande-annonce : un homme d'une cinquantaine d'années, la main devant la bouche, retient ses larmes devant le mur d'une chambre d'enfant tapissé de planètes."
+          credit="Netflix"
+          source="https://www.youtube.com/watch?v=Wk5OxqtpBR4"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Une contrainte de forme produit un contenu.** Le plan-séquence n'est pas
+      une prouesse ajoutée à un scénario : c'est ce qui oblige à filmer la
+      procédure. La fouille, l'attente, le formulaire, le trajet en fourgon.
+      L'humiliation administrative d'un enfant de treize ans occupe le temps
+      qu'elle occupe réellement, et c'est là que la série est insoutenable.
+
+      **Le refus du montage est un refus de commenter.** Pas de champ-contrechamp
+      qui désigne le coupable, pas d'insert qui souligne. La caméra suit qui elle
+      suit, et ce qui se passe hors de son axe est perdu pour de bon — comme pour
+      quelqu'un qui serait là. C'est une [[structure-lineaire]] poussée jusqu'à
+      son terme : un seul chemin, aucune possibilité de revenir.
+
+      **L'objet du récit n'est pas l'enquête.** On sait très vite. Ce qui reste,
+      ce sont les quatre points de vue successifs sur la même chose : la police,
+      l'école, la psychologue, la famille. Chaque épisode déplace la question de
+      « qui a fait ça » vers « qu'est-ce qui a rendu ça possible », sans jamais
+      énoncer de réponse.
+
+      **C'est un cas d'école sur la préparation.** Un plan de quarante minutes se
+      répète pendant des semaines, avec des changements de lieu, de véhicule, des
+      centaines de figurants et un drone qui prend le relais de l'opérateur. Le
+      travail est entièrement en amont, et c'est la meilleure démonstration
+      possible de ce que coûte une contrainte tenue. Netflix a publié
+      [une demi-heure de tournage](https://www.youtube.com/watch?v=g2oaFpFNmXg)
+      qui montre la chorégraphie de l'équipe autour de la caméra : c'est le document
+      à voir en premier.
+    </markdown>
+
+    <video src="youtube:Wk5OxqtpBR4"
+           caption="La bande-annonce officielle, publiée par Netflix."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      La série n'est pas interactive et ne prétend pas l'être. Elle est ici pour
+      son procédé : ce qu'une règle de forme, tenue sans exception, force un récit
+      à montrer. La leçon vaut pour n'importe quel dispositif, y compris ceux
+      qu'on programme.
+
+      Et le plan-séquence attire l'œil sur lui-même. Une partie du public passe
+      quatre heures à chercher les raccords invisibles plutôt qu'à regarder ce qui
+      se joue — un risque que prend toute contrainte spectaculaire.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

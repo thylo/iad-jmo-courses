@@ -1,5 +1,5 @@
 <concept id="role-soi-meme">
-  <titre>Vous-même</titre>
+  <titre>Soi-même</titre>
   <genre>role</genre>
   <exemple ref="do-not-track"/>
   <exemple ref="generation-what"/>
@@ -8,14 +8,14 @@
   <voir ref="role-personnage"/>
   <voir ref="forme-collaborative"/>
 
-  <resume>L'œuvre vous parle à vous, sans costume, et travaille avec vos vraies données : ce qu'elle finit par vous montrer, c'est vous. Le prix : il faut écrire sans savoir qui lit.</resume>
+  <resume>L'œuvre s'adresse à la personne qui est devant elle, sans costume, et travaille avec ses vraies données : ce qu'elle finit par montrer, c'est elle. Le prix : il faut écrire sans savoir qui lit.</resume>
 
   <section title="Définition">
     <markdown>
       Pas d'avatar, pas de nom donné, pas de passé à endosser. L'œuvre s'adresse à la
       personne qui est devant l'écran et se sert de ce qu'elle sait d'elle : une
       réponse, une adresse, un historique de navigation, une webcam, l'heure qu'il est
-      chez vous.
+      là où elle se trouve.
 
       C'est le seul rôle où le contenu n'est pas entièrement écrit d'avance, puisqu'une
       partie vient du spectateur. Et c'est le seul où le spectateur ne peut pas se
@@ -26,36 +26,36 @@
   <section title="Schéma">
     <markdown>
       ```
-      Un personnage                    Vous-même
+      Un personnage                    Soi-même
 
-      auteur ──► personnage ──► vous   auteur ──► gabarit ──┐
-                                                            ├──► vous
-              vous héritez d'un        vos données ─────────┘
+      auteur ─► personnage ─► public   auteur ──► gabarit ──┐
+                                                            ├──► public
+              le public hérite d'un    ses données ─────────┘
               passé et de motivations
               qui ne sont pas les      l'auteur écrit la forme,
-              vôtres                   vous fournissez le fond
+              siennes                  le public fournit le fond
       ```
     </markdown>
   </section>
 
   <section title="Ce que ça produit">
     <markdown>
-      [[do-not-track]] est le cas de référence. Le documentaire vous demande
-      l'autorisation, regarde ce que votre navigateur laisse filtrer, et vous renvoie
-      votre propre profil publicitaire au milieu d'un épisode sur la publicité ciblée.
-      Le sujet est démontré sur vous plutôt qu'expliqué.
+      [[do-not-track]] est le cas de référence. Le documentaire demande l'autorisation,
+      regarde ce que le navigateur laisse filtrer, et renvoie au spectateur son propre
+      profil publicitaire au milieu d'un épisode sur la publicité ciblée. Le sujet est
+      démontré sur lui plutôt qu'expliqué.
 
-      [[generation-what]] pose des questions et vous situe ensuite dans le million de
-      réponses des autres. Le retour n'est pas « voici ce que vous êtes », c'est
-      « voici où vous êtes ». Le collectif fait le travail.
+      [[generation-what]] pose des questions et situe ensuite le répondant dans le
+      million de réponses des autres. Le retour n'est pas « voici ce que vous êtes »,
+      c'est « voici où vous êtes ». Le collectif fait le travail.
 
-      [[lifeline]] ne vous donne aucun rôle : vous êtes vous, avec votre téléphone, et
-      quelqu'un vous écrit depuis une lune. Le temps réel achève l'effet — quand
-      Taylor dort huit heures, vous attendez huit heures.
+      [[lifeline]] ne donne aucun rôle : le spectateur est lui-même, avec son
+      téléphone, et quelqu'un lui écrit depuis une lune. Le temps réel achève l'effet —
+      quand Taylor dort huit heures, l'attente dure huit heures.
 
-      [[the-johnny-cash-project]] va au bout : vous dessinez une image du clip, et ce
-      que vous avez fait de votre main reste dans l'œuvre. Là, être soi-même bascule
-      dans la [[forme-collaborative|forme collaborative]].
+      [[the-johnny-cash-project]] va au bout : le spectateur dessine une image du clip,
+      et ce qu'il a fait de sa main reste dans l'œuvre. Là, être soi-même bascule dans
+      la [[forme-collaborative|forme collaborative]].
     </markdown>
   </section>
 
@@ -89,17 +89,17 @@
     </markdown>
   </section>
 
-  <section title="Pour votre projet">
+  <section title="En pratique">
     <markdown>
-      C'est le rôle le plus accessible en atelier, parce qu'il ne demande ni
-      production de personnage ni comédien.
+      C'est le rôle le plus accessible, parce qu'il ne demande ni production de
+      personnage ni comédien.
 
       **Une seule donnée suffit.** L'heure locale, une réponse, une couleur choisie.
-      Prenez-en une, faites-en beaucoup, plutôt que d'en collecter dix pour les
+      En prendre une et en faire beaucoup, plutôt que d'en collecter dix pour les
       afficher en tableau.
 
-      **Testez avec quelqu'un qui n'est pas vous.** C'est le rôle où l'auteur est le
-      plus mauvais public : vous savez ce qu'il fallait répondre.
+      **Tester avec quelqu'un d'autre que l'auteur.** C'est le rôle où l'auteur est le
+      plus mauvais public : il sait ce qu'il fallait répondre.
     </markdown>
   </section>
 

@@ -1,0 +1,37 @@
+<oeuvre id="the-unknown" statut="en-ligne">
+  <titre>The Unknown</titre>
+  <annee>1998</annee>
+  <par>William Gillespie</par>
+  <par>Scott Rettberg</par>
+  <par>Dirk Stratton</par>
+  <par>Frank Marquardt</par>
+  <url>https://unknownhypertext.com/</url>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-constellation"/>
+
+  <resume>Un roman hypertexte écrit à quatre mains, sur une tournée de promotion imaginaire que ses auteurs feraient pour un livre qu'ils n'ont pas écrit. Des centaines de pages liées entre elles sans ordre imposé, entrées par thème plutôt que par chapitre. Vainqueur du concours trAce/Alt-X 1998, où Robert Coover le décrit comme « véritablement multi-séquentiel ».</resume>
+
+  <visuel src="the-unknown.jpg"
+          alt="Une photographie retouchée du Rat Pack devant l'enseigne du casino Sands, dont le panneau lumineux affiche « Frank Sinatra, Scott Rettberg, Sammy Davis Jr, William Gillespie, Dirk Stratton » ; en bas, le titre « The Unknown » en lettres colorées."
+          source="https://unknownhypertext.com/"/>
+
+  <section title="Ce qui fonctionne">
+    <markdown>
+      **Il n'y a pas de fin, et ce n'est pas un défaut.** Le texte se parcourt en
+      [[structure-constellation|constellation]] : on entre par une couleur, une
+      humeur, un nom, et on ressort quand on en a assez. Aucun compteur, aucun
+      pourcentage, aucune promesse d'avoir tout vu.
+
+      **C'est du HTML de 1998, et il fonctionne encore.** Des liens, des ancres, des
+      images GIF. Vingt-huit ans plus tard, le site s'ouvre sans plugin, sans
+      compte et sans émulateur — ce qu'aucune des œuvres en Flash de la décennie
+      suivante ne peut dire. À montrer chaque fois qu'on discute de durabilité.
+
+      **La blague tient le tout.** Une tournée d'auteurs pour un livre inexistant :
+      la fiction se moque de l'appareil littéraire au moment même où elle en invente
+      une forme nouvelle. C'est ce qui empêche l'hypertexte d'y être un exercice.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

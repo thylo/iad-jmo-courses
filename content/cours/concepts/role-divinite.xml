@@ -8,7 +8,7 @@
   <voir ref="role-fantome"/>
   <voir ref="structure-constellation"/>
 
-  <resume>Vous n'êtes nulle part dans la fiction et vous en tenez les leviers. La position par défaut de tout ce qui se manipule comme un modèle.</resume>
+  <resume>Le public n'est nulle part dans la fiction et en tient les leviers. La position par défaut de tout ce qui se manipule comme un modèle.</resume>
 
   <section title="Définition">
     <markdown>
@@ -29,7 +29,7 @@
        événements fixes                 règles
             ▲                             ▲
             │ regarde                     │ tourne les boutons
-          vous                          vous
+         public                       public
                                           │
                                           ▼
                                      les événements
@@ -43,20 +43,20 @@
 
   <section title="Trois usages">
     <markdown>
-      **Gouverner.** [[fort-mcmoney]] vous confie une ville pétrolière de l'Alberta :
-      vous interrogez les habitants, puis vous votez des mesures, et la ville change
-      entre les chapitres. Personne ne vous a demandé de quel droit — c'est justement
-      la question que le dispositif laisse ouverte.
+      **Gouverner.** [[fort-mcmoney]] confie une ville pétrolière de l'Alberta : on
+      interroge les habitants, puis on vote des mesures, et la ville change entre les
+      chapitres. Personne n'a demandé de quel droit — c'est justement la question que
+      le dispositif laisse ouverte.
 
       **Comprendre un système.** [[the-fallen-of-world-war-ii]] est un film de
-      graphiques qui s'arrête pour vous laisser fouiller, et
+      graphiques qui s'arrête pour laisser fouiller, et
       [[seeing-theory]] laisse tourner les paramètres d'une loi statistique jusqu'à ce
       qu'on la sente. Le récit n'est plus une suite d'événements : c'est un ensemble
       de règles dont on éprouve les effets.
 
-      **Recomposer.** [[immortality]] vous donne les rushes de trois films qui
-      n'existent pas et une table de montage. L'ordre chronologique n'est plus donné ;
-      c'est vous qui le fabriquez, et le sens avec.
+      **Recomposer.** [[immortality]] donne les rushes de trois films qui n'existent
+      pas et une table de montage. L'ordre chronologique n'est plus donné ; il se
+      fabrique, et le sens avec.
 
       Dans les trois cas, le public a plus de pouvoir que n'importe quel personnage —
       et aucun enjeu personnel. C'est l'échange.
@@ -91,16 +91,16 @@
     </markdown>
   </section>
 
-  <section title="Pour votre projet">
+  <section title="En pratique">
     <markdown>
       C'est le rôle le plus faisable sans comédien ni tournage — et le plus facile à
       rater en produisant un graphique interactif de plus.
 
-      **Un seul levier, bien choisi.** Faites une chose que le public peut tourner, et
-      montrez-en toutes les conséquences plutôt que d'en offrir dix superficielles.
+      **Un seul levier, bien choisi.** Une chose que le public peut tourner, dont
+      toutes les conséquences sont montrées, plutôt que dix leviers superficiels.
 
-      **Montrez le système, pas le résultat.** Ce qui se retient n'est pas le chiffre
-      final, c'est le moment où on comprend pourquoi il bouge dans ce sens-là.
+      **Le système, pas le résultat.** Ce qui se retient n'est pas le chiffre final,
+      c'est le moment où on comprend pourquoi il bouge dans ce sens-là.
     </markdown>
   </section>
 

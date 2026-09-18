@@ -1,19 +1,51 @@
-<oeuvre id="generation-what" statut="archive">
+<oeuvre id="generation-what" statut="hors-ligne">
   <titre>Génération What ?</titre>
   <annee>2016</annee>
-  <par>Yami 2</par>
+  <par>Simon Bouisson</par>
+  <par>Pierre Bourgeois</par>
   <par ref="upian"/>
-  <url>https://generation-what.fr/</url>
+  <par>Yami 2</par>
+  <url>https://www.upian.com/fr/project/generation-what</url>
   <categorie>Documentaire</categorie>
   <concept ref="structure-parallele"/>
   <concept ref="forme-collaborative"/>
   <concept ref="role-soi-meme"/>
 
-  <resume>Questionnaire massif auprès des 18-34 ans européens. Plus de 1 million de participants. Les résultats sont visualisés en temps réel et comparés selon pays, genre, âge. Chacun peut explorer les données et se situer.</resume>
+  <resume>Cent quarante-neuf questions posées aux 18-34 ans de douze pays européens, à partir du 11 avril 2016. Près d'un million de personnes ont répondu. À chaque réponse, le site affiche immédiatement comment le pays et le continent ont répondu à la même question — on ne consulte pas les résultats après, on se situe pendant. Quatre documentaires de cinquante-deux minutes ont été montés à partir des entretiens.</resume>
 
-  <section title="Pourquoi c'est inspirant">
+  <visuel src="generation-what.jpg"
+          alt="Grille de seize vignettes vidéo : autant de jeunes gens filmés chez eux, seuls ou à deux, en train de répondre face caméra"
+          credit="France Télévisions / Upian — Yami 2"
+          source="https://generation-what.francetv.fr/"/>
+
+  <section title="Ce qui fonctionne">
     <markdown>
-      Combine contribution (répondre au questionnaire) et exploration (visualiser les résultats). Projet transmedia déployé dans plusieurs pays. Démontre qu'on peut créer une expérience collective massive tout en restant personnel.
+      **La réponse est le billet d'entrée.** On n'accède à la donnée qu'en la
+      produisant. Ce marché — tu réponds, tu vois — est ce qui a fait passer un
+      questionnaire de sciences sociales à un million de participants, et c'est un
+      dispositif transposable à peu près partout.
+
+      **Se situer plutôt que consulter.** L'écart entre sa propre réponse et celle
+      de son pays est affiché tout de suite, question après question. C'est du
+      [[role-soi-meme]] appliqué à de la statistique : personne ne lit un tableau,
+      tout le monde lit sa place dans un tableau.
+
+      **Le même corpus, douze versions nationales.** La même enquête, traduite et
+      diffusée par les télévisions publiques de chaque pays, avec ses propres
+      résultats — et donc comparables. La [[structure-parallele|structure
+      parallèle]] est ici un choix de production autant que de forme.
+    </markdown>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le site est mort. Les domaines nationaux ne répondent plus, et une enquête
+      dont tout l'intérêt était la comparaison en direct ne laisse derrière elle
+      que des rapports et une page de studio. Un million de réponses, et rien à
+      montrer aux étudiants.
+
+      À noter pour la suite : [[weiordie]] est du même réalisateur, deux ans plus
+      tôt, et il tient toujours debout.
     </markdown>
   </section>
 

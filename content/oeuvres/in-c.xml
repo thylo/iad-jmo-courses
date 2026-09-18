@@ -6,6 +6,11 @@
 
   <resume>Une partition d'une seule page : cinquante-trois courts motifs, à jouer dans l'ordre. Aucune instrumentation n'est indiquée, aucun tempo non plus, et le nombre de musiciens est libre. Chacun décide quand il entre, combien de fois il répète un motif, quand il passe au suivant. La pièce dure entre vingt minutes et plusieurs heures, et ne sonne jamais deux fois pareil. Créée le 4 novembre 1964 au Tape Music Center de San Francisco.</resume>
 
+  <visuel src="in-c.jpg"
+          alt="Encadrée sur un mur du Carnegie Hall, une page de musique manuscrite de la main de Terry Riley : quelques portées de motifs courts, rehaussées à l'aquarelle, portant la dédicace « for Carnegie Hall, with great appreciation » et sa signature"
+          credit="Terry Riley — photo Wikimedia Commons"
+          source="https://en.wikipedia.org/wiki/In_C"/>
+
   <section title="Pourquoi c'est inspirant">
     <markdown>
       **L'œuvre est le protocole.** Ce que Riley a écrit tient sur une page et ne
@@ -23,12 +28,15 @@
       [[structure-a-etat|structure à état]] côté récit.
 
       **La contrainte est ce qui fait tenir la liberté.** Tout le monde joue les mêmes
-      motifs, dans le même ordre, sur une pulsation commune. Retirez ça, il ne reste
-      qu'une improvisation. C'est la démonstration, en musique, de ce que Jenkins dit
+      motifs, dans le même ordre, sur une pulsation commune. Retirer ça, et il ne
+      reste qu'une improvisation. C'est la démonstration, en musique, de ce que Jenkins dit
       des récits émergents : **ce n'est pas l'absence de structure qui permet
       l'émergence, c'est une conception très rigoureuse.** Voir
       [raconter par l'espace](/panorama/raconter-par-l-espace).
     </markdown>
+
+    <video src="youtube:aX96z7AuICs"
+           caption="Une exécution complète, par l'Africa Express au Tate Modern."/>
   </section>
 
   <section title="Ce qui coince">

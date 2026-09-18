@@ -1,0 +1,66 @@
+<oeuvre id="before-your-eyes" statut="en-ligne">
+  <titre>Before Your Eyes</titre>
+  <annee>2021</annee>
+  <par>GoodbyeWorld Games</par>
+  <par>Nice Dream</par>
+  <url>https://store.steampowered.com/app/1082430/Before_Your_Eyes/</url>
+  <categorie>Jeu</categorie>
+  <categorie>Fiction</categorie>
+  <concept ref="interface-gestural"/>
+  <concept ref="structure-lineaire"/>
+
+  <resume>Un mort raconte sa vie à un passeur. La webcam surveille les yeux, et chaque clignement fait avancer le temps d'un souvenir au suivant. On ne peut pas s'empêcher de cligner, donc on perd exactement les scènes qu'on voulait garder. La mécanique et le deuil sont le même geste.</resume>
+
+  <visuel src="before-your-eyes.jpg"
+          alt="Un ciel de nuit rose et violet au-dessus d'une barque ; dans la silhouette renversée d'un phare se superposent des visages et un œil doré."
+          credit="GoodbyeWorld Games"
+          source="https://store.steampowered.com/app/1082430/Before_Your_Eyes/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Le geste ne représente pas l'idée, il la fait subir.** Beaucoup d'œuvres
+      disent que la mémoire s'échappe. Celle-ci la fait perdre pour de bon, avec le
+      corps du spectateur, contre sa volonté, dans la seconde. Voir
+      [[interface-gestural]] : l'appareil devient un instrument, et ici
+      l'instrument se retourne contre celui qui en joue.
+
+      **Le contrôle est retiré par un réflexe, pas par une règle.** Aucune limite
+      de temps affichée, aucune pénalité. Simplement une fonction du corps qu'on
+      ne peut pas suspendre plus de quelques dizaines de secondes. C'est la seule
+      contrainte de jeu que je connaisse qui ne soit pas négociable parce qu'elle
+      n'est pas dans le programme.
+
+      **Le récit non fiable arrive par la mécanique.** Le passeur écoute, et à un
+      moment il s'aperçoit que ce qu'on lui raconte ne tient pas. Ce n'est pas un
+      retournement de scénario : c'est le joueur qui a vécu, souvenir après
+      souvenir, un montage arrangé, et qui découvre pourquoi il était arrangé.
+
+      **Il existe une version au clic.** Le jeu propose de jouer à la souris, et
+      c'est aussitôt un autre objet : mêmes scènes, même texte, zéro effet. La
+      comparaison entre les deux modes est l'exercice de cours tout trouvé sur ce
+      qu'apporte réellement une interface.
+    </markdown>
+
+    <video src="youtube:CP_aKLHxIgI"
+           caption="La bande-annonce « Blink and You'll Miss It », publiée par Skybound Games."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Ça demande une webcam, une pièce éclairée et des yeux qui coopèrent. Le
+      calibrage échoue avec des lunettes, en contre-jour, ou si l'on porte des
+      lentilles qui font cligner plus souvent. Une œuvre dont l'accès dépend d'une
+      condition physique, et qui exclut sans le dire.
+
+      Le récit lui-même est un mélodrame familial assez convenu : un enfant doué,
+      une mère malade, une vocation ratée. Ce qui reste, c'est le dispositif — et
+      il faut assumer de le montrer pour lui, pas pour l'histoire.
+
+      Enfin, une webcam allumée pendant deux heures pour un jeu, ça se pose comme
+      question. Le traitement est local et rien ne sort de la machine, mais
+      l'habitude qu'on prend, elle, ne reste pas locale.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

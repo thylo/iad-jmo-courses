@@ -1,25 +1,29 @@
 <oeuvre id="over-the-tiny-hills" statut="en-ligne">
-  <titre>Over the Hills</titre>
+  <titre>Over the Tiny Hills</titre>
   <annee>2015</annee>
   <par>ultranoir</par>
   <par>McBess</par>
   <par>The Dead Pirates</par>
   <url>https://www.overthetinyhills.com/</url>
+  <categorie>Interface</categorie>
+  <concept ref="interface-3d"/>
 
-  <resume>Exploration d'un univers artistique à travers un gramophone virtuel où l'audio se spatialise selon la position de la caméra.</resume>
+  <resume>Un décor en trois dimensions dans le navigateur, dessiné en noir et blanc par McBess, où l'on tourne autour d'un gramophone. La bande-son du groupe The Dead Pirates n'est pas jouée en stéréo fixe : chaque instrument est une source posée dans la scène, et le mixage change selon l'endroit d'où on regarde.</resume>
 
   <visuel src="over-the-tiny-hills.jpg"
           source="https://www.overthetinyhills.com/"/>
 
   <section title="Ce qui fonctionne">
     <markdown>
-      Combine WebGL et Web Audio API pour créer une expérience où le mouvement de la caméra dans l'espace 3D modifie le positionnement des sources sonores, créant une immersion audio-visuelle.
-    </markdown>
-  </section>
+      **Se déplacer, c'est remixer.** Approcher un instrument le met en avant,
+      s'éloigner le noie. Le geste de navigation n'ouvre pas un contenu : il modifie
+      l'écoute en continu, ce qui est le seul emploi vraiment justifié de l'audio
+      spatialisé dans une page web.
 
-  <section title="Pourquoi c'est inspirant">
-    <markdown>
-      Transforme l'écoute musicale en exploration spatiale. L'audio spatialisé rend tangible le lien entre espace visuel et expérience sonore. Le visiteur navigue dans l'univers graphique de McBess en utilisant la position de sa caméra pour modifier sa perception acoustique, créant une expérience synesthésique où voir et entendre sont intimement liés.
+      **Le dessin porte tout.** Un trait noir sur blanc, aucun rendu réaliste : la
+      3D sert à composer un espace, pas à imiter une matière. Voir
+      [[interface-3d]] — c'est le contre-exemple utile face aux démonstrations
+      techniques qui confondent volume et vraisemblance.
     </markdown>
   </section>
 

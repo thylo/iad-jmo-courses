@@ -1,0 +1,63 @@
+<oeuvre id="blue-prince" statut="en-ligne">
+  <titre>Blue Prince</titre>
+  <annee>2025</annee>
+  <par>Dogubomb</par>
+  <url>https://store.steampowered.com/app/1569580/Blue_Prince/</url>
+  <categorie>Jeu</categorie>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-constellation"/>
+  <concept ref="choix-exploratoire"/>
+
+  <resume>Un oncle lègue un manoir à condition qu'on trouve la chambre 46 d'une maison qui n'en compte que 45. À chaque porte, on choisit entre trois pièces tirées au sort, et le plan se dessine sous nos pas. Le lendemain, tout est effacé et l'on recommence. Le plan de la maison est le seul support du récit.</resume>
+
+  <visuel src="blue-prince.jpg"
+          alt="Un couloir tapissé de bleu s'ouvre sur une enfilade de pièces où se tient une silhouette ; des cotes fléchées, comme sur un plan d'architecte, mesurent l'embrasure de la porte."
+          credit="Dogubomb"
+          source="https://store.steampowered.com/app/1569580/Blue_Prince/"/>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **L'architecture est la phrase.** Une pièce ne raconte pas seulement par ce
+      qu'elle contient : par où elle mène, ce qu'elle bloque, ce qu'elle coûte à
+      poser. Placer une chambre plutôt qu'un couloir est une décision narrative
+      autant que spatiale, et c'est ce qu'on aimerait obtenir chaque fois qu'on
+      parle de raconter par l'espace.
+
+      **Le savoir du joueur remplace la progression du personnage.** Rien ne se
+      conserve d'un jour à l'autre — sauf ce qu'on a compris. Un code lu dans un
+      livre le troisième jour s'utilise le vingtième, avec un personnage qui n'a
+      rien gardé. La sauvegarde est dans la tête, et sur le papier à côté du
+      clavier.
+
+      **Le tirage empêche l'itinéraire optimal.** On ne peut pas apprendre un
+      chemin : on apprend un lieu, ses règles, ses relations. Voir
+      [[choix-exploratoire]] — on pose une pièce pour voir, et la curiosité
+      remplace le calcul jusqu'au moment où l'on sait assez pour calculer.
+
+      **Le récit se trouve dans les documents.** Lettres, journaux, plaques,
+      notices : rien n'est mis en scène, tout est déposé. Une
+      [[structure-constellation]] où les nœuds sont des pièces et les liens des
+      portes que le hasard ouvre ou non — proche de
+      [[hypnospace-outlaw|Hypnospace Outlaw]], en volume.
+    </markdown>
+
+    <video src="youtube:wIrgdM6shNA"
+           caption="La bande-annonce de sortie, publiée par Raw Fury."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le hasard peut ruiner une journée entière : trois mauvais tirages et l'on
+      se retrouve dans un cul-de-sac sans avoir rien appris. La frustration fait
+      partie du contrat, mais elle rend l'œuvre difficile à montrer en direct
+      devant un groupe.
+
+      Et l'énigme finale demande un temps considérable, un carnet et une certaine
+      obstination. Comme démonstration de génération spatiale au service d'un
+      récit, la première heure suffit ; comme jeu, comptez plusieurs dizaines
+      d'heures.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>

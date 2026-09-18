@@ -4,18 +4,49 @@
   <par>David Dufresne</par>
   <par>Toxa</par>
   <par ref="onf"/>
-  <url>https://www.youtube.com/watch?v=b_nHPKhtUmA</url>
+  <par ref="arte"/>
+  <url>https://web.archive.org/web/20151229144206/http://fortmcmoney.com/</url>
   <categorie>Documentaire</categorie>
+  <categorie>Jeu</categorie>
   <concept ref="role-divinite"/>
+  <concept ref="forme-collaborative"/>
 
-  <resume>Documentaire gamifié sur l'industrie pétrolière canadienne. Les joueurs explorent la ville, collectent des informations et votent sur des décisions politiques. Combine enquête documentaire et mécaniques de jeu.</resume>
+  <resume>Fort McMurray, Alberta : la ville des sables bitumineux, filmée en vidéo et parcourue comme un jeu. On interroge des ouvriers, des patrons, des militants, on ramasse des documents, et à la fin de chaque semaine on vote — sur la croissance, sur la fermeture, sur les redevances. Le vote de tous les joueurs décide de l'état de la ville pour la semaine suivante. Quatre saisons, quatre référendums, puis c'était fini.</resume>
 
   <visuel src="fort-mcmoney.jpg"
-          source="https://www.youtube.com/watch?v=b_nHPKhtUmA"/>
+          source="https://www.youtube.com/watch?v=lsP2K02AM10"/>
 
-  <section title="Pourquoi c'est inspirant">
+  <section title="Ce qui fonctionne">
     <markdown>
-      Pionnier du "jeu documentaire" où les mécaniques ludiques servent à faire comprendre les enjeux politiques et écologiques. Le spectateur devient acteur.
+      **Le référendum est la mécanique, pas la métaphore.** Ce que le joueur décide
+      ne modifie pas sa propre partie : ça modifie celle de tout le monde, une fois
+      agrégé. C'est une position de [[role-divinite|divinité]] qu'on ne détient
+      qu'à plusieurs, et c'est la seule façon honnête de parler d'une décision
+      politique — personne ne l'a jamais prise seul.
+
+      **Le documentaire garde ses images.** Les entretiens sont des entretiens,
+      longs, en plan fixe, avec des gens réels. Le jeu ne les met pas en scène : il
+      décide seulement de l'ordre dans lequel on tombe dessus, et de ce qu'on n'aura
+      pas le temps de voir. La ludification porte sur le parcours, pas sur la
+      matière.
+
+      **Il fallait revenir.** Le déroulé était calé sur des semaines réelles, avec
+      un vote à date fixe. Une œuvre qui impose son calendrier au spectateur plutôt
+      que l'inverse — même pari que [[blaseball]], huit ans plus tôt et sur un sujet
+      documentaire.
+    </markdown>
+
+    <video src="youtube:lsP2K02AM10"
+           caption="La démonstration du jeu par David Dufresne."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      Le site n'existe plus, ni chez l'ONF ni sur son domaine propre. Reste la
+      Wayback Machine, qui rend la coquille sans la vidéo ni les votes : d'une œuvre
+      dont le sujet était la délibération collective, il ne subsiste aucune trace
+      des délibérations. Ce que le [[gaza-sderot|Flash]] a coûté à une génération
+      d'œuvres web, l'infrastructure de vote l'a coûté à celle-ci.
     </markdown>
   </section>
 
