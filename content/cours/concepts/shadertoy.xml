@@ -2,7 +2,7 @@
   <titre>Shadertoy</titre>
   <genre>ressource</genre>
 
-  <resume>Des milliers d'images calculées pixel par pixel, avec leur code en regard. La réserve à aller voir quand on veut savoir ce qu'un navigateur sait dessiner.</resume>
+  <resume>Des milliers d'images calculées pixel par pixel, avec leur code en regard, modifiable dans la page.</resume>
 
   <section title="Ce que c'est">
     <markdown>

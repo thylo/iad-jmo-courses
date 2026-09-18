@@ -1,6 +1,6 @@
 <page id="le-web-hors-du-navigateur">
   <titre>Le web hors du navigateur</titre>
-  <resume>Où tournent HTML, CSS et JavaScript quand il n'y a pas d'onglet : l'habillage d'un stream et celui du JT, la borne du musée, le launcher de jeux, une porte de frigo, une capsule spatiale. Et ce que cette ubiquité coûte.</resume>
+  <resume>Où tournent HTML, CSS et JavaScript quand il n'y a pas d'onglet : l'habillage d'un stream et celui du JT, la borne du musée, le launcher de jeux, une porte de frigo, une capsule spatiale. Puis le poids de ces applications et leurs autres contreparties.</resume>
 
   <image src="dragon-console.jpg"
          width="opening"

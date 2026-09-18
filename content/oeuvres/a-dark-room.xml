@@ -7,7 +7,7 @@
   <categorie>Fiction</categorie>
   <concept ref="structure-a-etat"/>
 
-  <resume>Une page noire, une phrase, un bouton : « ranimer le feu ». Rien d'autre. L'interface se déplie bouton par bouton au fil des heures — un inventaire, une carte, des ressources — et le jeu change trois fois de genre en cours de route sans jamais rien annoncer. Tout est en texte et en HTML.</resume>
+  <resume>Une page noire, une phrase, un bouton : « ranimer le feu ». L'interface se déplie bouton par bouton au fil des heures (un inventaire, une carte, des ressources) et le jeu change trois fois de genre en cours de route sans rien annoncer. Tout est en texte et en HTML.</resume>
 
   <visuel src="a-dark-room.jpg"
           source="https://adarkroom.doublespeakgames.com/"/>

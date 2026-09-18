@@ -4,7 +4,7 @@
   <voir ref="role-divinite"/>
   <voir ref="structure-constellation"/>
 
-  <resume>Des carnets où le code s'exécute pendant qu'on écrit, et où bouger un curseur recalcule tout le reste. L'outil de ceux qui racontent avec des données.</resume>
+  <resume>Des carnets où le code s'exécute pendant qu'on écrit, et où bouger un curseur recalcule tout le reste. Pensé pour la visualisation de données.</resume>
 
   <section title="Ce que c'est">
     <markdown>

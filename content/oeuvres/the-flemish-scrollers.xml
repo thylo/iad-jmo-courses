@@ -8,7 +8,7 @@
   <voir ref="the-follower"/>
   <voir ref="surveillance-speaker"/>
 
-  <resume>Un programme regarde à la place du citoyen. Il ouvre chaque jour la retransmission du Parlement flamand sur YouTube, repère les téléphones à l'image, identifie qui les tient, découpe l'extrait et le publie sur Twitter et Instagram en mentionnant le compte de l'élu. Détection d'objets et reconnaissance faciale sous Keras, découpe vidéo par FFmpeg, le tout en Python. En route depuis le 5 juillet 2021.</resume>
+  <resume>Un programme ouvre chaque jour la retransmission du Parlement flamand sur YouTube, repère les téléphones à l'image, identifie qui les tient, découpe l'extrait et le publie sur Twitter et Instagram en mentionnant le compte de l'élu. Détection d'objets et reconnaissance faciale sous Keras, découpe vidéo par FFmpeg, le tout en Python. En route depuis le 5 juillet 2021.</resume>
 
   <visuel src="the-flemish-scrollers.jpg"
           source="https://driesdepoorter.be/theflemishscrollers/"/>

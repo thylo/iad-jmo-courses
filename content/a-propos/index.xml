@@ -1,6 +1,6 @@
 <page id="a-propos">
   <titre>À propos</titre>
-  <resume>Qui je suis, et par quel chemin j'en suis arrivé à enseigner ça.</resume>
+  <resume>Mon parcours, de l'IAD comme étudiant à l'IAD comme enseignant.</resume>
 
   <markdown>
     De 2005 à 2009, j'ai étudié le multimédia à l'[IAD](https://iad-arts.be), à Louvain-la-Neuve. La même
@@ -65,8 +65,8 @@
   </markdown>
 
   <destinations>
-    <destination to="fabrication">
-      qui écrit le contenu de ce site, et ce qui le fait tourner
+    <destination to="colophon">
+      écrit en grande partie avec Claude, sur un moteur maison
     </destination>
   </destinations>
 </page>

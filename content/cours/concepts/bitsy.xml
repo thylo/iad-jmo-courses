@@ -4,7 +4,7 @@
   <voir ref="structure-a-etat"/>
   <voir ref="interface-point-click"/>
 
-  <resume>Un éditeur de petits jeux narratifs qui tourne dans le navigateur. Trois couleurs, des sprites de huit pixels, pas une ligne de code, et un fichier HTML autonome à la sortie.</resume>
+  <resume>Un éditeur de petits jeux narratifs, dans le navigateur. Trois couleurs, des sprites de huit pixels, pas de programmation, et un fichier HTML autonome à l'export.</resume>
 
   <section title="Ce que c'est">
     <markdown>

@@ -9,7 +9,7 @@
   <concept ref="choix-exploratoire"/>
   <concept ref="role-fantome"/>
 
-  <resume>En 1994, une femme est interrogée sept fois par la police au sujet de la disparition de son mari. Il ne reste de ces entretiens que deux cent soixante et onze fragments vidéo, versés dans la base de données d'un commissariat qu'on interroge par mots-clés. Le corpus n'est jamais montré : la base rend les cinq premiers clips dont la transcription contient le mot tapé, et l'enquête devient une affaire de vocabulaire.</resume>
+  <resume>En 1994, une femme est interrogée sept fois par la police au sujet de la disparition de son mari. Il ne reste de ces entretiens que deux cent soixante et onze fragments vidéo, versés dans la base de données d'un commissariat qu'on interroge par mots-clés. La base rend les cinq premiers clips dont la transcription contient le mot tapé ; trouver les bons mots fait avancer l'enquête.</resume>
 
   <visuel src="her-story.jpg"
           alt="Une bande de fragments d'images côte à côte : la même femme brune, interrogée face caméra, apparaît dans plusieurs plans séparés par des aplats rouges, bleus et beiges. Le titre traverse l'image en grandes capitales blanches, légèrement dédoublées de rouge et de cyan."

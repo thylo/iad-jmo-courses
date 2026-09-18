@@ -1,6 +1,9 @@
-<page id="fabrication">
-  <titre>Comment ce site est fait</titre>
-  <resume>Qui écrit le contenu, et ce qui le fait tourner.</resume>
+<page id="colophon">
+  <titre>Colophon</titre>
+  <definition>
+    n. m. Du grec kolophôn, « achèvement ». Note placée à la fin d'un livre, qui
+    indique qui l'a imprimé, quand, et avec quels caractères.
+  </definition>
 
   <image src="luddites.jpg"
          width="opening"

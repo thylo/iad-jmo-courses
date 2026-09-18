@@ -16,16 +16,14 @@
         trouvailles
       </destination>
       <destination to="panorama">
-        une fresque circulaire de la création numérique, et mes tentatives pour
-        la classer
+        plusieurs façons de ranger les œuvres interactives
       </destination>
       <destination to="cours">
-        les cours par sujet, et pourquoi ces œuvres et un site d'entreprise
-        tournent sur les mêmes technologies
+        les cours rangés par sujet, précédés d'un texte sur ce qu'un site
+        web peut être
       </destination>
       <destination to="articles">
-        des textes qui n'appartiennent à aucun cours : un sujet par page, traité
-        pour lui-même
+        des textes hors cours, un sujet par page
       </destination>
     </destinations>
   </section>

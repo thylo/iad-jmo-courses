@@ -6,7 +6,7 @@
   <url>https://www.albertinemeunier.net/livre-infini</url>
   <categorie>Installation</categorie>
 
-  <resume>Un livre relié dont toutes les pages sont blanches. Des puces RFID dans le papier disent au dispositif quelle page est ouverte ; un vidéoprojecteur posé au-dessus y dépose alors du texte, des images, des vidéos, des messages publiés à l'instant sur un mot-dièse choisi. Le geste de tourner la page reste celui d'un livre, le contenu ne tient jamais en place. Prototype présenté à Futur en Seine en juin 2016, installation au Collège des Bernardins en novembre 2017.</resume>
+  <resume>Un livre relié dont toutes les pages sont blanches. Des puces RFID dans le papier disent au dispositif quelle page est ouverte ; un vidéoprojecteur posé au-dessus y dépose alors du texte, des images, des vidéos, des messages publiés à l'instant sur un mot-dièse choisi. On tourne les pages comme dans un livre ; le contenu change à chaque ouverture. Prototype présenté à Futur en Seine en juin 2016, installation au Collège des Bernardins en novembre 2017.</resume>
 
   <visuel src="albertine-meunier-livre-infini.jpg"
           source="https://www.albertinemeunier.net/livre-infini"/>

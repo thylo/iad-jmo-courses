@@ -12,7 +12,7 @@
   <voir ref="structure-a-etat"/>
   <voir ref="role-personnage"/>
 
-  <resume>Un jeu de plateau dont une partie de la logique vit dans une application. La bonne question n'est pas ce que l'app ajoute, mais ce qu'elle remplace.</resume>
+  <resume>Un jeu de plateau dont une partie de la logique est confiée à une application, qui prend souvent la place d'un joueur ou d'un meneur.</resume>
 
   <section title="Définition">
     <markdown>

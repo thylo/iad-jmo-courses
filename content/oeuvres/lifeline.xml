@@ -9,7 +9,7 @@
   <concept ref="role-soi-meme"/>
   <concept ref="choix-rationnel"/>
 
-  <resume>Taylor, seul survivant d'un vaisseau écrasé sur une lune, ne peut joindre qu'une personne : vous. Tout passe par des notifications. On répond en choisissant entre deux options, puis on attend — s'il marche deux heures, il écrit dans deux heures ; s'il dort, il dort. Il peut mourir de ce qu'on lui a conseillé.</resume>
+  <resume>Taylor, seul survivant d'un vaisseau écrasé sur une lune, ne peut joindre qu'une personne : le joueur. Tout passe par des notifications. On répond en choisissant entre deux options, puis on attend : s'il marche deux heures, il écrit dans deux heures ; s'il dort, il dort. Il peut mourir de ce qu'on lui a conseillé.</resume>
 
   <visuel src="lifeline.jpg"
           alt="Écran du téléphone : une conversation en cours où Taylor écrit « Hello? », « Is this thing working? », « Can anyone read me? », et deux boutons de réponse en bas, « Who are you? » et « What happened? »"

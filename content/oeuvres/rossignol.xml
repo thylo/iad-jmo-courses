@@ -7,7 +7,7 @@
   <categorie>Interface</categorie>
   <concept ref="interface-timeline"/>
 
-  <resume>En août 1914, l'armée allemande fusille des centaines de civils dans les villages de Gaume — Rossignol, Tintigny, Ansart, Saint-Vincent, Bellefontaine. Le mémorial construit sur ces lieux ne les compte pas : il les nomme. Son interface est une base de données qu'on interroge nom par nom, et chaque fiche donne l'âge, le village, la cause du décès et le récit des dernières heures.</resume>
+  <resume>En août 1914, l'armée allemande fusille des centaines de civils dans les villages de Gaume : Rossignol, Tintigny, Ansart, Saint-Vincent, Bellefontaine. Le mémorial construit sur ces lieux les nomme un par un. Son interface est une base de données qu'on interroge nom par nom, et chaque fiche donne l'âge, le village, la cause du décès et le récit des dernières heures.</resume>
 
   <visuel src="rossignol.jpg"
           alt="Intérieur d'un bâtiment de bois clair. Une allée traverse une forêt de hauts poteaux de bois noirci, fendus et irréguliers, dressés serrés comme une palissade et éclairés en rasant. Au premier plan à gauche, un pupitre bas en métal rouillé porte un petit écran incliné qui affiche une rangée de portraits anciens ; à côté, un combiné d'écoute gris en forme de galet."

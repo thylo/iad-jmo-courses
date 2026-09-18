@@ -9,7 +9,7 @@
   <categorie>Jeu</categorie>
   <concept ref="interface-gestural"/>
 
-  <resume>Un album de quarante-quatre pages et une application, à partir de quatre ans. Joe est un petit poisson qui a perdu sa nageoire. Le livre est découpé : on en détache des nageoires en papier qu'on pose sur l'écran de la tablette, qui joue alors le rôle de la surface de l'eau — la nageoire dépasse, comme celle d'un vrai poisson. Et l'application change selon le temps qu'il fait dehors et l'heure qu'il est.</resume>
+  <resume>Un album de quarante-quatre pages et une application, à partir de quatre ans. Joe est un petit poisson qui a perdu sa nageoire. Le livre est découpé : on en détache des nageoires en papier qu'on pose sur l'écran de la tablette, qui joue alors le rôle de la surface de l'eau ; la nageoire dépasse, comme celle d'un vrai poisson. L'application change aussi selon le temps qu'il fait dehors et l'heure qu'il est.</resume>
 
   <visuel src="la-pluie-a-midi.jpg"
           source="https://m.youtube.com/watch?v=PjUfFM2bhc0"/>

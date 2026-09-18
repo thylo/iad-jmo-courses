@@ -1,6 +1,6 @@
 <page id="choix">
   <titre>Types de choix</titre>
-  <resume>Le seul découpage qui juge au lieu de décrire. Un choix peut être rationnel, exploratoire, ou faux. Le faux choix est partout.</resume>
+  <resume>Un choix peut être rationnel, exploratoire ou faux. Contrairement aux autres classements du panorama, celui-ci évalue l'œuvre.</resume>
 
   <markdown>
     Les autres découpages rangent. Celui-ci évalue, et le dit.
@@ -77,8 +77,8 @@
 
     <destinations>
       <destination to="poids-du-choix">
-        Trois degrés de liberté, la sauvegarde et la cinématique, et pourquoi la
-        branche sombre ne sera vue que par une personne sur dix
+        Ce qui fait peser une décision : les degrés de liberté, le retour
+        en arrière, la part du public qui voit chaque branche
       </destination>
     </destinations>
   </section>

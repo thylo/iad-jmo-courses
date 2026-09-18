@@ -10,7 +10,7 @@
   <concept ref="interface-galleries"/>
   <concept ref="role-divinite"/>
 
-  <resume>Une actrice a tourné trois films entre 1968 et 1999. Aucun n'est sorti, et elle a disparu. Il ne reste que les rushes, les essais et les plateaux de tournage, consultables un plan à la fois. On avance en cliquant sur un objet dans l'image, qui renvoie au même objet dans un autre plan : le montage par raccord devient le seul moyen de circuler, et le spectateur monte le film lui-même.</resume>
+  <resume>Une actrice a tourné trois films entre 1968 et 1999. Aucun n'est sorti, et elle a disparu. Il ne reste que les rushes, les essais et les plateaux de tournage, consultables un plan à la fois. On avance en cliquant sur un objet dans l'image, qui renvoie au même objet dans un autre plan : on ne circule que par ces raccords, et c'est le spectateur qui monte le film.</resume>
 
   <visuel src="immortality.jpg"
           alt="Trois affiches de cinéma en train de brûler contre un mur sombre : on distingue le portrait encadré d'une jeune femme, un visage de profil, et des génériques à demi consumés."

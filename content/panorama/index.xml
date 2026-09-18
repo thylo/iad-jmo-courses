@@ -1,6 +1,6 @@
 <page id="panorama">
   <titre>Panorama</titre>
-  <resume>Différentes façons de ranger les œuvres interactives proposées pour montrer l'étendue de ce qui existe.</resume>
+  <resume>Plusieurs façons de ranger les œuvres interactives, pour montrer l'étendue de ce qui existe.</resume>
 
   <image src="jeux-d-enfants.jpg"
          width="full"
@@ -50,8 +50,8 @@
 
     <destinations rank="lead">
       <destination to="introduction">
-        Le film qui bifurque, la messagerie, la rue, la table, le tableur. Sept
-        catégories, rangées par l'endroit où le récit se tient
+        D'où vient l'interactivité, puis sept catégories rangées par
+        l'endroit où se tient le récit. À lire en premier
       </destination>
     </destinations>
   </section>
@@ -64,24 +64,25 @@
 
     <destinations>
       <destination to="structures">
-        Une ligne, des embranchements, une constellation, un système qui se souvient.
-        La forme du récit seule, support ignoré, et ce qu'elle coûte à écrire
+        Sept formes de récit, quel que soit le support : linéaire,
+        élastique, parallèle, concentrique, en embranchements, en
+        constellation, à état
       </destination>
       <destination to="interlocuteurs">
-        Le système, les autres spectateurs, ou l'œuvre elle-même qu'on fabrique. Une
-        seule des trois réponses laisse l'auteur maître de ce qui se raconte
+        Trois interlocuteurs possibles : le système, les autres
+        spectateurs, ou l'œuvre qu'on fabrique
       </destination>
       <destination to="roles">
-        Soi-même, un personnage, un fantôme qui observe, une divinité qui décide.
-        La place assignée au public, décidée à l'écriture bien avant le code
+        La place donnée au public : soi-même, un personnage, un fantôme
+        qui observe, une divinité qui décide
       </destination>
       <destination to="choix">
-        Rationnel, exploratoire, ou faux. Le seul découpage qui juge au lieu de
-        décrire, et celui qui démasque une interactivité de façade
+        Trois sortes de choix : rationnel, exploratoire ou faux
       </destination>
       <destination to="raconter-par-l-espace">
-        Un espace évocateur, un trajet, un palais de mémoire, un cadre où le récit
-        se fabrique tout seul. Ce que le lieu raconte quand personne ne parle
+        Quatre façons de faire tenir un récit dans un lieu : un espace
+        évocateur, un trajet, un palais de mémoire, un cadre où le récit
+        se fabrique tout seul
       </destination>
     </destinations>
   </section>
@@ -95,8 +96,8 @@
 
     <destinations>
       <destination to="interfaces">
-        Une carte, une frise, un écran partagé, un point &amp; click, un scroll, un
-        plateau. La forme concrète que ça prend à l'écran
+        Ce que l'œuvre montre à l'écran : une carte, une frise, un écran
+        partagé, un point &amp; click, un scroll, un plateau
       </destination>
     </destinations>
   </section>
@@ -110,12 +111,12 @@
 
     <destinations>
       <destination to="hors-ecran">
-        Écran compagnon, écran accessoire, ou pas d'écran du tout. Le jeu de société
-        va aussi loin, souvent plus loin, sans une ligne de code
+        Écran compagnon, écran accessoire, ou pas d'écran du tout,
+        jusqu'au jeu de société et au jeu de rôle
       </destination>
       <destination to="interactivite-oeuvre">
-        Des installations et des machines qui ne racontent rien et n'ont personne à
-        servir. L'interaction n'y transporte rien : elle est l'œuvre
+        Des installations et des machines sans histoire, où l'interaction
+        est le sujet
       </destination>
     </destinations>
   </section>

@@ -8,7 +8,7 @@
   <categorie>Muséale</categorie>
   <concept ref="forme-collaborative"/>
 
-  <resume>Cinq machines installées au Science Museum de Londres, du 19 juillet 2012 à l'été 2013, et pilotables depuis n'importe quel navigateur. Un orchestre de huit robots dont on écrit la partition à plusieurs, des bras qui dessinent votre portrait dans du sable, des périscopes motorisés qui donnent une vue en direct d'ailleurs dans le monde, une carte qui trace le chemin physique d'une requête. La même machine, pour le visiteur sur place et pour celui qui est chez lui.</resume>
+  <resume>Cinq machines installées au Science Museum de Londres, du 19 juillet 2012 à l'été 2013, et pilotables depuis n'importe quel navigateur. Un orchestre de huit robots dont on écrit la partition à plusieurs, des bras qui dessinent le portrait du visiteur dans du sable, des périscopes motorisés qui donnent une vue en direct d'ailleurs dans le monde, une carte qui trace le chemin physique d'une requête. Chaque machine se pilotait aussi bien sur place qu'à distance.</resume>
 
   <visuel src="web-lab.jpg"
           source="https://m.youtube.com/watch?v=RrgjufJhmwk"/>

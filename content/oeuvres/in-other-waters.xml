@@ -8,7 +8,7 @@
   <concept ref="interface-maps"/>
   <concept ref="role-personnage"/>
 
-  <resume>Le joueur est l'intelligence artificielle de la combinaison de plongée d'une xénobiologiste, sur une planète océan. Cette planète ne se verra jamais : tout passe par un tableau de bord vectoriel, des relevés, des points sur une carte. C'est elle qui décrit, lui qui oriente, et l'absence d'image produit plus de monde que n'en produirait un rendu.</resume>
+  <resume>Le joueur est l'intelligence artificielle de la combinaison de plongée d'une xénobiologiste, sur une planète océan. Cette planète ne se voit jamais : tout passe par un tableau de bord vectoriel, des relevés, des points sur une carte. Elle décrit, le joueur oriente.</resume>
 
   <visuel src="in-other-waters.jpg"
           alt="Vu de dos, un plongeur en scaphandre jaune s'enfonce dans une eau turquoise au-dessus d'un fond d'algues, un câble tendu derrière lui."

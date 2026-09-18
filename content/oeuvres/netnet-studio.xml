@@ -5,7 +5,7 @@
   <url>https://netnet.studio/?tutorial=what-is-code</url>
   <categorie>Outil</categorie>
 
-  <resume>Un éditeur de code qui vit dans la page qu'il fabrique : on écrit du HTML, du CSS et du JavaScript, et le résultat est l'arrière-plan de l'éditeur lui-même. Un assistant dessiné accompagne des tutoriels qui commencent à « qu'est-ce que du code ». Rien à installer, rien à compiler, rien à déployer.</resume>
+  <resume>Un éditeur de code qui vit dans la page qu'il fabrique : on écrit du HTML, du CSS et du JavaScript, et le résultat est l'arrière-plan de l'éditeur lui-même. Un assistant dessiné accompagne des tutoriels qui commencent à « qu'est-ce que du code ». Rien à installer.</resume>
 
   <visuel src="netnet-studio.jpg"
           source="https://netnet.studio/?tutorial=what-is-code"/>

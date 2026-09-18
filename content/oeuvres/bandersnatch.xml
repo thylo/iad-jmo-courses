@@ -11,7 +11,7 @@
   <concept ref="role-personnage"/>
   <concept ref="faux-choix"/>
 
-  <resume>1984 : un jeune programmeur adapte un roman dont on est le héros en jeu vidéo, et perd pied. Deux cent cinquante segments pour cent cinquante minutes de rushes uniques, cinq fins principales, dix secondes pour choisir avant que la machine décide à votre place. Netflix a écrit un outil maison, Branch Manager, pour tenir l'arbre.</resume>
+  <resume>1984 : un jeune programmeur adapte un roman dont on est le héros en jeu vidéo, et perd pied. Deux cent cinquante segments pour cent cinquante minutes de rushes uniques, cinq fins principales, dix secondes pour choisir avant que la machine décide à la place du spectateur. Netflix a écrit un outil maison, Branch Manager, pour tenir l'arbre.</resume>
 
   <visuel src="bandersnatch.jpg"
           alt="Un jeune homme aux cheveux bouclés, assis devant un écran hors champ, tient un joystick à boule rouge des deux mains, le regard fixe."

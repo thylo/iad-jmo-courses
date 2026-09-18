@@ -1,6 +1,6 @@
 <page id="articles">
   <titre>Articles</titre>
-  <resume>Des textes qui n'appartiennent à aucun cours : un sujet par page, traité pour lui-même.</resume>
+  <resume>Des textes hors cours, un sujet par page.</resume>
 
   <markdown>
     Ces textes ne sont pas des cours et ne supposent rien de lu avant. Chacun prend
@@ -9,9 +9,8 @@
 
   <destinations>
     <destination to="le-web-hors-du-navigateur">
-      Là où HTML, CSS et JavaScript tournent sans navigateur visible : l'habillage
-      d'un stream, la borne du musée, une porte de frigo, une capsule spatiale. Et
-      ce que cette ubiquité coûte
+      HTML, CSS et JavaScript sans navigateur visible : l'habillage d'un
+      stream, la borne du musée, une porte de frigo, une capsule spatiale
     </destination>
   </destinations>
 </page>

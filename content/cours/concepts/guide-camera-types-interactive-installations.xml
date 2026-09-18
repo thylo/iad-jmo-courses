@@ -3,7 +3,7 @@
   <genre>ressource</genre>
   <voir ref="structure-concentrique"/>
 
-  <resume>Guide complet sur le choix des caméras pour les installations interactives. Couvre webcams, caméras infrarouge, de profondeur et thermiques avec leurs avantages, inconvénients et cas d'usage.</resume>
+  <resume>Les caméras utilisables pour une installation interactive : webcams, caméras infrarouges, de profondeur et thermiques, avec leurs avantages, leurs limites et leurs usages.</resume>
 
   <section title="Résumé">
     <markdown>

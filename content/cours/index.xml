@@ -1,87 +1,26 @@
 <page id="cours">
   <titre>Cours</titre>
-  <resume>Les cours, nommés par leur sujet, et la lecture qui leur sert de socle commun.</resume>
 
-  <section title="Plus qu'une brochure">
-    <markdown>
-      Quand on dit « site web », presque tout le monde voit la même chose : un
-      bandeau, un menu, trois pages, un formulaire de contact. C'est un usage parmi
-      d'autres.
-
-      Les œuvres du [panorama](/panorama) tournent sur exactement les mêmes
-      technologies que ce bandeau et ce menu : HTML, CSS, JavaScript, une adresse et
-      un serveur. Aucune ne demande un langage secret. La différence tient à ce qu'on
-      décide d'en faire.
-
-      ### Trois parodies
-
-      D'autres l'ont remarqué, et l'ont montré par la parodie.
-
-      - [Every Fucking Bootstrap Website Ever](http://www.dagusa.com/) (2016). Le
-        gabarit *Creative* de Bootstrap, rendu à lui-même : en-tête plein écran,
-        quatre icônes, et un bouton dont le seul argument est « This button makes the
-        page scroll »
-      - [Every Fucking Website](https://lxe.github.io/everywebsite/) (2020). Cette
-        fois, les interruptions : bandeau d'alerte, bandeau cookies, fenêtre
-        d'inscription avec son code promo, robot de chat qui dit bonjour
-      - [Every Fucking AI-Coded Website Ever](https://vibe-coded.lol/) (2025). Le
-        dégradé sur le titre, le badge de startup, les métriques fières
-        (« $0 REVENUE · ∞ TECHNICAL DEBT · ZERO TESTS »), les liens qui ne mènent
-        nulle part
-
-      Le troisième reprend le gabarit du premier, neuf ans plus tard. Même feuille de style `creative.css`, même
-      en-tête, mêmes quatre icônes. Seule la peinture a changé : Bootstrap en 2016,
-      génération automatique en 2025.
-
-      Le risque du gabarit porte sur le sujet plus que sur le style. Une forme choisie
-      ailleurs ne peut pas savoir ce qu'un propos a d'irremplaçable, et elle l'aplatit
-      au même rang que le reste. La question utile est de savoir si la forme fait
-      quelque chose dont ce propos-là avait besoin.
-
-      ### Ce qui sépare une brochure d'une œuvre
-
-      Le socle est le même. Ce qui change, ce sont les capacités qu'on va chercher.
-
-      | | une brochure s'en sert pour | une œuvre s'en sert pour |
-      |---|---|---|
-      | **Canvas et WebGL** | rien | dessiner, générer, rendre en temps réel : [Lusion](/oeuvres/lusion) |
-      | **Web Audio** | rien | analyser une voix, fabriquer un son |
-      | **WebSockets, WebRTC** | rien | synchroniser plusieurs personnes, plusieurs écrans |
-      | **`localStorage`** | un bandeau cookies | retenir où en est le récit |
-      | **le défilement** | descendre la page | doser le rythme d'une lecture |
-      | **la géolocalisation** | « trouver un magasin » | déclencher une scène à un endroit précis |
-
-      La même boîte à outils sert deux projets sans rapport, et aucun de ces noms n'est
-      réservé à qui que ce soit.
-
-      Et cette boîte à outils ne reste pas dans l'onglet. Les mêmes trois langages
-      tiennent l'interface d'une télévision, d'une borne de musée et d'une capsule
-      spatiale. C'est une raison d'apprendre le matériau, et
-      [une chose à regarder de près](/articles/le-web-hors-du-navigateur).
-    </markdown>
-  </section>
-
-  <section title="Les cours">
+  <section title="2026-2027">
     <destinations>
       <destination to="decrypter-l-interactivite">
-        Quatre séances sans une ligne de code : analyser des œuvres, concevoir,
-        défendre ses choix
+        Quatre séances d'analyse d'œuvres et de conception, sans
+        programmer
       </destination>
       <destination to="logique-de-programmation">
-        Ce qu'est le code et ce qu'on en fait, du système de coordonnées au premier
-        programme qui tourne
+        Les bases du code, du système de coordonnées au premier programme
       </destination>
     </destinations>
   </section>
 
-  <section title="Deux répertoires à garder ouverts">
+  <section title="Annexes">
     <destinations>
       <destination to="concepts">
-        Le vocabulaire d'analyse : structures, formes, rôles, interfaces, types de
-        choix, et quelques outils à essayer
+        Le vocabulaire d'analyse : structures, formes, rôles, interfaces,
+        types de choix, outils
       </destination>
       <destination to="personnes">
-        Celles et ceux dont on regarde le travail, et les studios derrière les œuvres
+        Les personnes et les studios qui sont évoqués en cours
       </destination>
     </destinations>
   </section>
