@@ -1,0 +1,44 @@
+<page id="fabrication">
+  <titre>Comment ce site est fait</titre>
+  <resume>Qui écrit le contenu, et ce qui le fait tourner.</resume>
+
+  <image src="luddites.jpg"
+         width="opening"
+         alt="Gravure en noir et blanc. Dans un atelier de tissage, deux hommes en gilet et manches retroussées s'en prennent à un grand métier à tisser. Celui de gauche lève une masse au-dessus de sa tête, celui de droite arrache une pièce du mécanisme à deux mains. Derrière eux, une rangée d'autres métiers s'enfonce vers le fond de l'atelier, sous les courroies et les arbres de transmission. Au sol, une navette et des débris."
+         caption="Luddites brisant un métier à tisser. Le mouvement réunit, à partir de 1811, des ouvriers qualifiés du textile anglais que la mécanisation privait de travail. L'atelier reprend une gravure du Penny Magazine de 1844."
+         credit="Artiste inconnu — domaine public, via World History Encyclopedia"
+         source="https://www.worldhistory.org/image/17132/luddites-smashing-textile-machines/"/>
+
+  <section title="L'écriture">
+    <markdown>
+      Soyons honnêtes, la grande majorité du contenu de ce site a été généré via
+      Claude à partir de bouts de contenus épars que j'ai assemblés au cours des
+      années dans différents formats. Je n'ai pas la prétention d'avoir la science
+      infuse ou un don particulier pour l'écriture. L'IA a ici été utilisée non
+      comme une fin en soi, mais dans une démarche d'apprentissage de ses forces et
+      faiblesses. J'ai essayé de nourrir la discussion avec rigueur et honnêteté.
+      Malgré cela, certains contenus sont actuellement de piètre qualité et
+      nécessiteront plus d'amour pour être vraiment utiles et informatifs.
+    </markdown>
+  </section>
+
+  <section title="Le moteur">
+    <markdown>
+      Le site tourne sur un moteur maison écrit en PHP, basé sur
+      [Tempest](https://tempestphp.com). Il n'y a pas d'étape de génération :
+      chaque page est fabriquée au moment où elle est demandée, à partir de
+      fichiers XML et Markdown.
+
+      Les œuvres, les personnes et les concepts sont des fiches typées qui se
+      citent entre elles. Une page de studio ne tient pas la liste de ses œuvres :
+      ce sont les œuvres qui nomment leur studio, et la page lit la relation dans
+      l'autre sens. Les index des rubriques se calculent de la même façon.
+
+      La feuille de style est écrite à la main, sans framework. Aucun JavaScript
+      n'est nécessaire à la lecture. Les titres sont composés en Shippori Mincho,
+      le texte en Zen Kaku Gothic New.
+
+      Jusqu'en 2026, le site tournait sur Astro.
+    </markdown>
+  </section>
+</page>

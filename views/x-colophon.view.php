@@ -13,7 +13,7 @@
         Ce site n'est pas figé&nbsp;: c'est un espace de travail qui se refait au fil
         des semestres, des retours des étudiants et des essais ratés. La majorité
         du contenu a été générée avec Claude à partir de mes notes&nbsp;:
-        <a href="/a-propos#comment-ce-site-est-écrit">pourquoi, et avec quelles limites</a>.
+        <a href="/a-propos/fabrication">pourquoi, et avec quelles limites</a>.
         Il tourne sur un moteur de site maison basé sur
         <a href="https://tempestphp.com">Tempest</a>.
         <a href="mailto:julien@thylo.be">julien@thylo.be</a>

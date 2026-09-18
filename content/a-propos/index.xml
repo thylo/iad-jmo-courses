@@ -64,16 +64,9 @@
     Pour me joindre : julien@thylo.be.
   </markdown>
 
-  <section title="Comment ce site est écrit">
-    <markdown>
-      Soyons honnêtes, la grande majorité du contenu de ce site a été généré via
-      Claude à partir de bouts de contenus épars que j'ai assemblés au cours des
-      années dans différents formats. Je n'ai pas la prétention d'avoir la science
-      infuse ou un don particulier pour l'écriture. L'IA a ici été utilisée non
-      comme une fin en soi, mais dans une démarche d'apprentissage de ses forces et
-      faiblesses. J'ai essayé de nourrir la discussion avec rigueur et honnêteté.
-      Malgré cela, certains contenus sont actuellement de piètre qualité et
-      nécessiteront plus d'amour pour être vraiment utiles et informatifs.
-    </markdown>
-  </section>
+  <destinations>
+    <destination to="fabrication">
+      qui écrit le contenu de ce site, et ce qui le fait tourner
+    </destination>
+  </destinations>
 </page>
