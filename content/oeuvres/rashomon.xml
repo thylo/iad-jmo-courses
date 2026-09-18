@@ -1,0 +1,60 @@
+<oeuvre id="rashomon" statut="en-ligne">
+  <titre>Rashōmon</titre>
+  <annee>1950</annee>
+  <par>Akira Kurosawa</par>
+  <par>Shinobu Hashimoto</par>
+  <categorie>Fiction</categorie>
+  <concept ref="structure-concentrique"/>
+  <concept ref="structure-lineaire"/>
+
+  <resume>Film d'Akira Kurosawa sorti en 1950, tiré de deux nouvelles de Ryūnosuke Akutagawa. Sous la porte en ruine de Rashōmon, trois hommes s'abritent de la pluie et reparlent d'un procès : un samouraï a été tué dans un bois, sa femme violée. Le bandit, la femme, le mort par la bouche d'une médium et un bûcheron racontent la scène l'un après l'autre. Selon qui parle, le samouraï meurt de la main du bandit, de celle de sa femme ou de la sienne.</resume>
+
+  <section title="Pourquoi c'est inspirant">
+    <markdown>
+      **Quatre versions, et aucune ne l'emporte.** Le film se regarde d'un bout à
+      l'autre sans rien à choisir. Quatre flash-backs rejouent pourtant la même
+      demi-heure dans le bois, et le film ne tranche jamais entre eux. C'est une
+      [[structure-concentrique]] tenue dans une [[structure-lineaire]] : le crime
+      reste au centre, les récits tournent autour, et le montage décide de l'ordre
+      à la place du public.
+
+      **Le juge n'apparaît jamais.** Les témoins déposent face à la caméra, dans la
+      cour du tribunal, et répondent à des questions qu'on n'entend pas. La place du
+      magistrat revient au spectateur. Il n'a aucune commande, et le film lui confie
+      quand même ce que l'interactif réserve d'habitude à l'utilisateur : départager
+      des récits.
+
+      **Chaque récit arrange celui qui le raconte.** Le bandit se donne un duel
+      loyal. La femme raconte le mépris de son mari et un évanouissement, le poignard
+      à la main. Le mort, par la médium, s'accorde une fin digne : il s'est tué
+      lui-même. Le bûcheron parle en dernier et décrit un combat pitoyable entre
+      deux hommes terrifiés. Il a menti lui aussi, au tribunal : son récit tait le
+      poignard qu'il a emporté.
+
+      Un point de vue vaut ici par ce qu'il arrange. Le récit tient dans les écarts
+      entre les versions, et une œuvre à plusieurs perspectives qui aligne des
+      témoignages concordants perd ce ressort. L'expression « effet Rashōmon » est
+      passée dans l'usage, en droit comme en sciences sociales, pour nommer des
+      témoignages contradictoires d'un même événement.
+    </markdown>
+
+    <video src="youtube:L2E_DfExUmU"
+           caption="La bande-annonce de la ressortie en salles de 2023, publiée par le BFI."/>
+  </section>
+
+  <section title="Ce qui coince">
+    <markdown>
+      La confrontation se fait dans la tête du spectateur, et nulle part ailleurs. Il
+      ne peut pas revoir un passage à côté d'un autre, ni comparer deux versions du
+      même geste : le film impose l'ordre et le tempo. Une version interactive de la
+      même matière laisserait circuler entre les récits, au prix du contrôle que le
+      montage exerce ici.
+
+      Après quatre récits sans conclusion, le film finit sur un geste d'espoir : le
+      bûcheron recueille un nourrisson abandonné sous la porte, et la pluie cesse.
+      L'ambiguïté porte sur les faits, jamais sur la morale.
+    </markdown>
+  </section>
+
+  <backlinks/>
+</oeuvre>
