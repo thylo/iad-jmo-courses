@@ -15,9 +15,9 @@
       spectateur compare au lieu de se souvenir.
 
       C'est l'interface la plus exigeante du lot, parce qu'elle entre en concurrence
-      directe avec le montage — un outil vieux d'un siècle, parfaitement maîtrisé, et
-      meilleur dans presque tous les cas. Elle ne gagne que sur
-      un terrain : quand la simultanéité elle-même est l'information.
+      directe avec le montage, un outil vieux d'un siècle et meilleur dans presque tous
+      les cas. Elle ne l'emporte que lorsque la simultanéité elle-même est
+      l'information.
     </markdown>
   </section>
 
@@ -34,7 +34,7 @@
         puis B »                          B »
 
       C'est l'auteur qui décide        C'est le spectateur qui
-      de la comparaison                décide où regarder — et
+      de la comparaison                décide où regarder, et
                                        ce qu'il rate en le faisant
       ```
     </markdown>
@@ -44,17 +44,17 @@
     <markdown>
       [[gaza-sderot]] filme deux villes séparées par quelques kilomètres et une
       frontière, pendant quarante jours, à la même heure chaque jour. Le dispositif
-      tient entièrement dans le partage de l'écran : le sujet n'est aucune des deux
-      vies, c'est le fait qu'elles se déroulent en même temps.
+      tient entièrement dans le partage de l'écran : le sujet est le fait que les deux
+      vies se déroulent en même temps.
 
-      Aucun montage ne dit ça. Alterner produirait une comparaison, pas une
-      simultanéité — et surtout, alterner voudrait dire choisir l'ordre, donc prendre
-      parti. L'écran partagé refuse cette décision, et ce refus est le propos.
+      Un montage alterné produirait une comparaison. Il obligerait aussi à choisir
+      l'ordre, donc à prendre parti. L'écran partagé refuse cette décision, et ce refus
+      fait partie du propos.
 
       [[flashback-zombie-kidz]] en donne la version cartonnée : une scène figée, vue
-      par les yeux de chaque personnage qui s'y trouve. Presque aucun texte. Le récit
-      tient au montage que les joueurs font entre les points de vue — et c'est en
-      posant les cartes côte à côte, sur une table, que ça se joue.
+      par les yeux de chaque personnage qui s'y trouve. Il n'y a presque aucun texte.
+      Le récit tient au montage que les joueurs font entre les points de vue, en
+      posant les cartes côte à côte sur la table.
     </markdown>
   </section>
 
@@ -67,34 +67,33 @@
       **Le son ne se partage pas.** Deux images cohabitent, deux bandes-son se
       détruisent. Il faut trancher, et ce choix est plus lourd que le choix visuel.
 
-      **Deux, pas quatre.** Au-delà de deux fenêtres, on ne compare plus, on
-      surveille — ce qui est un autre sujet, et un sujet intéressant, mais qu'il faut
-      assumer comme tel.
+      **Deux fenêtres au plus.** Au-delà, on surveille plus qu'on ne compare. C'est un
+      autre sujet, à assumer comme tel.
     </markdown>
   </section>
 
   <section title="Erreurs courantes">
     <markdown>
-      - Partager l'écran pour « montrer plus » : c'est en montrer moins, deux fois
+      - Partager l'écran pour « montrer plus » : chaque image reçoit moitié moins
+        d'attention
       - Deux images qui ne se répondent pas. Sans rapport entre elles, la division
         est décorative
       - Laisser les deux bandes-son tourner
-      - Sur mobile : deux fenêtres côte à côte sur un écran de six pouces ne sont plus
-        deux fenêtres, ce sont deux vignettes
+      - Sur mobile : deux fenêtres côte à côte sur un écran de six pouces deviennent
+        deux vignettes
     </markdown>
   </section>
 
   <section title="En pratique">
     <markdown>
-      **Écrire la question, pas le dispositif.** « Que se passe-t-il ailleurs pendant
-      cette scène ? » est un point de départ ; « je voudrais faire un split screen »
-      n'en est pas un.
+      **Partir de la question.** « Que se passe-t-il ailleurs pendant cette scène ? »
+      est un point de départ, « je voudrais faire un split screen » ne l'est pas.
 
       **La main sur le son.** Laisser le spectateur choisir quelle fenêtre il entend
       est la solution la plus simple, et elle rend le partage actif.
 
       **Une seule séquence peut suffire.** L'écran partagé se réserve : utilisé
-      partout, il perd exactement ce qui le rendait signifiant.
+      partout, il perd ce qui le rendait signifiant.
     </markdown>
   </section>
 

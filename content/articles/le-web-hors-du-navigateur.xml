@@ -33,7 +33,7 @@
       - **Visual Studio Code** : l'éditeur lui-même est une application Electron, et
         ses extensions affichent leurs vues en HTML
       - **Steam** : depuis juin 2023, toute l'interface du client est rendue par CEF et
-        écrite en React — le magasin, la bibliothèque, l'*overlay* par-dessus le jeu,
+        écrite en React : le magasin, la bibliothèque, l'*overlay* par-dessus le jeu,
         et l'interface du Steam Deck. C'est
         [documenté par Valve](https://developer.valvesoftware.com/wiki/Chromium_Embedded_Framework),
         qui explique aussi comment y brancher un inspecteur
@@ -43,7 +43,7 @@
       - **After Effects, Premiere, Photoshop** : les panneaux d'extension (CEP) sont des
         pages HTML/CSS/JS. Adobe migre vers UXP, qui s'en éloigne, mais des milliers
         d'extensions installées aujourd'hui sont du web
-      - **Figma** : l'interface d'un plugin est une page web, point
+      - **Figma** : l'interface d'un plugin est une page web
       - **Unity** : l'UI Toolkit se décrit en UXML et se met en forme en USS, deux
         formats copiés sur HTML et CSS. Le sélecteur, la cascade, le flexbox : tout y est
       - **Unreal** : un widget navigateur permet d'afficher une page dans l'éditeur ou
@@ -82,18 +82,18 @@
       le passager interagit avec un navigateur, sur l'écran du dossier devant lui ou
       sur son propre téléphone.
 
-      Un cas mérite d'être connu parce qu'il complique la règle. L'application Netflix
+      Un cas complique la règle. L'application Netflix
       sur les téléviseurs est bien du JavaScript, mais son moteur maison, Gibbon,
       [abandonne le DOM sur les appareils faibles](https://netflixtechblog.com/crafting-a-high-performance-tv-user-interface-using-react-3350e5a6ad3b)
-      et dessine tout dans un canvas. Il reste le langage et l'outillage, il ne reste
-      pas les pages. « C'est du web » ne décrit donc pas un appareil à soi seul : reste
-      à savoir quelle partie du web, et ce qui est abandonné en route.
+      et dessine tout dans un canvas. Il garde le langage et l'outillage, et abandonne
+      les pages. « C'est du web » ne suffit donc pas à décrire un appareil : il faut
+      savoir quelle partie du web reste.
     </markdown>
   </section>
 
   <section title="L'habillage, du salon au JT">
     <markdown>
-      Le graphisme animé posé sur une image en direct — compteur, bandeau, résultat —
+      Le graphisme animé posé sur une image en direct (compteur, bandeau, résultat)
       se fabrique de la même façon aux deux bouts de l'échelle : chez un streamer et
       dans un studio de télévision.
 
@@ -112,8 +112,8 @@
            source="https://commons.wikimedia.org/wiki/File:OBS_Studio_32.1.2_Screenshot.png"/>
 
     <markdown>
-      **À l'antenne.** Même principe, avec une exigence de fiabilité qui n'a rien à
-      voir. Le synthé qui donne le nom de l'invité, le tiers inférieur, les résultats
+      **À l'antenne.** Même principe, avec une exigence de fiabilité bien plus
+      haute. Le synthé qui donne le nom de l'invité, le tiers inférieur, les résultats
       sportifs, la soirée électorale : les moteurs de graphisme composent sur l'image
       en direct des gabarits [écrits en HTML5](https://www.vizrt.com/news-articles/broadcasting/cutting-edge-html5-graphics-for-broadcasting/),
       qui reçoivent leurs données au moment de passer. L'habillage de la RTBF marche
@@ -136,12 +136,11 @@
       en production 24 heures sur 24 depuis 2006, et son *HTML producer* est un CEF de
       plus : il charge une adresse et la compose sur le signal. La télévision publique
       finlandaise publie de son côté [son pupitre de pilotage](https://github.com/Yleisradio/caspartool),
-      un client dans le navigateur pour envoyer les gabarits à l'antenne. Deux
-      diffuseurs nationaux, du code lisible, rien à acheter.
+      un client dans le navigateur pour envoyer les gabarits à l'antenne. Chez ces deux
+      diffuseurs nationaux, le code est lisible et rien n'est à acheter.
 
       Un streamer avec vingt spectateurs et le journal de vingt heures habillent donc
-      leur image dans le même langage. Ce qui les sépare n'est pas la technique : c'est
-      la latence tolérée, le nombre de gens qui regardent quand la page plante, et le
+      leur image dans le même langage. Ils diffèrent par la latence tolérée, le nombre de gens qui regardent quand la page plante, et le
       fait qu'à l'antenne, personne ne peut recharger.
     </markdown>
   </section>
@@ -155,8 +154,7 @@
 
       **La montre.** De 2014 à 2021, les montres Samsung sous Tizen acceptaient le même
       genre d'application. Puis la marque est passée à Wear OS et a fermé la
-      distribution des applis web pour montre. Le web arrive partout, et il en repart
-      aussi.
+      distribution des applis web pour montre.
 
       **Les objets connectés ordinaires.** Le routeur, l'imprimante, le NAS, l'onduleur,
       la station météo, l'imprimante 3D avec OctoPrint, la domotique avec Home
@@ -184,7 +182,7 @@
            source="https://commons.wikimedia.org/wiki/File:LG_Smart_Refrigerator_at_CES_2011.jpg"/>
 
     <markdown>
-      Un mot sur ce que ça ne veut pas dire. La capsule ne vole pas en JavaScript : le
+      La capsule ne vole pas pour autant en JavaScript : le
       logiciel de vol est en C++, et l'un des ingénieurs de l'équipe a pris la peine de
       le préciser publiquement.
     </markdown>
@@ -200,16 +198,14 @@
     </quote>
 
     <markdown>
-      Le web est l'interface, pas le pilote. C'est sa place partout ailleurs sur cette
-      page : le frigo refroidit sans JavaScript, et la télé décode l'image sans
+      Le web s'occupe de l'interface, comme partout ailleurs sur cette page : le frigo refroidit sans JavaScript, et la télé décode l'image sans
       JavaScript.
     </markdown>
   </section>
 
   <section title="Trois façons d'arriver là">
     <markdown>
-      Les exemples qui précèdent sont nombreux ; les montages qui les produisent sont
-      trois.
+      Les exemples qui précèdent reposent sur trois montages.
 
       **L'application embarque un navigateur.** Elle est livrée avec son moteur : c'est
       Electron, c'est CEF (*Chromium Embedded Framework*), c'est la WebView du système
@@ -232,8 +228,8 @@
       Jusqu'ici, chaque exemple répond à une commande. Les mêmes langages servent aussi
       à des travaux que personne n'a demandés.
 
-      **Peindre.** Diana Smith code des tableaux à la main, en HTML et en CSS. Aucune
-      image, aucun SVG, pas une ligne de JavaScript : des milliers de rectangles, de
+      **Peindre.** Diana Smith code des tableaux à la main, en HTML et en CSS. Sans
+      image, sans SVG ni JavaScript : des milliers de rectangles, de
       dégradés et de masques, écrits un par un. *[Pure CSS Francine](https://diana-adrianne.com/purecss-francine/)*
       imite une huile du XVIII<sup>e</sup>,
       *[Pure CSS Lace](https://diana-adrianne.com/purecss-lace/)* un portrait baroque
@@ -243,7 +239,7 @@
     <image src="purecss-francine.jpg"
            width="field"
            alt="Portrait d'une femme en robe bleue à épaules dénuées, coiffée d'une haute perruque blonde ornée d'un ruban et d'une plume rose, sur fond sombre dégradé, dans un cadre doré. Le rendu imite la peinture à l'huile : ombres douces sur la peau, plis du satin, mèches individuelles."
-           caption="Diana Smith, « Pure CSS Francine », 2019. Le tableau n'est pas une image : c'est une page HTML mise en forme par une feuille de style, affichée ici dans un navigateur."
+           caption="Diana Smith, « Pure CSS Francine », 2019. Le tableau est une page HTML mise en forme par une feuille de style, affichée ici dans un navigateur."
            credit="Diana Smith (cyanHarlow)"
            source="https://diana-adrianne.com/purecss-francine/"/>
 
@@ -253,7 +249,7 @@
       reste en CSS. [CSSBattle](https://cssbattle.dev/) demande de reproduire une image
       cible avec le moins de caractères possible.
 
-      **Séparer la forme du fond, pour de vrai.**
+      **Séparer la forme du fond.**
       [CSS Zen Garden](https://csszengarden.com/), ouvert en 2003, est un unique fichier
       HTML que personne n'a jamais modifié, habillé par des centaines de feuilles de
       style envoyées par des inconnus. Deux versions n'ont visuellement rien en commun.
@@ -263,7 +259,7 @@
       **Sortir un fichier.** [Remotion](https://www.remotion.dev/) rend une vidéo image
       par image à partir de composants web : la mise en forme et l'animation s'écrivent
       en CSS, une commande produit un MP4. Le projet est du texte, donc versionnable,
-      générable en série et pilotable par des données — cent capsules avec cent noms
+      générable en série et pilotable par des données : cent capsules avec cent noms
       différents ne demandent pas cent rendus à la main.
 
       **Imprimer.** [Paged.js](https://pagedjs.org/) pagine une page web pour en faire
@@ -281,16 +277,16 @@
 
       **Le poids.** Chaque application embarque son moteur, donc une machine ordinaire
       héberge dix copies du même programme, et chacune consomme sa mémoire de son côté.
-      Ce que ça achète, c'est du temps de fabrication : une équipe, une base de code,
-      cinq plateformes. Ce que ça coûte, ce sont des applications lourdes pour des
-      tâches légères.
+      Le gain est du temps de fabrication : une équipe et une base de code pour cinq
+      plateformes. Le résultat, ce sont des applications lourdes pour des tâches
+      légères.
     </markdown>
 
     <note title="Onze navigateurs sur la machine qui écrit cette page">
       <markdown>
         Arduino IDE, Discord, MQTT Explorer, Postman, Qobuz, Signal, Spotify,
         Tinkerwell, Unity Hub, VS Code, balenaEtcher. Onze applications, 4,5 Go, dont
-        2,7 Go de moteurs de rendu — onze copies à peu près identiques du même
+        2,7 Go de moteurs de rendu : onze copies à peu près identiques du même
         Chromium, auxquelles s'ajoutent les vrais navigateurs installés à côté.
 
         Compté en août 2026, avec deux lignes de shell.
@@ -308,15 +304,13 @@
       non mis à jour six mois. Le frigo photographié plus haut a été présenté en 2011 ;
       son écran a vieilli plus vite que son compresseur, et le passage de Samsung à
       Wear OS a fermé une boutique d'applications que des gens avaient remplie. Un
-      appareil connecté qu'on ne met plus à jour n'est pas un appareil neutre : c'est un
-      navigateur périmé, branché en permanence, dans un logement.
+      appareil connecté qu'on ne met plus à jour est un navigateur périmé, branché en permanence, dans un logement.
 
       À côté de ça, la même technologie tient la promesse inverse. Une page de 1998
       s'ouvre encore aujourd'hui, sans rien installer. Un jeu exporté depuis
       [[bitsy]] est un unique fichier HTML : il se joue en 2026 et se jouera en 2036,
       là où un projet Flash de 2009 est illisible et où une application mobile de 2015
-      ne s'installe plus. Le socle est durable ; ce sont les couches qu'on empile
-      dessus qui périment.
+      ne s'installe plus.
     </markdown>
   </section>
 
@@ -324,28 +318,25 @@
     <markdown>
       Trois vérifications tiennent en une minute :
 
-      - dans VS Code, **Aide → Basculer les outils de développement** ;
-      - le **bouton rouge** de la télécommande, sur la RTBF ou la VRT ;
-      - l'adresse d'une box tapée dans un onglet : la page vient de la boîte, pas
-        d'internet.
+      - dans VS Code, Aide → Basculer les outils de développement ;
+      - le bouton rouge de la télécommande, sur la RTBF ou la VRT ;
+      - l'adresse d'une box tapée dans un onglet : la page vient de la boîte elle-même.
 
       Un tiers inférieur se fabrique en une soirée : un rectangle, deux lignes de
       texte, une transition d'entrée, écrits en HTML et en CSS, enregistrés dans un
-      fichier, et ce fichier ajouté à OBS comme source « navigateur ». C'est le même
-      objet que celui qui passe à l'antenne, et le même fichier : il n'a pas besoin
-      d'être changé pour aller sur un serveur de diffusion.
+      fichier, et ce fichier ajouté à OBS comme source « navigateur ». Le même fichier
+      passe tel quel sur un serveur de diffusion.
 
       Pour un projet, la conséquence est qu'un écran d'exposition, un téléviseur, la
       borne d'un festival et le téléphone d'un visiteur acceptent le même matériau.
-      Une installation interactive n'exige pas de langage réservé — voir
+      Une installation interactive n'exige pas de langage réservé. Voir
       [l'interactivité comme œuvre](/panorama/interactivite-oeuvre) pour ce que des
       artistes en font, et [Lusion](/oeuvres/lusion) pour ce qu'un navigateur affiche
       quand on le pousse.
 
-      D'un support à l'autre, ce qui change n'est pas la technique. C'est la distance
-      de lecture, le doigt à la place de la souris, l'absence de clavier, douze heures
+      D'un support à l'autre, ce qui change est la distance de lecture, le doigt à la place de la souris, l'absence de clavier, douze heures
       d'affichage sans redémarrage, et personne pour recharger la page quand elle se
-      bloque. Ce sont des contraintes de mise en scène, pas de code.
+      bloque. Ce sont des contraintes de mise en scène.
     </markdown>
   </section>
 </page>

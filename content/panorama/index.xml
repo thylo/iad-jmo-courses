@@ -32,21 +32,20 @@
     <markdown>
       Proposer une classification n'est jamais neutre. Un classement décide de ce qui
       se ressemble et de ce qui n'a pas de case, et il le fait sans le dire. Sur des
-      œuvres, ça ne coûte rien. Sur des gens, le même geste ne décrit pas : il décide
-      qui entre dans quelle case, et qui n'entre nulle part. Ce n'est pas de l'histoire
-      ancienne : c'est aujourd'hui le métier des modèles statistiques. Une page à part
+      œuvres, ça ne coûte rien. Sur des gens, le même geste décide qui entre dans quelle
+      case, et qui n'entre nulle part. C'est aujourd'hui le métier des modèles
+      statistiques. Une page à part
       montre [ce que classer fait aux gens qu'on classe](/panorama/ranger).
 
       Les classements qui suivent sont donc des propositions parmi d'autres, établies
-      dans un seul but : montrer l'étendue de ce qui existe. Des tiroirs, pas des faits.
+      dans un seul but : montrer l'étendue de ce qui existe.
     </markdown>
   </note>
 
   <section title="La carte">
     <markdown>
-      À lire en premier. C'est le découpage le plus grossier du site, et c'est
-      voulu : il ne sert pas à analyser une œuvre, il sert à voir d'un coup ce qui
-      existe. Les grilles qui suivent se lisent mieux une fois ce tour-là fait.
+      À lire en premier. C'est le découpage le plus grossier du site, fait pour voir
+      d'un coup ce qui existe. Les grilles qui suivent se lisent mieux une fois ce tour-là fait.
     </markdown>
 
     <destinations rank="lead">
@@ -89,9 +88,9 @@
 
   <section>
     <markdown>
-      Celui-ci ne sert pas à comprendre une œuvre, mais à en faire une. Ce sont des
-      patrons déjà résolus par d'autres : il n'y a pas à réinventer comment on zoome
-      sur une carte pour raconter une histoire.
+      Celui-ci sert à faire une œuvre plutôt qu'à la comprendre. Ce sont des patrons
+      déjà résolus par d'autres, comme la façon de zoomer sur une carte pour raconter
+      une histoire.
     </markdown>
 
     <destinations>
@@ -105,8 +104,8 @@
   <section title="Les deux bords du terrain">
     <markdown>
       Où le panorama s'arrête. La première page retire l'écran, la seconde retire le
-      récit. Dans les deux cas, il reste quelque chose — de quoi ne pas croire que le
-      numérique est obligatoire, ni qu'il faut une histoire.
+      récit. Dans les deux cas, il reste quelque chose : ni le numérique ni l'histoire
+      ne sont obligatoires.
     </markdown>
 
     <destinations>

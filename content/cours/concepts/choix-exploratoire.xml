@@ -17,9 +17,9 @@
       ou parce qu'il veut savoir ce qu'il y a derrière la porte. Le fil principal ne
       dévie pas : ce qui change, c'est ce qu'on aura vu et dans quel ordre.
 
-      C'est le [[choix-rationnel|choix rationnel]] moins l'information — et ce n'est
-      pas un [[faux-choix|faux choix]], parce que rien n'a été promis. La différence
-      ne se lit pas dans le dispositif, elle se lit dans la phrase de présentation.
+      C'est le [[choix-rationnel|choix rationnel]] moins l'information. Rien n'ayant
+      été promis, ce n'est pas un [[faux-choix|faux choix]] : la différence se lit
+      dans la phrase de présentation.
     </markdown>
   </section>
 
@@ -43,8 +43,7 @@
   <section title="Trois façons de s'en servir">
     <markdown>
       **Choisir l'angle.** [[weiordie|Wei or Die]] fixe le récit et donne les caméras.
-      Ce qui arrive à Wei ne se décide pas ; l'endroit d'où on le regarde, si. L'œuvre
-      ne promet rien d'autre, et elle le tient.
+      Ce qui arrive à Wei ne se décide pas ; l'endroit d'où on le regarde, si.
 
       **Choisir l'ordre.** [[hors-jeu|Hors-Jeu]] découpe dix-huit mois d'enquête sur
       la corruption du football en quatre-vingt-dix-neuf cartes à collectionner.
@@ -55,8 +54,8 @@
       l'image ; ce qu'on choisit, c'est le temps qu'on passe sur chaque passage. Le
       geste appartient au lecteur, la séquence appartient à l'auteur.
 
-      Dans les trois cas la liberté est réelle. Ce qu'elle ne fait pas, c'est
-      déplacer l'intrigue — et aucune des trois œuvres ne le prétend.
+      Dans les trois cas, la liberté est réelle et ne déplace pas l'intrigue. Aucune
+      des trois œuvres ne prétend le contraire.
     </markdown>
   </section>
 
@@ -65,8 +64,8 @@
       Le rapport coût/effet est le meilleur des trois types de choix. Il n'y a pas de
       branche à écrire deux fois : chaque module est écrit une seule fois et vu par
       qui le veut bien. C'est ce qui rend possible une
-      [[structure-elastique|structure élastique]] — un fil qu'on suit, des
-      digressions dont on revient — sans exploser la production.
+      [[structure-elastique|structure élastique]] (un fil qu'on suit, des
+      digressions dont on revient) sans exploser la production.
 
       C'est aussi ce qui convient à la matière documentaire, où le fond ne se
       renégocie pas : on ne va pas laisser le public modifier ce qui est arrivé. Lui
@@ -77,14 +76,13 @@
 
   <section title="Erreurs courantes">
     <markdown>
-      - L'annoncer comme rationnel. C'est là, et seulement là, que ça devient un
-        [[faux-choix|faux choix]]
+      - L'annoncer comme rationnel. Il devient alors un [[faux-choix|faux choix]]
       - Croire qu'exploratoire veut dire facultatif : un module qu'on peut sauter doit
         quand même tenir seul, et supposer que le public l'a vu est le bug le plus
         courant
       - Confondre exploration et menu. Choisir l'ordre des chapitres d'un webdoc, c'est
-        ce que demandait un DVD de 2003 ; ce n'est pas un défaut, ça en devient un
-        quand toute la communication repose dessus
+        ce que demandait un DVD de 2003. Ça devient un défaut quand toute la
+        communication repose dessus
       - Ne pas montrer ce qui reste à voir. Sans repère, la liberté d'ordre se vit
         comme de la désorientation
     </markdown>
@@ -96,7 +94,7 @@
       franchement que de faire semblant d'avoir écrit un arbre.
 
       **Des modules qui tiennent seuls.** Chacun doit se comprendre sans ce qui le
-      précède : c'est la seule contrainte, et elle est sérieuse.
+      précède : c'est la seule contrainte.
 
       **Le dire dans la première phrase.** « Explorez dans l'ordre que vous voulez »
       est une promesse tenable. « Vos choix comptent » ne l'est pas.

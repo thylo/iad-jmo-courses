@@ -7,7 +7,7 @@
 
   <section title="Résumé">
     <markdown>
-      Ce guide complet de Blair Neal couvre les types de caméras disponibles pour les installations interactives, du plus basique (webcam USB) aux plus sophistiquées (thermique). L'article souligne que "choisir le bon type de caméra est l'une des décisions techniques les plus importantes que vous pouvez prendre dans vos phases de planification initiale."
+      Le guide de Blair Neal passe en revue les caméras utilisables pour une installation interactive, de la webcam USB à la caméra thermique. L'article note que "choisir le bon type de caméra est l'une des décisions techniques les plus importantes que vous pouvez prendre dans vos phases de planification initiale."
 
       **Durée de lecture:** ~23 minutes | ~4,455 mots
 
@@ -47,7 +47,7 @@
       - **Exemples:** Kinect, Asus Xtion, Panasonic D-Imager
       - **Capacités:** Skeleton tracking, soustraction de fond sophistiquée
       - **Limitations:** Portée effective limitée (généralement &lt; 3.6m)
-      - **Révolution:** Démocratisation du tracking 3D pour installations
+      - **Apport:** a rendu le tracking 3D accessible aux installations
 
       ### 5. Caméras Thermiques
 
@@ -83,7 +83,7 @@
       - Portées plus longues requièrent des repeaters
       - Considérer Firewire ou Ethernet pour installations permanentes
 
-      ### Testing Essentiel
+      ### Tests
       "Faites des tests prolongés avant installation" pour éviter les défaillances sur site. Chaque environnement a ses spécificités.
 
       ### Support Logiciel
@@ -131,15 +131,13 @@
 
   <section title="Intérêt Pédagogique">
     <markdown>
-      Ce guide est **essentiel** pour:
+      Le guide sert à :
 
       - Comprendre les choix techniques des installations interactives
       - Apprendre à évaluer les trade-offs hardware
       - Planifier des installations avec des contraintes réalistes
-      - Démystifier le "magic" derrière le tracking
+      - Voir comment fonctionne le tracking
       - Faire des choix informés dans la phase de conception
-
-      C'est un repère de référence constant dans le processus de développement d'installations interactives.
     </markdown>
   </section>
 

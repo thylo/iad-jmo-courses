@@ -8,7 +8,7 @@
   <concept ref="forme-sociale"/>
   <concept ref="interface-plateau"/>
 
-  <resume>Un Loup-Garou sans élimination et sans meneur : une seule nuit, un seul vote, dix minutes. Une application gratuite tient le rôle du narrateur — elle appelle les rôles dans l'ordre, gère les temps de silence et referme la nuit. Personne n'est mis hors jeu, donc tout le monde joue jusqu'au bout.</resume>
+  <resume>Un Loup-Garou sans élimination et sans meneur : une seule nuit, un seul vote, dix minutes. Une application gratuite tient le rôle du narrateur : elle appelle les rôles dans l'ordre, gère les temps de silence et referme la nuit. Personne n'est mis hors jeu, donc tout le monde joue jusqu'au bout.</resume>
 
   <visuel src="one-night-ultimate-werewolf.jpg"
           alt="Boîte du jeu : la silhouette noire d'un loup-garou hurlant se découpe sur une pleine lune jaune au-dessus d'une forêt de sapins, sous le titre One Night Ultimate Werewolf"
@@ -17,22 +17,19 @@
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      **L'application ne remplace pas un conteur, elle remplace un chronomètre.** Le
-      meneur du Loup-Garou classique ne raconte rien : il récite une séquence et compte
-      les secondes. C'est précisément le genre de travail qu'une machine fait mieux, et
-      c'est le bon côté de la question posée par
-      [[interface-plateau|Plateau augmenté]] : qu'est-ce que l'application remplace ?
-      Ici, de la comptabilité — bon échange.
+      **L'application remplace un chronomètre.** Le meneur du Loup-Garou classique
+      récite une séquence et compte les secondes, ce qu'une machine fait mieux. À la
+      question que pose [[interface-plateau|Plateau augmenté]], ce que l'application
+      remplace, la réponse est ici de la comptabilité.
 
-      **Le gain est social, pas technique.** En supprimant ce rôle, on rend un joueur à
+      **Le gain est social.** En supprimant ce rôle, on rend un joueur à
       la table. En supprimant l'élimination, on garde tout le monde dans la partie
-      jusqu'à la fin. Deux décisions de règle, aucune technologie, et le dispositif
-      change de nature.
+      jusqu'à la fin. Deux décisions de règle suffisent à changer le dispositif.
 
       **Le récit se fabrique entièrement dans la discussion.** L'application se tait dès
-      que le jour se lève. Ce qui se joue ensuite — les accusations, les mensonges, les
-      revirements — est une [[forme-sociale|forme sociale]] pure : l'auteur a fourni les
-      rôles et la minuterie, rien d'autre.
+      que le jour se lève. Ce qui se joue ensuite (les accusations, les mensonges, les
+      revirements) est une [[forme-sociale|forme sociale]] pure : l'auteur n'a fourni
+      que les rôles et la minuterie.
     </markdown>
   </section>
 
@@ -42,9 +39,9 @@
       produit rien avec un groupe qui ne se connaît pas ou qui n'ose pas, et aucune
       règle ne peut compenser ça.
 
-      Et la partie dure dix minutes pour une demi-heure de discussion : c'est un
-      excellent objet à faire jouer, pas un objet d'analyse narrative très riche. Il
-      n'y a pas d'histoire écrite du tout.
+      La partie dure dix minutes pour une demi-heure de discussion. C'est un bon objet
+      à faire jouer, et un maigre objet d'analyse narrative : il n'y a pas d'histoire
+      écrite du tout.
     </markdown>
   </section>
 

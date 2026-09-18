@@ -11,43 +11,39 @@
   <voir ref="can-you-see-me-now"/>
   <voir ref="uncle-roy-all-around-you"/>
 
-  <resume>On part à vélo dans la ville, un boîtier fixé au guidon et un seul écouteur. Une voix pose une question — puis une plus intime, puis une autre encore. Pour y répondre, il faut trouver un endroit à l'écart et s'y arrêter : la réponse est enregistrée là, et n'existera plus qu'à cet endroit. Le reste du temps, on cherche celles que d'autres ont cachées. Créé au Barbican de Londres en octobre 2007.</resume>
+  <resume>On part à vélo dans la ville, un boîtier fixé au guidon et un seul écouteur. Une voix pose une question, puis une plus intime, puis une autre encore. Pour y répondre, il faut trouver un endroit à l'écart et s'y arrêter : la réponse est enregistrée là, et n'existera plus qu'à cet endroit. Le reste du temps, on cherche celles que d'autres ont cachées. Créé au Barbican de Londres en octobre 2007.</resume>
 
   <visuel src="rider-spoke.jpg"
           source="https://www.blasttheory.co.uk/projects/rider-spoke/"/>
 
   <section title="Ce qui fonctionne">
     <markdown>
-      **Se cacher est le geste central.** L'œuvre ne demande pas de parler : elle
-      demande de trouver où parler. Chercher un coin de mur, une cour, une impasse
-      pour dire quelque chose d'intime à une machine — c'est ce trajet-là qui
-      produit la confidence, pas la question.
+      **Se cacher est le geste central.** L'œuvre demande de trouver où parler.
+      Chercher un coin de mur, une cour, une impasse pour dire quelque chose d'intime
+      à une machine : c'est ce trajet qui produit la confidence.
 
-      **Un seul écouteur.** Décision minuscule, conséquence entière : on reste dans
-      le bruit de la rue, on entend les voitures, on est en vélo dans une ville et
-      non dans un casque. La règle de sécurité et la règle esthétique sont la même.
+      **Un seul écouteur.** On reste dans le bruit de la rue, on entend les voitures. La règle de sécurité et la règle esthétique sont la même.
 
-      **L'iconographie n'est pas une interface de logiciel.** Des hirondelles pour
+      **Une iconographie d'ex-voto.** Des hirondelles pour
       les cachettes libres, de petites maisons pour les enregistrements des autres,
       dessinées d'après les ex-voto mexicains, les tatouages de marins et
       l'héraldique. L'écran affiche à peu près trois choses, et aucune ne ressemble à
       un bouton.
 
       **La ville se remplit lentement.** Chaque édition laisse ses voix sur place.
-      Ce n'est pas une base de données consultable : il faut être là, à vélo, à
-      l'endroit exact, pour entendre un inconnu dire ce qu'il regrette.
+      Pour entendre un inconnu dire ce qu'il regrette, il faut être là, à vélo, à
+      l'endroit exact.
     </markdown>
   </section>
 
   <section title="Ce qui coince">
     <markdown>
-      La pièce se produit ville par ville — Adélaïde, Athènes, Bristol, Budapest,
-      Copenhague, Édimbourg, Linz, Madrid, Sydney — avec un parc de vélos, du
+      La pièce se produit ville par ville (Adélaïde, Athènes, Bristol, Budapest,
+      Copenhague, Édimbourg, Linz, Madrid, Sydney) avec un parc de vélos, du
       matériel et une équipe. On ne peut pas « l'essayer » : il faut qu'elle passe.
 
-      Et le corpus de voix laissé derrière est fragile. Il vit dans le dispositif de
-      l'édition, pas sur le web : ce qui a été confié à la ville disparaît avec le
-      serveur qui le tenait.
+      Le corpus de voix laissé derrière est fragile. Il vit dans le dispositif de
+      l'édition, hors du web, et disparaît avec le serveur qui le tenait.
     </markdown>
   </section>
 

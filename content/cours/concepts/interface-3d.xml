@@ -16,7 +16,7 @@
       monde rendu en temps réel dans le navigateur.
 
       C'est l'interface la plus impressionnante en démonstration et la plus décevante
-      en projet, pour une raison simple : elle retire le cadre. Or le cadre est le
+      en projet : elle retire le cadre. Or le cadre est le
       premier outil de l'audiovisuel, et celui qu'on sait manier. Une
       œuvre en trois dimensions doit inventer autre chose pour diriger le regard, et la
       plupart n'inventent rien.
@@ -48,8 +48,8 @@
       camp de Za'atari, en Jordanie, aux côtés d'une adolescente syrienne. Il ne se
       passe rien qu'un film ne pourrait montrer ; ce qui change, c'est qu'on est à
       hauteur d'enfant, au milieu, et que le camp continue derrière soi. La
-      [[structure-lineaire|structure reste entièrement linéaire]] — c'est la tête qui
-      tourne, pas l'histoire.
+      [[structure-lineaire|structure reste entièrement linéaire]] ; seule la tête
+      tourne.
 
       **La couche cachée.** [[protanopia]] fait le contraire du monde ouvert : chaque
       case de bande dessinée est un petit théâtre en couches, et incliner l'appareil
@@ -58,28 +58,27 @@
 
       **Le temps réel.** [[lusion]] est le site d'un studio de Bristol qui est aussi
       sa démonstration : des milliers de particules qui répondent au curseur, des
-      transitions sans coupure, tout calculé dans le navigateur. Aucun récit là-dedans,
-      et c'est assumé — c'est un catalogue de ce que la machine sait faire, utile à
-      connaître pour savoir ce qui est possible.
+      transitions sans coupure, tout calculé dans le navigateur. Il n'y a aucun récit :
+      c'est un catalogue de ce que la machine sait faire.
     </markdown>
   </section>
 
   <section title="Ce que ça coûte">
     <markdown>
       **La direction du regard.** Sans cadre, il faut ramener l'attention par le son,
-      la lumière, le mouvement — c'est-à-dire refaire à la main ce que le cadrage
-      faisait gratuitement.
+      la lumière, le mouvement, et refaire à la main ce que le cadrage faisait
+      gratuitement.
 
       **La production.** Modéliser, texturer, éclairer, optimiser : c'est un métier
-      entier, et ce n'est pas celui d'un atelier de narration. Une captation à trois
+      entier, distinct de celui d'un atelier de narration. Une captation à trois
       cent soixante degrés est en revanche à la portée de tout le monde.
 
       **Le confort.** Le mal des transports en casque est réel, il touche surtout les
       gens qu'on n'a pas testés, et il n'y a pas de rattrapage : la personne enlève le
       casque.
 
-      **Le matériel.** Un casque exclut le public seul, ne se prête pas, ne se
-      partage pas. Le navigateur, si.
+      **Le matériel.** Un casque isole celui qui le porte et se partage mal. Un lien
+      dans un navigateur se partage.
     </markdown>
   </section>
 
@@ -100,7 +99,7 @@
       **Sans casque.** Une scène en volume dans le navigateur, qu'on fait tourner à la
       souris ou en inclinant le téléphone, se montre à n'importe qui avec un lien.
 
-      **Une scène, pas un monde.** Un seul lieu qu'on peut contourner produit plus
+      **Une scène.** Un seul lieu qu'on peut contourner produit plus
       qu'un environnement vide qu'on parcourt.
 
       **Le son au centre.** C'est le seul outil de mise en scène qui reste quand le

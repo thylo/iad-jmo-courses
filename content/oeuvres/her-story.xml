@@ -18,30 +18,28 @@
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      **Un champ de recherche, et rien d'autre.** Pas de menu, pas de carte, pas de
-      bouton suivant. On tape un mot, la base répond, on regarde. Toute l'œuvre —
-      l'enquête, le montage, le doute — tient dans ce geste-là, et il n'y en a pas
-      de deuxième. C'est aussi l'interface la moins chère à fabriquer qu'on puisse
+      **Un champ de recherche, et rien d'autre.** Ni menu, ni carte, ni bouton
+      suivant : on tape un mot, la base répond, on regarde. Toute l'œuvre (l'enquête,
+      le montage, le doute) tient dans ce geste. C'est aussi l'interface la moins chère à fabriquer qu'on puisse
       imaginer : une table, un champ, des fichiers vidéo.
 
       **La limite de cinq résultats fait tout le travail.** Sans elle, taper « je »
       viderait la base d'un coup. Avec elle, les mots courants ne servent à rien et
-      les mots rares valent cher : on n'avance pas parce qu'on a débloqué quelque
-      chose, on avance parce qu'on a pensé à demander. Aucune base de police ne se
-      comporte ainsi, et c'est la seule entorse à la vraisemblance que le jeu se
-      permette — une règle de deux lignes qui fabrique une méthode d'enquête.
+      les mots rares valent cher : on avance parce qu'on a pensé à demander. Aucune
+      base de police ne se comporte ainsi, et c'est la seule entorse à la
+      vraisemblance que le jeu se permette. Cette règle de deux lignes fabrique une
+      méthode d'enquête.
 
       **Chaque clip contient ses propres liens.** Le mot d'après s'entend dans celui
       qu'on est en train de regarder : un prénom lâché, un lieu, un objet. Écouter
-      *est* la navigation, et prendre des notes n'est pas un accessoire du jeu, c'est
-      la seule carte qui existe. Sept ans plus tard, [[immortality|IMMORTALITY]]
+      sert de navigation, et les notes qu'on prend sont la seule carte qui existe. Sept ans plus tard, [[immortality|IMMORTALITY]]
       refera le même geste en remplaçant le mot par l'objet dans l'image.
 
       **On connaît toujours le compte, jamais le contenu.** Un vérificateur affiche
       le corpus entier sous forme de cases qui passent au vert à mesure qu'on voit
       les clips. On sait donc en permanence combien il en reste, et jamais lesquels.
-      C'est l'exact inverse de [[interface-galleries|la galerie]], qui montre d'emblée
-      tout ce qu'il y a à voir : ici la grille ne promet rien, elle compte.
+      C'est l'inverse de [[interface-galleries|la galerie]], qui montre d'emblée tout
+      ce qu'il y a à voir : ici, la grille compte.
 
       **Une actrice, une chaise, cinq jours de tournage.** Les sept entretiens ont été
       filmés dans un bâtiment administratif de Cornouailles avec Viva Seifert, puis
@@ -67,12 +65,12 @@
       vu du côté où l'on creuse. C'est le prix d'une œuvre qui refuse de guider, et
       c'est facile à défendre quand ce n'est pas soi qui cherche.
 
-      Le générique arrive quand on décide qu'on a compris, pas quand on a tout vu — on
-      peut le laisser filer à moitié du corpus. C'est cohérent jusqu'au bout, et ça
+      Le générique arrive quand on décide qu'on a compris, même à la moitié du
+      corpus. C'est cohérent jusqu'au bout, et ça
       laisse une partie du public avec le sentiment d'avoir raté quelque chose sans
       pouvoir dire quoi.
 
-      Et ça ne se joue qu'une fois. Le contenu est la découverte, comme dans
+      Ça ne se joue qu'une fois. Le contenu est la découverte, comme dans
       [[return-of-the-obra-dinn|Obra Dinn]] et [[immortality|IMMORTALITY]] : la
       deuxième partie n'a plus d'objet.
     </markdown>

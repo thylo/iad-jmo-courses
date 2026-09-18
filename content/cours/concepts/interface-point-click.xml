@@ -12,14 +12,13 @@
 
   <section title="Définition">
     <markdown>
-      L'écran présente des choses désignables — un objet, un personnage, une réplique,
-      une porte — et le récit répond. Rien de plus. Le vocabulaire tient en deux
-      gestes : montrer, et attendre.
+      L'écran présente des choses désignables (un objet, un personnage, une réplique,
+      une porte) et le récit répond. Le vocabulaire tient en deux gestes : montrer, et
+      attendre.
 
-      Sa force est d'être immédiatement comprise : personne n'a besoin qu'on lui
-      explique qu'on clique sur ce qui est en évidence. Sa faiblesse est le revers
-      exact : **le public ne peut vouloir que ce qui a été rendu cliquable.**
-      L'interface définit le monde possible.
+      Elle se comprend immédiatement : personne n'a besoin qu'on lui explique qu'on
+      clique sur ce qui est en évidence. En contrepartie, le public ne peut vouloir que
+      ce qui a été rendu cliquable, et l'interface définit le monde possible.
     </markdown>
   </section>
 
@@ -44,21 +43,18 @@
   <section title="Trois usages">
     <markdown>
       **Désigner une réponse.** [[late-shift]] filme un thriller et fait choisir des
-      répliques en temps limité, sans que l'image s'arrête. Le clic n'est pas une
-      exploration, c'est une prise de parole sous contrainte — la version la plus
-      cinématographique du genre, et celle qui montre le mieux ses coutures quand on
-      compte les fins.
+      répliques en temps limité, sans que l'image s'arrête. Le clic y est une prise de
+      parole sous contrainte. C'est la version la plus cinématographique du genre, et
+      celle dont les coutures se voient le mieux quand on compte les fins.
 
       **Désigner une position.** [[jeu-d-influences]] fait accepter ou refuser les
-      conseils d'un communicant de crise. Deux boutons, rien de plus. Ce qui se
-      construit clic après clic n'est pas un chemin dans une arborescence, c'est un
-      portrait de celui qui clique.
+      conseils d'un communicant de crise. Deux boutons. Clic après clic, ce qui se
+      construit est un portrait de celui qui clique.
 
-      **Désigner sans écran.** [[backstories]] est la démonstration à connaître : une
-      carte Action perforée qu'on pose sur une carte Lieu, et la fenêtre découpée
+      **Désigner sans écran.** [[backstories]] le fait avec des cartes : une carte Action perforée qu'on pose sur une carte Lieu, et la fenêtre découpée
       donne la conséquence. Choisir un verbe, désigner une cible, lire la réponse. La
-      table du schéma ci-dessus y est littéralement imprimée. Le geste physique **est**
-      la requête, donc rien n'est à ressaisir.
+      table du schéma ci-dessus y est imprimée. Le geste physique fait office de
+      requête, et rien n'est à ressaisir.
     </markdown>
   </section>
 
@@ -78,12 +74,12 @@
 
   <section title="Erreurs courantes">
     <markdown>
-      - Le *pixel hunting* : cacher ce qu'il faut cliquer. Ce n'est pas de la
-        difficulté, c'est de l'attente
+      - Le *pixel hunting* : cacher ce qu'il faut cliquer. Le public passe son temps à
+        balayer l'écran
       - Répondre « il ne se passe rien » aux trois quarts des clics. Chaque désignation
         sans réponse enseigne au public de ne plus rien désigner
       - Rendre cliquable ce qui ne sert pas, et laisser inerte ce que le décor met en
-        évidence. Le regard suit la composition, pas le plan de l'auteur
+        évidence. Le regard suit la composition de l'image
       - Oublier le tactile : sur téléphone il n'y a pas de survol, donc aucun moyen de
         découvrir ce qui répond avant d'appuyer
     </markdown>
@@ -91,7 +87,7 @@
 
   <section title="En pratique">
     <markdown>
-      **Trois cibles par écran.** Pas dix. Chacune doit répondre quelque chose, même
+      **Trois cibles par écran.** Chacune doit répondre quelque chose, même
       brièvement, et surtout quand ce n'est pas la bonne.
 
       **La table avant l'écran.** Verbes en lignes, cibles en colonnes, réponses dans

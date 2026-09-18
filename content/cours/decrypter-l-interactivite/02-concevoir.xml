@@ -8,7 +8,7 @@
 
   <section title="Objectifs">
     <markdown>
-      - Partir de l'intention narrative, pas de la technique
+      - Partir de l'intention narrative avant la technique
       - Formuler un concept d'expérience interactive tenable
       - Défendre un choix d'interaction devant le groupe
     </markdown>
@@ -18,12 +18,12 @@
     <markdown>
       ### 1. Partir d'une émotion
 
-      **Principe :** l'interaction sert l'émotion, pas l'inverse.
+      **Principe :** l'interaction sert l'émotion.
 
       Émotions à explorer : nostalgie, urgence, contemplation, émerveillement,
       malaise, joie, curiosité, mélancolie, solitude, connexion.
 
-      **Exercice individuel.** Choisissez une émotion et répondez :
+      **Exercice individuel.** Chacun choisit une émotion et répond à deux questions :
 
       1. Qu'est-ce qui crée cette émotion au cinéma ? Cadrage, sound design, rythme
          de montage, lumière.
@@ -38,8 +38,8 @@
 
       En groupes de trois ou quatre :
 
-      > Racontez cette scène avec une seule forme d'interaction :
-      > **une personne attend quelqu'un qui ne viendra pas.**
+      > Raconter cette scène avec une seule forme d'interaction :
+      > une personne attend quelqu'un qui ne viendra pas.
 
       **À définir :** chaque groupe tirait au sort une forme dans une liste fermée
       qui a été retirée. Le principe de l'exercice tient (une contrainte unique par
@@ -57,7 +57,7 @@
       ### 5. Feedback en petits groupes
 
       On montre son concept à trois personnes. Elles disent ce qu'elles ont compris,
-      pas ce qu'elles en pensent.
+      sans donner leur avis.
     </markdown>
   </section>
 
@@ -81,15 +81,15 @@
   <section title="Conseils">
     <markdown>
       **Piège 1 : la technique avant l'émotion.**
-      Pas « je veux faire du drag and drop », mais « je veux créer de la nostalgie, le
-      drag pourrait servir ça ».
+      Partir de « je veux créer de la nostalgie, le drag pourrait servir ça » plutôt
+      que de « je veux faire du drag and drop ».
 
       **Piège 2 : le concept trop complexe.**
-      Un concept simple et cohérent vaut mieux qu'un concept riche et brouillon.
+      Un concept simple et cohérent vaut mieux qu'un concept chargé et brouillon.
 
       **Piège 3 : l'interaction décorative.**
-      Posez-vous la question : si j'enlève l'interaction, est-ce que l'émotion
-      disparaît ? Si non, l'interaction est superflue.
+      Le test : si on enlève l'interaction, l'émotion disparaît-elle ? Si non,
+      l'interaction est superflue.
 
       ### Trouver des idées
 
@@ -102,13 +102,13 @@
   <section title="Questions fréquentes">
     <markdown>
       **Mon concept doit-il être réalisable techniquement ?**
-      Non. C'est un cours de conception, pas de production.
+      Non. Le cours porte sur la conception.
 
       **Mon concept peut-il être une installation physique ?**
       Oui, si l'interaction est au cœur du récit.
 
       **Et si mon concept ressemble à une œuvre existante ?**
-      Dites-le et assumez-le. Expliquez ce que vous faites différemment.
+      Il suffit de le dire, et d'expliquer ce qui change.
     </markdown>
   </section>
 </page>

@@ -16,45 +16,39 @@
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      **Ce n'est pas du web, et c'est quand même du web.** L'application est faite
-      avec Unity : ce que le visiteur touche est rendu par un moteur de jeu, pas par
-      un navigateur. Mais tout ce que la borne sait du monde lui arrive par les mêmes
-      tuyaux que n'importe quel site — des requêtes HTTP vers des adresses qui
-      répondent en JSON. La façade est un jeu vidéo, la plomberie est du web.
+      **Un moteur de jeu branché sur le web.** L'application est faite avec Unity : ce
+      que le visiteur touche est rendu par un moteur de jeu. Tout ce que la borne sait
+      du monde lui arrive pourtant par les mêmes tuyaux que n'importe quel site, des
+      requêtes HTTP vers des adresses qui répondent en JSON.
 
-      Ce qui compte est la séparation, pas le cas particulier : « c'est du web » n'est
-      pas une réponse, parce que le web est deux choses empilées. Il y a des
-      **protocoles** — HTTP, les adresses, les formats d'échange — et il y a un
-      **moteur de rendu**, qui transforme du HTML en pixels. L'un se prend sans
-      l'autre, et les deux moitiés se troquent séparément.
+      Le web est deux choses empilées. Il y a des protocoles (HTTP, les adresses, les
+      formats d'échange) et un moteur de rendu, qui transforme du HTML en pixels. L'un
+      se prend sans l'autre.
 
-      [Le web hors du navigateur](/articles/le-web-hors-du-navigateur) raconte le troc
+      [Le web hors du navigateur](/articles/le-web-hors-du-navigateur) raconte l'échange
       dans un sens : des interfaces en HTML et CSS partout, jusque dans une capsule
-      spatiale. Cette borne-ci fait l'échange inverse, et c'est le même enseignement vu
-      de l'autre côté. Ce qui voyage le mieux n'est pas le langage : ce sont les
-      protocoles. Ils sont plus vieux, plus stables, et ils se moquent de ce qui
-      affiche.
+      spatiale. Cette borne fait l'échange inverse : elle garde les protocoles et
+      remplace le rendu. Les protocoles voyagent mieux que le langage. Ils sont plus
+      vieux, plus stables, et indifférents à ce qui affiche.
 
-      Une API s'appelle de la même façon depuis JavaScript, depuis Unity, depuis un
-      microcontrôleur ou depuis un logiciel de montage. Ce n'est pas une compétence de
-      développeur web, c'est la compétence commune à tout ce qui se branche.
+      Une API s'appelle de la même façon depuis JavaScript, Unity, un microcontrôleur
+      ou un logiciel de montage. Savoir en appeler une sert à tout ce qui se branche.
     </markdown>
 
     <image src="parlement-de-wallonie-accueil.jpg"
            alt="Écran d'accueil intitulé « Que souhaitez-vous faire ? ». Trois panneaux verticaux côte à côte, sur fond de photographies de l'hémicycle : « Je visite la Salle des séances plénières et fais connaissance avec les députés wallons », « Je découvre l'agenda des travaux et les médias sociaux du Parlement », « Je teste mes connaissances générales sur le Parlement »."
-           caption="Trois portes, et rien d'autre. Une borne n'a pas de menu : elle a une première question."
+           caption="Trois portes. La borne s'ouvre sur une question plutôt que sur un menu."
            credit="Parlement de Wallonie"/>
 
     <markdown>
       **Le plan de la salle est un classement politique rendu visible.** Les
       soixante-quinze sièges sont dessinés à leur place réelle et coloriés par groupe.
       On tourne le volume du doigt, on touche un siège, une fiche de député s'ouvre.
-      L'information n'est pas la liste des noms — une liste tiendrait sur une page —
-      c'est le *voisinage* : qui siège à côté de qui, quel bloc occupe quelle rangée,
-      quelle couleur remplit la salle. C'est exactement ce que
-      [la carte](/cours/concepts/interface-maps) exige pour se justifier, et c'est
-      aussi ce que [ranger](/panorama/ranger) veut dire : le plan ne montre pas
-      l'assemblée, il en propose une lecture.
+      La liste des noms tiendrait sur une page. Le plan donne le voisinage : qui siège
+      à côté de qui, quel bloc occupe quelle rangée, quelle couleur remplit la salle.
+      C'est ce que [la carte](/cours/concepts/interface-maps) exige pour se justifier,
+      et c'est aussi ce que [ranger](/panorama/ranger) veut dire : le plan propose une
+      lecture de l'assemblée.
     </markdown>
 
     <image src="parlement-de-wallonie-hemicycle.jpg"
@@ -64,10 +58,9 @@
 
     <markdown>
       **Quatre langues sur le même gabarit.** FR, NL, EN, DE : les onglets sont sur le
-      bord droit de chaque écran, à portée de pouce. Ce n'est pas une option de
-      confort dans ce pays-ci, c'est la condition pour qu'une institution fédérale
-      s'adresse à ceux qu'elle représente. Et pour qui fabrique la chose, c'est la
-      contrainte qui décide de tout le reste : aucune longueur de texte n'est connue à
+      bord droit de chaque écran, à portée de pouce. En Belgique, c'est la condition
+      pour qu'une institution s'adresse à tous ses visiteurs. Pour qui fabrique la
+      chose, c'est aussi la contrainte qui décide du reste : aucune longueur de texte n'est connue à
       l'avance, donc aucune boîte ne peut être dessinée à la taille de sa phrase
       française.
     </markdown>
@@ -77,48 +70,45 @@
     <markdown>
       Le module le plus fragile de la borne est celui qui la rend vivante. L'agenda
       affiche les vraies commissions, à leur vraie date, avec les vrais députés qui y
-      siègent — il va chercher ces données ailleurs, dans les systèmes du Parlement, et
+      siègent. Il va chercher ces données ailleurs, dans les systèmes du Parlement, et
       il les affiche telles qu'elles arrivent.
 
       Tant que la source répond, la borne est un objet d'actualité : le visiteur
       apprend ce qui se passe dans le bâtiment où il se tient, aujourd'hui. Le jour où
       la source change d'adresse, de format ou de propriétaire, l'écran continue
-      d'afficher quelque chose — la dernière chose qu'il a reçue. Une borne ne dit
+      d'afficher la dernière chose qu'il a reçue. Une borne ne dit
       jamais qu'elle a cessé de comprendre le monde. Elle affiche mars 2021 avec le
       même aplomb qu'elle affichait ce matin.
     </markdown>
 
     <image src="parlement-de-wallonie-agenda.jpg"
            alt="Écran de l'agenda. Un panneau central annonce « 30/03/2021 15:00 — Commission de l'économie, de l'aménagement du territoire et de l'agriculture », suivi d'une grille de vingt portraits de députés avec leur nom et une pastille de couleur. Un texte à droite précise le nombre de membres et de suppléants. De part et d'autre, des photographies des salles de commission."
-           caption="Une date, une commission, ceux qui y siègent. C'est ce qui distingue une borne d'un panneau imprimé, et c'est ce qui périme le premier."
+           caption="Une date, une commission, ceux qui y siègent. C'est aussi ce qui périme le premier."
            credit="Parlement de Wallonie"/>
   </section>
 
   <section title="Ce qui coince">
     <markdown>
       **Le lieu ne laisse pas le temps.** La borne est posée dans un couloir de
-      passage, sous des néons, contre une cloison de chantier. Il n'y a pas de siège,
-      pas de recul, pas d'ombre : on est debout, on attend quelqu'un, on repart. Or
-      faire tourner un hémicycle et lire une fiche de député demande une minute, et
+      passage, sous des néons, contre une cloison de chantier. Il n'y a ni siège ni
+      recul : on y passe debout, en attendant quelqu'un. Or faire tourner un hémicycle et lire une fiche de député demande une minute, et
       répondre à huit questions en demande cinq. Le dispositif est calibré pour un
-      temps que l'endroit ne donne pas — un décalage qui se décide en scénographie
-      bien avant la première ligne de code, et qu'aucune interface ne rattrape.
+      temps que l'endroit ne donne pas. Ce décalage se décide en scénographie, bien
+      avant la première ligne de code.
     </markdown>
 
     <image src="parlement-de-wallonie-couloir.jpg"
            width="field"
            alt="Le couloir en enfilade : la longue paroi imprimée avec ses écrans à gauche, le sol de béton lisse, un vélo électrique noir garé au premier plan et une valise posée par terre. Au fond, à droite, un escalier de béton nu et une structure de chantier."
-           caption="Namur, juillet 2021. Un espace de circulation, pas une salle."
+           caption="Namur, juillet 2021. Un espace de circulation."
            credit="Parlement de Wallonie"/>
 
     <markdown>
-      **Le quiz est le module le plus facile à vendre et le plus difficile à défendre.**
-      Huit questions à choix multiple, une coche verte, une croix rouge. Ça marche : les
-      gens jouent, et on peut compter les parties. Mais l'objet du quiz est le partage
-      des pouvoirs dans une démocratie régionale, et une bonne réponse ne prouve pas
-      qu'on l'a compris — elle prouve qu'on a lu l'écran précédent. La question à se
-      poser sur ce genre de module n'est pas « est-ce que les visiteurs jouent », c'est
-      « qu'auraient-ils appris s'ils n'avaient pas joué ».
+      **Le quiz est facile à vendre.** Huit questions à choix multiple, une coche verte,
+      une croix rouge. Les gens jouent, et on peut compter les parties. Mais le quiz
+      porte sur le partage des pouvoirs dans une démocratie régionale, et une bonne
+      réponse prouve surtout qu'on a lu l'écran précédent. Pour ce genre de module, la
+      question utile est ce que les visiteurs auraient appris sans jouer.
     </markdown>
 
     <image src="parlement-de-wallonie-quiz.jpg"
@@ -127,14 +117,13 @@
            credit="Parlement de Wallonie"/>
 
     <markdown>
-      **Et il n'y a personne pour la relancer.** Une borne s'allume le matin et
-      s'éteint le soir, dix heures durant, sans que quiconque la regarde. Ce qu'un
-      onglet pardonne parce qu'on le referme — une fuite de mémoire, une animation qui
-      dérive, une requête qui n'aboutit jamais — devient ici un écran figé que le
-      premier visiteur du lendemain prendra pour une panne du Parlement. Un moteur de
-      jeu tourne à sa cadence tant qu'on ne l'arrête pas : il ne se repose pas entre
-      deux visiteurs, et il additionne pendant dix heures ce qu'une page oublie à
-      chaque rechargement.
+      **Personne ne la relance.** Une borne s'allume le matin et s'éteint le soir, dix
+      heures durant, sans que quiconque la surveille. Une fuite de mémoire, une
+      animation qui dérive, une requête qui n'aboutit jamais : un onglet les pardonne
+      parce qu'on le referme. Ici, ils finissent en écran figé, que le premier visiteur
+      du lendemain prendra pour une panne du Parlement. Un moteur de jeu tourne à sa
+      cadence tant qu'on ne l'arrête pas, et il accumule pendant dix heures ce qu'une
+      page oublie à chaque rechargement.
     </markdown>
   </section>
 

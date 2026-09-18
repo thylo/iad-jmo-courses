@@ -9,7 +9,7 @@
   <concept ref="structure-embranchements"/>
   <concept ref="faux-choix"/>
 
-  <resume>Formation aux premiers secours en fiction vidéo : trois épisodes — un malaise cardiaque, un accident de la route, une brûlure — où l'on décide, dans l'urgence, quel geste poser. Produit par le CHU et l'Université de Liège avec le centre CARE.</resume>
+  <resume>Formation aux premiers secours en fiction vidéo : trois épisodes (un malaise cardiaque, un accident de la route, une brûlure) où l'on décide, dans l'urgence, quel geste poser. Produit par le CHU et l'Université de Liège avec le centre CARE.</resume>
 
   <visuel src="etes-vous-pret-a-sauver-une-vie.jpg"
           source="https://sauveunevie.be/"/>
@@ -19,15 +19,15 @@
       La fiction est tournée sérieusement : accident de la route, malaise cardiaque,
       brûlure. On est mis en situation, seul devant quelqu'un au sol, et la question
       posée est la bonne : qu'est-ce qu'on fait, là, maintenant ? Pour un
-      contenu de prévention, c'est déjà beaucoup mieux qu'une brochure.
+      contenu de prévention, c'est déjà mieux qu'une brochure.
     </markdown>
   </section>
 
   <section title="Ce qui coince">
     <markdown>
       L'emballage promet un film à [[structure-embranchements|embranchements]]. La
-      structure réelle n'en est pas une : un mauvais choix n'ouvre aucune branche,
-      ne joue aucune conséquence, ne mène nulle part. Le récit ne repart que par la
+      structure réelle n'en est pas une : un mauvais choix n'ouvre aucune branche et
+      ne joue aucune conséquence. Le récit ne repart que par la
       bonne réponse.
 
       C'est donc un quiz sous vernis de film interactif, un
@@ -41,11 +41,8 @@
     <markdown>
       Contre-exemple utile. La contrainte est réelle : en secourisme, la seule fin
       acceptable est celle où la victime survit, personne ne va produire la branche
-      où elle meurt. Le problème n'est pas ce choix de production, c'est de ne pas
+      où elle meurt. Ce choix de production se défend. Le problème est de ne pas
       l'assumer.
-
-      Nommer honnêtement sa forme coûte moins cher que de promettre une arborescence
-      qu'on ne tiendra pas.
     </markdown>
   </section>
 

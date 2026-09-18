@@ -43,34 +43,32 @@
 
   <section title="Le cas propre">
     <markdown>
-      [[jeu-d-influences]] ne fait pas choisir entre deux branches. Un communicant de
-      crise conseille, on accepte ou on refuse, et la partie renvoie à la fin ce que
+      Dans [[jeu-d-influences]], un communicant de crise conseille, on accepte ou on refuse, et la partie renvoie à la fin ce que
       ces acceptations disent de celui qui les a prises. L'information est là (ce qu'on
       demande et ce que ça coûte sont dits), la délibération est réelle, et la
-      conséquence n'est pas un embranchement : c'est un portrait.
+      conséquence prend la forme d'un portrait.
 
       C'est ce que [le poids du choix](/panorama/poids-du-choix) appelle le choix qui
-      engage. Ce qui le distingue n'est pas le nombre de branches, c'est que les
-      décisions se souviennent les unes des autres.
+      engage : les décisions s'y souviennent les unes des autres.
     </markdown>
   </section>
 
   <section title="Ce que ça coûte">
     <markdown>
-      Beaucoup. C'est la seule chose à retenir avant de promettre.
+      Beaucoup, et il faut le savoir avant de promettre.
 
       Un choix rationnel demande d'écrire l'information en amont, les deux suites, et
       la trace que chacune laisse ensuite. En [[structure-embranchements|arbre]], la
       note double à chaque nœud : cinq décisions successives, trente-deux fins.
       Personne ne finit ça.
 
-      D'où le déplacement que fait [[80-days]] : la mémoire n'est pas dans la position
-      mais dans une liste de faits (l'itinéraire, l'argent, la santé de Fogg). La
+      [[80-days]] déplace la mémoire de la position vers une liste de faits
+      (l'itinéraire, l'argent, la santé de Fogg). La
       production redevient linéaire, les conséquences restent réelles. C'est la
       [[structure-a-etat|structure à état]], et c'est la réponse la plus utilisable à
       l'échelle d'un projet court.
 
-      Le hors-ligne le montre encore mieux. [[cartaventura]] tient cinq fins dans une
+      Le hors-ligne le montre aussi. [[cartaventura]] tient cinq fins dans une
       boîte de poche et n'a jamais prétendu à davantage : la carte retournée est
       retournée, devant cinq personnes. L'irréversibilité y est physique, elle ne coûte
       pas une ligne de code.
@@ -81,8 +79,7 @@
     <markdown>
       - Poser la question avant d'avoir donné l'information : le public tire au sort
         et le sait
-      - Deux options aux effets quasi identiques. Ce n'est pas un choix, c'est une
-        tâche fastidieuse déguisée en décision
+      - Deux options aux effets quasi identiques : une tâche déguisée en décision
       - Multiplier les décisions en croyant multiplier l'implication. Passé un seuil,
         ça produit l'inverse : une charge qui épuise avant d'engager
       - Rendre la conséquence invisible. Un récit qui retient sans jamais le montrer

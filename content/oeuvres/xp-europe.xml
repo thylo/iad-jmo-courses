@@ -13,18 +13,17 @@
           alt="Couloir courbe d'un centre de visite, aux parois blanches. À gauche, un grand écran vertical montre une femme en veste rouge, debout, en pied. À côté, un bandeau bleu vertical porte les mots « MEET THE PRESIDENT ». Sur la paroi de droite, des silhouettes de personnes découpées grandeur nature sont collées entre d'autres écrans verticaux. Un liseré lumineux court au pied des cloisons."
           credit="Experience Europe — Commission européenne"/>
 
-  <section title="Vingt-quatre langues, et c'est tout le problème">
+  <section title="Vingt-quatre langues">
     <markdown>
       L'Union a vingt-quatre langues officielles et aucune n'a le pas sur les autres.
       Un centre de visite qui parle au nom de la Commission ne peut donc pas choisir sa
       langue : il doit toutes les tenir, sur chaque station, du premier écran au dernier
       sous-titre.
 
-      Ça a l'air d'être une question d'interface. Ce n'en est pas une. L'interface se
-      règle en un écran — un sélecteur, quatre pastilles, un choix. Ce qui est difficile
-      est derrière : chaque vidéo existe en autant de fichiers, chaque sous-titre en
-      autant de `.srt`, chaque libellé de bouton en autant de lignes, et il faut que la
-      cent-quarantième traduction arrive avant l'ouverture.
+      L'interface se règle en un écran : un sélecteur et quatre pastilles. La difficulté
+      est derrière. Chaque vidéo existe en autant de fichiers, chaque sous-titre en
+      autant de `.srt`, chaque libellé de bouton en autant de lignes, et la
+      cent-quarantième traduction doit arriver avant l'ouverture.
     </markdown>
 
     <image src="xp-europe-play-europe.jpg"
@@ -40,13 +39,11 @@
       la présidente de la Commission s'y tient debout, en pied, à l'échelle réelle. Le
       visiteur choisit une question sur un petit pupitre, et elle y répond.
 
-      Le dispositif est modeste et l'effet ne l'est pas. Il n'y a ni avatar, ni synthèse
-      vocale, ni promesse de conversation : des réponses filmées, jouées à la demande.
+      Les réponses sont filmées et jouées à la demande, sans avatar ni synthèse vocale.
       C'est la forme la plus honnête de ce que
-      [le panorama appelle un interlocuteur](/panorama/interlocuteurs) — on interagit
-      avec un système qui rejoue une personne, et le système ne prétend jamais être
-      cette personne. Ce que ça coûte : elle ne répondra qu'aux questions qu'on a
-      tournées. Ce que ça achète : elle ne dira jamais rien qu'elle n'ait dit.
+      [le panorama appelle un interlocuteur](/panorama/interlocuteurs) : un système qui
+      rejoue une personne sans prétendre l'être. Elle ne répond qu'aux questions qui ont
+      été tournées, et ne dit rien qu'elle n'ait déjà dit.
     </markdown>
 
     <image src="xp-europe-presidente.jpg"
@@ -65,14 +62,13 @@
     <markdown>
       Une grande surface anguleuse, découpée comme un éclat, affiche en continu ce que
       les comptes de l'Union publient : un nuage de mots-dièse qui grossit selon les
-      usages, et autour, les publications elles-mêmes — un post en estonien sur un
+      usages, et autour, les publications elles-mêmes : un post en estonien sur un
       concours de jeunes traducteurs, un autre en slovène sur la proportion de lycéens
       qui apprennent deux langues étrangères.
 
-      C'est là que le lieu est le plus vivant, parce que c'est la seule partie qui n'a
-      pas été écrite à l'avance. Le mur ne raconte pas l'Europe : il montre ce que
-      l'Europe est en train de dire, dans les langues où elle le dit. Un visiteur belge
-      y lit du slovène et comprend le principal, qui n'est pas le texte.
+      C'est la seule partie du lieu qui n'a pas été écrite à l'avance. Le mur montre ce
+      que l'Union publie, dans les langues où elle le publie. Un visiteur belge y lit du
+      slovène.
     </markdown>
 
     <image src="xp-europe-hashtags.jpg"
@@ -88,7 +84,7 @@
 
   <section title="Des fenêtres, des gens, une salle">
     <markdown>
-      Le reste du parcours alterne trois registres, et la répartition est intéressante.
+      Le reste du parcours alterne trois registres.
 
       **Des écrans verticaux montrent le quartier**, alignés entre les vraies fenêtres
       du bâtiment, sur la rue et les drapeaux. Le centre est à cent mètres du
@@ -96,11 +92,11 @@
 
       **Des silhouettes découpées grandeur nature** peuplent les cloisons, et parmi
       elles quelques écrans où l'une d'elles prend la parole. Le procédé règle un
-      problème d'échelle — une paroi couverte de gens à taille réelle donne une foule
-      pour le prix de la découpe — et il désigne au passage qui parle : celui qui bouge.
+      problème d'échelle : une paroi couverte de gens à taille réelle donne une foule
+      pour le prix de la découpe. Il désigne aussi qui parle, celui qui bouge.
 
       **Une petite salle de projection** avec un écran courbe et des poufs. C'est le seul
-      endroit où l'on s'assoit, et c'est le seul endroit où le parcours accepte de durer.
+      endroit du parcours où l'on s'assoit.
     </markdown>
 
     <image src="xp-europe-fenetres.jpg"
@@ -122,15 +118,13 @@
 
   <section title="L'envers">
     <markdown>
-      Deux images qui ne montrent pas l'œuvre mais ce qui la tient debout, et qui disent
-      mieux que le reste ce qu'est ce métier.
+      Les deux images suivantes montrent l'outillage de production.
 
       **Le gestionnaire de contenus est une liste de fichiers par langue.** Un appareil,
-      ses vidéos, ses sous-titres, ses textes ; et pour chaque ligne, quatre boutons —
-      `de`, `en`, `fr`, `nl` — qui disent laquelle des versions existe déjà. Pas
-      d'éditeur de mise en page, pas d'aperçu : un tableau qui répond à une seule
-      question, *est-ce que tout est là*. C'est l'outil qu'on écrit quand on a compris
-      que le risque du projet n'est pas le code mais l'inventaire.
+      ses vidéos, ses sous-titres, ses textes, et pour chaque ligne quatre boutons
+      (`de`, `en`, `fr`, `nl`) qui indiquent quelles versions existent déjà. Il n'y a
+      ni éditeur de mise en page ni aperçu. Le tableau sert à vérifier que tout est là.
+      Sur ce projet, le risque tenait à l'inventaire.
     </markdown>
 
     <image src="xp-europe-cms.jpg"
@@ -141,14 +135,12 @@
     <markdown>
       **Et les bornes disent quelle langue les gens ont choisie.** Une table, cinq
       colonnes : un identifiant d'appareil, un type d'événement, une valeur, un
-      horodatage. Les lignes `lang_selected` s'accumulent — `lang fr`, `lang fr`,
-      `lang fr`, puis `lang en` — seconde par seconde, appareil par appareil.
+      horodatage. Les lignes `lang_selected` s'accumulent seconde par seconde, appareil
+      par appareil : `lang fr`, `lang fr`, `lang fr`, puis `lang en`.
 
-      Deux choses là-dedans. La première est sérieuse : une institution qui affirme que
-      ses vingt-quatre langues se valent peut, pour la première fois, savoir lesquelles
-      sont réellement demandées dans son propre hall. C'est une mesure inconfortable, et
-      c'est la seule qui vaille. La seconde est plus drôle : les quinze premières lignes
-      de la table sont des `test` du 7 juillet, à quelques secondes d'intervalle — le
+      Une institution qui affirme que ses vingt-quatre langues se valent peut ainsi
+      savoir lesquelles sont demandées dans son propre hall. Les quinze premières lignes
+      de la table sont des `test` du 7 juillet, à quelques secondes d'intervalle : le
       développeur qui tapote sa borne, conservé dans le même registre que les visiteurs.
     </markdown>
 
@@ -160,21 +152,19 @@
 
   <section title="Ce qui coince">
     <markdown>
-      **Un mur en direct dans une institution est un micro ouvert.** Le mur social tire
-      sa force de ce qu'il n'est pas écrit à l'avance, et c'est exactement ce qui le rend
-      risqué : il affiche, dans le hall de la Commission, ce qui se publie sous des
+      **Un mur en direct dans une institution est un micro ouvert.** Le mur social n'est
+      pas écrit à l'avance, ce qui le rend risqué : il affiche, dans le hall de la Commission, ce qui se publie sous des
       mots-dièse que personne ne contrôle. Le dispositif s'en sort en ne montrant que
-      les comptes officiels de l'Union — ce qui règle le problème et retire au passage
-      la moitié de l'intérêt. Un mur qui n'écoute que soi-même n'écoute pas.
+      les comptes officiels de l'Union. Le problème est réglé, et le mur n'affiche plus
+      que ce que l'institution dit d'elle-même.
 
       **Le lieu communique sur lui-même.** C'est un centre de visite institutionnel :
       la commande vient du sujet, et le sujet est content de lui. Le parcours ne pose
       aucune question à laquelle l'institution ne sait pas répondre, et « Meet the
       President » ne comporte, par construction, que des questions dont on a tourné la
-      réponse. Ça ne disqualifie pas le travail — ça définit le genre, et il vaut mieux
-      le nommer que le déplorer.
+      réponse. C'est le genre qui le veut.
 
-      **Et le quartier est là, dehors.** Les écrans qui montrent la rue sont le geste le
+      **Le quartier est dehors.** Les écrans qui montrent la rue sont le geste le
       plus étrange du parcours : un bâtiment qui affiche à l'intérieur ce qu'on voit en
       sortant. Selon l'humeur, c'est une invitation à regarder le quartier autrement, ou
       l'aveu d'un centre qui préfère la version filmée.

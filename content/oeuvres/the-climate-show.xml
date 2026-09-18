@@ -11,7 +11,7 @@
   <concept ref="forme-collaborative"/>
   <concept ref="faux-choix"/>
 
-  <resume>Quarante-cinq minutes dans une salle noire, cent vingt personnes, un boîtier de vote chacun. Camille, jouée en direct, hésite à agir contre le dérèglement climatique ; GaIA, une intelligence artificielle projetée sur trois écrans, démonte avec elle les objections qui reviennent toujours — c'est la faute des entreprises, la technologie nous sauvera, de toute façon c'est foutu. À chaque objection, la salle vote. Brussels Expo de mars à octobre 2022, puis Cap Sciences à Bordeaux jusqu'en mai 2023.</resume>
+  <resume>Quarante-cinq minutes dans une salle noire, cent vingt personnes, un boîtier de vote chacun. Camille, jouée en direct, hésite à agir contre le dérèglement climatique ; GaIA, une intelligence artificielle projetée sur trois écrans, démonte avec elle les objections qui reviennent toujours : c'est la faute des entreprises, la technologie nous sauvera, de toute façon c'est foutu. À chaque objection, la salle vote. Brussels Expo de mars à octobre 2022, puis Cap Sciences à Bordeaux jusqu'en mai 2023.</resume>
 
   <visuel src="the-climate-show.jpg"
           alt="Salle de spectacle sombre : trois grands écrans en arc de cercle, l'un montrant un jardin avec du linge qui sèche, l'autre l'interface bleue de GaIA — une grille de cercles et des relevés techniques —, le troisième une terrasse en bord de mer. Devant, une estrade en bois éclairée avec un fauteuil blanc ; au premier plan, des rangées de sièges en plastique moulé."
@@ -19,9 +19,8 @@
 
   <section title="Ce qui fonctionne">
     <markdown>
-      **Le vote est comparé à celui de tous les autres.** L'écran n'affiche pas
-      seulement le résultat de la séance : il le met en regard du cumul de toutes
-      les séances depuis l'ouverture. On ne découvre pas ce que la salle pense, on
+      **Le vote est comparé à celui de tous les autres.** L'écran met le résultat de
+      la séance en regard du cumul de toutes les séances depuis l'ouverture. On
       découvre en quoi la salle diffère de six mois de public. C'est ce détail
       d'affichage qui fait passer le dispositif du sondage à l'observation
       sociologique, et il ne coûte qu'une deuxième barre.
@@ -29,12 +28,11 @@
       **L'objection est nommée avant d'être réfutée.** « C'est la faute de la
       technologie », « il y aura toujours des solutions techniques », « quelques
       degrés, qu'est-ce que ça change ». Le spectacle commence par donner leur forme
-      exacte aux excuses du public, ce qui permet de voter pour elles sans honte —
-      condition nécessaire pour que la suite serve à quelque chose.
+      exacte aux excuses du public, ce qui permet de voter pour elles sans honte. Sans
+      ça, la suite ne servirait à rien.
 
       **La salle est bilingue, la même séance.** Un écran en français, un écran en
-      néerlandais, un vote commun. À Bruxelles ce n'est pas un détail de confort :
-      c'est ce qui permet à un public réel d'exister dans la même pièce.
+      néerlandais, un vote commun. À Bruxelles, c'est ce qui permet à un public réel d'exister dans la même pièce.
     </markdown>
 
     <image src="the-climate-show-comparaison.jpg"
@@ -48,16 +46,16 @@
     <markdown>
       **Le vote ne change pas le spectacle.** Camille suit son chemin, les experts
       passent dans l'ordre prévu, la conclusion est écrite. Ce qui est collecté sert
-      à afficher un miroir, pas à bifurquer : c'est un [[faux-choix]] à l'échelle du
-      dispositif entier. Défendable — on ne peut pas produire quatre versions d'un
-      spectacle joué en direct — mais il faut regarder ce que le public croit faire
+      à afficher un miroir : c'est un [[faux-choix]] à l'échelle du dispositif entier.
+      C'est défendable, puisqu'on ne peut pas produire quatre versions d'un spectacle
+      joué en direct, mais il faut regarder ce que le public croit faire
       en appuyant sur le bouton.
 
       **Le matériel est un matériel de congrès.** Des boîtiers Reply Interact Mini,
       cinq touches numérotées, Yes / No / Abstain sérigraphiés à côté. Le même objet
       qu'une assemblée générale d'actionnaires. Rien n'a été fabriqué pour l'œuvre,
       et c'est la bonne décision : l'argent est passé dans les écrans, la comédienne
-      et l'écriture, pas dans un objet sur mesure qui aurait fait la même chose.
+      et l'écriture.
     </markdown>
 
     <image src="the-climate-show-boitiers.jpg"
@@ -67,11 +65,10 @@
            credit="Photographie prise en salle, 22 octobre 2022"/>
 
     <markdown>
-      Et l'œuvre n'existe plus. Le site officiel ne répond plus, les deux lieux ont
+      L'œuvre n'existe plus. Le site officiel ne répond plus, les deux lieux ont
       démonté la salle : d'un spectacle qui a fait voter des dizaines de milliers de
-      personnes pendant un an, il ne reste ni les résultats, ni la captation, ni la
-      trace de ce que le public a répondu. C'est précisément la donnée qui faisait
-      l'intérêt du dispositif.
+      personnes pendant un an, il ne reste ni les résultats ni la captation. Les
+      réponses du public faisaient pourtant l'intérêt du dispositif.
     </markdown>
 
     <image src="the-climate-show-vote.jpg"

@@ -7,9 +7,8 @@
 
   <preamble>
     Les autres grilles demandent quelle forme a le récit, à qui on parle, quelle place
-    le public occupe, ce que valent ses choix. Celle-ci demande autre chose : et si le
-    récit n'était pas raconté du tout, mais **posé quelque part**, à charge pour le
-    public de le trouver ?
+    le public occupe, ce que valent ses choix. Celle-ci part d'un récit qui n'est pas
+    raconté mais posé quelque part, à charge pour le public de le trouver.
   </preamble>
 
   <note title="D'où vient cette grille">
@@ -19,34 +18,33 @@
       [la traduction française](https://www.ageron.net/wp-content/uploads/2021/01/Le-game-design-_-une-architecture-narrative-Par-Henry-Jenkins.pdf),
       trouvée dans le mémoire de Louise Guillaume (IAD, 2026).
 
-      Jenkins écrit sur le jeu vidéo. Mais lui-même s'appuie sur **Don Carson,
-      concepteur d'attractions chez Disney**, qui avait théorisé tout ça à partir des
-      parcs à thème. La théorie ne vient donc pas de l'écran : elle vient de lieux
-      qu'on traverse à pied. La ramener vers les parcours urbains, les escape games,
-      les scénographies et les webdocs n'est pas une extrapolation : c'est un retour.
+      Jenkins écrit sur le jeu vidéo, mais il s'appuie sur Don Carson, concepteur
+      d'attractions chez Disney, qui avait théorisé tout ça à partir des parcs à thème.
+      La théorie vient donc de lieux qu'on traverse à pied. L'appliquer aux parcours
+      urbains, aux escape games, aux scénographies et aux webdocs la ramène d'où elle
+      vient.
     </markdown>
   </note>
 
   <section title="Le débat qu'il fallait dépasser">
     <markdown>
-      Il y a eu, longtemps, deux camps. Les **ludologues** tenaient que l'interactivité
+      Il y a eu, longtemps, deux camps. Les ludologues tenaient que l'interactivité
       et la narration s'opposent : dans un récit classique l'auteur contrôle le
       déroulement, dans un dispositif interactif c'est le public qui agit, donc toute
       contrainte affaiblit l'interaction et tout écart au plan prévu abîme le récit. Les
-      **narratologues** répondaient en analysant ces œuvres comme de vrais récits, quitte
+      narratologues répondaient en analysant ces œuvres comme de vrais récits, quitte
       à leur imposer des structures empruntées au cinéma ou à la littérature.
 
       Le second camp est reconnaissable : c'est celui qui regarde un webdoc en
       cherchant l'acte II, et qui conclut qu'il en manque un.
 
-      Jenkins propose une troisième voie, et c'est la seule qui nous serve : ceux qui
-      conçoivent ces œuvres ne sont pas des conteurs, ce sont des **architectes
-      narratifs**. Ils ne racontent pas seulement des histoires, ils créent des mondes et
-      sculptent des espaces. Ce qui rejoint l'histoire réelle du métier, plus longtemps
-      occupé à dessiner des lieux qu'à écrire des intrigues.
+      Jenkins propose une troisième voie : ceux qui conçoivent ces œuvres sont des
+      architectes narratifs. Ils créent des mondes et dessinent des espaces autant
+      qu'ils racontent des histoires. Le métier a d'ailleurs passé plus de temps à
+      dessiner des lieux qu'à écrire des intrigues.
 
-      Et ça branche notre travail sur une tradition beaucoup plus vieille que le cinéma :
-      celle du **récit spatial** : les récits de voyage, les odyssées, les quêtes, où le
+      Ça rattache ce travail à une tradition plus vieille que le cinéma, celle du récit
+      spatial : les récits de voyage, les odyssées, les quêtes, où le
       sens naît du déplacement autant que de l'enchaînement de cause à effet.
     </markdown>
   </section>
@@ -57,9 +55,8 @@
       traverse le visiteur, et chaque texture, chaque son, chaque virage doit renforcer
       le concept, sinon l'immersion se brise.
 
-      Ce n'est pas une métaphore d'ambiance, c'est un budget. Ça veut dire que dans un
-      parcours, il n'y a pas de « décor neutre » : ce qui ne travaille pas pour le propos
-      travaille contre lui. La moquette compte. Le bruit de la ventilation compte.
+      Dans un parcours, il n'y a donc pas de décor neutre : ce qui ne sert pas le propos
+      le dessert. La moquette compte, et le bruit de la ventilation aussi.
 
       Un escape game bien fait applique ça sans avoir lu Carson. Une salle de musée mal
       faite l'ignore, et c'est pour ça qu'on n'y ressent rien malgré les objets.
@@ -84,31 +81,30 @@
       [trailer immersif du *Tour d'écrou*](/oeuvres/the-turn-of-the-screw-immersive-trailer)
       emprunte à Henry James de la même façon.
 
-      **Ce que ça économise :** la construction du monde. C'est le levier le moins cher
-      qui existe, et le plus souvent négligé. Avant d'inventer un univers, reste à
-      savoir lequel le public transporte déjà.
+      **Ce que ça économise :** la construction du monde. C'est le levier le moins cher,
+      et souvent négligé. Avant d'inventer un univers, il faut savoir lequel le public
+      transporte déjà.
 
       ### Le récit joué
 
       Le récit est structuré directement par les déplacements dans l'espace. Les
-      obstacles et les rencontres retardent ou facilitent la progression, et c'est ça, la
-      dramaturgie. Jenkins insiste sur un point qu'il faut retenir : **ce n'est pas un
-      récit mal construit.** Il obéit à d'autres principes esthétiques, il privilégie
-      l'exploration à la construction classique d'une intrigue. C'est la réponse à faire
+      obstacles et les rencontres retardent ou facilitent la progression, et font la
+      dramaturgie. Pour Jenkins, ce récit obéit à d'autres principes esthétiques qu'un
+      récit classique : il privilégie l'exploration à la construction d'une intrigue.
+      C'est la réponse à faire
       à qui reproche l'absence d'acte II.
 
       [Rider Spoke](/oeuvres/rider-spoke) est le cas pur : on traverse la ville à vélo,
       les questions deviennent plus intimes à mesure qu'on s'éloigne, et le trajet
-      **est** la montée dramatique. [Ordesa](/oeuvres/ordesa) fait la même chose dans une
+      fait la montée dramatique. [Ordesa](/oeuvres/ordesa) fait la même chose dans une
       seule maison, sans bouton ni menu : c'est l'endroit où l'on regarde qui fait
-      avancer le film. Et [80 Days](/oeuvres/80-days) est littéralement l'odyssée
-      dont parle Jenkins : le sens vient de l'itinéraire, pas de l'intrigue.
+      avancer le film. [80 Days](/oeuvres/80-days) est l'odyssée dont parle Jenkins :
+      le sens y vient de l'itinéraire.
 
-      Jenkins y ajoute la notion de **micro-récit** : de courtes unités capables de
+      Jenkins y ajoute la notion de micro-récit : de courtes unités capables de
       produire un fort impact en quelques secondes, comme l'apparition soudaine d'un
-      panorama ou une sensation de vitesse. C'est la brique qui remplace les trois
-      actes : une œuvre spatiale se tient debout sur une suite de moments courts et
-      forts, pas sur une courbe.
+      panorama ou une sensation de vitesse. Ces unités remplacent les trois actes : une
+      œuvre spatiale tient sur une suite de moments courts et forts.
 
       ### Les récits embarqués
 
@@ -118,7 +114,7 @@
       cite *Clive Barker's Undying*, où fouiller la chambre de chaque personnage donne à
       voir à la fois l'humain qu'il a été et la créature qu'il est devenu.
 
-      C'est la catégorie la plus riche du corpus, et elle n'a pas besoin d'écran.
+      C'est la catégorie la mieux représentée dans le corpus, et elle se passe d'écran.
       [MicroMacro : Crime City](/oeuvres/micromacro-crime-city) est un poster : toute
       l'affaire y est imprimée d'un coup, du repérage au meurtre, et c'est le regard qui
       fabrique la chronologie. [Welcome to Pine Point](/oeuvres/welcome-to-pine-point)
@@ -127,22 +123,20 @@
       [What the 1921 Tulsa Race Massacre Destroyed](/oeuvres/what-the-1921-tulsa-race-massacre-destroyed)
       rebâtit une rue détruite en 1921 pour qu'on puisse la descendre, en laissant nus
       les bâtiments dont il ne reste aucune photo. Un escape game comme
-      [Unlock!](/oeuvres/unlock) ne fait rien d'autre : une pièce, des traces, et tout à
+      [Unlock!](/oeuvres/unlock) fait la même chose : une pièce, des traces, et tout à
       recoller. La version la plus extrême est
       [MyHouse.wad](/oeuvres/my-house-wad), où une maison ordinaire devient le plan d'un
       deuil.
 
-      **Ce que ça demande :** pas de production supplémentaire, de l'écriture. Un objet
+      **Ce que ça demande :** de l'écriture, sans production supplémentaire. Un objet
       posé au bon endroit vaut trois minutes de témoignage.
 
       ### Les récits émergents
 
       Ni pré-structurés ni pré-programmés, ils prennent forme dans l'usage. L'exemple de
-      Jenkins est *Les Sims*, et son analyse est ce qu'il faut retenir : le jeu ne propose
-      pas un espace vide et neutre, mais un environnement conçu pour que chaque objet,
-      chaque interaction possible ouvre une perspective narrative. **Ce n'est donc pas
-      l'absence de structure qui permet l'émergence, c'est au contraire une conception
-      très rigoureuse de l'espace**, où chaque élément porte une fonction précise.
+      Jenkins est *Les Sims* : un environnement conçu pour que chaque objet, chaque
+      interaction possible ouvre une perspective narrative. L'émergence y vient d'une
+      conception rigoureuse de l'espace, où chaque élément porte une fonction précise.
 
       La phrase vaut chaque fois qu'un projet annonce « les gens feront ce qu'ils
       veulent ». Ils ne feront rien du tout, sauf si on a travaillé.
@@ -152,30 +146,29 @@
       [Alice is Missing](/oeuvres/alice-is-missing) donne un cadre serré (des cartes,
       quatre-vingt-dix minutes, le silence) et l'histoire se fabrique entre les joueurs.
       [Rider Spoke](/oeuvres/rider-spoke) laisse quinze mille voix accrochées à des
-      coins de rue : personne n'a écrit cette archive, mais le dispositif qui la rend
-      possible, si.
+      coins de rue : personne n'a écrit cette archive, mais quelqu'un a conçu le
+      dispositif qui la rend possible.
     </markdown>
   </section>
 
-  <section title="Le dosage, qui est tout le métier">
+  <section title="Le dosage">
     <markdown>
-      Une seule difficulté, et elle est sérieuse. Indices trop discrets, l'histoire se
+      Indices trop discrets, l'histoire se
       perd et personne ne la voit. Indices trop appuyés, l'immersion casse et le procédé
       paraît artificiel.
 
-      C'est cet équilibre entre suggestion et clarté qui sépare un environnement qui
-      raconte vraiment quelque chose d'un environnement qui n'est que du décor. Il n'y a
-      pas de règle : il n'y a que des tests avec des gens qui découvrent, et un auteur
-      qui se tait pendant qu'ils cherchent.
+      L'équilibre entre suggestion et clarté sépare un environnement qui raconte d'un
+      simple décor. Aucune règle ne le fixe : il se trouve en testant avec des gens qui
+      découvrent, pendant que l'auteur se tait.
 
-      Le piège est toujours le même : un auteur connaît son espace par cœur, donc ses
-      indices lui semblent énormes. Ils sont invisibles.
+      Un auteur connaît son espace par cœur, donc ses indices lui semblent énormes. Pour
+      les autres, ils sont souvent invisibles.
     </markdown>
   </section>
 
   <section title="Quand l'espace est fabriqué par une machine">
     <markdown>
-      Jenkins pose une mise en garde qui a pris de l'âge et gagné en actualité. Deux
+      Jenkins ajoute une mise en garde. Deux
       logiques s'opposent en apparence : la narration environnementale place ses indices
       avec précision, la génération procédurale introduit du hasard. Un environnement
       généré doit rester cohérent, porteur de sens, sinon il ne raconte plus rien : il
@@ -186,19 +179,17 @@
       visite. La machine peut disposer les éléments. Elle ne décide pas de ce qu'ils
       veulent dire ensemble, et si personne ne l'a décidé, ils ne veulent rien dire.
 
-      C'est le même geste que sur [ranger n'est pas neutre](/panorama/ranger), pris par
-      l'autre bout : là on regardait ce qu'un classement fait aux gens qu'il range, ici
-      ce qu'un arrangement fait au sens qu'il produit. Dans les deux cas, ce qui n'a pas
-      été décidé par quelqu'un ne devient pas neutre pour autant.
+      [Ranger n'est pas neutre](/panorama/ranger) regarde ce qu'un classement fait aux
+      gens qu'il range. Ici, c'est ce qu'un arrangement fait au sens qu'il produit.
     </markdown>
   </section>
 
   <section title="En atelier">
     <markdown>
-      Deux exercices, et aucun ne demande de code.
+      Deux exercices, sans code.
 
-      **Le relevé.** Sur une œuvre spatiale — un escape game, un webdoc, une salle de
-      musée, un jeu de plateau — lister tout ce qui, dans l'espace, porte de
+      **Le relevé.** Sur une œuvre spatiale (un escape game, un webdoc, une salle de
+      musée, un jeu de plateau), lister tout ce qui, dans l'espace, porte de
       l'information : un objet, une trace, une couleur, un son, un manque. Puis dire pour
       chacun laquelle des quatre catégories il sert. Ce qui ne rentre nulle part est du
       décor. Ce n'est pas une faute, mais il faut savoir combien il y en a.

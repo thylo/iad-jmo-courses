@@ -17,30 +17,28 @@
 
   <section title="Pourquoi c'est inspirant">
     <markdown>
-      **Le jeu ne raconte rien, il donne à voir.** Chaque scène de mort est un
+      **Le jeu donne à voir.** Chaque scène de mort est un
       arrêt sur image en trois dimensions, sans commentaire, précédée de quelques
       secondes de son. Ce qui s'est passé n'est écrit nulle part : il est dans la
       position des corps, un tatouage, un accent, une paire de bottes. Le récit
-      complet existe entièrement dans la tête du joueur, et nulle part ailleurs.
+      complet n'existe que dans la tête du joueur.
 
       **La validation par groupes de trois est la trouvaille.** Le registre ne
       confirme une réponse que lorsque trois sont justes en même temps. Impossible
       de tester une identité à l'aveugle et de lire la réponse dans le retour du
       jeu : il faut être sûr de trois choses avant de savoir qu'on avait raison
-      d'une seule. C'est une règle de trois lignes qui transforme un questionnaire
-      en enquête, et elle vaut d'être copiée partout où un système vérifie des
-      hypothèses.
+      d'une seule. Cette règle de trois lignes transforme un questionnaire en
+      enquête, et elle se transpose partout où un système vérifie des hypothèses.
 
       **L'ordre n'existe pas.** Les scènes s'ouvrent en chaîne, mais les
-      soixante fiches se remplissent dans le désordre, par recoupements — celui
-      qu'on identifie au chapitre trois se reconnaît au chapitre neuf. Une
-      [[structure-constellation]] où le lien entre deux nœuds n'est pas un lien
-      cliquable : c'est une ressemblance que personne n'a signalée.
+      soixante fiches se remplissent dans le désordre, par recoupements : celui
+      qu'on identifie au chapitre trois se reconnaît au chapitre neuf. C'est une
+      [[structure-constellation]] où le lien entre deux nœuds est une ressemblance
+      que personne n'a signalée.
 
-      **Le noir et blanc tramé n'est pas de la nostalgie.** Deux couleurs, un
+      **Le noir et blanc tramé fabrique la difficulté.** Deux couleurs, un
       tramage d'imprimante des années 1980 : on distingue une silhouette et un
-      geste, on ne distingue pas un visage du premier coup. La contrainte
-      graphique fabrique exactement la difficulté que le jeu vend. Un rendu
+      geste, on ne distingue pas un visage du premier coup. Un rendu
       photoréaliste rendrait l'énigme triviale.
     </markdown>
 
@@ -55,10 +53,10 @@
       c'est aussi un jeu qui demande de reconnaître des gens à leur origine
       supposée. Ça se discute plutôt que ça ne s'évite.
 
-      Et ça ne se joue qu'une fois. La deuxième partie n'a plus d'objet, puisque
+      Ça ne se joue qu'une fois. La deuxième partie n'a plus d'objet, puisque
       tout le contenu est la découverte. C'est le prix d'une œuvre dont la
-      mécanique et le sujet sont la même chose — [[immortality|Immortality]] paie
-      exactement la même.
+      mécanique et le sujet sont la même chose, et [[immortality|Immortality]] paie
+      le même.
     </markdown>
   </section>
 

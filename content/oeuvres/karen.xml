@@ -8,28 +8,26 @@
   <concept ref="role-soi-meme"/>
   <voir ref="i-d-hide-you"/>
 
-  <resume>Une application où une coach de vie, jouée en vidéo par Claire Cage, appelle tous les jours pendant une semaine. Elle se confie beaucoup et pose beaucoup de questions. Ces questions viennent de vrais questionnaires de psychologie, et l'application s'en sert pour dresser un profil de personnalité — qu'on peut acheter à la fin, sous forme de rapport détaillé disant ce que les réponses ont révélé.</resume>
+  <resume>Une application où une coach de vie, jouée en vidéo par Claire Cage, appelle tous les jours pendant une semaine. Elle se confie beaucoup et pose beaucoup de questions. Ces questions viennent de vrais questionnaires de psychologie, et l'application s'en sert pour dresser un profil de personnalité, qu'on peut acheter à la fin, sous forme de rapport détaillé disant ce que les réponses ont révélé.</resume>
 
   <visuel src="karen.jpg"
           source="https://www.blasttheory.co.uk/projects/karen/"/>
 
   <section title="Ce qui fonctionne">
     <markdown>
-      **Le profilage est réel.** Ce n'est pas une fiction sur la collecte de
-      données : les questions sont des instruments d'évaluation psychologique
+      **Le profilage est réel.** Les questions sont des instruments d'évaluation psychologique
       existants, et le rapport final dit vraiment quelque chose de la personne qui a
       répondu. Le retournement n'a lieu qu'à la fin, et il porte parce que rien
       n'était simulé. Voir [[role-soi-meme]].
 
       **La confidence appelle la confidence.** Karen en dit trop sur elle-même,
-      tard le soir, depuis sa chambre. C'est ce déséquilibre volontaire qui fait
-      répondre — le même mécanisme exactement que celui des services qui offrent un
-      quiz amusant pour obtenir un profil.
+      tard le soir, depuis sa chambre. Ce déséquilibre volontaire fait répondre.
+      C'est le mécanisme des services qui offrent un quiz amusant pour obtenir un
+      profil.
 
       **Une semaine, à heures imposées.** L'œuvre s'installe dans le quotidien avec
-      des rendez-vous qu'on n'a pas choisis. La durée n'est pas un habillage : elle
-      est ce qui rend la relation vraisemblable, et donc ce qui rend le rapport
-      final désagréable à lire.
+      des rendez-vous qu'on n'a pas choisis. La durée rend la relation
+      vraisemblable, et donc le rapport final désagréable à lire.
     </markdown>
   </section>
 

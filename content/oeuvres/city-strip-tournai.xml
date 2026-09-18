@@ -8,7 +8,7 @@
   <concept ref="interface-maps"/>
   <concept ref="role-soi-meme"/>
 
-  <resume>Un parcours de ville sur téléphone, dans une ville de bande dessinée. On marche jusqu'à un lieu de Tournai, le téléphone déverrouille une planche dessinée où le patrimoine réel est découpé en cases, et il faut résoudre l'énigme sur place pour repartir. Trois formats — quarante-cinq minutes, une heure quinze, deux heures. Gratuit, produit par Tiny Big Story pour la Maison du Tourisme de la Wallonie picarde et Ideta, sur fonds FEDER.</resume>
+  <resume>Un parcours de ville sur téléphone, dans une ville de bande dessinée. On marche jusqu'à un lieu de Tournai, le téléphone déverrouille une planche dessinée où le patrimoine réel est découpé en cases, et il faut résoudre l'énigme sur place pour repartir. Trois formats : quarante-cinq minutes, une heure quinze, deux heures. Gratuit, produit par Tiny Big Story pour la Maison du Tourisme de la Wallonie picarde et Ideta, sur fonds FEDER.</resume>
 
   <visuel src="city-strip-tournai.jpg"
           source="https://www.visittournai.be/agenda/citystrip/"/>
@@ -24,8 +24,8 @@
       **Le décor est en photographie, la mise en scène en dessin.** Les cases sont
       montées à partir de vraies vues de Tournai, découpées, inclinées, remplies de
       bulles. Le lieu qu'on a sous les yeux et l'image qu'on tient dans la main sont
-      la même chose, une fois passée à la moulinette du trait. Un guide illustré
-      aurait mis un dessin ; ici on garde la photo et on lui met une bulle.
+      les mêmes, passés au trait. Un guide illustré aurait mis un dessin ; ici, la
+      photo reçoit une bulle.
     </markdown>
 
     <image src="city-strip-tournai-grand-place.jpg"
@@ -35,12 +35,10 @@
            credit="Tiny Big Story"/>
 
     <markdown>
-      **La bande dessinée n'est pas un habillage.** Tournai est une ville de bande
-      dessinée, et l'application s'en sert comme d'un matériau plutôt que d'un
-      thème : une énigme demande de reconstituer une phrase à partir de bulles
-      découpées dans des albums réels — Blacksad, Rahan, Marmelade — chaque case
-      créditée à son auteur. La forme de l'objet et le patrimoine dont il parle sont
-      la même chose.
+      **La bande dessinée comme matériau.** Tournai est une ville de bande dessinée,
+      et l'application s'en sert : une énigme demande de reconstituer une phrase à
+      partir de bulles découpées dans des albums réels (Blacksad, Rahan, Marmelade),
+      chaque case créditée à son auteur.
     </markdown>
 
     <image src="city-strip-tournai-planche.jpg"
@@ -52,8 +50,8 @@
     <markdown>
       **Un indice a un prix affiché.** Cinq boutons, de moins cinq à moins cent
       points. Rien n'est bloqué, tout est facturé : c'est la façon la plus simple de
-      laisser passer un joueur coincé sans faire semblant qu'il a trouvé. À retenir
-      pour n'importe quel dispositif qui doit rester jouable par un enfant et par un
+      laisser passer un joueur coincé sans faire semblant qu'il a trouvé. Le principe
+      vaut pour tout dispositif qui doit rester jouable par un enfant et par un
       adulte.
     </markdown>
   </section>
@@ -61,16 +59,16 @@
   <section title="Ce qui coince">
     <markdown>
       **Le GPS décide, et il se trompe.** L'application refuse d'ouvrir l'étape tant
-      qu'elle ne vous croit pas arrivé. Sur place, à trois mètres de la fausse porte
-      de la cathédrale, elle répond « tu n'y es pas encore » — et la boussole du menu
+      qu'elle ne croit pas le joueur arrivé. Sur place, à trois mètres de la fausse
+      porte de la cathédrale, elle répond « tu n'y es pas encore », et la boussole du menu
       annonce sereinement que la cathédrale est à quatre-vingt-douze kilomètres.
       Entre les murs de pierre et les rues étroites d'un centre médiéval, la
-      localisation dérive exactement là où le parcours se joue.
+      localisation dérive là où le parcours se joue.
 
       Les auteurs le savent : il existe un bouton « si si j'y suis », caché derrière
-      un point d'interrogation. C'est la bonne décision — un dispositif qui dépend
-      d'un capteur doit prévoir que le capteur ait tort — mais il faut le trouver, et
-      un groupe qui ne le trouve pas s'arrête là.
+      un point d'interrogation. C'est la bonne décision, puisqu'un dispositif qui
+      dépend d'un capteur doit prévoir que le capteur ait tort. Encore faut-il le
+      trouver : un groupe qui ne le trouve pas s'arrête là.
     </markdown>
 
     <image src="city-strip-tournai-gps.jpg"
@@ -86,8 +84,7 @@
            credit="Tiny Big Story"/>
 
     <markdown>
-      Et l'application est le seul support. Rien n'est imprimé, rien ne se rejoue :
-      le jour où elle quitte les boutiques ou cesse d'être compatible, le parcours
+      L'application est le seul support, et rien n'est imprimé : le jour où elle quitte les boutiques ou cesse d'être compatible, le parcours
       n'existe plus, alors que les lieux, eux, seront toujours là. Un plan papier
       aurait survécu au téléphone.
     </markdown>

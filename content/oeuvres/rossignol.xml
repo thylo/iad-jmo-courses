@@ -16,31 +16,29 @@
   <section title="Chercher quelqu'un">
     <markdown>
       Le cœur du dispositif est une liste de personnes. Un champ de recherche, quatre
-      colonnes — le nom, le lieu d'habitation, le lieu du décès, l'âge au moment de la
-      mort — et la possibilité de faire défiler jusqu'à tomber sur le sien, ou sur celui
+      colonnes (le nom, le lieu d'habitation, le lieu du décès, l'âge au moment de la
+      mort) et la possibilité de faire défiler jusqu'à tomber sur le sien, ou sur celui
       d'un voisin. L'exemple proposé dans le champ vide est « François Dupont » : un nom
       quelconque, qui dit bien ce que la liste contient.
 
-      Ce que cette table produit, aucun panneau ne le produit. Une colonne d'âges qu'on
-      parcourt du doigt — 19, 20, 22, 27, 29, 32, 33, 48, 63, 69 — dit la chose plus vite
-      qu'une phrase sur la mort des civils. Le tri est l'argument.
+      Une colonne d'âges qu'on parcourt du doigt (19, 20, 22, 27, 29, 32, 33, 48, 63,
+      69) dit la chose plus vite qu'un panneau ou qu'une phrase sur la mort des civils. Le tri est l'argument.
     </markdown>
 
     <image src="rossignol-recherche.jpg"
            alt="Écran clair. En haut, le mot « Rechercher » à côté d'un champ de saisie vide portant l'exemple « ex: François Dupont ». En dessous, un tableau à quatre colonnes — nom, lieu d'habitation, lieu de décès, âge lors du décès — dont les lignes égrènent des noms en petites capitales : Edouard Andreux, Jules André-Goffinet, Théophile Anizet, Hubert Antoine, Julien Bastien, Félix Baudru, Joseph Baudru, Louis Baudru, Edmond Bayet, Edouard Bayet. Les lieux se répètent : Rossignol, Arlon, Ansart, Saint-Vincent. À gauche, un curseur en forme de main."
-           caption="Quatre colonnes et un champ de recherche. Les patronymes se suivent — trois Baudru, deux Bayet : ce sont des familles."
+           caption="Quatre colonnes et un champ de recherche. Les patronymes se suivent : trois Baudru, deux Bayet. Ce sont des familles."
            credit="Mémorial de Rossignol"/>
 
     <markdown>
-      **La fiche individuelle refuse de s'arrêter aux champs.** Prénom, nom, sexe, cause
+      **La fiche individuelle déborde des champs.** Prénom, nom, sexe, cause
       du décès, âge, lieu du décès, lieu de commémoration : sept lignes de formulaire,
-      et puis un bloc de texte qui déborde et raconte l'après-midi du massacre — le
+      et puis un bloc de texte qui déborde et raconte l'après-midi du massacre : le
       cortège rassemblé, les hommes séparés des femmes et des enfants, le demi-tour
       devant la chapelle, la prairie au lieu-dit « Les Loynes ».
 
-      C'est le geste qui sauve l'ensemble. Une base de données réduit une personne à ses
-      colonnes ; ici la dernière colonne rend le récit, dans les mots de ceux qui l'ont
-      consigné, et la fiche cesse d'être un enregistrement.
+      Une base de données réduit une personne à ses colonnes. Ici, la dernière colonne
+      rend le récit, dans les mots de ceux qui l'ont consigné.
     </markdown>
 
     <image src="rossignol-fiche.jpg"
@@ -49,23 +47,23 @@
            credit="Mémorial de Rossignol"/>
 
     <markdown>
-      **Nommer les morts est un classement, et c'est ici le bon usage du geste.**
+      **Nommer les morts est un classement.**
       [Ranger n'est pas neutre](/panorama/ranger) montre surtout des fichiers qui se
-      retournent contre ceux qu'ils rangent. Rossignol est le contre-exemple que cette
-      page cherche : le classement sert les gens qu'il classe. Trier des morts par leur
-      nom, leur âge et leur village, c'est refuser le décompte — et un décompte est
-      précisément ce que voulait laisser l'armée qui les a fusillés. [[jer-thorp]] tient
+      retournent contre ceux qu'ils rangent. Rossignol est un contre-exemple : le
+      classement y sert les gens qu'il classe. Trier des morts par leur nom, leur âge et
+      leur village s'oppose au décompte, qui est ce que voulait laisser l'armée qui les
+      a fusillés. [[jer-thorp]] tient
       le même pari sur le mémorial du 11-Septembre, où trois mille noms sont placés
       selon ce que les familles ont demandé plutôt que par ordre alphabétique.
     </markdown>
 
     <image src="rossignol-victimes.jpg"
            alt="Écran en noir et blanc. En fond, une photographie ancienne d'une cérémonie en forêt : une foule endimanchée, des militaires, une gerbe posée devant des tombes. Au premier plan, quatre cartes blanches alignées : trois portraits dessinés au crayon légendés « Marie Cornerotte », « Comtesse Mathilde van der Straeten-Ponthoz » et « Ambulancier », puis une flèche noire au-dessus du mot « Rechercher », sous le titre « Les victimes civiles ». En haut à droite, quatre onglets : FR, EN, NL, DE."
-           caption="On entre dans la liste par trois visages, pas par un formulaire."
+           caption="On entre dans la liste par trois visages."
            credit="Mémorial de Rossignol"/>
   </section>
 
-  <section title="L'écran ne parle pas plus fort que le lieu">
+  <section title="L'écran après le lieu">
     <markdown>
       Avant d'atteindre les pupitres, le visiteur traverse une forêt de poteaux calcinés
       et contourne un bassin de corten empli d'une lumière bleue où plonge une poutre
@@ -74,10 +72,9 @@
       lumineux de la pièce.
 
       **Le son passe par un combiné**, en forme de galet, qu'on porte à l'oreille. Ce
-      seul choix règle ce que la plupart des expositions ne règlent pas : plusieurs
+      choix règle un problème que la plupart des expositions laissent ouvert : plusieurs
       récits sonores dans un même volume, qui se marchent dessus et transforment une
-      salle de mémoire en hall de gare. Ici le silence est le fond, et il fait partie du
-      sujet.
+      salle de mémoire en hall de gare. Ici, la salle reste silencieuse.
     </markdown>
 
     <image src="rossignol-puits.jpg"
@@ -96,15 +93,14 @@
     <markdown>
       Dans la salle de projection, le film est sous-titré simultanément en français, en
       néerlandais, en anglais et en allemand, les quatre blocs disposés autour de
-      l'image sur la paroi courbe. Personne ne choisit sa langue, personne n'attend son
-      tour, la séance ne se rejoue pas quatre fois.
+      l'image sur la paroi courbe. Personne ne choisit sa langue, et la séance ne se
+      rejoue pas quatre fois.
 
       La décision se paie : quatre pavés de texte occupent une place que l'image n'a
-      plus, et chacun lit un quart de ce qui est affiché. Ce qu'elle achète, c'est qu'un
-      car néerlandophone et une classe wallonne assistent à la même séance. Le
+      plus, et chacun lit un quart de ce qui est affiché. En échange, un car
+      néerlandophone et une classe wallonne assistent à la même séance. Le
       contraste avec [[parlement-de-wallonie]], qui range ses quatre langues dans des
-      onglets, montre qu'il n'y a pas de bonne réponse générale : il y a un lieu, un
-      public et un temps de visite.
+      onglets, montre que la réponse dépend du lieu, du public et du temps de visite.
     </markdown>
 
     <image src="rossignol-salle.jpg"
@@ -119,12 +115,10 @@
       navigateur lancé au démarrage sur une machine cachée dans le meuble, le montage
       décrit dans [le web hors du navigateur](/articles/le-web-hors-du-navigateur).
 
-      La comparaison avec [[parlement-de-wallonie]] vaut le détour, parce que les deux
-      dispositifs sont contemporains, tiennent le même rôle et ne sont pas faits de la
-      même matière — l'un est un moteur de jeu, l'autre un navigateur. Vus depuis la
-      salle, ils font le même métier. Le choix de la technique ne se lit pas sur
-      l'écran : il se lit dans ce que l'équipe savait faire, et dans ce qu'il faudra
-      savoir refaire le jour où la machine tombera en panne.
+      [[parlement-de-wallonie]] est contemporain et tient le même rôle, avec une autre
+      matière : un moteur de jeu au lieu d'un navigateur. Vus depuis la salle, les deux
+      font le même métier. Le choix de la technique tient à ce que l'équipe savait
+      faire, et à ce qu'il faudra savoir refaire le jour où la machine tombera en panne.
     </markdown>
   </section>
 
@@ -135,9 +129,8 @@
       1914 qu'il commémore sont debout depuis cent dix ans. Les pupitres dépendent d'une
       machine, d'un système d'exploitation, d'un navigateur et de quelqu'un pour les
       remplacer. La partie du mémorial qui parle le mieux est celle qui s'arrêtera la
-      première, et l'écart entre les deux durées de vie ne se règle pas en choisissant
-      mieux ses composants : il se règle en décidant, à la conception, ce qui doit
-      rester quand les écrans seront noirs. La liste des noms mérite d'exister ailleurs
+      première. L'écart entre les deux durées de vie se règle à la conception, en
+      décidant ce qui doit rester quand les écrans seront noirs. La liste des noms mérite d'exister ailleurs
       que dans une machine posée en Gaume.
 
       **Le lieu est isolé.** Une prairie loin de tout, ce qui est la condition du
@@ -152,7 +145,7 @@
            credit="Mémorial de Rossignol"/>
 
     <markdown>
-      **Et la question que tout mémorial interactif finit par poser.** Un dispositif qui
+      **Un dispositif agréable pour un sujet qui ne l'est pas.** Un dispositif qui
       fonctionne bien rend la visite agréable, or le sujet ne l'est pas. Rossignol s'en
       tire parce que la scénographie est sombre, lente et silencieuse, et parce que les
       écrans y sont tenus à leur place. Le même contenu dans une salle claire, avec de

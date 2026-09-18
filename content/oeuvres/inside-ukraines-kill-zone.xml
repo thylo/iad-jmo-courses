@@ -29,51 +29,44 @@
     <markdown>
       **La distance est le récit.** Le survol est gradué : quinze kilomètres derrière
       les lignes russes, zéro, quinze kilomètres derrière les lignes ukrainiennes. Tout
-      ce qu'on voit se lit par rapport à cette échelle — plus on approche, plus le ciel
-      se remplit et plus les corps disparaissent sous terre. C'est le cas d'école de
+      ce qu'on voit se lit par rapport à cette échelle : plus on approche, plus le ciel
+      se remplit et plus les corps disparaissent sous terre. C'est un cas d'école de
       [[interface-maps|la carte qui raconte]] : la position d'une scène par rapport à
-      une autre est l'information, pas un rangement.
+      une autre est l'information.
 
-      **La [[structure-lineaire|structure]] est celle du terrain.** Pas de chapitres,
-      pas de menu, pas de retour en arrière proposé : une traversée, et l'ordre des
-      scènes est l'ordre des distances. Personne n'a besoin qu'on lui dise où il en est.
+      **La [[structure-lineaire|structure]] est celle du terrain.** Ni chapitres ni
+      menu : une traversée, où l'ordre des scènes est l'ordre des distances. Personne n'a besoin qu'on lui dise où il en est.
 
       **Le [[interface-scrollable|défilement]] est un travelling.** La main donne le
-      tempo, la séquence appartient aux auteurs — le survol s'arrête sur un tank sous
+      tempo, la séquence appartient aux auteurs. Le survol s'arrête sur un tank sous
       cage grillagée, un trou où trois hommes dorment, une route couverte de filets
-      anti-drones, puis repart. C'est le geste que les étudiants connaissent déjà par le
-      montage, transposé sans rien perdre.
+      anti-drones, puis repart. Les étudiants connaissent déjà ce geste par le montage.
 
-      **L'illustration s'annonce comme illustration.** Rendu volontairement pauvre,
-      couleurs lavées, silhouettes anguleuses. Une pièce qui travaille à partir de morts
-      filmées par milliers refuse le photoréalisme : c'est une décision, pas une limite
-      technique.
+      **L'illustration s'annonce comme illustration.** Le rendu est volontairement
+      pauvre : couleurs lavées, silhouettes anguleuses. Une pièce qui travaille à partir
+      de morts filmées par milliers refuse le photoréalisme, et c'est une décision.
     </markdown>
   </section>
 
   <section title="Comment c'est fait, techniquement">
     <markdown>
-      À montrer en cours, parce que la fabrication est à la portée d'un atelier et que
-      la démonstration est spectaculaire.
+      La fabrication est à la portée d'un atelier.
 
-      Le survol n'est ni de la 3D temps réel, ni une séquence d'images. Ce sont **deux
-      grandes illustrations verticales**, une par camp, de 2400 pixels de large sur
+      Le survol tient en deux grandes illustrations verticales, une par camp, de 2400 pixels de large sur
       12 000 de haut, servies en cinq largeurs selon l'écran. La page les fait défiler
       et pose les étiquettes par-dessus au bon moment. Le rendu en volume a servi à
       fabriquer les images ; il ne tourne pas chez le lecteur.
 
-      Autrement dit : un panorama roulant, la technique des dioramas du dix-neuvième
-      siècle, avec le défilement du navigateur pour manivelle. Aucun moteur, aucune
-      bibliothèque de rendu, aucune contrainte de machine — un fichier image, et du
-      texte qui apparaît en face des bons pixels. C'est la leçon utile pour un projet
-      d'étudiant : l'effet ne vient pas de la technologie employée, il vient d'avoir
-      dessiné le bon plan.
+      C'est un panorama roulant, la technique des dioramas du dix-neuvième siècle, avec
+      le défilement du navigateur pour manivelle. Il n'y a ni moteur ni bibliothèque de
+      rendu : un fichier image, et du texte qui apparaît en face des bons pixels.
+      L'effet vient d'avoir dessiné le bon plan.
     </markdown>
   </section>
 
   <section title="Ce que la page dit de sa fabrication">
     <markdown>
-      La note de méthode est courte et vaut d'être lue avant le reste : le décor n'est
+      La note de méthode est courte : le décor n'est
       la reproduction d'aucun secteur du front. C'est une concentration de scènes
       relevées sur plusieurs secteurs, rassemblées dans un paysage qui n'existe pas.
 
@@ -88,13 +81,13 @@
       Deux personnes réelles traversent la fiction du décor : Serhii Krynitskyi, qui a
       tenu plus de trois cents jours dans une même position, et Andriy Meskov, pilote de
       drone de quarante-deux ans blessé au genou par un drone russe, dont l'évacuation
-      sur deux nuits — un robot terrestre sur deux kilomètres, puis une ambulance —
+      sur deux nuits (un robot terrestre sur deux kilomètres, puis une ambulance)
       occupe la fin du survol. Le paysage est composite, les récits ne le sont pas.
 
       Reuters écrit aussi ce qu'elle n'a pas pu faire : interroger des militaires
       russes, en raison des restrictions imposées à la couverture du conflit en Russie,
       et obtenir une réponse du ministère russe de la défense. La conséquence est
-      assumée dans la composition — le versant russe montre l'assaut, le versant
+      assumée dans la composition : le versant russe montre l'assaut, le versant
       ukrainien le ravitaillement, la relève et l'évacuation.
     </markdown>
   </section>
@@ -105,15 +98,14 @@
       de la page travaille à donner l'impression d'un lieu : on suit une route, on
       revient sur un cratère, on reconnaît une lisière. La forme travaille contre
       l'avertissement, et rien dans l'image ne distingue ce qui est documenté de ce qui
-      est plausible. C'est l'inverse exact du choix fait à
+      est plausible. C'est l'inverse du choix fait à
       [[what-the-1921-tulsa-race-massacre-destroyed|Tulsa]], où les bâtiments sans
       photographie restent des volumes nus. Ici tout est fini au même degré.
 
       Les vidéos qui ont servi de matière première sont des mises à mort réelles,
       filmées par les unités qui tuent et publiées par elles comme preuve de rendement.
       La page les vérifie soigneusement et ne s'interroge jamais sur ce que devient une
-      exécution filmée quand elle devient documentation. La chaîne est réelle, elle
-      n'est pas commentée.
+      exécution filmée quand elle devient documentation.
 
       Enfin la pièce est lourde : les deux panoramas pèsent à eux seuls 5,4 et 5,6 Mo
       dans leur plus grande version, avant les vidéos. Le choix des cinq largeurs limite

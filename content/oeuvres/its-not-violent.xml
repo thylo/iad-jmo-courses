@@ -9,7 +9,7 @@
   <concept ref="role-personnage"/>
   <concept ref="choix-exploratoire"/>
 
-  <resume>Cinq conversations par SMS, toutes ordinaires. On tient le téléphone de la personne qui reçoit, on choisit quoi répondre, et le fil continue. Rien d'explicite ne s'y passe — on demande où tu es, qui était là, pourquoi tu n'as pas répondu. À la fin, la question : est-ce que c'était violent ? Produit par SOS violence conjugale avec le studio montréalais Locomotive.</resume>
+  <resume>Cinq conversations par SMS, toutes ordinaires. On tient le téléphone de la personne qui reçoit, on choisit quoi répondre, et le fil continue. Rien d'explicite ne s'y passe : on demande où tu es, qui était là, pourquoi tu n'as pas répondu. À la fin, la question : est-ce que c'était violent ? Produit par SOS violence conjugale avec le studio montréalais Locomotive.</resume>
 
   <visuel src="its-not-violent.jpg"
           source="https://itsnotviolent.com/"/>
@@ -18,25 +18,23 @@
     <markdown>
       **La forme est celle du sujet, sans transposition.** Une bulle de texte, un
       champ de réponse. Il n'y a rien à apprendre pour entrer, et rien qui signale
-      qu'on est dans une œuvre : c'est exactement l'écran qu'on regarde cinquante
-      fois par jour. La violence dont il est question passe par ce canal-là, et le
-      dispositif refuse d'en changer.
+      qu'on est dans une œuvre : c'est l'écran qu'on regarde cinquante fois par jour.
+      La violence dont il est question passe par ce canal-là, et le dispositif s'y
+      tient.
 
-      **On répond, donc on est dedans.** Choisir ses mots — s'excuser, se justifier,
-      envoyer une photo pour prouver — fait faire au public le travail que fait la
-      personne visée. Ce n'est pas une reconstitution qu'on regarde, c'est une
-      position qu'on occupe le temps de cinq messages. Voir [[role-personnage]].
+      **On répond, donc on est dedans.** Choisir ses mots (s'excuser, se justifier,
+      envoyer une photo pour prouver) fait faire au public le travail que fait la
+      personne visée. On occupe sa position le temps de cinq messages. Voir [[role-personnage]].
 
-      **Aucune réponse n'est la bonne.** Le dispositif ne note pas, ne corrige pas,
-      ne récompense pas. Les choix sont [[choix-exploratoire|exploratoires]] : ils
-      changent le fil sans changer l'issue, ce qui est précisément le point. La
-      question finale — « est-ce que c'était violent ? » — n'arrive qu'après, et
-      c'est le public qui doit y répondre.
+      **Aucune réponse n'est la bonne.** Le dispositif ne note ni ne corrige. Les
+      choix sont [[choix-exploratoire|exploratoires]] : ils changent le fil sans
+      changer l'issue. La question finale, « est-ce que c'était violent ? », n'arrive
+      qu'après, et c'est le public qui y répond.
 
       **En groupe, c'est le désaccord qui enseigne.** Deux personnes ayant suivi le
       même scénario par des réponses différentes n'ont pas vu la même chose, et ne
-      répondent pas pareil à la question finale. Le contenu du cours n'est pas dans
-      l'œuvre : il est dans l'écart entre deux parcours, et il faut prévoir le temps
+      répondent pas pareil à la question finale. Le contenu du cours se trouve dans
+      l'écart entre deux parcours, et il faut prévoir le temps
       de le faire apparaître.
     </markdown>
   </section>
@@ -45,8 +43,7 @@
     <markdown>
       La matière est lourde, et l'œuvre le sait : elle affiche des lignes d'écoute à
       la sortie. Le montrer en classe demande d'annoncer ce qui vient et de savoir
-      quoi faire si quelqu'un se reconnaît. Ce n'est pas une précaution facultative,
-      c'est une partie du dispositif.
+      quoi faire si quelqu'un se reconnaît. Cette précaution fait partie du dispositif.
     </markdown>
   </section>
 

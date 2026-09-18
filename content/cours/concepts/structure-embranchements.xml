@@ -62,10 +62,10 @@
       - Risque d'illusion de choix si mal fait
       - Maintenance complexe
 
-      **Les embranchements coûtent, l'état ne coûte pas.** Deux choix par scène, dix
+      **Les embranchements coûtent, l'état beaucoup moins.** Deux choix par scène, dix
       scènes, et il faut écrire mille chemins que personne ne lira. C'est l'explosion
-      combinatoire. Elle n'est pas qu'un problème de budget : c'est elle qui fabrique
-      la plupart des [[faux-choix|faux choix]], parce qu'il faut bien recoller les
+      combinatoire. Au-delà du budget, c'est elle qui fabrique la plupart des
+      [[faux-choix|faux choix]], parce qu'il faut bien recoller les
       branches qu'on n'a pas pu écrire.
 
       L'explosion vient de ce que la mémoire du récit est dans la position : être
@@ -112,19 +112,15 @@
       à prendre maintenant. On croit tenir un film à embranchements où le mauvais
       geste coûte une vie.
 
-      Il n'en est rien. Un mauvais choix n'ouvre pas de branche : rien n'est joué,
-      aucune conséquence n'existe à l'écran. Le récit ne repart que par la bonne
-      réponse. Ce n'est pas un arbre, c'est un couloir avec un questionnaire,
-      un [[faux-choix|faux choix]] à l'échelle de l'œuvre entière.
+      Un mauvais choix n'ouvre pourtant aucune branche : rien n'est joué, aucune
+      conséquence n'existe à l'écran. Le récit ne repart que par la bonne réponse.
+      C'est un couloir avec un questionnaire, un [[faux-choix|faux choix]] à
+      l'échelle de l'œuvre entière.
 
       À décharge : l'intention est pédagogique, et pour un cours de secourisme la
-      seule fin utile est celle où la victime survit. Le problème n'est pas ce
-      choix-là, il est de ne pas l'assumer. Un quiz vidéo honnête vaut mieux qu'une
-      arborescence promise et non tenue : la déception ne vient pas du contenu,
-      elle vient du contrat rompu.
-
-      **La question à se poser sur son propre projet :** est-ce que mes branches
-      existent vraiment, ou est-ce que je vends un arbre pour habiller un couloir ?
+      seule fin utile est celle où la victime survit. Ce choix se défend ; le problème
+      est de ne pas l'assumer. Un quiz vidéo honnête vaut mieux qu'une arborescence
+      promise et non tenue, parce que la déception vient du contrat rompu.
     </markdown>
   </section>
 

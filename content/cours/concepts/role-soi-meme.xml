@@ -12,13 +12,13 @@
 
   <section title="Définition">
     <markdown>
-      Pas d'avatar, pas de nom donné, pas de passé à endosser. L'œuvre s'adresse à la
+      Le public n'a ni avatar, ni nom, ni passé à endosser. L'œuvre s'adresse à la
       personne qui est devant l'écran et se sert de ce qu'elle sait d'elle : une
       réponse, une adresse, un historique de navigation, une webcam, l'heure qu'il est
       là où elle se trouve.
 
       C'est le seul rôle où le contenu n'est pas entièrement écrit d'avance, puisqu'une
-      partie vient du spectateur. Et c'est le seul où le spectateur ne peut pas se
+      partie vient du spectateur. C'est aussi le seul où le spectateur ne peut pas se
       cacher derrière quelqu'un d'autre.
     </markdown>
   </section>
@@ -46,11 +46,11 @@
       démontré sur lui plutôt qu'expliqué.
 
       [[generation-what]] pose des questions et situe ensuite le répondant dans le
-      million de réponses des autres. Le retour n'est pas « voici ce que vous êtes »,
-      c'est « voici où vous êtes ». Le collectif fait le travail.
+      million de réponses des autres. Le retour dit où il se situe parmi les autres, et
+      le collectif fait le travail.
 
       [[lifeline]] ne donne aucun rôle : le spectateur est lui-même, avec son
-      téléphone, et quelqu'un lui écrit depuis une lune. Le temps réel achève l'effet —
+      téléphone, et quelqu'un lui écrit depuis une lune. Le temps réel achève l'effet :
       quand Taylor dort huit heures, l'attente dure huit heures.
 
       [[the-johnny-cash-project]] va au bout : le spectateur dessine une image du clip,
@@ -67,9 +67,9 @@
 
       **Les données ne viennent pas toujours.** Permission refusée, navigateur
       verrouillé, réponse vide : il faut une version qui fonctionne quand il n'y a
-      rien. C'est le cas par défaut, pas le cas dégradé.
+      rien. C'est le cas par défaut.
 
-      **La question du consentement se pose vraiment.** Se servir des données de
+      **Le consentement.** Se servir des données de
       quelqu'un pour lui parler de lui suppose de dire ce qu'on prend, et de tenir
       quand il refuse. Une œuvre qui prend sans demander fait la chose qu'elle
       dénonce, ce qui rejoint
