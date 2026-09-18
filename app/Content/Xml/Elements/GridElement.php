@@ -194,7 +194,7 @@ final readonly class GridElement implements ElementRenderer
      */
     private function entry(XmlSource $source, ContentIndex $index): GridEntry
     {
-        $meta = array_filter([$source->value('annee'), $this->creators($source, $index)]);
+        $meta = array_filter([$source->value('annee'), $index->creditOf($source)]);
 
         return new GridEntry(
             title: $source->title,
@@ -203,16 +203,5 @@ final readonly class GridElement implements ElementRenderer
             summary: $source->summary,
             thumbnail: $this->images->thumbnail($source),
         );
-    }
-
-    private function creators(XmlSource $entry, ContentIndex $index): ?string
-    {
-        $names = [];
-
-        foreach ($entry->values('par') as $id) {
-            $names[] = $index->find($id)?->title ?? $id;
-        }
-
-        return $names === [] ? null : implode(', ', $names);
     }
 }

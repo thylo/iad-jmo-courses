@@ -62,6 +62,23 @@ final readonly class ContentIndex
         return array_values(array_filter($this->byId, static fn (XmlSource $s): bool => $s->type === $type));
     }
 
+    /**
+     * The credit line of an entity: who made it, by name.
+     *
+     * A <par> holds either a reference or a plain name, so a value that
+     * resolves to nothing is already the name. Null rather than empty, like
+     * every other absent field.
+     */
+    public function creditOf(XmlSource $source): ?string
+    {
+        $names = array_map(
+            fn (string $value): string => $this->find($value)?->title ?? $value,
+            $source->values('par'),
+        );
+
+        return $names === [] ? null : implode(', ', $names);
+    }
+
     /** @return XmlSource[] entities pointing at $id */
     public function backlinksTo(string $id): array
     {

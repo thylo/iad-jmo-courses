@@ -138,7 +138,9 @@ C'est ce qui fait qu'une page de studio ne liste jamais ses œuvres : les œuvre
 déclarent leur créateur, et la page lit la relation dans l'autre sens.
 
 `<backlinks/>` affiche qui pointe ici, tous liens confondus — `ref=` comme
-`[[…]]`.
+`[[…]]`. Les sources sont groupées par type, et les œuvres rangées par année.
+Sur une page de concept, les autres concepts qui la citent n'apparaissent pas :
+ils se comparent à elle et n'apprennent rien sur elle.
 
 ## Les types
 

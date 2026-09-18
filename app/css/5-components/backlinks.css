@@ -1,7 +1,25 @@
 /* Who points here — what <backlinks/> renders.
 
-   Same shape as any generated index: a heading, then a list of statements.
-   Each line is a full one, so it needs no bullet in front of it. */
+   A register, not a pile. One group per kind of source, each named by what the
+   site calls a collection of them, and the works in the order they were made.
+
+   --- The rhythm ---------------------------------------------------------
+   One entry is one line box, 28, and nothing separates two entries but the
+   line itself. The old list put a half step between every link, 42 an entry,
+   which is the spacing of statements; these are rows of a register and read
+   down like one. The step that opens a group is a rank above that, 28 against
+   0, and the heading that owns them all opens at 56 like any other.
+
+   --- The year in the margin ---------------------------------------------
+   The margin is the column of labels, and a year is the label of its row. So
+   it hangs there, set against the edge of the text column, and the titles
+   keep the left edge of the prose above them: the register reads as part of
+   the page rather than as a table dropped into it. Printed once per run — four
+   works from 2015 carry one 2015 — so the column reads as a chronology and the
+   gaps in it, 1950 then 2010, show without anyone pointing at them.
+
+   Only the title is a link. The year and the credit are the cartel around it,
+   set in ink, so the accent says the one thing it is for. */
 
 .c-backlinks__title {
   font-size: var(--text-lead);
@@ -11,9 +29,95 @@
 
 .c-backlinks__title + * { margin-block-start: var(--space-s); }
 
+/* A group name is one step below the h2 that owns it, in the display face —
+   the same relation as a door name under its section in destinations.css. */
+.c-backlinks__kind {
+  font-family: var(--font-display);
+  font-size: var(--text-title);
+  font-weight: normal;
+  line-height: var(--space-unit);
+}
+
 .c-backlinks__list {
   padding-inline-start: 0;
   list-style: none;
 }
 
-.c-backlinks__list > li + li { margin-block-start: var(--space-s); }
+.c-backlinks__entry {
+  font-size: var(--text-body);
+  line-height: var(--space-unit);
+}
+
+/* Title and credit side by side, and a long credit wraps inside its own box
+   rather than back under the title, where its second line read as one more
+   entry. When the line cannot give the credit the width of a margin note —
+   the narrowest column the site already sets meta text in — it goes under
+   the title whole.
+
+   Aligned to the top, not the baseline: two sizes in one 28 line box sit a
+   pixel apart, and baseline alignment would buy that pixel back by making the
+   row 29. Same trade as destinations.css, for the same reason. */
+.c-backlinks__name {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  column-gap: var(--space-s);
+}
+
+.c-backlinks__credit {
+  flex: 1 1 var(--sidenote-width);
+  font-size: var(--text-meta);
+  color: var(--color-ink-faint);
+  text-wrap: pretty;
+}
+
+/* The dated group leaves the measure on both sides: into the margin by
+   exactly its width, the same move as the wide grid index, and into the field
+   on the right. A row of a register is not a line of prose, and held to the
+   measure a credit of five names wrapped on a third of the rows. The left
+   edge is what the eye follows down, and that one does not move.
+
+   canvas.css caps the children of a nav at the measure; this one says
+   otherwise for itself. */
+.c-backlinks__group:has(.c-backlinks__list--dated) { max-width: none; }
+
+.c-backlinks__list--dated {
+  margin-inline-start: calc(-1 * var(--sidebar-width));
+}
+
+.c-backlinks__list--dated .c-backlinks__entry {
+  display: grid;
+  grid-template-columns: [year] var(--sidebar-width) [name] minmax(0, 1fr);
+}
+
+/* Placed by name, so an undated work or a repeated year, which leave the first
+   track empty, never pull the title into it. */
+.c-backlinks__year {
+  grid-column: year;
+  padding-inline-end: var(--space-m);
+  text-align: end;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-ink-faint);
+}
+
+.c-backlinks__name { grid-column: name; }
+
+/* Below the fold there is no margin to hang in. The year comes back to the
+   head of its line, in a track as wide as four figures, and the titles still
+   share one edge.
+
+   And the credit always goes under its title. Left to the flex basis, a
+   short title kept it alongside in a sliver three lines tall and a long one
+   sent it below, so no two entries had the same shape. */
+@media (max-width: 47.999em) {
+  .c-backlinks__credit { flex-basis: 100%; }
+
+  .c-backlinks__list--dated { margin-inline-start: 0; }
+
+  .c-backlinks__list--dated .c-backlinks__entry {
+    grid-template-columns: [year] 4ch [name] minmax(0, 1fr);
+    column-gap: var(--space-s);
+  }
+
+  .c-backlinks__year { padding-inline-end: 0; }
+}
