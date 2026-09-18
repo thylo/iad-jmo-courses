@@ -1,16 +1,7 @@
-## General
-
-- All documentation for Tempest can be found in vendor/tempest/framework/docs
-- Use `php tempest make:` commands to create framework-specific classes.
-
-## Frontend
-
-- Use Tempest view components where it makes sense
-- Templates live in `views/` at the root, classes in `app/View/`. The
-  `"Views\\": "views/"` entry in composer.json has no class behind it: it is
-  only there so Tempest scans the directory for `x-*` components.
-
-<!-- lerd:begin -->
+---
+name: lerd
+description: Manage the lerd local PHP development environment via MCP tools: run framework console commands (artisan, bin/console, etc.), manage services, start/stop queue workers, run composer, manage Node.js versions, and inspect site status. Also the way to diagnose and optimize a slow site: find N+1 and slow queries, read per-site response-time and slow-route timings, profile requests, and run site health checks, from real captured traffic rather than reading code.
+---
 ## Lerd, a local PHP development environment
 
 This project runs on **lerd**, a Podman-based PHP development environment. It is framework-agnostic: Laravel, Symfony, WordPress, Drupal, Magento, CakePHP and any custom framework are all driven by a framework definition (YAML), never by lerd hardcoding a framework's name. The `lerd` MCP server is available — use it to manage the environment without leaving the chat.
@@ -184,5 +175,3 @@ Actions: `list`, `create`, `rename`, `delete`, `assign`, `move`.
 - **lerd's own lifecycle is CLI-only**: no tool starts, stops or updates lerd; when it is down, hand the user `lerd start`
 - **Host tools (CLI-only)**: `diag` `status` reports Composer, fnm and mkcert against the versions lerd pins, and flags any that differ. Applying an update is `lerd tools:update`, and the optional tray applet is `lerd tray off|on`; neither has a tool here, so tell the user to run it
 - **Sharing a site is CLI-only and deliberate**: `lerd share` (ngrok, cloudflared, Expose, serveo, localhost.run, Pinggy) and the dashboard's share menu put a site on the public internet, the same menu's public share serves it through the user's own reverse proxy on a base domain they control instead of a tunnel service, and `lerd lan:expose` puts it on the local network. None is exposed here, so never claim you can share a site; hand the user the command and let them decide
-
-<!-- lerd:end -->

@@ -1,0 +1,8 @@
+domains:
+  - thylo
+php_version: "8.5"
+framework: tempest
+framework_version: "3"
+secured: true
+workers:
+  - vite
