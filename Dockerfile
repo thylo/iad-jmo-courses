@@ -29,5 +29,6 @@ RUN install-php-extensions gd intl opcache
 WORKDIR /app
 COPY --from=build /app /app
 
-ENV SERVER_NAME=:80 ENVIRONMENT=production DISCOVERY_CACHE=true INTERNAL_CACHES=true
+ENV SERVER_NAME=:80 ENVIRONMENT=production DISCOVERY_CACHE=true INTERNAL_CACHES=true \
+    BASE_URI=https://www.thylo.be
 EXPOSE 80
