@@ -28,6 +28,14 @@ on livre. Une page qui affiche sa méthodologie a échoué.
 
 ---
 
+## Avant d'écrire un texte publié
+
+**Lire `docs/voix.md` avant d'écrire du contenu pour `content/`, un document de `docs/`, un
+message de commit ou une description de PR.** Relire le texte produit contre sa liste de
+tournures refusées avant de le livrer. Les réponses dans le terminal n'y sont pas soumises.
+
+---
+
 ## Vue d'ensemble du projet
 
 **Objectif global :** Enseigner la narration interactive web à des étudiants en cinéma et audiovisuel de l'IAD Louvain-la-Neuve.
