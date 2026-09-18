@@ -1,8 +1,3 @@
-# --- Astro (archive, dans astro/) ---
-astro/dist/
-astro/.astro/
-astro/node_modules/
-
 # --- Tempest ---
 /vendor/
 /.tempest/
@@ -28,3 +23,4 @@ public/build/
 # --- Médias fabriqués (media/ est du contenu, public/media/ est produit) ---
 /public/media/
 vite-tempest
+.env.before_lerd

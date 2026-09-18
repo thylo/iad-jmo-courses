@@ -14,9 +14,6 @@ use Tempest\Console\HasConsole;
 
 /**
  * Content inventory, link check, and the list of entities still to be written.
- *
- * This is the net we will need when migrating for real: the Astro content holds
- * 293 absolute links, and nothing guarantees today that they all land somewhere.
  */
 final readonly class ContentCheckCommand
 {
