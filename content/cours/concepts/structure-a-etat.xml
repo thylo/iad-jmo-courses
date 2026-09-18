@@ -1,5 +1,5 @@
 <concept id="structure-a-etat">
-  <titre>Structure à État (Le récit se souvient)</titre>
+  <titre>Structure à État</titre>
   <genre>structure</genre>
   <exemple ref="80-days"/>
   <voir ref="structure-embranchements"/>
