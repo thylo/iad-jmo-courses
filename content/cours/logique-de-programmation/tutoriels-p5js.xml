@@ -1,0 +1,135 @@
+<page id="tutoriels-p5js" status="draft">
+  <titre>Les tutoriels d'introduction de p5.js</titre>
+  <resume>Relevé des huit tutoriels « Introduction to p5.js », lus le 18 septembre 2026, et leur usage en groupe.</resume>
+
+  <markdown>
+    Le site de p5.js regroupe huit [tutoriels](https://p5js.org/tutorials/) sous « Introduction
+    to p5.js ». Ils sont écrits pour p5.js 2.x, surtout par Layla Quiñones, Jaleesa Trapp, Greg
+    Benedis-Grab et Joanne Amarisa. Chacun suppose les précédents.
+  </markdown>
+
+  <section title="Les huit tutoriels">
+    <markdown>
+      | Tutoriel | Notions | Sketch final |
+      |---|---|---|
+      | [Setting Up Your Environment](https://p5js.org/tutorials/setting-up-your-environment/) | L'éditeur web ou VS Code, `setup()` et `draw()`, `createCanvas()`, `circle()`, `fill()`, `mouseIsPressed` | Un cercle suit la souris et noircit quand le bouton est enfoncé |
+      | [Get Started](https://p5js.org/tutorials/get-started/) | Le repère depuis le coin haut gauche, les commentaires, les couleurs RGB et nommées, les formes de base, `stroke()`, `text()`, `mouseX`, `mouseY`, `width`, `height` | Un paysage en émojis où une coccinelle suit le curseur |
+      | [Variables and Change](https://p5js.org/tutorials/variables-and-change/) | `let` et la portée, les template literals, `draw()` comme folioscope, `frameCount`, `frameRate()`, le modulo, `random()` | Un paysage de nuit avec des nuages qui glissent, des arbres qui poussent et des étoiles filantes |
+      | [Conditionals and Interactivity](https://p5js.org/tutorials/conditionals-and-interactivity/) | `if` et `else`, les conditions imbriquées, les opérateurs ET et OU, les comparaisons, `+=` et `++`, `keyIsPressed`, `key` | Un soleil piloté par la souris, puis un lever de soleil animé |
+      | [Organizing Code with Functions](https://p5js.org/tutorials/organizing-code-with-functions/) | Déclaration et appel, paramètres et arguments, `return`, `keyPressed()`, `mousePressed()` | Le même lever de soleil, avec une fonction `tree()` et une touche qui relance l'animation |
+      | [Repeating with Loops](https://p5js.org/tutorials/repeating-with-loops/) | La boucle `for`, l'index, les tableaux et `push()`, les booléens d'état, `noLoop()` | Une course de chenilles à vitesse aléatoire, lancée au clic |
+      | [Data Structure Garden](https://p5js.org/tutorials/data-structure-garden/) | Les objets et la notation pointée, `for...of`, `length`, `splice()`, `color()` | Vingt fleurs aléatoires qui fanent puis disparaissent, un clic en ajoute une |
+      | [Animating with Media Objects](https://p5js.org/tutorials/animating-with-media-objects/) | `loadImage()`, `image()`, `imageMode()`, les méthodes de `p5.Image`, `createGraphics()`, `dist()`, `saveGif()` | Des fleurs peintes en points qui poussent au clic, un arrosoir animé au curseur, un export GIF sur la touche S |
+    </markdown>
+  </section>
+
+  <section title="Un tutoriel suivi seul">
+    <markdown>
+      Les huit pages sont écrites pour un lecteur seul devant son écran, qui avance pas à pas.
+      Chaque étape marche parce qu'elle a été conçue pour marcher. Le lecteur recopie, obtient
+      l'image attendue et passe à l'étape suivante. L'issue est connue : le tutoriel est fini,
+      et le sketch d'après ne s'écrit pas.
+
+      La notion arrive avant le besoin. Le titre l'annonce (« Variables and Change ») et le
+      texte l'applique. Personne n'a buté sur ce qui manquait avant qu'on la donne.
+
+      Les auteurs ont pris toutes les décisions : le ciel bleu, le soleil jaune, la coccinelle.
+      Il n'y a rien à choisir, donc rien à défendre. Vingt étudiants rendent vingt coccinelles
+      identiques, et la classe n'a rien à comparer.
+
+      Le code est donné, puis exécuté. Le lecteur ne prédit jamais ce qu'il va produire, alors
+      que c'est la prédiction ratée qui construit l'image mentale du programme.
+    </markdown>
+  </section>
+
+  <section title="Ce que le groupe fait apparaître">
+    <markdown>
+      Le parcours ne tombe jamais en panne. Le guide de débogage est proposé en option, avant
+      le troisième tutoriel. Seul, un débutant qui bute prend l'erreur pour une faute
+      personnelle et s'arrête. En groupe, elle devient un matériau commun : on la provoque
+      devant la classe avant de la corriger.
+
+      Le cinquième tutoriel reprend le lever de soleil du quatrième. Seul, on revient en
+      arrière à son rythme. En groupe, le binôme qui a raté le quatrième est perdu au
+      cinquième, et l'écart se creuse. Les tutoriels fournissent des templates de départ :
+      ils règlent le problème s'ils sont distribués à chaque séance.
+
+      Le troisième tutoriel empile `let`, la portée, les template literals, `frameCount`,
+      `frameRate()`, le modulo et `random()`. Un lecteur seul survole. Devant une classe, ça
+      fait trois séances.
+
+      Le mouvement y passe par un raccourci. `cloudOneX = frameCount % width` déplace le nuage
+      sans que la variable garde quoi que ce soit : la position est recalculée à partir du
+      temps à chaque image. Le geste `x = x + 2`, où la variable mémorise, n'apparaît pas.
+      C'est sur lui que reposent un état qui persiste et un changement de scène. Pour des
+      étudiants en cinéma, c'est le manque le plus sérieux de la série.
+    </markdown>
+  </section>
+
+  <section title="En groupe">
+    <markdown>
+      Le sketch final devient l'objet d'étude, et le texte du tutoriel la référence ouverte en
+      cas de blocage.
+
+      PRIMM, décrit par Sue Sentance et Jane Waite en 2017, découpe le travail en cinq temps :
+      Predict, Run, Investigate, Modify, Make. Le code final est projeté sans être exécuté, et
+      chacun écrit sur papier ce qu'il va produire. On lance, on compare. Viennent ensuite des
+      questions d'investigation (« et sans la ligne 12 ? »), une modification imposée, puis
+      une création libre.
+
+      Les problèmes de Parsons, décrits par Dale Parsons et Patricia Haden en 2006, donnent
+      les lignes d'un programme dans le désordre, découpées sur papier. Le binôme les remet en
+      ordre. Ils conviennent aux tutoriels 5 et 6, où l'ordre des lignes est la notion
+      elle-même : définir avant d'appeler, initialiser avant de tester.
+
+      Le débranché passe avant la machine. Le programme est d'abord joué par la classe, puis
+      écrit.
+
+      | Tutoriel | Version de groupe |
+      |---|---|
+      | 1 et 2, Get Started | Un binôme décrit un paysage en coordonnées, un autre l'exécute au tableau sans avoir vu l'original. Ensuite, les mêmes fonctions pour tous, et une intention tirée au sort par binôme : l'aube, l'orage, l'attente. |
+      | 3, Variables | Classe puzzle. Trois groupes prennent chacun un mouvement (horizontal, vertical, aléatoire) et l'expliquent aux deux autres en trois minutes. Le mouvement par accumulation passe avant le modulo. |
+      | 4, Conditions | Le soleil descend à l'écran. Chacun parie sur la valeur de `y` à laquelle le ciel changera de couleur, puis on lance et on lit le `if`. |
+      | 5, Fonctions | Chacun refactore le sketch de son voisin. Lire le code d'un autre consolide la lecture du sien. |
+      | 6, Boucles | La course de chenilles se joue en classe : trois étudiants font les chenilles, un dé remplace `random()`, le tableau des positions est écrit au tableau blanc. Un tour de boucle vaut un tour de table. Le code vient après. |
+      | 7, Jardin | Chaque étudiant tient une carte-objet avec x, y, une taille et une durée de vie. À chaque image annoncée, il décrémente sa durée de vie, et s'assoit quand elle tombe à zéro : c'est `splice()`. Un clic fait entrer quelqu'un. |
+      | 8, Médias | Les fleurs fournies sont remplacées par des images personnelles, des photos de tournage par exemple. Le mur final a alors quelque chose à montrer. |
+
+      Le rythme individuel des tutoriels sert aux absents et aux retardataires, comme voie de
+      rattrapage. Celui qui a fini reçoit une contrainte supplémentaire sur le même exercice.
+      Le tutoriel suivant l'éloignerait de son binôme.
+    </markdown>
+  </section>
+
+  <section title="Pour le cours">
+    <markdown>
+      Le cours de douze heures applique déjà l'essentiel : le manque avant la notion, les
+      binômes conducteur et navigateur, le mur, le protocole de panne. Deux éléments des
+      tutoriels peuvent y entrer. La course de chenilles fabrique le manque avant les
+      tableaux. Le lever de soleil montre des transitions de couleur lentes.
+
+      Les notions sont les mêmes : variables, types, conditions, boucles, fonctions, portée.
+      L'ordre diffère. Les tutoriels passent les fonctions avant les boucles, le cours fait
+      l'inverse. Dans le cours, la fonction arrive quand l'étudiant relit son sketch de la
+      séance 4 et y compte les blocs répétés.
+
+      La syntaxe diffère aussi. Les tutoriels écrivent `i++` et `+=`, et le septième repose
+      sur des objets, que le cours exclut. Un étudiant qui les ouvre en référence voit deux
+      manières d'écrire. Une phrase suffit à le prévenir, ou la comparaison devient un
+      exercice de lecture.
+
+      Le cours est passé en p5.js 2.x le 19 septembre 2026, comme les tutoriels : `setup()`
+      devient `async` et `loadImage()` s'attend avec `await`. `preload()` n'apparaît plus.
+
+      L'interaction s'arrête à la position de la souris, au clic et au clavier. Aucun tutoriel
+      ne traite d'états, de scènes ou d'embranchements, qui restent à construire pour le récit.
+    </markdown>
+  </section>
+
+  <section title="À vérifier">
+    <markdown>
+      Ce relevé vient d'un résumé des pages. Les extraits de code n'ont pas été recopiés : les
+      relire sur p5js.org avant d'en citer un.
+    </markdown>
+  </section>
+</page>

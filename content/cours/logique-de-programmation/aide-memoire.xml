@@ -1,0 +1,81 @@
+<page id="aide-memoire" status="draft">
+  <titre>Aide-mémoire</titre>
+  <resume>Une page. Ne contient que ce qui a été vu en cours.</resume>
+
+  <markdown>
+    ```js
+    // Le cadre
+    function setup() { }          // une fois, au démarrage
+    function draw() { }           // 60 fois par seconde
+    function mousePressed() { }   // quand la souris est enfoncée
+
+    createCanvas(800, 600);
+    width, height                 // les dimensions du canvas
+
+    // Dessiner — la couleur se déclare AVANT la forme
+    background(20);
+    fill(230, 60, 40);            // rouge, vert, bleu, de 0 à 255
+    noFill();
+    stroke(255);
+    noStroke();
+    strokeWeight(4);
+
+    circle(x, y, diametre);
+    ellipse(x, y, largeur, hauteur);
+    rect(x, y, largeur, hauteur);
+    square(x, y, cote);
+    line(x1, y1, x2, y2);
+    triangle(x1, y1, x2, y2, x3, y3);
+
+    // Les variables
+    let positionX = 0;            // un nombre
+    let titre = "Sans titre";     // du texte
+    let estAllume = false;        // un booléen
+    let positions = [];           // un tableau
+
+    positionX = positionX + 2;    // prends, ajoute, remets
+    positions.push(12);           // ajoute une case
+    positions.length              // combien de cases
+    positions[0]                  // la première case
+
+    mouseX, mouseY                // fournies par le monde
+    frameCount                    // le numéro de l'image en cours
+
+    // Décider
+    if (positionX > width) {
+      vitesse = -vitesse;
+    } else {
+      fill(240);
+    }
+    // >  &lt;  >=  &lt;=  ===  !==      &amp;&amp;  ||  !
+
+    // Répéter
+    for (let i = 0; i &lt; 10; i = i + 1) {
+      circle(i * 40, 300, 20);
+    }
+
+    // Nommer un morceau
+    function dessinerArbre(x, y, hauteur) {
+      line(x, y, x, y - hauteur);
+    }
+    dessinerArbre(100, 500, 200);
+
+    function surface(largeur, hauteur) {
+      return largeur * hauteur;
+    }
+
+    // Le hasard, avec des bornes choisies
+    random(50, 200);
+    randomSeed(1);
+
+    // Les médias — async devant setup, await devant chaque chargement
+    let photo;
+    async function setup() {
+      createCanvas(800, 600);
+      photo = await loadImage("plan.jpg");
+    }
+    image(photo, 0, 0, width, height);
+    ```
+  </markdown>
+
+</page>

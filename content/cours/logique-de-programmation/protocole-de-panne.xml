@@ -1,0 +1,29 @@
+<page id="protocole-de-panne" status="draft">
+  <titre>Le protocole de panne</titre>
+  <resume>À imprimer en autant d'exemplaires que d'étudiants, et à afficher au mur.</resume>
+
+  <markdown>
+    **1. Lire le message en entier**, et le numéro de ligne. Le numéro indique où la machine a
+    buté — la faute est souvent une ligne plus haut.
+
+    **2. Dire à voix haute** ce que cette ligne est censée faire.
+
+    **3. Afficher la valeur.** `console.log(maVariable)`. Vérifier ce que la variable contient
+    vraiment, pas ce qu'on croit.
+
+    **4. Retirer** des lignes jusqu'à ce que ça remarche, puis en remettre une à la fois.
+
+    **Règle des dix minutes** : au-delà, demander. D'abord au binôme voisin.
+
+    **Toutes les pannes n'affichent pas de message.** Un code qui tourne et ne fait rien est
+    une panne comme une autre. Les six causes les plus fréquentes :
+
+    - une majuscule là où il n'en faut pas ;
+    - un argument manquant ;
+    - `=` écrit à la place de `===` ;
+    - une variable déclarée dans `draw()` alors qu'elle devrait vivre au-dessus ;
+    - une fonction définie et jamais appelée ;
+    - un index de tableau qui n'existe pas.
+  </markdown>
+
+</page>

@@ -1,0 +1,273 @@
+<page id="05-fonction" status="draft">
+  <titre>Séance 5 — La fonction, et la portée pour de vrai</titre>
+  <resume>Définir une fonction, paramètres, valeur de retour, portée globale et locale, chargement des médias.</resume>
+
+  <markdown>
+    | Temps | Bloc |
+    |---|---|
+    | 0:00–0:15 | La reprise |
+    | 0:15–0:30 | Le manque — relire son propre code |
+    | 0:30–0:55 | La notion, et la portée |
+    | 0:55–1:05 | Pause |
+    | 1:05–1:35 | Atelier — le portrait devient une fonction |
+    | 1:35–1:50 | Les médias |
+    | 1:50–2:00 | Le lancement du rendu |
+  </markdown>
+
+  <section title="0:15 — Le manque">
+    <markdown>
+      Chacun rouvre son sketch de la séance 4 et écrit sur papier, en une phrase, ce que fait la
+      ligne 14. Cinq minutes. La plupart n'y arrivent pas — c'est leur propre code, écrit sept
+      jours plus tôt.
+
+      Deuxième question : combien de blocs quasi identiques à deux ou trois valeurs près ?
+      Compter, à main levée.
+    </markdown>
+  </section>
+
+  <section title="0:30 — La notion">
+    <markdown>
+      ```js
+      function dessinerArbre(x, y, hauteur) {
+        stroke(120, 80, 50);
+        strokeWeight(hauteur * 0.1);
+        line(x, y, x, y - hauteur);
+
+        noStroke();
+        fill(60, 140, 70);
+        circle(x, y - hauteur, hauteur * 0.8);
+      }
+      ```
+
+      Trois choses distinctes, que les débutants confondent systématiquement, à nommer
+      séparément et dans cet ordre :
+
+      - **Définir** — `function dessinerArbre(...) { }`. Écrire la recette. Rien ne se passe.
+      - **Appeler** — `dessinerArbre(100, 500, 200);`. Exécuter la recette, maintenant.
+      - **Les paramètres** — `x`, `y`, `hauteur`. Les cases vides de la recette, remplies au
+        moment de l'appel, et différentes à chaque appel.
+
+      **Erreur à provoquer** : définir la fonction et ne jamais l'appeler. Écran vide, aucune
+      erreur. Deuxième panne silencieuse du cours.
+
+      Puis appeler trois fois avec trois jeux de valeurs. Puis appeler dans une boucle :
+
+      ```js
+      function draw() {
+        background(200, 220, 240);
+        for (let i = 0; i &lt; 12; i = i + 1) {
+          dessinerArbre(random(width), height, random(80, 260));
+        }
+      }
+      ```
+
+      La fonction et la boucle se rencontrent. C'est là que le cours se referme sur lui-même :
+      tout ce qui a été vu en quatre séances tient dans ces cinq lignes.
+
+      **La valeur de retour.**
+
+      ```js
+      function surface(largeur, hauteur) {
+        return largeur * hauteur;
+      }
+      ```
+
+      Une fonction qui **fait** quelque chose — elle dessine — et une fonction qui **donne**
+      quelque chose — elle retourne une valeur qu'on peut ranger dans une variable. Puis le
+      retournement : `random()` et `dist()` sont des fonctions qui donnent, et ils s'en servent
+      depuis quatre séances sans l'avoir su.
+    </markdown>
+  </section>
+
+  <section title="La portée, frontalement">
+    <markdown>
+      Trois démonstrations, dans cet ordre. C'est le seul bloc du cours qui va de la règle vers
+      l'exemple, et il est court.
+
+      **1. Ce qui est déclaré dans une fonction n'existe pas en dehors.**
+
+      ```js
+      function dessinerArbre(x, y, hauteur) {
+        let tronc = hauteur * 0.1;
+        line(x, y, x, y - hauteur);
+      }
+
+      function draw() {
+        dessinerArbre(100, 500, 200);
+        console.log(tronc);          // ReferenceError: tronc is not defined
+      }
+      ```
+
+      **2. Le paramètre est une copie.**
+
+      ```js
+      let compteur = 0;
+
+      function augmenter(nombre) {
+        nombre = nombre + 1;
+      }
+
+      function setup() {
+        augmenter(compteur);
+        console.log(compteur);       // 0, et non 1
+      }
+      ```
+
+      Celle-ci est rarement enseignée à ce niveau, et elle explique la moitié des « ça ne marche
+      pas » de la séance 6. La fonction a reçu la valeur, pas la boîte.
+
+      **3. Le global est lisible partout, et c'est le problème.**
+
+      ```js
+      let x = 0;                     // la position du personnage
+
+      function dessinerFond() {
+        for (x = 0; x &lt; width; x = x + 40) {   // le `let` a été oublié
+          line(x, 0, x, height);
+        }
+      }
+      ```
+
+      Le personnage est téléporté au bord droit par une fonction qui dessine le fond. Aucun
+      message d'erreur. Laisser la classe chercher deux minutes avant de montrer le `let`
+      manquant.
+
+      **La règle, écrite au tableau sous les deux constats des séances 2 et 4** — trois
+      observations qui n'en font qu'une :
+
+      > Une variable n'existe qu'entre les accolades où elle est déclarée. Elle se déclare au
+      > plus près de là où elle sert. Un `for` déclare toujours son compteur avec `let`.
+    </markdown>
+  </section>
+
+  <section title="1:05 — Atelier : le portrait devient une fonction">
+    <markdown>
+      > **Consigne.** Reprendre le portrait de la séance 2, celui de l'autre, déjà compté à
+      > partir de `x` et `y`, et en faire une fonction `portraitPrenom(x, y)`, au prénom de
+      > la personne dessinée. Les deux variables du haut du sketch deviennent les deux
+      > paramètres. **Le résultat à l'écran doit être identique.** C'est la définition du
+      > refactoring, et elle se vérifie à l'œil, côte à côte avec l'ancien lien.
+
+      Deux règles, parce que la fonction servira dans le sketch d'un autre : elle déclare
+      elle-même toutes ses couleurs, et elle n'appelle jamais `background()`. Deux prénoms
+      identiques dans la classe prennent l'initiale du nom. Sinon la seconde fonction
+      remplace la première, sans message.
+
+      Appeler la fonction trois fois, à trois endroits. Puis coller la fonction seule sur la
+      page partagée, sous le prénom : c'est la matière du devoir.
+
+      **Contraintes supplémentaires :**
+
+      - (a) Ajouter `largeur` et `hauteur` aux paramètres, et exprimer chaque mesure en
+        fraction de l'une ou de l'autre. Le portrait tient alors dans n'importe quel
+        rectangle.
+      - (b) Écrire une fonction qui retourne une valeur, et s'en servir.
+      - (c) Découper le portrait en fonctions plus petites, `yeux()`, `bouche()`, appelées
+        par `portraitPrenom()`.
+    </markdown>
+  </section>
+
+  <section title="1:35 — Les médias">
+    <markdown>
+      ```js
+      let photo;
+      let bruitage;
+
+      async function setup() {
+        createCanvas(800, 600);
+        photo = await loadImage("plan.jpg");
+        bruitage = await loadSound("porte.mp3");
+        image(photo, 0, 0, width, height);
+      }
+      ```
+
+      Deux mots nouveaux, en une phrase chacun et pas une de plus : charger un fichier prend du
+      temps, et `await` fait attendre `setup()` jusqu'à ce qu'il soit là. `async` devant
+      `function` autorise l'attente, et il est obligatoire dès qu'un `await` apparaît.
+
+      `loadSound()` vient de p5.sound, une bibliothèque à part : elle doit être activée dans le
+      sketch.
+
+      Cinq pannes à annoncer **avant** qu'elles arrivent, parce qu'elles arriveront :
+
+      - Le fichier n'a pas été téléversé dans le sketch — il ne suffit pas qu'il soit sur le
+        bureau.
+      - Le nom ne correspond pas, à la majuscule près.
+      - Le `await` est oublié. `photo` contient une promesse au lieu d'une image, et p5 le dit :
+        `Did you mean to put await before a loading function?`
+      - Le `async` est oublié. Le navigateur refuse tout le sketch, avant la première ligne.
+      - Le son ne démarre pas tant que l'utilisateur n'a pas cliqué au moins une fois. C'est une
+        règle des navigateurs, pas une erreur de code.
+
+      Puis `tint()`, `image()` avec quatre arguments, `bruitage.play()`.
+    </markdown>
+  </section>
+
+  <section title="1:50 — Le lancement du rendu">
+    <markdown>
+      Relire l'énoncé du rendu et ressortir la grille de notation distribuée en séance 1.
+      Chacun écrit trois lignes sur papier, ramassées avant de sortir :
+
+      1. Ce qu'on voit.
+      2. Ce que le spectateur peut faire.
+      3. Ce qui change quand il le fait.
+
+      C'est le seul filet contre les projets impossibles, et il coûte cinq minutes.
+    </markdown>
+  </section>
+
+  <section title="Devoir — 45 minutes">
+    <markdown>
+      **Le poster de la classe**, trente minutes. Copier toutes les fonctions de la page
+      partagée dans un même sketch, et poser tous les portraits sur un même canvas. La
+      disposition est libre. La grille est la réponse évidente, la séance 4 l'a donnée. Une
+      foule tirée au hasard, où les derniers dessinés recouvrent les premiers, marche aussi,
+      et d'autres idées viendront des portraits eux-mêmes. Ceux qui ont reçu `largeur` et
+      `hauteur` en atelier permettent en plus de jouer sur les tailles.
+
+      Pour une disposition composée à la main, il suffit d'appeler chaque fonction par son
+      nom, à la position choisie. Pour une disposition calculée par une boucle, les fonctions
+      se rangent dans un tableau, et chaque tour de boucle en sort une.
+
+      ```js
+      // Les fonctions de la page partagée, une par personne.
+      function portraitAnna(x, y) {
+        // …
+      }
+
+      function portraitBilal(x, y) {
+        // …
+      }
+
+      // Rangées, pas appelées : aucune parenthèse.
+      let portraits = [portraitAnna, portraitBilal];
+
+      function setup() {
+        createCanvas(1000, 1000);
+        background(240);
+
+        // Pour chaque portrait :
+        let dessiner = portraits[n];   // sortir la fonction de sa case
+        dessiner(x, y);                // l'appeler
+      }
+      ```
+
+      Une fonction se range dans une variable ou dans un tableau comme un nombre. Sans
+      parenthèses, `portraitAnna` désigne la recette ; les parenthèses l'exécutent. C'est la
+      distinction de la séance entre définir et appeler, sous une autre forme.
+
+      Trois pannes attendues, toutes déjà vues :
+
+      - Un portrait qui ne déclare pas ses couleurs prend celles du précédent. L'implicite de
+        la dictée de figures.
+      - Un portrait qui appelle `background()` efface tous ceux d'avant. L'ordre.
+      - Un `n` qui dépasse le dernier portrait : `dessiner is not a function`. L'index qui
+        n'existe pas, de la séance 4, qui cette fois affiche un message.
+
+      `saveCanvas("poster", "png")` exporte le résultat en image, pour l'impression.
+
+      **Les médias du rendu**, quinze minutes. Les rassembler et les téléverser, et poster le
+      sketch de départ, même vide, même s'il ne montre qu'un fond.
+    </markdown>
+  </section>
+</page>

@@ -1,0 +1,27 @@
+<page id="rendu-note" status="draft">
+  <titre>Le rendu noté — 20 points</titre>
+  <resume>Une machine à images, présentée à la séance 6.</resume>
+
+  <markdown>
+    **L'objet.** Une machine à images : un sketch qui tourne dans un navigateur, qui tient
+    trente secondes d'attention, et qui répond à au moins une action du spectateur.
+
+    Ni un jeu, ni un site, ni une histoire. Une image qui se fabrique et qui écoute.
+
+    | Critère | Points |
+    |---|---|
+    | Le sketch tourne sans erreur sur une machine qui n'est pas la sienne | 4 |
+    | Variable, condition, boucle et fonction écrites par l'étudiant, présentes parce qu'elles servent | 5 |
+    | Le spectateur agit, et l'objet répond de façon lisible | 4 |
+    | Le code se lit : noms explicites, une fonction par intention | 3 |
+    | Une décision d'auteur assumée et défendue à l'oral | 4 |
+
+    Le premier critère impose le test sur la machine d'un autre, séance 6. Le quatrième note
+    la lisibilité, pas l'élégance : un code long et clair vaut mieux qu'un code court et
+    compact. Le second ne récompense pas l'accumulation — quatre notions plaquées sans raison
+    valent moins que quatre notions qui servent.
+
+    La grille est distribuée en séance 1 et affichée les six séances.
+  </markdown>
+
+</page>

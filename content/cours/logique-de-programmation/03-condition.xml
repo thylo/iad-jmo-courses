@@ -1,0 +1,177 @@
+<page id="03-condition" status="draft">
+  <titre>Séance 3 — La condition, et l'aléatoire choisi</titre>
+  <resume>`if` / `else`, comparaisons, `&amp;&amp;` et `||`, le booléen comme mémoire d'état, `random()` avec des bornes.</resume>
+
+  <markdown>
+    | Temps | Bloc |
+    |---|---|
+    | 0:00–0:15 | La reprise |
+    | 0:15–0:35 | Le manque, et l'exercice des règles |
+    | 0:35–0:55 | La notion — décider pendant que ça tourne |
+    | 0:55–1:05 | Pause |
+    | 1:05–1:45 | Atelier — la scène qui décide |
+    | 1:45–2:00 | Le mur |
+  </markdown>
+
+  <section title="0:00 — La reprise">
+    <markdown>
+      Trois portraits de la semaine, projetés. Pour chacun, changer `x` et `y` en direct, deux
+      fois. Soit le portrait suit en entier, soit une pièce reste sur place : un nombre qui
+      n'a pas été compté à partir de `x` ou de `y`. La classe cherche la ligne.
+    </markdown>
+  </section>
+
+  <section title="0:15 — Le manque">
+    <markdown>
+      Projeter une traversée de l'atelier de la séance 2 et la laisser tourner sans rien dire. Au bout de quelques
+      secondes, l'écran est vide et le reste. Attendre que quelqu'un le fasse remarquer.
+
+      Il faut décider quelque chose **pendant** que ça tourne.
+
+      **L'exercice des règles**, huit minutes, debout, aucune machine. Chaque étudiant reçoit un
+      papier avec une règle, qu'il ne montre à personne :
+
+      - Si quelqu'un lève la main, lève la tienne.
+      - Si plus de trois personnes sont debout, assieds-toi.
+      - Si personne ne bouge pendant cinq secondes, lève-toi.
+      - Si la personne à ta gauche s'assoit, lève-toi.
+      - Si tu es debout depuis dix secondes, assieds-toi.
+
+      On déclenche, on laisse courir deux minutes, on arrête. Le groupe a produit un
+      comportement que personne n'a écrit et que personne ne contrôle. Deux idées en une : la
+      condition, et le système qui émerge de règles simples. Ne pas commenter plus de deux
+      minutes.
+    </markdown>
+  </section>
+
+  <section title="0:35 — La notion">
+    <markdown>
+      ```js
+      if (positionX > 800) {
+        positionX = 0;
+      }
+      ```
+
+      Lire le `if` comme une **question posée à chaque image**, et non comme une action. La
+      question est reposée soixante fois par seconde, et la réponse peut changer.
+
+      Puis le rebond, qui demande une deuxième variable :
+
+      ```js
+      let positionX = 0;
+      let vitesse = 3;
+
+      function setup() {
+        createCanvas(800, 600);
+      }
+
+      function draw() {
+        background(20);
+        circle(positionX, 300, 80);
+        positionX = positionX + vitesse;
+
+        if (positionX > width || positionX &lt; 0) {
+          vitesse = -vitesse;
+        }
+      }
+      ```
+
+      `vitesse = -vitesse` est le deuxième geste contre-intuitif du cours, à décomposer comme
+      celui de la séance 2 : *prends ce qu'il y a dans la boîte, change son signe, remets-le*.
+
+      **Les comparaisons** : `>`, `&lt;`, `>=`, `&lt;=`, `===`, `!==`. Écrire au tableau, côte à côte
+      et en grand :
+
+      ```js
+      compteur = 5     // range 5 dans la boîte
+      compteur === 5   // demande si la boîte contient 5
+      ```
+
+      C'est l'erreur la plus fréquente des quatre séances suivantes. Elle revient dans les
+      sketches cassés de la séance 6.
+
+      Puis `&amp;&amp;` et `||`, sur un exemple qui se voit :
+
+      ```js
+      if (mouseX > width / 2 &amp;&amp; mouseY > height / 2) {
+        background(200, 40, 40);
+      }
+      ```
+
+      **Le booléen qui mémorise.** C'est ici que le type booléen cesse d'être un mot de
+      vocabulaire.
+
+      ```js
+      let estAllume = false;
+
+      function setup() {
+        createCanvas(800, 600);
+      }
+
+      function draw() {
+        if (estAllume) {
+          background(240);
+        } else {
+          background(20);
+        }
+        circle(mouseX, mouseY, 60);
+      }
+
+      function mousePressed() {
+        estAllume = !estAllume;
+      }
+      ```
+
+      Deux choses nouvelles, à nommer séparément :
+
+      - `!estAllume` — le contraire. Un interrupteur complet tient en une ligne.
+      - `mousePressed()` — une fonction qu'on écrit et que l'on n'appelle jamais soi-même.
+        C'est p5 qui l'appelle, quand l'événement arrive. Première rencontre avec l'idée, elle
+        sera reprise en séance 5.
+
+      **Erreur à provoquer.** Déplacer `estAllume = !estAllume;` dans `draw()` : l'écran
+      clignote soixante fois par seconde. `draw()` est rejoué, l'événement non. Rien ne distingue
+      mieux « à chaque image » de « quand ça arrive ».
+
+      **L'aléatoire.** `random(50, 200)` — et immédiatement le vrai enseignement, projeté côte à
+      côte :
+
+      ```js
+      // du hasard sans décision
+      fill(random(255), random(255), random(255));
+
+      // du hasard décidé : une seule famille de bleus
+      fill(random(40, 90), random(90, 140), random(180, 240));
+      ```
+
+      Le second est une image, le premier est du bruit. Le hasard n'est pas l'absence de choix :
+      c'est un choix qui porte sur un intervalle. Vera Molnár et Casey Reas en appui, deux
+      minutes chacun, pas plus.
+
+      **La panne annoncée** : `random()` écrit dans `draw()` est retiré à chaque image, et tout
+      grésille. Trois issues, à donner tout de suite : tirer les valeurs dans `setup()`, ou
+      appeler `noLoop()`, ou fixer `randomSeed(1)`.
+    </markdown>
+  </section>
+
+  <section title="1:05 — Atelier : la scène qui décide">
+    <markdown>
+      > **Consigne.** Une scène qui contient au moins : un objet qui rebondit sur les bords, un
+      > état qui bascule au clic, et une couleur tirée au sort dans un intervalle choisi. La
+      > scène doit tenir dix secondes d'attention.
+
+      **Contraintes supplémentaires :**
+
+      - (a) Trois états au lieu de deux.
+      - (b) L'état bascule aussi tout seul, régulièrement — `if (frameCount % 120 === 0)`.
+      - (c) La même scène sans jamais écrire `else`.
+    </markdown>
+  </section>
+
+  <section title="Devoir — 45 minutes">
+    <markdown>
+      Deux humeurs de la même scène, basculées par une seule condition. Nommer chaque humeur en
+      un mot, et écrire les deux mots à côté du lien.
+    </markdown>
+  </section>
+</page>

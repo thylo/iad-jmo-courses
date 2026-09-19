@@ -1,0 +1,61 @@
+<page id="06-assembler" status="draft">
+  <titre>Séance 6 — Assembler, et montrer</titre>
+  <resume>Aucune notion nouvelle : le bug d'un autre, le test en silence, la projection.</resume>
+
+  <markdown>
+    | Temps | Bloc |
+    |---|---|
+    | 0:00–0:30 | Le bug d'un autre |
+    | 0:30–0:55 | Atelier de finition |
+    | 0:55–1:05 | Pause |
+    | 1:05–1:20 | Le test en silence |
+    | 1:20–2:00 | La projection |
+  </markdown>
+
+  <section title="0:00 — Le bug d'un autre">
+    <markdown>
+      Six sketches cassés, préparés à l'avance, un par binôme. Chacun contient **une seule**
+      panne, prise dans les six types rencontrés pendant le cours.
+
+      | # | La panne | Ce qu'elle apprend |
+      |---|---|---|
+      | 1 | `Circle(400, 300, 100)` | La casse compte ; la machine ne devine pas |
+      | 2 | `circle(400, 300)` | Un argument manquant, et un message qui le dit |
+      | 3 | `if (compteur = 5)` | `=` range, `===` compare |
+      | 4 | `let positionX = 0` déclaré dans `draw()` | Ce qui est dedans ne survit pas |
+      | 5 | `for (let i = 0; i &lt; 5; i = i - 1)` | La condition qui ne devient jamais fausse — l'onglet gèle |
+      | 6 | Une fonction définie et jamais appelée | La panne silencieuse |
+
+      Quinze minutes pour trouver. Puis chaque binôme raconte en une minute **comment** il a
+      trouvé — pas ce qu'il a trouvé. C'est la méthode qui est en jeu, et c'est elle qu'ils
+      emporteront.
+
+      Lire le code d'un autre est ce qui consolide le plus vite la lecture de son propre code.
+      Cela désamorce aussi l'idée que l'erreur est une faute personnelle : les six sketches
+      viennent du professeur.
+    </markdown>
+  </section>
+
+  <section title="1:05 — Le test en silence">
+    <markdown>
+      Chaque sketch est essayé par un autre binôme, sur une autre machine, **sans un mot de son
+      auteur**. L'auteur regarde et note ce qu'il voit sans intervenir : où l'autre hésite, ce
+      qu'il essaie, ce qu'il ne trouve pas.
+
+      C'est le premier critère de la grille de notation, et c'est ici qu'il se joue. Vingt
+      minutes restent ensuite pour corriger ce que le test a révélé.
+    </markdown>
+  </section>
+
+  <section title="1:20 — La projection">
+    <markdown>
+      Quatre minutes par étudiant :
+
+      - Montrer. Le sketch tourne, on le laisse tourner.
+      - Expliquer **une** décision de code — pas le code entier, une décision.
+      - Dire ce qu'il volerait chez un autre.
+
+      Aucune conclusion de cours après la dernière présentation.
+    </markdown>
+  </section>
+</page>

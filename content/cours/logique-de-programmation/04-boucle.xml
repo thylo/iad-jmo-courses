@@ -1,0 +1,164 @@
+<page id="04-boucle" status="draft">
+  <titre>Séance 4 — La boucle, et la multitude</titre>
+  <resume>`for`, compteur, boucles imbriquées, le tableau.</resume>
+
+  <markdown>
+    | Temps | Bloc |
+    |---|---|
+    | 0:00–0:15 | La reprise |
+    | 0:15–0:30 | Le manque — la grille à la main |
+    | 0:30–0:55 | La notion — la craie avant la machine |
+    | 0:55–1:05 | Pause |
+    | 1:05–1:45 | Atelier — le système |
+    | 1:45–2:00 | Le mur |
+  </markdown>
+
+  <section title="0:15 — Le manque">
+    <markdown>
+      Projeter une grille de vingt colonnes sur quinze rangées de disques.
+
+      > **Consigne.** Écrivez-la.
+
+      Compter à voix haute avec la classe : trois cents lignes. Personne ne commence, et c'est
+      le but. Rouvrir alors la figure 4 de la dictée de la [[01-instruction|séance 1]] — la grille
+      à rayures — qui avait été mise de côté pour exactement cette raison.
+    </markdown>
+  </section>
+
+  <section title="0:30 — La notion : la craie avant la machine">
+    <markdown>
+      **Ne rien exécuter avant que le tableau soit rempli.** C'est le cœur de la séance : un
+      débutant qui n'a pas vu une boucle se dérouler pas à pas ne s'en fait aucune image
+      mentale, et recopie une formule qu'il ne relira jamais.
+
+      Écrire au tableau, sans lancer :
+
+      ```js
+      for (let i = 0; i &lt; 5; i = i + 1) {
+        console.log(i);
+      }
+      ```
+
+      Puis trois colonnes, remplies tour par tour avec la classe :
+
+      | `i` vaut | `i &lt; 5` ? | ce qui s'affiche |
+      |---|---|---|
+      | 0 | oui | 0 |
+      | 1 | oui | 1 |
+      | 2 | oui | 2 |
+      | 3 | oui | 3 |
+      | 4 | oui | 4 |
+      | 5 | **non** | — la boucle s'arrête |
+
+      Les trois morceaux du `for`, nommés une fois le tableau rempli : **d'où l'on part**,
+      **jusqu'à quand on continue**, **ce qu'on fait entre deux tours**. Le troisième morceau
+      est exactement le geste de la séance 2.
+
+      Signaler que `i++` existe et veut dire la même chose — ils le liront ailleurs. Puis ne
+      plus jamais l'écrire.
+
+      Exécuter enfin. Puis passer à l'image :
+
+      ```js
+      for (let x = 0; x &lt; 800; x = x + 40) {
+        circle(x, 300, 20);
+      }
+      ```
+
+      Une ligne de disques. Faire changer le pas en direct : 40, puis 20, puis 10, puis 3.
+
+      **Les boucles imbriquées.** Ajouter une boucle autour de l'autre :
+
+      ```js
+      function setup() {
+        createCanvas(800, 600);
+        background(20);
+        noStroke();
+        fill(240);
+
+        for (let x = 0; x &lt; width; x = x + 40) {
+          for (let y = 0; y &lt; height; y = y + 40) {
+            circle(x, y, 20);
+          }
+        }
+      }
+      ```
+
+      La grille apparaît. C'est le moment le plus spectaculaire des douze heures et il faut
+      l'exploiter comme tel : laisser le silence, puis modifier trois fois de suite, en direct,
+      sans rien expliquer entre deux.
+
+      ```js
+      circle(x, y, x * 0.03);              // les tailles suivent la position
+      circle(x, y, 20 + random(-8, 8));    // un désordre borné
+      if ((x + y) % 120 === 0) {           // la grille à rayures de la séance 1, enfin écrite
+        circle(x, y, 20);
+      }
+      ```
+
+      **La portée, deuxième observation.** Après la boucle, écrire `console.log(x)` :
+      `x is not defined`. Le `x` déclaré dans le `for` n'existe pas en dehors du `for`. Écrire
+      le constat sous celui de la séance 2, sans encore le nommer :
+
+      > Ce qui est déclaré entre deux accolades n'existe pas en dehors d'elles.
+
+      **Le tableau.** Amené par un besoin : cinquante éléments qui ont chacun leur position, et
+      qui bougent chacun de leur côté.
+
+      ```js
+      let positionsX = [];
+      let positionsY = [];
+
+      function setup() {
+        createCanvas(800, 600);
+        for (let i = 0; i &lt; 50; i = i + 1) {
+          positionsX.push(random(width));
+          positionsY.push(random(height));
+        }
+      }
+
+      function draw() {
+        background(20, 40);
+        for (let i = 0; i &lt; positionsX.length; i = i + 1) {
+          circle(positionsX[i], positionsY[i], 12);
+          positionsY[i] = positionsY[i] + 2;
+        }
+      }
+      ```
+
+      Trois points à nommer : les crochets `[i]` qui désignent une case, `.length` qui donne le
+      nombre de cases, et **l'index qui commence à zéro** — la case 50 d'un tableau de 50 cases
+      n'existe pas.
+
+      Dire en une phrase que deux tableaux en parallèle ne sont pas ce qu'on écrirait avec plus
+      de temps, et que la manière propre existe. Ne pas la montrer.
+
+      **Erreur à provoquer** : remplacer `positionsX.length` par `51`. Aucun message d'erreur,
+      un cercle manquant que personne ne voit. `console.log(positionsX[50])` donne `undefined`.
+      C'est la panne silencieuse par excellence, celle qui coûtera le plus de temps en séance 6.
+    </markdown>
+  </section>
+
+  <section title="1:05 — Atelier : le système">
+    <markdown>
+      Squelette fourni, deux boucles trouées.
+
+      > **Consigne.** Cinquante éléments qui tombent, et qui réapparaissent en haut quand ils
+      > sortent par le bas. Puis en faire une image : forme, couleur, densité, vitesse sont des
+      > décisions.
+
+      **Contraintes supplémentaires :**
+
+      - (a) Chaque élément a sa propre vitesse — un troisième tableau.
+      - (b) Les éléments réagissent à la position de la souris.
+      - (c) Le même résultat obtenu avec deux boucles imbriquées plutôt qu'avec un tableau.
+    </markdown>
+  </section>
+
+  <section title="Devoir — 45 minutes">
+    <markdown>
+      Trois affiches à partir de la même grille. **Une seule valeur change entre deux affiches.**
+      Poster les trois liens et écrire, à côté de chacun, la valeur qui a changé.
+    </markdown>
+  </section>
+</page>

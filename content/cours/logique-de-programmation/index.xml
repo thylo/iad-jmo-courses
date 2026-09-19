@@ -1,43 +1,182 @@
-<page id="logique-de-programmation">
+<page id="logique-de-programmation" status="draft">
   <titre>Logique de programmation</titre>
-  <resume>Comprendre ce qu'est le code et ce qu'on peut en faire. Notes de préparation.</resume>
+  <resume>Douze heures pour écrire un premier programme avec p5.js, sans avoir jamais programmé.</resume>
 
-  <section title="But du cours">
+  <markdown>
+    Document de conduite. Public : étudiants en multimédia de l'IAD, 18-22 ans, aucun n'a
+    jamais programmé. Ils maîtrisent le montage, l'image et le motion design : ils savent
+    déjà ce qu'est une timeline, un calque et une image par seconde, et ce savoir sert de
+    point d'accroche à presque toutes les notions du cours.
+
+    Outil : **p5.js 2.x**, dans l'éditeur en ligne `editor.p5js.org`. Aucune installation, un
+    compte gratuit, un lien à partager pour chaque sketch. La séance 1 s'ouvre sans machine.
+    Les tutoriels officiels de p5js.org sont écrits pour la même version.
+
+    Notions couvertes : variables, types, conditions, boucles, fonctions, portée.
+
+    Travail à la maison : quarante-cinq minutes entre deux séances, jamais plus.
+    Rendu noté à la dernière séance.
+  </markdown>
+
+  <section title="Séances">
     <markdown>
-      ### Le code / La programmation
+      - [[01-instruction]]
+      - [[02-variable]]
+      - [[03-condition]]
+      - [[04-boucle]]
+      - [[05-fonction]]
+      - [[06-assembler]]
+    </markdown>
+  </section>
 
-      Donner une comprehension de ce qu'est le code, ce qu'il y a moyen de faire avec.
+  <section title="Les trois règles du dispositif">
+    <markdown>
+      **Aucune notion avant le manque.** Chaque séance ouvre sur un exercice que les outils
+      déjà acquis ne permettent pas de finir. La notion arrive comme réponse, jamais comme
+      chapitre. La boucle n'est pas « le chapitre 4 » : c'est ce qui sauve celui qui vient
+      d'écrire quarante fois la même ligne. Le manque de chaque séance est fabriqué la semaine
+      précédente, dans l'atelier — c'est pour cela que l'objet de la séance 2 sort de l'écran
+      et ne revient pas.
 
-      ### Les bases
+      **Rien ne part de zéro à la maison.** Le devoir est une variation d'un sketch qui tourne
+      déjà, le sien ou celui d'un autre. La page blanche à domicile produit l'abandon chez un
+      débutant ; la variation produit de l'exploration. L'autoportrait de la séance 1 est la
+      seule exception : le sujet est donné, et six formes suffisent.
 
-      - variable
-      - boucles
-      - fonctions
-      - conditions
-      - types de variables
+      Trois devoirs forment une suite. L'autoportrait, puis le portrait d'un autre remis au
+      format d'une case, puis le poster de toute la classe. Entre les deux derniers,
+      l'atelier de la séance 5 transforme chaque portrait en fonction. Les deux autres
+      devoirs changent une chose à la fois, et disent laquelle.
 
-      ### Moyens
+      **Le résultat est visible en moins de cinq minutes.** Aucun exercice de calcul sans
+      image. Tout ce qui est écrit se voit, bouge ou sonne.
+    </markdown>
+  </section>
 
-      - code as a creative medium
-          - sol lewitt
-          - human fax machine
-          - monikker generative book
-      - schema
-      - systeme de coordonnees
-          - https://codepen.io/kynd/pen/vEYRKGd : un point a une adresse, x et y
-      - pico 8
-      - https://hedy.org/
-      - scratch
-        - faire un bohnomme qui se balade
-          - deplacer le bohnomme
-          - faire un son quand on se deplace dans un sens
-          - quand on appuie sur espace
-            - jouer pioupiou
-            - faire un clone
-            - mettre le clone a la bonne place
-          - afficher un monstre a un endroit aleatoire
-          - faire se deplacer le monstre
-          - tuer le monstre
+  <section title="Structure fixe d'une séance de 2 h">
+    <markdown>
+      Identique les six fois, pour qu'elle devienne un cadre et non une surprise. La séance 1
+      est la seule exception : son ouverture débranchée dure trente minutes.
+
+      | Temps | Bloc |
+      |---|---|
+      | 0:00–0:15 | **La reprise** — trois sketches de la semaine projetés, sans commentaire d'abord |
+      | 0:15–0:35 | **Le manque** — un exercice qui échoue avec les outils actuels |
+      | 0:35–0:55 | **La notion** — code écrit en direct au tableau, jamais plus de 12 min d'affilée |
+      | 0:55–1:05 | Pause |
+      | 1:05–1:45 | **L'atelier** — binômes, conducteur / navigateur, permutation à mi-parcours |
+      | 1:45–2:00 | **Le mur** — tous les liens affichés côte à côte, deux ou trois montrés |
+
+      Le binôme est hétérogène et reformé à chaque séance. Le conducteur tient le clavier, le
+      navigateur lit et dicte ; ils échangent à mi-atelier, au signal, sans négociation.
+
+      Celui qui avance vite ne reçoit jamais « l'exercice suivant » mais **une contrainte
+      supplémentaire** sur le même exercice — le refaire sans `if`, en dix lignes, en deux
+      couleurs. Il reste dans le problème de son binôme au lieu de le distancer. Trois
+      contraintes sont prévues pour chaque atelier.
+
+      Le mur n'est pas une évaluation. Les liens sont affichés tous ensemble, on en ouvre deux
+      ou trois pris au hasard, et l'on ne commente que ce qui a été fait, jamais ce qui manque.
+    </markdown>
+  </section>
+
+  <section title="Le protocole de panne">
+    <markdown>
+      Distribué en séance 1, affiché les six séances. C'est la compétence la plus rentable du
+      cours : un débutant sans méthode de débogage attribue l'échec à lui-même et arrête.
+
+      1. **Lire le message en entier**, et le numéro de ligne. Le numéro indique où la machine
+         a buté, pas toujours où est la faute — souvent la faute est une ligne plus haut.
+      2. **Dire à voix haute** ce que cette ligne est censée faire. La moitié des pannes se
+         règlent ici.
+      3. **Afficher la valeur.** `console.log(maVariable)` — vérifier ce que la variable
+         contient vraiment, pas ce qu'on croit qu'elle contient.
+      4. **Retirer** des lignes jusqu'à ce que ça remarche, puis en remettre une à la fois.
+
+      **Règle des dix minutes** : au-delà, on demande. D'abord au binôme voisin, ensuite
+      seulement au professeur.
+
+      **La panne silencieuse.** Toutes les erreurs n'affichent pas un message. Un code qui
+      tourne et ne fait rien est une panne comme une autre : c'est l'étape 3 qui la trouve.
+    </markdown>
+  </section>
+
+  <section title="Décisions d'écriture du code enseigné">
+    <markdown>
+      Elles tiennent les six séances et ne se discutent pas en cours.
+
+      **Une seule façon de déclarer.** `let` partout, jamais `var`. `const` apparaît en séance
+      5 pour les médias, et seulement là.
+
+      **Les noms de variables sont en français.** `positionX`, `vitesse`, `estAllume`. Ce qui
+      vient du langage — `function`, `let`, `if`, `for`, `return` — reste en anglais. Le
+      contraste se voit à l'œil, et c'est ce qui apprend le plus vite la seule distinction qui
+      compte au début : ce que la machine impose, et ce que l'auteur choisit.
+
+      **`i = i + 1` plutôt que `i++`.** La forme longue réutilise exactement le geste appris en
+      séance 2. `i++` est mentionné une fois, en séance 4, pour qu'ils puissent lire le code
+      des autres — puis abandonné.
+
+      **Pas d'objets, pas de classes.** Les tableaux de la séance 4 sont des tableaux parallèles
+      (`positionsX`, `positionsY`). Ce n'est pas ce qu'on écrirait avec plus de temps, et il
+      faut le dire en une phrase plutôt que le cacher.
+
+      **Les points-virgules sont toujours écrits.**
+    </markdown>
+  </section>
+
+  <section title="Avant la séance 1">
+    <markdown>
+      **Les comptes.** Envoyer la veille un message avec une seule consigne : créer un compte
+      sur `editor.p5js.org`. Sans cela, vingt minutes de la première séance partent en mots de
+      passe oubliés.
+
+      **La version.** Vérifier dans les réglages de l'éditeur que les sketches tournent en
+      p5.js 2.x, et que p5.sound est activé pour la séance 5. Le chargement des médias de la
+      séance 5 ne fonctionne qu'en 2.x.
+
+      **La page de liens.** Un document collaboratif, un tableau à deux colonnes — nom, lien —
+      ouvert les six séances et projeté à chaque mur.
+
+      **Le poste du professeur.** Augmenter la taille de police de l'éditeur dans ses réglages,
+      avant la séance et pas devant la classe. Le code projeté doit se lire du fond.
+
+      **Le matériel, séance par séance.** S1 : six enveloppes avec les figures imprimées,
+      feuilles A4, feutres, tableau, le protocole de panne et la grille de notation imprimés en
+      autant d'exemplaires que d'étudiants. S3 : les papiers de règles de l'exercice debout.
+      S5 : une image et un son libres de droits prêts à téléverser, pour ceux qui auront oublié
+      les leurs. S6 : les six sketches cassés, préparés et testés.
+
+      **Le repli réseau.** L'éditeur en ligne ne fonctionne pas hors connexion. Garder sur clé
+      une copie de p5.js 2.x, de p5.sound et un fichier de départ, pour continuer en local.
+
+      **Le seul bloc à risque** est l'atelier de la séance 4. Le refaire soi-même et le
+      chronométrer avant la séance 1, comme les cinq autres.
+    </markdown>
+  </section>
+
+  <section title="Les références projetées">
+    <markdown>
+      Deux à trois minutes chacune, jamais plus. Elles ne sont pas de la culture générale : elles
+      servent à faire admettre une idée précise, et on les coupe dès que l'idée est passée.
+
+      | Séance | Référence | Ce qu'elle montre |
+      |---|---|---|
+      | 1 | Sol LeWitt, *Wall Drawing #118* (1971), et deux exécutions différentes | L'instruction est l'œuvre ; l'exécution varie |
+      | 1 | Moniker, *The Human Fax Machine Experiment* | Une chaîne d'exécutants littéraux, et ce qui se dégrade en route |
+      | 2 | Zach Lieberman, ses sketches quotidiens | Un geste minuscule par jour, tenu des années |
+      | 3 | Vera Molnár, ses séries de carrés | Le hasard borné comme décision d'auteur |
+      | 3 | Casey Reas, la série *Process* | Des règles simples, un résultat que l'auteur ne prévoit pas |
+      | 4 | Saskia Freeke, *Daily Art* | La grille comme matériau, pas comme gabarit |
+      | 5 | Tyler Hobbs, *Fidenza* | Une fonction appelée mille fois |
+    </markdown>
+  </section>
+
+  <section title="Annexes">
+    <markdown>
+      - [[rendu-note]]
+      - [[protocole-de-panne]]
+      - [[aide-memoire]]
     </markdown>
   </section>
 </page>

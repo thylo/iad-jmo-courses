@@ -1,0 +1,185 @@
+<page id="02-variable" status="draft">
+  <titre>Séance 2 — La variable, et le mouvement</titre>
+  <resume>`draw()` comme timeline, la variable, les types (nombre, texte, booléen), première rencontre avec la portée.</resume>
+
+  <markdown>
+    | Temps | Bloc |
+    |---|---|
+    | 0:00–0:15 | La reprise |
+    | 0:15–0:35 | Le manque — faire traverser l'écran |
+    | 0:35–0:55 | La notion — `draw()`, la variable, les types |
+    | 0:55–1:05 | Pause |
+    | 1:05–1:45 | Atelier — la traversée |
+    | 1:45–2:00 | Le mur |
+  </markdown>
+
+  <section title="0:00 — La reprise">
+    <markdown>
+      Trois autoportraits projetés, pris au hasard, l'auteur ne parle pas. Une seule question à
+      la classe pour chacun : « c'est qui ? » La réponse vient en général d'un détail, et c'est
+      ce détail qu'on nomme. La ressemblance ne se commente pas.
+    </markdown>
+  </section>
+
+  <section title="0:15 — Le manque">
+    <markdown>
+      > **Consigne.** Un disque part du bord gauche et arrive au bord droit. Vingt minutes,
+      > avec les outils de la séance 1.
+
+      Laisser faire huit minutes sans intervenir. Ils écrivent des lignes de cercles :
+
+      ```js
+      circle(0, 300, 80);
+      circle(10, 300, 80);
+      circle(20, 300, 80);
+      ```
+
+      Tout s'affiche en même temps. Il n'y a pas de temps dans `setup()`. Faire formuler le
+      constat par un étudiant avant de passer à la suite.
+    </markdown>
+  </section>
+
+  <section title="0:35 — La notion">
+    <markdown>
+      ```js
+      function setup() {
+        createCanvas(800, 600);
+      }
+
+      function draw() {
+        background(20);
+        circle(400, 300, 80);
+      }
+      ```
+
+      Rien ne semble changer. Remplacer le premier nombre par `random(800)` : ça grésille.
+      **`draw()` est rejoué soixante fois par seconde.** C'est leur timeline, et ils la
+      connaissent déjà — une image, puis une autre, puis une autre.
+
+      Retirer `background(20)` : la trace apparaît. Le fond n'est pas un décor, c'est un
+      effacement. Laisser tourner dix secondes, c'est un moment visuel et il vaut mieux qu'un
+      paragraphe.
+
+      Remettre le fond. Poser le vrai manque : pour que le disque avance, il faut un nombre qui
+      change entre deux images. Or tout ce qui est écrit dans `draw()` recommence à
+      l'identique.
+
+      ```js
+      let positionX = 0;
+
+      function setup() {
+        createCanvas(800, 600);
+      }
+
+      function draw() {
+        background(20);
+        circle(positionX, 300, 80);
+        positionX = positionX + 2;
+      }
+      ```
+
+      **Le geste à décomposer.** `positionX = positionX + 2` n'est pas une égalité. Lu de droite
+      à gauche : *prends ce qu'il y a dans la boîte, ajoute 2, remets le résultat dans la
+      boîte*. C'est la première erreur de lecture de tous les débutants, qui lisent `=` comme en
+      mathématiques. Le faire dire à voix haute par trois étudiants différents, dans leurs
+      propres mots. Ne pas passer à la suite avant.
+
+      **La portée, en observation.** Déplacer `let positionX = 0;` à l'intérieur de `draw()` :
+      plus rien ne bouge. Pourquoi : la ligne est rejouée à chaque image, et la variable est
+      recréée à zéro soixante fois par seconde.
+
+      Ne pas prononcer le mot « portée ». Écrire le constat au tableau, tel quel :
+
+      > Ce qui est déclaré dans `draw()` ne survit pas à l'image suivante.
+
+      Il sera repris en séance 4, puis nommé en séance 5.
+
+      **Les types**, amenés par quatre besoins et non par une liste :
+
+      ```js
+      let positionX = 0;              // un nombre
+      let titre = "Sans titre";       // du texte
+      let enPause = false;            // un booléen : vrai ou faux, rien d'autre
+      ```
+
+      La démonstration qui rend le type visible — remplacer `0` par `"0"` :
+
+      ```js
+      let positionX = "0";
+      positionX = positionX + 2;      // "02", puis "022", puis "0222"
+      ```
+
+      Le disque ne bouge plus, et aucune erreur ne s'affiche. Du texte s'additionne autrement
+      qu'un nombre : le `+` ne fait pas la même chose selon ce qu'on lui donne. C'est la
+      définition d'un type, et c'est aussi une panne silencieuse — la troisième étape du
+      protocole la trouve en une ligne.
+
+      Finir par les variables que le monde fournit et qu'on ne déclare pas :
+
+      ```js
+      circle(mouseX, mouseY, 80);
+      ```
+    </markdown>
+  </section>
+
+  <section title="1:05 — Atelier : la traversée">
+    <markdown>
+      Le squelette est fourni, troué. On ne part pas d'une page blanche à ce stade.
+
+      ```js
+      let positionX = 0;
+      let vitesse = ___;
+
+      function setup() {
+        createCanvas(800, 600);
+      }
+
+      function draw() {
+        background(20);
+        fill(230, 200, 60);
+        circle(___, 300, 60);
+        positionX = ___;
+      }
+      ```
+
+      > **Consigne.** Faire traverser l'écran à l'objet. Puis lui donner une allure : sa forme,
+      > sa couleur, sa vitesse sont des décisions, pas des valeurs par défaut.
+
+      **Contraintes supplémentaires :**
+
+      - (a) L'objet accélère au lieu d'aller à vitesse constante.
+      - (b) Il laisse une trace qui s'efface lentement — remplacer `background(20)` par
+        `background(20, 20)` et comprendre ce que fait le second nombre.
+      - (c) Deux objets qui traversent à des vitesses différentes.
+
+      **L'objet sort de l'écran et ne revient pas.** C'est voulu, et c'est le manque de la
+      séance 3. Si la question est posée, répondre qu'il n'y a pas encore de quoi la résoudre,
+      et l'écrire au tableau pour la semaine suivante.
+    </markdown>
+  </section>
+
+  <section title="Devoir — 45 minutes">
+    <markdown>
+      Prendre l'autoportrait de la personne inscrite juste en dessous de soi sur la page
+      partagée, la dernière prenant celui de la première, et le dupliquer dans son compte.
+
+      Le réécrire pour qu'il tienne dans un rectangle de 200 × 250, la moitié du canvas
+      d'origine, placé n'importe où sur un canvas de 800 × 600. Deux variables, en haut du
+      sketch, donnent le coin supérieur gauche du rectangle :
+
+      ```js
+      let x = 300;
+      let y = 100;
+      ```
+
+      Chaque nombre du dessin est divisé par deux, puis compté à partir de `x` et `y` :
+      `circle(200, 180, 240)` devient `circle(x + 100, y + 90, 120)`.
+
+      Le test : changer les valeurs de `x` et `y`. Le portrait se déplace en entier, sans
+      qu'aucune pièce reste sur place. Tracer le rectangle en trait fin pendant le travail
+      montre ce qui dépasse.
+
+      Poster le lien sous celui de l'original.
+    </markdown>
+  </section>
+</page>
