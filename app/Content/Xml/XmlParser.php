@@ -52,6 +52,7 @@ final readonly class XmlParser
             titleAccent: $this->titleAccent($path, $root, $data['titre'][0]),
             summary: $data['resume'][0] ?? null,
             layout: $this->layout($root),
+            draft: Html::attribute($root, 'status') === 'draft',
             root: $root,
             data: $data,
             references: $this->references($root, $schema),

@@ -78,11 +78,15 @@ final readonly class SchemaRegistry
             //
             // It is also the only type that picks its layout: an entity is
             // always set as an ordinary document.
+            //
+            // status="draft" keeps a page out of production entirely. A page
+            // with no status is published: that is the ordinary case, and it
+            // should not have to say so.
             new Schema(
                 type: 'page',
                 plural: 'pages',
                 fields: [],
-                attributes: ['layout' => Layout::names()],
+                attributes: ['layout' => Layout::names(), 'status' => ['draft']],
             ),
         ];
 

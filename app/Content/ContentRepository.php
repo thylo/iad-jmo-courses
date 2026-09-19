@@ -9,6 +9,7 @@ use App\Content\Xml\ContentIndex;
 use App\Content\Xml\NodeRenderer;
 use App\Content\Xml\XmlParser;
 use Tempest\Container\Singleton;
+use Tempest\Core\Environment;
 use Tempest\Markdown\Markdown;
 
 use function Tempest\root_path;
@@ -50,6 +51,7 @@ final class ContentRepository
         private readonly XmlParser $xml,
         private readonly NodeRenderer $renderer,
         private readonly Autolinks $autolinks,
+        private readonly Environment $environment,
     ) {
         $this->contentRoot = realpath(root_path('content')) ?: root_path('content');
         $this->slugs = new SlugResolver($this->contentRoot);
@@ -225,6 +227,13 @@ final class ContentRepository
                 }
 
                 $source = $this->xml->parse($path, $slug);
+
+                // A draft is skipped before anything sees it, so production has
+                // no URL, no navigation entry, no sitemap line and no backlink
+                // for it. Locally it loads like any page, to be read in place.
+                if ($source->draft && $this->environment->isProduction()) {
+                    continue;
+                }
 
                 if (isset($ids[$source->id])) {
                     // Two files claiming one id would make [[wikilinks]] point
