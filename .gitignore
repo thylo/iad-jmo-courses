@@ -22,5 +22,10 @@ public/build/
 
 # --- Médias fabriqués (media/ est du contenu, public/media/ est produit) ---
 /public/media/
+
+# Les sources d'impression restent sur le disque. Un PDF de 83 Mo pèse trois
+# fois tout media/, et un binaire ne se retire pas de l'historique sans le
+# réécrire. Ce qu'une fiche cite est une image, fabriquée à partir de là.
+/media/*.pdf
 vite-tempest
 .env.before_lerd
