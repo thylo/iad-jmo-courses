@@ -12,6 +12,31 @@
   max-width: var(--measure-display);
 }
 
+/* The other two lines of the heading — what <suptitle> and <subtitle> render.
+
+   Both belong to the title, so both sit against it, with nothing between them
+   and the display line box that already carries the air on that side. What
+   tells them from the lead is position and measure rather than colour: the lead
+   comes a full unit below and runs to its own 46ch, these two keep the title's
+   24ch and break where a title breaks.
+
+   The suptitle names the series the page is part of — "Séance 1". It takes the
+   title's ink and one step down the scale, which is what separates it from the
+   trail sitting right above: that one is navigation and stays muted, this one
+   is half of the name. */
+.c-intro__suptitle {
+  font-size: var(--text-title);
+  line-height: var(--space-unit);
+  max-width: var(--measure-display);
+}
+
+/* The title's second line, a step further down the scale than the display. */
+.c-intro__subtitle {
+  font-size: var(--text-lead);
+  line-height: var(--leading-lead);
+  max-width: var(--measure-display);
+}
+
 /* The gloss under a title — what <definition> renders.
 
    It is the trail's counterpart: a caption over the heading says where the

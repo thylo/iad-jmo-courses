@@ -46,6 +46,8 @@ final readonly class NodeRenderer
             title: $title,
             accent: $accent,
             after: $after,
+            suptitle: $source->value('suptitle'),
+            subtitle: $source->value('subtitle'),
             summary: $source->summary,
             image: $this->images->lead($source, $index),
             facts: $this->dataList($source, $index),

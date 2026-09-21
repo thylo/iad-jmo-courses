@@ -52,6 +52,24 @@ une donnée. La frontière est la même que pour `layout` — ce qui appartient 
 code se dit en anglais, ce qui appartient au contenu se dit dans la langue du
 contenu.
 
+## Un titre en trois lignes
+
+Un titre peut porter une ligne au-dessus et une en dessous :
+
+```xml
+<suptitle>Séance 1</suptitle>
+<titre>L'instruction littérale, et le premier pixel</titre>
+<subtitle>Le repère de l'écran, et le premier sketch</subtitle>
+```
+
+Les deux appartiennent au titre et se rendent contre lui, avant le résumé. Le
+chemin au-dessus dit où la page est rangée, ces deux-là disent comment elle
+s'appelle.
+
+Ni l'une ni l'autre n'arrive dans la balise `<title>`, dans les index ou dans le
+tri, qui restent sur `<titre>` seul : un lien n'a de place que pour une chaîne.
+Un titre qui ne se lit pas sans son sur-titre se réécrit.
+
 ## Un titre à définir
 
 Une page dont le titre est un mot que le lecteur peut ne pas connaître le
@@ -196,8 +214,9 @@ Les noms de mise en page sont en anglais, comme le reste du code : `layout`
 nomme un template, pas du contenu. Une mise en page de plus, c'est un cas dans
 `App\Content\Layout` et un fichier du même nom dans `views/layouts/`.
 
-`id` et `<titre>` sont obligatoires partout, `<resume>` optionnel : les trois
-sont fournis à tous les types, aucun schéma ne les redéclare. `par`, `categorie`,
+`id` et `<titre>` sont obligatoires partout, `<resume>`, `<suptitle>` et
+`<subtitle>` optionnels : les cinq sont fournis à tous les types, aucun schéma
+ne les redéclare. `par`, `categorie`,
 `concept`, `voir` et `exemple` sont répétables.
 
 `categorie` et `genre` n'acceptent qu'une liste de valeurs connues — écrire

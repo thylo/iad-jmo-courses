@@ -33,8 +33,12 @@ namespace App\Content;
 final readonly class Intro
 {
     private function __construct(
+        /** The <p> a page set with <suptitle>, written above the heading, or null. */
+        public ?string $suptitle,
         /** Inner HTML of the first <h1>, or null when the page opens without one. */
         public ?string $title,
+        /** The <p> a page set with <subtitle>, the heading's second line, or null. */
+        public ?string $subtitle,
         /** The <p> a page set with <definition>, or null. */
         public ?string $definition,
         /** Inner HTML of the paragraph right after it, when there is one. */
@@ -55,19 +59,42 @@ final readonly class Intro
         // a page with no summary it would otherwise be taken for the lead.
         [$definition, $html] = self::lift('#\s*<p class="c-intro__definition">.*?</p>\s*#is', $html);
 
+        // The other two lines of the heading, lifted before it is looked for.
+        // The suptitle is written above the <h1>, so the opening would not be
+        // recognised at all with it still in place; the subtitle sits exactly
+        // where the lead is looked for, and would be taken for the summary.
+        [$suptitle, $html] = self::lift('#\s*<p class="c-intro__suptitle">.*?</p>\s*#is', $html);
+        [$subtitle, $html] = self::lift('#\s*<p class="c-intro__subtitle">.*?</p>\s*#is', $html);
+
         if (preg_match('#\A\s*<h1\b[^>]*>(?P<title>.*?)</h1>\s*#is', $html, $heading) !== 1) {
-            return self::rest(title: null, definition: $definition, lead: null, html: $html);
+            return self::rest(
+                suptitle: $suptitle,
+                title: null,
+                subtitle: $subtitle,
+                definition: $definition,
+                lead: null,
+                html: $html,
+            );
         }
 
         $rest = substr($html, strlen($heading[0]));
 
         // A page that opens on a list or a note has no lead; the body keeps it all.
         if (preg_match('#\A<p\b[^>]*>(?P<lead>.*?)</p>\s*#is', $rest, $paragraph) !== 1) {
-            return self::rest(title: $heading['title'], definition: $definition, lead: null, html: $rest);
+            return self::rest(
+                suptitle: $suptitle,
+                title: $heading['title'],
+                subtitle: $subtitle,
+                definition: $definition,
+                lead: null,
+                html: $rest,
+            );
         }
 
         return self::rest(
+            suptitle: $suptitle,
             title: $heading['title'],
+            subtitle: $subtitle,
             definition: $definition,
             lead: $paragraph['lead'],
             html: substr($rest, strlen($paragraph[0])),
@@ -85,14 +112,22 @@ final readonly class Intro
      * prose box. So the classes are a contract with this file and not a guess
      * about what an author typed.
      */
-    private static function rest(?string $title, ?string $definition, ?string $lead, string $html): self
-    {
+    private static function rest(
+        ?string $suptitle,
+        ?string $title,
+        ?string $subtitle,
+        ?string $definition,
+        ?string $lead,
+        string $html,
+    ): self {
         [$plate, $html] = self::lift('#\s*<figure class="c-figure c-figure--opening">.*?</figure>\s*#is', $html);
         [$preamble, $html] = self::lift('#\s*<div class="c-prose c-intro__preamble">.*?</div>\s*#is', $html);
         [$facts, $html] = self::lift('#\s*<dl class="c-facts">.*?</dl>\s*#is', $html);
 
         return new self(
+            suptitle: $suptitle,
             title: $title,
+            subtitle: $subtitle,
             definition: $definition,
             lead: $lead,
             facts: $facts,

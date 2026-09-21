@@ -27,7 +27,14 @@
          renders nothing rather than an empty line. --}}
     <x-trail :if="$trail->crumbs" />
 
+    {{-- The heading, in one to three lines. The sup- and subtitle are the
+         title's own lines, so they sit against it: the trail above says where
+         the page is filed, these two say what it is called. --}}
+    {!! $this->intro->suptitle !!}
+
     <h1 :if="$this->intro->title" class="c-intro__title">{!! $this->intro->title !!}</h1>
+
+    {!! $this->intro->subtitle !!}
 
     {{-- The gloss of the title, when the page gave one: it belongs to the
          heading, so nothing comes between them. --}}
