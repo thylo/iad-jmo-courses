@@ -16,6 +16,7 @@
         <a href="/a-propos/colophon">pourquoi, et avec quelles limites</a>.
         Il tourne sur un moteur de site maison basé sur
         <a href="https://tempestphp.com">Tempest</a>.
+        Toutes ses sections sont réunies sur le <a href="/plan-du-site">plan du site</a>.
         <a href="mailto:julien@thylo.be">julien@thylo.be</a>
     </p>
 </footer>
