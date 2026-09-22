@@ -19,15 +19,15 @@
     </markdown>
 
     <diagram src="dictee-figures-a.svg"
-             alt="Six figures au trait sur deux rangées : un rectangle traversé par une ligne brisée, trois cercles qui se touchent, un rectangle vide et un rectangle noir qu'un cercle chevauche, une grille à rayures obliques, une ligne brisée ouverte, un rectangle avec un cercle calé dans un coin."
+             alt="Six figures au trait sur deux rangées : un rectangle traversé par une ligne brisée, trois cercles qui se touchent, un rectangle vide et un rectangle noir qu'un cercle chevauche, une grille à rayures obliques, une ligne brisée ouverte, un cercle et un rectangle dont un coin se trouve au centre du cercle, avec un petit cercle centré sur le coin opposé."
              caption="Série A. Figures 1 à 3 en haut, 4 à 6 en bas, de gauche à droite."/>
 
     <diagram src="dictee-figures-b.svg"
-             alt="Six figures au trait sur deux rangées : un rectangle très allongé traversé par une ligne brisée, trois cercles dont un petit posé contre le grand, un cercle vide et un disque noir qu'un rectangle chevauche, une grille de six sur six à rayures obliques, une ligne brisée ouverte, un rectangle avec un cercle calé dans le coin inférieur droit."
+             alt="Six figures au trait sur deux rangées : un rectangle très allongé traversé par une ligne brisée, trois cercles dont un petit posé contre le grand, un cercle vide et un disque noir qu'un rectangle chevauche, une grille de six sur six à rayures obliques, une ligne brisée ouverte, un cercle et un carré dont un coin se trouve au centre du cercle, avec un petit cercle centré au milieu du côté inférieur du carré."
              caption="Série B, dans le même ordre et à la même échelle."/>
 
     <diagram src="dictee-figures-c.svg"
-             alt="Six figures au trait sur deux rangées : un rectangle haut traversé par une ligne brisée, trois cercles dont un petit flottant dans le grand, un rectangle vide et un triangle noir qu'un cercle chevauche, une grille de six sur six à rayures obliques, une ligne brisée ouverte, un rectangle avec un cercle posé sur son côté inférieur."
+             alt="Six figures au trait sur deux rangées : un rectangle haut traversé par une ligne brisée, trois cercles dont un petit flottant dans le grand, un rectangle vide et un triangle noir qu'un cercle chevauche, une grille de six sur six à rayures obliques, une ligne brisée ouverte, un cercle et un rectangle haut dont un coin se trouve au centre du cercle, avec un petit cercle centré au milieu du rectangle."
              caption="Série C. Une même position, d'une série à l'autre, pose la même difficulté."/>
 
     <markdown>
@@ -51,6 +51,10 @@
       La quatrième figure, la grille à rayures, fait exception. Elle ne s'écrit pas sans
       répéter la même phrase case après case tant que la règle de remplissage n'est pas
       trouvée : elle est laissée de côté, et rouverte en [[04-boucle|séance 4]].
+
+      La sixième figure se décrit à partir d'un point. Le coin du rectangle se trouve au
+      centre du cercle, et le petit cercle se centre sur un autre point du rectangle : chaque
+      forme se place depuis la précédente. Ce point de référence s'appelle le point d'ancrage.
     </markdown>
   </section>
 
@@ -128,6 +132,11 @@
 
       Les autres formes se donnent de la même façon : `rect`, `square`, `ellipse`, `line`,
       `triangle`. Le nombre d'arguments change d'une forme à l'autre, leur ordre est fixe.
+
+      Le point que désignent les deux premiers nombres change aussi. C'est le point d'ancrage
+      de la sixième figure dictée : le centre pour `circle` et `ellipse`, le coin supérieur
+      gauche pour `rect` et `square`. En série B, `circle(200, 200, 160)` suivi de
+      `square(200, 200, 160)` donne les deux premières formes.
 
       ```js
       function setup() {
