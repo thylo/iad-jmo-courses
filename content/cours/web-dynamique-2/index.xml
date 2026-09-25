@@ -1,0 +1,117 @@
+<page id="web-dynamique-2" status="draft">
+  <titre>Web dynamique 2</titre>
+  <resume>Trente-deux heures pour écrire un récit interactif qui a besoin d'un serveur pour exister.</resume>
+
+  <markdown>
+    Document de conduite, en brouillon. Public : une étudiante seule, en master multimédia à
+    l'IAD. Elle connaît bien HTML et CSS, et les bases de l'interactivité en JavaScript : les
+    listeners, les sélecteurs, la manipulation du DOM. Tout ce qu'elle a écrit jusqu'ici vit dans
+    un seul navigateur et disparaît quand on ferme l'onglet.
+
+    Elle raisonne en scripts isolés : un fichier par page, des variables globales, des balises
+    `&lt;script&gt;` dont l'ordre compte sans qu'elle sache pourquoi. Les modules ES et les web
+    components arrivent tôt, parce que le reste du cours assemble des pièces écrites séparément.
+
+    Deux cours de master se suivent dans l'année. Celui-ci vient d'abord et porte la théorie : plus
+    de code, peu de matériel. [[making-things-talk]] vient ensuite et porte l'expérimentation ; il
+    reprend la plomberie posée ici pour la détourner vers des objets.
+
+    Volume : 32 heures en modules de 4 heures, soit huit modules. Travail à la maison entre deux
+    modules.
+  </markdown>
+
+  <section title="Acquis d'apprentissage">
+    <markdown>
+      **Raisonner en client/serveur.** Devant un dispositif, elle dessine où vit chaque valeur à un
+      instant donné, quelle machine la détient et ce qui la porte à la suivante. Elle sait qu'une
+      réponse arrive plus tard et elle écrit du code qui l'attend.
+
+      **Écrire un petit serveur.** Elle part d'un serveur d'une vingtaine de lignes qui marche, y
+      ajoute une route, reçoit un formulaire, enregistre ce qu'il contient et le renvoie à un
+      autre client.
+
+      **Construire un récit interactif.** Elle conçoit et monte une pièce narrative qui respecte les
+      quatre garde-fous ci-dessous. Les deux premiers acquis en sont les outils.
+    </markdown>
+  </section>
+
+  <section title="Le récit final">
+    <markdown>
+      Le sujet dépendra de ses envies. Le cadre, lui, est fixé dès le premier module, pour qu'elle
+      ne se replie pas sur ce qu'elle sait déjà faire.
+
+      **Le serveur est nécessaire.** Une version qui tourne en page statique, sans rien perdre, est
+      refusée.
+
+      **Deux personnes au moins y prennent part**, en même temps ou l'une après l'autre.
+
+      **Un état persiste d'une visite à l'autre** et compte dans l'histoire. Ce que le visiteur
+      précédent a fait change ce que le suivant trouve.
+
+      **L'avancée ne passe pas par des liens hypertexte.** Cela écarte le Twine déguisé en site :
+      le récit progresse par des états, des déclencheurs, des gestes, du temps qui passe.
+    </markdown>
+  </section>
+
+  <section title="Les modules">
+    <markdown>
+      Proposition à valider. Chaque module s'ouvre sur un manque et se ferme sur un micro-récit.
+
+      | Module | Compétence | Le manque qui l'ouvre |
+      |---|---|---|
+      | Ranger le code en modules | Les modules ES : `type="module"`, `export`, `export default`, `import`, `import * as`, la portée d'un module | Deux scripts déclarent la même variable, et la page ne s'ouvre plus en double-cliquant sur le fichier |
+      | Demander à une autre machine | `fetch`, JSON, l'asynchrone | La donnée existe ailleurs et arrive plus tard que la ligne qui l'utilise |
+      | Répondre à la place de la machine | Un serveur PHP donné : un fichier par route, `$_POST`, une réponse en JSON | Aucune API ne répond ce que le récit demande |
+      | Se souvenir des visiteurs | La persistance, dans un fichier JSON puis éventuellement SQLite | Le serveur oublie tout quand il redémarre |
+      | Quand l'état change, la page suit | La réactivité : un store écrit à la main (`get`, `set`, `subscribe`), puis les signals (`signal`, `computed`, `effect`) | La même valeur s'affiche à trois endroits, chacun mis à jour à la main, et l'un des trois est oublié |
+      | L'histoire comme machine à états | États, transitions, déclencheurs, l'état tenu par le serveur ; chaque état est un web component, écrit d'abord à la main (`customElements.define`, `connectedCallback`, attributs, événements), puis avec Lit | Les pages et les liens ne suffisent plus à dire où on en est, et la même scène est recopiée cinq fois |
+      | Deux écrans en même temps | Le temps réel en SSE : `EventSource` côté navigateur, un script PHP qui garde la connexion ouverte ; le téléphone envoie en `POST` et sert de manette | Le second visiteur doit recharger pour voir ce que le premier a fait |
+      | Réserve | | |
+
+      Le premier module fabrique aussi le manque du deuxième. Un module ES ne se charge pas depuis
+      `file://` : la page a déjà besoin d'être servie, avant même qu'on parle de serveur. On lance
+      `php -S localhost:8000` sans l'expliquer, et on y revient au troisième module.
+
+      La réactivité se montre en deux temps. D'abord un store d'une vingtaine de lignes, donné en
+      pièce détachée : un état, une fonction qui le modifie, une liste de fonctions prévenues à
+      chaque changement. Le mécanisme se lit en entier. Ensuite les signals de
+      `@preact/signals-core`, importés comme module ES depuis un CDN, sans build : le même
+      mécanisme sous le nom que lui donnent les frameworks. La machine à états s'appuie dessus,
+      changer d'état revient à modifier le store. Au dernier module, le serveur pousse l'état et
+      c'est le même store qui le reçoit.
+
+      Les web components arrivent avec la machine à états parce qu'ils y répondent à un besoin : une
+      scène devient une balise, le serveur dit laquelle afficher, et l'élément se range dans son
+      propre module.
+
+      Lit vient après l'élément écrit à la main. Il reste au plus près du standard : un élément Lit
+      est un custom element, et ce qu'il ajoute se limite à des propriétés réactives et à un
+      gabarit `html`. Il se charge comme module ES depuis un CDN, sans build. Les décorateurs de sa
+      documentation demandent un compilateur : on écrit `static properties` à la place. Les signals
+      du module précédent s'y branchent par `@lit-labs/signals`.
+
+      Le serveur est en PHP. Un fichier avec quelques balises dedans suffit à rendre une page
+      dynamique, il n'y a pas de build, et le dossier se dépose en FTP sur n'importe quel
+      hébergement. Le temps réel passe par SSE : le serveur pousse, le navigateur écoute, et ce qui
+      remonte du navigateur repart en `POST`. Le code côté navigateur ne dépend pas du serveur.
+      Node.js viendra plus tard, dans Making Things Talk, où la liaison série et le MIDI le
+      demandent : seul le serveur changera.
+
+      Le serveur intégré de PHP ne traite qu'une requête à la fois, et une connexion SSE l'occupe
+      en entier. En local, on le lance avec `PHP_CLI_SERVER_WORKERS=4`. Sur l'hébergement, le
+      tampon de sortie et la durée maximale d'exécution se vérifient avant le dernier module.
+
+      Se souvenir des visiteurs porte le passage difficile : c'est la première fois que deux blocs doivent
+      s'emboîter, et il demande plus de temps d'atelier que les autres.
+    </markdown>
+  </section>
+
+  <section title="Questions ouvertes">
+    <markdown>
+      **L'évaluation.** Forme à définir.
+
+      **La présentation du récit final.** Date, lieu et public à fixer. Le garde-fou des deux
+      personnes suppose un public réel.
+    </markdown>
+  </section>
+</page>
