@@ -37,40 +37,19 @@
   </section>
 
   <section title="Les structures">
-    <markdown>
-      [[bandersnatch|Bandersnatch]] se joue sur Netflix, [[cartaventura|Cartaventura]] sur
-      une table. Tracés sur une feuille, les deux font le même dessin : des chemins qui se
-      séparent à chaque choix.
-    </markdown>
-
-    <image src="bandersnatch.jpg"
-           width="field"
-           alt="Un jeune homme aux cheveux bouclés, assis devant un écran hors champ, tient un joystick à boule rouge des deux mains, le regard fixe."
-           caption="« Black Mirror: Bandersnatch », Netflix, 2018."
-           credit="Netflix"
-           source="https://www.netflix.com/be-fr/title/80988062"/>
-
-    <image src="cartaventura-table.jpg"
-           width="field"
-           alt="Vue de dessus d'une table blanche couverte de cartes illustrées, carrées, posées en désordre. Au centre, la boîte de « Cartaventura Versailles » : un cavalier sur une colline, un château dans la brume. Autour, des cartes numérotées montrent des paysages, une écurie, des personnages en costume du XVIIe siècle. Une loupe, un tampon à cacheter, une enveloppe verte scellée et deux tulipes roses complètent la mise en scène."
-           caption="« Cartaventura Versailles », Blam!. Les cartes posées forment le monde, et une décision en remplace une partie."
-           credit="Blam!"
-           source="https://blam-edition.com/univers-cartaventura/"/>
 
     <diagram src="structures-planche.svg"
              alt="Sept petits schémas de points reliés par des traits. Linéaire : cinq points sur une ligne. Élastique : la même ligne, avec deux détours en triangle qui partent d'un point et reviennent au suivant. Parallèle : trois lignes de cinq points, l'une sous l'autre. Concentrique : un point central relié à trois points sur un premier cercle, eux-mêmes reliés à des points sur un second cercle. Embranchements : un point qui se divise en deux, puis en quatre. Constellation : huit points reliés en réseau, sans début. À état : cinq points sur une ligne, et un arc pointillé qui relie le deuxième au cinquième."
              caption="Les sept structures du panorama."/>
 
     <markdown>
-      | Structure | Une œuvre |
-      |---|---|
-      | [[structure-lineaire|Linéaire]] | [[snow-fall|Snow Fall]] |
-      | [[structure-elastique|Élastique]] | [[do-not-track|Do Not Track]] |
-      | [[structure-parallele|Parallèle]] | [[highrise|Highrise]] |
-      | [[structure-concentrique|Concentrique]] | [[rashomon|Rashomon]] |
-      | [[structure-embranchements|Embranchements]] | [[late-shift|Late Shift]] |
-      | [[structure-constellation|Constellation]] | [[nicky-case-explorable-explanations|Nicky Case]] |
-      | [[structure-a-etat|À état]] | [[80-days|80 Days]] |
+      - [[structure-lineaire|Linéaire]]
+      - [[structure-elastique|Élastique]]
+      - [[structure-parallele|Parallèle]]
+      - [[structure-concentrique|Concentrique]]
+      - [[structure-embranchements|Embranchements]]
+      - [[structure-constellation|Constellation]]
+      - [[structure-a-etat|À état]]
 
       Elles sont rangées dans [le panorama](/panorama/structures), avec le reste des
       [catégories](/panorama/introduction).
