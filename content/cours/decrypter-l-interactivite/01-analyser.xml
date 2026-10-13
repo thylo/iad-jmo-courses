@@ -77,29 +77,6 @@
     </markdown>
   </section>
 
-  <section title="Atelier — tracer">
-    <markdown>
-      Par binômes, une œuvre par binôme, jouée dans le navigateur.
-
-      - [[etes-vous-pret-a-sauver-une-vie|Êtes-vous prêt à sauver une vie ?]]
-      - [[one-shared-house|One Shared House]]
-      - [[hors-jeu|Hors-Jeu]]
-      - [[last-hijack-interactive|Last Hijack Interactive]]
-      - [[do-not-track|Do Not Track]], un épisode
-
-      > **Consigne.** Jouer l'œuvre, puis dessiner sa structure sur une feuille A3 : chaque
-      > scène est un point, chaque passage possible une flèche. Ne pas écrire le nom de
-      > l'œuvre.
-
-      Les feuilles vont au mur. Le groupe nomme la structure de chaque dessin, puis devine
-      l'œuvre.
-    </markdown>
-
-    <diagram src="releve-exemple.svg"
-             alt="Dix points reliés par des flèches, de gauche à droite. Le deuxième point se divise en deux flèches, tracées en couleur, qui se rejoignent au point suivant. Plus loin, un autre point se divise en deux chemins qui ne se rejoignent pas et finissent chacun sur un point."
-             caption="Un relevé. Le premier choix se referme une scène plus loin, le second mène à deux fins."/>
-  </section>
-
   <section title="Les choix">
     <markdown>
       | Choix | Ce qui se passe |
@@ -109,22 +86,6 @@
       | [[faux-choix|Faux]] | Les deux portes mènent au même couloir |
 
       Le détail : [la grille des choix](/panorama/choix).
-    </markdown>
-  </section>
-
-  <section title="Atelier — démasquer">
-    <markdown>
-      Mêmes binômes, mêmes œuvres, le dessin au mur sert de carte.
-
-      > **Consigne.** Relever chaque choix de l'œuvre et le classer : rationnel, exploratoire
-      > ou faux. Puis faire les deux tests.
-
-      1. **Le parcours à l'envers.** Rejouer en prenant l'autre porte à chaque fois, et noter
-         ce qui change.
-      2. **L'interaction retirée.** Raconter l'œuvre sans aucun choix. Si le récit tient
-         debout, l'interaction est un ornement.
-
-      Chaque binôme réécrit ensuite un faux choix de son œuvre pour qu'il pèse.
     </markdown>
   </section>
 </page>
