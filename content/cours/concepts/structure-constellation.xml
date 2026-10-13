@@ -16,6 +16,10 @@
          source="https://commons.wikimedia.org/wiki/File:The_Garden_of_earthly_delights.jpg"/>
 
   <section title="Définition">
+    <diagram src="structure-constellation-schema.svg"
+             width="field"
+             alt="Huit points dispersés, reliés en réseau par une douzaine de traits. Aucun n'est au début."/>
+
     <markdown>
       La structure constellation (ou rhizome) abandonne la logique hiérarchique traditionnelle.
       Les éléments narratifs forment un réseau où chaque nœud est connecté à plusieurs autres.

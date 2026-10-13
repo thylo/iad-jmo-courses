@@ -12,7 +12,7 @@ use App\Media\Diagrams;
 use App\View\Component;
 
 /**
- * <diagram src="structure-lineaire.svg" alt="…" caption="…" width="field"/>
+ * <diagram src="structure-lineaire-schema.svg" alt="…" caption="…" width="field"/>
  *
  * A drawing that explains, as opposed to <image>, which shows. The distinction
  * is not decorative: a photograph is somebody else's, needs a credit and comes

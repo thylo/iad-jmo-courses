@@ -9,6 +9,10 @@
   <resume>Plusieurs récits se déroulent simultanément. Le spectateur choisit lequel suivre, peut basculer entre eux.</resume>
 
   <section title="Définition">
+    <diagram src="structure-parallele-schema.svg"
+             width="field"
+             alt="Trois lignes de cinq points, l'une sous l'autre, sans lien entre elles."/>
+
     <markdown>
       La structure parallèle présente plusieurs récits indépendants qui se déroulent simultanément
       dans le même univers. Le spectateur peut choisir lequel suivre et basculer entre eux,

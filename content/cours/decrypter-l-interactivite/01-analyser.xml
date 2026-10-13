@@ -1,56 +1,130 @@
-<page id="01-analyser">
-  <titre>Séance 1 — Analyser des œuvres</titre>
-  <resume>Découvrir des œuvres interactives et construire un regard critique.</resume>
+<page id="01-analyser" status="draft">
+  <suptitle>Séance 1</suptitle>
+  <titre>Analyser des œuvres</titre>
+  <resume>Multimédia, interactif, linéaire, transmédia. Les structures et les choix, appliqués à cinq œuvres jouées en binôme.</resume>
 
-  <markdown>
-    Quatre heures. Discussion collective et exploration guidée.
-  </markdown>
-
-  <section title="Objectifs">
+  <section title="Les mots qu'on confond">
     <markdown>
-      - Analyser comment l'interaction sert, ou dessert, une intention narrative
-      - Distinguer interaction fonctionnelle et interaction narrative
-      - Structurer un regard critique face à une œuvre
+      **Multimédia.** Fait de plusieurs médias : texte, image, son, vidéo. Le mot décrit les
+      matériaux de l'œuvre. En décembre 2012, le New York Times publie
+      [[snow-fall|Snow Fall]], un article sur une avalanche qui assemble texte, vidéo,
+      photos et animations dans une seule page. Un film est multimédia aussi, avec son
+      image, son son et sa musique. [[cartaventura|Cartaventura]] ne l'est pas : un seul
+      matériau, des cartes imprimées.
+
+      **Interactif.** Le public agit, et ce qu'il fait change ce qui se passe. Dans
+      *Cartaventura*, le joueur choisit une carte, et la table change. Dans
+      [[bandersnatch|Bandersnatch]], le spectateur choisit à l'écran, et le film continue
+      autrement. Dans *Snow Fall*, le lecteur fait défiler, mais l'article reste le même
+      pour tout le monde : son geste règle la vitesse, comme la touche pause d'un lecteur
+      vidéo. *Snow Fall* est donc multimédia sans être interactif.
+
+      **Linéaire.** Un seul chemin : tout le public voit la même chose, dans le même ordre.
+      En 1977, chaque spectateur de *La Guerre des étoiles* voit les mêmes plans, pendant la
+      même durée. *Snow Fall* est linéaire aussi. Une œuvre est non linéaire quand deux
+      personnes n'y suivent pas le même parcours : deux parties de *Cartaventura* ne
+      prennent pas le même chemin, et la boîte a cinq fins.
+
+      **Transmédia.** Une histoire répartie sur plusieurs supports, chacun apportant ce que
+      les autres n'ont pas. Le film de 1977 commence après le vol des plans de l'Étoile
+      noire, et ne le montre jamais. *Rogue One* raconte le vol en 2016, la série *Andor*
+      remonte encore de cinq ans en 2022. Qui n'a vu que le premier film ignore qui étaient
+      les espions. Une adaptation raconte la même histoire ailleurs : le roman *Harry
+      Potter* et son film suivent les mêmes événements. Le transmédia, lui, découpe
+      l'histoire, et chaque morceau peut rester une ligne. *Star Wars* est transmédia et
+      linéaire.
     </markdown>
   </section>
 
-  <section title="Déroulé">
+  <section title="Les structures">
     <markdown>
-      **À définir.** Le contenu de cette séance reposait sur une grille de lecture qui
-      a été retirée. L'activité d'ouverture et le livrable restent valables ; ce qui
-      se passe entre les deux est à réécrire.
+      [[bandersnatch|Bandersnatch]] se joue sur Netflix, [[cartaventura|Cartaventura]] sur
+      une table. Tracés sur une feuille, les deux font le même dessin : des chemins qui se
+      séparent à chaque choix.
+    </markdown>
 
-      ### Activité d'ouverture
+    <image src="bandersnatch.jpg"
+           width="field"
+           alt="Un jeune homme aux cheveux bouclés, assis devant un écran hors champ, tient un joystick à boule rouge des deux mains, le regard fixe."
+           caption="« Black Mirror: Bandersnatch », Netflix, 2018."
+           credit="Netflix"
+           source="https://www.netflix.com/be-fr/title/80988062"/>
 
-      *Le dernier film vu, raconté en trente secondes.*
+    <image src="cartaventura-table.jpg"
+           width="field"
+           alt="Vue de dessus d'une table blanche couverte de cartes illustrées, carrées, posées en désordre. Au centre, la boîte de « Cartaventura Versailles » : un cavalier sur une colline, un château dans la brume. Autour, des cartes numérotées montrent des paysages, une écurie, des personnages en costume du XVIIe siècle. Une loupe, un tampon à cacheter, une enveloppe verte scellée et deux tulipes roses complètent la mise en scène."
+           caption="« Cartaventura Versailles », Blam!. Les cartes posées forment le monde, et une décision en remplace une partie."
+           credit="Blam!"
+           source="https://blam-edition.com/univers-cartaventura/"/>
 
-      Chacun choisit un film que tout le monde connaît et le résume. On compare les
-      résumés : mêmes plans, même ordre, même durée pour tous. Le récit linéaire ne
-      laisse aucune prise.
+    <diagram src="structures-planche.svg"
+             alt="Sept petits schémas de points reliés par des traits. Linéaire : cinq points sur une ligne. Élastique : la même ligne, avec deux détours en triangle qui partent d'un point et reviennent au suivant. Parallèle : trois lignes de cinq points, l'une sous l'autre. Concentrique : un point central relié à trois points sur un premier cercle, eux-mêmes reliés à des points sur un second cercle. Embranchements : un point qui se divise en deux, puis en quatre. Constellation : huit points reliés en réseau, sans début. À état : cinq points sur une ligne, et un arc pointillé qui relie le deuxième au cinquième."
+             caption="Les sept structures du panorama."/>
 
-      Le point de départ : ce qui change quand le spectateur agit.
+    <markdown>
+      | Structure | Une œuvre |
+      |---|---|
+      | [[structure-lineaire|Linéaire]] | [[snow-fall|Snow Fall]] |
+      | [[structure-elastique|Élastique]] | [[do-not-track|Do Not Track]] |
+      | [[structure-parallele|Parallèle]] | [[highrise|Highrise]] |
+      | [[structure-concentrique|Concentrique]] | [[rashomon|Rashomon]] |
+      | [[structure-embranchements|Embranchements]] | [[late-shift|Late Shift]] |
+      | [[structure-constellation|Constellation]] | [[nicky-case-explorable-explanations|Nicky Case]] |
+      | [[structure-a-etat|À état]] | [[80-days|80 Days]] |
 
-      ### Exploration guidée
-
-      Sélection d'œuvres à parcourir en séance, prises dans la [liste](/oeuvres).
-
-      ### Discussion collective
-
-      Ce qui a marché, ce qui a raté, pourquoi.
+      Elles sont rangées dans [le panorama](/panorama/structures), avec le reste des
+      [catégories](/panorama/introduction).
     </markdown>
   </section>
 
-  <section title="Livrable">
+  <section title="Atelier — tracer">
     <markdown>
-      **Fiche d'analyse de trois œuvres.**
+      Par binômes, une œuvre par binôme, jouée dans le navigateur.
 
-      - Trois œuvres interactives, au choix
-      - Environ 200 à 300 mots par œuvre
-      - Une capture d'écran ou un croquis pour chacune
+      - [[etes-vous-pret-a-sauver-une-vie|Êtes-vous prêt à sauver une vie ?]]
+      - [[one-shared-house|One Shared House]]
+      - [[hors-jeu|Hors-Jeu]]
+      - [[last-hijack-interactive|Last Hijack Interactive]]
+      - [[do-not-track|Do Not Track]], un épisode
 
-      Ce qu'on cherche : de la diversité dans les œuvres choisies, une analyse qui
-      dépasse le descriptif, et ce que l'interaction apporte et que le cinéma ne peut
-      pas.
+      > **Consigne.** Jouer l'œuvre, puis dessiner sa structure sur une feuille A3 : chaque
+      > scène est un point, chaque passage possible une flèche. Ne pas écrire le nom de
+      > l'œuvre.
+
+      Les feuilles vont au mur. Le groupe nomme la structure de chaque dessin, puis devine
+      l'œuvre.
+    </markdown>
+
+    <diagram src="releve-exemple.svg"
+             alt="Dix points reliés par des flèches, de gauche à droite. Le deuxième point se divise en deux flèches, tracées en couleur, qui se rejoignent au point suivant. Plus loin, un autre point se divise en deux chemins qui ne se rejoignent pas et finissent chacun sur un point."
+             caption="Un relevé. Le premier choix se referme une scène plus loin, le second mène à deux fins."/>
+  </section>
+
+  <section title="Les choix">
+    <markdown>
+      | Choix | Ce qui se passe |
+      |---|---|
+      | [[choix-rationnel|Rationnel]] | L'œuvre a donné de quoi décider, et la conséquence correspond |
+      | [[choix-exploratoire|Exploratoire]] | Rien ne permet de décider : on choisit pour voir |
+      | [[faux-choix|Faux]] | Les deux portes mènent au même couloir |
+
+      Le détail : [la grille des choix](/panorama/choix).
+    </markdown>
+  </section>
+
+  <section title="Atelier — démasquer">
+    <markdown>
+      Mêmes binômes, mêmes œuvres, le dessin au mur sert de carte.
+
+      > **Consigne.** Relever chaque choix de l'œuvre et le classer : rationnel, exploratoire
+      > ou faux. Puis faire les deux tests.
+
+      1. **Le parcours à l'envers.** Rejouer en prenant l'autre porte à chaque fois, et noter
+         ce qui change.
+      2. **L'interaction retirée.** Raconter l'œuvre sans aucun choix. Si le récit tient
+         debout, l'interaction est un ornement.
+
+      Chaque binôme réécrit ensuite un faux choix de son œuvre pour qu'il pèse.
     </markdown>
   </section>
 </page>

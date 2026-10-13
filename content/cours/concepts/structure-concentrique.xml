@@ -10,6 +10,10 @@
   <resume>Plusieurs couches narratives autour d'un événement central. Le spectateur explore différentes perspectives ou moments autour d'un même noyau.</resume>
 
   <section title="Définition">
+    <diagram src="structure-concentrique-schema.svg"
+             width="field"
+             alt="Un point central relié à trois points posés sur un premier cercle pointillé, eux-mêmes reliés à cinq points sur un second cercle, plus large."/>
+
     <markdown>
       La structure concentrique présente plusieurs récits ou perspectives qui tournent autour
       d'un événement, un lieu ou un personnage central. Chaque couche offre une compréhension

@@ -9,6 +9,10 @@
   <resume>Une trame narrative principale avec des digressions optionnelles. Le spectateur peut explorer des contenus supplémentaires mais revient toujours à la ligne principale.</resume>
 
   <section title="Définition">
+    <diagram src="structure-elastique-schema.svg"
+             width="field"
+             alt="Cinq points sur une ligne droite. Deux détours en triangle partent chacun d'un point et reviennent au suivant, l'un au-dessus de la ligne, l'autre en dessous."/>
+
     <markdown>
       La structure élastique combine un récit principal linéaire avec des contenus optionnels
       (digressions, approfondissements) que le spectateur peut explorer sans affecter la progression

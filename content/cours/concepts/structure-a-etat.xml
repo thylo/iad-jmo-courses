@@ -8,6 +8,10 @@
   <resume>Le récit retient des faits : par où on est passé, ce qu'on porte, qui est mort. Chaque scène s'écrit selon ce qui est vrai au moment où on l'atteint.</resume>
 
   <section title="Définition">
+    <diagram src="structure-a-etat-schema.svg"
+             width="field"
+             alt="Cinq points alignés sur une ligne droite. Un arc pointillé part du deuxième point et rejoint le cinquième."/>
+
     <markdown>
       Dans un [[structure-embranchements|arbre]], la mémoire est dans la position :
       « on est dans la branche 3-B », et tout ce qui a été fait avant est contenu dans

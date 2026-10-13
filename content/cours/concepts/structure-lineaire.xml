@@ -9,6 +9,10 @@
   <resume>Une seule séquence narrative, un seul chemin. Le spectateur avance dans l'histoire sans pouvoir influencer le déroulement.</resume>
 
   <section title="Définition">
+    <diagram src="structure-lineaire-schema.svg"
+             width="field"
+             alt="Cinq points alignés sur une ligne droite."/>
+
     <markdown>
       La structure linéaire présente une progression narrative unique et déterminée.
       Le spectateur n'a aucun pouvoir d'intervention sur le déroulement de l'histoire,
@@ -96,6 +100,10 @@
       les pages 75 à 85 d'un scénario de 110 pages. Ce minutage suppose un spectateur
       qui ne choisit ni l'ordre ni le rythme.
     </markdown>
+
+    <diagram src="structure-lineaire-snyder.svg"
+             alt="Diagramme des quinze étapes de Blake Snyder, une par ligne, placées sur les pages d'un scénario de 110 pages. Image d'ouverture, page 1. Thème énoncé, page 5. Mise en place, pages 1 à 10. Catalyseur, page 12. Débat, pages 12 à 25. Passage à l'acte 2, page 25. Intrigue secondaire, page 30. La promesse du concept, pages 30 à 55. Point médian, page 55. Les méchants se rapprochent, pages 55 à 75. Tout est perdu, page 75. Nuit noire de l'âme, pages 75 à 85, en couleur. Passage à l'acte 3, page 85. Final, pages 85 à 110. Image finale, page 110. Deux pointillés verticaux séparent les trois actes, aux pages 25 et 85."
+             caption="Les quinze étapes de *Save the Cat*, à la page du scénario où Snyder les place."/>
   </section>
 
   <section title="Interaction">

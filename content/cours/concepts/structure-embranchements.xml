@@ -10,6 +10,10 @@
   <resume>L'histoire se divise en branches selon les choix du spectateur. Chaque décision mène à un chemin différent.</resume>
 
   <section title="Définition">
+    <diagram src="structure-embranchements-schema.svg"
+             width="field"
+             alt="Un point qui se divise en deux, puis chaque branche en deux encore : quatre chemins qui ne se rejoignent pas."/>
+
     <markdown>
       La structure d'embranchements divise le récit en arborescence selon les choix du spectateur.
       Chaque décision ferme certains chemins et ouvre d'autres, créant une multiplicité d'histoires
