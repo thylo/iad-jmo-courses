@@ -11,8 +11,8 @@ use App\Media\Web\WebClient;
 /**
  * The thumbnail of a video already named in the fiche.
  *
- * Three works have a video as their <url> — Fort McMoney, Phallaina, Prison
- * Valley — and a dozen more cite one in their prose. No search is involved: a
+ * Two works have a video as their <url> — Fort McMoney, Phallaina — and a
+ * dozen more cite one in their prose. No search is involved: a
  * YouTube search returns two-hour playthroughs and lying trailers. Only an
  * identifier someone already wrote down is trusted.
  *

@@ -345,7 +345,7 @@ tableau avant tout le reste.
 Six fiches par équipe, à diagnostiquer **à partir de la fiche seule** : de quoi cette
 œuvre est-elle morte ?
 
-`le-dernier-gaulois` · `phallaina` · `fort-mcmoney` · `prison-valley` · `alma` ·
+`le-dernier-gaulois` · `phallaina` · `fort-mcmoney` · `alma` ·
 `the-wilderness-downtown` · `just-a-reflektor` · `uchroniques` · `parlement-de-wallonie` ·
 `viols-les-voix-du-silence` · `babel` · `l-atelier-du-peintre`
 

@@ -30,10 +30,10 @@ Premier passage réel de `media:fetch` sur les 140 œuvres : **62 illustrées**,
 sans `<url>`, 9 pages disparues (404), 6 images trop petites pour servir,
 6 refus de robot (403), 3 erreurs serveur, 3 hôtes qui n'existent plus.
 
-Deux trouvailles au passage : les trois œuvres dont l'`<url>` est une vidéo
-YouTube — Fort McMoney, Phallaina, Prison Valley — pointent vers des vidéos
-supprimées ; et les hôtes de `ionnyk`, `swap-tales` et `generation-what` ne se
-résolvent plus du tout.
+Deux trouvailles au passage : les deux œuvres dont l'`<url>` est une vidéo
+YouTube — Fort McMoney, Phallaina — pointent vers des vidéos supprimées ; et
+les hôtes de `ionnyk`, `swap-tales` et `generation-what` ne se résolvent plus
+du tout.
 
 ## L'état des lieux
 
@@ -290,8 +290,8 @@ Quatre cas nets, tous visibles d'un coup d'œil sur une planche-contact :
 
 ### Les autres sources, dans l'ordre
 
-**Les vignettes YouTube**, pour les 40 œuvres sans balise. Trois d'entre elles
-ont déjà une vidéo comme `<url>` — Fort McMoney, Phallaina, Prison Valley — et
+**Les vignettes YouTube**, pour les 40 œuvres sans balise. Deux d'entre elles
+ont déjà une vidéo comme `<url>` — Fort McMoney, Phallaina — et
 l'identifiant suffit à récupérer une image en 1280×720. Les douze URL YouTube
 citées dans la prose des fiches ajoutent autant de candidates.
 
