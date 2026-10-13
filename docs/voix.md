@@ -6,7 +6,8 @@ description: Comment j'écris, et les tournures qui trahissent un texte génér�
 # Voix
 
 Ce profil complète le §8 de la direction artistique. Il a été établi le 18 septembre 2026 à
-partir d'un questionnaire et de textes existants du site, dont l'à-propos.
+partir d'un questionnaire et de textes existants du site, dont l'à-propos. Complété le 25
+septembre 2026 avec les conseils de Nicky Case sur l'explication.
 
 Il s'applique au contenu de `content/`, aux documents de `docs/`, aux messages de commit et aux
 descriptions de PR. Les réponses dans le terminal restent utilitaires et n'y sont pas soumises.
@@ -28,6 +29,23 @@ laissée au lecteur pour la suite.
 
 Les phrases sont surtout courtes. Une longue passe quand l'idée en a besoin, et le rythme reste
 irrégulier.
+
+## Expliquer
+
+Ces règles viennent des conseils de Nicky Case sur l'explication. Elles valent pour les textes qui
+font comprendre quelque chose : une séance, un article.
+
+Le texte part de ce qui a accroché : l'œuvre, la capture, le bout de code qui a donné envie d'en
+parler. La raison de s'y intéresser se lit dans l'objet et ne s'énonce pas.
+
+L'exemple passe avant la règle. Le dispositif est montré d'abord, ce qu'il fait est nommé ensuite.
+Une définition placée en tête de section descend après son premier cas.
+
+Les paragraphes s'enchaînent par « donc » ou par « mais » : chaque fait découle du précédent ou le
+contrarie. Une suite reliée par « et puis », « ensuite » ou « de plus » est une liste qui s'ignore.
+On retrouve le lien, ou on assume la liste. Le lien n'a pas besoin d'être écrit : il doit tenir à
+la lecture. Ce « mais » oppose deux faits et n'a rien à voir avec la tournure refusée « pas X,
+mais Y ».
 
 ## Registre
 
@@ -69,6 +87,12 @@ Chacune avec un exemple fautif.
 - L'annonce de plan rhétorique : « il serait facile de finir sur… »
 
 ## Avant de livrer
+
+Un premier jet s'écrit en entier, puis perd un dixième de sa longueur. Les coupes commencent par
+les phrases qui annoncent, résument ou répètent.
+
+Une séance se teste sur un étudiant avant d'être publiée, puis de nouveau après chaque réécriture
+importante. L'endroit où la lecture décroche indique ce qui se réécrit.
 
 Relire le texte contre cette liste. Une phrase qui pourrait sortir de n'importe quel assistant
 se réécrit à plat.
