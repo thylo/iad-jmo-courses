@@ -31,3 +31,18 @@
 .c-figure--diagram {
   margin-block: var(--space-xl);
 }
+
+/* The two roles a mark in a drawing can take, and the only two colours it gets.
+
+   Neither is written in the file, and cannot be: SVGO turns every colour it
+   finds into currentColor — the whole reason a drawing takes the ink of the
+   page — so a token spelled into the SVG does not survive the first pass of
+   npm run svg. A class does, and it is the better place anyway. The file says
+   what a mark is for, the stylesheet says what that costs in ink.
+
+   Everything that measures or names — axes, dimensions, the labels on them —
+   steps back into the muted ink, which leaves the shapes the code actually
+   draws as the only marks at full strength. The accent is spent on the single
+   thing the figure is about: a drawing with two subjects has none. */
+.c-diagram__measure { color: var(--color-ink-muted); }
+.c-diagram__subject { color: var(--color-accent); }

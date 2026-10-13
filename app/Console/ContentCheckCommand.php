@@ -12,6 +12,8 @@ use Tempest\Console\ConsoleCommand;
 use Tempest\Console\ExitCode;
 use Tempest\Console\HasConsole;
 
+use function Tempest\root_path;
+
 /**
  * Content inventory, link check, and the list of entities still to be written.
  */
@@ -206,7 +208,7 @@ final readonly class ContentCheckCommand
             foreach (array_unique($matches[1]) as $target) {
                 $normalised = $target === '/' ? '/' : rtrim($target, '/');
 
-                if ($this->content->find($normalised) !== null) {
+                if ($this->content->find($normalised) !== null || self::isServedFile($target)) {
                     continue;
                 }
 
@@ -215,5 +217,24 @@ final readonly class ContentCheckCommand
         }
 
         return $broken;
+    }
+
+    /**
+     * A URL the web server answers on its own, without passing through a route.
+     *
+     * The site's addresses are content pages plus whatever sits in public/ — a
+     * handout to print, and nothing else so far. Asking the repository alone
+     * would report those as dead, which is the opposite of what the check is
+     * for: the file is there, and the page that names it is right.
+     */
+    private static function isServedFile(string $target): bool
+    {
+        // The target comes from a rendered href and is ours, but it is still a
+        // string reaching the filesystem: a .. in it would look outside public/.
+        if (str_contains($target, '..')) {
+            return false;
+        }
+
+        return is_file(root_path('public', ltrim($target, '/')));
     }
 }

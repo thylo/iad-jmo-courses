@@ -77,7 +77,9 @@
      The accent is reserved for interactive text, the domain in the masthead,
      and the stretch of a title a page asks for with <titre accent="…">. The
      drawn marks are not in it: rules take --color-rule, the portrait and the
-     signature take the ink. */
+     signature take the ink. One exception, and it stays one: a diagram may put
+     the accent on the single mark the figure exists to point at — see
+     .c-diagram__subject — which is the same job it does in a title. */
   --color-paper: oklch(100% 0 0);
   --color-paper-sunk: oklch(93% 0.012 85);
   --color-ink: oklch(21% 0.008 60);

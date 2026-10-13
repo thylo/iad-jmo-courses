@@ -3,6 +3,48 @@
   <titre>L'instruction littérale, et le premier pixel</titre>
   <resume>Système de coordonnées, appel de fonction et arguments, ordre d'exécution, lecture d'un message d'erreur.</resume>
 
+  <section title="Human fax machine">
+    <markdown>
+      Brogan Bunt et Lucas Ihlein présentent l'expérience en 2012 à la conférence CODE, à
+      Melbourne. Un groupe se coupe en deux, de part et d'autre d'une cloison. D'un côté, ceux
+      qui voient l'image et n'ont pour la transmettre qu'un objet sonore : un bocal de pièces,
+      deux cuillères en bois. De l'autre, ceux qui la redessinent au marqueur sur du papier
+      kraft, à l'oreille. Personne ne fournit de code, chaque groupe invente le sien avant de
+      commencer, et deux groupes n'inventent pas le même.
+    </markdown>
+
+    <image src="human-fax-machine-consigne.jpg"
+           alt="Scan d'un formulaire de fax dactylographié. En tête, le mot « Fax » et un combiné téléphonique dessiné, puis la date du 22 novembre 2013 et un numéro de référence. Deux cases : destinataire, Scan: Journal of Media Arts Culture, à l'université Macquarie ; expéditeur, Brogan Bunt et Lucas Ihlein, à l'université de Wollongong. Objet : Human Fax Machine. Suit un titre souligné, « The Human Fax Machine - Instructions », et une liste de matériel : une salle de classe ordinaire, de quoi dresser deux ou trois cloisons visuelles, un bureau couché sur le flanc, une cloison verticale ou un drap suspendu au plafond, de grandes feuilles de papier de qualité indifférente, des marqueurs épais de couleurs variées, des objets sonores simples dont un bocal en verre contenant quelques pièces. Une main a ajouté au stylo : deux cuillères en bois. Une bavure noire traverse la page, laissée par la transmission. En bas à droite, « Page: 1 »."
+           caption="Première page de la consigne, envoyée en fax le 22 novembre 2013 par l'université de Wollongong à SCAN Journal, qui publie l'expérience la même année. La ligne manuscrite ajoute deux cuillères en bois à la liste du matériel."
+           credit="Brogan Bunt et Lucas Ihlein"
+           source="https://lucasihlein.net/The-Human-Fax-Machine-Experiment"/>
+
+    <video src="vimeo:251055277"
+           caption="« Human Fax Machine », Jaap de Maat, 2018. Deux minutes. Un atelier de Central Saint Martins, d'après le dispositif de Brogan Bunt et Lucas Ihlein."/>
+
+    <markdown>
+      Groupes de quatre à six, un seul objet sonore par groupe, et une cloison par groupe.
+
+      > **Consigne.** Inventer un code qui transmette un dessin par le son, et par rien d'autre.
+      > Vingt minutes pour l'écrire sur une feuille, avant la moindre transmission. Un son, une
+      > marque. Le code s'écrit en double, un exemplaire pour chaque camp.
+
+      Le groupe se coupe ensuite en deux, de part et d'autre de la cloison. Les émetteurs voient
+      l'image, les récepteurs dessinent.
+
+      1. **L'essai.** Un dessin simple passe une première fois. Le code se corrige à chaud, sur
+         ce qu'il ne sait pas encore dire : une diagonale, une courbe, une taille.
+      2. **L'épreuve.** Une image que le groupe n'a jamais vue. Les émetteurs la reçoivent, les
+         récepteurs ne la voient à aucun moment. Personne ne parle, et rien ne passe par un
+         autre canal que l'objet.
+      3. **La reprise.** L'original et le dessin côte à côte, le code corrigé une dernière fois,
+         une deuxième image.
+
+      Les feuilles de code sont affichées au mur à la fin, toutes ensemble.
+    </markdown>
+
+  </section>
+
   <section title="La dictée de figures">
     <markdown>
       Par binômes, sans machine. Chaque binôme reçoit une enveloppe contenant une figure
@@ -19,22 +61,25 @@
     </markdown>
 
     <diagram src="dictee-figures-a.svg"
-             alt="Six figures au trait sur deux rangées : un rectangle traversé par une ligne brisée, trois cercles qui se touchent, un rectangle vide et un rectangle noir qu'un cercle chevauche, une grille à rayures obliques, une ligne brisée ouverte, un cercle et un rectangle dont un coin se trouve au centre du cercle, avec un petit cercle centré sur le coin opposé."
+             alt="Six figures au trait sur deux rangées : un rectangle traversé par une ligne brisée, trois cercles qui se touchent, un rectangle vide et un rectangle noir qu'un cercle chevauche, une grille à rayures obliques, une ligne brisée ouverte, une fleur de six pétales autour d'un cercle, chaque pétale fait d'un trait, d'un triangle rectangle et d'un point noir, tourné d'un sixième de tour par rapport au précédent."
              caption="Série A. Figures 1 à 3 en haut, 4 à 6 en bas, de gauche à droite."/>
 
     <diagram src="dictee-figures-b.svg"
-             alt="Six figures au trait sur deux rangées : un rectangle très allongé traversé par une ligne brisée, trois cercles dont un petit posé contre le grand, un cercle vide et un disque noir qu'un rectangle chevauche, une grille de six sur six à rayures obliques, une ligne brisée ouverte, un cercle et un carré dont un coin se trouve au centre du cercle, avec un petit cercle centré au milieu du côté inférieur du carré."
+             alt="Six figures au trait sur deux rangées : un rectangle très allongé traversé par une ligne brisée, trois cercles dont un petit posé contre le grand, un cercle vide et un disque noir qu'un rectangle chevauche, une grille de six sur six à rayures obliques, une ligne brisée ouverte, une fleur de cinq pétales autour d'un cercle, chaque pétale fait d'un carré, d'un trait et d'un disque noir, tourné d'un cinquième de tour par rapport au précédent."
              caption="Série B, dans le même ordre et à la même échelle."/>
 
     <diagram src="dictee-figures-c.svg"
-             alt="Six figures au trait sur deux rangées : un rectangle haut traversé par une ligne brisée, trois cercles dont un petit flottant dans le grand, un rectangle vide et un triangle noir qu'un cercle chevauche, une grille de six sur six à rayures obliques, une ligne brisée ouverte, un cercle et un rectangle haut dont un coin se trouve au centre du cercle, avec un petit cercle centré au milieu du rectangle."
+             alt="Six figures au trait sur deux rangées : un rectangle haut traversé par une ligne brisée, trois cercles dont un petit flottant dans le grand, un rectangle vide et un triangle noir qu'un cercle chevauche, une grille de six sur six à rayures obliques, une ligne brisée ouverte, une fleur de huit pétales autour d'un point noir, chaque pétale fait d'un trait, d'un rectangle étroit et d'un petit cercle, tourné d'un huitième de tour par rapport au précédent."
              caption="Série C. Une même position, d'une série à l'autre, pose la même difficulté."/>
 
     <markdown>
       Les six figures vont de la plus simple à la plus longue à décrire. Aucune ne porte de nom
-      qui la résume, aucune n'a de symétrie qui laisse deviner la moitié manquante. Elles
-      existent en trois séries, de sorte que deux binômes voisins ne décrivent jamais le même
-      dessin.
+      qui la résume. Jusqu'à la cinquième, aucune n'a de symétrie qui laisse deviner la moitié
+      manquante. Elles existent en trois séries, de sorte que deux binômes voisins ne décrivent
+      jamais le même dessin.
+
+      Les dix-huit figures tiennent dans [dictee-figures.pdf](/documents/dictee-figures.pdf),
+      une par page A4.
 
       Le dépouillement des feuilles devrait faire apparaître quatre pannes.
 
@@ -52,9 +97,16 @@
       répéter la même phrase case après case tant que la règle de remplissage n'est pas
       trouvée : elle est laissée de côté, et rouverte en [[04-boucle|séance 4]].
 
-      La sixième figure se décrit à partir d'un point. Le coin du rectangle se trouve au
-      centre du cercle, et le petit cercle se centre sur un autre point du rectangle : chaque
-      forme se place depuis la précédente. Ce point de référence s'appelle le point d'ancrage.
+      La sixième figure est une fleur : le même pétale, répété autour du centre, tourné d'un
+      cran à chaque fois. Six pétales à 60° d'écart en série A, cinq à 72° en série B, huit à
+      45° en série C. Décrit pétale par pétale, avec des formes inclinées à chaque fois, le texte
+      remplit la feuille et se trompe d'angle en route.
+
+      La version courte décrit le pétale une fois, debout, en mesurant chaque forme depuis
+      le centre de la fleur. Ce point de référence s'appelle le point d'ancrage : tourner le
+      pétale revient à le faire pivoter autour de lui. Il reste à écrire « dessiner le pétale,
+      tourner de 60°, six fois ». Donner un nom à une suite d'instructions pour l'appeler
+      autant de fois qu'il faut, c'est une fonction, reprise en [[05-fonction|séance 5]].
     </markdown>
   </section>
 
@@ -129,14 +181,20 @@
       Le centre du canvas est donc `circle(400, 300, 100)`. Les trois arguments sont une
       position horizontale, une position verticale et un diamètre, dans cet ordre, et l'ordre
       n'est pas négociable. C'est la dictée de figures, en machine.
+    </markdown>
 
+    <diagram src="repere-canvas.svg"
+             alt="Schéma au trait. Un rectangle figure le canvas. Au-dessus, une flèche horizontale part du coin supérieur gauche vers la droite, cotée 800 et nommée width. À gauche, une flèche verticale part du même coin vers le bas, cotée 600 et nommée height. Le coin supérieur gauche porte un point et l'étiquette 0, 0 ; le coin inférieur droit un point et l'étiquette 800, 600. Au centre, un cercle dont le centre est un point rouge, relié à l'axe du haut et à celui de gauche par deux traits pointillés, étiqueté en rouge 400, 300 puis anchor point. Sous le cercle, deux cotes empilées : la première va du centre au bord et porte 50 radius, la seconde va d'un bord à l'autre et porte 100 diameter."
+             caption="Le repère du canvas : l'origine dans le coin supérieur gauche, l'axe vertical qui descend, et 800 pixels sur 600 entre les deux coins marqués. Le point rouge marque l'ancrage du cercle, qui est son centre. Le troisième nombre de `circle` donne le diamètre, pas le rayon."/>
+
+    <markdown>
       Les autres formes se donnent de la même façon : `rect`, `square`, `ellipse`, `line`,
       `triangle`. Le nombre d'arguments change d'une forme à l'autre, leur ordre est fixe.
 
       Le point que désignent les deux premiers nombres change aussi. C'est le point d'ancrage
-      de la sixième figure dictée : le centre pour `circle` et `ellipse`, le coin supérieur
-      gauche pour `rect` et `square`. En série B, `circle(200, 200, 160)` suivi de
-      `square(200, 200, 160)` donne les deux premières formes.
+      de chaque forme : le centre pour `circle` et `ellipse`, le coin supérieur gauche pour
+      `rect` et `square`. `circle(200, 200, 100)` et `square(200, 200, 100)` ne se superposent
+      pas : le carré part du centre du cercle.
 
       ```js
       function setup() {
