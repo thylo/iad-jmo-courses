@@ -1,4 +1,4 @@
-<page id="01-instruction" status="draft">
+<page id="01-instruction">
   <suptitle>Séance 1</suptitle>
   <titre>L'instruction littérale, et le premier pixel</titre>
   <resume>Système de coordonnées, appel de fonction et arguments, ordre d'exécution, lecture d'un message d'erreur.</resume>
