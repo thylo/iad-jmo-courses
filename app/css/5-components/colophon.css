@@ -1,15 +1,71 @@
-/* Closing note, under a drawn rule. */
+/* Closing note, under a drawn rule.
+
+   It sits on the page grid, not across it. It used to be one paragraph capped
+   at the measure and started at the margin, so it hung off the left of a page
+   whose reading starts one column further in, and left the rest of the width
+   empty. Now it takes the columns the reading takes, for the same reasons:
+
+     margin   the rating, as the label of the paragraph it rates — the same
+              place the years of a register hang
+     text     the account of how the site is written, which is prose
+     field    the practical pointers: the engine, the plan, the address
+
+   Subgrid, so the columns are the canvas's own and the edges line up with
+   everything above by construction. Placed by area, never by row number. */
 
 .c-colophon {
   --rule: var(--rule-2);
   --canvas-space: var(--space-3xl);
-}
 
-.c-colophon__text {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-template-areas:
+    "rule  rule  rule rule"
+    ".     first .    aside"
+    "label rated .    aside";
+  align-items: start;
+  row-gap: var(--space-s);
   font-size: var(--text-meta);
   line-height: var(--space-unit);
   color: var(--color-ink-faint);
-  max-width: var(--measure-text);
+}
+
+.c-colophon::before { grid-area: rule; }
+
+.c-colophon__text--first { grid-area: first; }
+.c-colophon__text--rated { grid-area: rated; }
+
+/* Set against the edge of the text column, like the year of a register. */
+.c-colophon__label {
+  grid-area: label;
+  padding-inline-end: var(--space-m);
+  text-align: end;
+}
+
+/* One line after another, nothing between them: a short register, not three
+   statements. */
+.c-colophon__aside { grid-area: aside; }
+
+/* Below the breakpoint the canvas has one column, and so does this. The label
+   comes back to the head of its paragraph. */
+@media (max-width: 47.999em) {
+  .c-colophon {
+    grid-template-areas:
+      "rule"
+      "first"
+      "label"
+      "rated"
+      "aside";
+  }
+
+  .c-colophon__label {
+    padding-inline-end: 0;
+    text-align: start;
+  }
+
+  /* The label belongs to the paragraph under it, not to the step between two
+     blocks. */
+  .c-colophon__label + .c-colophon__text { margin-block-start: calc(-1 * var(--space-s)); }
 }
 
 /* On the homepage the closing note sits in a sunk band across the full bleed,
@@ -17,17 +73,30 @@
    drawing, and a band closes that better than one more line.
 
    Same :has() as the hero: the portrait is what marks the homepage out. The
-   padding is the gutter on purpose — that is exactly where margin-start and
-   field-end fall, so the text stays on the same two edges as everything above
-   it and the band is the only thing that moves. */
+   band spans the bleed, so the subgrid gains the two gutter tracks; they stay
+   empty, which keeps the text on the same edges as everything above it and
+   leaves the band as the only thing that moves. */
 
 .o-canvas:has(.c-portrait) { padding-block-end: 0; }
 
 .o-canvas:has(.c-portrait) .c-colophon {
   grid-column: bleed-start / bleed-end;
-  padding: var(--space-xl) var(--gutter);
+  grid-template-areas:
+    ". .     first . aside ."
+    ". label rated . aside .";
+  padding-block: var(--space-xl);
   background-color: var(--color-paper-sunk);
 }
 
 /* The band does the separating now; the rule would only be a line inside it. */
 .o-canvas:has(.c-portrait) .c-colophon::before { display: none; }
+
+@media (max-width: 47.999em) {
+  .o-canvas:has(.c-portrait) .c-colophon {
+    grid-template-areas:
+      ". first ."
+      ". label ."
+      ". rated ."
+      ". aside .";
+  }
+}
