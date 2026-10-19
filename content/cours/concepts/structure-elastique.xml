@@ -1,8 +1,8 @@
 <concept id="structure-elastique">
   <titre>Structure Élastique</titre>
   <genre>structure</genre>
-  <exemple ref="snow-fall"/>
   <exemple ref="do-not-track"/>
+  <exemple ref="one-shared-house"/>
   <voir ref="structure-lineaire"/>
   <voir ref="structure-concentrique"/>
 
