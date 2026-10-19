@@ -1,0 +1,182 @@
+<page id="il-etait-plusieurs-fois" status="draft">
+  <suptitle>Exercice</suptitle>
+  <titre>Il était plusieurs fois</titre>
+  <resume>Un conte connu, passé dans une autre structure et raconté sans son héros, sous une contrainte d'écran. En binôme, pendant la première partie de la séance.</resume>
+
+  <video src="youtube:-mMd6D1Gw1g"
+         caption="Ennio Morricone, le final d'« Il était une fois dans l'Ouest », Sergio Leone, 1968."/>
+
+  <section title="Le tirage">
+    <markdown>
+      Chaque binôme tire quatre cartes : un conte, une structure, un rôle pour le public et
+      une contrainte technique. Rien ne se choisit. Les sept structures sortent toutes au
+      moins une fois dans la classe. Un conte peut sortir deux fois, et les deux versions se
+      comparent à la fin.
+
+      - *Le Petit Chaperon rouge* (Perrault, 1697). Une petite fille porte une galette à sa
+        grand-mère. Le loup arrive le premier et prend sa place dans le lit. Chez Perrault, il
+        mange la petite fille. Chez les Grimm, en 1812, un chasseur les sort de son ventre.
+      - *Cendrillon* (Perrault, 1697). Servante de sa belle-mère et de ses deux
+        demi-sœurs, elle va au bal grâce à sa marraine, qui est fée, et doit en partir avant
+        minuit. Elle y perd une pantoufle de verre, que le prince fait essayer dans tout le
+        royaume.
+      - *Blanche-Neige* (Grimm, 1812). Le miroir dit à la reine que Blanche-Neige est plus
+        belle qu'elle. Elle s'enfuit chez sept nains, et la reine vient la tuer trois fois,
+        déguisée : avec un lacet, un peigne, une pomme. Le prince l'emporte dans son cercueil
+        de verre, et le morceau de pomme ressort.
+      - *Le Petit Poucet* (Perrault, 1697). Le plus petit de sept frères, abandonnés dans la
+        forêt par des parents trop pauvres. Les cailloux blancs les ramènent une fois, les
+        miettes de pain non. Chez l'ogre, Poucet échange les bonnets de ses frères contre les
+        couronnes des filles de l'ogre, qui les égorge à leur place. Il repart avec ses
+        bottes de sept lieues.
+      - *Les Trois Petits Cochons* (conte anglais, recueilli par Joseph Jacobs en 1890).
+        Trois frères bâtissent chacun leur maison. Le loup souffle sur la paille et sur les
+        branchages, pas sur les briques. Il passe par la cheminée et tombe dans la marmite.
+      - *Boucle d'or et les trois ours* (Robert Southey, 1837, avec une vieille femme à la
+        place de la fillette). En l'absence des ours, elle goûte leurs bols, essaie leurs
+        chaises, casse la plus petite, s'endort dans un lit. Les ours rentrent, elle s'enfuit
+        par la fenêtre.
+      - *Barbe bleue* (Perrault, 1697). Le mari part en voyage et laisse toutes les clés à sa
+        jeune femme, en lui interdisant un cabinet. Elle l'ouvre et y trouve les corps des
+        épouses précédentes. La clé reste tachée de sang. Ses frères arrivent à temps et le
+        tuent.
+      - *Jack et le haricot magique* (conte anglais, imprimé par Benjamin Tabart en 1807).
+        Jack échange la vache de sa mère contre des haricots. La tige monte jusque chez un
+        géant, à qui il vole de l'or, une poule aux œufs d'or et une harpe. Le géant le
+        poursuit, Jack coupe la tige.
+
+      Ces résumés suivent une version parmi d'autres. Chacun part de celle qu'il connaît, et
+      deux binômes n'ont pas toujours la même.
+    </markdown>
+  </section>
+
+  <section title="Le héros n'est pas le point de vue">
+    <markdown>
+      Dans *Le Petit Chaperon rouge*, le public ne joue pas la petite fille et ne voit jamais
+      la scène par ses yeux. Elle n'apparaît que quand un autre la croise : le loup dans le
+      bois, la grand-mère à la porte, le chasseur à la fin. La règle vaut pour tous les contes
+      et toutes les structures. En parallèle, les fils suivent donc les autres personnages, et
+      le héros passe de l'un à l'autre sans avoir de fil à lui.
+
+      La place du public est tirée parmi les quatre de [la grille des rôles](/panorama/roles) :
+
+      - [[role-personnage|Un personnage]], forcément un autre que le héros : le loup, la
+        belle-mère, le miroir, l'ogre. C'est le seul choix laissé au binôme
+      - [[role-fantome|Un fantôme]], qui regarde sans agir
+      - [[role-divinite|Une divinité]], hors de la fiction, qui en tient les leviers
+      - [[role-soi-meme|Soi-même]], la personne devant l'écran
+
+      Le rôle pèse sur la structure. Un fantôme ne choisit rien : dans un arbre, quelque chose
+      d'autre doit faire bifurquer le récit.
+    </markdown>
+  </section>
+
+  <section title="Les structures">
+
+    <markdown>
+      Chaque structure part d'une question.
+
+      | Structure | La question |
+      |---|---|
+      | [[structure-lineaire|Linéaire]] | Qu'est-ce qui s'écroule si on prend le conte au milieu ? |
+      | [[structure-elastique|Élastique]] | Quelles scènes peuvent sortir de la ligne sans la casser ? |
+      | [[structure-parallele|Parallèle]] | Qui d'autre vit ces mêmes jours ? |
+      | [[structure-concentrique|Concentrique]] | Quel est le noyau, et quelles voix tournent autour ? |
+      | [[structure-embranchements|Embranchements]] | Où le récit aurait pu prendre un autre chemin, et combien de fins ça coûte ? |
+      | [[structure-constellation|Constellation]] | Quelles scènes tiennent seules, sans avant ni après ? |
+      | [[structure-a-etat|À état]] | Quels trois faits le récit retient, et quelle scène change selon eux ? |
+
+      Le binôme qui tire Linéaire garde la ligne, et doit la défendre contre les autres
+      versions de son conte.
+    </markdown>
+  </section>
+
+  <section title="La contrainte technique">
+    <markdown>
+      Le conte se joue sur un écran, avec une seule de ces contraintes :
+
+      - Pas d'image : du texte et du son
+      - Que du son : l'écran reste noir
+      - Pas de son
+      - Pas un mot : ni texte ni voix
+      - Un plan fixe
+      - Une fenêtre minuscule, de la taille d'une vignette
+      - Un seul bouton
+      - Que le scroll
+      - Le curseur, sans clic
+      - Écrire : le public tape ses mots
+      - La voix : le micro est ouvert
+      - Le visage : la webcam est allumée
+      - Temps réel : le conte suit l'heure qu'il est
+      - Trois minutes, du début à la fin
+      - Pas de retour : ce qui a été vu ne se revoit pas
+      - Une seule fois : l'œuvre ne se joue qu'une fois par personne
+      - Plusieurs jours : un épisode par jour
+
+      Certaines combinaisons paraissent impossibles, une constellation au scroll ou un arbre à
+      un seul bouton. Elles restent dans le tirage.
+    </markdown>
+  </section>
+
+  <section title="Le dossier">
+    <markdown>
+      Un dossier par binôme, fait en classe et montré pendant la mise en commun. Le format
+      est libre tant qu'il s'ouvre au vidéoprojecteur : une page ou une maquette générée
+      avec une IA, un Figma, un Twine, un montage vidéo. Les croquis photographiés et les
+      médias tournés au smartphone y entrent tels quels. En tête, les deux noms et les quatre
+      tirages.
+
+      ### 1. La ligne, 10 minutes
+
+      Les huit à dix scènes du conte, numérotées, une phrase chacune. Pour chaque scène, qui
+      est présent et où se trouve le héros. Les scènes où le héros est seul sont marquées :
+      la règle du point de vue les rend invisibles, et il faudra dire ce qu'elles deviennent.
+
+      ### 2. Le schéma, 25 minutes
+
+      La structure tirée, redessinée au propre, avec les numéros de scènes à leur place.
+      L'entrée et la ou les sorties sont indiquées. La place du public y figure : le
+      personnage qu'il suit, ou l'endroit d'où il regarde. Une scène de la ligne qui
+      disparaît est barrée dans la liste, une scène ajoutée reçoit une lettre (A, B, C).
+
+      Le schéma se lit sans le texte. S'il faut une légende pour comprendre par où passe le
+      public, il est à refaire.
+
+      ### 3. Deux parcours, 20 minutes
+
+      Deux personnes jouent le conte. Leurs deux traversées sont écrites, cinq lignes
+      chacune : les scènes vues, dans l'ordre, et ce que chacune a compris de l'histoire en
+      sortant. Les deux parcours doivent différer par autre chose que l'ordre des scènes.
+
+      Pour Linéaire, les deux personnes voient la même chose. Le second parcours commence alors
+      à la scène 5, et le texte dit ce qui ne tient plus.
+
+      ### 4. Le golden path, 35 minutes
+
+      Le binôme ne présente pas le conte entier. Il choisit un seul parcours, le plus
+      parlant, et le montre en six scènes, du premier écran au dernier. L'interactivité, elle,
+      doit s'y voir en entier. Chaque moment où le public agit est montré, avec son geste et
+      ce qu'il change. Là où le public aurait pu faire autrement, l'écran laisse voir l'autre
+      possibilité, même si le parcours ne la prend pas. Quelqu'un qui découvre le golden path
+      sans explication doit comprendre comment on joue.
+
+      Un croquis à main levée suffit.
+      Une photo, une courte vidéo ou un bruitage enregistrés au smartphone sont encore mieux,
+      et une image ou un son générés par une IA aussi : un écran sous la contrainte Que du son
+      se fait entendre, il se décrit mal. Sous chaque écran :
+
+      - ce que le public voit ou entend ;
+      - le geste qu'il peut faire, ou le fait qu'il n'en a aucun ;
+      - ce qui change à l'écran après ce geste.
+
+      La contrainte technique s'applique aux six. Un écran qui pourrait exister sans elle est
+      à refaire. L'un des six montre le héros vu par un autre.
+
+      ### L'évaluation
+
+      La lecture commence par le schéma, qui doit se comprendre sans légende. Elle vérifie
+      ensuite que les deux parcours racontent deux histoires, et que la contrainte se voit sur
+      chaque écran. Le golden path, montré seul, doit suffire à comprendre l'interactivité.
+    </markdown>
+  </section>
+</page>
