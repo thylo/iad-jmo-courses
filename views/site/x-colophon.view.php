@@ -14,6 +14,9 @@
         des semestres, des retours des étudiants et des essais ratés. La majorité
         du contenu a été générée avec Claude à partir de mes notes&nbsp;:
         <a href="/a-propos/colophon">pourquoi, et avec quelles limites</a>.
+        <a href="https://daliascale.org/fr/">D2</a>&nbsp;: une IA générative contribue
+        sans modifier le sens de l’œuvre. L’intention, la direction et le jugement
+        humains dominent à toutes les étapes.
         Il tourne sur un moteur de site maison basé sur
         <a href="https://tempestphp.com">Tempest</a>.
         Toutes ses sections sont réunies sur le <a href="/plan-du-site">plan du site</a>.
