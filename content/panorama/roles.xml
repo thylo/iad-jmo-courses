@@ -2,6 +2,13 @@
   <titre>Rôles du public</titre>
   <resume>Le découpage par la place assignée au public : soi-même, un personnage, un fantôme qui observe, une divinité qui décide.</resume>
 
+  <image src="les-menines.jpg"
+         width="opening"
+         alt="Une grande salle de palais dans la pénombre. À gauche, un peintre se tient devant une toile immense dont on ne voit que le dos, pinceau à la main, et regarde vers nous. Au centre, une petite infante en robe blanche à vertugadin, entourée de deux suivantes penchées vers elle. À droite, une naine et un garçon qui pose le pied sur un grand chien couché. Derrière, une duègne et un garde parlent dans l'ombre, et un homme s'arrête dans une porte ouverte sur un escalier éclairé. Au mur du fond, un petit miroir reflète un homme et une femme : ils se tiennent hors du tableau, à la place de celui qui le regarde."
+         caption="Diego Velázquez, « Les Ménines », 1656. Museo del Prado, Madrid. Le miroir du fond renvoie le roi et la reine, debout à l'endroit exact où se tient celui qui regarde."
+         credit="Domaine public, via Wikimedia Commons"
+         source="https://commons.wikimedia.org/wiki/File:Las_Meninas,_by_Diego_Vel%C3%A1zquez,_from_Prado_in_Google_Earth.jpg"/>
+
   <markdown>
     Qui est le public dans le récit ? La question paraît accessoire. Elle décide de
     l'écriture entière, et avant qu'une ligne de code soit écrite.
@@ -32,6 +39,20 @@
       [manipule comme un modèle](/panorama/introduction).
     </term>
   </glossary>
+
+  <image src="malkovich-porte.jpg"
+         width="field"
+         alt="Vue depuis l'intérieur d'un tunnel sombre aux parois de terre humide. Au bout, une petite porte grise ouverte sur un bureau éclairé au néon. Un homme barbu à lunettes et une femme aux cheveux bouclés, en survêtement bleu, sont accroupis devant l'ouverture et regardent dedans, l'air inquiet. Derrière eux, une femme brune assise sur une chaise sourit."
+         caption="Spike Jonze, « Dans la peau de John Malkovich », 1999. Derrière une petite porte du 7e étage et demi, un tunnel mène dans la tête de John Malkovich. On y reste quinze minutes, puis on tombe au bord d'une autoroute du New Jersey."
+         credit="USA Films"
+         source="https://www.themoviedb.org/movie/492-being-john-malkovich"/>
+
+  <image src="truman-show-regie.jpg"
+         width="field"
+         alt="Un homme en noir, béret et petites lunettes rondes, deux doigts posés sur la bouche, se tient sous une coupole vitrée qui donne sur un ciel bleu et nuageux. Autour de lui, des hommes en costume sombre ; l'un d'eux lui pose la main sur l'épaule et lui parle."
+         caption="Peter Weir, « The Truman Show », 1998. Christof dirige l'émission depuis une régie installée dans la fausse lune qui surplombe Seahaven."
+         credit="Paramount Pictures"
+         source="https://www.themoviedb.org/movie/37165-the-truman-show"/>
 
   <section title="L'erreur fréquente">
     <markdown>
