@@ -9,7 +9,7 @@
   <section title="Le tirage">
     <markdown>
       Chaque binôme tire quatre cartes : un conte, une structure, un rôle pour le public et
-      une contrainte technique. Rien ne se choisit. Les sept structures sortent toutes au
+      une contrainte technique. Rien ne se choisit. Les six structures sortent toutes au
       moins une fois dans la classe. Un conte peut sortir deux fois, et les deux versions se
       comparent à la fin.
 
@@ -95,9 +95,6 @@
       | [[structure-embranchements|Embranchements]] | Et si la femme de Barbe bleue n'ouvrait pas la porte ? |
       | [[structure-constellation|Constellation]] | Le miroir, le lacet, la pomme, le cercueil : que raconte chacun s'il est trouvé en premier ? |
       | [[structure-a-etat|À état]] | À la troisième montée de Jack, qu'est-ce que le géant a déjà perdu, et le sait-il ? |
-
-      Le binôme qui tire Linéaire garde la ligne, et doit la défendre contre les autres
-      versions de son conte.
     </markdown>
   </section>
 
@@ -105,23 +102,25 @@
     <markdown>
       Le conte se joue sur un écran, avec une seule de ces contraintes :
 
-      - Pas d'image : du texte et du son
-      - Que du son : l'écran reste noir
-      - Pas de son
-      - Pas un mot : ni texte ni voix
-      - Un plan fixe
-      - Une fenêtre minuscule, de la taille d'une vignette
-      - Un seul bouton
-      - Que le scroll
-      - Le curseur, sans clic
-      - Écrire : le public tape ses mots
-      - La voix : le micro est ouvert
-      - Le visage : la webcam est allumée
-      - Temps réel : le conte suit l'heure qu'il est
-      - Trois minutes, du début à la fin
-      - Pas de retour : ce qui a été vu ne se revoit pas
-      - Une seule fois : l'œuvre ne se joue qu'une fois par personne
-      - Plusieurs jours : un épisode par jour
+      | Contrainte | Par exemple |
+      |---|---|
+      | Pas d'image : du texte et du son | *Barbe bleue* en texte seul. La porte du cabinet s'ouvre au bruit de la clé dans la serrure. |
+      | Que du son : l'écran reste noir | *Le Petit Chaperon rouge* dans le noir : les pas sur le chemin, puis une voix de grand-mère qui sonne faux. |
+      | Pas de son | *Cendrillon* sans musique de bal. Minuit se lit sur l'aiguille de l'horloge. |
+      | Pas un mot : ni texte ni voix | *Les Trois Petits Cochons* en images : la paille, les branches, la brique, et le loup qui gonfle les joues. |
+      | Un plan fixe | La chambre de la grand-mère, cadrée depuis le pied du lit. Le reste du conte se devine par la porte. |
+      | Une fenêtre minuscule | Le trou de la serrure du cabinet de Barbe bleue. On ne voit que ce qui passe devant. |
+      | Un seul bouton | *Boucle d'or* : le même bouton pour goûter, s'asseoir et se coucher. Appuyer trop longtemps casse la petite chaise. |
+      | Que le scroll | Le haricot de Jack : on scrolle vers le haut pour grimper, vers le bas pour fuir le géant. |
+      | Le curseur, sans clic | *Le Petit Poucet* dans la forêt la nuit. Le curseur est une lueur, et les cailloux blancs n'apparaissent que là où il s'attarde. |
+      | Écrire : le public tape ses mots | Le public est sœur Anne en haut de la tour. « Anne, ma sœur Anne, ne vois-tu rien venir ? » Il tape ce qu'il voit. |
+      | La voix : le micro est ouvert | Le public souffle dans le micro pour faire tomber les maisons des trois petits cochons. |
+      | Le visage : la webcam est allumée | Le miroir de Blanche-Neige, c'est la webcam. Il regarde le public avant de dire qui est la plus belle. |
+      | Temps réel : le conte suit l'heure qu'il est | *Cendrillon* : le bal commence le soir, et minuit sonne à minuit. |
+      | Trois minutes, du début à la fin | *Barbe bleue* : trois minutes, le temps que les frères arrivent. |
+      | Pas de retour : ce qui a été vu ne se revoit pas | *Le Petit Poucet* : derrière le public, les oiseaux mangent les miettes de pain. |
+      | Une seule fois : l'œuvre ne se joue qu'une fois par personne | *Le Petit Chaperon rouge* : qui a parlé au loup ne peut plus recommencer, la page s'en souvient. |
+      | Plusieurs jours : un épisode par jour | Les trois montées de Jack, une par jour. |
 
       Certaines combinaisons paraissent impossibles, une constellation au scroll ou un arbre à
       un seul bouton. Elles restent dans le tirage.
@@ -136,32 +135,20 @@
       médias tournés au smartphone y entrent tels quels. En tête, les deux noms et les quatre
       tirages.
 
-      ### 1. La ligne, 10 minutes
+      ### 1. Le conte
 
-      Les huit à dix scènes du conte, numérotées, une phrase chacune. Pour chaque scène, qui
-      est présent et où se trouve le héros. Les scènes où le héros est seul sont marquées :
-      la règle du point de vue les rend invisibles, et il faudra dire ce qu'elles deviennent.
+      Le binôme raconte le conte tel qu'il le connaît et le pose en ligne : huit à dix
+      scènes numérotées, une phrase chacune, dans l'ordre. C'est la version de départ, celle
+      que la structure tirée va défaire. Les scènes où le héros est seul sont marquées : la
+      règle du point de vue les rend invisibles.
 
-      ### 2. Le schéma, 25 minutes
-
-      La structure tirée, redessinée au propre, avec les numéros de scènes à leur place.
-      L'entrée et la ou les sorties sont indiquées. La place du public y figure : le
-      personnage qu'il suit, ou l'endroit d'où il regarde. Une scène de la ligne qui
-      disparaît est barrée dans la liste, une scène ajoutée reçoit une lettre (A, B, C).
-
-      Le schéma se lit sans le texte. S'il faut une légende pour comprendre par où passe le
-      public, il est à refaire.
-
-      ### 3. Deux parcours, 20 minutes
+      ### 2. Deux parcours
 
       Deux personnes jouent le conte. Leurs deux traversées sont écrites, cinq lignes
       chacune : les scènes vues, dans l'ordre, et ce que chacune a compris de l'histoire en
       sortant. Les deux parcours doivent différer par autre chose que l'ordre des scènes.
 
-      Pour Linéaire, les deux personnes voient la même chose. Le second parcours commence alors
-      à la scène 5, et le texte dit ce qui ne tient plus.
-
-      ### 4. Le golden path, 35 minutes
+      ### 3. Le golden path
 
       Le binôme ne présente pas le conte entier. Il choisit un seul parcours, le plus
       parlant, et le montre en six scènes, du premier écran au dernier. L'interactivité, elle,
@@ -184,9 +171,8 @@
 
       ### L'évaluation
 
-      La lecture commence par le schéma, qui doit se comprendre sans légende. Elle vérifie
-      ensuite que les deux parcours racontent deux histoires, et que la contrainte se voit sur
-      chaque écran. Le golden path, montré seul, doit suffire à comprendre l'interactivité.
+      La lecture vérifie que les deux parcours racontent deux histoires, et que la contrainte
+      se voit sur chaque écran. Le golden path, montré seul, doit suffire à comprendre l'interactivité.
     </markdown>
   </section>
 </page>
