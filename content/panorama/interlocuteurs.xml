@@ -15,21 +15,50 @@
 
   <glossary>
     <term name="Machine" to="forme-machine">
-      Le public agit sur un contenu écrit d'avance. Tout est prévu, testé, fini. La
-      seule des trois qu'une personne seule peut mener jusqu'au bout, et donc
-      presque toujours celle d'un projet mené seul.
+      Dans [[bandersnatch]], le public choisit les céréales du héros au petit
+      déjeuner, puis s'il accepte un poste dans un studio de jeux. Chaque réponse
+      lance une séquence tournée d'avance, et les cinq fins étaient montées avant la
+      sortie. Le public agit donc sur un contenu fini : rien de ce qu'il voit n'a
+      échappé à l'auteur.
+      C'est la seule des trois qu'une personne seule peut mener jusqu'au bout.
     </term>
 
     <term name="Sociale" to="forme-sociale">
-      L'auteur fournit le lieu et les règles, le récit se fabrique entre les gens.
-      Beaucoup moins de contenu à produire, beaucoup plus de réglage.
+      Dans [[alice-is-missing]], trois à cinq joueurs assis dans la même pièce
+      enquêtent sur la disparition d'Alice sans se parler, par messages sur leurs
+      téléphones. L'auteur a fourni les cartes, le compte à rebours et la règle du
+      silence. Les messages, les joueurs les écrivent, et l'histoire n'existe
+      qu'une fois. Peu de contenu à produire, mais des règles à régler.
     </term>
 
     <term name="Collaborative" to="forme-collaborative">
-      Le public apporte la matière, et l'auteur ne l'a pas vue avant. La seule qui
-      échappe vraiment à celui qui l'a lancée.
+      Dans [[the-johnny-cash-project]], chaque visiteur redessine un photogramme du
+      clip d'« Ain't No Grave », et le clip se rejoue en assemblant les dessins
+      des autres. Le public apporte la matière, et elle reste dans l'œuvre après
+      son passage. L'auteur ne savait pas à quoi le clip ressemblerait.
     </term>
   </glossary>
+
+  <image src="jaquet-droz-dessinateur.jpg"
+         width="field"
+         alt="Un automate en forme de petit garçon aux cheveux bouclés, veste de velours rouge et col de dentelle, assis à une table de bois. Sa main droite tient un crayon monté sur une tige de laiton et trace un portrait sur une petite carte blanche. À l'arrière-plan, dans la pénombre d'une vitrine, la robe bleue d'un autre automate."
+         caption="Pierre et Henri-Louis Jaquet-Droz, Jean-Frédéric Leschot, « Le Dessinateur », vers 1774. Musée d'art et d'histoire de Neuchâtel. Une came règle chaque trait, et l'automate ne sait faire que les dessins qu'on lui a donnés."
+         credit="Rama, CC BY-SA 2.0 fr, via Wikimedia Commons"
+         source="https://commons.wikimedia.org/wiki/File:Automates-Jaquet-Droz-p1030488.jpg"/>
+
+  <image src="loup-garou-nuit.jpg"
+         width="field"
+         alt="Une dizaine d'hommes en chemise assis autour d'une table nappée de blanc, la tête posée sur les bras. Sur la table, des verres de vin, des bouteilles de bière, des photophores et de petites cartes retournées. Un jeune homme en veste sombre se tient debout derrière eux et les regarde."
+         caption="Une partie de Loup-garou, 2006. La nuit du jeu, tout le monde baisse la tête, et le meneur debout appelle les loups. Les règles tiennent sur une carte, la partie se fait entre les joueurs."
+         credit="Dana Lookadoo, CC BY 2.0, via Wikimedia Commons"
+         source="https://commons.wikimedia.org/wiki/File:Werewolf_players_at_night.jpg"/>
+
+  <image src="aids-quilt-mall.jpg"
+         width="field"
+         alt="Une immense étendue de panneaux de tissu de toutes les couleurs couvre le gazon du National Mall jusqu'au Capitole de Washington, au fond. Des visiteurs marchent dans les allées entre les panneaux. Au premier plan, un homme en veste en jean et lunettes de soleil est accroupi au bord d'un panneau."
+         caption="Le patchwork des NAMES Project, déployé sur le National Mall à Washington le 11 octobre 1996. Chaque panneau a la taille d'une tombe et a été cousu par les proches d'une personne morte du sida. Les organisateurs fixent la taille, et rien de ce qu'on y coud."
+         credit="Elvert Barnes, CC BY-SA 2.0, via Wikimedia Commons"
+         source="https://commons.wikimedia.org/wiki/File:04.04.AIDS.Quilt.WDC.11October1996.jpg"/>
 
   <section title="Les combinaisons">
     <markdown>
