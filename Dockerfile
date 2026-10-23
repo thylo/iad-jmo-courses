@@ -1,5 +1,8 @@
+# Pinned to the patch release so a PHP update busts the layer cache
+ARG PHP_VERSION=8.5.12
+
 # Build stage: PHP and Node together, vite-plugin-tempest calls `php tempest vite:config`
-FROM dunglas/frankenphp:1-php8.5 AS build
+FROM dunglas/frankenphp:1-php${PHP_VERSION} AS build
 
 RUN install-php-extensions gd intl zip
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
@@ -23,7 +26,7 @@ RUN composer dump-autoload --optimize --no-dev \
  && rm -rf node_modules
 
 # Runtime stage: FrankenPHP serves /app/public, Coolify's proxy handles TLS
-FROM dunglas/frankenphp:1-php8.5
+FROM dunglas/frankenphp:1-php${PHP_VERSION}
 
 RUN install-php-extensions gd intl opcache
 WORKDIR /app
