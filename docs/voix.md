@@ -85,6 +85,8 @@ Chacune avec un exemple fautif.
 - La formule qui vend : « et c'est la moitié de l'intérêt », « ce que le matériau a dans le
   ventre ».
 - L'annonce de plan rhétorique : « il serait facile de finir sur… »
+- Le mot noble posé sur une chose technique : « le geste `x = x + 1` ». La chose prend le nom
+  du métier (l'incrémentation), expliqué à sa première apparition puis employé tel quel.
 
 ## Avant de livrer
 
