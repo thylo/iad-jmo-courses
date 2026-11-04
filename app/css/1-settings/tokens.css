@@ -25,7 +25,7 @@
   --font-text: "Zen Kaku Gothic New", system-ui, sans-serif;
 
   /* Modular scale, fluid. Steps are deliberately far apart: the display step,
-     then 24 / 18 / 16 / 14.
+     then 26 / 22 / 19 / 15.
 
      --- Sizes slide, line boxes do not -----------------------------------
      What has to land on the baseline is not the size of the type, it is the
@@ -54,14 +54,14 @@
      reads as a consequence of the layout rather than as an accident. Two
      zones, not three, and no new breakpoint anywhere. */
   --text-display: clamp(2.25rem, 1rem + 5vw, 2.625rem);        /* 36 → 42px */
-  --text-lead: clamp(1.1875rem, 1rem + 0.8vw, 1.5rem);         /* 19 → 24px */
-  --text-title: clamp(1.0625rem, 1rem + 0.25vw, 1.125rem);     /* 17 → 18px */
-  --text-body: 1rem;                                            /*   16px */
-  --text-meta: 0.875rem;                                        /*   14px */
+  --text-lead: clamp(1.3125rem, 1rem + 0.8vw, 1.625rem);       /* 21 → 26px */
+  --text-title: 1.375rem;                                       /*   22px */
+  --text-body: clamp(1.0625rem, 0.9rem + 0.6vw, 1.1875rem);    /* 17 → 19px */
+  --text-meta: 0.9375rem;                                       /*   15px */
 
   --leading-display: calc(var(--space-unit) * 2);   /* 56 — 1.56 → 1.33 */
-  --leading-lead: var(--space-unit);                /* 28 — 1.47 at 19px */
-  --leading-text: var(--space-unit);                /* 28 — 1.75 at 16px */
+  --leading-lead: var(--space-unit);                /* 28 — 1.33 at 21px */
+  --leading-text: var(--space-unit);                /* 28 — 1.65 → 1.47 */
 
   /* Colour. One paper, one ink at three strengths, one accent.
 
@@ -92,7 +92,7 @@
   /* Measure. Line length governs the layout, not the container. */
   --measure-display: 24ch;
   --measure-lead: 46ch;
-  --measure-text: 62ch;
+  --measure-text: 68ch;
 
   /* The margin: the label column of the asymmetric grid, and the column the
      margin notes live in. 5a sized it at 168px for two words of label; a note
@@ -165,6 +165,6 @@
     --text-display: clamp(3.5rem, 1rem + 4vw, 4rem);   /* 56 → 64px */
 
     --leading-display: calc(var(--space-unit) * 3);    /* 84 — 1.5 → 1.31 */
-    --leading-lead: calc(var(--space-unit) * 1.5);     /* 42 — 1.75 at 24px */
+    --leading-lead: calc(var(--space-unit) * 1.5);     /* 42 — 1.62 at 26px */
   }
 }

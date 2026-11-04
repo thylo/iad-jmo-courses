@@ -46,6 +46,19 @@
    statements. */
 .c-colophon__aside { grid-area: aside; }
 
+/* Until the field is worth having (82em, see .c-figure--field) the pointers
+   leave it for the text column, under the account. Left in a field of a few
+   dozen pixels, the address — one word that cannot break — ran off the page. */
+@media (max-width: 81.999em) {
+  .c-colophon {
+    grid-template-areas:
+      "rule  rule  rule rule"
+      ".     first .    ."
+      "label rated .    ."
+      ".     aside .    .";
+  }
+}
+
 /* Below the breakpoint the canvas has one column, and so does this. The label
    comes back to the head of its paragraph. */
 @media (max-width: 47.999em) {
@@ -90,6 +103,15 @@
 
 /* The band does the separating now; the rule would only be a line inside it. */
 .o-canvas:has(.c-portrait) .c-colophon::before { display: none; }
+
+@media (max-width: 81.999em) {
+  .o-canvas:has(.c-portrait) .c-colophon {
+    grid-template-areas:
+      ". .     first . . ."
+      ". label rated . . ."
+      ". .     aside . . .";
+  }
+}
 
 @media (max-width: 47.999em) {
   .o-canvas:has(.c-portrait) .c-colophon {

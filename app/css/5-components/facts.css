@@ -15,7 +15,12 @@
 
 .c-facts dt { color: var(--color-ink-faint); }
 
-.c-facts dd { margin: 0; }
+/* A value can be a bare address, one word with no break in it: on a phone it
+   would run off the page rather than wrap. */
+.c-facts dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
 
 /* On one column there is no field to sit in, so it comes back under the
    summary, where it was before. */

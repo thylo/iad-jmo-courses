@@ -156,14 +156,14 @@
 
 /* --- No field to put a reference in --------------------------------------
    Same threshold as .c-figure--field, same arithmetic: the text column is
-   minmax(0, measure), so below about 72em it is served less than the measure
-   and what is left over for the field is a few dozen pixels. A title set in
+   minmax(0, measure), so below about 61em it is served less than the measure
+   and under 82em what is left over for the field is not yet a column. A title set in
    that is not a column, it is a stack of one word per line.
 
    The work goes under the definition, at the half step, so it still belongs to
    the definition rather than opening a block of its own. The margin stays: the
    name column is 196px and it is legible long before the field is. */
-@media (max-width: 71.999em) {
+@media (max-width: 81.999em) {
   .c-glossary__entry {
     grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
   }

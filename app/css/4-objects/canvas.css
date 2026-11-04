@@ -9,7 +9,7 @@
    Three named columns, one of them fluid:
 
      marge   fixed    the labels and the margin notes
-     texte   62ch     the reading, and nothing else
+     texte   68ch     the reading, and nothing else
      champ   1fr      everything the window gives beyond the two above
 
    The gutter grows with the window (28 → 96px), the margin and the measure do

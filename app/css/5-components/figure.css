@@ -50,25 +50,8 @@
   margin-block: 0;
 }
 
-/* Same threshold as .c-figure--field below, same arithmetic, and here it moves
-   a whole composition rather than one float: under about 72em the field is a
-   couple of hundred pixels, and a plate set in that is a thumbnail with a
-   caption four lines deep beside a title in display type. So the pair breaks —
-   the opening takes the sheet back, and the plate drops under it at the width
-   of the reading, which is where an image goes when it has no column of its own.
-
-   Selected through the block that holds it rather than with a modifier of its
-   own: the same wrapper carries an entity's facts, and a <dl> of five rows is
-   perfectly readable in a narrow field. It is the image that cannot. */
-@media (max-width: 71.999em) {
-  .c-intro--paired:has(+ * .c-figure--opening) {
-    grid-column: margin-start / field-end;
-  }
-
-  .o-canvas__field:has(> .c-figure--opening) {
-    grid-column: text-start / field-end;
-  }
-}
+/* Under the field threshold the plate drops under the opening with the rest of
+   the pair — see .c-intro--paired in intro.css. */
 
 /* A figure in the open field — the mirror of the margin note, and the reason
    the third column exists.
@@ -97,13 +80,13 @@
    are properties of this component rather than of the page. This is the one
    below, where there is no field left to float into.
 
-   The text column is minmax(0, measure): below about 72em it is served less
+   The text column is minmax(0, measure): below about 61em it is served less
    than the measure, so the width above — the reading less the measure — goes
-   negative and there is no field to float into. Even just above the canvas
-   breakpoint the field is barely 120px, which is not an image. So the figure
-   stays in the flow until the field is worth having, and takes the reading
-   like any other. */
-@media (max-width: 71.999em) {
+   negative and there is no field to float into. Even at 72em the field is
+   barely 160px, which is not an image. So the figure stays in the flow until
+   the field is worth having — about 310px, reached at 82em — and takes the
+   reading like any other. */
+@media (max-width: 81.999em) {
   .c-figure--field {
     float: none;
     inline-size: auto;
@@ -127,11 +110,11 @@
    Its left edge does not move: the margin is taken out of the width, so the
    float still starts at field-start and no line wraps around it.
 
-   That is also why this waits for 85em. The margin is paid for out of the
+   That is also why this waits for 93em. The margin is paid for out of the
    image, and a field figure has never been allowed below the ~270px it gets at
-   the threshold above; 85em is the width at which it still has that much left
+   the threshold above; 93em is the width at which it still has that much left
    after paying. Under it the field keeps everything it has. */
-@media (min-width: 85em) {
+@media (min-width: 93em) {
   .c-figure--field {
     inline-size: calc(
       100% - var(--measure-text) - var(--space-xl) - var(--sidebar-width)

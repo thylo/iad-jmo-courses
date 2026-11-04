@@ -94,6 +94,18 @@
    auto-placement puts it on the same row without either of them naming a row. */
 .c-intro--paired { grid-column: margin-start / text-end; }
 
+/* Until the field is worth having — the 82em of .c-figure--field, same
+   arithmetic — the pair breaks: the opening takes the sheet back, and what sat
+   beside it drops under it at the width of the reading. A plate in a field of
+   a couple of hundred pixels is a thumbnail beside a title in display type,
+   and a list of facts there wraps every value onto three lines; below about
+   61em the field is gone altogether. */
+@media (max-width: 81.999em) {
+  .c-intro--paired { grid-column: margin-start / field-end; }
+
+  .c-intro--paired + .o-canvas__field { grid-column: text-start / field-end; }
+}
+
 /* --- The hero, on the homepage only -------------------------------------
    The title and the portrait share one row and overlap by a column: the title
    takes the first two, the drawing the last two, the drawing goes underneath.
