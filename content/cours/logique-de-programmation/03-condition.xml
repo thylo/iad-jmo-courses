@@ -1,43 +1,43 @@
 <page id="la-condition">
   <suptitle>Séance 3</suptitle>
   <titre>La condition</titre>
-  <resume>`if`, `else`, les comparaisons, `&amp;&amp;` et `||`, racontés avec un dragon, un trésor et une porte qui ne s'ouvre pas pour tout le monde.</resume>
+  <resume>`if`, `else`, les comparaisons, `&amp;&amp;` et `||`, racontés avec un ogre qui dort près de son trésor, un dragon et une porte qui ne s'ouvre pas pour tout le monde.</resume>
 
-  <section title="Le dragon qui dort">
+  <section title="L'ogre qui dort">
     <markdown>
-      Un dragon dort sur son trésor, à droite de l'écran. Le héros suit la souris. Tant qu'il
-      reste du côté gauche, l'œil du dragon reste fermé. Dès qu'il passe la moitié de l'écran,
-      l'œil s'ouvre en rouge.
+      Billy l'ogre dort près de son trésor, à droite de l'écran. Raoul suit la souris. Tant qu'il
+      reste du côté gauche, Billy ronfle. Dès qu'il passe la moitié de l'écran, Billy se
+      réveille.
+    </markdown>
 
-      ```js
-      function setup() {
+    <sketch scripts="outils.js"><![CDATA[
+      async function setup() {
         createCanvas(800, 600);
+        await chargerPersonnages();
       }
 
       function draw() {
         background(20);
+        dessinerBilly(620, 500, 250);
 
         // le trésor
         fill(230, 190, 40);
-        circle(650, 450, 60);
+        circle(460, 475, 50);
 
-        // l'œil du dragon
         if (mouseX > 400) {
-          fill(200, 30, 30);
+          parler("Qui ose ?", 560, 230);
         } else {
-          fill(60);
+          parler("Zzz", 560, 230);
         }
-        circle(650, 300, 40);
 
-        // le héros
-        fill(240);
-        circle(mouseX, mouseY, 30);
+        dessinerRaoul(mouseX, mouseY, 60);
       }
-      ```
+    ]]></sketch>
 
+    <markdown>
       Le `if` pose une question, `mouseX > 400` : c'est la condition. La réponse est `true` ou
-      `false`, oui ou non. Si c'est `true`, le bloc entre les premières accolades s'exécute. Sinon, c'est celui qui suit `else`. Les
-      deux ne s'exécutent jamais ensemble.
+      `false`, oui ou non. Si c'est `true`, le bloc entre les premières accolades s'exécute.
+      Sinon, c'est celui qui suit `else`. Les deux ne s'exécutent jamais ensemble.
 
       `draw()` est rejoué soixante fois par seconde, donc la condition aussi. La réponse change
       dès que la souris franchit la ligne, dans un sens comme dans l'autre.
@@ -66,6 +66,81 @@
 
       Écrit dans un `if`, le premier empoisonne la fiole au lieu de la vérifier, et la
       condition est toujours vraie.
+
+      Raoul attaque Billy à chaque clic, avec un d20. Il touche à partir de 12, et un 20 est
+      un coup critique :
+    </markdown>
+
+    <sketch scripts="outils.js"><![CDATA[
+      let jet = 0;
+
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+      }
+
+      function draw() {
+        background(20);
+        dessinerRaoul(250, 500, 120);
+        dessinerBilly(600, 500, 250);
+
+        if (jet !== 0) {
+          parler("Jet : " + jet, 250, 280);
+        }
+
+        if (jet >= 12) {
+          parler("Aïe !", 560, 230);
+        }
+
+        if (jet === 20) {
+          parler("Coup critique", 250, 220);
+        }
+      }
+
+      function mousePressed() {
+        jet = lancerDe(20);
+      }
+    ]]></sketch>
+
+    <markdown>
+      `jet !== 0` attend le premier clic : avant, aucun dé n'a été lancé et Raoul n'a rien à
+      dire. `jet >= 12` touche aussi sur un 12 tout juste, ce que `jet > 12` refuserait.
+
+      Un 20 répond `true` aux trois conditions, et les trois bulles s'affichent. Trois `if` à la
+      suite sont trois questions séparées : `draw()` les pose l'une après l'autre, et la réponse
+      à l'une ne change rien aux suivantes.
+
+      Billy rend les coups. Chaque clic retire à Raoul entre 1 et 6 points de vie :
+    </markdown>
+
+    <sketch scripts="outils.js"><![CDATA[
+      let pointsDeVie = 20;
+
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+      }
+
+      function draw() {
+        background(20);
+        dessinerBilly(600, 500, 250);
+
+        if (pointsDeVie <= 0) {
+          parler("Suivant !", 560, 230);
+        } else {
+          dessinerRaoul(250, 500, 120);
+          parler("Vie : " + pointsDeVie, 250, 280);
+        }
+      }
+
+      function mousePressed() {
+        pointsDeVie = pointsDeVie - lancerDe(6);
+      }
+    ]]></sketch>
+
+    <markdown>
+      Raoul part de 20, et les coups peuvent l'amener pile à 0. Avec `pointsDeVie &lt; 0`, il
+      resterait debout à 0 point de vie, jusqu'au coup suivant. `&lt;=` le fait tomber dès 0.
     </markdown>
   </section>
 
@@ -90,15 +165,70 @@
 
       Avec `&amp;&amp;`, une seule réponse `false` suffit à fermer la porte. Avec `||`, une seule
       réponse `true` suffit à faire fuir le dragon.
+
+      p5 fournit `mouseIsPressed`, un booléen qui vaut `true` tant que le bouton de la souris
+      reste enfoncé. La herse du château se lève quand Raoul est devant la porte et que le
+      bouton est enfoncé :
+    </markdown>
+
+    <sketch scripts="outils.js"><![CDATA[
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+      }
+
+      function draw() {
+        background(20);
+
+        if (sontProches(mouseX, 500, 400, 500, 60) && mouseIsPressed) {
+          dessinerChateauOuvert(400, 500, 360);
+        } else {
+          dessinerChateau(400, 500, 360);
+        }
+
+        dessinerRaoul(mouseX, 500, 60);
+      }
+    ]]></sketch>
+
+    <markdown>
+      Un clic loin de la porte ne lève rien, et Raoul devant la porte sans clic non plus.
+
+      Billy, lui, se réveille quand Raoul passe la moitié de l'écran, ou au bruit d'un clic,
+      n'importe où :
+    </markdown>
+
+    <sketch scripts="outils.js"><![CDATA[
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+      }
+
+      function draw() {
+        background(20);
+        dessinerBilly(620, 500, 250);
+
+        if (mouseX > 400 || mouseIsPressed) {
+          parler("Qui ose ?", 560, 230);
+        } else {
+          parler("Zzz", 560, 230);
+        }
+
+        dessinerRaoul(mouseX, mouseY, 60);
+      }
+    ]]></sketch>
+
+    <markdown>
+      Raoul peut rester à gauche : un clic suffit à le trahir.
     </markdown>
   </section>
 
   <section title="Une porte qui se souvient">
     <markdown>
-      Une condition peut aussi lire directement un booléen.
-      La herse du château est baissée au départ. Chaque clic la lève ou la baisse :
+      Une condition peut aussi lire directement un booléen. La herse du château est baissée au
+      départ. Chaque clic la lève ou la baisse :
+    </markdown>
 
-      ```js
+    <sketch scripts="outils.js"><![CDATA[
       let herseLevee = false;
 
       function setup() {
@@ -106,18 +236,20 @@
       }
 
       function draw() {
+        background(20);
         if (herseLevee) {
-          background(40, 90, 50);   // la cour du château
+          dessinerChateauOuvert(400, 500, 360);
         } else {
-          background(20);           // la herse, fermée
+          dessinerChateau(400, 500, 360);
         }
       }
 
       function mousePressed() {
         herseLevee = !herseLevee;
       }
-      ```
+    ]]></sketch>
 
+    <markdown>
       `!herseLevee` donne le contraire de ce que contient la variable. `true` devient `false`,
       `false` devient `true`. La variable garde la position de la herse d'une image à l'autre,
       et `draw()` se contente de la lire.
