@@ -23,6 +23,14 @@ function dessinerRaoul(x, y, largeur) {
 }
 
 function dessinerChateau(x, y, largeur) {
+  dessinerForteresse(x, y, largeur, false);
+}
+
+function dessinerChateauOuvert(x, y, largeur) {
+  dessinerForteresse(x, y, largeur, true);
+}
+
+function dessinerForteresse(x, y, largeur, herseLevee) {
   push();
   translate(x, y);
   scale(largeur / 400);
@@ -38,16 +46,28 @@ function dessinerChateau(x, y, largeur) {
   rect(15, -245, 30, 25);
   rect(75, -245, 30, 25);
 
-  // la porte, herse baissée
-  fill(45, 40, 40);
-  rect(-50, -150, 100, 150, 50, 50, 0, 0);
-  stroke(120, 124, 135);
-  strokeWeight(6);
-  line(-25, -138, -25, -3);
-  line(0, -144, 0, -3);
-  line(25, -138, 25, -3);
-  line(-44, -95, 44, -95);
-  line(-46, -45, 46, -45);
+  // la porte : la cour derrière la herse levée, ou la herse baissée
+  stroke(40);
+  if (herseLevee) {
+    fill(90, 140, 70);
+    rect(-50, -150, 100, 150, 50, 50, 0, 0);
+    stroke(120, 124, 135);
+    strokeWeight(6);
+    line(-25, -138, -25, -118);
+    line(0, -144, 0, -118);
+    line(25, -138, 25, -118);
+    line(-44, -122, 44, -122);
+  } else {
+    fill(45, 40, 40);
+    rect(-50, -150, 100, 150, 50, 50, 0, 0);
+    stroke(120, 124, 135);
+    strokeWeight(6);
+    line(-25, -138, -25, -3);
+    line(0, -144, 0, -3);
+    line(25, -138, 25, -3);
+    line(-44, -95, 44, -95);
+    line(-46, -45, 46, -45);
+  }
 
   // les deux tours
   stroke(40);

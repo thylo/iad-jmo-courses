@@ -5,7 +5,7 @@
   <section title="Le principe">
     <markdown>
       p5 fournit `circle()`, `rect()` ou `random()` : on les appelle avec des nombres, sans
-      savoir comment elles sont écrites. La boîte à outils ajoute six fonctions du même genre,
+      savoir comment elles sont écrites. La boîte à outils ajoute sept fonctions du même genre,
       faites pour le combat de Billy et Raoul. Elles s'appellent de la même façon :
 
       ```js
@@ -105,6 +105,14 @@
       }
 
       function dessinerChateau(x, y, largeur) {
+        dessinerForteresse(x, y, largeur, false);
+      }
+
+      function dessinerChateauOuvert(x, y, largeur) {
+        dessinerForteresse(x, y, largeur, true);
+      }
+
+      function dessinerForteresse(x, y, largeur, herseLevee) {
         push();
         translate(x, y);
         scale(largeur / 400);
@@ -120,16 +128,28 @@
         rect(15, -245, 30, 25);
         rect(75, -245, 30, 25);
 
-        // la porte, herse baissée
-        fill(45, 40, 40);
-        rect(-50, -150, 100, 150, 50, 50, 0, 0);
-        stroke(120, 124, 135);
-        strokeWeight(6);
-        line(-25, -138, -25, -3);
-        line(0, -144, 0, -3);
-        line(25, -138, 25, -3);
-        line(-44, -95, 44, -95);
-        line(-46, -45, 46, -45);
+        // la porte : la cour derrière la herse levée, ou la herse baissée
+        stroke(40);
+        if (herseLevee) {
+          fill(90, 140, 70);
+          rect(-50, -150, 100, 150, 50, 50, 0, 0);
+          stroke(120, 124, 135);
+          strokeWeight(6);
+          line(-25, -138, -25, -118);
+          line(0, -144, 0, -118);
+          line(25, -138, 25, -118);
+          line(-44, -122, 44, -122);
+        } else {
+          fill(45, 40, 40);
+          rect(-50, -150, 100, 150, 50, 50, 0, 0);
+          stroke(120, 124, 135);
+          strokeWeight(6);
+          line(-25, -138, -25, -3);
+          line(0, -144, 0, -3);
+          line(25, -138, 25, -3);
+          line(-44, -95, 44, -95);
+          line(-46, -45, 46, -45);
+        }
 
         // les deux tours
         stroke(40);
@@ -186,7 +206,8 @@
       | `await chargerPersonnages();` | Charge les deux images. Une seule fois, dans `setup()` |
       | `dessinerBilly(x, y, largeur)` | Dessine Billy, les pieds posés en `x`, `y`, à la largeur donnée en pixels |
       | `dessinerRaoul(x, y, largeur)` | Pareil pour Raoul |
-      | `dessinerChateau(x, y, largeur)` | Dessine le château, posé par le milieu de sa base. Il est fait de formes p5 et n'a rien à charger |
+      | `dessinerChateau(x, y, largeur)` | Dessine le château, herse baissée, posé par le milieu de sa base. Il est fait de formes p5 et n'a rien à charger |
+      | `dessinerChateauOuvert(x, y, largeur)` | Le même château, herse levée sur la cour |
       | `parler(texte, x, y)` | Une bulle de dialogue dont la pointe tombe en `x`, `y` |
       | `lancerDe(faces)` | Un nombre entier entre 1 et `faces`. `lancerDe(20)` est un d20 |
       | `sontProches(x1, y1, x2, y2, distance)` | `true` si les deux points sont à moins de `distance` pixels, `false` sinon |
