@@ -6,28 +6,27 @@
   <section title="Raoul se met en route">
     <markdown>
       Raoul le chevalier part du bord gauche de l'écran et marche vers le château, à droite.
+      Les deux sont dessinés par la [[boite-a-outils|boîte à outils]], à importer dans le
+      sketch avant de commencer.
+    </markdown>
 
-      ```js
+    <sketch scripts="outils.js"><![CDATA[
       let positionX = 0;
 
-      function setup() {
+      async function setup() {
         createCanvas(800, 600);
+        await chargerPersonnages();
       }
 
       function draw() {
         background(20);
-
-        // le château
-        fill(120);
-        rect(700, 200, 80, 200);
-
-        // Raoul
-        fill(200, 200, 220);
-        circle(positionX, 350, 40);
+        dessinerChateau(650, 500, 260);
+        dessinerRaoul(positionX, 500, 60);
         positionX = positionX + 2;
       }
-      ```
+    ]]></sketch>
 
+    <markdown>
       `draw()` est rejoué soixante fois par seconde, comme les images d'une timeline. Tout ce
       qu'il contient recommence à l'identique, à une exception près : `positionX`. Ce nombre
       change entre deux images, donc Raoul avance.
@@ -65,35 +64,137 @@
       ```js
       let pointsDeVie = 30;           // un nombre
       let nom = "Raoul";              // du texte, entre guillemets
-      let aLaClef = false;             // un booléen : true ou false, rien d'autre
+      let aLaClef = false;            // un booléen : true ou false, rien d'autre
       ```
 
       La sorte de valeur s'appelle le type, et elle change ce que fait le `+`. Il suffit de
-      deux guillemets pour le voir :
+      deux guillemets autour du 0 de Raoul pour le voir :
+    </markdown>
 
-      ```js
+    <sketch scripts="outils.js"><![CDATA[
       let positionX = "0";
-      positionX = positionX + 2;      // "02", puis "022", puis "0222"
-      ```
+
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+      }
+
+      function draw() {
+        background(20);
+        dessinerChateau(650, 500, 260);
+        dessinerRaoul(positionX, 500, 60);
+        positionX = positionX + 2;
+      }
+    ]]></sketch>
+
+    <markdown>
+      Raoul disparaît presque aussitôt, et aucun message d'erreur ne le signale.
 
       Entre deux nombres, `+` additionne. Entre un texte et un nombre, il colle l'un au bout de
-      l'autre. Raoul reste au bord de l'écran, et aucun message d'erreur ne le signale.
-      `console.log(positionX)` montre ce que la variable contient vraiment.
+      l'autre : `"0" + 2` donne `"02"`. La boîte contient donc un texte, qui s'allonge d'un 2 à
+      chaque image.
+
+      Mais `dessinerRaoul()` calcule avec ce texte. Pour centrer l'image, elle retire la moitié
+      de la largeur à `x`, et le `-` n'a qu'un sens : il soustrait. JavaScript convertit donc
+      le texte en nombre avant de calculer, et `"0222"` devient 222.
+
+      | Image | `positionX` contient | Raoul est dessiné à |
+      |---|---|---|
+      | 1 | `"0"` | 0 |
+      | 2 | `"02"` | 2 |
+      | 3 | `"022"` | 22 |
+      | 4 | `"0222"` | 222 |
+      | 5 | `"02222"` | 2222, hors du canvas |
+
+      Raoul traverse l'écran en quatre images, moins d'un dixième de seconde, puis sort du
+      canvas pour ne plus revenir. `console.log(positionX)`, ajouté dans `draw()`, affiche dans
+      la console ce que la variable contient vraiment, image après image.
     </markdown>
   </section>
 
   <section title="La portée">
     <markdown>
       La ligne `let positionX = 0;` est écrite au-dessus de `setup()`, en dehors de toute
-      fonction. Déplacée en première ligne de `draw()`, elle est rejouée à chaque image : la
-      variable est déclarée de nouveau soixante fois par seconde, avec 0 dedans, et Raoul ne
-      quitte plus le bord.
+      fonction. Descendue en première ligne de `draw()`, elle donne ce sketch :
+    </markdown>
+
+    <sketch scripts="outils.js"><![CDATA[
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+      }
+
+      function draw() {
+        let positionX = 0;
+        background(20);
+        dessinerChateau(650, 500, 260);
+        dessinerRaoul(positionX, 500, 60);
+        positionX = positionX + 2;
+      }
+    ]]></sketch>
+
+    <markdown>
+      Raoul ne quitte plus le bord, et aucun message d'erreur ne le signale : le code est
+      valide.
+
+      `draw()` est rejoué à chaque image, `let` compris. Chaque image fabrique donc une boîte
+      neuve, y range 0, dessine Raoul à 0 et ajoute 2. Puis `draw()` arrive à son accolade
+      fermante, et la boîte est jetée avec ce qu'elle contient. L'image suivante repart d'une
+      boîte neuve, avec 0 dedans. Le 2 n'est jamais lu.
+
+      La position où Raoul est dessiné, image par image :
+
+      | Image | `let` au-dessus de `setup()` | `let` dans `draw()` |
+      |---|---|---|
+      | 1 | 0 | 0 |
+      | 2 | 2 | 0 |
+      | 3 | 4 | 0 |
+      | 61, une seconde plus tard | 120 | 0 |
 
       > Ce qui est déclaré dans `draw()` ne survit pas à l'image suivante.
 
+      La règle vaut pour toutes les accolades. Une variable existe à partir de son `let`,
+      jusqu'à l'accolade fermante du bloc qui la contient : cette partie du code s'appelle sa
+      portée. Déclarée en dehors de toute fonction, elle n'a pas d'accolade fermante. Elle vit
+      donc tant que le sketch tourne, et toutes les fonctions la voient : c'est une variable
+      globale.
+
+      L'erreur inverse est aussi fréquente. `setup()` prépare le sketch, et la déclaration y
+      semble à sa place :
+
+      ```js
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+        let positionX = 0;
+      }
+
+      function draw() {
+        background(20);
+        dessinerChateau(650, 500, 260);
+        dessinerRaoul(positionX, 500, 60);
+        positionX = positionX + 2;
+      }
+      ```
+
+      Cette fois le sketch s'arrête, et la console affiche :
+
+      ```
+      🌸 p5.js says: [sketch.js, line 10] "positionX" is not
+      defined in the current scope. If you have defined it in
+      your code, you should check its scope, spelling, and
+      letter-casing (JavaScript is case-sensitive).
+      ```
+
+      La boîte existe, mais seulement entre les accolades de `setup()`. Elle est jetée avant
+      la première image, et `draw()` cherche un nom que rien ne déclare dans sa portée. Le
+      message le dit lui-même : « check its scope », vérifier la portée.
+
       Une variable qui doit se souvenir d'une image à l'autre, comme une position, des points
-      de vie ou une bourse, se déclare au-dessus de tout. La partie du code où une variable
-      existe s'appelle sa portée.
+      de vie ou une bourse, se déclare donc au-dessus de tout. Une variable qui se recalcule à
+      chaque fois se déclare là où elle sert. `outils.js` en contient une : dans
+      `dessinerPersonnage()`, `let hauteur` est calculée à partir de la largeur à chaque appel,
+      puis jetée.
     </markdown>
   </section>
 
@@ -101,11 +202,19 @@
     <markdown>
       p5 fournit des variables qu'on ne déclare pas et qu'on lit seulement. `mouseX` et
       `mouseY` contiennent la position de la souris, `width` et `height` la taille du canvas.
-
-      ```js
-      circle(mouseX, mouseY, 40);       // Raoul suit la souris
-      rect(width - 100, 200, 80, 200);  // le château reste collé au bord droit
-      ```
     </markdown>
+
+    <sketch scripts="outils.js"><![CDATA[
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+      }
+
+      function draw() {
+        background(20);
+        dessinerChateau(width - 100, 500, 200);  // le château reste collé au bord droit
+        dessinerRaoul(mouseX, mouseY, 60);       // Raoul suit la souris
+      }
+    ]]></sketch>
   </section>
 </page>
