@@ -40,7 +40,7 @@ elles sont écrites : elles alimentent le graphe et la fiche en tête de page.
 L'ordre dans le fichier n'a pas d'importance.
 
 **Rendu** — `<markdown>`, `<section>`, `<note>`, `<sidenote>`, `<quote>`, `<video>`, `<spotify>`,
-`<image>`, `<list>`. Elles produisent du HTML sur place, dans l'ordre du
+`<image>`, `<list>`, `<sketch>`. Elles produisent du HTML sur place, dans l'ordre du
 document.
 
 **Dérivés** — `<grid/>`, `<backlinks/>`. Elles produisent du HTML à partir
@@ -118,6 +118,43 @@ donne un lien puis un point.
 Rien d'autre n'est inventé. Une adresse mail s'écrit comme le lien qu'elle est,
 `<a href="mailto:julien@thylo.be">julien@thylo.be</a>` : le HTML au fil du texte
 passe tel quel.
+
+## Un sketch qui tourne
+
+Un bloc de code p5 s'écrit dans `<sketch>` quand le lecteur doit pouvoir voir ce
+qu'il dessine. La page affiche le code, et deux onglets au-dessus : « Code » et
+« Rendu ». « Rendu » exécute le sketch dans la page.
+
+```xml
+<sketch caption="Billy suit la souris." scripts="outils.js"><![CDATA[
+  async function setup() {
+    createCanvas(800, 600);
+    await chargerPersonnages();
+  }
+
+  function draw() {
+    background(220);
+    dessinerBilly(mouseX, 500, 250);
+  }
+]]></sketch>
+```
+
+Le texte exécuté est celui qui s'affiche : il n'existe qu'une copie du code. Le
+`CDATA` évite d'écrire `&lt;` à chaque comparaison, et l'indentation XML est
+retirée comme dans `<markdown>`.
+
+`scripts` nomme des fichiers de `public/documents/`, chargés dans l'ordre avant
+le sketch, comme les balises `script` d'`index.html` dans l'éditeur. Les chemins
+du sketch partent du même dossier, donc `loadImage("billy.png")` trouve l'image
+sans autre précision.
+
+La taille vient de `createCanvas()`, quand elle s'y écrit en nombres. Le canvas
+ne s'affiche jamais plus grand que cette taille, et se réduit sur un écran
+étroit. p5 recalcule `mouseX` en conséquence.
+
+Le sketch ne tourne que pendant qu'il est affiché. Revenir au code l'arrête, et
+« Rendu » le relance depuis `setup()`. Sans JavaScript, il reste le bloc de
+code.
 
 ## Citer quelqu'un
 

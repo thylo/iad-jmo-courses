@@ -20,6 +20,7 @@ use App\Content\Xml\Elements\PreambleElement;
 use App\Content\Xml\Elements\QuoteElement;
 use App\Content\Xml\Elements\SectionElement;
 use App\Content\Xml\Elements\SidenoteElement;
+use App\Content\Xml\Elements\SketchElement;
 use App\Content\Xml\Elements\SpotifyElement;
 use App\Content\Xml\Elements\TermElement;
 use App\Content\Xml\Elements\VideoElement;
@@ -37,9 +38,9 @@ final readonly class ElementRegistry
      * Blocks whose content IS text rather than a tree of blocks.
      *
      * Everywhere else, loose prose between tags is a mistake with a fix — the
-     * parser says so and points at <markdown>. These five are the exceptions,
-     * and for two different reasons: <markdown> and <preamble> are opaque,
-     * their content is a document in another language; <destination>, <term>
+     * parser says so and points at <markdown>. These six are the exceptions,
+     * and for two different reasons: <markdown>, <preamble> and <sketch> are
+     * opaque, their content is a document in another language; <destination>, <term>
      * and <definition> each hold one line — where it sends you, what the form
      * is, what the title means — which is a value, no more a tree than a
      * <titre> is.
@@ -47,7 +48,7 @@ final readonly class ElementRegistry
      * Their element children are still checked. Text is allowed in, an unknown
      * tag is not.
      */
-    private const array HOLDS_TEXT = ['markdown', 'preamble', 'destination', 'term', 'definition'];
+    private const array HOLDS_TEXT = ['markdown', 'preamble', 'sketch', 'destination', 'term', 'definition'];
 
     /** @var array<string, ElementRenderer> */
     private array $renderers;
@@ -62,6 +63,7 @@ final readonly class ElementRegistry
         SidenoteElement $sidenote,
         VideoElement $video,
         SpotifyElement $spotify,
+        SketchElement $sketch,
         ImageElement $image,
         DiagramElement $diagram,
         ListElement $list,
@@ -83,6 +85,7 @@ final readonly class ElementRegistry
             'sidenote' => $sidenote,
             'video' => $video,
             'spotify' => $spotify,
+            'sketch' => $sketch,
             'image' => $image,
             'diagram' => $diagram,
             'list' => $list,

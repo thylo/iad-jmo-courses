@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Content\Xml\Elements;
 
 use App\Content\Xml\Autolinks;
+use App\Content\Xml\Dedent;
 use App\Content\Xml\ElementRenderer;
 use App\Content\Xml\EntityLink;
 use App\Content\Xml\RenderContext;
@@ -50,7 +51,7 @@ final readonly class MarkdownElement implements ElementRenderer
      */
     public function prose(\Dom\Element $element, RenderContext $context, string $class): string
     {
-        $dedented = $this->dedent($element->textContent);
+        $dedented = Dedent::text($element->textContent);
 
         if ($dedented === '') {
             return '';
@@ -79,43 +80,5 @@ final readonly class MarkdownElement implements ElementRenderer
             ['<div class="c-prose__table" role="region" aria-label="Tableau" tabindex="0"><table>', '</table></div>'],
             $html,
         );
-    }
-
-    /**
-     * Strips the XML indentation.
-     *
-     * Without this, prose nested two levels deep reads as an indented code block.
-     */
-    private function dedent(string $source): string
-    {
-        $lines = preg_split('/\R/', $source) ?: [];
-
-        while ($lines !== [] && trim($lines[0]) === '') {
-            array_shift($lines);
-        }
-
-        while ($lines !== [] && trim(end($lines)) === '') {
-            array_pop($lines);
-        }
-
-        $indent = null;
-
-        foreach ($lines as $line) {
-            if (trim($line) === '') {
-                continue;
-            }
-
-            $width = strlen($line) - strlen(ltrim($line, " \t"));
-            $indent = $indent === null ? $width : min($indent, $width);
-        }
-
-        if ($indent === null || $indent === 0) {
-            return implode("\n", $lines);
-        }
-
-        return implode("\n", array_map(
-            static fn (string $line): string => trim($line) === '' ? '' : substr($line, $indent),
-            $lines,
-        ));
     }
 }

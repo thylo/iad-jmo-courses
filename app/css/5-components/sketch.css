@@ -1,0 +1,81 @@
+/* A p5 sketch — what <sketch> renders, and <p5-sketch> switches.
+
+   A step of the argument, not an illustration: it stands where a code block
+   would and takes the reading's step, not the wider margin of a figure. Without
+   the script it IS a code block, styled by .c-prose like every other one.
+
+   Its width is the larger of the measure and the canvas. The code never gets
+   narrower than the text around it, and the canvas is never drawn larger than
+   the sketch made it: an 800px canvas stretched to a 1100px reading is a blurred
+   one. --sketch-width and --sketch-ratio come from createCanvas() in the code,
+   set on the figure by SketchElement; a sketch that does not state its size in
+   numbers falls back to the measure and to the height its frame reports. */
+
+.c-sketch__frame {
+  display: block;
+  max-inline-size: max(var(--measure-text), var(--sketch-width, 0px));
+}
+
+/* The switch reads as two links: the view that is not shown is the one that
+   can be clicked, so it takes the accent and the underline of every other
+   action on the site, and the view that is shown is plain ink. Colour and
+   underline both change, so the state does not rest on colour alone. */
+.c-sketch__switch {
+  display: flex;
+  gap: var(--space-m);
+  margin-block-end: var(--space-s);
+}
+
+/* Hidden until the script is there to make it work. The display above would
+   otherwise win over the attribute. */
+.c-sketch__switch[hidden] { display: none; }
+
+.c-sketch__tab {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-accent);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25em;
+  cursor: pointer;
+}
+
+.c-sketch__tab:hover { color: var(--color-accent-strong); }
+
+.c-sketch__tab:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+  text-decoration: none;
+}
+
+.c-sketch__tab[aria-selected="true"] {
+  color: var(--color-ink);
+  text-decoration-line: none;
+  cursor: default;
+}
+
+/* The frame has no ground of its own: the sketch paints its background, and a
+   canvas narrower than the measure sits on the paper at text-start like any
+   other block. The ratio reserves the height before p5 has drawn anything, so
+   switching does not collapse the box and open it again a moment later. */
+.c-sketch__canvas {
+  display: block;
+  inline-size: 100%;
+  max-inline-size: var(--sketch-width, none);
+  aspect-ratio: var(--sketch-ratio, auto);
+  border: 0;
+}
+
+/* The legend, as under a video: held to the measure even when the frame is
+   wider. */
+.c-sketch__caption {
+  max-inline-size: var(--measure-text);
+  margin-block-start: var(--space-s);
+  font-size: var(--text-meta);
+  line-height: var(--space-unit);
+  color: var(--color-ink-muted);
+}

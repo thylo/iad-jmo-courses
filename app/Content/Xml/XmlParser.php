@@ -241,11 +241,11 @@ final readonly class XmlParser
     /** Below the root, only rendering elements are allowed. */
     private function checkBlocks(string $path, \Dom\Element $parent): void
     {
-        // The prose leaves are opaque on purpose: what they hold is a document
-        // in another language, not a tree. <destination> and <term> hold text
+        // The prose leaves and <sketch> are opaque on purpose: what they hold is
+        // a document in another language, not a tree. <destination> and <term> hold text
         // too and are NOT here — they hold one line and no prose, so a stray
         // tag inside one is a mistake worth reporting.
-        if (in_array($parent->localName, ['markdown', 'preamble'], true)) {
+        if (in_array($parent->localName, ['markdown', 'preamble', 'sketch'], true)) {
             return;
         }
 
