@@ -1,6 +1,5 @@
-<page id="protocole-de-panne" status="draft">
+<page id="protocole-de-panne">
   <titre>Le protocole de panne</titre>
-  <resume>À imprimer en autant d'exemplaires que d'étudiants, et à afficher au mur.</resume>
 
   <markdown>
     **1. Lire le message en entier**, et le numéro de ligne. Le numéro indique où la machine a
@@ -16,14 +15,19 @@
     **Règle des dix minutes** : au-delà, demander. D'abord au binôme voisin.
 
     **Toutes les pannes n'affichent pas de message.** Un code qui tourne et ne fait rien est
-    une panne comme une autre. Les six causes les plus fréquentes :
+    une panne comme une autre. Les huit causes les plus fréquentes, chacune avec son exemple
+    tiré d'une table de jeu de rôle :
 
-    - une majuscule là où il n'en faut pas ;
-    - un argument manquant ;
-    - `=` écrit à la place de `===` ;
-    - une variable déclarée dans `draw()` alors qu'elle devrait vivre au-dessus ;
-    - une fonction définie et jamais appelée ;
-    - un index de tableau qui n'existe pas.
+    | Cause | À la table | Ce qui se passe |
+    |---|---|---|
+    | Une majuscule là où il n'en faut pas | `let jetDeDe` déclaré, `if (JetDeDe === 20)` écrit | `JetDeDe is not defined` : pour la machine, ce sont deux noms différents |
+    | Une variable jamais déclarée | `pieces = pieces + 10;` après le pillage, sans `let pieces` au-dessus | `pieces is not defined` : la bourse n'existe pas, on ne peut rien y ajouter |
+    | Une variable déclarée sans valeur | `let experience;` puis `experience = experience + 100;` | `undefined` plus 100 donne `NaN`. Le personnage ne monte jamais de niveau, sans message |
+    | Un argument manquant | `floor(random(20))` pour lancer un d20 | Le dé donne de 0 à 19. Le 20 naturel ne sort jamais, il fallait `random(1, 21)` |
+    | `=` écrit à la place de `===` | `if (jetDeDe = 20)` | Le dé est mis à 20 au lieu d'être lu : chaque jet devient un coup critique |
+    | Une variable déclarée dans `draw()` alors qu'elle devrait vivre au-dessus | `let pointsDeVie = 30;` en première ligne de `draw()` | Le monstre retrouve toute sa vie soixante fois par seconde, comme un troll qu'aucune torche ne brûle |
+    | Une fonction définie et jamais appelée | `function soigner()` écrite, rien ne l'appelle | Le clerc du groupe connaît le sort de soin et ne le lance jamais |
+    | Un index de tableau qui n'existe pas | `inventaire[3]` dans `["épée", "corde", "torche"]` | La quatrième case d'un sac qui en a trois : `undefined`, sans message |
   </markdown>
 
 </page>

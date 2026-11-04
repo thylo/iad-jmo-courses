@@ -1,0 +1,160 @@
+<page id="boite-a-outils">
+  <titre>La boîte à outils</titre>
+  <resume>Un bloc de code à coller tel quel en bas du sketch. Il dessine Billy et Raoul à une position, fait parler les personnages, lance les dés et dit si deux choses se touchent.</resume>
+
+  <section title="Le principe">
+    <markdown>
+      p5 fournit `circle()`, `rect()` ou `random()` : on les appelle avec des nombres, sans
+      savoir comment elles sont écrites. La boîte à outils ajoute cinq fonctions du même genre,
+      faites pour le combat de Billy et Raoul. Elles s'appellent de la même façon :
+
+      ```js
+      dessinerBilly(600, 500, 250);
+      ```
+
+      Le code qui les fait marcher se colle une fois, en bas de `sketch.js`, sous `draw()`, et
+      ne se modifie pas. Comment on écrit une fonction soi-même, c'est la [[05-fonction|séance 5]].
+    </markdown>
+  </section>
+
+  <section title="Les deux images">
+    <markdown>
+      Billy et Raoul sont deux images PNG à fond transparent : [billy.png](/documents/billy.png)
+      et [raoul.png](/documents/raoul.png). Chacune est coupée au ras des pieds, ce qui permet à
+      `dessinerBilly()` de poser l'ogre sur le sol.
+
+      `loadImage("billy.png")` ne cherche pas sur l'ordinateur. Il cherche dans le dossier du
+      sketch, sur le serveur de l'éditeur, et ce dossier ne contient au départ que
+      `sketch.js`, `index.html` et `style.css`. Les deux images doivent donc y être importées,
+      une fois par sketch :
+
+      1. Enregistrer les deux images sur l'ordinateur, par un clic droit sur chaque lien.
+      2. Ouvrir le sketch dans `editor.p5js.org`, connecté à son compte. L'import de fichiers
+         demande un compte.
+      3. Cliquer sur la flèche à côté de `sketch.js`, en haut à gauche de l'éditeur. La liste
+         des fichiers du sketch s'ouvre.
+      4. Cliquer sur le `+` de cette liste, choisir « Upload file », puis glisser les deux
+         images dans le cadre qui apparaît.
+      5. Vérifier que `billy.png` et `raoul.png` figurent dans la liste, à côté de
+         `sketch.js`.
+
+      Le nom écrit dans `loadImage()` doit être celui du fichier, à la lettre près et
+      majuscules comprises : `Billy.png` n'est pas `billy.png`. Si l'image manque ou porte un
+      autre nom, le sketch ne démarre pas et la console signale un fichier introuvable.
+
+      Une autre image importée sous le même nom remplace le personnage sans toucher au code.
+      Il suffit qu'elle soit détourée et coupée au ras des pieds, comme les deux d'origine.
+    </markdown>
+  </section>
+
+  <section title="Le bloc à coller">
+    <markdown>
+      ```js
+      // ---------- Boîte à outils : ne pas modifier ----------
+
+      let billy;
+      let raoul;
+
+      async function chargerPersonnages() {
+        billy = await loadImage("billy.png");
+        raoul = await loadImage("raoul.png");
+      }
+
+      function dessinerPersonnage(personnage, x, y, largeur) {
+        let hauteur = largeur * personnage.height / personnage.width;
+        image(personnage, x - largeur / 2, y - hauteur, largeur, hauteur);
+      }
+
+      function dessinerBilly(x, y, largeur) {
+        dessinerPersonnage(billy, x, y, largeur);
+      }
+
+      function dessinerRaoul(x, y, largeur) {
+        dessinerPersonnage(raoul, x, y, largeur);
+      }
+
+      function parler(texte, x, y) {
+        push();
+        textSize(18);
+        let largeur = textWidth(texte) + 30;
+        noStroke();
+        fill(250);
+        rect(x, y - 50, largeur, 40, 10);
+        triangle(x + 15, y - 11, x + 35, y - 11, x + 15, y + 5);
+        fill(20);
+        textAlign(LEFT, CENTER);
+        text(texte, x + 15, y - 30);
+        pop();
+      }
+
+      function lancerDe(faces) {
+        return floor(random(1, faces + 1));
+      }
+
+      function sontProches(x1, y1, x2, y2, distance) {
+        return dist(x1, y1, x2, y2) &lt; distance;
+      }
+      ```
+    </markdown>
+  </section>
+
+  <section title="Ce que fait chaque outil">
+    <markdown>
+      | Appel | Ce qu'il fait |
+      |---|---|
+      | `await chargerPersonnages();` | Charge les deux images. Une seule fois, dans `setup()` |
+      | `dessinerBilly(x, y, largeur)` | Dessine Billy, les pieds posés en `x`, `y`, à la largeur donnée en pixels |
+      | `dessinerRaoul(x, y, largeur)` | Pareil pour Raoul |
+      | `parler(texte, x, y)` | Une bulle de dialogue dont la pointe tombe en `x`, `y` |
+      | `lancerDe(faces)` | Un nombre entier entre 1 et `faces`. `lancerDe(20)` est un d20 |
+      | `sontProches(x1, y1, x2, y2, distance)` | `true` si les deux points sont à moins de `distance` pixels, `false` sinon |
+
+      Les personnages se placent par les pieds. `rect()`, lui, se place par son coin haut gauche.
+      Deux personnages posés au même `y` se tiennent sur le même sol, quelle que soit leur
+      taille. La hauteur se calcule à partir de la largeur, et l'image n'est jamais déformée.
+
+      `lancerDe()` et `sontProches()` rendent une réponse au lieu de dessiner, comme `random()`.
+      La réponse se range dans une variable ou se pose directement dans un `if`.
+    </markdown>
+  </section>
+
+  <section title="Un sketch qui s'en sert">
+    <markdown>
+      Raoul suit la souris le long du sol. Quand il s'approche, Billy parle. Chaque clic lance
+      un d20, dont le résultat s'affiche au-dessus de Raoul.
+
+      ```js
+      let billyX = 600;
+      let jet = 0;
+
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+      }
+
+      function draw() {
+        background(30);
+        dessinerBilly(billyX, 500, 250);
+        dessinerRaoul(mouseX, 500, 120);
+
+        if (sontProches(mouseX, 500, billyX, 500, 200)) {
+          parler("Qui ose ?", billyX - 100, 230);
+        }
+
+        if (jet > 0) {
+          parler("Jet : " + jet, mouseX, 340);
+        }
+      }
+
+      function mousePressed() {
+        jet = lancerDe(20);
+      }
+
+      // … le bloc de la boîte à outils, collé ici
+      ```
+
+      `"Jet : " + jet` colle un texte et un nombre : c'est le `+` du texte, vu avec
+      [[02-variable|la variable]].
+    </markdown>
+  </section>
+</page>

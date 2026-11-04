@@ -1,164 +1,144 @@
-<page id="04-boucle" status="draft">
-  <titre>Séance 4 — La boucle, et la multitude</titre>
-  <resume>`for`, compteur, boucles imbriquées, le tableau.</resume>
+<page id="04-boucle">
+  <suptitle>Séance 4</suptitle>
+  <titre>La boucle</titre>
+  <resume>`for`, le compteur, la borne qui change, les boucles imbriquées, le tableau. Racontés avec une palissade d'ogre, une armée en rangs et un sac d'aventurier.</resume>
 
-  <markdown>
-    | Temps | Bloc |
-    |---|---|
-    | 0:00–0:15 | La reprise |
-    | 0:15–0:30 | Le manque — la grille à la main |
-    | 0:30–0:55 | La notion — la craie avant la machine |
-    | 0:55–1:05 | Pause |
-    | 1:05–1:45 | Atelier — le système |
-    | 1:45–2:00 | Le mur |
-  </markdown>
-
-  <section title="0:15 — Le manque">
+  <section title="La palissade de Billy">
     <markdown>
-      Projeter une grille de vingt colonnes sur quinze rangées de disques.
+      Billy l'ogre protège son camp derrière une palissade de vingt pieux. Avec ce qui a été vu
+      jusqu'ici, chaque pieu demande sa ligne :
 
-      > **Consigne.** Écrivez-la.
+      ```js
+      fill(110, 80, 50);
+      rect(0, 400, 20, 120);
+      rect(40, 400, 20, 120);
+      rect(80, 400, 20, 120);
+      // … dix-sept lignes de plus
+      ```
 
-      Compter à voix haute avec la classe : trois cents lignes. Personne ne commence, et c'est
-      le but. Rouvrir alors la figure 4 de la dictée de la [[01-instruction|séance 1]] — la grille
-      à rayures — qui avait été mise de côté pour exactement cette raison.
+      Les vingt lignes ne diffèrent que par un nombre, qui augmente de 40 à chaque fois. La
+      boucle écrit la ligne une seule fois et la fait répéter :
+
+      ```js
+      fill(110, 80, 50);
+      for (let i = 0; i &lt; 20; i = i + 1) {
+        rect(i * 40, 400, 20, 120);
+      }
+      ```
+
+      Une palissade deux fois plus serrée, quarante pieux espacés de 20 pixels, demande de
+      changer deux nombres et pas d'écrire vingt lignes de plus.
     </markdown>
   </section>
 
-  <section title="0:30 — La notion : la craie avant la machine">
+  <section title="Tour par tour">
     <markdown>
-      **Ne rien exécuter avant que le tableau soit rempli.** C'est le cœur de la séance : un
-      débutant qui n'a pas vu une boucle se dérouler pas à pas ne s'en fait aucune image
-      mentale, et recopie une formule qu'il ne relira jamais.
+      La boucle se déroule pas à pas. Pour une palissade de quatre pieux, `i &lt; 4` :
 
-      Écrire au tableau, sans lancer :
-
-      ```js
-      for (let i = 0; i &lt; 5; i = i + 1) {
-        console.log(i);
-      }
-      ```
-
-      Puis trois colonnes, remplies tour par tour avec la classe :
-
-      | `i` vaut | `i &lt; 5` ? | ce qui s'affiche |
+      | `i` vaut | `i &lt; 4` ? | le pieu est planté en x = |
       |---|---|---|
       | 0 | oui | 0 |
-      | 1 | oui | 1 |
-      | 2 | oui | 2 |
-      | 3 | oui | 3 |
-      | 4 | oui | 4 |
-      | 5 | **non** | — la boucle s'arrête |
+      | 1 | oui | 40 |
+      | 2 | oui | 80 |
+      | 3 | oui | 120 |
+      | 4 | non | la boucle s'arrête |
 
-      Les trois morceaux du `for`, nommés une fois le tableau rempli : **d'où l'on part**,
-      **jusqu'à quand on continue**, **ce qu'on fait entre deux tours**. Le troisième morceau
-      est exactement le geste de la séance 2.
+      Le `for` tient en trois morceaux, séparés par des points-virgules :
 
-      Signaler que `i++` existe et veut dire la même chose — ils le liront ailleurs. Puis ne
-      plus jamais l'écrire.
+      - `let i = 0` : d'où l'on part ;
+      - `i &lt; 4` : jusqu'à quand on continue, une condition reposée avant chaque tour, dont 4 est
+        la borne ;
+      - `i = i + 1` : ce qu'on fait entre deux tours, ici une incrémentation de 1.
 
-      Exécuter enfin. Puis passer à l'image :
+      `i` est le compteur de la boucle, une variable comme une autre, et le dessin peut s'en
+      servir. Avec
+      `rect(i * 40, 400 - i * 5, 20, 120 + i * 5)`, chaque pieu dépasse un peu le précédent.
+
+      Le code des autres écrit souvent `i++`, qui veut dire `i = i + 1`.
+    </markdown>
+  </section>
+
+  <section title="Autant de fois que la vie">
+    <markdown>
+      La borne de la boucle peut être une variable. Billy a dix points de vie, affichés en
+      cœurs :
 
       ```js
-      for (let x = 0; x &lt; 800; x = x + 40) {
-        circle(x, 300, 20);
+      for (let i = 0; i &lt; vieBilly; i = i + 1) {
+        circle(470 + i * 30, 120, 20);
       }
       ```
 
-      Une ligne de disques. Faire changer le pas en direct : 40, puis 20, puis 10, puis 3.
+      Quand Raoul frappe, `vieBilly` baisse, et à l'image suivante la boucle fait moins de
+      tours. Aucune suite de lignes écrites à la main ne peut suivre un nombre qui change
+      pendant que le sketch tourne. L'exercice [[les-coeurs-de-billy]] part de là.
+    </markdown>
+  </section>
 
-      **Les boucles imbriquées.** Ajouter une boucle autour de l'autre :
+  <section title="L'armée en rangs">
+    <markdown>
+      L'armée du roi se range en dix colonnes de cinq soldats. Une boucle placée dans une
+      autre, dite imbriquée, dessine les cinquante :
 
       ```js
-      function setup() {
-        createCanvas(800, 600);
-        background(20);
-        noStroke();
-        fill(240);
-
-        for (let x = 0; x &lt; width; x = x + 40) {
-          for (let y = 0; y &lt; height; y = y + 40) {
-            circle(x, y, 20);
-          }
+      for (let colonne = 0; colonne &lt; 10; colonne = colonne + 1) {
+        for (let rang = 0; rang &lt; 5; rang = rang + 1) {
+          circle(100 + colonne * 60, 150 + rang * 60, 30);
         }
       }
       ```
 
-      La grille apparaît. C'est le moment le plus spectaculaire des douze heures et il faut
-      l'exploiter comme tel : laisser le silence, puis modifier trois fois de suite, en direct,
-      sans rien expliquer entre deux.
+      Pour chaque tour de la boucle extérieure, la boucle intérieure fait tous les siens. La
+      première colonne se remplit de haut en bas, puis la deuxième, et ainsi de suite jusqu'à
+      la dixième. Dix tours de cinq donnent cinquante cercles.
 
-      ```js
-      circle(x, y, x * 0.03);              // les tailles suivent la position
-      circle(x, y, 20 + random(-8, 8));    // un désordre borné
-      if ((x + y) % 120 === 0) {           // la grille à rayures de la séance 1, enfin écrite
-        circle(x, y, 20);
-      }
-      ```
+      Les deux compteurs ont des noms, `colonne` et `rang`, plutôt que `i` et `j`. Le code se
+      relit sans avoir à se souvenir lequel est lequel.
+    </markdown>
+  </section>
 
-      **La portée, deuxième observation.** Après la boucle, écrire `console.log(x)` :
-      `x is not defined`. Le `x` déclaré dans le `for` n'existe pas en dehors du `for`. Écrire
-      le constat sous celui de la séance 2, sans encore le nommer :
+  <section title="Où vit le compteur">
+    <markdown>
+      Après la boucle, `console.log(i)` affiche `i is not defined`. Le `i` déclaré dans le
+      `for` n'existe qu'entre ses accolades.
 
       > Ce qui est déclaré entre deux accolades n'existe pas en dehors d'elles.
 
-      **Le tableau.** Amené par un besoin : cinquante éléments qui ont chacun leur position, et
-      qui bougent chacun de leur côté.
+      C'est la même règle de portée que pour une variable déclarée dans `draw()`, qui ne survit pas à
+      l'image suivante.
+    </markdown>
+  </section>
+
+  <section title="Le sac de l'aventurier">
+    <markdown>
+      Raoul porte un sac. Une variable par objet ferait `objet1`, `objet2`, `objet3`, et rien
+      pour le quatrième. Un tableau range plusieurs valeurs dans une seule variable, case par
+      case :
 
       ```js
-      let positionsX = [];
-      let positionsY = [];
+      let inventaire = ["épée", "corde", "torche"];
+      ```
 
-      function setup() {
-        createCanvas(800, 600);
-        for (let i = 0; i &lt; 50; i = i + 1) {
-          positionsX.push(random(width));
-          positionsY.push(random(height));
-        }
-      }
+      Le numéro entre crochets est l'indice de la case : `inventaire[0]` est la première,
+      `"épée"`. Les indices partent de zéro, donc la troisième case est `inventaire[2]`. `inventaire.length` donne le nombre de cases, ici
+      3, et `inventaire.push("potion")` en ajoute une au bout.
 
-      function draw() {
-        background(20, 40);
-        for (let i = 0; i &lt; positionsX.length; i = i + 1) {
-          circle(positionsX[i], positionsY[i], 12);
-          positionsY[i] = positionsY[i] + 2;
-        }
+      La boucle parcourt le sac sans savoir d'avance ce qu'il contient :
+
+      ```js
+      fill(240);
+      textSize(20);
+      for (let i = 0; i &lt; inventaire.length; i = i + 1) {
+        text(inventaire[i], 50, 50 + i * 30);
       }
       ```
 
-      Trois points à nommer : les crochets `[i]` qui désignent une case, `.length` qui donne le
-      nombre de cases, et **l'index qui commence à zéro** — la case 50 d'un tableau de 50 cases
-      n'existe pas.
+      `text()` écrit un texte à une position, comme `circle()` y dessine un cercle. Après un
+      `push()`, la liste s'allonge d'une ligne et la boucle n'a pas changé.
 
-      Dire en une phrase que deux tableaux en parallèle ne sont pas ce qu'on écrirait avec plus
-      de temps, et que la manière propre existe. Ne pas la montrer.
-
-      **Erreur à provoquer** : remplacer `positionsX.length` par `51`. Aucun message d'erreur,
-      un cercle manquant que personne ne voit. `console.log(positionsX[50])` donne `undefined`.
-      C'est la panne silencieuse par excellence, celle qui coûtera le plus de temps en séance 6.
-    </markdown>
-  </section>
-
-  <section title="1:05 — Atelier : le système">
-    <markdown>
-      Squelette fourni, deux boucles trouées.
-
-      > **Consigne.** Cinquante éléments qui tombent, et qui réapparaissent en haut quand ils
-      > sortent par le bas. Puis en faire une image : forme, couleur, densité, vitesse sont des
-      > décisions.
-
-      **Contraintes supplémentaires :**
-
-      - (a) Chaque élément a sa propre vitesse — un troisième tableau.
-      - (b) Les éléments réagissent à la position de la souris.
-      - (c) Le même résultat obtenu avec deux boucles imbriquées plutôt qu'avec un tableau.
-    </markdown>
-  </section>
-
-  <section title="Devoir — 45 minutes">
-    <markdown>
-      Trois affiches à partir de la même grille. **Une seule valeur change entre deux affiches.**
-      Poster les trois liens et écrire, à côté de chacun, la valeur qui a changé.
+      L'indice 3 demande la quatrième case d'un sac qui en a trois. La machine répond
+      `undefined`, sans message d'erreur : c'est la panne qui se trouve en affichant la
+      valeur.
     </markdown>
   </section>
 </page>

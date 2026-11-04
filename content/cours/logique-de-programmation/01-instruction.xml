@@ -1,159 +1,36 @@
 <page id="01-instruction">
   <suptitle>Séance 1</suptitle>
-  <titre>L'instruction littérale, et le premier pixel</titre>
-  <resume>Système de coordonnées, appel de fonction et arguments, ordre d'exécution, lecture d'un message d'erreur.</resume>
-
-  <section title="Human fax machine">
-    <markdown>
-      Brogan Bunt et Lucas Ihlein présentent l'expérience en 2012 à la conférence CODE, à
-      Melbourne. Un groupe se coupe en deux, de part et d'autre d'une cloison. D'un côté, ceux
-      qui voient l'image et n'ont pour la transmettre qu'un objet sonore : un bocal de pièces,
-      deux cuillères en bois. De l'autre, ceux qui la redessinent au marqueur sur du papier
-      kraft, à l'oreille. Personne ne fournit de code, chaque groupe invente le sien avant de
-      commencer, et deux groupes n'inventent pas le même.
-    </markdown>
-
-    <image src="human-fax-machine-consigne.jpg"
-           alt="Scan d'un formulaire de fax dactylographié. En tête, le mot « Fax » et un combiné téléphonique dessiné, puis la date du 22 novembre 2013 et un numéro de référence. Deux cases : destinataire, Scan: Journal of Media Arts Culture, à l'université Macquarie ; expéditeur, Brogan Bunt et Lucas Ihlein, à l'université de Wollongong. Objet : Human Fax Machine. Suit un titre souligné, « The Human Fax Machine - Instructions », et une liste de matériel : une salle de classe ordinaire, de quoi dresser deux ou trois cloisons visuelles, un bureau couché sur le flanc, une cloison verticale ou un drap suspendu au plafond, de grandes feuilles de papier de qualité indifférente, des marqueurs épais de couleurs variées, des objets sonores simples dont un bocal en verre contenant quelques pièces. Une main a ajouté au stylo : deux cuillères en bois. Une bavure noire traverse la page, laissée par la transmission. En bas à droite, « Page: 1 »."
-           caption="Première page de la consigne, envoyée en fax le 22 novembre 2013 par l'université de Wollongong à SCAN Journal, qui publie l'expérience la même année. La ligne manuscrite ajoute deux cuillères en bois à la liste du matériel."
-           credit="Brogan Bunt et Lucas Ihlein"
-           source="https://lucasihlein.net/The-Human-Fax-Machine-Experiment"/>
-
-    <video src="vimeo:251055277"
-           caption="« Human Fax Machine », Jaap de Maat, 2018. Deux minutes. Un atelier de Central Saint Martins, d'après le dispositif de Brogan Bunt et Lucas Ihlein."/>
-
-    <markdown>
-      Groupes de quatre à six, un seul objet sonore par groupe, et une cloison par groupe.
-
-      > **Consigne.** Inventer un code qui transmette un dessin par le son, et par rien d'autre.
-      > Vingt minutes pour l'écrire sur une feuille, avant la moindre transmission. Un son, une
-      > marque. Le code s'écrit en double, un exemplaire pour chaque camp.
-
-      Le groupe se coupe ensuite en deux, de part et d'autre de la cloison. Les émetteurs voient
-      l'image, les récepteurs dessinent.
-
-      1. **L'essai.** Un dessin simple passe une première fois. Le code se corrige à chaud, sur
-         ce qu'il ne sait pas encore dire : une diagonale, une courbe, une taille.
-      2. **L'épreuve.** Une image que le groupe n'a jamais vue. Les émetteurs la reçoivent, les
-         récepteurs ne la voient à aucun moment. Personne ne parle, et rien ne passe par un
-         autre canal que l'objet.
-      3. **La reprise.** L'original et le dessin côte à côte, le code corrigé une dernière fois,
-         une deuxième image.
-
-      Les feuilles de code sont affichées au mur à la fin, toutes ensemble.
-    </markdown>
-
-  </section>
-
-  <section title="La dictée de figures">
-    <markdown>
-      Par binômes, sans machine. Chaque binôme reçoit une enveloppe contenant une figure
-      imprimée, que les autres ne voient pas.
-
-      > **Consigne.** Dix minutes pour écrire, sur une feuille, les instructions permettant de
-      > reproduire cette figure au tableau. Celui qui exécutera ne verra jamais l'original, ne
-      > pourra poser aucune question, et appliquera à la lettre. Ce qui n'est pas écrit
-      > n'existe pas.
-
-      Les feuilles circulent ensuite, pas les enveloppes. Chaque binôme exécute au tableau les
-      instructions d'un autre, sans rien interpréter. Si l'instruction dit « trace un trait »,
-      le trait fait la longueur que veut l'exécutant.
-    </markdown>
-
-    <diagram src="dictee-figures-a.svg"
-             alt="Six figures au trait sur deux rangées : un rectangle traversé par une ligne brisée, trois cercles qui se touchent, un rectangle vide et un rectangle noir qu'un cercle chevauche, une grille à rayures obliques, une ligne brisée ouverte, une fleur de six pétales autour d'un cercle, chaque pétale fait d'un trait, d'un triangle rectangle et d'un point noir, tourné d'un sixième de tour par rapport au précédent."
-             caption="Série A. Figures 1 à 3 en haut, 4 à 6 en bas, de gauche à droite."/>
-
-    <diagram src="dictee-figures-b.svg"
-             alt="Six figures au trait sur deux rangées : un rectangle très allongé traversé par une ligne brisée, trois cercles dont un petit posé contre le grand, un cercle vide et un disque noir qu'un rectangle chevauche, une grille de six sur six à rayures obliques, une ligne brisée ouverte, une fleur de cinq pétales autour d'un cercle, chaque pétale fait d'un carré, d'un trait et d'un disque noir, tourné d'un cinquième de tour par rapport au précédent."
-             caption="Série B, dans le même ordre et à la même échelle."/>
-
-    <diagram src="dictee-figures-c.svg"
-             alt="Six figures au trait sur deux rangées : un rectangle haut traversé par une ligne brisée, trois cercles dont un petit flottant dans le grand, un rectangle vide et un triangle noir qu'un cercle chevauche, une grille de six sur six à rayures obliques, une ligne brisée ouverte, une fleur de huit pétales autour d'un point noir, chaque pétale fait d'un trait, d'un rectangle étroit et d'un petit cercle, tourné d'un huitième de tour par rapport au précédent."
-             caption="Série C. Une même position, d'une série à l'autre, pose la même difficulté."/>
-
-    <markdown>
-      Les six figures vont de la plus simple à la plus longue à décrire. Aucune ne porte de nom
-      qui la résume. Jusqu'à la cinquième, aucune n'a de symétrie qui laisse deviner la moitié
-      manquante. Elles existent en trois séries, de sorte que deux binômes voisins ne décrivent
-      jamais le même dessin.
-
-      Les dix-huit figures tiennent dans [dictee-figures.pdf](/documents/dictee-figures.pdf),
-      une par page A4.
-
-      Le dépouillement des feuilles devrait faire apparaître quatre pannes.
-
-      | Panne | Ce qui manque | Exemple entendu |
-      |---|---|---|
-      | **L'ambiguïté** | Un mot qui a deux sens | « un cercle au milieu » — au milieu de quoi ? |
-      | **L'ordre** | Deux instructions justes, dans le mauvais ordre | la couleur déclarée après le tracé |
-      | **L'unité** | Un nombre | « grand », « à droite », « un peu plus bas » |
-      | **L'implicite** | Ce que l'auteur sait et n'a pas écrit | « évidemment, les traits se touchent » |
-
-      Chaque figure vise d'abord l'une des quatre. Ce sont aussi les quatre causes des messages
-      d'erreur, et l'on y renverra à chaque séance.
-
-      La quatrième figure, la grille à rayures, fait exception. Elle ne s'écrit pas sans
-      répéter la même phrase case après case tant que la règle de remplissage n'est pas
-      trouvée : elle est laissée de côté, et rouverte en [[04-boucle|séance 4]].
-
-      La sixième figure est une fleur : le même pétale, répété autour du centre, tourné d'un
-      cran à chaque fois. Six pétales à 60° d'écart en série A, cinq à 72° en série B, huit à
-      45° en série C. Décrit pétale par pétale, avec des formes inclinées à chaque fois, le texte
-      remplit la feuille et se trompe d'angle en route.
-
-      La version courte décrit le pétale une fois, debout, en mesurant chaque forme depuis
-      le centre de la fleur. Ce point de référence s'appelle le point d'ancrage : tourner le
-      pétale revient à le faire pivoter autour de lui. Il reste à écrire « dessiner le pétale,
-      tourner de 60°, six fois ». Donner un nom à une suite d'instructions pour l'appeler
-      autant de fois qu'il faut, c'est une fonction, reprise en [[05-fonction|séance 5]].
-    </markdown>
-  </section>
+  <titre>L'instruction</titre>
+  <resume>Le repère de l'écran, l'appel de fonction et ses arguments, l'ordre d'exécution, les premiers messages d'erreur.</resume>
 
   <section title="L'instruction est l'œuvre">
     <markdown>
-      Sol LeWitt conçoit *Wall Drawing #118* en 1971. Le mur n'est pas peint par lui : il est
-      décrit — cinquante points placés au hasard, tous reliés par des lignes droites — et
-      exécuté par d'autres, à partir d'un certificat. Deux exécutions du même texte, dans deux
-      musées, ne donnent pas le même mur. L'instruction est l'œuvre, l'exécution varie. Il en a
-      écrit plus de mille : [[wall-drawings|les Wall Drawings]].
+      Sol LeWitt conçoit *Wall Drawing #118* en 1971 sous forme de texte. D'autres l'exécutent
+      sur le mur à partir d'un certificat, et deux musées qui suivent le même texte n'obtiennent
+      pas le même mur. Il en a écrit plus de mille : [[wall-drawings|les Wall Drawings]].
 
-      Trois d'entre eux, et ce que l'instruction laisse à celui qui l'exécute.
+      **#118**, 1971. Cinquante points au hasard, tous reliés par des lignes droites.
 
-      **#118**, 1971. Cinquante points au hasard, répartis uniformément sur le mur, tous reliés
-      par des lignes droites. Le hasard est borné, le reste est mécanique : relier chaque point
-      à tous les autres. C'est le programme des séances 3 et 4.
+      **#46**, 1970. Des lignes verticales, pas droites, qui ne se touchent pas. La phrase ne
+      contient aucun nombre, et le tracé revient à la main de l'exécutant.
 
-      **#46**, 1970. Des lignes verticales, pas droites, qui ne se touchent pas, couvrant le
-      mur régulièrement. Aucun nombre dans la phrase. « Pas droites » confie le tracé à la
-      main, et deux exécutants ne rendent pas le même mur.
-
-      **#797**, 1995. Un premier dessinateur trace une ligne horizontale irrégulière en haut du
-      mur. Le deuxième la recopie juste en dessous, sans la décalquer ; le troisième copie la
-      deuxième, et ainsi de suite jusqu'en bas. Chacun a sa couleur. L'écart s'accumule à chaque
-      copie, et le bas du mur ne ressemble plus au haut.
+      **#797**, 1995. Une ligne horizontale irrégulière en haut du mur, recopiée juste en
+      dessous par un autre dessinateur, puis la copie de la copie, jusqu'en bas. L'écart
+      s'accumule à chaque copie.
     </markdown>
 
     <diagram src="lewitt-executions.svg"
              alt="Trois dessins au trait, côte à côte. À gauche, une trentaine de points reliés deux à deux par des droites, qui forment une toile dense. Au centre, dix-neuf lignes verticales tracées à main levée, régulièrement espacées, qui ne se touchent pas. À droite, neuf lignes horizontales empilées : la première est presque droite, chacune reprend la précédente, et l'écart grandit vers le bas."
-             caption="Trois exécutions faites pour cette page, à partir des instructions. De gauche à droite, #118, #46 et #797. Le premier mur compte ici trente points plutôt que cinquante, pour que la toile reste lisible dans la colonne."/>
+             caption="#118, #46 et #797, exécutés pour cette page. Le premier compte trente points plutôt que cinquante, pour rester lisible."/>
 
     <markdown>
-      Écrire du code, c'est écrire une partition. La suite est technique.
-
-      L'outil du cours est p5.js 2.x, une bibliothèque JavaScript pour dessiner dans le
-      navigateur, utilisée depuis l'éditeur en ligne `editor.p5js.org` : un compte gratuit,
-      aucune installation, un lien à partager pour chaque sketch. La Processing Foundation, qui
-      la publie, en donne un aperçu de quatre minutes.
+      L'outil du cours est p5.js 2.x, une bibliothèque JavaScript qui dessine dans le
+      navigateur. Elle s'utilise dans l'éditeur en ligne `editor.p5js.org` : rien à installer,
+      un lien par sketch.
     </markdown>
 
     <video src="youtube:Q3iyPz2-kxk"
-           caption="« Hello, p5.js! », Processing Foundation, janvier 2025. Quatre minutes."/>
-
-    <markdown>
-      La même chose existe en version interactive, où le code se modifie pendant la lecture, sur
-      [hello.p5js.org](https://hello.p5js.org/).
-    </markdown>
+           caption="« Hello, p5.js! », Processing Foundation, janvier 2025. Quatre minutes. La version interactive, où le code se modifie pendant la lecture, est sur hello.p5js.org."/>
   </section>
 
   <section title="Le plan de l'écran">
@@ -164,7 +41,8 @@
       }
       ```
 
-      Un rectangle gris apparaît. Deux nombres, une surface : la largeur, puis la hauteur.
+      Un rectangle gris apparaît, de 800 pixels de large sur 600 de haut : le canvas, la surface
+      où le sketch dessine.
 
       ```js
       function setup() {
@@ -174,27 +52,27 @@
       }
       ```
 
-      Le cercle est coupé, en haut à gauche. L'origine du repère se trouve dans ce coin, et
-      l'axe vertical descend. C'est contre-intuitif pour qui se souvient des mathématiques,
-      familier pour qui a déplacé un calque dans un logiciel de montage.
+      Le cercle est coupé, en haut à gauche. L'origine du repère est dans ce coin, et l'axe
+      vertical descend.
 
-      Le centre du canvas est donc `circle(400, 300, 100)`. Les trois arguments sont une
-      position horizontale, une position verticale et un diamètre, dans cet ordre, et l'ordre
-      n'est pas négociable. C'est la dictée de figures, en machine.
+      Le centre du canvas est donc `circle(400, 300, 100)`. `circle` est une fonction de p5,
+      et son nom suivi de parenthèses l'appelle. Les nombres entre les parenthèses sont ses
+      arguments : la position horizontale, la position verticale et le diamètre, toujours dans
+      cet ordre.
     </markdown>
 
     <diagram src="repere-canvas.svg"
              alt="Schéma au trait. Un rectangle figure le canvas. Au-dessus, une flèche horizontale part du coin supérieur gauche vers la droite, cotée 800 et nommée width. À gauche, une flèche verticale part du même coin vers le bas, cotée 600 et nommée height. Le coin supérieur gauche porte un point et l'étiquette 0, 0 ; le coin inférieur droit un point et l'étiquette 800, 600. Au centre, un cercle dont le centre est un point rouge, relié à l'axe du haut et à celui de gauche par deux traits pointillés, étiqueté en rouge 400, 300 puis anchor point. Sous le cercle, deux cotes empilées : la première va du centre au bord et porte 50 radius, la seconde va d'un bord à l'autre et porte 100 diameter."
-             caption="Le repère du canvas : l'origine dans le coin supérieur gauche, l'axe vertical qui descend, et 800 pixels sur 600 entre les deux coins marqués. Le point rouge marque l'ancrage du cercle, qui est son centre. Le troisième nombre de `circle` donne le diamètre, pas le rayon."/>
+             caption="L'origine dans le coin supérieur gauche, l'axe vertical qui descend. Le point rouge est l'ancrage du cercle, son centre. Le troisième nombre de `circle` donne le diamètre."/>
 
     <markdown>
-      Les autres formes se donnent de la même façon : `rect`, `square`, `ellipse`, `line`,
+      Les autres formes s'écrivent de la même façon : `rect`, `square`, `ellipse`, `line`,
       `triangle`. Le nombre d'arguments change d'une forme à l'autre, leur ordre est fixe.
 
-      Le point que désignent les deux premiers nombres change aussi. C'est le point d'ancrage
-      de chaque forme : le centre pour `circle` et `ellipse`, le coin supérieur gauche pour
-      `rect` et `square`. `circle(200, 200, 100)` et `square(200, 200, 100)` ne se superposent
-      pas : le carré part du centre du cercle.
+      Les deux premiers nombres désignent le point d'ancrage de la forme : le centre pour
+      `circle` et `ellipse`, le coin supérieur gauche pour `rect` et `square`. Donc
+      `circle(200, 200, 100)` et `square(200, 200, 100)` ne se superposent pas : le carré part
+      du centre du cercle.
 
       ```js
       function setup() {
@@ -205,108 +83,47 @@
       }
       ```
 
-      Rien ne change, le cercle reste gris. Le `fill` remonté d'une ligne, au-dessus du
-      `circle`, et le cercle devient rouge. C'est la panne de l'ordre, revenue en machine.
+      Le cercle reste gris. Avec le `fill` remonté au-dessus du `circle`, il devient rouge.
+      Chaque ligne terminée par un point-virgule est une instruction, et la machine exécute les
+      instructions de haut en bas, une par une. C'est la panne de l'ordre de [[la-dictee-de-figures|la dictée de figures]].
     </markdown>
 
-    <note type="attention" title="La couleur se déclare avant la forme">
+    <note type="attention" title="La couleur se règle avant la forme">
       <markdown>
-        `fill()` ne colore pas ce qui est déjà tracé. Il règle la couleur des formes qui
-        suivent, jusqu'au prochain `fill()`. Même chose pour `stroke()` et `strokeWeight()`.
+        `fill()` règle la couleur des formes qui suivent, jusqu'au prochain `fill()`. Ce qui est
+        déjà tracé ne change pas. Même chose pour `stroke()` et `strokeWeight()`.
       </markdown>
     </note>
 
     <markdown>
-      `fill` et `noFill` vont par paire, `stroke` et `noStroke` aussi : le premier de chaque
-      paire allume, le second éteint. `strokeWeight()` donne l'épaisseur du contour.
+      `fill` et `noFill` vont par paire, `stroke` et `noStroke` aussi : le premier allume, le
+      second éteint. `strokeWeight()` donne l'épaisseur du contour.
 
-      `width` et `height` valent les dimensions du canvas. Elles évitent de réécrire les nombres
-      à la main : `circle(width / 2, height / 2, 100)` reste au centre même si le canvas change
-      de taille.
-    </markdown>
-  </section>
-
-  <section title="Atelier — la figure imposée">
-    <markdown>
-      Kandinsky peint *Einige Kreise* en 1926, au Bauhaus de Dessau. Le tableau n'est fait que
-      de disques posés sur un fond sombre, de tailles et de couleurs différentes. Il se
-      reproduit avec `background`, `fill`, `noStroke` et `circle`, le même appel répété avec
-      d'autres nombres.
-    </markdown>
-
-    <image src="einige-kreise-kandinsky.jpg"
-           alt="Peinture. Sur un fond bleu très sombre et nuageux, une trentaine de cercles de tailles différentes. Au centre gauche, le plus grand : un disque noir cerné d'un large anneau bleu, lui-même entouré d'un halo blanc. Autour, des disques roses, jaunes, orange, rouges, verts, bleus et violets, dont beaucoup se chevauchent et laissent voir au travers une couleur nouvelle à l'endroit du croisement. À droite, un disque vert à centre noir et un grand disque mauve pâle qui porte de petits cercles. En bas à gauche, le monogramme du peintre."
-           caption="Vassily Kandinsky, « Einige Kreise », 1926. Huile sur toile, Solomon R. Guggenheim Museum, New York. Tout y est fait de disques posés les uns sur les autres, ce que la séance vient d'apprendre à écrire."
-           credit="Domaine public, via Wikimedia Commons"
-           source="https://commons.wikimedia.org/wiki/File:Vassily_Kandinsky,_1926_-_Several_Circles,_Gugg_0910_25.jpg"/>
-
-    <markdown>
-      > **Consigne.** Reproduire la composition projetée. Quelques cercles suffisent, à condition
-      > qu'ils soient aux bonnes places. Ce qui compte, c'est que ça ressemble.
-
-      Les cercles du tableau se chevauchent en transparence. Voir [`fill()`](https://p5js.org/reference/p5/fill/) pour voir comment changer de couleur de remplissage.
-
-      Il est aussi possible d'utiliser [`blendMode()`](https://p5js.org/reference/p5/blendMode/), qui décide
-      comment une forme se mélange à ce qui est déjà dessiné. `MULTIPLY` assombrit, `SCREEN`
-      éclaircit, et sur un fond presque noir les deux ne donnent pas le même tableau. À essayer
-      une fois la composition debout.
-
-      **Contraintes supplémentaires**, une fois la composition finie :
-
-      - (a) La même composition sans utiliser `circle`.
-      - (b) La même composition en deux couleurs seulement.
-      - (c) La même composition retournée — le haut en bas.
+      `width` et `height` valent les dimensions du canvas. `circle(width / 2, height / 2, 100)`
+      reste au centre même si le canvas change de taille.
     </markdown>
   </section>
 
   <section title="Quand ça casse">
     <markdown>
-      Trois erreurs couvrent presque tout ce qui risque d'arriver lors de cette première séance.
-
       ```js
       circle(400, 300);
       ```
-      > `Expected at least 3 arguments, but received fewer in circle()` — il manque un nombre.
-      > La machine dit précisément ce qui manque, et c'est rare : en profiter.
+      > `Expected at least 3 arguments, but received fewer in circle()` : il manque un nombre.
 
       ```js
       Circle(400, 300, 100);
       ```
-      > `Circle is not defined` — la majuscule. p5 ajoute une suggestion (« you may have
-      > accidentally written "Circle" instead of "circle" »), mais ne corrige rien : le sketch
-      > reste arrêté tant que le mot n'est pas réécrit.
+      > `Circle is not defined` : la majuscule. p5 suggère « circle », mais le sketch reste
+      > arrêté tant que le mot n'est pas réécrit.
 
       ```js
       circle(400, 300, 100
       ```
-      > `SyntaxError: missing ) after argument list` — et le numéro de ligne indiqué est celui
-      > d'**après**. Le numéro dit où la machine a buté, pas où est la faute.
+      > `SyntaxError: missing ) after argument list` : le numéro de ligne indiqué est celui de
+      > la ligne suivante, là où la machine a buté.
 
-      La méthode, quand rien ne s'affiche ou que le message n'aide pas, tient sur une page :
-      [[protocole-de-panne]].
-    </markdown>
-  </section>
-
-  <section title="Le mur">
-    <markdown>
-      Les liens de tous les sketches sont affichés côte à côte sur la page partagée, à la fin de
-      chaque séance. Deux sont ouverts au hasard, trente secondes chacun. Le mur ne note rien et
-      ne relève pas ce qui manque.
-
-      La grille du rendu final est donnée dès cette séance, et pas plus tard : [[rendu-note]].
-    </markdown>
-  </section>
-
-  <section title="Devoir — l'autoportrait">
-    <markdown>
-      Un autoportrait, sur un canvas de 400 × 500 imposé à toute la
-      classe. Les formes et les couleurs de la séance, rien d'autre : pas d'image importée, pas
-      de texte.
-
-      Personne ne juge la ressemblance. Un détail suffit à reconnaître quelqu'un : des lunettes,
-      une mèche.
-
-      Poster le lien vers le sketchbook sur la classroom.
+      Quand rien ne s'affiche ou que le message n'aide pas : [[protocole-de-panne]].
     </markdown>
   </section>
 </page>

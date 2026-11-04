@@ -1,68 +1,11 @@
-<page id="02-variable" status="draft">
-  <titre>Séance 2 — La variable, et le mouvement</titre>
-  <resume>`draw()` comme timeline, la variable, les types (nombre, texte, booléen), première rencontre avec la portée.</resume>
+<page id="02-variable">
+  <suptitle>Séance 2</suptitle>
+  <titre>La variable</titre>
+  <resume>`draw()`, la variable, l'incrémentation `x = x + 1`, les types, la portée. Racontés avec un chevalier en route vers le château.</resume>
 
-  <markdown>
-    | Temps | Bloc |
-    |---|---|
-    | 0:00–0:15 | La reprise |
-    | 0:15–0:35 | Le manque — faire traverser l'écran |
-    | 0:35–0:55 | La notion — `draw()`, la variable, les types |
-    | 0:55–1:05 | Pause |
-    | 1:05–1:45 | Atelier — la traversée |
-    | 1:45–2:00 | Le mur |
-  </markdown>
-
-  <section title="0:00 — La reprise">
+  <section title="Raoul se met en route">
     <markdown>
-      Trois autoportraits projetés, pris au hasard, l'auteur ne parle pas. Une seule question à
-      la classe pour chacun : « c'est qui ? » La réponse vient en général d'un détail, et c'est
-      ce détail qu'on nomme. La ressemblance ne se commente pas.
-    </markdown>
-  </section>
-
-  <section title="0:15 — Le manque">
-    <markdown>
-      > **Consigne.** Un disque part du bord gauche et arrive au bord droit. Vingt minutes,
-      > avec les outils de la séance 1.
-
-      Laisser faire huit minutes sans intervenir. Ils écrivent des lignes de cercles :
-
-      ```js
-      circle(0, 300, 80);
-      circle(10, 300, 80);
-      circle(20, 300, 80);
-      ```
-
-      Tout s'affiche en même temps. Il n'y a pas de temps dans `setup()`. Faire formuler le
-      constat par un étudiant avant de passer à la suite.
-    </markdown>
-  </section>
-
-  <section title="0:35 — La notion">
-    <markdown>
-      ```js
-      function setup() {
-        createCanvas(800, 600);
-      }
-
-      function draw() {
-        background(20);
-        circle(400, 300, 80);
-      }
-      ```
-
-      Rien ne semble changer. Remplacer le premier nombre par `random(800)` : ça grésille.
-      **`draw()` est rejoué soixante fois par seconde.** C'est leur timeline, et ils la
-      connaissent déjà — une image, puis une autre, puis une autre.
-
-      Retirer `background(20)` : la trace apparaît. Le fond n'est pas un décor, c'est un
-      effacement. Laisser tourner dix secondes, c'est un moment visuel et il vaut mieux qu'un
-      paragraphe.
-
-      Remettre le fond. Poser le vrai manque : pour que le disque avance, il faut un nombre qui
-      change entre deux images. Or tout ce qui est écrit dans `draw()` recommence à
-      l'identique.
+      Raoul le chevalier part du bord gauche de l'écran et marche vers le château, à droite.
 
       ```js
       let positionX = 0;
@@ -73,113 +16,96 @@
 
       function draw() {
         background(20);
-        circle(positionX, 300, 80);
+
+        // le château
+        fill(120);
+        rect(700, 200, 80, 200);
+
+        // Raoul
+        fill(200, 200, 220);
+        circle(positionX, 350, 40);
         positionX = positionX + 2;
       }
       ```
 
-      **Le geste à décomposer.** `positionX = positionX + 2` n'est pas une égalité. Lu de droite
-      à gauche : *prends ce qu'il y a dans la boîte, ajoute 2, remets le résultat dans la
-      boîte*. C'est la première erreur de lecture de tous les débutants, qui lisent `=` comme en
-      mathématiques. Le faire dire à voix haute par trois étudiants différents, dans leurs
-      propres mots. Ne pas passer à la suite avant.
+      `draw()` est rejoué soixante fois par seconde, comme les images d'une timeline. Tout ce
+      qu'il contient recommence à l'identique, à une exception près : `positionX`. Ce nombre
+      change entre deux images, donc Raoul avance.
 
-      **La portée, en observation.** Déplacer `let positionX = 0;` à l'intérieur de `draw()` :
-      plus rien ne bouge. Pourquoi : la ligne est rejouée à chaque image, et la variable est
-      recréée à zéro soixante fois par seconde.
+      Une variable est une boîte qui porte un nom. `let positionX = 0;` fabrique la boîte, lui
+      donne son nom et y range 0 : c'est la déclaration de la variable. Ensuite, partout où
+      `positionX` est écrit, la machine va lire ce qu'il y a dedans.
+    </markdown>
+  </section>
 
-      Ne pas prononcer le mot « portée ». Écrire le constat au tableau, tel quel :
+  <section title="Prendre, ajouter, remettre">
+    <markdown>
+      `positionX = positionX + 2` serait faux en mathématiques. En programmation, le `=` range
+      une valeur dans une variable : c'est une affectation. La ligne se lit de droite à gauche :
+      prendre ce qu'il y a dans `positionX`, ajouter 2, remettre le résultat dans `positionX`.
+      Cette opération s'appelle une incrémentation, et une décrémentation quand elle retire.
 
-      > Ce qui est déclaré dans `draw()` ne survit pas à l'image suivante.
-
-      Il sera repris en séance 4, puis nommé en séance 5.
-
-      **Les types**, amenés par quatre besoins et non par une liste :
+      Elle sert partout où quelque chose s'accumule ou s'use.
 
       ```js
-      let positionX = 0;              // un nombre
-      let titre = "Sans titre";       // du texte
-      let enPause = false;            // un booléen : vrai ou faux, rien d'autre
+      pieces = pieces + 10;            // Raoul pille un coffre
+      pointsDeVie = pointsDeVie - 3;   // une flèche le touche
+      fleches = fleches - 1;           // il en tire une à son tour
       ```
 
-      La démonstration qui rend le type visible — remplacer `0` par `"0"` :
+      Le nombre de droite décide de l'allure. Avec `+ 2`, Raoul marche. Avec `+ 8`, il est à
+      cheval.
+    </markdown>
+  </section>
+
+  <section title="Le type">
+    <markdown>
+      Une variable ne contient pas toujours un nombre. Les trois sortes utilisées dans le cours :
+
+      ```js
+      let pointsDeVie = 30;           // un nombre
+      let nom = "Raoul";              // du texte, entre guillemets
+      let aLaClef = false;             // un booléen : true ou false, rien d'autre
+      ```
+
+      La sorte de valeur s'appelle le type, et elle change ce que fait le `+`. Il suffit de
+      deux guillemets pour le voir :
 
       ```js
       let positionX = "0";
       positionX = positionX + 2;      // "02", puis "022", puis "0222"
       ```
 
-      Le disque ne bouge plus, et aucune erreur ne s'affiche. Du texte s'additionne autrement
-      qu'un nombre : le `+` ne fait pas la même chose selon ce qu'on lui donne. C'est la
-      définition d'un type, et c'est aussi une panne silencieuse — la troisième étape du
-      protocole la trouve en une ligne.
-
-      Finir par les variables que le monde fournit et qu'on ne déclare pas :
-
-      ```js
-      circle(mouseX, mouseY, 80);
-      ```
+      Entre deux nombres, `+` additionne. Entre un texte et un nombre, il colle l'un au bout de
+      l'autre. Raoul reste au bord de l'écran, et aucun message d'erreur ne le signale.
+      `console.log(positionX)` montre ce que la variable contient vraiment.
     </markdown>
   </section>
 
-  <section title="1:05 — Atelier : la traversée">
+  <section title="La portée">
     <markdown>
-      Le squelette est fourni, troué. On ne part pas d'une page blanche à ce stade.
+      La ligne `let positionX = 0;` est écrite au-dessus de `setup()`, en dehors de toute
+      fonction. Déplacée en première ligne de `draw()`, elle est rejouée à chaque image : la
+      variable est déclarée de nouveau soixante fois par seconde, avec 0 dedans, et Raoul ne
+      quitte plus le bord.
 
-      ```js
-      let positionX = 0;
-      let vitesse = ___;
+      > Ce qui est déclaré dans `draw()` ne survit pas à l'image suivante.
 
-      function setup() {
-        createCanvas(800, 600);
-      }
-
-      function draw() {
-        background(20);
-        fill(230, 200, 60);
-        circle(___, 300, 60);
-        positionX = ___;
-      }
-      ```
-
-      > **Consigne.** Faire traverser l'écran à l'objet. Puis lui donner une allure : sa forme,
-      > sa couleur, sa vitesse sont des décisions, pas des valeurs par défaut.
-
-      **Contraintes supplémentaires :**
-
-      - (a) L'objet accélère au lieu d'aller à vitesse constante.
-      - (b) Il laisse une trace qui s'efface lentement — remplacer `background(20)` par
-        `background(20, 20)` et comprendre ce que fait le second nombre.
-      - (c) Deux objets qui traversent à des vitesses différentes.
-
-      **L'objet sort de l'écran et ne revient pas.** C'est voulu, et c'est le manque de la
-      séance 3. Si la question est posée, répondre qu'il n'y a pas encore de quoi la résoudre,
-      et l'écrire au tableau pour la semaine suivante.
+      Une variable qui doit se souvenir d'une image à l'autre, comme une position, des points
+      de vie ou une bourse, se déclare au-dessus de tout. La partie du code où une variable
+      existe s'appelle sa portée.
     </markdown>
   </section>
 
-  <section title="Devoir — 45 minutes">
+  <section title="Les variables de p5">
     <markdown>
-      Prendre l'autoportrait de la personne inscrite juste en dessous de soi sur la page
-      partagée, la dernière prenant celui de la première, et le dupliquer dans son compte.
-
-      Le réécrire pour qu'il tienne dans un rectangle de 200 × 250, la moitié du canvas
-      d'origine, placé n'importe où sur un canvas de 800 × 600. Deux variables, en haut du
-      sketch, donnent le coin supérieur gauche du rectangle :
+      p5 fournit des variables qu'on ne déclare pas et qu'on lit seulement. `mouseX` et
+      `mouseY` contiennent la position de la souris, `width` et `height` la taille du canvas.
 
       ```js
-      let x = 300;
-      let y = 100;
+      circle(mouseX, mouseY, 40);       // Raoul suit la souris
+      rect(width - 100, 200, 80, 200);  // le château reste collé au bord droit
       ```
-
-      Chaque nombre du dessin est divisé par deux, puis compté à partir de `x` et `y` :
-      `circle(200, 180, 240)` devient `circle(x + 100, y + 90, 120)`.
-
-      Le test : changer les valeurs de `x` et `y`. Le portrait se déplace en entier, sans
-      qu'aucune pièce reste sur place. Tracer le rectangle en trait fin pendant le travail
-      montre ce qui dépasse.
-
-      Poster le lien sous celui de l'original.
     </markdown>
   </section>
 </page>

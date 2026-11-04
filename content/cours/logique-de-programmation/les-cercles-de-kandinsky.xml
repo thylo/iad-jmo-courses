@@ -1,0 +1,32 @@
+<page id="les-cercles-de-kandinsky">
+  <suptitle>Séance 1</suptitle>
+  <titre>Les cercles de Kandinsky</titre>
+  <resume>Reproduire « Einige Kreise » avec `circle` et `fill`. En binôme, quarante minutes.</resume>
+
+  <markdown>
+    Kandinsky peint *Einige Kreise* en 1926, au Bauhaus de Dessau : des disques de tailles et de
+    couleurs différentes, sur un fond sombre.
+  </markdown>
+
+  <image src="einige-kreise-kandinsky.jpg"
+         alt="Peinture. Sur un fond bleu très sombre et nuageux, une trentaine de cercles de tailles différentes. Au centre gauche, le plus grand : un disque noir cerné d'un large anneau bleu, lui-même entouré d'un halo blanc. Autour, des disques roses, jaunes, orange, rouges, verts, bleus et violets, dont beaucoup se chevauchent et laissent voir au travers une couleur nouvelle à l'endroit du croisement. À droite, un disque vert à centre noir et un grand disque mauve pâle qui porte de petits cercles. En bas à gauche, le monogramme du peintre."
+         caption="Vassily Kandinsky, « Einige Kreise », 1926. Huile sur toile, Solomon R. Guggenheim Museum, New York."
+         credit="Domaine public, via Wikimedia Commons"
+         source="https://commons.wikimedia.org/wiki/File:Vassily_Kandinsky,_1926_-_Several_Circles,_Gugg_0910_25.jpg"/>
+
+  <markdown>
+    > **Consigne.** Reproduire le tableau avec `background`, `fill`, `noStroke` et `circle`.
+    > Quelques cercles suffisent, s'ils sont aux bonnes places.
+
+    Les disques se chevauchent en transparence. Un quatrième nombre dans
+    [`fill()`](https://p5js.org/reference/p5/fill/) règle l'opacité, de 0 à 255.
+    [`blendMode()`](https://p5js.org/reference/p5/blendMode/) change la façon dont une forme se
+    mélange à ce qui est déjà dessiné : `MULTIPLY` assombrit, `SCREEN` éclaircit.
+
+    **Contraintes supplémentaires**, pour le binôme qui a fini :
+
+    - (a) Sans `circle`.
+    - (b) En deux couleurs.
+    - (c) Retournée, le haut en bas.
+  </markdown>
+</page>
