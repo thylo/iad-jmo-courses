@@ -83,7 +83,7 @@
         }
 
         if (jet > 0) {
-          parler("Jet : " + jet, mouseX, 340);
+          parler("Tiens prend ça : " + jet, mouseX, 340);
         }
       }
 
