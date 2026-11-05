@@ -2,230 +2,65 @@
   <titre>La boîte à outils</titre>
   <resume>Un fichier à importer dans le sketch, avec les deux images. Il dessine Billy, Raoul et le château à une position, fait parler les personnages, lance les dés et dit si deux choses se touchent.</resume>
 
-  <section title="Le principe">
+  <section title="L'installation">
     <markdown>
-      p5 fournit `circle()`, `rect()` ou `random()` : on les appelle avec des nombres, sans
-      savoir comment elles sont écrites. La boîte à outils ajoute sept fonctions du même genre,
-      faites pour le combat de Billy et Raoul. Elles s'appellent de la même façon :
+      p5 fournit `circle()` ou `random()`. La boîte à outils ajoute sept fonctions du même
+      genre, faites pour le combat de Billy et Raoul et rangées dans `outils.js`. Le fichier
+      s'importe une fois par sketch et ne se modifie pas. Écrire ses propres fonctions, c'est
+      la [[05-fonction|séance 5]].
 
-      ```js
-      dessinerBilly(600, 500, 250);
-      ```
-
-      Le code qui les fait marcher tient dans un fichier, `outils.js`, posé à côté de
-      `sketch.js`. Il s'importe une fois par sketch et ne se modifie pas. Comment on écrit une
-      fonction soi-même, c'est la [[05-fonction|séance 5]].
-    </markdown>
-  </section>
-
-  <section title="Les trois fichiers">
-    <markdown>
-      La boîte à outils tient en trois fichiers : [outils.js](/documents/outils.js),
-      [billy.png](/documents/billy.png) et [raoul.png](/documents/raoul.png). Les deux images
-      sont des PNG à fond transparent, coupés au ras des pieds, ce qui permet à
-      `dessinerBilly()` de poser l'ogre sur le sol.
-
-      `loadImage("billy.png")` ne cherche pas sur l'ordinateur. Il cherche dans le dossier du
-      sketch, sur le serveur de l'éditeur, et ce dossier ne contient au départ que
-      `sketch.js`, `index.html` et `style.css`. Les trois fichiers doivent donc y être
-      importés, une fois par sketch :
-
-      1. Enregistrer les trois fichiers sur l'ordinateur, par un clic droit sur chaque lien.
-      2. Ouvrir le sketch dans `editor.p5js.org`, connecté à son compte. L'import de fichiers
-         demande un compte.
-      3. Cliquer sur la flèche à côté de `sketch.js`, en haut à gauche de l'éditeur. La liste
-         des fichiers du sketch s'ouvre.
-      4. Cliquer sur le `+` de cette liste, choisir « Upload file », puis glisser les trois
-         fichiers dans le cadre qui apparaît.
-      5. Vérifier que `outils.js`, `billy.png` et `raoul.png` figurent dans la liste, à côté
-         de `sketch.js`.
-
-      Le nom écrit dans `loadImage()` doit être celui du fichier, à la lettre près et
-      majuscules comprises : `Billy.png` n'est pas `billy.png`. Si l'image manque ou porte un
-      autre nom, le sketch ne démarre pas et la console signale un fichier introuvable.
-
-      Un sketch dupliqué par « File », puis « Duplicate », garde ses fichiers. Un sketch vide
-      préparé une fois avec les trois fichiers et la ligne d'`index.html` sert ensuite de
-      départ à tous les autres.
-
-      Une autre image importée sous le même nom remplace le personnage sans toucher au code.
-      Il suffit qu'elle soit détourée et coupée au ras des pieds, comme les deux d'origine.
-    </markdown>
-  </section>
-
-  <section title="La ligne dans index.html">
-    <markdown>
-      Le navigateur n'ouvre pas `sketch.js` directement. Il ouvre `index.html`, qui charge p5,
-      puis chaque fichier nommé dans une balise `script`. Un fichier importé mais absent de
-      cette liste reste dans le dossier sans être lu : la console signale alors
-      `dessinerBilly is not defined`.
-
-      Il faut donc ouvrir `index.html` dans la liste des fichiers et ajouter une ligne, juste
-      au-dessus de celle qui charge `sketch.js` :
+      1. Enregistrer [outils.js](/documents/outils.js), [billy.png](/documents/billy.png) et
+         [raoul.png](/documents/raoul.png) par un clic droit sur chaque lien.
+      2. Ouvrir le sketch dans `editor.p5js.org`, connecté à son compte, puis cliquer sur la
+         flèche à côté de `sketch.js` pour afficher la liste des fichiers.
+      3. Cliquer sur le `+` de la liste, choisir « Upload file » et glisser les trois fichiers.
+      4. Ouvrir `index.html` et ajouter la ligne d'`outils.js` juste au-dessus de celle de
+         `sketch.js`.
 
       ```html
       &lt;script src="outils.js">&lt;/script>
       &lt;script src="sketch.js">&lt;/script>
       ```
 
-      Le fichier déclare déjà `billy` et `raoul`. Un `let billy;` écrit en plus dans
-      `sketch.js` empêche le sketch de démarrer, et la console signale
-      `Identifier 'billy' has already been declared`.
+      Un sketch préparé ainsi se duplique par « File », puis « Duplicate », avec ses fichiers.
+      Une autre image détourée, coupée au ras des pieds et importée sous le même nom, remplace
+      le personnage sans toucher au code.
     </markdown>
   </section>
 
-  <section title="Le fichier outils.js">
+  <section title="Les erreurs">
     <markdown>
-      Il s'ouvre dans l'éditeur comme `sketch.js`. Le lire n'est pas nécessaire pour s'en
-      servir.
-
-      ```js
-      // ---------- Boîte à outils : ne pas modifier ----------
-      // Chargé par index.html, juste avant sketch.js.
-
-      let billy;
-      let raoul;
-
-      async function chargerPersonnages() {
-        billy = await loadImage("billy.png");
-        raoul = await loadImage("raoul.png");
-      }
-
-      function dessinerPersonnage(personnage, x, y, largeur) {
-        let hauteur = largeur * personnage.height / personnage.width;
-        image(personnage, x - largeur / 2, y - hauteur, largeur, hauteur);
-      }
-
-      function dessinerBilly(x, y, largeur) {
-        dessinerPersonnage(billy, x, y, largeur);
-      }
-
-      function dessinerRaoul(x, y, largeur) {
-        dessinerPersonnage(raoul, x, y, largeur);
-      }
-
-      function dessinerChateau(x, y, largeur) {
-        dessinerForteresse(x, y, largeur, false);
-      }
-
-      function dessinerChateauOuvert(x, y, largeur) {
-        dessinerForteresse(x, y, largeur, true);
-      }
-
-      function dessinerForteresse(x, y, largeur, herseLevee) {
-        push();
-        translate(x, y);
-        scale(largeur / 400);
-        stroke(40);
-        strokeWeight(4);
-        strokeJoin(ROUND);
-
-        // le mur, avec ses créneaux
-        fill(175, 178, 186);
-        rect(-120, -220, 240, 220);
-        rect(-105, -245, 30, 25);
-        rect(-45, -245, 30, 25);
-        rect(15, -245, 30, 25);
-        rect(75, -245, 30, 25);
-
-        // la porte : la cour derrière la herse levée, ou la herse baissée
-        stroke(40);
-        if (herseLevee) {
-          fill(90, 140, 70);
-          rect(-50, -150, 100, 150, 50, 50, 0, 0);
-          stroke(120, 124, 135);
-          strokeWeight(6);
-          line(-25, -138, -25, -118);
-          line(0, -144, 0, -118);
-          line(25, -138, 25, -118);
-          line(-44, -122, 44, -122);
-        } else {
-          fill(45, 40, 40);
-          rect(-50, -150, 100, 150, 50, 50, 0, 0);
-          stroke(120, 124, 135);
-          strokeWeight(6);
-          line(-25, -138, -25, -3);
-          line(0, -144, 0, -3);
-          line(25, -138, 25, -3);
-          line(-44, -95, 44, -95);
-          line(-46, -45, 46, -45);
-        }
-
-        // les deux tours
-        stroke(40);
-        strokeWeight(4);
-        fill(175, 178, 186);
-        rect(-190, -320, 70, 320);
-        rect(120, -320, 70, 320);
-        fill(45, 40, 40);
-        rect(-161, -270, 12, 44, 6, 6, 0, 0);
-        rect(149, -270, 12, 44, 6, 6, 0, 0);
-
-        // les toits et les drapeaux
-        fill(165, 42, 42);
-        triangle(-200, -320, -155, -410, -110, -320);
-        triangle(110, -320, 155, -410, 200, -320);
-        line(-155, -410, -155, -460);
-        line(155, -410, 155, -460);
-        fill(220, 180, 60);
-        triangle(-155, -460, -120, -448, -155, -436);
-        triangle(155, -460, 190, -448, 155, -436);
-
-        pop();
-      }
-
-      function parler(texte, x, y) {
-        push();
-        textSize(18);
-        let largeur = textWidth(texte) + 30;
-        noStroke();
-        fill(250);
-        rect(x, y - 50, largeur, 40, 10);
-        triangle(x + 15, y - 11, x + 35, y - 11, x + 15, y + 5);
-        fill(20);
-        textAlign(LEFT, CENTER);
-        text(texte, x + 15, y - 30);
-        pop();
-      }
-
-      function lancerDe(faces) {
-        return floor(random(1, faces + 1));
-      }
-
-      function sontProches(x1, y1, x2, y2, distance) {
-        return dist(x1, y1, x2, y2) &lt; distance;
-      }
-      ```
+      | Message dans la console | Cause |
+      |---|---|
+      | Un fichier introuvable | Une image manque ou porte un autre nom. `Billy.png` n'est pas `billy.png` |
+      | `dessinerBilly is not defined` | La ligne d'`outils.js` manque dans `index.html` |
+      | `Identifier 'billy' has already been declared` | `outils.js` déclare déjà `billy` et `raoul` : un `let billy;` dans `sketch.js` est de trop |
     </markdown>
   </section>
 
-  <section title="Ce que fait chaque outil">
+  <section title="Les outils">
     <markdown>
       | Appel | Ce qu'il fait |
       |---|---|
-      | `await chargerPersonnages();` | Charge les deux images. Une seule fois, dans `setup()` |
-      | `dessinerBilly(x, y, largeur)` | Dessine Billy, les pieds posés en `x`, `y`, à la largeur donnée en pixels |
+      | `await chargerPersonnages();` | Charge les deux images, une seule fois, dans `setup()` |
+      | `dessinerBilly(x, y, largeur)` | Billy, les pieds posés en `x`, `y`, à la largeur donnée en pixels |
       | `dessinerRaoul(x, y, largeur)` | Pareil pour Raoul |
-      | `dessinerChateau(x, y, largeur)` | Dessine le château, herse baissée, posé par le milieu de sa base. Il est fait de formes p5 et n'a rien à charger |
-      | `dessinerChateauOuvert(x, y, largeur)` | Le même château, herse levée sur la cour |
+      | `dessinerChateau(x, y, largeur)` | Le château, herse baissée, posé par le milieu de sa base |
+      | `dessinerChateauOuvert(x, y, largeur)` | Le même château, herse levée |
       | `parler(texte, x, y)` | Une bulle de dialogue dont la pointe tombe en `x`, `y` |
       | `lancerDe(faces)` | Un nombre entier entre 1 et `faces`. `lancerDe(20)` est un d20 |
       | `sontProches(x1, y1, x2, y2, distance)` | `true` si les deux points sont à moins de `distance` pixels, `false` sinon |
 
-      Les personnages se placent par les pieds, le château par le milieu de sa base. `rect()`,
-      lui, se place par son coin haut gauche. Deux dessins posés au même `y` se tiennent sur le
-      même sol, quelle que soit leur taille. La hauteur se calcule à partir de la largeur, et
-      rien n'est jamais déformé.
-
-      `lancerDe()` et `sontProches()` rendent une réponse au lieu de dessiner, comme `random()`.
-      La réponse se range dans une variable ou se pose directement dans un `if`.
+      Deux dessins posés au même `y` se tiennent donc sur le même sol, quelle que soit leur
+      taille. `lancerDe()` et `sontProches()` ne dessinent rien : comme `random()`, ils rendent
+      une réponse, à ranger dans une variable ou à poser dans un `if`.
     </markdown>
   </section>
 
   <section title="Un sketch qui s'en sert">
     <markdown>
-      Raoul part du château et suit la souris le long du sol. Quand il s'approche, Billy parle.
-      Chaque clic lance un d20, dont le résultat s'affiche au-dessus de Raoul.
+      Raoul suit la souris le long du sol. Quand il s'approche, Billy parle. Chaque clic lance
+      un d20, dont le résultat s'affiche au-dessus de Raoul.
     </markdown>
 
     <sketch scripts="outils.js"><![CDATA[
