@@ -1,13 +1,12 @@
 <page id="les-coeurs-de-billy">
   <suptitle>Séance 4</suptitle>
   <titre>Les cœurs de Billy</titre>
-  <resume>Le combat de Billy l'ogre et de Raoul le chevalier. Les variables d'abord, puis une vie affichée en cœurs, qui demande la boucle. En binôme, quarante minutes.</resume>
+  <resume>Le combat de Billy l'ogre et de Raoul le chevalier, chaque point de vie dessiné en cœur. Il reprend les séances 2 à 4.</resume>
 
   <section title="Le combat">
     <markdown>
-      Billy a dix points de vie. Raoul en retire deux à chaque clic, et Billy disparaît quand il
-      n'en a plus. Le sketch de départ se recopie dans l'éditeur, avec les trois fichiers de la
-      [[boite-a-outils|boîte à outils]] importés et la ligne ajoutée dans `index.html`.
+      Billy a dix points de vie, et Raoul lui en retire deux à chaque clic. Le code se recopie
+      dans un sketch préparé avec la [[boite-a-outils|boîte à outils]].
     </markdown>
 
     <sketch scripts="outils.js"><![CDATA[
@@ -34,58 +33,25 @@
     ]]></sketch>
 
     <markdown>
-      `vieBilly = vieBilly - forceRaoul` est une décrémentation : à chaque clic, `vieBilly` perd
-      la force de Raoul. `console.log(vieBilly)` écrit la nouvelle valeur dans la console de
-      l'éditeur.
+      > **Consigne.** Répondre aux trois questions sur papier, puis lancer le sketch et vérifier
+      > chaque réponse dans la console, comme à l'étape 3 du
+      > [[protocole-de-panne|protocole de panne]].
 
-      > **Consigne.** Répondre par écrit aux trois questions, sur une feuille, avant de lancer
-      > le sketch. Lancer ensuite pour vérifier chaque réponse.
-
-      1. Combien de clics faut-il pour que Billy disparaisse ?
-      2. Avec `forceRaoul = 3`, combien de clics, et quels nombres la console affiche-t-elle ?
-      3. Toujours avec `forceRaoul = 3`, la condition devient `vieBilly !== 0`. Que se passe-t-il ?
-
-      La troisième réponse ne produit aucun message d'erreur. C'est la console qui la donne :
-      l'étape 3 du [[protocole-de-panne|protocole de panne]].
+      1. Avec `forceRaoul = 3`, combien de clics faut-il pour que Billy disparaisse, et quels
+         nombres la console affiche-t-elle ?
+      2. Toujours avec `forceRaoul = 3`, la condition devient `vieBilly !== 0`. Que se
+         passe-t-il ?
+      3. `let vieBilly = 10;` descend en première ligne de `draw()`. Que se passe-t-il au clic ?
     </markdown>
   </section>
 
   <section title="Dix cœurs">
     <markdown>
-      > **Consigne.** Afficher la vie de Billy au-dessus de sa tête, un cœur par point de vie.
-      > Un cœur est un disque rouge de 20 pixels, et deux cœurs voisins sont à 30 pixels l'un de
-      > l'autre.
+      > **Consigne.** Afficher la vie de Billy au-dessus de sa tête, avec une
+      > [[04-boucle|boucle]] dont la borne est `vieBilly` : un disque rouge de 20 pixels par
+      > point de vie, le premier en 470, 120, les suivants tous les 30 pixels.
 
-      Avec ce qui a été vu jusqu'à la séance 3, ça s'écrit dans `draw()`, une ligne par cœur :
-
-      ```js
-      fill(200, 30, 40);
-      circle(470, 120, 20);
-      circle(500, 120, 20);
-      circle(530, 120, 20);
-      // … sept lignes de plus
-      ```
-
-      Les dix cœurs s'affichent. Mais au premier clic, Billy perd deux points de vie et les dix
-      cœurs restent. Le nombre de lignes a été décidé à l'écriture, une fois pour toutes, alors
-      que la vie change pendant que le sketch tourne.
-    </markdown>
-  </section>
-
-  <section title="Autant de fois que la vie">
-    <markdown>
-      Les dix lignes sont remplacées par une seule instruction, répétée par une
-      [[04-boucle|boucle]] dont la borne est la vie de Billy :
-
-      ```js
-      fill(200, 30, 40);
-      for (let i = 0; i &lt; vieBilly; i = i + 1) {
-        circle(470 + i * 30, 120, 20);
-      }
-      ```
-
-      > **Consigne.** Sans lancer le sketch, remplir ce tableau sur papier, pour `vieBilly = 4`.
-      > Une ligne par tour.
+      Avant de lancer, le tableau se remplit sur papier pour `vieBilly = 4`, une ligne par tour.
 
       | `i` vaut | `i &lt; vieBilly` ? | le cœur est dessiné en x = |
       |---|---|---|
@@ -94,15 +60,17 @@
       | 2 | | |
       | 3 | | |
       | 4 | | |
-
-      Quand Raoul frappe, `vieBilly` baisse, et à l'image suivante la boucle fait moins de
-      tours. Remplacer les dix lignes par la boucle, puis cliquer : les cœurs suivent.
     </markdown>
   </section>
 
   <section title="Les cœurs de Raoul">
     <markdown>
-      Le squelette s'ajoute au sketch précédent. Les trous sont marqués `___`.
+      > **Consigne.** Billy rend les coups : un clic sur Raoul, Billy frappe. Raoul a ses cœurs
+      > au-dessus de la tête et disparaît quand il n'en a plus. Dès que l'un des deux tombe,
+      > les clics ne font plus rien. Régler les quatre nombres pour que le combat dure une
+      > dizaine de clics et puisse se perdre des deux côtés.
+
+      Le squelette s'ajoute au sketch précédent, les trous sont marqués `___`.
 
       ```js
       let vieRaoul = ___;
@@ -123,19 +91,14 @@
       }
       ```
 
-      > **Consigne.** Raoul a ses propres cœurs, au-dessus de sa tête, et Billy rend les coups :
-      > un clic sur Billy, Raoul frappe ; un clic sur Raoul, Billy frappe. Raoul disparaît à
-      > son tour quand il n'a plus de vie. Régler les quatre nombres pour que le combat dure
-      > une dizaine de clics et puisse se perdre des deux côtés.
+      **Contraintes supplémentaires** :
 
-      **Contraintes supplémentaires**, pour le binôme qui a fini :
-
-      - (a) Billy est un ogre et commence avec trente points de vie. La rangée sort alors du
-        canvas : les cœurs passent à la ligne tous les dix.
-      - (b) Chaque coup de Raoul retire un nombre tiré au sort, entre 2 et 5 points.
-        `lancerDe(faces)` rend un entier entre 1 et `faces` : il reste à décaler le résultat.
+      - (a) Billy commence avec trente points de vie. Les cœurs passent à la ligne tous les
+        dix pour rester dans le canvas.
+      - (b) Chaque coup de Raoul retire entre 2 et 5 points, tirés au sort. `lancerDe(4)` rend
+        un entier entre 1 et 4.
       - (c) Les cœurs perdus restent dessinés, vides. Il faut une variable de plus,
-        `vieMaxBilly`, et une deuxième boucle en `noFill()`.
+        `vieMaxBilly`, et une deuxième boucle en `noFill()` et `stroke()`.
 
       Le lien du sketch se poste sur la page partagée.
     </markdown>
