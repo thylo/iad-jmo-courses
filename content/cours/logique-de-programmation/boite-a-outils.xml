@@ -91,10 +91,5 @@
         jet = lancerDe(20);
       }
     ]]></sketch>
-
-    <markdown>
-      `"Jet : " + jet` colle un texte et un nombre : c'est le `+` du texte, vu avec
-      [[02-variable|la variable]].
-    </markdown>
   </section>
 </page>
