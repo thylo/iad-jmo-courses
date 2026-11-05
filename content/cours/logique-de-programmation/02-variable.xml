@@ -1,5 +1,4 @@
 <page id="02-variable">
-  <suptitle>Séance 2</suptitle>
   <titre>La variable</titre>
   <resume>`draw()`, la variable, l'incrémentation `x = x + 1`, les types, la portée. Racontés avec un chevalier en route vers le château.</resume>
 

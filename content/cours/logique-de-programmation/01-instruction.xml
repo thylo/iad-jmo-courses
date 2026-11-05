@@ -1,5 +1,4 @@
 <page id="01-instruction">
-  <suptitle>Séance 1</suptitle>
   <titre>L'instruction</titre>
   <resume>Le repère de l'écran, l'appel de fonction et ses arguments, l'ordre d'exécution, les premiers messages d'erreur.</resume>
 

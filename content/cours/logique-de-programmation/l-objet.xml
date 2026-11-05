@@ -44,7 +44,7 @@
     <markdown>
       `chevalier.x` lit la propriété `x` de l'objet : le nom de l'objet, un point, le nom de la
       propriété. Une propriété se modifie comme une variable, par une affectation. Raoul
-      reprend sa marche de la [[02-variable|séance 2]], cette fois sur une propriété :
+      reprend sa marche de [[02-variable|la variable]], cette fois sur une propriété :
     </markdown>
 
     <sketch scripts="outils.js"><![CDATA[

@@ -1,7 +1,6 @@
 <page id="les-coeurs-de-billy">
-  <suptitle>Séance 4</suptitle>
   <titre>Les cœurs de Billy</titre>
-  <resume>Le combat de Billy l'ogre et de Raoul le chevalier, chaque point de vie dessiné en cœur. Il reprend les séances 2 à 4.</resume>
+  <resume>Le combat de Billy l'ogre et de Raoul le chevalier, chaque point de vie dessiné en cœur. Il reprend la variable, la condition et la boucle.</resume>
 
   <section title="Le combat">
     <markdown>

@@ -1,5 +1,4 @@
 <page id="les-cercles-de-kandinsky">
-  <suptitle>Séance 1</suptitle>
   <titre>Les cercles de Kandinsky</titre>
   <resume>Reproduire « Einige Kreise » avec `circle` et `fill`.</resume>
 
