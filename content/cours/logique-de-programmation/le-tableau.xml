@@ -1,0 +1,304 @@
+<page id="le-tableau">
+  <titre>Le tableau</titre>
+  <resume>Plusieurs valeurs rangées dans une seule variable.</resume>
+
+  <section title="Le sac de Raoul">
+    <markdown>
+      Raoul part avec une épée, une corde et une torche. Avec ce qui a été vu jusqu'ici, chaque
+      objet demande sa variable, et chaque variable sa ligne pour s'afficher :
+    </markdown>
+
+    <sketch scripts="outils.js"><![CDATA[
+      let objet1 = "épée";
+      let objet2 = "corde";
+      let objet3 = "torche";
+
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+      }
+
+      function draw() {
+        background(20);
+        dessinerRaoul(600, 500, 150);
+
+        fill(240);
+        textSize(20);
+        text(objet1, 50, 50);
+        text(objet2, 50, 80);
+        text(objet3, 50, 110);
+      }
+    ]]></sketch>
+
+    <markdown>
+      `text()` écrit un texte à une position, comme `circle()` y dessine un cercle.
+
+      Un quatrième objet demande une variable de plus et une ligne de plus dans `draw()`. La
+      [[04-boucle|boucle]] ne peut rien pour lui : `objet1`, `objet2` et `objet3` sont trois
+      noms différents, et un compteur ne fabrique pas un nom.
+    </markdown>
+  </section>
+
+  <section title="Une variable, plusieurs cases">
+    <markdown>
+      ```js
+      let inventaire = ["épée", "corde", "torche"];
+      ```
+
+      Les crochets fabriquent un tableau : une seule variable, qui range plusieurs valeurs,
+      chacune dans sa case, dans l'ordre où elles sont écrites. Les virgules séparent les
+      cases. Un tableau peut partir vide, `[]`, et se remplir en route.
+    </markdown>
+  </section>
+
+  <section title="L'index">
+    <markdown>
+      Chaque case porte un numéro, son index. Il s'écrit entre crochets, après le nom du
+      tableau :
+
+      | Index | `inventaire[…]` vaut |
+      |---|---|
+      | 0 | `"épée"` |
+      | 1 | `"corde"` |
+      | 2 | `"torche"` |
+
+      Les index partent de zéro. La première case est donc `inventaire[0]`, la troisième
+      `inventaire[2]`, et le dernier index vaut toujours un de moins que le nombre de cases.
+
+      L'index peut être une variable. Raoul fouille son sac, et chaque clic en sort un objet
+      au hasard :
+    </markdown>
+
+    <sketch scripts="outils.js"><![CDATA[
+      let inventaire = ["épée", "corde", "torche"];
+      let choix = 0;
+
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+      }
+
+      function draw() {
+        background(20);
+        dessinerRaoul(400, 500, 150);
+        parler(inventaire[choix], 400, 230);
+      }
+
+      function mousePressed() {
+        choix = lancerDe(3) - 1;
+      }
+    ]]></sketch>
+
+    <markdown>
+      `lancerDe(3)` rend 1, 2 ou 3. Les index vont de 0 à 2, d'où le `- 1`.
+    </markdown>
+  </section>
+
+  <section title="Parcourir le sac">
+    <markdown>
+      `inventaire.length` donne le nombre de cases, ici 3. Le compteur d'une boucle part de 0
+      et monte de 1 : c'est exactement la suite des index. La boucle parcourt donc le sac
+      sans savoir d'avance ce qu'il contient, et `inventaire.length` lui sert de borne.
+
+      `inventaire.push("potion")` ajoute une case au bout. Chaque clic y range une potion :
+    </markdown>
+
+    <sketch scripts="outils.js"><![CDATA[
+      let inventaire = ["épée", "corde", "torche"];
+
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+      }
+
+      function draw() {
+        background(20);
+        dessinerRaoul(600, 500, 150);
+
+        fill(240);
+        textSize(20);
+        for (let i = 0; i < inventaire.length; i = i + 1) {
+          text(inventaire[i], 50, 50 + i * 30);
+        }
+      }
+
+      function mousePressed() {
+        inventaire.push("potion");
+      }
+    ]]></sketch>
+
+    <markdown>
+      Après un `push()`, `inventaire.length` vaut un de plus, et la boucle fait un tour de plus
+      à l'image suivante. Le code n'a pas changé.
+
+      Une case se change comme une variable, par une affectation. La corde devient un
+      grappin :
+
+      ```js
+      inventaire[1] = "grappin";
+      ```
+    </markdown>
+  </section>
+
+  <section title="Une partie du sac">
+    <markdown>
+      Raoul tient deux objets en main, les deux premiers du sac. `slice()` en copie une
+      partie :
+    </markdown>
+
+    <sketch scripts="outils.js"><![CDATA[
+      let inventaire = ["épée", "bouclier", "corde", "torche"];
+
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+      }
+
+      function draw() {
+        background(20);
+        dessinerRaoul(600, 500, 150);
+
+        let enMain = inventaire.slice(0, 2);
+        let auFond = inventaire.slice(2);
+
+        fill(240);
+        textSize(20);
+
+        text("En main", 50, 50);
+        for (let i = 0; i < enMain.length; i = i + 1) {
+          text(enMain[i], 50, 90 + i * 30);
+        }
+
+        text("Dans le sac", 250, 50);
+        for (let i = 0; i < auFond.length; i = i + 1) {
+          text(auFond[i], 250, 90 + i * 30);
+        }
+      }
+
+      function mousePressed() {
+        inventaire.push("potion");
+      }
+    ]]></sketch>
+
+    <markdown>
+      `inventaire.slice(0, 2)` copie les cases de l'index 0 jusqu'à l'index 2, sans le 2 :
+      l'épée et le bouclier. Le second nombre est exclu, comme la borne de `i &lt; 2`.
+      `inventaire.slice(2)`, sans second nombre, copie de l'index 2 jusqu'au bout.
+
+      `slice()` fabrique un nouveau tableau et ne touche pas à `inventaire`. Chaque clic y
+      range une potion : la colonne « Dans le sac » s'allonge, et « En main » garde ses deux
+      objets.
+
+      `enMain` et `auFond` sont déclarés dans `draw()`. Ils sont recalculés à chaque image à
+      partir d'`inventaire`, et n'ont rien à retenir d'une image à l'autre.
+    </markdown>
+  </section>
+
+  <section title="Vider le sac">
+    <markdown>
+      `inventaire.pop()` retire la dernière case du tableau et rend ce qu'elle contenait. La
+      valeur rendue se range dans une variable, comme celle de `lancerDe()`. Raoul sort un
+      objet à chaque clic :
+    </markdown>
+
+    <sketch scripts="outils.js"><![CDATA[
+      let inventaire = ["épée", "corde", "torche", "potion"];
+      let sorti = "";
+
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+      }
+
+      function draw() {
+        background(20);
+        dessinerRaoul(600, 500, 150);
+
+        fill(240);
+        textSize(20);
+        for (let i = 0; i < inventaire.length; i = i + 1) {
+          text(inventaire[i], 50, 50 + i * 30);
+        }
+
+        if (sorti !== "") {
+          parler(sorti, 600, 230);
+        }
+      }
+
+      function mousePressed() {
+        if (inventaire.length > 0) {
+          sorti = inventaire.pop();
+        }
+      }
+    ]]></sketch>
+
+    <markdown>
+      Le sac se vide par la fin : la potion, puis la torche, la corde et l'épée. `push()` et
+      `pop()` travaillent au même bout, donc le dernier objet rangé est le premier ressorti.
+
+      Sur un sac vide, `pop()` ne retire rien et rend `undefined`, que `parler()` ne sait pas
+      écrire. La condition sur `inventaire.length` laisse donc le dernier objet sorti dans la
+      bulle, et le clic suivant ne fait plus rien.
+    </markdown>
+  </section>
+
+  <section title="Hors du sac">
+    <markdown>
+      Une borne écrite `&lt;=` au lieu de `&lt;` fait un tour de trop :
+
+      ```js
+      for (let i = 0; i &lt;= inventaire.length; i = i + 1) {
+        text(inventaire[i], 50, 50 + i * 30);
+      }
+      ```
+
+      Au quatrième tour, `i` vaut 3, et `inventaire[3]` demande la quatrième case d'un sac qui
+      en a trois. Le tableau ne proteste pas : il répond `undefined`, « non défini ». Mais
+      `text()` ne sait pas écrire `undefined`, et le sketch s'arrête sur ce message :
+
+      ```
+      🌸 p5.js says: Expected string or object or array or number or boolean
+      at the first parameter in text().
+      ```
+
+      Le message parle de `text()`, alors que la faute est dans la borne. `console.log(i)` et
+      `console.log(inventaire[i])`, ajoutés dans la boucle, montrent le tour de trop : les deux
+      dernières lignes de la console sont 3, puis `undefined`.
+    </markdown>
+  </section>
+
+  <section title="Un tableau de nombres">
+    <markdown>
+      Un tableau range des nombres aussi bien que du texte. La palissade de Billy n'a plus des
+      pieux tous pareils : chacun prend sa hauteur dans une case.
+    </markdown>
+
+    <sketch scripts="outils.js"><![CDATA[
+      let hauteurs = [120, 90, 140, 100, 130, 80, 150, 110];
+
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+      }
+
+      function draw() {
+        background(20);
+        dessinerBilly(400, 500, 250);
+
+        fill(110, 80, 50);
+        for (let i = 0; i < hauteurs.length; i = i + 1) {
+          rect(40 + i * 100, 520 - hauteurs[i], 20, hauteurs[i]);
+        }
+      }
+    ]]></sketch>
+
+    <markdown>
+      Le pieu part de 520, le sol, et monte de sa hauteur : son coin haut gauche est donc à
+      `520 - hauteurs[i]`. Un nombre de plus dans le tableau plante un pieu de plus.
+
+      Un tableau range des choses du même genre, dans l'ordre. Pour décrire une seule chose
+      par plusieurs valeurs, la position, la vie et la force d'un personnage, il y a
+      [[l-objet|l'objet]].
+    </markdown>
+  </section>
+</page>

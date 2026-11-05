@@ -1,0 +1,194 @@
+<page id="l-objet">
+  <titre>L'objet</titre>
+  <resume>Plusieurs valeurs qui décrivent une même chose, rangées chacune sous un nom : la propriété, le point, la modification, les instances, la propriété qui n'existe pas. Raconté avec la fiche de Raoul, celle de Billy et une course de chevaliers.</resume>
+
+  <section title="La fiche de Raoul">
+    <markdown>
+      Raoul a une position, des points de vie et une force. Avec ce qui a été vu jusqu'ici,
+      chaque valeur demande sa variable :
+
+      ```js
+      let raoulX = 250;
+      let raoulVie = 20;
+      let raoulForce = 4;
+      ```
+
+      Rien dans le code ne dit que ces trois variables vont ensemble : seul leur nom le
+      suggère. Billy en demande trois autres, `billyX`, `billyVie`, `billyForce`, et chaque
+      personnage ajouté en apporte trois de plus.
+    </markdown>
+  </section>
+
+  <section title="Des propriétés">
+    <markdown>
+      ```js
+      let chevalier = {
+        nom: "Raoul",
+        x: 250,
+        pointsDeVie: 20,
+        force: 4
+      };
+      ```
+
+      Les accolades fabriquent un objet : une seule variable, qui range plusieurs valeurs,
+      chacune sous un nom. `nom: "Raoul"` est une propriété : son nom, deux-points, sa valeur.
+      Les virgules séparent les propriétés.
+
+      L'objet s'appelle `chevalier` et pas `raoul`, parce que la
+      [[boite-a-outils|boîte à outils]] déclare déjà `raoul` pour ranger l'image. Le même nom
+      déclaré deux fois empêche le sketch de démarrer.
+    </markdown>
+  </section>
+
+  <section title="Le point">
+    <markdown>
+      `chevalier.x` lit la propriété `x` de l'objet : le nom de l'objet, un point, le nom de la
+      propriété. Une propriété se modifie comme une variable, par une affectation. Raoul
+      reprend sa marche de la [[02-variable|séance 2]], cette fois sur une propriété :
+    </markdown>
+
+    <sketch scripts="outils.js"><![CDATA[
+      let chevalier = {
+        nom: "Raoul",
+        x: 0
+      };
+
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+      }
+
+      function draw() {
+        background(20);
+        dessinerChateau(650, 500, 260);
+        dessinerRaoul(chevalier.x, 500, 60);
+        chevalier.x = chevalier.x + 2;
+      }
+    ]]></sketch>
+
+    <markdown>
+      `chevalier.x = chevalier.x + 2` est la même incrémentation que `positionX = positionX + 2`.
+      Elle se lit de droite à gauche : prendre `chevalier.x`, ajouter 2, remettre le résultat
+      dans `chevalier.x`.
+    </markdown>
+  </section>
+
+  <section title="Deux fiches de la même forme">
+    <markdown>
+      Billy a la même fiche que Raoul, avec ses propres valeurs. Chaque clic est un échange de
+      coups : chacun perd la force de l'autre, tant que les deux tiennent debout.
+    </markdown>
+
+    <sketch scripts="outils.js"><![CDATA[
+      let chevalier = {
+        nom: "Raoul",
+        x: 250,
+        pointsDeVie: 20,
+        force: 4
+      };
+
+      let ogre = {
+        nom: "Billy",
+        x: 600,
+        pointsDeVie: 30,
+        force: 3
+      };
+
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+      }
+
+      function draw() {
+        background(20);
+        dessinerRaoul(chevalier.x, 500, 120);
+        dessinerBilly(ogre.x, 500, 250);
+        parler(chevalier.nom + " : " + chevalier.pointsDeVie, chevalier.x, 280);
+        parler(ogre.nom + " : " + ogre.pointsDeVie, ogre.x - 40, 230);
+      }
+
+      function mousePressed() {
+        if (chevalier.pointsDeVie > 0 && ogre.pointsDeVie > 0) {
+          ogre.pointsDeVie = ogre.pointsDeVie - chevalier.force;
+          chevalier.pointsDeVie = chevalier.pointsDeVie - ogre.force;
+        }
+      }
+    ]]></sketch>
+
+    <markdown>
+      `ogre.pointsDeVie - chevalier.force` se lit comme la phrase : l'ogre perd la force du
+      chevalier. Les deux objets ont les mêmes propriétés, donc la même ligne sert pour l'un
+      et pour l'autre en échangeant les noms.
+
+      Au septième clic, Raoul passe à -1 et le combat s'arrête. Billy a encore 2 points de vie.
+    </markdown>
+  </section>
+
+  <section title="La course des chevaliers">
+    <markdown>
+      Une course de chevaliers, sans objet, demande deux variables par coureur : `x1` et
+      `vitesse1`, `x2` et `vitesse2`, et ainsi de suite. Le nombre de coureurs est décidé à
+      l'écriture.
+
+      Avec des objets, chaque coureur est une fiche `{ x, y, vitesse }`, et les fiches se
+      rangent dans un [[le-tableau|tableau]]. Trois chevaliers partent au démarrage, et chaque
+      clic en fait partir un de plus, à la hauteur de la souris :
+    </markdown>
+
+    <sketch scripts="outils.js"><![CDATA[
+      let chevaliers = [];
+
+      async function setup() {
+        createCanvas(800, 600);
+        await chargerPersonnages();
+
+        for (let i = 0; i < 3; i = i + 1) {
+          chevaliers.push({ x: 0, y: 200 + i * 120, vitesse: lancerDe(4) });
+        }
+      }
+
+      function draw() {
+        background(20);
+        stroke(240);
+        line(700, 0, 700, 600);   // l'arrivée
+
+        for (let i = 0; i < chevaliers.length; i = i + 1) {
+          let c = chevaliers[i];
+          dessinerRaoul(c.x, c.y, 50);
+          if (c.x < 700) {
+            c.x = c.x + c.vitesse;
+          }
+        }
+      }
+
+      function mousePressed() {
+        chevaliers.push({ x: 0, y: mouseY, vitesse: lancerDe(4) });
+      }
+    ]]></sketch>
+
+    <markdown>
+      Chaque `{ }` fabrique une fiche neuve. Les fiches ont les mêmes propriétés, et chacune
+      ses propres valeurs : ce sont des instances du même modèle. Celle qui a tiré 4 arrive
+      quatre fois plus vite que celle qui a tiré 1, et aucune n'a besoin d'une ligne de code à
+      elle.
+
+      La boucle de `draw()` traite toutes les fiches de la même façon, qu'il y en ait trois ou
+      trente. Ajouter un coureur, c'est un `push()` de plus, sans toucher au reste du code.
+
+      `let c = chevaliers[i]` ne duplique rien. `c` est la même fiche que celle rangée dans le
+      tableau, sous un nom plus court, donc `c.x = c.x + c.vitesse` fait avancer le chevalier
+      du tableau. Une instance de plus se fabrique avec des accolades, jamais avec un `=`.
+    </markdown>
+  </section>
+
+  <section title="Une propriété qui n'existe pas">
+    <markdown>
+      `chevalier.vie` au lieu de `chevalier.pointsDeVie` ne produit aucun message d'erreur.
+      L'objet n'a pas de propriété `vie`, et il répond `undefined`, « non défini ». La bulle
+      affiche alors `Raoul : undefined`.
+
+      Le nom d'une propriété s'écrit à la lettre près, majuscules comprises, comme celui
+      d'une variable. La panne se trouve en lisant ce que la bulle affiche.
+    </markdown>
+  </section>
+</page>
