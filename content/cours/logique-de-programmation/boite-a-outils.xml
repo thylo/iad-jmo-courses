@@ -6,8 +6,7 @@
     <markdown>
       p5 fournit `circle()` ou `random()`. La boîte à outils ajoute sept fonctions du même
       genre, faites pour le combat de Billy et Raoul et rangées dans `outils.js`. Le fichier
-      s'importe une fois par sketch et ne se modifie pas. Écrire ses propres fonctions, c'est
-      la [[05-fonction|séance 5]].
+      s'importe une fois par sketch et ne se modifie pas.
 
       1. Enregistrer [outils.js](/documents/outils.js), [billy.png](/documents/billy.png) et
          [raoul.png](/documents/raoul.png) par un clic droit sur chaque lien.
@@ -83,7 +82,7 @@
         }
 
         if (jet > 0) {
-          parler("Tiens prend ça : " + jet, mouseX, 340);
+          parler("Tiens, prends ça : " + jet, mouseX, 340);
         }
       }
 
