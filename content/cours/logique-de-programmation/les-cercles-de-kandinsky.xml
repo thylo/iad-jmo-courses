@@ -1,7 +1,7 @@
 <page id="les-cercles-de-kandinsky">
   <suptitle>Séance 1</suptitle>
   <titre>Les cercles de Kandinsky</titre>
-  <resume>Reproduire « Einige Kreise » avec `circle` et `fill`. En binôme, quarante minutes.</resume>
+  <resume>Reproduire « Einige Kreise » avec `circle` et `fill`.</resume>
 
   <markdown>
     Kandinsky peint *Einige Kreise* en 1926, au Bauhaus de Dessau : des disques de tailles et de
@@ -23,7 +23,7 @@
     [`blendMode()`](https://p5js.org/reference/p5/blendMode/) change la façon dont une forme se
     mélange à ce qui est déjà dessiné : `MULTIPLY` assombrit, `SCREEN` éclaircit.
 
-    **Contraintes supplémentaires**, pour le binôme qui a fini :
+    **Contraintes supplémentaires** :
 
     - (a) Sans `circle`.
     - (b) En deux couleurs.

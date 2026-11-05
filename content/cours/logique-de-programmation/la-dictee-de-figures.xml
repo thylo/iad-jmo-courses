@@ -1,18 +1,18 @@
 <page id="la-dictee-de-figures">
   <suptitle>Séance 1</suptitle>
   <titre>La dictée de figures</titre>
-  <resume>Écrire les instructions d'une figure pour quelqu'un qui ne la verra jamais. Sans machine, en binôme.</resume>
+  <resume>Écrire les instructions d'une figure pour quelqu'un qui ne la verra jamais. Sans machine.</resume>
 
   <section title="La consigne">
     <markdown>
-      Chaque binôme reçoit une enveloppe avec une figure imprimée, que les autres ne voient pas.
+      Chacun reçoit une enveloppe avec une figure imprimée, que les autres ne voient pas.
 
-      > **Consigne.** Dix minutes pour écrire les instructions qui reproduisent la figure au
-      > tableau. Celui qui les exécute ne voit jamais l'original, ne pose aucune question et
-      > applique à la lettre. Ce qui n'est pas écrit n'existe pas.
+      > **Consigne.** Écrire les instructions qui reproduisent la figure au tableau. Celui qui
+      > les exécute ne voit jamais l'original, ne pose aucune question et applique à la lettre.
+      > Ce qui n'est pas écrit n'existe pas.
 
-      Les feuilles circulent, les enveloppes restent fermées. Chaque binôme exécute au tableau
-      les instructions d'un autre. « Trace un trait » donne un trait de la longueur que veut
+      Les feuilles circulent, les enveloppes restent fermées. Chacun exécute au tableau les
+      instructions d'un autre. « Trace un trait » donne un trait de la longueur que veut
       l'exécutant.
     </markdown>
   </section>
@@ -31,7 +31,7 @@
              caption="Série C. Une même position, d'une série à l'autre, pose la même difficulté."/>
 
     <markdown>
-      Trois séries, pour que deux binômes voisins ne décrivent jamais le même dessin. Les
+      Trois séries, pour que deux voisins ne décrivent jamais le même dessin. Les
       dix-huit figures, une par page A4 : [dictee-figures.pdf](/documents/dictee-figures.pdf).
     </markdown>
   </section>
